@@ -55,7 +55,7 @@ query_analyzer = prompt | llm_with_tools | parser
 
 l = query_analyzer.invoke(
     {
-        "question": "how to use multi-modal models in a chain and turn chain into a rest api"
+        "question": "what are the top-3 movies whose actor is john and released after 2020"
     }
 )
 
