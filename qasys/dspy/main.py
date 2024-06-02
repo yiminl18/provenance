@@ -5,6 +5,11 @@ from dspy.retrieve.qdrant_rm import QdrantRM
 import dspy
 import openai
 from dsp.utils import deduplicate
+import os
+
+model_name = "gpt-3.5-turbo"
+api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = api_key
 
 # Set up text splitter
 text_splitter = RecursiveCharacterTextSplitter(
@@ -33,8 +38,7 @@ client.add(
 qdrant_retriever_model = QdrantRM("leo_collection", client, k=10)
 
 # Set up OpenAI API client
-openai.api_key = ""
-openai_model = dspy.OpenAI(model="gpt-3.5-turbo", api_key=openai.api_key)
+openai_model = dspy.OpenAI(model=model_name, api_key=openai.api_key)
 dspy.settings.configure(lm=openai_model, rm=qdrant_retriever_model)
 
 # Function to get top passages for a question
