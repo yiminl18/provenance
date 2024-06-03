@@ -1,0 +1,35 @@
+import os
+import json
+from rag import get_prediction_from_local_file
+
+# Directory containing the text files
+directory = 'data/civic/extracted_data'
+
+# Question to ask for each file
+question = "How many types of rail public transportation means in San Francisco?"
+
+# Dictionary to store results
+results = {}
+
+# Iterate through each file in the directory
+for filename in os.listdir(directory):
+    if filename.endswith('.txt'):
+        file_path = os.path.join(directory, filename)
+        
+        # Get prediction from the local file
+        result = get_prediction_from_local_file(file_path, question)
+        
+        # Save the result in the dictionary under the filename key
+        results[filename] = {
+            "Question": result['Question'],
+            "Predicted Answer": result['Predicted Answer'],
+            "Retrieved Contexts (truncated)": result['Retrieved Contexts (truncated)']
+        }
+
+# Save the results to a JSON file
+output_file_path = 'test/output/dspy_RAG_civic.json'
+os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+with open(output_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(results, json_file, ensure_ascii=False, indent=4)
+
+print(f"Results saved to {output_file_path}")
