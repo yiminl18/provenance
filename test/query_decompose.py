@@ -94,5 +94,5 @@ if __name__ == "__main__":
         if(i>=5):
             break
     
-    write_json(output, '/Users/yiminglin/Documents/Codebase/provenance/data/questions/sample_output.json')
+    write_json(output, 'data/questions/sample_output.json')
     
