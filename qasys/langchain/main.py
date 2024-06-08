@@ -1,7 +1,7 @@
 import os, sys
 from query_decompose import query_decomposition, sample_questions # sample_questions() returns a list of sample questions
 from retrieve_and_generation import retrieve_and_generation
-from indexing import load_and_split_local_folder_of_txt, store_splits, sample_folders
+from indexing import load_local_folder_of_txt, load_local_txt, split_docs, store_splits, sample_folders
 from answer_merge import merge_answers
 
 # step0: load sample question and folder path ----------------------------
@@ -17,7 +17,8 @@ sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
 # print(sub_query_list)
 
 # step2: indexing ----------------------------
-vectorstore = store_splits(load_and_split_local_folder_of_txt(folder_path = folder_path, chunk_size=1000, chunk_overlap=200, add_start_index=True))
+docs = load_local_folder_of_txt(folder_path)
+vectorstore = store_splits(split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True))
 
 # step3: retrieve and generation for each sub-query----------------------------
 sub_answer = []

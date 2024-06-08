@@ -17,9 +17,12 @@ def merge_answers(question, sub_query_list, sub_answer):
     '''
     model_name = 'gpt35'
     system = """You are an expert at merging sub-answers into a final answer. \
-                Perform query merging, given a initial question, a list of its sub-querys and sub-answers, merge them into a final answer. \
-                These sub-answers are generated correspondingly from the sub-questions that have been well decomposed. \
-                Hence you need to find an intersection between the sub-answers to generate the final answer for the initial question. \
+                Perform query merging, given a initial question,\
+                a list of its sub-querys and sub-answers, merge them into a final answer. \
+                These sub-answers are generated correspondingly from the sub-questions that\
+                have been well decomposed. \
+                Hence you need to find an intersection between the sub-answers to generate the final answer\
+                for the initial question. \
                 If there are acronyms or words you are not familiar with, do not try to rephrase them."""
     
     prompt = (system, str({'question': question, 'sub_query_list': str(sub_query_list), 'sub_answer': sub_answer}))

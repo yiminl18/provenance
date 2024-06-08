@@ -8,12 +8,10 @@ def sample_folders():
 
     return q 
 
-
-def load_and_split_local_folder_of_txt(folder_path = "data/civic/extracted_data", chunk_size=1000, chunk_overlap=200, add_start_index=True):
+def load_local_folder_of_txt(folder_path = "data/civic/extracted_data"):
     '''
     Input: folder_path, str
-           text_splitter, class RecursiveCharacterTextSplitter
-    Output: all_splits, list of class Document
+    Output: docs, list of class Document
     '''
     
     # get all txt files in the folder
@@ -26,6 +24,25 @@ def load_and_split_local_folder_of_txt(folder_path = "data/civic/extracted_data"
         docs.append(loader.load()[0])
 
     # docs is a list of class documents
+    return docs
+
+def load_local_txt(file_path):
+    '''
+    Input: file_path, str
+    Output: doc, class Document
+    '''
+    
+    loader = TextLoader(file_path)
+    doc = loader.load()[0]
+
+    return list(doc)
+
+
+def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
+    '''
+    Input: docs, list of class Document
+    Output: all_splits, list of class Document
+    '''
 
     from langchain_text_splitters import RecursiveCharacterTextSplitter
 
