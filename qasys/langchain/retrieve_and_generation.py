@@ -1,7 +1,3 @@
-from indexing import load_and_split_local_folder_of_txt, store_splits
-
-question = "What is the number of projects that are related with disaster and start later than 2021?"
-
 def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/extracted_data"):
     '''
     Input : question, str

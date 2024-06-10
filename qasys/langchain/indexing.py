@@ -5,6 +5,7 @@ def sample_folders():
     q = []
     q.append("data/civic/extracted_data") # Civic
     q.append("data/paper/extracted_data") # Paper
+    
 
     return q 
 
