@@ -5,7 +5,8 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
             chunk_size, int
             chunk_overlap, int
             add_start_index, bool
-    Output: None
+    Output: final_answer, str
+            retrieved_docs
     '''
     
     # Load and split documents
@@ -14,8 +15,8 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
     # Retrieve
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 6})
 
-    # # see how retrieve works 
-    # retrieved_docs = retriever.invoke(question)
+    # see how retrieve works 
+    retrieved_docs = retriever.invoke(question)
     # print(len(retrieved_docs))
     # print(retrieved_docs[0].page_content)
     # with open("output.txt", "w", encoding="utf-8") as file:
@@ -60,7 +61,7 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
     # for chunk in rag_chain.stream(question):
     #     print(chunk, end="", flush=True)
 
-    return rag_chain.invoke(question)
+    return rag_chain.invoke(question), retrieved_docs
 
 
 # print(retrieve_and_generation(question))

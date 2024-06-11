@@ -32,11 +32,11 @@ def load_local_txt(file_path):
     Input: file_path, str
     Output: doc, class Document
     '''
-    
+    docs = []
     loader = TextLoader(file_path)
     doc = loader.load()[0]
-
-    return list(doc)
+    docs.append(doc)
+    return docs
 
 
 def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
@@ -58,7 +58,7 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
     #         file.write("chunk_data: ")
     #         file.write (str(split.metadata) + "\n")
     #         file.write(split.page_content + "\n----------chunk_end--------\n")
-
+    # print(len(all_splits)) # print number of chunks
     return all_splits
 
 def store_splits(all_splits):

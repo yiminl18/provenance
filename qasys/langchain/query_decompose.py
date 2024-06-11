@@ -83,20 +83,13 @@ def sample_questions():
 def civic_questions():
     q = []
     q.append('What is the number of disaster projects starting later than 2021?') # Civic
-    q.append('What is the total cost of the projects related to public transportation?')
-    q.append('What are the categories of projects that the city mainly focuses on from 2019?')
-    q.append('What is the name of projects that is school related and has a budget of more than 10k?')
-    q.append('How many road construction projects are there in the city?')
+
 
     return q
 
 def paper_questions():
     q = []
     q.append('What are the titles for papers whose topic is related to AI and publication year is later than 2018?') # Paper
-    q.append('How many paper mention the term "machine learning" in the abstract?')
-    q.append('What is the author of papers that discuss the topic of "gradient descent"?')
-    q.append('What is the intersection of papers that discuss "neural networks" and "deep learning"?')
-    q.append('How many papers are from China and discuss the topic of "computer vision"?')
 
     return q
 
