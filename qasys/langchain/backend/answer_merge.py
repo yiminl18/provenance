@@ -1,13 +1,4 @@
-import os, sys
-# # 获取当前脚本的目录
-# current_dir = os.path.dirname(os.path.abspath(__file__))
-# # 获取父级的父级文件夹路径
-# parent_parent_dir = os.path.abspath(os.path.join(current_dir, "../../"))
-# parent_parent_dir = os.path.abspath(os.path.join(parent_parent_dir, "../../"))
-# # 将父级的父级文件夹添加到 PYTHONPATH
-# sys.path.append(parent_parent_dir)
-# # 现在可以导入 model 模块
-from model import model
+from langchain_core.prompts import ChatPromptTemplate
 
 def merge_answers(question, sub_query_list, sub_answer):
     '''
@@ -16,16 +7,56 @@ def merge_answers(question, sub_query_list, sub_answer):
            sub_answer, list of str
     Output: final_answer, str
     '''
-    model_name = 'gpt35'
-    system = """You are an expert at merging sub-answers into a final answer. \
-                Perform query merging, given a initial question,\
-                a list of its sub-querys and sub-answers, merge them into a final answer. \
-                These sub-answers are generated correspondingly from the sub-questions that\
+
+    # Create the LLMChain with the OpenAI language model
+    from langchain_openai import ChatOpenAI
+
+    llm = ChatOpenAI(model="gpt-3.5-turbo-0125")
+
+    # Define the system prompt for merging answers
+    system_prompt = """You are an expert at merging sub-answers into a final answer. \
+                Perform query merging, given a initial question, \
+                a list of its sub-queries and sub-answers, merge them into a final answer. \
+                These sub-answers are generated correspondingly from the sub-questions that \
                 have been well decomposed. \
-                Hence you need to find an intersection between the sub-answers to generate the final answer\
+                Hence you need to find an intersection between the sub-answers to generate the final answer \
                 for the initial question. \
-                If there are acronyms or words you are not familiar with, do not try to rephrase them."""
+                If there are acronyms or words you are not familiar with, do not try to rephrase them.\
+                Your final answer should be a well-structured and coherent response to the initial question."""
     
-    prompt = (system, str({'question': question, 'sub_query_list': str(sub_query_list), 'sub_answer': sub_answer}))
-    response = model(model_name,prompt)
-    return response
+    prompt = ChatPromptTemplate.from_messages(
+		[
+			(
+				"system",
+				"{system}",
+			),
+			("human", "{inputs}"),
+		]
+	)
+    
+    # Format the inputs
+    inputs = {
+        'question': question,
+        'sub_query_list': sub_query_list,
+        'sub_answer': sub_answer
+    }
+    
+    chain = prompt | llm
+    
+    # Generate the final answer using LangChain
+    final_answer = chain.invoke(
+		{
+			"system": system_prompt,
+			"inputs": inputs
+		}
+	).content
+    
+    return final_answer
+
+# # Example usage
+# question = "What are the health benefits of regular exercise?"
+# sub_query_list = ["What are the cardiovascular benefits of regular exercise?", "What are the mental health benefits of regular exercise?", "What are the musculoskeletal benefits of regular exercise?"]
+# sub_answer = ["Regular exercise improves cardiovascular health by strengthening the heart and increasing blood circulation.", "Regular exercise can reduce symptoms of anxiety and depression, and improve mood.", "Regular exercise strengthens muscles and bones, improving overall musculoskeletal health."]
+
+# final_answer = merge_answers_with_langchain(question, sub_query_list, sub_answer)
+# print(final_answer)

@@ -1,4 +1,4 @@
-def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/extracted_data"):
+def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/extracted_data", k = 6):
     '''
     Input : question, str
             folder_path, str
@@ -13,13 +13,13 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
     
 
     # Retrieve
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 6})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": k})
 
     # see how retrieve works 
     retrieved_docs = retriever.invoke(question)
     # print(len(retrieved_docs))
     # print(retrieved_docs[0].page_content)
-    # with open("output.txt", "w", encoding="utf-8") as file:
+    # with open("output_101.txt", "w", encoding="utf-8") as file:
     #     for doc in retrieved_docs:
     #         file.write("retrieved_chunk_data: ")
     #         file.write (str(doc.metadata) + "\n")
@@ -50,6 +50,12 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
         return "\n\n".join(doc.page_content for doc in docs)
 
 
+    # rag_chain = (
+    #     {"context": retriever | format_docs, "question": RunnablePassthrough()}
+    #     | prompt
+    #     | llm
+    #     | StrOutputParser()
+    # )
     rag_chain = (
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
         | prompt

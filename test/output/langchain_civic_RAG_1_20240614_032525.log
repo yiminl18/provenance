@@ -1,0 +1,389 @@
+2024-06-14 03:25:25,789 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01272021-1626.pdf
+2024-06-14 03:25:25,806 - root - INFO - Split 6 documents into 27 chunks
+2024-06-14 03:25:27,745 - root - INFO - question: What is the number of disaster projects starting later than 2021?
+2024-06-14 03:25:27,745 - root - INFO - sub_query_list: ['Number of disaster projects', 'Projects starting later than 2021']
+2024-06-14 03:25:27,746 - root - INFO - len of sub_query_list: 2
+2024-06-14 03:25:29,076 - root - INFO - For sub_query: Number of disaster projects
+2024-06-14 03:25:29,077 - root - INFO - Using following chunks:
+2024-06-14 03:25:29,077 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:25:29,078 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:25:29,079 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:25:29,080 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:25:30,862 - root - INFO - For sub_query: Projects starting later than 2021
+2024-06-14 03:25:30,862 - root - INFO - Using following chunks:
+2024-06-14 03:25:30,863 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1156, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ to 
+perform 
+construction 
+management. 
+¾ Project Schedule: 
+ Complete Design: February 2021 
+ Begin Construction: Fall 2021 
+Public Works 
+Commission Meeting 
+01-27-21 
+Item 
+4.A.
+ ----------
+2024-06-14 03:25:30,863 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1156, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ to 
+perform 
+construction 
+management. 
+¾ Project Schedule: 
+ Complete Design: February 2021 
+ Begin Construction: Fall 2021 
+Public Works 
+Commission Meeting 
+01-27-21 
+Item 
+4.A.
+ ----------
+2024-06-14 03:25:30,863 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1156, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ to 
+perform 
+construction 
+management. 
+¾ Project Schedule: 
+ Complete Design: February 2021 
+ Begin Construction: Fall 2021 
+Public Works 
+Commission Meeting 
+01-27-21 
+Item 
+4.A.
+ ----------
+2024-06-14 03:25:30,864 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1156, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ to 
+perform 
+construction 
+management. 
+¾ Project Schedule: 
+ Complete Design: February 2021 
+ Begin Construction: Fall 2021 
+Public Works 
+Commission Meeting 
+01-27-21 
+Item 
+4.A.
+ ----------
+2024-06-14 03:25:32,868 - root - INFO - sub_answer: ['There were two disaster projects completed - Guardrail Replacement Citywide and Corral Canyon Road Bridge Repairs.', 'Projects starting later than 2021 for construction management are scheduled to begin construction in Fall 2021, as discussed in the Public Works Commission Meeting on 01-27-21.']
+2024-06-14 03:25:32,869 - root - INFO - final_answer: To determine the number of disaster projects starting later than 2021, we can refer to the information provided in the sub-answers. The projects mentioned are the Guardrail Replacement Citywide and Corral Canyon Road Bridge Repairs. These projects are scheduled to begin construction in Fall 2021, as discussed in the Public Works Commission Meeting on 01-27-21. Therefore, based on the given information, there are two disaster projects that are starting later than 2021.
+2024-06-14 03:26:04,231 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01272021-1626.pdf
+2024-06-14 03:26:04,251 - root - INFO - Split 6 documents into 27 chunks
+2024-06-14 03:26:06,867 - root - INFO - question: What is the number of disaster projects starting later than 2021?
+2024-06-14 03:26:06,868 - root - INFO - sub_query_list: ['Number of disaster projects', 'Starting date of disaster projects after 2021']
+2024-06-14 03:26:06,868 - root - INFO - len of sub_query_list: 2
+2024-06-14 03:26:08,504 - root - INFO - For sub_query: Number of disaster projects
+2024-06-14 03:26:08,504 - root - INFO - Using following chunks:
+2024-06-14 03:26:08,504 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:08,506 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:08,506 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:08,507 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:10,101 - root - INFO - For sub_query: Starting date of disaster projects after 2021
+2024-06-14 03:26:10,102 - root - INFO - Using following chunks:
+2024-06-14 03:26:10,102 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:10,102 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:10,103 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:10,103 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:13,037 - root - INFO - sub_answer: ['The number of disaster projects mentioned in the context is two. The projects include Guardrail Replacement Citywide and Corral Canyon Road Bridge Repairs, both completed as a result of the Woolsey Fire.', 'The disaster project "Broad Beach Road Water Quality Infrastructure Repairs" is scheduled to begin construction in Fall 2021 after completing the design phase in Summer 2021.']
+2024-06-14 03:26:13,038 - root - INFO - final_answer: To determine the number of disaster projects starting later than 2021, we can analyze the provided sub-answers. The disaster project "Broad Beach Road Water Quality Infrastructure Repairs" is scheduled to begin construction in Fall 2021, indicating that it starts after 2021. However, the sub-answers do not provide a specific number of projects starting later than 2021. Therefore, based on the information given, we can confirm that at least one disaster project is starting later than 2021.
+2024-06-14 03:26:46,335 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01272021-1626.pdf
+2024-06-14 03:26:46,360 - root - INFO - Split 6 documents into 27 chunks
+2024-06-14 03:26:48,098 - root - INFO - question: What is the number of disaster projects starting later than 2021?
+2024-06-14 03:26:48,099 - root - INFO - sub_query_list: ['Number of disaster projects', 'Starting date of disaster projects after 2021']
+2024-06-14 03:26:48,099 - root - INFO - len of sub_query_list: 2
+2024-06-14 03:26:49,943 - root - INFO - For sub_query: Number of disaster projects
+2024-06-14 03:26:49,944 - root - INFO - Using following chunks:
+2024-06-14 03:26:49,944 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:49,946 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:49,946 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:49,947 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 4, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1169, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Disaster Projects (Completed) 
+Guardrail Replacement Citywide (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing the damaged 
+guardrail throughout the City as a result of the Woolsey Fire. 
+ 
+Corral Canyon Road Bridge Repairs (FEMA/CalOES Project) 
+¾ Project Description:  This project consisted of replacing fire damaged 
+existing fencing and repairing the damaged embankment adjacent to the 
+bridge.
+ ----------
+2024-06-14 03:26:51,603 - root - INFO - For sub_query: Starting date of disaster projects after 2021
+2024-06-14 03:26:51,603 - root - INFO - Using following chunks:
+2024-06-14 03:26:51,604 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:51,604 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:51,605 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:51,605 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'creationDate': "D:20240119063732Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063732Z00'00'", 'page': 3, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01272021-1626.pdf', 'start_index': 1188, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01272021-1626', 'total_pages': 6, 'trapped': ''}
+ Road. 
+¾ Estimated Schedule: 
+ Complete Design: Fall 2021 
+ Begin Construction: Winter 2021 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs 
+¾ Updates: 
+ The project consultant has started the design of the project.  
+¾ Project Schedule: 
+ Complete Design: Summer 2021 
+ Begin Construction: Fall 2021
+ ----------
+2024-06-14 03:26:53,866 - root - INFO - sub_answer: ['There were two disaster projects completed: Guardrail Replacement Citywide and Corral Canyon Road Bridge Repairs. These projects were completed as a result of fire damage from the Woolsey Fire.', 'Disaster projects like the Broad Beach Road Water Quality Infrastructure Repairs are scheduled to begin construction in Fall 2021 after the completion of the design phase in Summer 2021.']
+2024-06-14 03:26:53,867 - root - INFO - final_answer: To determine the number of disaster projects starting later than 2021, we can analyze the provided sub-answers. From the information provided, it can be inferred that there are at least two disaster projects scheduled to start after 2021. These projects are the Broad Beach Road Water Quality Infrastructure Repairs and another project that is not specifically named but mentioned to have been completed as a result of fire damage from the Woolsey Fire. Therefore, based on the information provided, at least two disaster projects are expected to commence construction after 2021.
