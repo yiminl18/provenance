@@ -1,0 +1,402 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "Node 1",
+        "in_nodes": [2, 3],
+        "out_nodes": [4],
+        "in_data": "Data coming from Node 2 and 3",
+        "out_data": "Is currently pointing to Node 4"
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "Node 2",
+        "in_nodes": [],
+        "out_nodes": [1, 5],
+        "in_data": "No incoming data",
+        "out_data": "Is currently pointing to Node 1 and 5"
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "Node 3",
+        "in_nodes": [],
+        "out_nodes": [1, 6],
+        "in_data": "No incoming data",
+        "out_data": "Is currently pointing to Node 1 and 6"
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "Node 4",
+        "in_nodes": [1],
+        "out_nodes": [7],
+        "in_data": "Data coming from Node 1",
+        "out_data": "Is currently pointing to Node 7"
+    },
+    "node_5": {
+        "node_id": 5,
+        "node_name": "Node 5",
+        "in_nodes": [2],
+        "out_nodes": [8],
+        "in_data": "Data coming from Node 2",
+        "out_data": "Is currently pointing to Node 8"
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "Node 6",
+        "in_nodes": [3],
+        "out_nodes": [9],
+        "in_data": "Data coming from Node 3",
+        "out_data": "Is currently pointing to Node 9"
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "Node 7",
+        "in_nodes": [4],
+        "out_nodes": [10],
+        "in_data": "Data coming from Node 4",
+        "out_data": "Is currently pointing to Node 10"
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "Node 8",
+        "in_nodes": [5],
+        "out_nodes": [11],
+        "in_data": "Data coming from Node 5",
+        "out_data": "Is currently pointing to Node 11"
+    },
+    "node_9": {
+        "node_id": 9,
+        "node_name": "Node 9",
+        "in_nodes": [6],
+        "out_nodes": [12],
+        "in_data": "Data coming from Node 6",
+        "out_data": "Is currently pointing to Node 12"
+    },
+    "node_10": {
+        "node_id": 10,
+        "node_name": "Node 10",
+        "in_nodes": [7],
+        "out_nodes": [13],
+        "in_data": "Data coming from Node 7",
+        "out_data": "Is currently pointing to Node 13"
+    },
+    "node_11": {
+        "node_id": 11,
+        "node_name": "Node 11",
+        "in_nodes": [8],
+        "out_nodes": [14],
+        "in_data": "Data coming from Node 8",
+        "out_data": "Is currently pointing to Node 14"
+    },
+    "node_12": {
+        "node_id": 12,
+        "node_name": "Node 12",
+        "in_nodes": [9],
+        "out_nodes": [15],
+        "in_data": "Data coming from Node 9",
+        "out_data": "Is currently pointing to Node 15"
+    },
+    "node_13": {
+        "node_id": 13,
+        "node_name": "Node 13",
+        "in_nodes": [10],
+        "out_nodes": [16],
+        "in_data": "Data coming from Node 10",
+        "out_data": "Is currently pointing to Node 16"
+    },
+    "node_14": {
+        "node_id": 14,
+        "node_name": "Node 14",
+        "in_nodes": [11],
+        "out_nodes": [17],
+        "in_data": "Data coming from Node 11",
+        "out_data": "Is currently pointing to Node 17"
+    },
+    "node_15": {
+        "node_id": 15,
+        "node_name": "Node 15",
+        "in_nodes": [12],
+        "out_nodes": [18],
+        "in_data": "Data coming from Node 12",
+        "out_data": "Is currently pointing to Node 18"
+    },
+    "node_16": {
+        "node_id": 16,
+        "node_name": "Node 16",
+        "in_nodes": [13],
+        "out_nodes": [19],
+        "in_data": "Data coming from Node 13",
+        "out_data": "Is currently pointing to Node 19"
+    },
+    "node_17": {
+        "node_id": 17,
+        "node_name": "Node 17",
+        "in_nodes": [14],
+        "out_nodes": [20],
+        "in_data": "Data coming from Node 14",
+        "out_data": "Is currently pointing to Node 20"
+    },
+    "node_18": {
+        "node_id": 18,
+        "node_name": "Node 18",
+        "in_nodes": [15],
+        "out_nodes": [21],
+        "in_data": "Data coming from Node 15",
+        "out_data": "Is currently pointing to Node 21"
+    },
+    "node_19": {
+        "node_id": 19,
+        "node_name": "Node 19",
+        "in_nodes": [16],
+        "out_nodes": [22],
+        "in_data": "Data coming from Node 16",
+        "out_data": "Is currently pointing to Node 22"
+    },
+    "node_20": {
+        "node_id": 20,
+        "node_name": "Node 20",
+        "in_nodes": [17],
+        "out_nodes": [23],
+        "in_data": "Data coming from Node 17",
+        "out_data": "Is currently pointing to Node 23"
+    },
+    "node_21": {
+        "node_id": 21,
+        "node_name": "Node 21",
+        "in_nodes": [18],
+        "out_nodes": [24],
+        "in_data": "Data coming from Node 18",
+        "out_data": "Is currently pointing to Node 24"
+    },
+    "node_22": {
+        "node_id": 22,
+        "node_name": "Node 22",
+        "in_nodes": [19],
+        "out_nodes": [25],
+        "in_data": "Data coming from Node 19",
+        "out_data": "Is currently pointing to Node 25"
+    },
+    "node_23": {
+        "node_id": 23,
+        "node_name": "Node 23",
+        "in_nodes": [20],
+        "out_nodes": [26],
+        "in_data": "Data coming from Node 20",
+        "out_data": "Is currently pointing to Node 26"
+    },
+    "node_24": {
+        "node_id": 24,
+        "node_name": "Node 24",
+        "in_nodes": [21],
+        "out_nodes": [27],
+        "in_data": "Data coming from Node 21",
+        "out_data": "Is currently pointing to Node 27"
+    },
+    "node_25": {
+        "node_id": 25,
+        "node_name": "Node 25",
+        "in_nodes": [22],
+        "out_nodes": [28],
+        "in_data": "Data coming from Node 22",
+        "out_data": "Is currently pointing to Node 28"
+    },
+    "node_26": {
+        "node_id": 26,
+        "node_name": "Node 26",
+        "in_nodes": [23],
+        "out_nodes": [29],
+        "in_data": "Data coming from Node 23",
+        "out_data": "Is currently pointing to Node 29"
+    },
+    "node_27": {
+        "node_id": 27,
+        "node_name": "Node 27",
+        "in_nodes": [24],
+        "out_nodes": [30],
+        "in_data": "Data coming from Node 24",
+        "out_data": "Is currently pointing to Node 30"
+    },
+    "node_28": {
+        "node_id": 28,
+        "node_name": "Node 28",
+        "in_nodes": [25],
+        "out_nodes": [31],
+        "in_data": "Data coming from Node 25",
+        "out_data": "Is currently pointing to Node 31"
+    },
+    "node_29": {
+        "node_id": 29,
+        "node_name": "Node 29",
+        "in_nodes": [26],
+        "out_nodes": [32],
+        "in_data": "Data coming from Node 26",
+        "out_data": "Is currently pointing to Node 32"
+    },
+    "node_30": {
+        "node_id": 30,
+        "node_name": "Node 30",
+        "in_nodes": [27],
+        "out_nodes": [33],
+        "in_data": "Data coming from Node 27",
+        "out_data": "Is currently pointing to Node 33"
+    },
+    "node_31": {
+        "node_id": 31,
+        "node_name": "Node 31",
+        "in_nodes": [28],
+        "out_nodes": [34],
+        "in_data": "Data coming from Node 28",
+        "out_data": "Is currently pointing to Node 34"
+    },
+    "node_32": {
+        "node_id": 32,
+        "node_name": "Node 32",
+        "in_nodes": [29],
+        "out_nodes": [35],
+        "in_data": "Data coming from Node 29",
+        "out_data": "Is currently pointing to Node 35"
+    },
+    "node_33": {
+        "node_id": 33,
+        "node_name": "Node 33",
+        "in_nodes": [30],
+        "out_nodes": [36],
+        "in_data": "Data coming from Node 30",
+        "out_data": "Is currently pointing to Node 36"
+    },
+    "node_34": {
+        "node_id": 34,
+        "node_name": "Node 34",
+        "in_nodes": [31],
+        "out_nodes": [37],
+        "in_data": "Data coming from Node 31",
+        "out_data": "Is currently pointing to Node 37"
+    },
+    "node_35": {
+        "node_id": 35,
+        "node_name": "Node 35",
+        "in_nodes": [32],
+        "out_nodes": [38],
+        "in_data": "Data coming from Node 32",
+        "out_data": "Is currently pointing to Node 38"
+    },
+    "node_36": {
+        "node_id": 36,
+        "node_name": "Node 36",
+        "in_nodes": [33],
+        "out_nodes": [39],
+        "in_data": "Data coming from Node 33",
+        "out_data": "Is currently pointing to Node 39"
+    },
+    "node_37": {
+        "node_id": 37,
+        "node_name": "Node 37",
+        "in_nodes": [34],
+        "out_nodes": [40],
+        "in_data": "Data coming from Node 34",
+        "out_data": "Is currently pointing to Node 40"
+    },
+    "node_38": {
+        "node_id": 38,
+        "node_name": "Node 38",
+        "in_nodes": [35],
+        "out_nodes": [41],
+        "in_data": "Data coming from Node 35",
+        "out_data": "Is currently pointing to Node 41"
+    },
+    "node_39": {
+        "node_id": 39,
+        "node_name": "Node 39",
+        "in_nodes": [36],
+        "out_nodes": [42],
+        "in_data": "Data coming from Node 36",
+        "out_data": "Is currently pointing to Node 42"
+    },
+    "node_40": {
+        "node_id": 40,
+        "node_name": "Node 40",
+        "in_nodes": [37],
+        "out_nodes": [43],
+        "in_data": "Data coming from Node 37",
+        "out_data": "Is currently pointing to Node 43"
+    },
+    "node_41": {
+        "node_id": 41,
+        "node_name": "Node 41",
+        "in_nodes": [38],
+        "out_nodes": [44],
+        "in_data": "Data coming from Node 38",
+        "out_data": "Is currently pointing to Node 44"
+    },
+    "node_42": {
+        "node_id": 42,
+        "node_name": "Node 42",
+        "in_nodes": [39],
+        "out_nodes": [45],
+        "in_data": "Data coming from Node 39",
+        "out_data": "Is currently pointing to Node 45"
+    },
+    "node_43": {
+        "node_id": 43,
+        "node_name": "Node 43",
+        "in_nodes": [40],
+        "out_nodes": [46],
+        "in_data": "Data coming from Node 40",
+        "out_data": "Is currently pointing to Node 46"
+    },
+    "node_44": {
+        "node_id": 44,
+        "node_name": "Node 44",
+        "in_nodes": [41],
+        "out_nodes": [47],
+        "in_data": "Data coming from Node 41",
+        "out_data": "Is currently pointing to Node 47"
+    },
+    "node_45": {
+        "node_id": 45,
+        "node_name": "Node 45",
+        "in_nodes": [42],
+        "out_nodes": [48],
+        "in_data": "Data coming from Node 42",
+        "out_data": "Is currently pointing to Node 48"
+    },
+    "node_46": {
+        "node_id": 46,
+        "node_name": "Node 46",
+        "in_nodes": [43],
+        "out_nodes": [49],
+        "in_data": "Data coming from Node 43",
+        "out_data": "Is currently pointing to Node 49"
+    },
+    "node_47": {
+        "node_id": 47,
+        "node_name": "Node 47",
+        "in_nodes": [44],
+        "out_nodes": [50],
+        "in_data": "Data coming from Node 44",
+        "out_data": "Is currently pointing to Node 50"
+    },
+    "node_48": {
+        "node_id": 48,
+        "node_name": "Node 48",
+        "in_nodes": [45],
+        "out_nodes": [],
+        "in_data": "Data coming from Node 45",
+        "out_data": "No outgoing data"
+    },
+    "node_49": {
+        "node_id": 49,
+        "node_name": "Node 49",
+        "in_nodes": [46],
+        "out_nodes": [],
+        "in_data": "Data coming from Node 46",
+        "out_data": "No outgoing data"
+    },
+    "node_50": {
+        "node_id": 50,
+        "node_name": "Node 50",
+        "in_nodes": [47],
+        "out_nodes": [],
+        "in_data": "Data coming from Node 47",
+        "out_data": "No outgoing data"
+    }
+}
