@@ -8,6 +8,7 @@ client = OpenAI()
 api_key = os.getenv('OPENAI_API_KEY')
 openai.api_key = api_key
 
+print(api_key)
 
 def chatGPT_api(message_content,temperature=0):
     ##message_content is string
