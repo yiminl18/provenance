@@ -18,14 +18,14 @@ const options = {
   edges: {
     color: "#000000"
   },
-  height: '70.7%',
+  height: '108%',
 };
 
 
 function fetchJSONData() {
-  const fetchJsonData = require('../testData/mockData4.json');
+  // const fetchJsonData = require('../testData/mockData4.json');
   // const fetchJsonData = require('../testData/mockData10.json');
-  // const fetchJsonData = require('../testData/mockData50.json');
+  const fetchJsonData = require('../testData/mockData50.json');
   createNodes(fetchJsonData)
   createEdges(fetchJsonData)
 }
@@ -90,6 +90,11 @@ const App = () => {
   })
   
   const { graph, events } = state;
+
+  const getNodeNameById = (id) => {
+    const node = allNodes.find((node) => node.id === id);
+    return node ? node.name : 'Nowhere';
+  };
   
   return (
     <div id="webPage">
@@ -99,8 +104,14 @@ const App = () => {
       </div>
       <section id="NodeInfoSection">
         <div id="ClickedNodeTitle"><b>Selected Node:</b> {selectedNode.name}</div>
-        <div id="InComingDataContainer"><b>In-Coming Data:</b> {selectedNode.inData}</div>
-        <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  {selectedNode.outData}</div>
+        <div id="InComingDataContainer"><b>In-Coming Data:</b>
+        {selectedNode.inData && selectedNode.inData.map((data, index) => (
+            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: {data}</div>
+          ))}</div>
+        <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
+        {selectedNode.outData && selectedNode.outData.map((data, index) => (
+            <div key={index} className="dataBox">To {getNodeNameById(selectedNode.outNodes[index])}: {data}</div>
+          ))}</div>
       </section>
       
     </div>
