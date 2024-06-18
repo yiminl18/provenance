@@ -2,81 +2,49 @@
     "node_1": {
         "node_id": 1,
         "node_name": "Node 1",
-        "in_nodes": [2, 3],
-        "out_nodes": [4],
-        "in_data": "Data coming from Node 2 and 3",
-        "out_data": "Is currently pointing to Node 4"
+        "in_nodes": [2, 3, 5],
+        "out_nodes": [4, 6],
+        "in_data": ["Data coming from Node 2", "Data coming from Node 3"],
+        "out_data": ["Is currently pointing to Node 4", "Is currently pointing to Node 6"]
     },
     "node_2": {
         "node_id": 2,
         "node_name": "Node 2",
-        "in_nodes": [],
-        "out_nodes": [1, 5],
-        "in_data": "No incoming data",
-        "out_data": "Is currently pointing to Node 1 and 5"
+        "in_nodes": [4],
+        "out_nodes": [1, 3],
+        "in_data": ["Data coming from Node 4"],
+        "out_data": ["Is currently pointing to Node 1", "Is currently pointing to Node 3"]
     },
     "node_3": {
         "node_id": 3,
         "node_name": "Node 3",
-        "in_nodes": [],
-        "out_nodes": [1, 6],
-        "in_data": "No incoming data",
-        "out_data": "Is currently pointing to Node 1 and 6"
+        "in_nodes": [2],
+        "out_nodes": [1, 5],
+        "in_data": ["Data coming from Node 2"],
+        "out_data": ["Is currently pointing to Node 1", "Is currently pointing to Node 5"]
     },
     "node_4": {
         "node_id": 4,
         "node_name": "Node 4",
-        "in_nodes": [1],
-        "out_nodes": [7],
-        "in_data": "Data coming from Node 1",
-        "out_data": "Is currently pointing to Node 7"
+        "in_nodes": [1, 6],
+        "out_nodes": [2, 5],
+        "in_data": ["Data coming from Node 1", "Data coming from Node 6"],
+        "out_data": ["Is currently pointing to Node 2", "Is currently pointing to Node 5"]
     },
     "node_5": {
         "node_id": 5,
         "node_name": "Node 5",
-        "in_nodes": [2],
-        "out_nodes": [8],
-        "in_data": "Data coming from Node 2",
-        "out_data": "Is currently pointing to Node 8"
+        "in_nodes": [3, 4],
+        "out_nodes": [1, 6],
+        "in_data": ["Data coming from Node 3", "Data coming from Node 4"],
+        "out_data": ["Is currently pointing to Node 1", "Is currently pointing to Node 6"]
     },
     "node_6": {
         "node_id": 6,
         "node_name": "Node 6",
-        "in_nodes": [3],
-        "out_nodes": [9],
-        "in_data": "Data coming from Node 3",
-        "out_data": "Is currently pointing to Node 9"
-    },
-    "node_7": {
-        "node_id": 7,
-        "node_name": "Node 7",
-        "in_nodes": [4],
-        "out_nodes": [],
-        "in_data": "Data coming from Node 4",
-        "out_data": "No outgoing data"
-    },
-    "node_8": {
-        "node_id": 8,
-        "node_name": "Node 8",
         "in_nodes": [5],
-        "out_nodes": [],
-        "in_data": "Data coming from Node 5",
-        "out_data": "No outgoing data"
-    },
-    "node_9": {
-        "node_id": 9,
-        "node_name": "Node 9",
-        "in_nodes": [6],
-        "out_nodes": [10],
-        "in_data": "Data coming from Node 6",
-        "out_data": "Is currently pointing to Node 10"
-    },
-    "node_10": {
-        "node_id": 10,
-        "node_name": "Node 10",
-        "in_nodes": [9],
-        "out_nodes": [],
-        "in_data": "Data coming from Node 9",
-        "out_data": "No outgoing data"
+        "out_nodes": [4],
+        "in_data": ["Data coming from Node 5"],
+        "out_data": ["Is currently pointing to Node 4"]
     }
 }
