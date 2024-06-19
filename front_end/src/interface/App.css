@@ -1,0 +1,91 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#webPage{
+  display: grid;
+  grid-template-rows: 0.2fr 0.4fr 0.4fr 0.4fr 0.4fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+#webPageTitle{
+  color: black;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 1/5;
+  margin-top: 0.7em;
+}
+
+
+#theGraph{
+  background-color: #f7f9fc;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  grid-row: 2/6;
+  grid-column: 1/3;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+#NodeInfoSection{
+  grid-row:  2/6;
+  grid-column: 3/5;
+  display: grid;
+  grid-template-rows: 0.1fr 0.6fr 0.6fr;
+  grid-template-columns: 1fr 1fr;  
+
+  background-color: white;
+  margin: 1em;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+
+#ClickedNodeTitle{
+  grid-row: 1/2;
+  grid-column: 1/3;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+#InComingDataContainer{
+  grid-row: 2/3;
+  grid-column: 1/3;
+  overflow-y: auto;
+  max-height: 16em;
+  scroll-behavior: smooth
+}
+
+#OutGoingDataContainer{
+  grid-row: 3/4;
+  grid-column: 1/3;
+  overflow-y: auto;
+  max-height: 16em;
+  scroll-behavior: smooth
+}
+
+#InComingDataContainer, #OutGoingDataContainer{
+  text-align: left;
+  background-color: #f7f9fc;
+  border-radius: 5px;
+  padding: 1em;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.dataBox {
+  padding: 0.5em;
+  margin-top: 1em;
+  background-color: #f7f9fc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+}

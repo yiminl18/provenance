@@ -38,13 +38,13 @@ from langchain.output_parsers import PydanticToolsParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
+#You are an expert at converting user questions into database queries. \
+#If there are acronyms or words you are not familiar with, do not try to rephrase them.
 def question_decomposition(question):
-    system = """You are an expert at converting user questions into  sub-questions. \
-
+    system = """
     Perform query decomposition. Given a user question, break it down into distinct sub questions that \
-    you need to answer in order to answer the original question.
-
-    If there are acronyms or words you are not familiar with, do not try to rephrase them."""
+    you need to answer in order to answer the original question. \
+    """
 
     prompt = ChatPromptTemplate.from_messages(
         [
@@ -67,12 +67,17 @@ def question_decomposition(question):
 
 def write_json(data, file_path):
     with open(file_path, 'w') as file:
-        json.dump(data, file)
+        json.dump(data, file, indent=4)
 
 def sample_questions():
     q = []
-    q.append('What is the number of disaster projects starting later than 2021?')
-
+    q.append('What is the number of projects that are related with disaster and start later than 2021?')
+    q.append('What are the top three highest-grossing films directed by Steven Spielberg after the year 2000?')
+    q.append('What is the difference of prices of iphone 15 and Oneplus11 in US?')
+    q.append('What are the title of papers related with AI whose authors come from MIT?')
+    q.append('What is the average price of tablets of Google releasing after 2015?')
+    q.append('What are the annual revenues and market shares of companies in the electric vehicle sector that have launched more than two models as of the end of 2022?')
+    q.append('Which countries with a GDP per capita less than $10,000 have experienced an economic growth rate of over 5% annually in the past five years?')
     return q 
 
 if __name__ == "__main__":
@@ -81,6 +86,7 @@ if __name__ == "__main__":
     q = sample_questions()
     output = []
     for i in range(len(q)):
+        #i = len(q)-1
         result = {}
         question = q[i]
         #SQL = sql[i]
@@ -90,9 +96,10 @@ if __name__ == "__main__":
         result['question'] = question
         result['subquestions'] = subq
         output.append(result)
-        #print(SQL)
-        if(i>=5):
-            break
+        break
+    #print(SQL)
+    # if(i>=5):
+    #     break
     
     write_json(output, 'data/questions/sample_output.json')
     
