@@ -22,10 +22,10 @@ def rag():
     logging.info(f"folder_path: {folder_path}")
 
     next_node(node_info, {
-         "node_id" : 0,
+         "node_id" : 1,
          "node_name": "start",
          "in_nodes": [],
-         "out_nodes": [1],
+         "out_nodes": [2],
          "in_data": [],
          "out_data": [f"{question}"]
     })
@@ -49,10 +49,10 @@ def rag():
     logging.info(f"sub_query_list: {sub_query_list}")
 
     next_node(node_info, {
-        "node_id" : 1,
+        "node_id" : 2,
         "node_name": "query_decomposition",
-        "in_nodes": [0],
-        "out_nodes": [i+2 for i in range(sub_query_len)],
+        "in_nodes": [1],
+        "out_nodes": [i+3 for i in range(sub_query_len)],
         "in_data": [f"{question}"],
         "out_data": [f"{sub_query_list}"]
     })
@@ -74,19 +74,19 @@ def rag():
                 k += 1
                 logging.info(f"top{k}\n retrieved_docs:\n {doc.metadata}\n {doc.page_content}\n {'-'*10}") # print each retrieved doc
         next_node(node_info, {
-            "node_id" : 2+sub_query_index,
+            "node_id" : 3+sub_query_index,
             "node_name": "retrival",
-            "in_nodes": [1],
-            "out_nodes": [2+sub_query_len],
+            "in_nodes": [2],
+            "out_nodes": [3+sub_query_index+sub_query_len],
             "in_data": [f"{sub_query}"],
             "out_data": [f"{sub_retrieved_docs}"]
         })
         
         next_node(node_info,{
-            "node_id" : 2+sub_query_len+sub_query_index,
+            "node_id" : 3+sub_query_len+sub_query_index,
             "node_name": "generation",
-            "in_nodes": [2+sub_query_index],
-            "out_nodes": [2+sub_query_len*2],
+            "in_nodes": [3+sub_query_index],
+            "out_nodes": [3+sub_query_len*2],
             "in_data": [f"{sub_retrieved_docs}"],
             "out_data": [f"{sub_ans}"]
         })
@@ -113,18 +113,18 @@ def rag():
     final_answer = merge_answers(question, sub_query_list, sub_answers)
 
     next_node(node_info,{
-        "node_id" : 2+sub_query_len*2,
+        "node_id" : 3+sub_query_len*2,
         "node_name": "answer_merging",
-        "in_nodes": [2+sub_query_len+sub_query_index for sub_query_index in range(sub_query_len)],
-        "out_nodes": [2+sub_query_len*2+1],
+        "in_nodes": [3+sub_query_len+sub_query_index for sub_query_index in range(sub_query_len)],
+        "out_nodes": [3+sub_query_len*2+1],
         "in_data": [f"{sub_answers}"],
         "out_data": [f"{final_answer}"]
     })
 
     next_node(node_info,{
-         "node_id" : 2+sub_query_len*2+1,
+         "node_id" : 3+sub_query_len*2+1,
         "node_name": "end",
-        "in_nodes": [2+sub_query_len*2],
+        "in_nodes": [3+sub_query_len*2],
         "out_nodes": [],
         "in_data": [f"{final_answer}"],
         "out_data": []
