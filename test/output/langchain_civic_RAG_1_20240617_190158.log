@@ -1,0 +1,108 @@
+2024-06-17 19:01:58,847 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01262022-1835.pdf
+2024-06-17 19:01:58,885 - root - INFO - Split 8 documents into 66 chunks
+2024-06-17 19:02:01,729 - root - INFO - question: What are the name of projects that are related to disaster and have a start date later than 2021?
+2024-06-17 19:02:01,729 - root - INFO - sub_query_list: ['Projects related to disaster', 'Projects with a start date later than 2021']
+2024-06-17 19:02:01,730 - root - INFO - len of sub_query_list: 2
+2024-06-17 19:02:04,170 - root - INFO - For sub_query: Projects related to disaster
+2024-06-17 19:02:04,170 - root - INFO - Using following chunks:
+2024-06-17 19:02:04,170 - root - INFO - chunk_index: [36.0, 41.0, 2.0, 60.0]
+2024-06-17 19:02:04,170 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 36.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 4.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 592.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ at the January 24, 2022 meeting. 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project) 
+¾ Updates: 
+ The project consultant prepared the specifications for the project. Staff 
+is finalizing the bid documents. 
+¾ Project Schedule:
+ ----------
+2024-06-17 19:02:04,171 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 41.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 5.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ Page 6 of 8 
+ 
+ 
+Agenda Item # 4.A. 
+¾ Project Description:  This project will be funded through a grant from FEMA 
+after the Woolsey Fire.  The City will create a complete inventory of storm 
+drains, culverts, debris basins, manholes, and other drainage structures 
+within the City.
+ ----------
+2024-06-17 19:02:04,171 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 2.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 0.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 537.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ upcoming Capital Improvements Projects and Disaster Recovery Projects. 
+ 
+DISCUSSION:  Staff will provide a status update on the following active projects in the 
+Fiscal Year 2021-2022 Capital Improvement Program: 
+ 
+Capital Improvement Projects (Design) 
+ 
+Marie Canyon Green Streets 
+¾ Updates:
+ ----------
+2024-06-17 19:02:04,171 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 60.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 7.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ Page 8 of 8 
+ 
+ 
+Agenda Item # 4.A. 
+awarded a FEMA Hazard Mitigation grant to fund the design, engineering and 
+environmental compliance needed for a shovel ready project.  Phase Two of 
+the Emergency Warning Sirens project will be implementation of the design
+ ----------
+2024-06-17 19:02:06,527 - root - INFO - For sub_query: Projects with a start date later than 2021
+2024-06-17 19:02:06,528 - root - INFO - Using following chunks:
+2024-06-17 19:02:06,528 - root - INFO - chunk_index: [20.0, 7.0, 12.0, 51.0]
+2024-06-17 19:02:06,528 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 20.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 2.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1110.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ draft plans are expected to be completed in early 2022. The Planning 
+Commission will then review the project in Spring 2022 before final 
+review by the Council. 
+¾ Estimated Schedule: 
+ Complete Design: Spring 2022 
+ Begin Construction:  To be determined
+ ----------
+2024-06-17 19:02:06,528 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 7.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 1.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ Page 2 of 8 
+ 
+ 
+Agenda Item # 4.A. 
+advertised for construction bids after this date.  A construction manager 
+agreement will be sent to City Council in March. 
+¾ Project Schedule: 
+ Complete Design: March 2022 
+ Begin Construction: Spring/Summer 2022
+ ----------
+2024-06-17 19:02:06,528 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 12.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 1.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1308.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ Safety Commissions to review the project to develop project 
+alternatives.  A joint Public Works and Public Safety Commission 
+meeting was held on January 20, 2022.  Project alternatives will be 
+presented to the commissions at a future date. 
+¾ Project Schedule: 
+ Complete Design: Spring 2022
+ ----------
+2024-06-17 19:02:06,528 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 51.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 6.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ Page 7 of 8 
+ 
+ 
+Agenda Item # 4.A. 
+¾ Updates:  
+ This project is currently under design with the City’s consultant. It is 
+anticipated that the final design will be complete by February 2022. The 
+project will be advertised for construction bids with construction 
+beginning in April 2022.
+ ----------
+2024-06-17 19:02:08,479 - root - INFO - sub_answer: ["The Broad Beach Road Water Quality Infrastructure Repairs project is being finalized for bidding, while the Marie Canyon Green Streets project received funding through a FEMA Hazard Mitigation grant. These disaster-related projects are part of the city's efforts to improve infrastructure and disaster recovery after events like the Woolsey Fire.", 'Projects with a start date later than 2021 include those that are expected to begin construction in Spring/Summer 2022. The final design is anticipated to be complete by February 2022, with construction bids being advertised after that date. The Planning Commission will review the project in Spring 2022 before the final review by the Council.']
+2024-06-17 19:02:08,480 - root - INFO - final_answer: The projects that are related to disasters and have a start date later than 2021 include the Broad Beach Road Water Quality Infrastructure Repairs project and the Marie Canyon Green Streets project. The Broad Beach Road project is in the final stages of bidding, while the Marie Canyon project has secured funding through a FEMA Hazard Mitigation grant. These projects are part of the city's initiatives to enhance infrastructure and disaster recovery efforts post events like the Woolsey Fire. Additionally, projects with a start date later than 2021 are expected to commence construction in Spring/Summer 2022. The final design for these projects is set to be completed by February 2022, with construction bids to be advertised thereafter. The Planning Commission will assess the projects in Spring 2022 before the Council's final review.

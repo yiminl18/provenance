@@ -83,6 +83,8 @@ def sample_questions():
 def civic_questions():
     q = []
     q.append('What is the number of disaster projects starting later than 2021?') # Civic
+    q.append('There exists at least two projects that are related to disaster and have a start date later than 2021. Please give me the name of these two projects') # Civic
+    q.append("What are the name of projects that are related to disaster and have a start date later than 2021?") # Civic
 
 
     return q

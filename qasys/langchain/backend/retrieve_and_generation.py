@@ -17,13 +17,9 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
 
     # see how retrieve works 
     retrieved_docs = retriever.invoke(question)
-    # print(len(retrieved_docs))
-    # print(retrieved_docs[0].page_content)
-    # with open("output_101.txt", "w", encoding="utf-8") as file:
-    #     for doc in retrieved_docs:
-    #         file.write("retrieved_chunk_data: ")
-    #         file.write (str(doc.metadata) + "\n")
-    #         file.write(doc.page_content + "\n----------retrieved_chunk_end--------\n")
+
+    # Get chunk indices of retrieved documents
+    retrieved_chunk_indices = [doc.metadata.get('chunk_index', -1) for doc in retrieved_docs]
 
     # generate
 
@@ -67,7 +63,7 @@ def retrieve_and_generation(question, vectorstore, folder_path = "data/civic/ext
     # for chunk in rag_chain.stream(question):
     #     print(chunk, end="", flush=True)
 
-    return rag_chain.invoke(question), retrieved_docs
+    return rag_chain.invoke(question), retrieved_docs, retrieved_chunk_indices
 
 
 # print(retrieve_and_generation(question))

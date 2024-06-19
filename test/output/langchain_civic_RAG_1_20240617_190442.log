@@ -1,0 +1,58 @@
+2024-06-17 19:04:42,982 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01262022-1835.pdf
+2024-06-17 19:04:43,004 - root - INFO - Split 8 documents into 66 chunks
+2024-06-17 19:04:45,471 - root - INFO - question: What is the number of disaster projects starting later than 2021?
+2024-06-17 19:04:45,471 - root - INFO - sub_query_list: ['Number of disaster projects starting later than 2021']
+2024-06-17 19:04:45,471 - root - INFO - len of sub_query_list: 1
+2024-06-17 19:04:47,394 - root - INFO - For sub_query: Number of disaster projects starting later than 2021
+2024-06-17 19:04:47,394 - root - INFO - Using following chunks:
+2024-06-17 19:04:47,394 - root - INFO - chunk_index: [36.0, 2.0, 40.0, 62.0]
+2024-06-17 19:04:47,394 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 36.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 4.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 592.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ at the January 24, 2022 meeting. 
+ 
+Disaster Projects (Design) 
+ 
+Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project) 
+¾ Updates: 
+ The project consultant prepared the specifications for the project. Staff 
+is finalizing the bid documents. 
+¾ Project Schedule:
+ ----------
+2024-06-17 19:04:47,394 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 2.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 0.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 537.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ upcoming Capital Improvements Projects and Disaster Recovery Projects. 
+ 
+DISCUSSION:  Staff will provide a status update on the following active projects in the 
+Fiscal Year 2021-2022 Capital Improvement Program: 
+ 
+Capital Improvement Projects (Design) 
+ 
+Marie Canyon Green Streets 
+¾ Updates:
+ ----------
+2024-06-17 19:04:47,394 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 40.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 4.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1689.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+  Complete Design: Spring 2022 
+ Begin Construction: Spring 2022 
+ 
+Storm Drain Master Plan (FEMA Project)
+ ----------
+2024-06-17 19:04:47,394 - root - INFO - top4
+ retrieved_docs:
+ {'author': 'Yiming Lin', 'chunk_index': 62.0, 'creationDate': "D:20240119063224Z00'00'", 'creator': 'Safari', 'file_path': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'format': 'PDF 1.3', 'keywords': '', 'modDate': "D:20240119063224Z00'00'", 'page': 7.0, 'producer': 'macOS Version 14.2.1 (Build 23C71) Quartz PDFContext', 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 551.0, 'subject': '', 'title': 'https://www.malibucity.org/AgendaCenter/ViewFile/Agenda/_01262022-1835', 'total_pages': 8.0, 'trapped': ''}
+ report will be presented to Council upon completion. 
+¾ Estimated Schedule: TBD 
+ 
+Disaster Projects (Construction) 
+None at this time 
+ 
+Disaster Projects (Completed) 
+ 
+Citywide Guardrail Replacement 
+Project Description: This project consisted of replacing the damaged guardrails throughout
+ ----------
+2024-06-17 19:04:48,484 - root - INFO - sub_answer: ['There is no information provided regarding the number of disaster projects starting later than 2021 at the January 24, 2022 meeting.']
+2024-06-17 19:04:48,484 - root - INFO - final_answer: The information provided at the January 24, 2022 meeting does not include details about the number of disaster projects starting later than 2021. Therefore, the specific number of disaster projects commencing after 2021 is not available in the data presented.

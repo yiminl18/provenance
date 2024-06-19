@@ -83,6 +83,10 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
     )
     all_splits = text_splitter.split_documents(docs)
 
+    # Add index to each chunk's metadata
+    for i, split in enumerate(all_splits):
+        split.metadata['chunk_index'] = i
+
     # # see how chunk works
     # with open("output.txt", "w", encoding="utf-8") as file:
     #     for split in all_splits:
@@ -102,12 +106,18 @@ def store_splits(all_splits):
     '''
     
     from langchain_chroma import Chroma
+    from langchain_pinecone import PineconeVectorStore
     from langchain_openai import OpenAIEmbeddings
 
-    vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
-    # num_documents = vectorstore.count()  # Assuming `len` returns the number of documents
-    # logging.info(f"Number of documents stored in Chroma: {num_documents}")
+    # vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))])
+    # PineconeVectorStore.delete_index("civic")
+    
+    vectorstore = PineconeVectorStore.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))], index_name="civic")
+
     return vectorstore
+
+
+
 
 # def store_splits(all_splits):
 #     ''' 

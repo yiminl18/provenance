@@ -1,3 +1,6 @@
+'''
+    This is the backend server for the RAG-based question answering system.
+'''
 from flask import Flask, jsonify
 from flask_cors import CORS
 import logging
