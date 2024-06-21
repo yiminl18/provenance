@@ -1,0 +1,27 @@
+{
+    "question": "How many user studies are taken in the paper?",
+    "sub_query": [
+        "number of user studies in the paper"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "final_answer": "The paper conducted one user study, namely Study 3, which involved a short field study lasting 9 days. This study recruited six user participants with a mean age of 54.6, who were proficient in using smartphones. The primary objectives of the study were to identify app usability issues and gather sensor data to analyze user interactions with the application in a real-world setting.",
+    "sub_answers": [
+        "Study 3 in the paper involved a short field study that lasted for 9 days. The study recruited six user participants, with a mean age of 54.6, who were confident in using smartphones. The study aimed to discover app usability issues and collect sensor data to understand user interactions with the app in a real-life context."
+    ],
+    "retrieved_docs": [
+        [
+            [
+                "interacted with the proposed app prototype; and Study 3:",
+                0.0
+            ],
+            [
+                "5 STUDY 3 – SHORT FIELD STUDY\r\nKjeldskov and Skov [47] and Baillie and Schatz [6] \r\nunderline the importance of conducting short in situ \r\nevaluations as lab-based ones could leave usability or UX \r\nissues unrevealed. We, therefore, evaluated the app during \r\na short field study with UPs. When evaluating an app for \r\nolder adults with age-related macular degeneration,\r\nHakobyan et al. [26] conducted a preliminary 7 days \r\nevaluation study before carrying on with a 6 weeks \r\nlongitudinal field one. Previous sensor research [34, 39] \r\nfound differences between weekdays and weekends and \r\nrecommend undertaking a study which lasts at least a week \r\n(best 9-11 days) and collects both weekday and weekend \r\ndata. Given this, we ran the study for 9 days.\r\n5.1 Methodology\r\nThe study was divided into three phases (Table 3) and \r\naimed to discover app usability issues, collect sensor data to \r\nunderstand how people interact with the app in the field, \r\nand understand if users’ design decisions from previous \r\nstudies hold when using the app in a real-life context.\r\nTable 3. User Participants – Study 3 Structure.\r\nPhase Content\r\nPhase 1 Set Up App installation and usability \r\nevaluation.\r\nPhase 2 Field \r\nStudy\r\nNine days uncontrolled field study.\r\nPhase 3 \r\nUninstallation\r\nApp uninstallation and usability \r\nevaluation.\r\nWe started by posting invitations on social media and flyers \r\naround universities, libraries and leisure centers. We also \r\nemailed prostate cancer support groups. As people were not \r\ncoming forward, we also advertised the study over the \r\nradio. We recruited six UPs (UP15-20), three males and \r\nthree females, age range 26 – 66, mean age 54.6. Most UPs \r\n(5/6) agreed or strongly agreed they were confident using a \r\nsmartphone. No UP was aware of other OAB apps.\r\nThe first phase was a face to face or Skype interview in \r\nwhich the app was installed on UPs’ phone. After \r\ninstallation, UPs were asked to interact with the app by",
+                7.0
+            ],
+            [
+                "Study 1: requirements gathering interviews with all \r\nstakeholders; Study 2: interviews whilst stakeholders \r\ninteracted with the proposed app prototype; and Study 3: \r\nPermission to make digital or hard copies of all or part of this work for personal or \r\nclassroom use is granted without fee provided that copies are not made or distributed \r\nfor profit or commercial advantage and that copies bear this notice and the full citation \r\non the first page. Copyrights for components of this work owned by others than ACM \r\nmust be honored. Abstracting with credit is permitted. To copy otherwise, or \r\nrepublish, to post on servers or to redistribute to lists, requires prior specific \r\npermission and/or a fee. Request permissions from permissions@acm.org).\r\nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.\r\n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \r\nACM ISBN 978-1-4503-5970-2/19/05...$15.00.\r\nDOI: https://doi.org/10.1145/3290605.3300933\r\nCHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 1",
+                0.0
+            ]
+        ]
+    ]
+}

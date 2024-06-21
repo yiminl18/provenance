@@ -20,7 +20,7 @@ folder_paths = paper_path()
 for question, folder_path in zip(questions, folder_paths):
     for i in range(10):
         rag(question=question, folder_path=folder_path)
-    time.sleep(5)
+    time.sleep(10)
 
 
 # rag()

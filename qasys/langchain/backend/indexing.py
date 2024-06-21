@@ -1,5 +1,5 @@
 import glob, logging
-from langchain_community.document_loaders import TextLoader, PyMuPDFLoader
+from langchain_community.document_loaders import TextLoader, PyMuPDFLoader, PyPDFLoader, PyPDFium2Loader
 from langchain.schema import Document
 
 def sample_folders():
@@ -68,7 +68,7 @@ def load_local_pdf(file_path):
     Output: doc, class Document
     '''
     docs = []
-    loader = PyMuPDFLoader(file_path)
+    loader = PyPDFium2Loader(file_path)
     docs = loader.load_and_split()
     return docs
 
@@ -78,7 +78,7 @@ def load_local_pdf_as_one_page(file_path):
     Output: doc, class Document
     '''
     # Load the PDF document
-    loader = PyMuPDFLoader(file_path)
+    loader = PyPDFium2Loader(file_path)
     doc = loader.load()
     
     # Concatenate the contents of each page
@@ -167,3 +167,5 @@ def store_splits(all_splits):
 # print(len(load_local_pdf_as_one_page('data/civic/raw_data/malibucity_agenda__01272021-1626.pdf')))
 # print(len(load_local_pdf('data/civic/raw_data/malibucity_agenda__01272021-1626.pdf')))
 # print(len(load_local_txt('data/civic/txt_data/malibucity_agenda__01272021-1626.txt')))
+for doc in load_local_pdf('data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf'):
+    print(doc)

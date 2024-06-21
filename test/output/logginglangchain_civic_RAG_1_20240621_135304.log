@@ -1,0 +1,226 @@
+2024-06-21 13:53:04,801 - root - INFO - folder_path: data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf
+2024-06-21 13:53:04,904 - root - INFO - Split 19 documents into 40 chunks
+2024-06-21 13:53:08,515 - root - INFO - question: How many statistical methods are used when processing data from user studies?
+2024-06-21 13:53:08,516 - root - INFO - sub_query_list: ['What are the common statistical methods used in processing data from user studies?', 'How many statistical methods are typically employed in analyzing data from user studies?']
+2024-06-21 13:53:08,516 - root - INFO - len of sub_query_list: 2
+2024-06-21 13:53:10,840 - root - INFO - For sub_query: What are the common statistical methods used in processing data from user studies?
+2024-06-21 13:53:10,840 - root - INFO - Using following chunks:
+2024-06-21 13:53:10,840 - root - INFO - chunk_index: [3.0, 36.0, 5.0]
+2024-06-21 13:53:10,840 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 0.0}
+ We’ve seen traditional quantitative reflective designs made
+powerful with an intelligent narrative, such as in Hans
+Rosling’s talks on the visualization of statistics [22]. The
+statistics are brought to life by a dynamic, emotional narrative,
+which induces audience’s curiosity and empathy towards the
+story behind the figures. It takes storytelling skills and a deep
+understanding of the background knowledge to create these
+engaging narratives, which is difficult to realize for chaotic and
+often sparse self-tracking data on an individual basis, where
+the causal and correlational relations are hard to capture. Furthermore, an engaging narrative for personal data should be
+based on a knowledge of personal context. For example, when
+a mobile phone app records reduced exercise rate, it could be
+either due to a downturn of mood or a vacation. The narrative
+to motivate the user to get back on track in exercise should
+take into account these personal contextual differences.
+We attempt to create emotional, personal narratives of data
+related to behavior and mental wellbeing by making animated
+movies customized to each individual’s emotional trajectory.
+Readers can compare our story world to the animated movie
+Inside Out, where emotions are symbolized as characters and
+environment designs. To make it practical for a large number of users, we created a novel fully automated animation
+generator that works by parameterizing animations, within a
+CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, Canada Paper 253 Page 1
+ ----------
+2024-06-21 13:53:10,840 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 36.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 0.0}
+ Proceedings of the 17th Australia conference on
+Computer-Human Interaction: Citizens Online:
+Considerations for Today and the Future.
+Computer-Human Interaction Special Interest Group
+(CHISIG) of Australia, 1–10.
+4. Virginia Braun and Victoria Clarke. 2006. Using
+Thematic Analysis in Psychology. 3 (01 2006), 77–101.
+5. Jean Costa, Alexander T Adams, Malte F Jung, François
+Guimbetiere, and Tanzeem Choudhury. 2016.
+EmotionCheck: leveraging bodily signals and false
+feedback to regulate our emotions. In Proceedings of the
+2016 ACM International Joint Conference on Pervasive
+and Ubiquitous Computing. ACM, 758–769.
+6. Gustav Freytag. 1896. Freytag’s technique of the drama:
+an exposition of dramatic composition and art. Scholarly
+Press.
+7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian
+Mehm, and Ralf Steinmetz. 2010. Serious games for
+health: personalized exergames. In Proceedings of the
+18th ACM international conference on Multimedia. ACM,
+1663–1666.
+8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.
+2009. Power explorer: a casual game style for
+encouraging long term behavior change among teenagers.
+In Proceedings of the International Conference on
+Advances in Computer Enterntainment Technology. ACM,
+182–189.
+9. Lisa L Harlow, Michael D Newcomb, and Peter M
+Bentler. 1986. Depression, self-derogation, substance use,
+and suicide ideation: Lack of purpose in life as a
+mediational factor. Journal of clinical psychology 42, 1
+(1986), 5–21.
+10. Kristina Höök. 2009. Affective loop experiences:
+designing for interactional embodiment. Philosophical
+Transactions of the Royal Society of London B:
+Biological Sciences 364, 1535 (2009), 3585–3595.
+11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and
+Michael Sharp. 2007. The sensual evaluation instrument:
+Developing a trans-cultural self-report measure of affect.
+International journal of human-computer studies 65, 4
+(2007), 315–328.
+ ----------
+2024-06-21 13:53:10,841 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 5.0, 'page': 1.0, 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 1969.0}
+ asked, "what do you think the video reflected about you".
+While physiological, behavioral and self-report data can be
+used to track user’s psychological processes [19], in this work,
+we use self-reported mood and behavior data for three reasons:
+First, we can avoid challenges in the interpretation of physiology data, such as the difficulty in distinguishing between joy
+and anger [3]; Second, users can recall and implicitly select
+the affective states they wish to have feedback on, which promotes mindfulness and awareness of their emotions [1]; Third,
+users are required to recall the past 24 hours every day, so their
+memory of the events should be relatively reliable [12].
+The goal of this project is to open up the design space where
+users’ mood and behavior data are relived in an emotional
+narrative, in order to maximize viewer’s self-compassion and
+motivation to maintain or change their behavior post viewing.
+We demonstrate in a one-week randomized control study that
+while both animation don’t involve a traditional "story" narrative, users are better at interpreting personalized animations
+compared to a generic animation; that users are able to connect
+to the animated agent, engage with the animated movies emotionally and constructively reflect on their mood and behavior
+patterns.
+Figure 1. A common story structure for animated feature films. The
+rat, robot and clown fish characters are from Ratatouille (Pixar, 2007),
+Wall-E (Pixar, 2008) and Finding Nemo (Pixar, 2003).
+RELATED WORK
+This section summarizes previous research on designing HCI
+systems to reflect affective states and building motivational
+narratives for self-reflection and behavior change.
+Reflective Design
+Reflective design focuses on embedding unconscious cultural
+assumptions and values in the design of IT systems, in particular to promote a user’s critical understanding of such values
+ ----------
+2024-06-21 13:53:12,822 - root - INFO - For sub_query: How many statistical methods are typically employed in analyzing data from user studies?
+2024-06-21 13:53:12,822 - root - INFO - Using following chunks:
+2024-06-21 13:53:12,822 - root - INFO - chunk_index: [3.0, 45.0, 36.0]
+2024-06-21 13:53:12,822 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 0.0}
+ We’ve seen traditional quantitative reflective designs made
+powerful with an intelligent narrative, such as in Hans
+Rosling’s talks on the visualization of statistics [22]. The
+statistics are brought to life by a dynamic, emotional narrative,
+which induces audience’s curiosity and empathy towards the
+story behind the figures. It takes storytelling skills and a deep
+understanding of the background knowledge to create these
+engaging narratives, which is difficult to realize for chaotic and
+often sparse self-tracking data on an individual basis, where
+the causal and correlational relations are hard to capture. Furthermore, an engaging narrative for personal data should be
+based on a knowledge of personal context. For example, when
+a mobile phone app records reduced exercise rate, it could be
+either due to a downturn of mood or a vacation. The narrative
+to motivate the user to get back on track in exercise should
+take into account these personal contextual differences.
+We attempt to create emotional, personal narratives of data
+related to behavior and mental wellbeing by making animated
+movies customized to each individual’s emotional trajectory.
+Readers can compare our story world to the animated movie
+Inside Out, where emotions are symbolized as characters and
+environment designs. To make it practical for a large number of users, we created a novel fully automated animation
+generator that works by parameterizing animations, within a
+CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, Canada Paper 253 Page 1
+ ----------
+2024-06-21 13:53:12,822 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'FirstName Surname†, FirstName Surname, FirstName Surname', 'chunk_index': 45.0, 'creationDate': 'D:20190206113848Z', 'creator': 'Microsoft® Word for Office 365', 'file_path': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'format': 'PDF 1.7', 'keywords': 'Insert keyword text, Insert keyword text, Insert keyword text, Insert keyword text', 'modDate': "D:20231228180902-08'00'", 'page': 12.0, 'producer': 'Microsoft® Word for Office 365; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 1998.0, 'subject': '• Insert CCS text here • Insert CCS text here   • Insert CCS text here', 'title': 'Insert Your Title Here', 'total_pages': 14.0, 'trapped': ''}
+ Publication. 
+[42] Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge. Survey 
+research in HCI. Ways of Knowing in HCI. Springer, New York, NY, 
+2014. 229-266. 
+[43] My pelvic floor Fitness. 2016. http://www.lightsbytena.co.uk/my-
+pelvic-floor-fitness/app-info/ 
+[44] Tom Owen, Jennifer Pearson, Harold Thimbleby and George 
+Buchanan. 2015. ConCap: Designing to Empower Individual 
+Reflection on Chronic Conditions using Mobile Apps. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services. 
+[45] Jeni Paay, Jesper Kjeldskov, Umachanger Brinthaparan, Lars Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and Bernd Ploderer. 2014. Quitty: using technology to persuade 
+smokers to quit. In Proceedings of the 8th Nordic Conference on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM. 
+[46] Bernd Ploderer, Wally Smith, Jon Pearce and Ron Borland. 2014. A 
+mobile app offering distractions and tips to cope with cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2. 
+[47]  Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten years of mobile HCI research discussions on lab and field 
+evaluations. In: Proceedings of the 16th international conference on 
+Human-computer interaction with mobile devices & services. ACM. 
+[48]  Alessandro Puiatti, Steven Mudda, Silvia Giordano and Oscar 
+Mayora. 2011. Smartphone-centred wearable sensors network for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE. 
+[49]  William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1. 
+[50]  James A. Russell and Merry Bullock. 1985.Multidimensional scaling of
+ ----------
+2024-06-21 13:53:12,823 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 36.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 0.0}
+ Proceedings of the 17th Australia conference on
+Computer-Human Interaction: Citizens Online:
+Considerations for Today and the Future.
+Computer-Human Interaction Special Interest Group
+(CHISIG) of Australia, 1–10.
+4. Virginia Braun and Victoria Clarke. 2006. Using
+Thematic Analysis in Psychology. 3 (01 2006), 77–101.
+5. Jean Costa, Alexander T Adams, Malte F Jung, François
+Guimbetiere, and Tanzeem Choudhury. 2016.
+EmotionCheck: leveraging bodily signals and false
+feedback to regulate our emotions. In Proceedings of the
+2016 ACM International Joint Conference on Pervasive
+and Ubiquitous Computing. ACM, 758–769.
+6. Gustav Freytag. 1896. Freytag’s technique of the drama:
+an exposition of dramatic composition and art. Scholarly
+Press.
+7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian
+Mehm, and Ralf Steinmetz. 2010. Serious games for
+health: personalized exergames. In Proceedings of the
+18th ACM international conference on Multimedia. ACM,
+1663–1666.
+8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.
+2009. Power explorer: a casual game style for
+encouraging long term behavior change among teenagers.
+In Proceedings of the International Conference on
+Advances in Computer Enterntainment Technology. ACM,
+182–189.
+9. Lisa L Harlow, Michael D Newcomb, and Peter M
+Bentler. 1986. Depression, self-derogation, substance use,
+and suicide ideation: Lack of purpose in life as a
+mediational factor. Journal of clinical psychology 42, 1
+(1986), 5–21.
+10. Kristina Höök. 2009. Affective loop experiences:
+designing for interactional embodiment. Philosophical
+Transactions of the Royal Society of London B:
+Biological Sciences 364, 1535 (2009), 3585–3595.
+11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and
+Michael Sharp. 2007. The sensual evaluation instrument:
+Developing a trans-cultural self-report measure of affect.
+International journal of human-computer studies 65, 4
+(2007), 315–328.
+ ----------
+2024-06-21 13:53:15,189 - root - INFO - sub_answer: ['Common statistical methods used in processing data from user studies include quantitative reflective designs, thematic analysis, and leveraging bodily signals and false feedback for emotion regulation. These methods help in understanding emotional narratives, behavior patterns, and affective states to create personalized animations and motivational narratives for self-reflection and behavior change. The goal is to maximize self-compassion and motivation in users by presenting their mood and behavior data in an emotional narrative format.', 'There are typically several statistical methods employed in analyzing data from user studies, such as quantitative reflective designs and narrative techniques. These methods aim to bring statistics to life through engaging narratives based on personal context and emotional trajectories. Analyzing data from user studies often requires a combination of storytelling skills and statistical analysis to create personalized narratives.']
+2024-06-21 13:53:15,190 - root - INFO - final_answer: When processing data from user studies, several statistical methods are commonly used. These methods include quantitative reflective designs, thematic analysis, leveraging bodily signals, false feedback for emotion regulation, and narrative techniques. These statistical methods aim to understand emotional narratives, behavior patterns, and affective states to create personalized animations, motivational narratives, and engaging stories for self-reflection and behavior change. By combining statistical analysis with storytelling skills, these methods help in presenting mood and behavior data in an emotional narrative format to maximize self-compassion and motivation in users during data analysis from user studies.

@@ -1,0 +1,80 @@
+2024-06-21 13:53:25,196 - root - INFO - folder_path: data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf
+2024-06-21 13:53:25,366 - root - INFO - Split 27 documents into 48 chunks
+2024-06-21 13:53:28,236 - root - INFO - question: How many user studies are taken in the paper?
+2024-06-21 13:53:28,236 - root - INFO - sub_query_list: ['Number of user studies in the paper']
+2024-06-21 13:53:28,236 - root - INFO - len of sub_query_list: 1
+2024-06-21 13:53:30,676 - root - INFO - For sub_query: Number of user studies in the paper
+2024-06-21 13:53:30,677 - root - INFO - Using following chunks:
+2024-06-21 13:53:30,677 - root - INFO - chunk_index: [2.0, 23.0, 3.0]
+2024-06-21 13:53:30,677 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 3917.0}
+ interacted with the proposed app prototype; and Study 3:
+ ----------
+2024-06-21 13:53:30,677 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 23.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ 5 STUDY 3 – SHORT FIELD STUDY
+Kjeldskov and Skov [47] and Baillie and Schatz [6] 
+underline the importance of conducting short in situ 
+evaluations as lab-based ones could leave usability or UX 
+issues unrevealed. We, therefore, evaluated the app during 
+a short field study with UPs. When evaluating an app for 
+older adults with age-related macular degeneration,
+Hakobyan et al. [26] conducted a preliminary 7 days 
+evaluation study before carrying on with a 6 weeks 
+longitudinal field one. Previous sensor research [34, 39] 
+found differences between weekdays and weekends and 
+recommend undertaking a study which lasts at least a week 
+(best 9-11 days) and collects both weekday and weekend 
+data. Given this, we ran the study for 9 days.
+5.1 Methodology
+The study was divided into three phases (Table 3) and 
+aimed to discover app usability issues, collect sensor data to 
+understand how people interact with the app in the field, 
+and understand if users’ design decisions from previous 
+studies hold when using the app in a real-life context.
+Table 3. User Participants – Study 3 Structure.
+Phase Content
+Phase 1 Set Up App installation and usability 
+evaluation.
+Phase 2 Field 
+Study
+Nine days uncontrolled field study.
+Phase 3 
+Uninstallation
+App uninstallation and usability 
+evaluation.
+We started by posting invitations on social media and flyers 
+around universities, libraries and leisure centers. We also 
+emailed prostate cancer support groups. As people were not 
+coming forward, we also advertised the study over the 
+radio. We recruited six UPs (UP15-20), three males and 
+three females, age range 26 – 66, mean age 54.6. Most UPs 
+(5/6) agreed or strongly agreed they were confident using a 
+smartphone. No UP was aware of other OAB apps.
+The first phase was a face to face or Skype interview in 
+which the app was installed on UPs’ phone. After 
+installation, UPs were asked to interact with the app by
+ ----------
+2024-06-21 13:53:30,677 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 3.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Study 1: requirements gathering interviews with all 
+stakeholders; Study 2: interviews whilst stakeholders 
+interacted with the proposed app prototype; and Study 3: 
+Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for profit or commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for components of this work owned by others than ACM 
+must be honored. Abstracting with credit is permitted. To copy otherwise, or 
+republish, to post on servers or to redistribute to lists, requires prior specific 
+permission and/or a fee. Request permissions from permissions@acm.org).
+CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.
+© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. 
+ACM ISBN 978-1-4503-5970-2/19/05...$15.00.
+DOI: https://doi.org/10.1145/3290605.3300933
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 1
+ ----------
+2024-06-21 13:53:32,345 - root - INFO - sub_answer: ['The paper includes information about one user study, which lasted for nine days in a real-life field study setting with six participants aged 26-66. The study aimed to evaluate app usability and collect sensor data to understand user interactions with the app. The study was divided into three phases, including app installation, field study, and app uninstallation with usability evaluations.']
+2024-06-21 13:53:32,346 - root - INFO - final_answer: Based on the information provided in the sub-answer, the paper discusses one user study that was conducted over a period of nine days. This study took place in a real-life field study setting and involved six participants ranging from 26 to 66 years old. The objective of the study was to assess app usability and gather sensor data to analyze user interactions with the app. The study was structured into three distinct phases: app installation, field study, and app uninstallation, each accompanied by usability evaluations.
