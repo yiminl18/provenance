@@ -26,6 +26,7 @@ function fetchJSONData() {
   // const fetchJsonData = require('../testData/mockData4.json');
   // const fetchJsonData = require('../testData/mockData10.json');
   const fetchJsonData = require('../testData/node_info.json');
+  //const fetchJsonData = require('../testData/zenDBsql1.json');
   createNodes(fetchJsonData)
   createEdges(fetchJsonData)
 }
