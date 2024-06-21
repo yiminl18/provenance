@@ -10,6 +10,28 @@ def sample_folders():
 
     return q 
 
+def civic_path():
+    q = []
+    q.append('data/civic/raw_data/malibucity_agenda__01262022-1835.pdf')
+    q.append('data/civic/raw_data/malibucity_agenda__01272021-1626.pdf')
+    q.append('data/civic/raw_data/malibucity_agenda__03022021-1648.pdf')
+    q.append('data/civic/raw_data/malibucity_agenda__03232022-1869.pdf')
+    q.append('data/civic/raw_data/malibucity_agenda__03242021-1665.pdf')
+    q.append('data/civic/raw_data/malibucity_agenda__04282021-1687.pdf')
+    return q
+
+def paper_path():
+    q = []
+    q.append('data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf')
+    q.append('data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf')
+    q.append('data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf')
+    q.append('data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf')
+    q.append('data/paper/raw_data/ArmSleeve: A Patient Monitoring System to Support Occupational Therapists in Stroke Rehabilitation.pdf')
+    q.append('data/paper/raw_data/Barriers and Negative Nudges: Exploring Challenges in Food Journaling.pdf')
+    q.append('data/paper/raw_data/Barriers to Engagement with a Personal Informatics Productivity Tool.pdf')
+    return q
+
+
 def load_local_folder_of_txt(folder_path = "data/civic/extracted_data"):
     '''
     Input: folder_path, str

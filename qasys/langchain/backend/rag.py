@@ -4,7 +4,7 @@ import logging
 
 from query_decompose import query_decomposition, civic_questions
 from retrieve_and_generation import retrieve_and_generation
-from indexing import load_local_txt, load_local_pdf, load_local_pdf_as_one_page, split_docs, store_splits
+from indexing import load_local_txt, load_local_pdf, load_local_pdf_as_one_page, split_docs, store_splits, civic_path, paper_path
 from answer_merge import merge_answers
 from setup_logging import setup_logging, close_logging
 from txt2pdf_path import txt2pdf_path, txt2pdf_path_list, pdf2pdf_path
@@ -12,12 +12,10 @@ from node_process import next_node
 
 
 
-def rag():
+def rag(question, folder_path):
     node_info = {}
-    logger, file_handler, console_handler = setup_logging()
+    logger, file_handler, console_handler, timestamp = setup_logging()
     # step0: load sample question and folder path
-    question = civic_questions()[0]
-    folder_path = 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf'
 
     logging.info(f"folder_path: {folder_path}")
 
@@ -139,9 +137,9 @@ def rag():
     logging.info(f"sub_answer: {sub_answers}")
     logging.info(f"final_answer: {final_answer}")
 
-    # Save results to a JSON file
-    with open('test/output/langchain_civic_RAG_1.json', 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=4)
+    # # Save results to a JSON file
+    # with open('test/output/langchain_civic_RAG_1.json', 'w', encoding='utf-8') as f:
+    #     json.dump(results, f, ensure_ascii=False, indent=4)
 
     result = {
         "question": question,
@@ -154,8 +152,11 @@ def rag():
     # print(result)
     close_logging(logger, [file_handler, console_handler])
 
-    with open('test/output/node_info.json', 'w', encoding='utf-8') as f:
+    with open(f'test/output/node_info/node_info_{timestamp}.json', 'w', encoding='utf-8') as f:
         json.dump(node_info, f, ensure_ascii=False, indent=4)
+
+    with open(f'test/output/highlight_result/result_{timestamp}.json', 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
 
     return result
 

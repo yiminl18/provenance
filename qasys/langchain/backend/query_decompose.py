@@ -84,7 +84,10 @@ def civic_questions():
     q = []
     q.append('What is the number of disaster projects starting later than 2021?') # Civic
     q.append('There exists at least two projects that are related to disaster and have a start date later than 2021. Please give me the name of these two projects') # Civic
-    q.append("What are the name of projects that are related to disaster and have a start date later than 2021?") # Civic
+    q.append("What are the names of projects that are related to disaster and have a start date later than 2021?") # Civic
+    q.append("What is the name of the project in design that has the earliest construction start date?")
+    q.append("How many project under construction are being discussed in the document?")
+    q.append("What is the number of vehicle related projects?")
 
 
     return q
@@ -92,6 +95,9 @@ def civic_questions():
 def paper_questions():
     q = []
     q.append('What are the titles for papers whose topic is related to AI and publication year is later than 2018?') # Paper
+    q.append('What statistical methods are used when processing data from user studies?')
+    q.append('How many statistical methods are used when processing data from user studies?')
+    q.append('How many user studies are taken in the paper?')
 
     return q
 

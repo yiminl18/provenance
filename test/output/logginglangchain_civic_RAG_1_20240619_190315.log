@@ -1,0 +1,300 @@
+2024-06-19 19:03:15,313 - root - INFO - folder_path: data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf
+2024-06-19 19:03:15,400 - root - INFO - Split 20 documents into 44 chunks
+2024-06-19 19:03:20,111 - root - INFO - question: What statistical methods are used when processing data from user studies?
+2024-06-19 19:03:20,111 - root - INFO - sub_query_list: ['What are the common statistical methods used in user studies data processing?', 'How are statistical methods applied in analyzing data from user studies?']
+2024-06-19 19:03:20,111 - root - INFO - len of sub_query_list: 2
+2024-06-19 19:03:22,848 - root - INFO - For sub_query: What are the common statistical methods used in user studies data processing?
+2024-06-19 19:03:22,848 - root - INFO - Using following chunks:
+2024-06-19 19:03:22,848 - root - INFO - chunk_index: [31.0, 12.0, 27.0]
+2024-06-19 19:03:22,848 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 31.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 7.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 1979.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ food intake, calories, fat, cholesterol, sodium, etc., would 
+make an interesting starting point for analysis. However, if 
+it is too difficult to collect, I have better things to do with 
+my time.”  
+This property of personal informatics systems opens several 
+opportunities for research and applications. Many existing 
+technologies are capable of collecting various types of 
+personal information, and researchers in ubiquitous 
+computing and lifelogging are developing new collection 
+tools. How can personal informatics systems leverage these 
+new technologies to inform people about different facets of 
+their lives? What would visualizations that show multiple 
+facets of people's lives look like? How should they be 
+designed so that non-experts (most people) can gain 
+insights about their lives? 
+Limitations of the Survey and Model 
+We recruited participants from a blog dedicated to personal 
+informatics, a blog about general information visualization, 
+and two personal informatics web sites, so most survey 
+participants were familiar with personal informatics. Since 
+even these interested users had plenty of problems with 
+different systems, we suspect that the problems they 
+encountered may be a subset of problems that common 
+users may experience. We think it would be interesting to 
+study users with little or no prior experience with personal 
+informatics systems to find specific barriers that they may 
+encounter. 
+CASE STUDIES 
+Having identified the stages model, the properties of the 
+stages, and the barriers experienced within the stages, we 
+can now apply the model to analyze personal informatics 
+systems. In this section, we evaluate existing personal 
+informatics systems to demonstrate the use of the model. In 
+consideration of space, we only highlight some aspects of 
+each system. We describe barriers that users may encounter 
+and suggest potential solutions to explore further. 
+Twitter-based systems
+ ----------
+2024-06-19 19:03:22,848 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 12.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 2.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 0.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ communicate. 60% of them used social networking sites 
+daily. Most read news websites and blogs, ordered products 
+online, and managed bills and bank accounts online. 
+RESULTS 
+We created affinity diagrams to analyze the survey and 
+interviews. We did not determine a coding scheme 
+beforehand; instead we identified themes from the data as 
+we processed the responses. During the analysis, we 
+identified the types of personal information collected and 
+reflected on by participants, motivations for collection and 
+reflection, and problems experienced. Next, we analyzed 
+the survey and interviews for experiences with tools and 
+barriers that users encountered, identifying a model of 
+personal informatics. 
+Collected Personal Information 
+Participants reported a wide variety of information that they 
+collected and reflected on (see Table 1). Many participants 
+reflected on automatically collected information such as 
+bank statements and email history, since they are readily 
+available. Automatically collected information was split 
+automatic # 
+ 
+manual # 
+bank statements 54 
+ 
+calendar events 27 
+email history 52 
+ 
+status updates 22 
+credit card bills 38 
+ 
+work activities 22 
+phone call history 26 
+ 
+blog posts 21 
+SMS history 25 
+ 
+weight 21 
+IM history 25 
+ 
+exercise 20 
+financial software 23 
+ 
+browser bookmarks 20 
+electricity bill 23 
+ 
+time at work 18 
+browsing history 23 
+ 
+social bookmarks 18 
+search history 20 
+ 
+mood 17 
+ 
+Other automatically collected: heating bill (12), travel (2) 
+Other manually collected: journal/diary (16), pictures taken (14), 
+sleeping habits (12), food consumption (12), productivity (10), health (9), 
+medication intake (7), caloric intake (5), symptoms (5), miles ran (4), 
+sports activities (4), blood pressure (4),  blood sugar level (2), dream 
+journal (2), step counts (2), relationship status (2), books read (1), habits 
+of newborn baby (1), transportation (1)  
+Table 1. Top 10 types of personal information,
+ ----------
+2024-06-19 19:03:22,849 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 27.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 6.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 1958.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ caffeine consumption, meal times, weight) into the reports 
+depending on his hypotheses (e.g., what is the effect of 
+caffeine consumption on my sleep patterns?). 
+The iterative property of personal informatics systems 
+suggests that systems should be flexible to support users' 
+changing information needs. Systems could be flexible by 
+1) supporting importing data from other systems, as well as, 
+exporting to other systems; and 2) supporting different 
+kinds of information. Since tool changes may render 
+previously collected data useless, systems should support 
+rapid iteration, so that users can quickly hone in on the 
+questions they want to answer and select the appropriate 
+tools to collect the necessary information. 
+User-driven vs. System-driven  
+Each stage can be classified as user-driven, system-driven, 
+or a combination of both. When a stage is user-driven, the 
+user is responsible for the activity in the stage. In the 
+Preparation stage, the user decides what type of information 
+to collect and what tools to use. User-driven collection is 
+when users record information on paper or enter 
+information into a spreadsheet, an application, or a website 
+form. User-driven integration is when users have to 
+transcribe collected information, so that they can reflect on 
+it. In the Reflection stage, the user reflects on the 
+information without the aid of visualizations or other tools 
+for exploring the data. In the Action stage, the user is 
+responsible for deciding on actions to take depending on 
+their conclusions from the data without aid from the system. 
+User-driven stages demand time and attention from the 
+user. This is problematic when the demand becomes too 
+much (e.g., high frequency of collection). There are ways to 
+facilitate user-driven stages. For example, systems that use 
+user-driven collection can motivate the user to collect the 
+information. Hsieh and colleagues [11] have explored this 
+in the context of experience sampling; they encouraged
+ ----------
+2024-06-19 19:03:25,231 - root - INFO - For sub_query: How are statistical methods applied in analyzing data from user studies?
+2024-06-19 19:03:25,231 - root - INFO - Using following chunks:
+2024-06-19 19:03:25,232 - root - INFO - chunk_index: [31.0, 27.0, 10.0]
+2024-06-19 19:03:25,232 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 31.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 7.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 1979.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ food intake, calories, fat, cholesterol, sodium, etc., would 
+make an interesting starting point for analysis. However, if 
+it is too difficult to collect, I have better things to do with 
+my time.”  
+This property of personal informatics systems opens several 
+opportunities for research and applications. Many existing 
+technologies are capable of collecting various types of 
+personal information, and researchers in ubiquitous 
+computing and lifelogging are developing new collection 
+tools. How can personal informatics systems leverage these 
+new technologies to inform people about different facets of 
+their lives? What would visualizations that show multiple 
+facets of people's lives look like? How should they be 
+designed so that non-experts (most people) can gain 
+insights about their lives? 
+Limitations of the Survey and Model 
+We recruited participants from a blog dedicated to personal 
+informatics, a blog about general information visualization, 
+and two personal informatics web sites, so most survey 
+participants were familiar with personal informatics. Since 
+even these interested users had plenty of problems with 
+different systems, we suspect that the problems they 
+encountered may be a subset of problems that common 
+users may experience. We think it would be interesting to 
+study users with little or no prior experience with personal 
+informatics systems to find specific barriers that they may 
+encounter. 
+CASE STUDIES 
+Having identified the stages model, the properties of the 
+stages, and the barriers experienced within the stages, we 
+can now apply the model to analyze personal informatics 
+systems. In this section, we evaluate existing personal 
+informatics systems to demonstrate the use of the model. In 
+consideration of space, we only highlight some aspects of 
+each system. We describe barriers that users may encounter 
+and suggest potential solutions to explore further. 
+Twitter-based systems
+ ----------
+2024-06-19 19:03:25,232 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 27.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 6.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 1958.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ caffeine consumption, meal times, weight) into the reports 
+depending on his hypotheses (e.g., what is the effect of 
+caffeine consumption on my sleep patterns?). 
+The iterative property of personal informatics systems 
+suggests that systems should be flexible to support users' 
+changing information needs. Systems could be flexible by 
+1) supporting importing data from other systems, as well as, 
+exporting to other systems; and 2) supporting different 
+kinds of information. Since tool changes may render 
+previously collected data useless, systems should support 
+rapid iteration, so that users can quickly hone in on the 
+questions they want to answer and select the appropriate 
+tools to collect the necessary information. 
+User-driven vs. System-driven  
+Each stage can be classified as user-driven, system-driven, 
+or a combination of both. When a stage is user-driven, the 
+user is responsible for the activity in the stage. In the 
+Preparation stage, the user decides what type of information 
+to collect and what tools to use. User-driven collection is 
+when users record information on paper or enter 
+information into a spreadsheet, an application, or a website 
+form. User-driven integration is when users have to 
+transcribe collected information, so that they can reflect on 
+it. In the Reflection stage, the user reflects on the 
+information without the aid of visualizations or other tools 
+for exploring the data. In the Action stage, the user is 
+responsible for deciding on actions to take depending on 
+their conclusions from the data without aid from the system. 
+User-driven stages demand time and attention from the 
+user. This is problematic when the demand becomes too 
+much (e.g., high frequency of collection). There are ways to 
+facilitate user-driven stages. For example, systems that use 
+user-driven collection can motivate the user to collect the 
+information. Hsieh and colleagues [11] have explored this 
+in the context of experience sampling; they encouraged
+ ----------
+2024-06-19 19:03:25,232 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'Ian Li, Anind Dey, Jodi Forlizzi', 'chunk_index': 10.0, 'creationDate': 'D:20100125203330Z', 'creator': 'Microsoft Word', 'file_path': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'format': 'PDF 1.3', 'keywords': 'barriers, collection, model, personal informatics, reflection', 'modDate': "D:20240325173845-07'00'", 'page': 2.0, 'producer': 'Mac OS X 10.5.7 Quartz PDFContext; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf', 'start_index': 1966.0, 'subject': '', 'title': 'A stage-based model of personal informatics systems', 'total_pages': 10.0, 'trapped': ''}
+ section, the survey asked what patterns, trends, and 
+surprises participants found from reflecting on their 
+information. The survey ended with demographics 
+questions (e.g., gender, age range, marital status, 
+employment, 
+education, 
+and 
+technology 
+use). 
+The 
+following are example questions from the survey1: 
+• How difficult is it to collect this personal information? 
+• What was your initial motivation to reflect on this 
+collected personal information? 
+• What patterns (repeating events) have you found when 
+exploring this collected personal information? 
+Participants 
+We recruited participants from a blog dedicated to personal 
+informatics (http://quantifiedself.com), a blog about general 
+information visualization (http://flowingdata.com), and 
+                              
+                              
+ 
+1 Visit http://personalinformatics.org/lab/survey/ for a 
+complete transcript of the survey. 
+forums 
+at 
+two 
+personal 
+informatics 
+web 
+sites 
+(http://slifelabs.com and http://moodjam.org). We chose 
+these web sites because their readers and users were more 
+likely to have used one or more personal informatics 
+systems. Survey participants were entered into a raffle for a 
+$25 Amazon gift certificate. We interviewed a subset of 
+these participants using instant messenger to collect 
+additional details about their responses. Interviewees 
+received an additional $10 Amazon gift certificate.    
+We had 68 people complete the surveys, and 11 agreed to 
+participate in the follow-up interviews. 37 participants were 
+male. Ages ranged from 18 to 64 with a median age range 
+of 26 to 30. About half had graduate degrees and another 
+half were in college. More than half worked full-time. 
+Participants 
+were 
+technologically 
+savvy. 
+90% 
+of 
+participants used email or instant messenger daily to 
+communicate. 60% of them used social networking sites 
+daily. Most read news websites and blogs, ordered products 
+online, and managed bills and bank accounts online.
+ ----------
+2024-06-19 19:03:28,525 - root - INFO - sub_answer: ['Common statistical methods used in user studies data processing include affinity diagrams, coding schemes for identifying themes, and analyzing data for patterns and insights. These methods help researchers understand the types of personal information collected, motivations for collection, and barriers encountered by users in personal informatics systems. Additionally, statistical methods can be used to evaluate existing systems, identify problems, and suggest potential solutions for improvement.', 'Statistical methods are applied in analyzing data from user studies by evaluating existing personal informatics systems to demonstrate the use of the model. The models can be used to identify stages, properties, and barriers experienced within the stages. User-driven and system-driven stages play a role in determining how data is collected, integrated, reflected upon, and acted upon by users.']
+2024-06-19 19:03:28,526 - root - INFO - final_answer: When processing data from user studies, various statistical methods are employed to analyze and derive insights. Common statistical methods used in user studies data processing include affinity diagrams, coding schemes for identifying themes, and analyzing data for patterns and insights. These methods assist researchers in understanding the types of personal information collected, motivations for collection, and barriers encountered by users in personal informatics systems. Statistical methods are also utilized to evaluate existing systems, identify problems, and propose potential solutions for improvement.
+
+Furthermore, statistical methods are applied in analyzing data from user studies by evaluating existing personal informatics systems to showcase the use of the model. These models can help identify stages, properties, and barriers experienced within different stages. Both user-driven and system-driven stages play a crucial role in determining how data is collected, integrated, reflected upon, and acted upon by users during the study.

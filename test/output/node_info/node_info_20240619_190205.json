@@ -1,0 +1,124 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the titles for papers whose topic is related to AI and publication year is later than 2018?"
+        ]
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4
+        ],
+        "in_data": [
+            "What are the titles for papers whose topic is related to AI and publication year is later than 2018?"
+        ],
+        "out_data": [
+            "['titles of papers related to AI', 'publication year later than 2018']"
+        ]
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "titles of papers related to AI"
+        ],
+        "out_data": [
+            "[Document(page_content=\"Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\ncontributions through survey design and participant interviews. \\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\ndesign of visuals. This work is sponsored in part by the Intel \\nScience and Technology Center for Pervasive Computing, Nokia \\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\nunder awards OAI-1028195 and SCH-1344613. \\n740\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 40.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 9.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1990.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n13. Dawe, M. Desperately Seeking Simplicity: How \\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n16. Fritz, T., Huang, E.M., Murphy, G.C., and \\nZimmermann, T. Persuasive Technology in the Real \\nWorld\\u2009: A Study of Long-Term Use of Activity \\nSensing Devices for Fitness. CHI 2014, 487-496. \\n17. Hodges, S., Williams, L., Berry, E., Izadi, S., \\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \\nWood, K. SenseCam: A Retrospective Memory Aid. \\nUbiComp 2006, 177-193. \\n18. Humphreys, L. Mobile Social Networks and Social \\nPractice: A Case Study of Dodgeball. J Compu-Mediat \\nComm 13, (2007), 341-360. \\n19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A. \\nThere’s No Such Thing as Gaining a Pound: \\nReconsidering the Bathroom Scale User Interface. \\nUbiComp 2013, 401-410. \\n20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \\nD.A. Money Talks: Tracking Personal Finances. \\nCHI  2014, 521-530. \\n21. Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \\nPersonal Informatics Systems. CHI 2010, 557-566. \\n22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My \\nData, Myself: Supporting Self-Reflection with \\nUbicomp Technologies. UbiComp 2011, 405-414. \\n23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \\nStrub, H.B. Fish’n'Steps: Encouraging Physical Activity \\nwith an Interactive Computer Game. UbiComp 2006, \\n261-278. \\n24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 42.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 10.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1963.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"with an Interactive Computer Game. UbiComp 2006, \\n261-278. \\n24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \\nZimmerman, J. I’m the Mayor of My House: Examining \\nWhy People Use Foursquare-A Social-Driven Location \\nSharing Application. CHI 2011, 2409-2418. \\n25. Maitland, J. and Chalmers, M. Designing for Peer \\nInvolvement in Weight Management. CHI 2011, 315-324. \\n26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \\nRewards, Self-Monitoring, and Sharing to Motivate \\nPhysical Activity. PervasiveHealth 2012, 25-32. \\n27. Munson, S.A., Krupka, E., Richardson, C., and \\nResnick, P. Effects of Public Commitments and \\nAccountability in a Technology-Supported Physical \\nActivity Intervention. CHI 2015, 1135-1144. \\n28. Newman, M., Lauterbach, D., Munson, S.A., Resnick, \\nP., and Morris, M.E. “It’s not that I don't have \\nproblems, I'm just not putting them on Facebook”: \\nChallenges and Opportunities in Using Online Social \\nNetworks for Health. CSCW 2011, 341-350. \\n29. Olson, P. Wearable Tech is Plugging into Health \\nInsurance. Forbes. \\nhttp://www.forbes.com/sites/parmyolson/2014/06/19/ \\nwearable-tech-health-insurance/. \\n741\\nSESSION: PERSUASIVE AND PERSONAL\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 44.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 10.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''})]"
+        ]
+    },
+    "node_4": {
+        "node_id": 5,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content=\"Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\ncontributions through survey design and participant interviews. \\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\ndesign of visuals. This work is sponsored in part by the Intel \\nScience and Technology Center for Pervasive Computing, Nokia \\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\nunder awards OAI-1028195 and SCH-1344613. \\n740\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 40.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 9.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1990.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n13. Dawe, M. Desperately Seeking Simplicity: How \\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n16. Fritz, T., Huang, E.M., Murphy, G.C., and \\nZimmermann, T. Persuasive Technology in the Real \\nWorld\\u2009: A Study of Long-Term Use of Activity \\nSensing Devices for Fitness. CHI 2014, 487-496. \\n17. Hodges, S., Williams, L., Berry, E., Izadi, S., \\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \\nWood, K. SenseCam: A Retrospective Memory Aid. \\nUbiComp 2006, 177-193. \\n18. Humphreys, L. Mobile Social Networks and Social \\nPractice: A Case Study of Dodgeball. J Compu-Mediat \\nComm 13, (2007), 341-360. \\n19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A. \\nThere’s No Such Thing as Gaining a Pound: \\nReconsidering the Bathroom Scale User Interface. \\nUbiComp 2013, 401-410. \\n20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \\nD.A. Money Talks: Tracking Personal Finances. \\nCHI  2014, 521-530. \\n21. Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \\nPersonal Informatics Systems. CHI 2010, 557-566. \\n22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My \\nData, Myself: Supporting Self-Reflection with \\nUbicomp Technologies. UbiComp 2011, 405-414. \\n23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \\nStrub, H.B. Fish’n'Steps: Encouraging Physical Activity \\nwith an Interactive Computer Game. UbiComp 2006, \\n261-278. \\n24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 42.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 10.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1963.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"with an Interactive Computer Game. UbiComp 2006, \\n261-278. \\n24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \\nZimmerman, J. I’m the Mayor of My House: Examining \\nWhy People Use Foursquare-A Social-Driven Location \\nSharing Application. CHI 2011, 2409-2418. \\n25. Maitland, J. and Chalmers, M. Designing for Peer \\nInvolvement in Weight Management. CHI 2011, 315-324. \\n26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \\nRewards, Self-Monitoring, and Sharing to Motivate \\nPhysical Activity. PervasiveHealth 2012, 25-32. \\n27. Munson, S.A., Krupka, E., Richardson, C., and \\nResnick, P. Effects of Public Commitments and \\nAccountability in a Technology-Supported Physical \\nActivity Intervention. CHI 2015, 1135-1144. \\n28. Newman, M., Lauterbach, D., Munson, S.A., Resnick, \\nP., and Morris, M.E. “It’s not that I don't have \\nproblems, I'm just not putting them on Facebook”: \\nChallenges and Opportunities in Using Online Social \\nNetworks for Health. CSCW 2011, 341-350. \\n29. Olson, P. Wearable Tech is Plugging into Health \\nInsurance. Forbes. \\nhttp://www.forbes.com/sites/parmyolson/2014/06/19/ \\nwearable-tech-health-insurance/. \\n741\\nSESSION: PERSUASIVE AND PERSONAL\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 44.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 10.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''})]"
+        ],
+        "out_data": [
+            "HeartLink : Open Broadcast of Live Biometric Data to Social Networks, Desperately Seeking Simplicity: How Young Adults with Cognitive Disabilities and Their Families Adopt Assistive Technologies, Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data."
+        ]
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "publication year later than 2018"
+        ],
+        "out_data": [
+            "[Document(page_content=\"731\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 4.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 0.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1989.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\ncontributions through survey design and participant interviews. \\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\ndesign of visuals. This work is sponsored in part by the Intel \\nScience and Technology Center for Pervasive Computing, Nokia \\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\nunder awards OAI-1028195 and SCH-1344613. \\n740\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 40.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 9.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1990.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"Quicken (21), Mint (8), \\nSpreadsheets (7), \\nCredit Card tools (7) \\nLocation \\nN=83: 36 F, 46 M, \\n1 no answer \\n \\nAge: avg 30.75, \\nmin 19, max 70 \\n80 current (1.86) \\nFacebook (56), Instagram (23), \\nGoogle Latitude (19), Twitter (17), \\nFoursquare (16), FindMyFriends (8)\\n44 stopped (1.29) \\nFoursquare (24), Facebook (9), \\nGoogle Latitude (7), Instagram (5), \\nTwitter (5), FindMyFriends (4) \\nTable 1. We surveyed demographically diverse participants\\nusing a variety of tools in three distinct self-tracking domains.\\n734\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 16.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 3.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1979.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''})]"
+        ]
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content=\"731\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 4.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 0.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1989.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\ncontributions through survey design and participant interviews. \\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\ndesign of visuals. This work is sponsored in part by the Intel \\nScience and Technology Center for Pervasive Computing, Nokia \\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\nunder awards OAI-1028195 and SCH-1344613. \\n740\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 40.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 9.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1990.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''}), Document(page_content=\"Quicken (21), Mint (8), \\nSpreadsheets (7), \\nCredit Card tools (7) \\nLocation \\nN=83: 36 F, 46 M, \\n1 no answer \\n \\nAge: avg 30.75, \\nmin 19, max 70 \\n80 current (1.86) \\nFacebook (56), Instagram (23), \\nGoogle Latitude (19), Twitter (17), \\nFoursquare (16), FindMyFriends (8)\\n44 stopped (1.29) \\nFoursquare (24), Facebook (9), \\nGoogle Latitude (7), Instagram (5), \\nTwitter (5), FindMyFriends (4) \\nTable 1. We surveyed demographically diverse participants\\nusing a variety of tools in three distinct self-tracking domains.\\n734\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'author': 'An Ping Daniel A. Epstein', 'chunk_index': 16.0, 'creationDate': \"D:20150724092109-07'00'\", 'creator': 'PScript5.dll Version 5.2.2', 'file_path': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'format': 'PDF 1.7', 'keywords': '', 'modDate': \"D:20231228180912-08'00'\", 'page': 3.0, 'producer': 'Acrobat Distiller 11.0 (Windows); modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1979.0, 'subject': '', 'title': 'A Lived Informatics Model of Personal Informatics', 'total_pages': 12.0, 'trapped': ''})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ]
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            5,
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "['HeartLink\\u2009: Open Broadcast of Live Biometric Data to Social Networks, Desperately Seeking Simplicity: How Young Adults with Cognitive Disabilities and Their Families Adopt Assistive Technologies, Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data.', \"I don't know.\"]"
+        ],
+        "out_data": [
+            "To find the titles for papers related to AI and published after 2018, we can refer to the provided sub-answers. The titles of the papers that meet these criteria are: \n1. HeartLink: Open Broadcast of Live Biometric Data to Social Networks\n2. Desperately Seeking Simplicity: How Young Adults with Cognitive Disabilities and Their Families Adopt Assistive Technologies\n3. Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data.\n\nThese papers delve into various aspects related to AI and were published after the year 2018."
+        ]
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "end",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "To find the titles for papers related to AI and published after 2018, we can refer to the provided sub-answers. The titles of the papers that meet these criteria are: \n1. HeartLink: Open Broadcast of Live Biometric Data to Social Networks\n2. Desperately Seeking Simplicity: How Young Adults with Cognitive Disabilities and Their Families Adopt Assistive Technologies\n3. Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data.\n\nThese papers delve into various aspects related to AI and were published after the year 2018."
+        ],
+        "out_data": []
+    }
+}

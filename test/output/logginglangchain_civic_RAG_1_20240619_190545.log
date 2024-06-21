@@ -1,0 +1,92 @@
+2024-06-19 19:05:45,624 - root - INFO - folder_path: data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf
+2024-06-19 19:05:45,700 - root - INFO - Split 19 documents into 39 chunks
+2024-06-19 19:05:48,158 - root - INFO - question: How many statistical methods are used when processing data from user studies?
+2024-06-19 19:05:48,158 - root - INFO - sub_query_list: ['statistical methods used in processing data from user studies']
+2024-06-19 19:05:48,158 - root - INFO - len of sub_query_list: 1
+2024-06-19 19:05:50,638 - root - INFO - For sub_query: statistical methods used in processing data from user studies
+2024-06-19 19:05:50,638 - root - INFO - Using following chunks:
+2024-06-19 19:05:50,638 - root - INFO - chunk_index: [2.0, 5.0, 18.0]
+2024-06-19 19:05:50,639 - root - INFO - top1
+ retrieved_docs:
+ {'author': '', 'chunk_index': 2.0, 'creationDate': 'D:20180131165831Z', 'creator': 'LaTeX with hyperref package', 'file_path': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'format': 'PDF 1.5', 'keywords': 'Personalization;animation;emotion;engagement; empathy; self-reflection.', 'modDate': "D:20231228180916-08'00'", 'page': 0.0, 'producer': 'pdfTeX-1.40.17; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 3901.0, 'subject': '', 'title': 'SIGCHI Conference Proceedings Format', 'total_pages': 10.0, 'trapped': ''}
+ statistics are brought to life by a dynamic, emotional narrative,
+ ----------
+2024-06-19 19:05:50,639 - root - INFO - top2
+ retrieved_docs:
+ {'author': '', 'chunk_index': 5.0, 'creationDate': 'D:20180131165831Z', 'creator': 'LaTeX with hyperref package', 'file_path': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'format': 'PDF 1.5', 'keywords': 'Personalization;animation;emotion;engagement; empathy; self-reflection.', 'modDate': "D:20231228180916-08'00'", 'page': 1.0, 'producer': 'pdfTeX-1.40.17; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 1993.0, 'subject': '', 'title': 'SIGCHI Conference Proceedings Format', 'total_pages': 10.0, 'trapped': ''}
+ While physiological, behavioral and self-report data can be
+used to track user’s psychological processes [19], in this work,
+we use self-reported mood and behavior data for three reasons:
+First, we can avoid challenges in the interpretation of physiol-
+ogy data, such as the difﬁculty in distinguishing between joy
+and anger [3]; Second, users can recall and implicitly select
+the affective states they wish to have feedback on, which pro-
+motes mindfulness and awareness of their emotions [1]; Third,
+users are required to recall the past 24 hours every day, so their
+memory of the events should be relatively reliable [12].
+The goal of this project is to open up the design space where
+users’ mood and behavior data are relived in an emotional
+narrative, in order to maximize viewer’s self-compassion and
+motivation to maintain or change their behavior post viewing.
+We demonstrate in a one-week randomized control study that
+while both animation don’t involve a traditional "story" narra-
+tive, users are better at interpreting personalized animations
+compared to a generic animation; that users are able to connect
+to the animated agent, engage with the animated movies emo-
+tionally and constructively reﬂect on their mood and behavior
+patterns.
+Figure 1. A common story structure for animated feature ﬁlms. The
+rat, robot and clown ﬁsh characters are from Ratatouille (Pixar, 2007),
+Wall-E (Pixar, 2008) and Finding Nemo (Pixar, 2003).
+RELATED WORK
+This section summarizes previous research on designing HCI
+systems to reﬂect affective states and building motivational
+narratives for self-reﬂection and behavior change.
+Reﬂective Design
+Reﬂective design focuses on embedding unconscious cultural
+assumptions and values in the design of IT systems, in particu-
+lar to promote a user’s critical understanding of such values
+[26]. Höök proposed the concept of the affective loop expe-
+rience where the users are pulled into either virtual or bodily
+feedback loops to their own emotions [10].
+ ----------
+2024-06-19 19:05:50,639 - root - INFO - top3
+ retrieved_docs:
+ {'author': '', 'chunk_index': 18.0, 'creationDate': 'D:20180131165831Z', 'creator': 'LaTeX with hyperref package', 'file_path': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'format': 'PDF 1.5', 'keywords': 'Personalization;animation;emotion;engagement; empathy; self-reflection.', 'modDate': "D:20231228180916-08'00'", 'page': 4.0, 'producer': 'pdfTeX-1.40.17; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf', 'start_index': 0.0, 'subject': '', 'title': 'SIGCHI Conference Proceedings Format', 'total_pages': 10.0, 'trapped': ''}
+ protocol and recruitment process are pre-approved by the MIT
+Committee On the Use of Humans as Experimental Subjects
+(COUHES).
+We sent emails to university labs and dorms, recruiting 27 par-
+ticipants aged 18-36. Random assignment was made resulting
+in 13 of them assigned to the control group, and 14 to the per-
+sonalized group. One participant in the control group dropped
+out of the study and asked to have his/her data deleted. All
+participants took pre-study surveys including tests on person-
+ality, stress level and mental health status. Each day during the
+week, participants reported their daily mood and behavioral
+data through an online Google Forms survey.
+At the end of the week, participants received an animated
+movie through email, and were instructed to watch it. Mem-
+bers of the personalized group each received a story that was
+personalized according to each individual’s mood and behav-
+ioral data, while the control group receive a non-personalized
+animated video of the same length, featuring a corgi dog ren-
+dered from the same models. Considering that the one-line
+cues are part of the personalization package, they were only
+used in the personalized group. The control video is generated
+from real data of a preliminary study participant, showing the
+corgi dog running through a forest, facing a stressful rain of
+rocks, having one negative and one positive interaction with
+another dog and in the end running uphill on a good note.
+The control video was picked such that it features some ups
+and downs that all participants might relate to their surveyed
+experience.
+All participants were told the same story: that the video was
+customized to their mood and behavior data. After watching
+the videos, participants ﬁlled out an evaluation form. There
+were three questions that accepted free text-form responses,
+without prompting the participants with any of the researcher’s
+preconceptions such as "stress" or "social interaction":
+ ----------
+2024-06-19 19:05:52,096 - root - INFO - sub_answer: ['Statistical methods used in processing data from user studies include tracking physiological, behavioral, and self-report data to understand psychological processes. Self-reported mood and behavior data are utilized to avoid challenges in interpreting physiology data, promote mindfulness, and ensure reliable memory recall of past events. The goal is to create personalized animations that enhance self-compassion, motivation, and emotional connection for users in reflecting on their mood and behavior patterns.']
+2024-06-19 19:05:52,096 - root - INFO - final_answer: Statistical methods used when processing data from user studies involve tracking physiological, behavioral, and self-report data to comprehend psychological processes. The use of self-reported mood and behavior data is crucial to circumvent challenges in interpreting physiology data, encourage mindfulness, and ensure dependable memory recall of previous events. The ultimate objective is to develop personalized animations that boost self-compassion, motivation, and emotional connection for users as they reflect on their mood and behavior patterns.

@@ -1,0 +1,118 @@
+2024-06-19 19:05:57,110 - root - INFO - folder_path: data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf
+2024-06-19 19:05:57,231 - root - INFO - Split 27 documents into 49 chunks
+2024-06-19 19:05:59,961 - root - INFO - question: How many user studies are taken in the paper?
+2024-06-19 19:05:59,961 - root - INFO - sub_query_list: ['Number of user studies in the paper']
+2024-06-19 19:05:59,961 - root - INFO - len of sub_query_list: 1
+2024-06-19 19:06:02,010 - root - INFO - For sub_query: Number of user studies in the paper
+2024-06-19 19:06:02,010 - root - INFO - Using following chunks:
+2024-06-19 19:06:02,010 - root - INFO - chunk_index: [24.0, 45.0, 2.0]
+2024-06-19 19:06:02,010 - root - INFO - top1
+ retrieved_docs:
+ {'author': 'FirstName Surname†, FirstName Surname, FirstName Surname', 'chunk_index': 24.0, 'creationDate': 'D:20190206113848Z', 'creator': 'Microsoft® Word for Office 365', 'file_path': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'format': 'PDF 1.7', 'keywords': 'Insert keyword text, Insert keyword text, Insert keyword text, Insert keyword text', 'modDate': "D:20231228180902-08'00'", 'page': 7.0, 'producer': 'Microsoft® Word for Office 365; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0, 'subject': '• Insert CCS text here • Insert CCS text here   • Insert CCS text here', 'title': 'Insert Your Title Here', 'total_pages': 14.0, 'trapped': ''}
+ 5 STUDY 3 – SHORT FIELD STUDY 
+Kjeldskov and Skov [47] and Baillie and Schatz [6] 
+underline the importance of conducting short in situ 
+evaluations as lab-based ones could leave usability or UX 
+issues unrevealed. We, therefore, evaluated the app during 
+a short field study with UPs. When evaluating an app for 
+older adults with age-related macular degeneration, 
+Hakobyan et al. [26] conducted a preliminary 7 days 
+evaluation study before carrying on with a 6 weeks 
+longitudinal field one. Previous sensor research [34, 39] 
+found differences between weekdays and weekends and 
+recommend undertaking a study which lasts at least a week 
+(best 9-11 days) and collects both weekday and weekend 
+data. Given this, we ran the study for 9 days. 
+5.1 Methodology 
+The study was divided into three phases (Table 3) and 
+aimed to discover app usability issues, collect sensor data to 
+understand how people interact with the app in the field, 
+and understand if users’ design decisions from previous 
+studies hold when using the app in a real-life context. 
+Table 3. User Participants – Study 3 Structure. 
+Phase 
+Content 
+Phase 1 Set Up  
+App installation and usability 
+evaluation. 
+Phase 2 Field 
+Study 
+Nine days uncontrolled field study. 
+Phase 3 
+Uninstallation 
+App uninstallation and usability 
+evaluation. 
+We started by posting invitations on social media and flyers 
+around universities, libraries and leisure centers. We also 
+emailed prostate cancer support groups. As people were not 
+coming forward, we also advertised the study over the 
+radio. We recruited six UPs (UP15-20), three males and 
+three females, age range 26 – 66, mean age 54.6. Most UPs 
+(5/6) agreed or strongly agreed they were confident using a 
+smartphone. No UP was aware of other OAB apps. 
+The first phase was a face to face or Skype interview in 
+which the app was installed on UPs’ phone. After 
+installation, UPs were asked to interact with the app by
+ ----------
+2024-06-19 19:06:02,010 - root - INFO - top2
+ retrieved_docs:
+ {'author': 'FirstName Surname†, FirstName Surname, FirstName Surname', 'chunk_index': 45.0, 'creationDate': 'D:20190206113848Z', 'creator': 'Microsoft® Word for Office 365', 'file_path': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'format': 'PDF 1.7', 'keywords': 'Insert keyword text, Insert keyword text, Insert keyword text, Insert keyword text', 'modDate': "D:20231228180902-08'00'", 'page': 12.0, 'producer': 'Microsoft® Word for Office 365; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 1998.0, 'subject': '• Insert CCS text here • Insert CCS text here   • Insert CCS text here', 'title': 'Insert Your Title Here', 'total_pages': 14.0, 'trapped': ''}
+ Publication. 
+[42] Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge. Survey 
+research in HCI. Ways of Knowing in HCI. Springer, New York, NY, 
+2014. 229-266. 
+[43] My pelvic floor Fitness. 2016. http://www.lightsbytena.co.uk/my-
+pelvic-floor-fitness/app-info/ 
+[44] Tom Owen, Jennifer Pearson, Harold Thimbleby and George 
+Buchanan. 2015. ConCap: Designing to Empower Individual 
+Reflection on Chronic Conditions using Mobile Apps. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services. 
+[45] Jeni Paay, Jesper Kjeldskov, Umachanger Brinthaparan, Lars Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and Bernd Ploderer. 2014. Quitty: using technology to persuade 
+smokers to quit. In Proceedings of the 8th Nordic Conference on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM. 
+[46] Bernd Ploderer, Wally Smith, Jon Pearce and Ron Borland. 2014. A 
+mobile app offering distractions and tips to cope with cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2. 
+[47]  Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten years of mobile HCI research discussions on lab and field 
+evaluations. In: Proceedings of the 16th international conference on 
+Human-computer interaction with mobile devices & services. ACM. 
+[48]  Alessandro Puiatti, Steven Mudda, Silvia Giordano and Oscar 
+Mayora. 2011. Smartphone-centred wearable sensors network for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE. 
+[49]  William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1. 
+[50]  James A. Russell and Merry Bullock. 1985.Multidimensional scaling of
+ ----------
+2024-06-19 19:06:02,011 - root - INFO - top3
+ retrieved_docs:
+ {'author': 'FirstName Surname†, FirstName Surname, FirstName Surname', 'chunk_index': 2.0, 'creationDate': 'D:20190206113848Z', 'creator': 'Microsoft® Word for Office 365', 'file_path': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'format': 'PDF 1.7', 'keywords': 'Insert keyword text, Insert keyword text, Insert keyword text, Insert keyword text', 'modDate': "D:20231228180902-08'00'", 'page': 0.0, 'producer': 'Microsoft® Word for Office 365; modified using iText 4.2.0 by 1T3XT', 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0, 'subject': '• Insert CCS text here • Insert CCS text here   • Insert CCS text here', 'title': 'Insert Your Title Here', 'total_pages': 14.0, 'trapped': ''}
+ Study 1: requirements gathering interviews with all 
+stakeholders; Study 2: interviews whilst stakeholders 
+interacted with the proposed app prototype; and Study 3: 
+Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for profit or commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for components of this work owned by others than ACM 
+must be honored. Abstracting with credit is permitted. To copy otherwise, or 
+republish, to post on servers or to redistribute to lists, requires prior specific 
+permission and/or a fee. Request permissions from permissions@acm.org). 
+CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. 
+© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. 
+ACM ISBN 978-1-4503-5970-2/19/05...$15.00. 
+DOI: https://doi.org/10.1145/3290605.3300933 
+CHI 2019 Paper 
+ 
+CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK
+Paper 703
+Page 1
+ ----------
+2024-06-19 19:06:03,238 - root - INFO - sub_answer: ["The paper conducted one user study in the form of a short field study lasting nine days. Six user participants were recruited, and the study aimed to discover app usability issues, collect sensor data, and understand users' design decisions in a real-life context."]
+2024-06-19 19:06:03,239 - root - INFO - final_answer: Based on the information provided, the paper conducted one user study. This user study took the form of a short field study that lasted nine days. Six user participants were recruited for this study, which aimed to discover app usability issues, collect sensor data, and understand users' design decisions in a real-life context.
