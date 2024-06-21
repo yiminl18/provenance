@@ -1,0 +1,161 @@
+[
+    {
+        "node_id": 0,
+        "node_name": "Start",
+        "in_nodes": [],
+        "out_nodes": [
+            1,
+            2
+        ],
+        "in_data": [],
+        "out_data": []
+    },
+    {
+        "node_id": 1,
+        "node_name": "SHT",
+        "in_nodes": [
+            0
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ],
+        "out_data": [
+            "tuple 0:/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ]
+    },
+    {
+        "node_id": 2,
+        "node_name": "Tabular",
+        "in_nodes": [
+            0
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ],
+        "out_data": [
+            "tuple 0:/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ]
+    },
+    {
+        "node_id": 3,
+        "node_name": "select",
+        "in_nodes": [
+            1,
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "",
+            "tuple 0:/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ],
+        "out_data": [
+            "Is the publication year of paper larger than 2015 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\ntuple 0:/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ]
+    },
+    {
+        "node_id": 4,
+        "node_name": "filter",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "1: Abstract. \nABSTRACT \nWe  present  a  qualitative  content  analysis  of  visual-verbal \nsocial  media  posts,  where  ordinary  dog  owners  pretend  to \nbe their canine, to identify meaningful facets in their dogs\u2019 \nlife-worlds,  e.g.  pleasures  of  human-dog  relation,  dog-dog \nrelations, food etc. We  suggest  that \ndog owners whom share their lives with their dogs already \npossess  a  similar  understanding  as  these  experts,  and  thus \nuphold  important  experiences  of  canine  life  that  could  be \nused to understand individual dogs and inspire design. It \nimplies  to  understand  animals  by  empathizing  with  their \nbodily  movements  over  time  and  decoding  the  realities  of \ntheir  life-worlds.The study targets a general problem in \nAnimal-Computer Interaction (ACI), i.e.Several approaches, e.g.ethnography \nand participatory design, have been appropriated from HCI \nwithout \nexhausting \nthe \nissue.. \n2: Author Keywords. \nAuthor Keywords \nAnimal-Computer Interaction; Quantified Pets; Dog Blogs; \nSocial Media; Kinesthetic Empathy; Pet Dogs;Author Keywords \nAnimal-Computer Interaction; Quantified Pets; Dog Blogs; \nSocial Media; Kinesthetic Empathy; Pet Dogs;. \n3: ACM Classification Keywords. \nACM Classification Keywords  \nH5.m.  Information  interfaces  and  presentation  (e.g.,  HCI): \nMiscellaneous.  ACM Classification Keywords  \nH5.m.Information interfaces and presentation (e.g., HCI): \nMiscellaneous.. \n4: Introduction. \nA  similar  approach \nautoethnographic  work  and  his \nidea  of  \u201ckinesthetic \nempathy\u201d  [48],  in  which  a  person  attempts  to  empathize \nwith  an  animal  by  understanding  their  bodily  experiences \nover  time  and  their  personal  history,  and  then  tries  to \nunderstand  the  human-dog  relationship  from  the  dogs \nperspective  (rather  than  the  other  way  around).  Such  an \napproach,  where  understanding  rests  on  long  term  and \nsituated  experiences,  could  be  fruitful  to  generate  design is  found ideas  about  what  matters  for  animals  and  what  they \npossibly could  find important. In  HCI,  there  is  a  growing  body  of  research  on  Animal-\nComputer  Interaction  (ACI)  where  the  specific  concern  of \nwidening  the  design  scope  in  \u201cquantified  pets\u201d  has  been \nacknowledged (e.g. [25, 41, 43, 44]) and problematized [28, \n29,  34].  From  a  critical  perspective  it  is  argued  that  such \ntechnology  can  risk  to  decrease  or  even  replace  owners\u2019 \nability  to  interpret  their  dogs\u2019  behavior,  and  consequently \ndisrupt  human-animal  relationships  and  animal  welfare  \n \n \n \n\f[28]. Ideas  for  such  systems  tend  to  be \ngenerated  from  interviews  with  dog  owners  about  their Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear  this  notice  and  the  full  citation  on  the  first  page.  ACM ISBN 978-1-4503-6437-9/18/09\u2026$15.00 \nhttps://doi.org/10.1145/3240167.3240226[25, 41, 43, 44]) and problematized [28, \n29, 34].[19, 39, 49]).. \n5: Related Work. \n and  video \nanalysis  risks  missing  experiential  aspects,  which  are  not \nempirically  available  in  interaction.  Interviews  with  e.g. \ndog  owners  (e.g.  [28,  43,  44])  is  a  commonly  applied \nmethod,  but it  risk to  provide  more  or less  anthropocentric \ngeneralizations  with  limited  value  of  design,  or  not  being \nvalid descriptions.  time, the suggests the  user learn  about This  is  something  that  is \nshared  by  ethnomethodology  (e.g.  [2;  16]),  where  the \nsubjective lifeworlds of actors (in terms of e.g. experiences \nand  intentions)    are  not  restricted  to  being  inside  their \nheads,  but  emerges  and  is  exposed  in  regular  interactions, \nby  paying  close  attention  to  the  bodily  details.  Such \naccounts  on  human-animal  interaction  have  previously \nfocused on leashed interaction [2, 27] and play [16]. A  small  number  of  studies  in  ACI  focus  on  the  topic  of \nunpacking  animal  practices  e.g  ethnographic  observations \nof  hunting  [3,  52]  and  video  analysis  of  dog  walking  [2]. \nTaken  together,  these  studies  reveal  interesting  aspects  of, \nlife.The latter two papers (i.e.All contributions \nare of course legitimate since the challenge is hard.In another paper [29], Lawson et al.. \n6: Method and Setting. \nIn this \npaper, we have bracketed such ambitions and restricted our \ninvestigation  to  explore  what  core  facets  in  the  dogs \nlifeworlds  that  can  be  identified  in  these  posts  when  the \nmost  obvious  layer  of  anthropomorphism  is  unwrapped. \nThis  focus  is  chosen  in  alignment  with  the  ambition  to \ngenerate ideas and topics for \u201cquantified pets\u201d grounded in \nwhat  may  be  interesting  and  meaningful  in  the  dogs \nlifeworlds as imagined by their human caretaker. One \nthird  (33  per  cent)  reported  that  post  about  their  pets  as \nmuch as they do about their human family, and 13 percent \nadmitted to posting about their pets even more than they do \nabout their  human  family.  Different  hashtags  on  Instagram \ncan also give an indication of the phenomenon\u2019s proportion, \ne.g.  #dogblog  and  #dogsofinstagram  had  about  200  000 \frespectively  over  100  million  posts  by  the  end  of  June \n2018. \nThe phenomenon  sometimes  called \u201csocial  petworking\u201d  or \n\u201cdog  blogging\u201d,  where  dog  owners  create  a  social  media \nprofile  for  their  pet  and  imagine  life  from  their  point  of \nview,  is  a  popular  trend  on  e.g.  Instagram  and  Facebook.Rather, they could \nbenefit from it given the aim of this paper and ACI as a \nfield.With \nthis technique we could capture posts filed under several \nrelevant hashtags.It seemed that \na large variety of hashtags was used for this phenomenon.. \n7: Results and Findings. \nExamples  of  the  former  includes  e.g.  walking,  running, \nstanding  still,  and  for  latter  e.g.  sitting,  lying,  carried  by human. In the images these where usually easy to identify, \nand  in  the  captions,  these  could  be  exaggerated  as  when  a \njumping  dog  is  referred  to  as  flying  or  when  a  posture  is \ninterpreted  as  posing.  Exaggerations  tended  to  increase  in \nthe commentary thread and confirm the original caption and \ncould  end  up  in  a  dog  having  their  own  airline  or  being  a \npilot. could  also  include  interpretations  on  the  dogs\u2019  attitudes \ntowards the weather. Which, for example, can be illustrated \nby  an  image  of  a  dog  standing  on  the  hind  legs  with  the \nfront paws on the owner\u2019s knee with the caption \u201cEnjoying  \n \n \n \n \n \n\fthe lovely 70F weather!\u201d, or a dog lying in the shade on the \ngrass together with a dog friend with the caption \u201cTrying to \nbeat  the  summer  heat!\u201d.  It  could  also  access  with \ninformation on the dogs imagined attitudes towards e.g. wet \npaws. As in the post with an image of a dog during an early \nmorning  walk  with  the  caption:  \u201cWhen  you  have  to  get  to \nthe park sooo early in the morning before other dogs show \nup  that  the  sprinklers  are  still  going  and  the  pavement  is \nstill wet. In  a  few  posts, \nthe  situations  were  unnatural  and \nexaggeratedly  staged  by  the  humans,  such  as  in  posts  of  a \ndog in a bath tub with the caption: \u201cI like to unwind with a \nlong hot bath and a glass of pinot grigio\u201d, or an image of a \ndog  lying  on  the  back  in  an  armchair  with  a  book  on  his \nchest  and a  half  empty  glass of  wine  on  the table  with  the \ncaption:  \u201cBecause  ma  took  too  long  to  get  ready\u201d.  past, present and future) was only \ndepicted in the written text.- Past \n- Present \n- Futurethe lovely 70F weather!\u201d, or a dog lying in the shade on the \ngrass together with a dog friend with the caption \u201cTrying to \nbeat the summer heat!\u201d.. \n8: Discussion. \nThe  captions  seem  to  a  large  extent  be \ngrounded,  or  at  least  they  refer  to,  bodily  aspects  such  as \npostures,  movement,  and  facial  expressions  of  the  dogs. \nThey are also understood in a context to, e.g. what they are \ndoing  (i.e.  situational  and  activity  facets),  where  they  are \n(i.e.  physical  facets),  whom  they  are  with  (i.e.  relational \nfacets).   The \ndogs experience  (i.e. inner facets) of  all  these facets in  the \ndogs\u2019  life  worlds,  e.g.  what  they  are  thinking  and  feeling \ntowards  the  specific  places,  things,  dogs,  their  caretaker  or \nother  people  etc.  either  seem  to  be  interpreted  based  on \nbodily  movement,  postures  and  expressions  with  a \nhistorical  awareness  of  previous  experiences. The blog posts are to a large extent \npermeated  with  joyful  and  humoristic  anthropomorphism, \nnoticeably  in  combination  with  a  large  dose  of  love  and \naffection  for  the  dogs  -  both  by  the  owners  pretending  to \ntheir  dogs  and  in  comments  and  likes  from  other  dog  and \nhuman  profiles.Temporality is \nobviously measured by a clock.Importantly, our study does not specify the \napplications in detail.Wi-Fi, \nBluetooth or NFC.. \n9: Conclusion. \nQuantified  pet  technologies  could  further \nincrease  such  knowledge  about  individual  dogs  for  the \nowners  and  provide  means  for  reflection  about  dog\u2019s  life, \nwhich  in  turn  can  re-configure  their  everyday  lives  and \nrelationships. A \nway  forward  is  to  piggy-back  on  those  accounts  in  social \nmedia  where  the  caretakers  acts  out  as  animals  by \ninterpreting  the  subjective  lifeworlds  of  their  dogs. By \ntaking  part  of  ordinary  dog  owners  that  have  an  intimate \nday-to-day  relation  with  their  dogs,  and  their  spontaneous \nreflections in social media about their dogs\u2019 lives from their \ndogs\u2019  perspectives,  we  can  We are faced \nwith a challenge to design for users that cannot speak with \nhuman.This situation is also reflected \nin the design of \u201cquantified pets\u201d technology.Quantified pet technologies could further \nincrease such knowledge about individual dogs for the \nowners and provide means for reflection about dog\u2019s life, \nwhich in turn can re-configure their everyday lives and \nrelationships.. \n10: Acknowledgments. \nThis  work  was  partly  funded  by Business  Finland  in  Turre \nand Toivoset 2.0 project. 12.  Marta Dynel. In: \nInternational Journal of Communication, 10, 660\u2013688.ACKNOWLEDGMENTS \nThis work was partly funded by Business Finland in Turre \nand Toivoset 2.0 project.. \n11: References. \nIn: Proceedings of the 12th \nInternational Conference on Human Computer \nInteraction with Mobile Devices and Services \n(CHI\u201910). In: Proceedings of the 13th \nInternational Conference on Human Computer \nInteraction with Mobile Devices and Services \n(MobileHCI '11). In Robert W. \nMitchell, Nicholas S. Thompson, and H. Lyn Miles \n(Eds.), Anthropomorphism, anecdotes and animals, pp. \n407-427.2015.2013.2014.. \n12: front. \nUnderstanding Animals: A Critical Challenge in ACI Fredrik Aspling \nDepartment of Computer and \nSystems Sciences \nStockholm University, Sweden \naspling@dsv.su.se Oskar Juhlin \nDepartment of Computer and \nSystems Sciences \nStockholm University, Sweden \noskarj@dsv.su.se Heli V\u00e4\u00e4t\u00e4j\u00e4 \nTampere University of \nTechnology \nTampere, Finland \nheli.vaataja@uta.fi. \n"
+        ],
+        "out_data": [
+            "The following are a list of texts describing portion in a paper. Each portion starts with a ID number. ONLY Return a list of IDs whose text portions are related with given question: Is the publication year of paper larger than 2015 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\"., seperated by comma. Example, 1,2,3. If there is no matched text portions, return NONE. \n4,6"
+        ]
+    },
+    {
+        "node_id": 5,
+        "node_name": "eval",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "4,6"
+        ],
+        "out_data": [
+            "Is the publication year of paper larger than 2015 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 6,
+        "node_name": "select",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            [
+                "Is the publication year of paper larger than 2015 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+            ]
+        ],
+        "out_data": [
+            "Is the number of authors of paper smaller than 5 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\ntuple 0:/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/paper/extracted_data/Understanding Animals: A Critical Challenge in ACI.txt\n"
+        ]
+    },
+    {
+        "node_id": 7,
+        "node_name": "filter",
+        "in_nodes": [
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "1: Abstract. \nABSTRACT \nWe  present  a  qualitative  content  analysis  of  visual-verbal \nsocial  media  posts,  where  ordinary  dog  owners  pretend  to \nbe their canine, to identify meaningful facets in their dogs\u2019 \nlife-worlds,  e.g.  pleasures  of  human-dog  relation,  dog-dog \nrelations, food etc. We  suggest  that \ndog owners whom share their lives with their dogs already \npossess  a  similar  understanding  as  these  experts,  and  thus \nuphold  important  experiences  of  canine  life  that  could  be \nused to understand individual dogs and inspire design. It \nimplies  to  understand  animals  by  empathizing  with  their \nbodily  movements  over  time  and  decoding  the  realities  of \ntheir  life-worlds.Several approaches, e.g.The study targets a general problem in \nAnimal-Computer Interaction (ACI), i.e.We use this knowledge to inform design \nof \u201cquantified pets\u201d.. \n2: Author Keywords. \nAuthor Keywords \nAnimal-Computer Interaction; Quantified Pets; Dog Blogs; \nSocial Media; Kinesthetic Empathy; Pet Dogs;Author Keywords \nAnimal-Computer Interaction; Quantified Pets; Dog Blogs; \nSocial Media; Kinesthetic Empathy; Pet Dogs;. \n3: ACM Classification Keywords. \nACM Classification Keywords  \nH5.m.  Information  interfaces  and  presentation  (e.g.,  HCI): \nMiscellaneous.  ACM Classification Keywords  \nH5.m.Information interfaces and presentation (e.g., HCI): \nMiscellaneous.. \n4: Introduction. \nA  similar  approach \nautoethnographic  work  and  his \nidea  of  \u201ckinesthetic \nempathy\u201d  [48],  in  which  a  person  attempts  to  empathize \nwith  an  animal  by  understanding  their  bodily  experiences \nover  time  and  their  personal  history,  and  then  tries  to \nunderstand  the  human-dog  relationship  from  the  dogs \nperspective  (rather  than  the  other  way  around).  Such  an \napproach,  where  understanding  rests  on  long  term  and \nsituated  experiences,  could  be  fruitful  to  generate  design is  found ideas  about  what  matters  for  animals  and  what  they \npossibly could  find important. In  HCI,  there  is  a  growing  body  of  research  on  Animal-\nComputer  Interaction  (ACI)  where  the  specific  concern  of \nwidening  the  design  scope  in  \u201cquantified  pets\u201d  has  been \nacknowledged (e.g. [25, 41, 43, 44]) and problematized [28, \n29,  34].  From  a  critical  perspective  it  is  argued  that  such \ntechnology  can  risk  to  decrease  or  even  replace  owners\u2019 \nability  to  interpret  their  dogs\u2019  behavior,  and  consequently \ndisrupt  human-animal  relationships  and  animal  welfare  \n \n \n \n\f[28]. Ideas  for  such  systems  tend  to  be \ngenerated  from  interviews  with  dog  owners  about  their Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear  this  notice  and  the  full  citation  on  the  first  page.  [19, 39, 49]).ACM ISBN 978-1-4503-6437-9/18/09\u2026$15.00 \nhttps://doi.org/10.1145/3240167.3240226[25, 41, 43, 44]) and problematized [28, \n29, 34].. \n5: Related Work. \n and  video \nanalysis  risks  missing  experiential  aspects,  which  are  not \nempirically  available  in  interaction.  Interviews  with  e.g. \ndog  owners  (e.g.  [28,  43,  44])  is  a  commonly  applied \nmethod,  but it  risk to  provide  more  or less  anthropocentric \ngeneralizations  with  limited  value  of  design,  or  not  being \nvalid descriptions.  time, the suggests the  user learn  about This  is  something  that  is \nshared  by  ethnomethodology  (e.g.  [2;  16]),  where  the \nsubjective lifeworlds of actors (in terms of e.g. experiences \nand  intentions)    are  not  restricted  to  being  inside  their \nheads,  but  emerges  and  is  exposed  in  regular  interactions, \nby  paying  close  attention  to  the  bodily  details.  Such \naccounts  on  human-animal  interaction  have  previously \nfocused on leashed interaction [2, 27] and play [16]. A  small  number  of  studies  in  ACI  focus  on  the  topic  of \nunpacking  animal  practices  e.g  ethnographic  observations \nof  hunting  [3,  52]  and  video  analysis  of  dog  walking  [2]. \nTaken  together,  these  studies  reveal  interesting  aspects  of, \nlife.All contributions \nare of course legitimate since the challenge is hard.The latter two papers (i.e.In another paper [29], Lawson et al.. \n6: Method and Setting. \nIn this \npaper, we have bracketed such ambitions and restricted our \ninvestigation  to  explore  what  core  facets  in  the  dogs \nlifeworlds  that  can  be  identified  in  these  posts  when  the \nmost  obvious  layer  of  anthropomorphism  is  unwrapped. \nThis  focus  is  chosen  in  alignment  with  the  ambition  to \ngenerate ideas and topics for \u201cquantified pets\u201d grounded in \nwhat  may  be  interesting  and  meaningful  in  the  dogs \nlifeworlds as imagined by their human caretaker. One \nthird  (33  per  cent)  reported  that  post  about  their  pets  as \nmuch as they do about their human family, and 13 percent \nadmitted to posting about their pets even more than they do \nabout their  human  family.  Different  hashtags  on  Instagram \ncan also give an indication of the phenomenon\u2019s proportion, \ne.g.  #dogblog  and  #dogsofinstagram  had  about  200  000 \frespectively  over  100  million  posts  by  the  end  of  June \n2018. \nThe phenomenon  sometimes  called \u201csocial  petworking\u201d  or \n\u201cdog  blogging\u201d,  where  dog  owners  create  a  social  media \nprofile  for  their  pet  and  imagine  life  from  their  point  of \nview,  is  a  popular  trend  on  e.g.  Instagram  and  Facebook.A \nrandomized sample of 10 % of the coded material was \nexamined for intercoder reliability with the three \ncollaborating researchers using Fleiss\u2019 kappa, \u03ba = 0.831, \nwhich denotes an almost perfect agreement [26, p. 165].Still, we have excluded profile names, images, and \nother personal information to strengthen anonymity.[5]).. \n7: Results and Findings. \nExamples  of  the  former  includes  e.g.  walking,  running, \nstanding  still,  and  for  latter  e.g.  sitting,  lying,  carried  by human. In the images these where usually easy to identify, \nand  in  the  captions,  these  could  be  exaggerated  as  when  a \njumping  dog  is  referred  to  as  flying  or  when  a  posture  is \ninterpreted  as  posing.  Exaggerations  tended  to  increase  in \nthe commentary thread and confirm the original caption and \ncould  end  up  in  a  dog  having  their  own  airline  or  being  a \npilot. could  also  include  interpretations  on  the  dogs\u2019  attitudes \ntowards the weather. Which, for example, can be illustrated \nby  an  image  of  a  dog  standing  on  the  hind  legs  with  the \nfront paws on the owner\u2019s knee with the caption \u201cEnjoying  \n \n \n \n \n \n\fthe lovely 70F weather!\u201d, or a dog lying in the shade on the \ngrass together with a dog friend with the caption \u201cTrying to \nbeat  the  summer  heat!\u201d.  It  could  also  access  with \ninformation on the dogs imagined attitudes towards e.g. wet \npaws. As in the post with an image of a dog during an early \nmorning  walk  with  the  caption:  \u201cWhen  you  have  to  get  to \nthe park sooo early in the morning before other dogs show \nup  that  the  sprinklers  are  still  going  and  the  pavement  is \nstill wet. In  a  few  posts, \nthe  situations  were  unnatural  and \nexaggeratedly  staged  by  the  humans,  such  as  in  posts  of  a \ndog in a bath tub with the caption: \u201cI like to unwind with a \nlong hot bath and a glass of pinot grigio\u201d, or an image of a \ndog  lying  on  the  back  in  an  armchair  with  a  book  on  his \nchest  and a  half  empty  glass of  wine  on  the table  with  the \ncaption:  \u201cBecause  ma  took  too  long  to  get  ready\u201d.  past, present and future) was only \ndepicted in the written text.It could also be different types of invitations, or \ncomments supporting the utterances in the original caption.single dog, dog-human, dog-dog).. \n8: Discussion. \nThe  captions  seem  to  a  large  extent  be \ngrounded,  or  at  least  they  refer  to,  bodily  aspects  such  as \npostures,  movement,  and  facial  expressions  of  the  dogs. \nThey are also understood in a context to, e.g. what they are \ndoing  (i.e.  situational  and  activity  facets),  where  they  are \n(i.e.  physical  facets),  whom  they  are  with  (i.e.  relational \nfacets).   The \ndogs experience  (i.e. inner facets) of  all  these facets in  the \ndogs\u2019  life  worlds,  e.g.  what  they  are  thinking  and  feeling \ntowards  the  specific  places,  things,  dogs,  their  caretaker  or \nother  people  etc.  either  seem  to  be  interpreted  based  on \nbodily  movement,  postures  and  expressions  with  a \nhistorical  awareness  of  previous  experiences. The blog posts are to a large extent \npermeated  with  joyful  and  humoristic  anthropomorphism, \nnoticeably  in  combination  with  a  large  dose  of  love  and \naffection  for  the  dogs  -  both  by  the  owners  pretending  to \ntheir  dogs  and  in  comments  and  likes  from  other  dog  and \nhuman  profiles.Importantly, our study does not specify the \napplications in detail.RFID technology.activities, places, or \nsocial relations, would of course be fruitful knowledge for \nthe dog owners.. \n9: Conclusion. \nQuantified  pet  technologies  could  further \nincrease  such  knowledge  about  individual  dogs  for  the \nowners  and  provide  means  for  reflection  about  dog\u2019s  life, \nwhich  in  turn  can  re-configure  their  everyday  lives  and \nrelationships. A \nway  forward  is  to  piggy-back  on  those  accounts  in  social \nmedia  where  the  caretakers  acts  out  as  animals  by \ninterpreting  the  subjective  lifeworlds  of  their  dogs. By \ntaking  part  of  ordinary  dog  owners  that  have  an  intimate \nday-to-day  relation  with  their  dogs,  and  their  spontaneous \nreflections in social media about their dogs\u2019 lives from their \ndogs\u2019  perspectives,  we  can  We are faced \nwith a challenge to design for users that cannot speak with \nhuman.This situation is also reflected \nin the design of \u201cquantified pets\u201d technology.Our \nsuggestion is to turn towards those humans that live closely \nwith the animals, but not just interview them.. \n10: Acknowledgments. \nThis  work  was  partly  funded  by Business  Finland  in  Turre \nand Toivoset 2.0 project. 12.  Marta Dynel. In: \nInternational Journal of Communication, 10, 660\u2013688.ACKNOWLEDGMENTS \nThis work was partly funded by Business Finland in Turre \nand Toivoset 2.0 project.. \n11: References. \nIn: Proceedings of the 12th \nInternational Conference on Human Computer \nInteraction with Mobile Devices and Services \n(CHI\u201910). In: Proceedings of the 13th \nInternational Conference on Human Computer \nInteraction with Mobile Devices and Services \n(MobileHCI '11). In Robert W. \nMitchell, Nicholas S. Thompson, and H. Lyn Miles \n(Eds.), Anthropomorphism, anecdotes and animals, pp. \n407-427.5.Elisabeth A. Bruno, James W. Guthrie, Stephan A. \nEllwood, Richard J. Mellanby, and Dylan N. Clements.ACM, New York, NY, USA, \nArticle 2, 12 pages.. \n12: front. \nUnderstanding Animals: A Critical Challenge in ACI Fredrik Aspling \nDepartment of Computer and \nSystems Sciences \nStockholm University, Sweden \naspling@dsv.su.se Oskar Juhlin \nDepartment of Computer and \nSystems Sciences \nStockholm University, Sweden \noskarj@dsv.su.se Heli V\u00e4\u00e4t\u00e4j\u00e4 \nTampere University of \nTechnology \nTampere, Finland \nheli.vaataja@uta.fi. \n"
+        ],
+        "out_data": [
+            "The following are a list of texts describing portion in a paper. Each portion starts with a ID number. ONLY Return a list of IDs whose text portions are related with given question: Is the number of authors of paper smaller than 5 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\"., seperated by comma. Example, 1,2,3. If there is no matched text portions, return NONE. \n12"
+        ]
+    },
+    {
+        "node_id": 8,
+        "node_name": "eval",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [
+            9
+        ],
+        "in_data": [
+            "12"
+        ],
+        "out_data": [
+            "Is the number of authors of paper smaller than 5 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 9,
+        "node_name": "projection",
+        "in_nodes": [
+            8
+        ],
+        "out_nodes": [
+            10
+        ],
+        "in_data": [
+            "Is the number of authors of paper smaller than 5 in current paper? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ],
+        "out_data": [
+            "Return the name of paper.\nUnderstanding Animals: A Critical Challenge in ACI.txt"
+        ]
+    }
+]
