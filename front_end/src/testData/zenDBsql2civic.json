@@ -1,0 +1,781 @@
+[
+    {
+        "node_id": 0,
+        "node_name": "Start",
+        "in_nodes": [],
+        "out_nodes": [
+            1,
+            2
+        ],
+        "in_data": [],
+        "out_data": []
+    },
+    {
+        "node_id": 1,
+        "node_name": "SHT",
+        "in_nodes": [
+            0
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/civic/extracted_data/malibucity_agenda__04282021-1687.txt\n"
+        ],
+        "out_data": []
+    },
+    {
+        "node_id": 2,
+        "node_name": "Tabular",
+        "in_nodes": [
+            0
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/civic/extracted_data/malibucity_agenda__04282021-1687.txt\n"
+        ],
+        "out_data": [
+            "tuple 0:Marie Canyon Green Streets\ntuple 1:PCH Median Improvements Project\ntuple 2:PCH Signal Synchronization System Improvements Project\ntuple 3:Civic Center Stormwater Diversion Structure\ntuple 4:Westward Beach Road Improvements Project\ntuple 5:Civic Center Water Treatment Facility Phase 2\ntuple 6:Malibu Park Drainage Improvements\ntuple 7:Annual Street Maintenance\ntuple 8:City Hall Roof Replacement\ntuple 9:Bluffs Park Workout Station\ntuple 10:Civic Center Way Improvements\ntuple 11:Bluffs Park Shade Structure\ntuple 12:Vehicle Protection Devices\ntuple 13:Malibu Road Slope Repairs\ntuple 14:Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\ntuple 15:Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\ntuple 16:Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\ntuple 17:Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\ntuple 18:Birdview Avenue Improvements (CalOES Project)\ntuple 19:Outdoor Warning Sirens (FEMA Project)\ntuple 20:Guardrail Replacement Citywide (FEMA Project)\ntuple 21:Corral Canyon Road Bridge Repairs (FEMA Project)\ntuple 22:Corral Canyon Culvert Repairs (FEMA Project)\ntuple 23:Clover Heights Storm Drain (FEMA Project)\ntuple 24:Latigo Canyon Road Culvert Repairs (FEMA Project)\ntuple 25:Encinal Canyon Road Drainage Improvements (CalOES Project)\ntuple 26:Storm Drain Master Plan (FEMA Project)\n"
+        ]
+    },
+    {
+        "node_id": 3,
+        "node_name": "eval",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "Marie Canyon Green Streets,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nMarie Canyon Green Streets\n(cid:190) Updates:(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.(cid:190) Project Schedule:(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 4,
+        "node_name": "eval",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "PCH Median Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nPCH Median Improvements Project(cid:190) Updates:(cid:131) Consultant is working on the final design. In March, the City be seeking\nproposals from consultants to perform construction management.(cid:190) Project Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021Page 1 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 5,
+        "node_name": "eval",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "PCH Signal Synchronization System Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \n\nPCH Signal Synchronization System Improvements Project(cid:190) Updates:(cid:131) 65% design package was submitted to Caltrans in November 2020 andwe are still awaiting comments to those plans.\n(cid:131) Consultant is working on final design documents.(cid:190) Project Schedule:(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 6,
+        "node_name": "eval",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "Civic Center Stormwater Diversion Structure,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nCivic Center Stormwater Diversion Structure(cid:190) Updates:(cid:131) A Los Angeles County Flood Control maintenance agreement is\nrequired for this project. Staff is waiting for the County\u2019s approval of\nthe agreement.(cid:190) Project Schedule:(cid:131) Final Design: Completed. Awaiting approved maintenance agreementfrom the County.(cid:131) Begin Construction: Estimated Summer 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 7,
+        "node_name": "eval",
+        "in_nodes": [
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "Westward Beach Road Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nWestward Beach Road Improvements Project(cid:190) Updates:(cid:131) The project requires coordination with Los Angeles County Beaches\nand Harbor. Staff is working out the final details of the project with the\nCounty and will be finalizing the design.(cid:190) Project Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 8,
+        "node_name": "eval",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [
+            9
+        ],
+        "in_data": [
+            "Civic Center Water Treatment Facility Phase 2,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nCivic Center Water Treatment Facility Phase 2(cid:190) Updates:(cid:131) Project is at the 65% design phase.\n(cid:131) The City obtained a project CDP from Planning Commission onFebruary 1, 2021.(cid:131) The State is reviewing the City\u2019s application for the State RevolvingFund program.(cid:131) The project assessment engineer has begun the process of evaluatingthe project costs.(cid:131) Staff is rescheduling the community meeting to May 2021.(cid:190) Project Schedule:(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022Page 2 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 9,
+        "node_name": "eval",
+        "in_nodes": [
+            8
+        ],
+        "out_nodes": [
+            10
+        ],
+        "in_data": [
+            "Malibu Park Drainage Improvements,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nMalibu Park Drainage Improvements(cid:190) Updates:(cid:131) Staff made minor modifications to the project plans to reduce theoverall project costs.(cid:131) Project is out to bid with bids due April 21, 2021.(cid:190) Project Schedule:(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 10,
+        "node_name": "eval",
+        "in_nodes": [
+            9
+        ],
+        "out_nodes": [
+            11
+        ],
+        "in_data": [
+            "Annual Street Maintenance,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nAnnual Street Maintenance(cid:190) Project Description: This project provides for the reconstruction andmaintenance of City streets.(cid:190) Estimated Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021Capital Improvement Projects (Construction)"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 11,
+        "node_name": "eval",
+        "in_nodes": [
+            10
+        ],
+        "out_nodes": [
+            12
+        ],
+        "in_data": [
+            "City Hall Roof Replacement,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nCity Hall Roof Replacement(cid:190) Updates: City staff continues to review project related material submittals.\nOnce submittals are approved, all materials will be ordered and shipped to\nthe project site. The roof ISO board membrane is on back order due to the\nrecent storms in Texas which halted manufacturing. The estimated material\narrival and start date is the middle of May.\n(cid:190) Project Schedule: May 2021 through July 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 12,
+        "node_name": "eval",
+        "in_nodes": [
+            11
+        ],
+        "out_nodes": [
+            13
+        ],
+        "in_data": [
+            "Bluffs Park Workout Station,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nBluffs Park Workout Station(cid:190) Updates: The contractor has completed and installed all the new workout\nequipment and rubber surfacing. Remaining work includes punch list items\nonly.(cid:190) Project Schedule: Estimated completion date is April 2021."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 13,
+        "node_name": "eval",
+        "in_nodes": [
+            12
+        ],
+        "out_nodes": [
+            14
+        ],
+        "in_data": [
+            "Civic Center Way Improvements,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nCivic Center Way Improvements(cid:190) Updates:(cid:131) Work Hours: Monday through Friday 7:00AM to 4:00PM, Saturdays7:00AM to 4:00PM(cid:131) Civic Center Way was reopened to the public on April 8th. While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures). The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.(cid:190) Project Schedule: August 2020 through April 2021Page 3 of 6Agenda Item # 4.A.\nCapital Improvement Projects (Not Started)"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 14,
+        "node_name": "eval",
+        "in_nodes": [
+            13
+        ],
+        "out_nodes": [
+            15
+        ],
+        "in_data": [
+            "Bluffs Park Shade Structure,Capital Improvement Projects (Not Started),Capital Improvement Projects (Not Started). \nBluffs Park Shade Structure(cid:190) Project Description: This project consists of the installation of four single-postshade structures at Malibu Bluffs Park(cid:190) Estimated Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 15,
+        "node_name": "eval",
+        "in_nodes": [
+            14
+        ],
+        "out_nodes": [
+            16
+        ],
+        "in_data": [
+            "Vehicle Protection Devices,Capital Improvement Projects (Not Started),Capital Improvement Projects (Not Started). \nVehicle Protection Devices(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area. There are two locations\nwithin the City\u2019s right-of-way and City-owned property that would require a\nvehicle impact protection device.(cid:190) Estimated Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nFalse"
+        ]
+    },
+    {
+        "node_id": 16,
+        "node_name": "eval",
+        "in_nodes": [
+            15
+        ],
+        "out_nodes": [
+            17
+        ],
+        "in_data": [
+            "Malibu Road Slope Repairs,Capital Improvement Projects (Not Started),Capital Improvement Projects (Not Started). \nMalibu Road Slope Repairs(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.(cid:190) Estimated Schedule:(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021Disaster Projects (Design)"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 17,
+        "node_name": "eval",
+        "in_nodes": [
+            16
+        ],
+        "out_nodes": [
+            18
+        ],
+        "in_data": [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project),Disaster Projects (Design),Disaster Projects (Design). \nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)(cid:190) Updates:(cid:131) The project consultant has started the design of the project.(cid:190) Project Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 18,
+        "node_name": "eval",
+        "in_nodes": [
+            17
+        ],
+        "out_nodes": [
+            19
+        ],
+        "in_data": [
+            "Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project),Disaster Projects (Design),Disaster Projects (Design). \nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)(cid:190) Updates:(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existingtimber with non-combustible materials.(cid:190) Project Schedule(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021Page 4 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 19,
+        "node_name": "eval",
+        "in_nodes": [
+            18
+        ],
+        "out_nodes": [
+            20
+        ],
+        "in_data": [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project),Disaster Projects (Design),Disaster Projects (Design). \nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)(cid:190) Updates:(cid:131) The project consultant has started the design of this project.(cid:190) Project Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 20,
+        "node_name": "eval",
+        "in_nodes": [
+            19
+        ],
+        "out_nodes": [
+            21
+        ],
+        "in_data": [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project),Disaster Projects (Design),Disaster Projects (Design). \nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)(cid:190) Updates:(cid:131) The project consultant has started the design of this project.(cid:190) Project Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 21,
+        "node_name": "eval",
+        "in_nodes": [
+            20
+        ],
+        "out_nodes": [
+            22
+        ],
+        "in_data": [
+            "Birdview Avenue Improvements (CalOES Project),Disaster Projects (Design),Disaster Projects (Design). \nBirdview Avenue Improvements (CalOES Project)(cid:190) Updates:(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 22,
+        "node_name": "eval",
+        "in_nodes": [
+            21
+        ],
+        "out_nodes": [
+            23
+        ],
+        "in_data": [
+            "Outdoor Warning Sirens (FEMA Project),Disaster Projects (Design),Disaster Projects (Design). \nOutdoor Warning Sirens (FEMA Project)(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire. The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations. Staff is\nworking on an RFQ to hire a consultant for the design.(cid:190) Project Schedule:(cid:131) Complete Design: Unknown"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 23,
+        "node_name": "eval",
+        "in_nodes": [
+            22
+        ],
+        "out_nodes": [
+            24
+        ],
+        "in_data": [
+            "Guardrail Replacement Citywide (FEMA Project),Disaster Projects (Completed),Disaster Projects (Completed). \nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)(cid:190) Project Description: This project consisted of replacing the damagedguardrail throughout the City as a result of the Woolsey Fire."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 24,
+        "node_name": "eval",
+        "in_nodes": [
+            23
+        ],
+        "out_nodes": [
+            25
+        ],
+        "in_data": [
+            "Corral Canyon Road Bridge Repairs (FEMA Project),Disaster Projects (Completed),Disaster Projects (Completed). \nCorral Canyon Road Bridge Repairs (FEMA Project)(cid:190) Project Description: This project consisted of replacing fire damaged existing\nfencing and repairing the damaged embankment adjacent to the bridge."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 25,
+        "node_name": "eval",
+        "in_nodes": [
+            24
+        ],
+        "out_nodes": [
+            26
+        ],
+        "in_data": [
+            "Corral Canyon Culvert Repairs (FEMA Project),Disaster Projects (Completed),Disaster Projects (Completed). \nCorral Canyon Culvert Repairs (FEMA Project)(cid:190) Project Description: This project consisted of replacing a portion of CorralCanyon Road that was damaged from a failed storm drain.Page 5 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 26,
+        "node_name": "eval",
+        "in_nodes": [
+            25
+        ],
+        "out_nodes": [
+            27
+        ],
+        "in_data": [
+            "Clover Heights Storm Drain (FEMA Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights. The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.(cid:190) Estimated Schedule:(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 27,
+        "node_name": "eval",
+        "in_nodes": [
+            26
+        ],
+        "out_nodes": [
+            28
+        ],
+        "in_data": [
+            "Latigo Canyon Road Culvert Repairs (FEMA Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \nLatigo Canyon Road Culvert Repairs (FEMA Project)(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.(cid:190) Estimated Schedule:(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 28,
+        "node_name": "eval",
+        "in_nodes": [
+            27
+        ],
+        "out_nodes": [
+            29
+        ],
+        "in_data": [
+            "Encinal Canyon Road Drainage Improvements (CalOES Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \nEncinal Canyon Road Drainage Improvements (CalOES Project)(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.(cid:190) Estimated Schedule:(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 29,
+        "node_name": "eval",
+        "in_nodes": [
+            28
+        ],
+        "out_nodes": [
+            30
+        ],
+        "in_data": [
+            "Storm Drain Master Plan (FEMA Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \nStorm Drain Master Plan (FEMA Project)(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.(cid:190) Estimated Schedule:(cid:131) Completion Date: Spring 2022Page 6 of 6Agenda Item # 4.A.\n"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 30,
+        "node_name": "select",
+        "in_nodes": [
+            1,
+            2
+        ],
+        "out_nodes": [
+            31
+        ],
+        "in_data": [
+            "",
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ],
+        "out_data": [
+            "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nIs the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 31,
+        "node_name": "eval",
+        "in_nodes": [
+            30
+        ],
+        "out_nodes": [
+            32
+        ],
+        "in_data": [
+            "Marie Canyon Green Streets,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nMarie Canyon Green Streets\n(cid:190) Updates:(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.(cid:190) Project Schedule:(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 32,
+        "node_name": "eval",
+        "in_nodes": [
+            31
+        ],
+        "out_nodes": [
+            33
+        ],
+        "in_data": [
+            "PCH Median Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nPCH Median Improvements Project(cid:190) Updates:(cid:131) Consultant is working on the final design. In March, the City be seeking\nproposals from consultants to perform construction management.(cid:190) Project Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021Page 1 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 33,
+        "node_name": "eval",
+        "in_nodes": [
+            32
+        ],
+        "out_nodes": [
+            34
+        ],
+        "in_data": [
+            "PCH Signal Synchronization System Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \n\nPCH Signal Synchronization System Improvements Project(cid:190) Updates:(cid:131) 65% design package was submitted to Caltrans in November 2020 andwe are still awaiting comments to those plans.\n(cid:131) Consultant is working on final design documents.(cid:190) Project Schedule:(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 34,
+        "node_name": "eval",
+        "in_nodes": [
+            33
+        ],
+        "out_nodes": [
+            35
+        ],
+        "in_data": [
+            "Civic Center Stormwater Diversion Structure,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nCivic Center Stormwater Diversion Structure(cid:190) Updates:(cid:131) A Los Angeles County Flood Control maintenance agreement is\nrequired for this project. Staff is waiting for the County\u2019s approval of\nthe agreement.(cid:190) Project Schedule:(cid:131) Final Design: Completed. Awaiting approved maintenance agreementfrom the County.(cid:131) Begin Construction: Estimated Summer 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 35,
+        "node_name": "eval",
+        "in_nodes": [
+            34
+        ],
+        "out_nodes": [
+            36
+        ],
+        "in_data": [
+            "Westward Beach Road Improvements Project,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nWestward Beach Road Improvements Project(cid:190) Updates:(cid:131) The project requires coordination with Los Angeles County Beaches\nand Harbor. Staff is working out the final details of the project with the\nCounty and will be finalizing the design.(cid:190) Project Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 36,
+        "node_name": "eval",
+        "in_nodes": [
+            35
+        ],
+        "out_nodes": [
+            37
+        ],
+        "in_data": [
+            "Civic Center Water Treatment Facility Phase 2,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nCivic Center Water Treatment Facility Phase 2(cid:190) Updates:(cid:131) Project is at the 65% design phase.\n(cid:131) The City obtained a project CDP from Planning Commission onFebruary 1, 2021.(cid:131) The State is reviewing the City\u2019s application for the State RevolvingFund program.(cid:131) The project assessment engineer has begun the process of evaluatingthe project costs.(cid:131) Staff is rescheduling the community meeting to May 2021.(cid:190) Project Schedule:(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022Page 2 of 6Agenda Item # 4.A."
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nFalse"
+        ]
+    },
+    {
+        "node_id": 37,
+        "node_name": "eval",
+        "in_nodes": [
+            36
+        ],
+        "out_nodes": [
+            38
+        ],
+        "in_data": [
+            "Malibu Park Drainage Improvements,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nMalibu Park Drainage Improvements(cid:190) Updates:(cid:131) Staff made minor modifications to the project plans to reduce theoverall project costs.(cid:131) Project is out to bid with bids due April 21, 2021.(cid:190) Project Schedule:(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 38,
+        "node_name": "eval",
+        "in_nodes": [
+            37
+        ],
+        "out_nodes": [
+            39
+        ],
+        "in_data": [
+            "Annual Street Maintenance,Capital Improvement Projects (Design),Capital Improvement Projects (Design). \nAnnual Street Maintenance(cid:190) Project Description: This project provides for the reconstruction andmaintenance of City streets.(cid:190) Estimated Schedule:(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021Capital Improvement Projects (Construction)"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 39,
+        "node_name": "eval",
+        "in_nodes": [
+            38
+        ],
+        "out_nodes": [
+            40
+        ],
+        "in_data": [
+            "City Hall Roof Replacement,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nCity Hall Roof Replacement(cid:190) Updates: City staff continues to review project related material submittals.\nOnce submittals are approved, all materials will be ordered and shipped to\nthe project site. The roof ISO board membrane is on back order due to the\nrecent storms in Texas which halted manufacturing. The estimated material\narrival and start date is the middle of May.\n(cid:190) Project Schedule: May 2021 through July 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 40,
+        "node_name": "eval",
+        "in_nodes": [
+            39
+        ],
+        "out_nodes": [
+            41
+        ],
+        "in_data": [
+            "Bluffs Park Workout Station,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nBluffs Park Workout Station(cid:190) Updates: The contractor has completed and installed all the new workout\nequipment and rubber surfacing. Remaining work includes punch list items\nonly.(cid:190) Project Schedule: Estimated completion date is April 2021."
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 41,
+        "node_name": "eval",
+        "in_nodes": [
+            40
+        ],
+        "out_nodes": [
+            42
+        ],
+        "in_data": [
+            "Civic Center Way Improvements,Capital Improvement Projects (Construction),Capital Improvement Projects (Construction). \nCivic Center Way Improvements(cid:190) Updates:(cid:131) Work Hours: Monday through Friday 7:00AM to 4:00PM, Saturdays7:00AM to 4:00PM(cid:131) Civic Center Way was reopened to the public on April 8th. While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures). The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.(cid:190) Project Schedule: August 2020 through April 2021Page 3 of 6Agenda Item # 4.A.\nCapital Improvement Projects (Not Started)"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 42,
+        "node_name": "eval",
+        "in_nodes": [
+            41
+        ],
+        "out_nodes": [
+            43
+        ],
+        "in_data": [
+            "Bluffs Park Shade Structure,Capital Improvement Projects (Not Started),Capital Improvement Projects (Not Started). \nBluffs Park Shade Structure(cid:190) Project Description: This project consists of the installation of four single-postshade structures at Malibu Bluffs Park(cid:190) Estimated Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 43,
+        "node_name": "eval",
+        "in_nodes": [
+            42
+        ],
+        "out_nodes": [
+            44
+        ],
+        "in_data": [
+            "Malibu Road Slope Repairs,Capital Improvement Projects (Not Started),Capital Improvement Projects (Not Started). \nMalibu Road Slope Repairs(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.(cid:190) Estimated Schedule:(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021Disaster Projects (Design)"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 44,
+        "node_name": "eval",
+        "in_nodes": [
+            43
+        ],
+        "out_nodes": [
+            45
+        ],
+        "in_data": [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project),Disaster Projects (Design),Disaster Projects (Design). \nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)(cid:190) Updates:(cid:131) The project consultant has started the design of this project.(cid:190) Project Schedule:(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
+        ]
+    },
+    {
+        "node_id": 45,
+        "node_name": "eval",
+        "in_nodes": [
+            44
+        ],
+        "out_nodes": [
+            46
+        ],
+        "in_data": [
+            "Clover Heights Storm Drain (FEMA Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights. The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.(cid:190) Estimated Schedule:(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nFalse"
+        ]
+    },
+    {
+        "node_id": 46,
+        "node_name": "eval",
+        "in_nodes": [
+            45
+        ],
+        "out_nodes": [
+            47
+        ],
+        "in_data": [
+            "Storm Drain Master Plan (FEMA Project),Disaster Projects (Not Started),Disaster Projects (Not Started). \nStorm Drain Master Plan (FEMA Project)(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.(cid:190) Estimated Schedule:(cid:131) Completion Date: Spring 2022Page 6 of 6Agenda Item # 4.A.\n"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ]
+    },
+    {
+        "node_id": 47,
+        "node_name": "select",
+        "in_nodes": [
+            46
+        ],
+        "out_nodes": [
+            48
+        ],
+        "in_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nNone"
+        ],
+        "out_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\ntuple 0:Marie Canyon Green Streets\ntuple 1:PCH Median Improvements Project\ntuple 2:PCH Signal Synchronization System Improvements Project\ntuple 3:Civic Center Stormwater Diversion Structure\ntuple 4:Westward Beach Road Improvements Project\ntuple 5:Malibu Park Drainage Improvements\ntuple 6:Annual Street Maintenance\ntuple 7:City Hall Roof Replacement\ntuple 8:Bluffs Park Workout Station\ntuple 9:Civic Center Way Improvements\ntuple 10:Bluffs Park Shade Structure\ntuple 11:Malibu Road Slope Repairs\ntuple 12:Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n"
+        ]
+    },
+    {
+        "node_id": 48,
+        "node_name": "projection",
+        "in_nodes": [
+            47
+        ],
+        "out_nodes": [
+            49
+        ],
+        "in_data": [
+            "Is the begin construction time of project earlier than 2022-03? Return \"True\" or \"False\" . If answer is not found, return \"None\".\ntuple 0:Marie Canyon Green Streets\ntuple 1:PCH Median Improvements Project\ntuple 2:PCH Signal Synchronization System Improvements Project\ntuple 3:Civic Center Stormwater Diversion Structure\ntuple 4:Westward Beach Road Improvements Project\ntuple 5:Malibu Park Drainage Improvements\ntuple 6:Annual Street Maintenance\ntuple 7:City Hall Roof Replacement\ntuple 8:Bluffs Park Workout Station\ntuple 9:Civic Center Way Improvements\ntuple 10:Bluffs Park Shade Structure\ntuple 11:Malibu Road Slope Repairs\ntuple 12:Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n"
+        ],
+        "out_data": [
+            "Return the name of project.\ntuple 0:Marie Canyon Green Streets\ntuple 1:PCH Median Improvements Project\ntuple 2:PCH Signal Synchronization System Improvements Project\ntuple 3:Civic Center Stormwater Diversion Structure\ntuple 4:Westward Beach Road Improvements Project\ntuple 5:Malibu Park Drainage Improvements\ntuple 6:Annual Street Maintenance\ntuple 7:City Hall Roof Replacement\ntuple 8:Bluffs Park Workout Station\ntuple 9:Civic Center Way Improvements\ntuple 10:Bluffs Park Shade Structure\ntuple 11:Malibu Road Slope Repairs\ntuple 12:Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n"
+        ]
+    }
+]

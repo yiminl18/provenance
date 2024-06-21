@@ -26,6 +26,7 @@ function fetchJSONData() {
   // const fetchJsonData = require('../testData/mockData4.json');
   // const fetchJsonData = require('../testData/mockData10.json');
   const fetchJsonData = require('../testData/node_info.json');
+  // const fetchJsonData = require('../testData/zenDBsql1.json');
   createNodes(fetchJsonData)
   createEdges(fetchJsonData)
 }
@@ -65,6 +66,13 @@ const App = () => {
 
   }, []);
 
+
+  const FormattedContent = ({ content }) => {
+    return (
+      <div dangerouslySetInnerHTML={{ __html: content }} />
+    );
+  };
+
   const [state, setState] = useState({
     counter: 5,
     graph: {
@@ -95,23 +103,31 @@ const App = () => {
     const node = allNodes.find((node) => node.id === id);
     return node ? node.name : 'Nowhere';
   };
-  
+
   return (
     <div id="webPage">
+
       <h1 id="webPageTitle">Node Interface</h1>
+      
       <div id="theGraph">
+
         <Graph graph={graph} options={options} events={events} style={{ height: "640px" }}/>
+
       </div>
       <section id="NodeInfoSection">
+
         <div id="ClickedNodeTitle"><b>Selected Node:</b> {selectedNode.name}</div>
+
         <div id="InComingDataContainer"><b>In-Coming Data:</b>
         {selectedNode.inData && selectedNode.inData.map((data, index) => (
-            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: {data}</div>
+            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
           ))}</div>
+
         <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
         {selectedNode.outData && selectedNode.outData.map((data, index) => (
-            <div key={index} className="dataBox">To {getNodeNameById(selectedNode.outNodes[index])}: {data}</div>
+            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
           ))}</div>
+
       </section>
       
     </div>
