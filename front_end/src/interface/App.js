@@ -52,8 +52,6 @@ const createEdges = (data) => {
 };
 
 
-
-
 const App = () => {
   const [selectedNode, setSelectedNode] = useState("");
   useEffect(() => {
@@ -69,23 +67,11 @@ const App = () => {
   }, []);
 
 
-  // const formatDataWithNewlines(StringtoBeChanged) =>{
-  //   var newData = StringtoBeChanged.replace(/\n/g, '<br />')
-  //   return newData;
-
-  // }
-
   const FormattedContent = ({ content }) => {
     return (
       <div dangerouslySetInnerHTML={{ __html: content }} />
     );
   };
-
-
-  // function formatDataWithNewlines2(){
-  //   const formattedString = formatDataWithNewlines(dataString);
-  //   return formattedString
-  // }
 
   const [state, setState] = useState({
     counter: 5,
@@ -120,11 +106,16 @@ const App = () => {
 
   return (
     <div id="webPage">
+
       <h1 id="webPageTitle">Node Interface</h1>
+      
       <div id="theGraph">
+
         <Graph graph={graph} options={options} events={events} style={{ height: "640px" }}/>
+
       </div>
       <section id="NodeInfoSection">
+
         <div id="ClickedNodeTitle"><b>Selected Node:</b> {selectedNode.name}</div>
 
         <div id="InComingDataContainer"><b>In-Coming Data:</b>
@@ -132,28 +123,10 @@ const App = () => {
             <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
           ))}</div>
 
-        {/* <div id="OutGoingDataContainer"><b>Out-Going Data:</b>
-          {selectedNode.outData && selectedNode.outData.map((data, index) => (
-            <div key={index} className="dataBox">
-              To {getNodeNameById(selectedNode.outNodes[index])}: <p className="mb-1">{
-              selectedNode.formatDataWithNewlines(data).split(/[\r\n]+/).map(line => <div>{line}</div>)
-          }</p>
-            </div>
-          ))}
-        </div> */}
         <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
         {selectedNode.outData && selectedNode.outData.map((data, index) => (
             <div key={index} className="dataBox">From {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
           ))}</div>
-        {/* <div id="InComingDataContainer"><b>In-Coming Data:</b>
-          {selectedNode.inData && selectedNode.inData.map((data, index) => (
-            <div key={index} className="dataBox" dangerouslySetInnerHTML={{ __html: `From ${getNodeNameById(selectedNode.inNodes[index])}: ${selectedNode.formatDataWithNewlines(data)}` }}></div>
-          ))}
-        </div>
-        <div id="OutGoingDataContainer"><b>Out-Going Data:</b>
-          {selectedNode.outData && selectedNode.outData.map((data, index) => (
-            <div key={index} className="dataBox" dangerouslySetInnerHTML={{ __html: `To ${getNodeNameById(selectedNode.outNodes[index])}: ${selectedNode.formatDataWithNewlines(data)}` }}></div>
-          ))}</div>   */}
 
       </section>
       
