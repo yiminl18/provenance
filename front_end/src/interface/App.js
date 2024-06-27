@@ -35,7 +35,7 @@ const createNodes = (data) => {
   for (const nodeTitle in data) {
 
     var createdNode = new Node( data[nodeTitle].node_id, data[nodeTitle].node_name, 
-      data[nodeTitle].in_nodes, data[nodeTitle].out_nodes, data[nodeTitle].in_data, data[nodeTitle].out_data)   
+      data[nodeTitle].in_nodes, data[nodeTitle].out_nodes, data[nodeTitle].in_data, data[nodeTitle].out_data, data[nodeTitle].label, data[nodeTitle].prompt)   
   
     allNodes.push(createdNode)
   }
@@ -111,24 +111,43 @@ const App = () => {
       
       <div id="theGraph">
 
-        <Graph graph={graph} options={options} events={events} style={{ height: "640px" }}/>
+        <Graph graph={graph} options={options} events={events} style={{ height: "100%" }}/>
 
       </div>
       <section id="NodeInfoSection">
+        
+        <section id="NodeNameandPrompt">
+          <div id="ClickedNodeTitle"><b>Selected Node: </b>{selectedNode.name}</div>
+          <div id="ClickedNodePrompt"><b>Prompt: </b> {selectedNode.prompt !== "" ? selectedNode.prompt : "There is no prompt"}</div>
+        </section>
 
-        <div id="ClickedNodeTitle"><b>Selected Node:</b> {selectedNode.name}</div>
+        <section id ="InComingDataContainer">
+          <div id="InComingDateTitle"><b>In-Coming Data:</b></div>
 
-        <div id="InComingDataContainer"><b>In-Coming Data:</b>
-        {selectedNode.inData && selectedNode.inData.map((data, index) => (
-            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
-          ))}</div>
+          <section id="InComingDataBoxes">
+          {selectedNode.inData && selectedNode.inData.map((data, index) => (
+              <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
+            ))}
+          </section>
+        </section>
 
-        <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
-        {selectedNode.outData && selectedNode.outData.map((data, index) => (
-            <div key={index} className="dataBox">From {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
-          ))}</div>
+          {/* <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
+          {selectedNode.outData && selectedNode.outData.map((data, index) => (
+              <div key={index} className="dataBox">From {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
+            ))}</div> */}
 
+        <section id="OutGoingDataContainer">
+          <div id="OutGoingDataTitle"><b>Out-Going Data:</b></div>
+          <section id="OutGoingDataBoxes">
+          {selectedNode.outData && selectedNode.outData.map((data, index) => (
+              <div key={index} className="dataBox">To {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
+            ))}
+           </section>
+          </section>
+            
       </section>
+
+      {/* </section> */}
       
     </div>
   );

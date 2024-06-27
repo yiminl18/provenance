@@ -8,10 +8,12 @@
     private inData:Array<string> = []  
     private outData:Array<string> = []
     private correctedInData:Array<any> = []
+    private label:string
+    private prompt:string
   
     constructor(givenID: number, givenName: string, givenInNodes: Array<number>, 
         givenOutNodes: Array<number>, givenInData: Array<string>, 
-        givenOutData: Array<string>) {
+        givenOutData: Array<string>, givenLabel: string, givenPrompt: string) {
       
         this.id = givenID
         this.name = givenName
@@ -19,6 +21,8 @@
         this.outNodes = givenOutNodes
         this.inData = givenInData
         this.outData = givenOutData
+        this.label = givenLabel
+        this.prompt = givenPrompt
 
     }
 
