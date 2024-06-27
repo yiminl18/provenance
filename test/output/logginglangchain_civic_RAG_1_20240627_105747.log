@@ -1,0 +1,51 @@
+2024-06-27 10:57:47,739 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01262022-1835.pdf
+2024-06-27 10:57:47,763 - root - INFO - Split 8 documents into 36 chunks
+2024-06-27 10:57:54,543 - root - INFO - question: What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects
+2024-06-27 10:57:54,544 - root - INFO - sub_query_list: ['What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects']
+2024-06-27 10:57:54,544 - root - INFO - len of sub_query_list: 1
+2024-06-27 10:57:56,830 - root - INFO - For sub_query: What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects
+2024-06-27 10:57:56,830 - root - INFO - Using following chunks:
+2024-06-27 10:57:56,830 - root - INFO - chunk_index: [21.0, 1.0, 0.0]
+2024-06-27 10:57:56,830 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 21.0, 'page': 4.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1360.0}
+  The project consultant has started the design of this project.
+¾ Project Schedule:
+ Complete Design: Spring 2022
+ Begin Construction: Spring 2022
+Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)
+¾ Updates:
+ The project consultant has started the design of this project.
+¾ Project Schedule:
+ Complete Design: Spring 2022
+ Begin Construction: Spring 2022
+Storm Drain Master Plan (FEMA Project)
+ ----------
+2024-06-27 10:57:56,830 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 1.0, 'page': 0.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 412.0}
+ Report
+RECOMMENDED ACTION: Receive and file report on the status of the City’s current and 
+upcoming Capital Improvements Projects and Disaster Recovery Projects.
+DISCUSSION: Staff will provide a status update on the following active projects in the 
+Fiscal Year 2021-2022 Capital Improvement Program:
+Capital Improvement Projects (Design)
+Marie Canyon Green Streets
+¾ Updates:
+ ----------
+2024-06-27 10:57:56,830 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 0.0, 'page': 0.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0}
+ Page 1 of 8
+Agenda Item # 4.A.
+Public Works Commission 
+Agenda Report
+To: Chair Simmens and Members of the Public Works Commission
+Prepared by: Troy Spayd, Assistant Public Works Director/City Engineer
+Approved by: Rob DuBoux, Public Works Director/City Engineer
+Date prepared: October 21, 2021 Meeting date: October 27, 2021
+Subject: Capital Improvement Projects and Disaster Recovery Projects Status 
+Report
+ ----------
+2024-06-27 10:57:57,871 - root - INFO - sub_answer: ['Trancas Canyon Park Slope Stabilization Project\nStorm Drain Master Plan']
+2024-06-27 10:57:57,871 - root - INFO - final_answer: The projects related to disaster with a start date later than 2021 are the Trancas Canyon Park Slope Stabilization Project and the Storm Drain Master Plan.

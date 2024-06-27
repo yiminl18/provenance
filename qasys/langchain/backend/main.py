@@ -14,13 +14,15 @@ from indexing import civic_path, paper_path
 #         rag(question=question, folder_path=folder_path)
 #     time.sleep(5)
 
-questions = paper_questions()
-folder_paths = paper_path()
+questions = civic_questions()
+folder_paths = civic_path()
 
-for question, folder_path in zip(questions, folder_paths):
-    for i in range(10):
-        rag(question=question, folder_path=folder_path)
-    time.sleep(10)
+# for question, folder_path in zip(questions, folder_paths):
+#     for i in range(10):
+#         rag(question=question, folder_path=folder_path)
+#     time.sleep(10)
+
+rag(question=questions[0], folder_path=folder_paths[0])
 
 
 # rag()
