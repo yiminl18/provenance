@@ -111,7 +111,7 @@ const App = () => {
       
       <div id="theGraph">
 
-        <Graph graph={graph} options={options} events={events} style={{ height: "640px" }}/>
+        <Graph graph={graph} options={options} events={events} style={{ height: "100%" }}/>
 
       </div>
       <section id="NodeInfoSection">

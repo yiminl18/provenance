@@ -29,6 +29,11 @@
   grid-row: 2/6;
   grid-column: 1/3;
   margin: 1em;
+
+}
+
+.vis-network{
+  max-height: 100%
 }
 
 #NodeInfoSection{
@@ -98,13 +103,14 @@
   height: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd; 
-  padding: 1em;
+  padding: 1.5em;
+  /* padding-top: 1.5em; */
   background-color: #f7f9fc;
 }
 
 .dataBox {
   padding: 0.5em;
-  margin-top: 1em;
+  /* margin-top: 1em; */
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd; 
