@@ -1,0 +1,11 @@
+2024-06-27 10:53:34,122 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01262022-1835.pdf
+2024-06-27 10:53:34,146 - root - INFO - Split 8 documents into 12 chunks
+2024-06-27 10:53:36,765 - root - INFO - question: What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects
+2024-06-27 10:53:36,766 - root - INFO - sub_query_list: ['W', 'h', 'a', 't', ' ', 'a', 'r', 'e', ' ', 't', 'h', 'e', ' ', 'n', 'a', 'm', 'e', 's', ' ', 'o', 'f', ' ', 'p', 'r', 'o', 'j', 'e', 'c', 't', 's', ' ', 't', 'h', 'a', 't', ' ', 'a', 'r', 'e', ' ', 'r', 'e', 'l', 'a', 't', 'e', 'd', ' ', 't', 'o', ' ', 'd', 'i', 's', 'a', 's', 't', 'e', 'r', ' ', 'a', 'n', 'd', ' ', 'h', 'a', 'v', 'e', ' ', 'a', ' ', 's', 't', 'a', 'r', 't', ' ', 'd', 'a', 't', 'e', ' ', 'l', 'a', 't', 'e', 'r', ' ', 't', 'h', 'a', 'n', ' ', '2', '0', '2', '1', '?', ' ', 'O', 'n', 'l', 'y', ' ', 'l', 'i', 's', 't', ' ', 't', 'h', 'e', ' ', 'n', 'a', 'm', 'e', 's', ' ', 'o', 'f', ' ', 't', 'h', 'e', 's', 'e', ' ', 'p', 'r', 'o', 'j', 'e', 'c', 't', 's']
+2024-06-27 10:53:36,766 - root - INFO - len of sub_query_list: 136
+2024-06-27 10:53:39,155 - root - INFO - For sub_query: W
+2024-06-27 10:53:39,155 - root - INFO - Using following chunks:
+2024-06-27 10:53:39,155 - root - INFO - chunk_index: []
+2024-06-27 10:53:41,131 - root - INFO - For sub_query: h
+2024-06-27 10:53:41,132 - root - INFO - Using following chunks:
+2024-06-27 10:53:41,132 - root - INFO - chunk_index: []

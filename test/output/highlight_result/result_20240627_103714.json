@@ -1,0 +1,27 @@
+{
+    "question": "How many authors are there in this paper?",
+    "sub_query": [
+        "List all authors in this paper"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf",
+    "final_answer": "The paper in question has a total of 14 authors. The authors are Kelly Campbell, Monica Caraway, Season Dai, Yoanna Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, Maria Suhardi, Megan Taylor, and Frank Xu.",
+    "sub_answers": [
+        "Kelly Campbell, Monica Caraway, Season Dai, Yoanna Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, Maria Suhardi, Megan Taylor, and Frank Xu are the authors of this paper."
+    ],
+    "retrieved_docs": [
+        [
+            [
+                "challenges for future designers and researchers. \r\nACKNOWLEDGMENTS \r\nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \r\nDosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, \r\nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \r\nMaria Suhardi, Megan Taylor, and Frank Xu for their \r\ncontributions through survey design and participant interviews. \r\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \r\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \r\ndesign of visuals. This work is sponsored in part by the Intel \r\nScience and Technology Center for Pervasive Computing, Nokia \r\nResearch, the AHRQ under award 1R21HS023654, and the NSF \r\nunder awards OAI-1028195 and SCH-1344613. \r\n740\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                9.0
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \r\nhttp://dx.doi.org/10.1145/2750858.2804250\r\n731\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                0.0
+            ],
+            [
+                "team (12 researchers conducted interviews in total). \r\n9 interviewees identified as male, 13 as female. They ranged \r\nin age from 24 to 39 (mean: 29.7, median: 29.5). Interview \r\nparticipants were compensated with a $20 Amazon gift card. \r\nInterview themes were identified and codes were created \r\nthrough a discussion with all interviewers. Two interviewers \r\nqualitatively coded each interview, with codes iteratively \r\nrefined through discussion. \r\nThe screener survey, full survey, and interview protocol are \r\npublicly available: https://github.com/depstein/lived-informatics\r\nLimitations \r\nWe focused on three common, yet diverse, domains in which \r\npeople self-track. People self-track in many other domains, \r\nincluding to manage chronic illnesses, in which people might \r\nhave different motivations or tracking habits. Although we \r\nbelieve our findings are extensible to domains other than the \r\nthree on which we report (e.g., biometric or food tracking), \r\nthey do not necessarily cover all motivations and usages. \r\nSome people track the domains we study using different \r\nclasses of tools that we do not extensively report on, such as \r\ntools that passively record location (e.g., Moves, SenseCam \r\n[17]). Although we believe this suggests these are used \r\nrelatively infrequently compared to those we report on \r\n(or possible limitations in our recruitment techniques), our \r\nfindings on tracking in a particular domain may not \r\ngeneralize to all tools or people tracking that type of data. \r\nWe believe our recruitment overrepresents people who \r\ncurrently identify as self-trackers, as our recruitment \r\nmaterials were likely to draw people who were currently \r\ninterested in self-tracking (e.g., posting the task on AMT as \r\na “Survey on Location, Physical Activity, and Finance \r\nTracking”). This is one weakness of our research, and future \r\nwork should further explore people’s reasons for deciding \r\nnot to return to tracking. \r\nDEVELOPMENT OF A LIVED INFORMATICS MODEL",
+                3.0
+            ]
+        ]
+    ]
+}

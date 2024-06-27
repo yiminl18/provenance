@@ -1,0 +1,79 @@
+2024-06-27 11:01:23,615 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__01262022-1835.pdf
+2024-06-27 11:01:23,639 - root - INFO - Split 8 documents into 36 chunks
+2024-06-27 11:01:30,790 - root - INFO - question: What are the names of projects that are related to disaster and have a start date later than 2022? Only list the names of these projects
+2024-06-27 11:01:30,791 - root - INFO - sub_query_list: ['What are the names of projects that are related to disaster and have a start date later than 2022? Only list the names of these projects']
+2024-06-27 11:01:30,791 - root - INFO - len of sub_query_list: 1
+2024-06-27 11:01:33,304 - root - INFO - For sub_query: What are the names of projects that are related to disaster and have a start date later than 2022? Only list the names of these projects
+2024-06-27 11:01:33,304 - root - INFO - Using following chunks:
+2024-06-27 11:01:33,305 - root - INFO - chunk_index: [21.0, 30.0, 22.0, 1.0, 7.0]
+2024-06-27 11:01:33,305 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 21.0, 'page': 4.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1360.0}
+  The project consultant has started the design of this project.
+¾ Project Schedule:
+ Complete Design: Spring 2022
+ Begin Construction: Spring 2022
+Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)
+¾ Updates:
+ The project consultant has started the design of this project.
+¾ Project Schedule:
+ Complete Design: Spring 2022
+ Begin Construction: Spring 2022
+Storm Drain Master Plan (FEMA Project)
+ ----------
+2024-06-27 11:01:33,305 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 6.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1380.0}
+ anticipated that the final design will be complete by July 2022. The 
+project will be advertised for construction bids with construction 
+beginning in Fall 2022. 
+¾ Estimated Schedule:
+ Complete Design: July 2022
+ Begin Construction: Fall 2022
+
+Outdoor Warningn Sirens - Design (FEMA Project)
+¾ Project Description: An Emergency Warning Siren system will improve the 
+City’s ability to alert the community by providing mechanisms to alert
+ ----------
+2024-06-27 11:01:33,305 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 22.0, 'page': 5.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0.0}
+ Page 6 of 8
+Agenda Item # 4.A.
+¾ Project Description: This project will be funded through a grant from FEMA 
+after the Woolsey Fire. The City will create a complete inventory of storm 
+drains, culverts, debris basins, manholes, and other drainage structures 
+within the City. 
+¾ Updates: Council approved an agreement in December for design services. 
+A kick-off meeting was held in late December.
+¾ Estimated Schedule:
+ Completion Date: Spring 2022
+ ----------
+2024-06-27 11:01:33,305 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 1.0, 'page': 0.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 412.0}
+ Report
+RECOMMENDED ACTION: Receive and file report on the status of the City’s current and 
+upcoming Capital Improvements Projects and Disaster Recovery Projects.
+DISCUSSION: Staff will provide a status update on the following active projects in the 
+Fiscal Year 2021-2022 Capital Improvement Program:
+Capital Improvement Projects (Design)
+Marie Canyon Green Streets
+¾ Updates:
+ ----------
+2024-06-27 11:01:33,305 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 7.0, 'page': 1.0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1370.0}
+ alternatives. A joint Public Works and Public Safety Commission 
+meeting was held on January 20, 2022. Project alternatives will be 
+presented to the commissions at a future date.
+¾ Project Schedule:
+ Complete Design: Spring 2022
+ Begin Construction: Summer/Winter 2022
+Civic Center Water Treatment Facility Phase 2
+¾ Updates:
+ Individual letters were mailed to all properties within Phase 2 with their 
+preliminary estimated assessments. Staff has been communicating
+ ----------
+2024-06-27 11:01:34,754 - root - INFO - sub_answer: ['Outdoor Warning Sirens - Design\nCivic Center Water Treatment Facility Phase 2']
+2024-06-27 11:01:34,755 - root - INFO - final_answer: The projects related to disaster with a start date later than 2022 are "Outdoor Warning Sirens - Design" and "Civic Center Water Treatment Facility Phase 2".

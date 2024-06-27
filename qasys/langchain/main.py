@@ -10,7 +10,7 @@ setup_logging()
 
 # step0: load sample question and folder path ----------------------------
 # question = sample_questions()[0] # 0 is Civic, 1 is Paper
-questions = civic_questions() 
+questions = list(paper_questions()[1])
 # folder_path = sample_folders()[0] # 0 is Civic, 1 is Paper
 folder_path = 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt'
 

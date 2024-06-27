@@ -1,0 +1,35 @@
+{
+    "question": "What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects",
+    "sub_query": [
+        "What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/civic/raw_data/malibucity_agenda__01262022-1835.pdf",
+    "final_answer": "The names of the projects related to disaster with a start date later than 2021 are the Trancas Canyon Park Slope Stabilization Project (CalJPIA Project) and the Storm Drain Master Plan (FEMA Project).",
+    "sub_answers": [
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\nStorm Drain Master Plan (FEMA Project)"
+    ],
+    "retrieved_docs": [
+        [
+            [
+                " The project consultant has started the design of this project.\r\n¾ Project Schedule:\r\n Complete Design: Spring 2022\r\n Begin Construction: Spring 2022\r\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\r\n¾ Updates:\r\n The project consultant has started the design of this project.\r\n¾ Project Schedule:\r\n Complete Design: Spring 2022\r\n Begin Construction: Spring 2022\r\nStorm Drain Master Plan (FEMA Project)",
+                4.0
+            ],
+            [
+                "Report\r\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and \r\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\r\nDISCUSSION: Staff will provide a status update on the following active projects in the \r\nFiscal Year 2021-2022 Capital Improvement Program:\r\nCapital Improvement Projects (Design)\r\nMarie Canyon Green Streets\r\n¾ Updates:",
+                0.0
+            ],
+            [
+                "Page 1 of 8\r\nAgenda Item # 4.A.\r\nPublic Works Commission \r\nAgenda Report\r\nTo: Chair Simmens and Members of the Public Works Commission\r\nPrepared by: Troy Spayd, Assistant Public Works Director/City Engineer\r\nApproved by: Rob DuBoux, Public Works Director/City Engineer\r\nDate prepared: October 21, 2021 Meeting date: October 27, 2021\r\nSubject: Capital Improvement Projects and Disaster Recovery Projects Status \r\nReport",
+                0.0
+            ],
+            [
+                "Page 6 of 8\r\nAgenda Item # 4.A.\r\n¾ Project Description: This project will be funded through a grant from FEMA \r\nafter the Woolsey Fire. The City will create a complete inventory of storm \r\ndrains, culverts, debris basins, manholes, and other drainage structures \r\nwithin the City. \r\n¾ Updates: Council approved an agreement in December for design services. \r\nA kick-off meeting was held in late December.\r\n¾ Estimated Schedule:\r\n Completion Date: Spring 2022",
+                5.0
+            ],
+            [
+                "Acoustic Technology to design the outdoor warning sirens. A design \r\nreport will be presented to Council upon completion.\r\n¾ Estimated Schedule: TBD\r\nDisaster Projects (Construction)\r\nNone at this time\r\nDisaster Projects (Completed)\r\nCitywide Guardrail Replacement\r\nProject Description: This project consisted of replacing the damaged guardrails throughout \r\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and",
+                7.0
+            ]
+        ]
+    ]
+}

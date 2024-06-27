@@ -32,7 +32,7 @@ def rag(question, folder_path):
     # docs = load_local_txt(folder_path)
     docs = load_local_pdf(folder_path)
 
-    vectorstore = store_splits(split_docs(docs, chunk_size=2000, chunk_overlap=10, add_start_index=True))
+    vectorstore = store_splits(split_docs(docs, chunk_size=500, chunk_overlap=10, add_start_index=True))
 
     # Initialize a list to store the results
     results = []
@@ -40,8 +40,9 @@ def rag(question, folder_path):
     # for question in questions:
 
     # step2: query decomposition
-    sub_querys = query_decomposition(question)
-    sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
+    # sub_querys = query_decomposition(question)
+    # sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
+    sub_query_list = [question]
     sub_query_len = len(sub_query_list)
     logging.info(f"question: {question}")
     logging.info(f"sub_query_list: {sub_query_list}")
@@ -61,7 +62,7 @@ def rag(question, folder_path):
 
     logging.info("len of sub_query_list: " + str(len(sub_query_list)))
     for sub_query_index, sub_query in enumerate(sub_query_list):
-        sub_ans, sub_retrieved_docs, chunk_index = retrieve_and_generation(sub_query, vectorstore, k = 3)
+        sub_ans, sub_retrieved_docs, chunk_index = retrieve_and_generation(sub_query, vectorstore, k = 5)
         sub_answers.append(sub_ans)
         retrieved_docs.append([[doc.page_content, doc.metadata["page"]] for doc in sub_retrieved_docs]) # retrieved_docs is a list of list of strings
         logging.info(f"For sub_query: {sub_query}") # print each sub-query

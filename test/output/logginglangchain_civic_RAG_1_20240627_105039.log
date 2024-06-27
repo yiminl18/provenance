@@ -1,0 +1,2385 @@
+2024-06-27 10:50:39,410 - root - INFO - folder_path: data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf
+2024-06-27 10:50:39,475 - root - INFO - Split 23 documents into 43 chunks
+2024-06-27 10:50:45,525 - root - INFO - question: What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects
+2024-06-27 10:50:45,525 - root - INFO - sub_query_list: ['W', 'h', 'a', 't', ' ', 'a', 'r', 'e', ' ', 't', 'h', 'e', ' ', 'n', 'a', 'm', 'e', 's', ' ', 'o', 'f', ' ', 'p', 'r', 'o', 'j', 'e', 'c', 't', 's', ' ', 't', 'h', 'a', 't', ' ', 'a', 'r', 'e', ' ', 'r', 'e', 'l', 'a', 't', 'e', 'd', ' ', 't', 'o', ' ', 'd', 'i', 's', 'a', 's', 't', 'e', 'r', ' ', 'a', 'n', 'd', ' ', 'h', 'a', 'v', 'e', ' ', 'a', ' ', 's', 't', 'a', 'r', 't', ' ', 'd', 'a', 't', 'e', ' ', 'l', 'a', 't', 'e', 'r', ' ', 't', 'h', 'a', 'n', ' ', '2', '0', '2', '1', '?', ' ', 'O', 'n', 'l', 'y', ' ', 'l', 'i', 's', 't', ' ', 't', 'h', 'e', ' ', 'n', 'a', 'm', 'e', 's', ' ', 'o', 'f', ' ', 't', 'h', 'e', 's', 'e', ' ', 'p', 'r', 'o', 'j', 'e', 'c', 't', 's']
+2024-06-27 10:50:45,525 - root - INFO - len of sub_query_list: 136
+2024-06-27 10:50:49,001 - root - INFO - For sub_query: W
+2024-06-27 10:50:49,001 - root - INFO - Using following chunks:
+2024-06-27 10:50:49,001 - root - INFO - chunk_index: [4.0, 2.0, 34.0]
+2024-06-27 10:50:49,001 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:50:49,001 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:50:49,001 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:50:51,824 - root - INFO - For sub_query: h
+2024-06-27 10:50:51,824 - root - INFO - Using following chunks:
+2024-06-27 10:50:51,824 - root - INFO - chunk_index: [2.0, 45.0, 44.0]
+2024-06-27 10:50:51,824 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:50:51,824 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:50:51,824 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 44.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 1950.0}
+ Conference on Pervasive and Ubiquitous Computing: Adjunct 
+Publication.
+[42] Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge. Survey 
+research in HCI. Ways of Knowing in HCI. Springer, New York, NY, 
+2014. 229-266.
+[43] My pelvic floor Fitness. 2016. http://www.lightsbytena.co.uk/mypelvic-floor-fitness/app-info/
+[44] Tom Owen, Jennifer Pearson, Harold Thimbleby and George 
+Buchanan. 2015. ConCap: Designing to Empower Individual 
+Reflection on Chronic Conditions using Mobile Apps. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services.
+[45] Jeni Paay, Jesper Kjeldskov, Umachanger Brinthaparan, Lars Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and Bernd Ploderer. 2014. Quitty: using technology to persuade 
+smokers to quit. In Proceedings of the 8th Nordic Conference on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM.
+[46] Bernd Ploderer, Wally Smith, Jon Pearce and Ron Borland. 2014. A 
+mobile app offering distractions and tips to cope with cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2.
+[47] Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten years of mobile HCI research discussions on lab and field 
+evaluations. In: Proceedings of the 16th international conference on 
+Human-computer interaction with mobile devices & services. ACM.
+[48] Alessandro Puiatti, Steven Mudda, Silvia Giordano and Oscar 
+Mayora. 2011. Smartphone-centred wearable sensors network for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE.
+[49] William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+ ----------
+2024-06-27 10:50:53,623 - root - INFO - For sub_query: a
+2024-06-27 10:50:53,624 - root - INFO - Using following chunks:
+2024-06-27 10:50:53,624 - root - INFO - chunk_index: [2.0, 45.0, 30.0]
+2024-06-27 10:50:53,624 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:50:53,624 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:50:53,624 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:50:56,236 - root - INFO - For sub_query: t
+2024-06-27 10:50:56,236 - root - INFO - Using following chunks:
+2024-06-27 10:50:56,236 - root - INFO - chunk_index: [29.0, 45.0, 30.0]
+2024-06-27 10:50:56,236 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:50:56,236 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:50:56,236 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:50:59,657 - root - INFO - For sub_query:  
+2024-06-27 10:50:59,657 - root - INFO - Using following chunks:
+2024-06-27 10:50:59,658 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:50:59,658 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:50:59,658 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:50:59,658 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:03,049 - root - INFO - For sub_query: a
+2024-06-27 10:51:03,049 - root - INFO - Using following chunks:
+2024-06-27 10:51:03,049 - root - INFO - chunk_index: [2.0, 45.0, 30.0]
+2024-06-27 10:51:03,049 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:03,049 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:03,049 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:06,120 - root - INFO - For sub_query: r
+2024-06-27 10:51:06,120 - root - INFO - Using following chunks:
+2024-06-27 10:51:06,120 - root - INFO - chunk_index: [2.0, 45.0, 34.0]
+2024-06-27 10:51:06,120 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:06,120 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:06,120 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:51:08,462 - root - INFO - For sub_query: e
+2024-06-27 10:51:08,462 - root - INFO - Using following chunks:
+2024-06-27 10:51:08,462 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:51:08,462 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:08,463 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:08,463 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:51:11,233 - root - INFO - For sub_query:  
+2024-06-27 10:51:11,233 - root - INFO - Using following chunks:
+2024-06-27 10:51:11,233 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:51:11,233 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:11,233 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:11,234 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:13,897 - root - INFO - For sub_query: t
+2024-06-27 10:51:13,899 - root - INFO - Using following chunks:
+2024-06-27 10:51:13,899 - root - INFO - chunk_index: [29.0, 45.0, 30.0]
+2024-06-27 10:51:13,899 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:51:13,899 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:13,899 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:16,031 - root - INFO - For sub_query: h
+2024-06-27 10:51:16,031 - root - INFO - Using following chunks:
+2024-06-27 10:51:16,031 - root - INFO - chunk_index: [2.0, 45.0, 44.0]
+2024-06-27 10:51:16,031 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:16,031 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:16,031 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 44.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 1950.0}
+ Conference on Pervasive and Ubiquitous Computing: Adjunct 
+Publication.
+[42] Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge. Survey 
+research in HCI. Ways of Knowing in HCI. Springer, New York, NY, 
+2014. 229-266.
+[43] My pelvic floor Fitness. 2016. http://www.lightsbytena.co.uk/mypelvic-floor-fitness/app-info/
+[44] Tom Owen, Jennifer Pearson, Harold Thimbleby and George 
+Buchanan. 2015. ConCap: Designing to Empower Individual 
+Reflection on Chronic Conditions using Mobile Apps. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services.
+[45] Jeni Paay, Jesper Kjeldskov, Umachanger Brinthaparan, Lars Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and Bernd Ploderer. 2014. Quitty: using technology to persuade 
+smokers to quit. In Proceedings of the 8th Nordic Conference on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM.
+[46] Bernd Ploderer, Wally Smith, Jon Pearce and Ron Borland. 2014. A 
+mobile app offering distractions and tips to cope with cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2.
+[47] Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten years of mobile HCI research discussions on lab and field 
+evaluations. In: Proceedings of the 16th international conference on 
+Human-computer interaction with mobile devices & services. ACM.
+[48] Alessandro Puiatti, Steven Mudda, Silvia Giordano and Oscar 
+Mayora. 2011. Smartphone-centred wearable sensors network for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE.
+[49] William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+ ----------
+2024-06-27 10:51:18,499 - root - INFO - For sub_query: e
+2024-06-27 10:51:18,499 - root - INFO - Using following chunks:
+2024-06-27 10:51:18,499 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:51:18,499 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:18,499 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:18,499 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:51:21,174 - root - INFO - For sub_query:  
+2024-06-27 10:51:21,174 - root - INFO - Using following chunks:
+2024-06-27 10:51:21,174 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:51:21,174 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:21,174 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:21,174 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:23,780 - root - INFO - For sub_query: n
+2024-06-27 10:51:23,780 - root - INFO - Using following chunks:
+2024-06-27 10:51:23,780 - root - INFO - chunk_index: [30.0, 4.0, 15.0]
+2024-06-27 10:51:23,780 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:23,780 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:23,780 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 15.0, 'page': 3.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1978.0}
+ 96 current (1.58) Spreadsheets (60), Credit Card 
+tools (34), Mint (34), Quicken (11) 
+43 stopped (1.07) 
+Quicken (21), Mint (8), 
+Spreadsheets (7), 
+Credit Card tools (7) 
+Location 
+N=83: 36 F, 46 M, 
+1 no answer 
+Age: avg 30.75, 
+min 19, max 70 
+80 current (1.86) 
+Facebook (56), Instagram (23), 
+Google Latitude (19), Twitter (17), 
+Foursquare (16), FindMyFriends (8)
+44 stopped (1.29) 
+Foursquare (24), Facebook (9), 
+Google Latitude (7), Instagram (5), 
+Twitter (5), FindMyFriends (4) 
+Table 1. We surveyed demographically diverse participants
+using a variety of tools in three distinct self-tracking domains.
+734
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:26,599 - root - INFO - For sub_query: a
+2024-06-27 10:51:26,599 - root - INFO - Using following chunks:
+2024-06-27 10:51:26,599 - root - INFO - chunk_index: [2.0, 45.0, 30.0]
+2024-06-27 10:51:26,600 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:26,600 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:26,600 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:29,572 - root - INFO - For sub_query: m
+2024-06-27 10:51:29,573 - root - INFO - Using following chunks:
+2024-06-27 10:51:29,573 - root - INFO - chunk_index: [45.0, 30.0, 2.0]
+2024-06-27 10:51:29,573 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:29,573 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:29,573 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:31,599 - root - INFO - For sub_query: e
+2024-06-27 10:51:31,600 - root - INFO - Using following chunks:
+2024-06-27 10:51:31,600 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:51:31,600 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:31,600 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:31,600 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:51:35,274 - root - INFO - For sub_query: s
+2024-06-27 10:51:35,274 - root - INFO - Using following chunks:
+2024-06-27 10:51:35,274 - root - INFO - chunk_index: [2.0, 30.0, 4.0]
+2024-06-27 10:51:35,275 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:35,275 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:35,276 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:37,653 - root - INFO - For sub_query:  
+2024-06-27 10:51:37,654 - root - INFO - Using following chunks:
+2024-06-27 10:51:37,654 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:51:37,654 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:37,654 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:37,654 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:39,575 - root - INFO - For sub_query: o
+2024-06-27 10:51:39,575 - root - INFO - Using following chunks:
+2024-06-27 10:51:39,575 - root - INFO - chunk_index: [2.0, 4.0, 38.0]
+2024-06-27 10:51:39,575 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:39,575 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:39,575 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:42,918 - root - INFO - For sub_query: f
+2024-06-27 10:51:42,920 - root - INFO - Using following chunks:
+2024-06-27 10:51:42,920 - root - INFO - chunk_index: [30.0, 34.0, 2.0]
+2024-06-27 10:51:42,920 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:42,921 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:51:42,921 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:45,959 - root - INFO - For sub_query:  
+2024-06-27 10:51:45,959 - root - INFO - Using following chunks:
+2024-06-27 10:51:45,959 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:51:45,959 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:45,959 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:45,959 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:48,287 - root - INFO - For sub_query: p
+2024-06-27 10:51:48,287 - root - INFO - Using following chunks:
+2024-06-27 10:51:48,288 - root - INFO - chunk_index: [30.0, 34.0, 29.0]
+2024-06-27 10:51:48,288 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:48,288 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:51:48,288 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:51:50,148 - root - INFO - For sub_query: r
+2024-06-27 10:51:50,149 - root - INFO - Using following chunks:
+2024-06-27 10:51:50,149 - root - INFO - chunk_index: [2.0, 45.0, 38.0]
+2024-06-27 10:51:50,149 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:50,149 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:50,149 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:51,970 - root - INFO - For sub_query: o
+2024-06-27 10:51:51,970 - root - INFO - Using following chunks:
+2024-06-27 10:51:51,970 - root - INFO - chunk_index: [2.0, 4.0, 38.0]
+2024-06-27 10:51:51,970 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:51,970 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:51,970 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:54,040 - root - INFO - For sub_query: j
+2024-06-27 10:51:54,040 - root - INFO - Using following chunks:
+2024-06-27 10:51:54,040 - root - INFO - chunk_index: [2.0, 30.0, 4.0]
+2024-06-27 10:51:54,040 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:54,040 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:54,040 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:55,598 - root - INFO - For sub_query: e
+2024-06-27 10:51:55,598 - root - INFO - Using following chunks:
+2024-06-27 10:51:55,599 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:51:55,599 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:51:55,599 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:55,599 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:51:58,859 - root - INFO - For sub_query: c
+2024-06-27 10:51:58,859 - root - INFO - Using following chunks:
+2024-06-27 10:51:58,859 - root - INFO - chunk_index: [2.0, 30.0, 34.0]
+2024-06-27 10:51:58,859 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:51:58,860 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:51:58,862 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:52:01,081 - root - INFO - For sub_query: t
+2024-06-27 10:52:01,081 - root - INFO - Using following chunks:
+2024-06-27 10:52:01,082 - root - INFO - chunk_index: [45.0, 30.0, 29.0]
+2024-06-27 10:52:01,082 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:01,082 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:01,082 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:52:03,732 - root - INFO - For sub_query: s
+2024-06-27 10:52:03,733 - root - INFO - Using following chunks:
+2024-06-27 10:52:03,733 - root - INFO - chunk_index: [2.0, 30.0, 4.0]
+2024-06-27 10:52:03,734 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:03,734 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:03,734 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:05,720 - root - INFO - For sub_query:  
+2024-06-27 10:52:05,721 - root - INFO - Using following chunks:
+2024-06-27 10:52:05,721 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:52:05,721 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:05,721 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:05,722 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:09,101 - root - INFO - For sub_query: t
+2024-06-27 10:52:09,101 - root - INFO - Using following chunks:
+2024-06-27 10:52:09,101 - root - INFO - chunk_index: [45.0, 30.0, 29.0]
+2024-06-27 10:52:09,102 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:09,102 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:09,102 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:52:11,489 - root - INFO - For sub_query: h
+2024-06-27 10:52:11,490 - root - INFO - Using following chunks:
+2024-06-27 10:52:11,490 - root - INFO - chunk_index: [2.0, 45.0, 44.0]
+2024-06-27 10:52:11,491 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:11,491 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:11,491 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 44.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 1950.0}
+ Conference on Pervasive and Ubiquitous Computing: Adjunct 
+Publication.
+[42] Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge. Survey 
+research in HCI. Ways of Knowing in HCI. Springer, New York, NY, 
+2014. 229-266.
+[43] My pelvic floor Fitness. 2016. http://www.lightsbytena.co.uk/mypelvic-floor-fitness/app-info/
+[44] Tom Owen, Jennifer Pearson, Harold Thimbleby and George 
+Buchanan. 2015. ConCap: Designing to Empower Individual 
+Reflection on Chronic Conditions using Mobile Apps. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services.
+[45] Jeni Paay, Jesper Kjeldskov, Umachanger Brinthaparan, Lars Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and Bernd Ploderer. 2014. Quitty: using technology to persuade 
+smokers to quit. In Proceedings of the 8th Nordic Conference on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM.
+[46] Bernd Ploderer, Wally Smith, Jon Pearce and Ron Borland. 2014. A 
+mobile app offering distractions and tips to cope with cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2.
+[47] Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten years of mobile HCI research discussions on lab and field 
+evaluations. In: Proceedings of the 16th international conference on 
+Human-computer interaction with mobile devices & services. ACM.
+[48] Alessandro Puiatti, Steven Mudda, Silvia Giordano and Oscar 
+Mayora. 2011. Smartphone-centred wearable sensors network for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE.
+[49] William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+ ----------
+2024-06-27 10:52:14,080 - root - INFO - For sub_query: a
+2024-06-27 10:52:14,080 - root - INFO - Using following chunks:
+2024-06-27 10:52:14,080 - root - INFO - chunk_index: [2.0, 30.0, 45.0]
+2024-06-27 10:52:14,081 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:14,081 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:14,081 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:16,568 - root - INFO - For sub_query: t
+2024-06-27 10:52:16,568 - root - INFO - Using following chunks:
+2024-06-27 10:52:16,568 - root - INFO - chunk_index: [45.0, 30.0, 29.0]
+2024-06-27 10:52:16,568 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:16,568 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:16,569 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:52:18,968 - root - INFO - For sub_query:  
+2024-06-27 10:52:18,968 - root - INFO - Using following chunks:
+2024-06-27 10:52:18,968 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:52:18,968 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:18,968 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:18,968 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:21,025 - root - INFO - For sub_query: a
+2024-06-27 10:52:21,025 - root - INFO - Using following chunks:
+2024-06-27 10:52:21,025 - root - INFO - chunk_index: [2.0, 30.0, 45.0]
+2024-06-27 10:52:21,026 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:21,026 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:21,026 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:23,564 - root - INFO - For sub_query: r
+2024-06-27 10:52:23,565 - root - INFO - Using following chunks:
+2024-06-27 10:52:23,565 - root - INFO - chunk_index: [2.0, 45.0, 38.0]
+2024-06-27 10:52:23,565 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:23,565 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:23,565 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:25,237 - root - INFO - For sub_query: e
+2024-06-27 10:52:25,237 - root - INFO - Using following chunks:
+2024-06-27 10:52:25,237 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:52:25,237 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:25,237 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:25,237 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:52:28,280 - root - INFO - For sub_query:  
+2024-06-27 10:52:28,281 - root - INFO - Using following chunks:
+2024-06-27 10:52:28,281 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:52:28,281 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:28,281 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:28,281 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:30,178 - root - INFO - For sub_query: r
+2024-06-27 10:52:30,178 - root - INFO - Using following chunks:
+2024-06-27 10:52:30,178 - root - INFO - chunk_index: [2.0, 45.0, 38.0]
+2024-06-27 10:52:30,178 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:30,178 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:30,178 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:31,967 - root - INFO - For sub_query: e
+2024-06-27 10:52:31,967 - root - INFO - Using following chunks:
+2024-06-27 10:52:31,967 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:52:31,967 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:31,967 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:31,967 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:52:33,744 - root - INFO - For sub_query: l
+2024-06-27 10:52:33,745 - root - INFO - Using following chunks:
+2024-06-27 10:52:33,745 - root - INFO - chunk_index: [30.0, 0.0, 2.0]
+2024-06-27 10:52:33,745 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:33,745 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 0.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ A Lived Informatics Model of Personal Informatics 
+Daniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 
+1
+Computer Science & Engineering, 2Human Centered Design & Engineering 
+DUB Group, University of Washington 
+{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu 
+ABSTRACT 
+Current models of how people use personal informatics 
+systems are largely based in behavior change goals. They do 
+not adequately characterize the integration of self-tracking 
+into everyday life by people with varying goals. We build 
+upon prior work by embracing the perspective of lived 
+informatics to propose a new model of personal informatics. 
+We examine how lived informatics manifests in the habits of 
+self-trackers across a variety of domains, first by surveying 
+105, 99, and 83 past and present trackers of physical activity, 
+finances, and location and then by interviewing 22 trackers 
+regarding their lived informatics experiences. We develop a 
+model characterizing tracker processes of deciding to track 
+and selecting a tool, elaborate on tool usage during collection, 
+integration, and reflection as components of tracking and 
+acting, and discuss the lapsing and potential resuming of 
+tracking. We use our model to surface underexplored 
+challenges in lived informatics, thus identifying future 
+directions for personal informatics design and research. 
+Author Keywords 
+Lived Informatics; Personal Informatics; Self-Tracking; 
+Lapsing; Physical Activity; Finances; Location. 
+ACM Classification Keywords 
+H.5.m. Information interfaces and presentation (e.g., HCI). 
+INTRODUCTION 
+Personal informatics, or collecting and reflecting on personal 
+information, has become increasingly prevalent. Personal 
+informatics can serve a goal-driven purpose, such as tracking 
+weight loss, increasing physical activity, having a record of 
+places visited, or tracking student loan payments. Beyond
+ ----------
+2024-06-27 10:52:33,745 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:36,296 - root - INFO - For sub_query: a
+2024-06-27 10:52:36,296 - root - INFO - Using following chunks:
+2024-06-27 10:52:36,296 - root - INFO - chunk_index: [2.0, 30.0, 45.0]
+2024-06-27 10:52:36,296 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:36,296 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:36,296 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:39,138 - root - INFO - For sub_query: t
+2024-06-27 10:52:39,138 - root - INFO - Using following chunks:
+2024-06-27 10:52:39,138 - root - INFO - chunk_index: [45.0, 30.0, 29.0]
+2024-06-27 10:52:39,139 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:39,139 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:39,139 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:52:41,103 - root - INFO - For sub_query: e
+2024-06-27 10:52:41,103 - root - INFO - Using following chunks:
+2024-06-27 10:52:41,103 - root - INFO - chunk_index: [45.0, 2.0, 43.0]
+2024-06-27 10:52:41,103 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:41,104 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:41,104 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 43.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ Journey Framework: Guiding the Design of Holistic Health 
+Technology. Proc. 10th EAI Int’l Conf. Pervasive Computing 
+Technologies for Healthcare. 
+[34] Hilmi Güneş Kayacik, Mike Just, Lynne Baillie, David Aspinall, 
+Nicholas Micallef. 2014.Data driven authentication: On the 
+effectiveness of user behaviour modelling with mobile device 
+sensors. In Proceedings of the Third Workshop on Mobile Security 
+Technologies arXiv:1410.7743.
+[35] Kegel Trainer - Pelvic floor exercises. 2017. 
+https://itunes.apple.com/gb/app/kegel-trainer-pelvicfloor/id578148339?mt=8
+[36] Paul Lukowicz, Tnde Kirstein and Gerhard Troster. 2004. Wearable 
+systems for health care applications. Methods of information in 
+Medicine.
+[37] Mark Matthews, Stephen Voida, Saeed Abdullah, Gavin Doherty, 
+Tanzeem Choudhury, Sangha Im and Geri Gay. 2015. In situ design 
+for mental illness: considering the pathology of bipolar disorder in 
+mHealth design. Proceedings of the 17th International Conference on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[38] Nicholas Micallef, Lynne Baillie and Stephen Uzor. 2016. Time to 
+Exercise! An Aide-Memoire Stroke App for Post-Stroke Arm 
+Rehabilitation. In Proc. ACM MobileHCI.
+[39] Nicholas Micallef, Mike Just, Lynne Baillie, Martin Halvey and Hilmi 
+Güneş Kayacik. 2015. Why aren't Users Using Protection? 
+Investigating the Usability of Smartphone Locking. Proceedings of 
+the 17th International Conference on Human-Computer Interaction 
+with Mobile Devices and Services, Pages 284-294
+[40] Rowland S. Miller. 1996. Emotions and social behavior. 
+Embarrassment: Poise and peril in everyday life. New York, NY, US: 
+Guilford Press.
+[41] Chulhong Min, Saumay Pushp, Seungchul Lee, Inseok Hwang, 
+Youngki Lee, Seungwoo Kang and Junehwa Song. 2014. Uncovering 
+embarrassing moments in in-situ exposure of incoming mobile 
+messages. In Proceedings of the 2014 ACM International Joint
+ ----------
+2024-06-27 10:52:43,806 - root - INFO - For sub_query: d
+2024-06-27 10:52:43,806 - root - INFO - Using following chunks:
+2024-06-27 10:52:43,806 - root - INFO - chunk_index: [2.0, 45.0, 34.0]
+2024-06-27 10:52:43,806 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:43,806 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:43,806 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 34.0, 'page': 8.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1970.0}
+ and people sometimes return to tracking. Finding a new tool 
+to integrate with may motivate someone to resume tracking. 
+p20 stopped using Foursquare because there was “less of a 
+motivation to check in”, but later resumed because she “got 
+a Pebble and you can check in on Foursquare from your 
+Pebble.” People also return to tools when their goals align 
+with what the tools can support. p18 used MyFitnessPal to 
+help her lose weight, lost interest in the tool, and resumed 
+using MyFitnessPal to help with weight loss two years later. 
+739
+SESSION: PERSUASIVE AND PERSONAL
+ ----------
+2024-06-27 10:52:45,888 - root - INFO - For sub_query:  
+2024-06-27 10:52:45,888 - root - INFO - Using following chunks:
+2024-06-27 10:52:45,888 - root - INFO - chunk_index: [4.0, 45.0, 30.0]
+2024-06-27 10:52:45,888 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:45,888 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:45,888 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:48,347 - root - INFO - For sub_query: t
+2024-06-27 10:52:48,347 - root - INFO - Using following chunks:
+2024-06-27 10:52:48,347 - root - INFO - chunk_index: [45.0, 30.0, 29.0]
+2024-06-27 10:52:48,347 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 45.0, 'page': 12.0, 'source': 'data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf', 'start_index': 0.0}
+ models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1.
+[50] James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK Paper 703 Page 13
+ ----------
+2024-06-27 10:52:48,347 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 30.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0.0}
+ trackers. p19, who used spreadsheets to track her finances, 
+said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he 
+“grew tired of managing it.” For curiosity-driven trackers, 
+upkeep becomes a barrier to usage. p20 wanted to use the 
+lifelogging app Saga, “It would log everything… that sounds 
+exactly like I’d wanted”, but gave up quickly because “I felt 
+it was eating too much of my battery.” 
+Skipping. People make the decision not to log everything 
+they track. Sometimes, they already know the data and do not 
+see the benefit: “I run this one little loop that I already know 
+the distance, so I don’t really bother with keeping track on 
+the app” (p11). p20 mentions that some locations represent 
+events too private to record: “some of these appointments are 
+personal private things… ‘do I check in publicly so that I can 
+keep track?’” The desire to maintain a complete record is in 
+tension with privacy in systems that emphasize sharing. 
+(a) 
+(b)
+Figure 5. Respondents (a) often reviewed physical activity
+data at least weekly, while (b) the majority of location
+trackers had not reviewed their data in the past week. 
+738
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:48,347 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 29.0, 'page': 7.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3879.0}
+ said “we just kind of stopped updating it because it was too 
+much work to keep up to date”, with p174 adding that he
+ ----------
+2024-06-27 10:52:50,153 - root - INFO - For sub_query: o
+2024-06-27 10:52:50,153 - root - INFO - Using following chunks:
+2024-06-27 10:52:50,153 - root - INFO - chunk_index: [2.0, 4.0, 38.0]
+2024-06-27 10:52:50,153 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3936.0}
+ these behaviors can offer better guidance to designers.
+ ----------
+2024-06-27 10:52:50,153 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4.0, 'page': 0.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1987.0}
+ Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. 
+http://dx.doi.org/10.1145/2750858.2804250
+731
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------
+2024-06-27 10:52:50,153 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 38.0, 'page': 9.0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1952.0}
+ challenges for future designers and researchers. 
+ACKNOWLEDGMENTS 
+We thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna 
+Dosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, 
+Chuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, 
+Maria Suhardi, Megan Taylor, and Frank Xu for their 
+contributions through survey design and participant interviews. 
+We also thank Elena Agapie, Elizabeth Bales, Lucas Franco 
+Colusso, Felicia Cordeiro, and Ravi Karkar for early feedback and 
+design of visuals. This work is sponsored in part by the Intel 
+Science and Technology Center for Pervasive Computing, Nokia 
+Research, the AHRQ under award 1R21HS023654, and the NSF 
+under awards OAI-1028195 and SCH-1344613. 
+740
+UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN
+ ----------

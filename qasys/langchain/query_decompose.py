@@ -83,6 +83,7 @@ def sample_questions():
 def civic_questions():
     q = []
     q.append('What is the number of disaster projects starting later than 2021?') # Civic
+    
 
 
     return q
@@ -90,6 +91,7 @@ def civic_questions():
 def paper_questions():
     q = []
     q.append('What are the titles for papers whose topic is related to AI and publication year is later than 2018?') # Paper
+    
 
     return q
 
