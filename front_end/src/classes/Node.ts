@@ -7,7 +7,6 @@
     private outNodes:Array<number> = []
     private inData:Array<string> = []  
     private outData:Array<string> = []
-    private correctedInData:Array<any> = []
     private label:string
     private prompt:string
   
@@ -31,14 +30,6 @@
       return newData;
 
     }
-
-
-
-    // formatDataWithNewlines2() {
-    //   this.inData.map((data, index)=>
-    //     this.correctedInData.push(this.formatDataWithNewlines(data))
-    //   )
-    // }
 
   }
 
