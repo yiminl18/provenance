@@ -1,0 +1,35 @@
+{
+    "question": "What are the emails of the authors that are not 'Gmail and end with 'edu'?",
+    "sub_query": [
+        "emails of authors not 'Gmail' and end with 'edu'"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf",
+    "final_answer": "Based on the provided sub-query and sub-answer, it seems that there was difficulty in obtaining the emails of authors that are not 'Gmail' and end with 'edu'. Unfortunately, the information required to answer the initial question is not available.",
+    "sub_answers": [
+        "I don't know."
+    ],
+    "retrieved_docs": [
+        [
+            [
+                "mailing lists and posts to social media. These interviewees \r\nwere screened for the same criteria as the Turkers",
+                3
+            ],
+            [
+                ". \r\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \r\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \r\ndesign of visuals. This work is sponsored in part by the Intel \r\nScience and Technology Center for Pervasive Computing, Nokia \r\nResearch, the AHRQ under award 1R21HS023654, and the NSF \r\nunder awards OAI-1028195 and SCH-1344613. \r\n740\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                9
+            ],
+            [
+                "manufacturer’s point of view, personal informatics tools \r\ncould better support their users with designs that support \r\nevolving motivations and feature needs and allow people to \r\nmigrate when the tool no longer best supports their goals",
+                9
+            ],
+            [
+                "into everyday life by people with varying goals. We build \r\nupon prior work by embracing the perspective of lived \r\ninformatics to propose a new model of personal informatics",
+                0
+            ],
+            [
+                "media to spend more time on their “real lives” [35]",
+                2
+            ]
+        ]
+    ]
+}

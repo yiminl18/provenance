@@ -26,10 +26,7 @@ def merge_answers(question, sub_query_list, sub_answer):
     
     prompt = ChatPromptTemplate.from_messages(
 		[
-			(
-				"system",
-				"{system}",
-			),
+			("system", system_prompt),
 			("human", "{inputs}"),
 		]
 	)
@@ -42,6 +39,9 @@ def merge_answers(question, sub_query_list, sub_answer):
     }
     
     chain = prompt | llm
+
+    # Print the prompt
+    formatted_prompt = prompt.format(inputs=inputs)
     
     # Generate the final answer using LangChain
     final_answer = chain.invoke(
@@ -51,7 +51,7 @@ def merge_answers(question, sub_query_list, sub_answer):
 		}
 	).content
     
-    return final_answer
+    return final_answer, formatted_prompt
 
 # # Example usage
 # question = "What are the health benefits of regular exercise?"

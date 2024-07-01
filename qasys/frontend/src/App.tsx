@@ -102,7 +102,7 @@ class App extends Component<{}, State> {
   fetchJsonPath = async () => {
     try {
       // 使用相对路径读取本地 JSON 文件
-      const response = await fetch("data/highlight_result/result_20240627_110123.json");
+      const response = await fetch("data/highlight_result/result_20240628_115527.json");
       const data = await response.json();
       const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
 

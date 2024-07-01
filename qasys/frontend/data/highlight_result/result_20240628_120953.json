@@ -1,0 +1,59 @@
+{
+    "question": "What are the emails of the authors that are not 'Gmail and end with 'edu'?",
+    "sub_query": [
+        "Find authors' emails that are not Gmail",
+        "Find authors' emails that end with 'edu'"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf",
+    "final_answer": "To find the emails of authors that are not Gmail and end with 'edu', we need to combine the results from the two sub-queries: finding authors' emails that are not Gmail and finding authors' emails that end with 'edu'. Since both sub-answers are inconclusive, we are unable to provide the final answer to the initial question. Additional information or a different approach may be needed to obtain the desired result.",
+    "sub_answers": [
+        "I don't know.",
+        "I don't know."
+    ],
+    "retrieved_docs": [
+        [
+            [
+                "mailing lists and posts to social media. These interviewees \r\nwere screened for the same criteria as the Turkers",
+                3
+            ],
+            [
+                "43 stopped (1.07) \r\nQuicken (21), Mint (8), \r\nSpreadsheets (7), \r\nCredit Card tools (7) \r\nLocation \r\nN=83: 36 F, 46 M, \r\n1 no answer \r\nAge: avg 30.75, \r\nmin 19, max 70 \r\n80 current (1.86) \r\nFacebook (56), Instagram (23), \r\nGoogle Latitude (19), Twitter (17), \r\nFoursquare (16), FindMyFriends (8)\r\n44 stopped (1.29) \r\nFoursquare (24), Facebook (9), \r\nGoogle Latitude (7), Instagram (5), \r\nTwitter (5), FindMyFriends (4) \r\nTable 1. We surveyed demographically diverse participants\r\nusing a variety of tools in three distinct self-tracking domains.\r\n734\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                3
+            ],
+            [
+                "manufacturer’s point of view, personal informatics tools \r\ncould better support their users with designs that support \r\nevolving motivations and feature needs and allow people to \r\nmigrate when the tool no longer best supports their goals",
+                9
+            ],
+            [
+                "three tasks as spam: two left the free response question \r\neffectively blank (e.g., “N/A”); one did not enter a code \r\nshowing they had completed the survey",
+                2
+            ],
+            [
+                ". \r\nThe full survey consisted of free response questions about \r\neach current and previous tool, asking why they started and \r\nstopped using that tool as appropriate. The first two authors \r\naffinity diagrammed these responses, identified themes, and \r\nthen separately qualitatively coded the responses, iteratively \r\nrefining codes through discussion",
+                3
+            ]
+        ],
+        [
+            [
+                "mailing lists and posts to social media. These interviewees \r\nwere screened for the same criteria as the Turkers",
+                3
+            ],
+            [
+                ". \r\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \r\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \r\ndesign of visuals. This work is sponsored in part by the Intel \r\nScience and Technology Center for Pervasive Computing, Nokia \r\nResearch, the AHRQ under award 1R21HS023654, and the NSF \r\nunder awards OAI-1028195 and SCH-1344613. \r\n740\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                9
+            ],
+            [
+                ". \r\nThe screener survey, full survey, and interview protocol are \r\npublicly available: https://github.com/depstein/lived-informatics\r\nLimitations \r\nWe focused on three common, yet diverse, domains in which \r\npeople self-track. People self-track in many other domains, \r\nincluding to manage chronic illnesses, in which people might \r\nhave different motivations or tracking habits. Although we \r\nbelieve our findings are extensible to domains other than the \r\nthree on which we report (e.g., biometric or food tracking), \r\nthey do not necessarily cover all motivations and usages",
+                3
+            ],
+            [
+                ". \r\nWe invited each Turker who had self-tracked in a domain \r\n(i.e., physical activity, location, finances) to complete a \r\nlonger survey for that domain. They were compensated $2.00 \r\nfor completing the approximately 15-minute survey. This \r\n733\r\nSESSION: PERSUASIVE AND PERSONAL",
+                2
+            ],
+            [
+                "43 stopped (1.07) \r\nQuicken (21), Mint (8), \r\nSpreadsheets (7), \r\nCredit Card tools (7) \r\nLocation \r\nN=83: 36 F, 46 M, \r\n1 no answer \r\nAge: avg 30.75, \r\nmin 19, max 70 \r\n80 current (1.86) \r\nFacebook (56), Instagram (23), \r\nGoogle Latitude (19), Twitter (17), \r\nFoursquare (16), FindMyFriends (8)\r\n44 stopped (1.29) \r\nFoursquare (24), Facebook (9), \r\nGoogle Latitude (7), Instagram (5), \r\nTwitter (5), FindMyFriends (4) \r\nTable 1. We surveyed demographically diverse participants\r\nusing a variety of tools in three distinct self-tracking domains.\r\n734\r\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN",
+                3
+            ]
+        ]
+    ]
+}

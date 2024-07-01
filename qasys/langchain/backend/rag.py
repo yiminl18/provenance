@@ -25,14 +25,18 @@ def rag(question, folder_path):
          "in_nodes": [],
          "out_nodes": [2],
          "in_data": [],
-         "out_data": [f"{question}"]
+         "out_data": [f"{question}"],
+         "label": "",
+         "prompt:": ""
     })
 
     # step1: indexing
     # docs = load_local_txt(folder_path)
     docs = load_local_pdf(folder_path)
 
-    vectorstore = store_splits(split_docs(docs, chunk_size=500, chunk_overlap=10, add_start_index=True))
+    all_splits = split_docs(docs, chunk_size=600, chunk_overlap=100, add_start_index=True)
+
+    vectorstore = store_splits(all_splits)
 
     # Initialize a list to store the results
     results = []
@@ -40,9 +44,13 @@ def rag(question, folder_path):
     # for question in questions:
 
     # step2: query decomposition
-    # sub_querys = query_decomposition(question)
-    # sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
-    sub_query_list = [question]
+    sub_querys, decomposition_prompt = query_decomposition(question)
+    sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
+
+    # # do not decompose
+    # sub_query_list = [question]
+    # decomposition_prompt = ""
+
     sub_query_len = len(sub_query_list)
     logging.info(f"question: {question}")
     logging.info(f"sub_query_list: {sub_query_list}")
@@ -53,7 +61,9 @@ def rag(question, folder_path):
         "in_nodes": [1],
         "out_nodes": [i+3 for i in range(sub_query_len)],
         "in_data": [f"{question}"],
-        "out_data": [f"{sub_query_list}"]
+        "out_data": [f"{sub_query_list}"],
+        "label": "LLM",
+        "prompt": str(decomposition_prompt)
     })
 
     # step3: retrieve and generation for each sub-query
@@ -62,10 +72,11 @@ def rag(question, folder_path):
 
     logging.info("len of sub_query_list: " + str(len(sub_query_list)))
     for sub_query_index, sub_query in enumerate(sub_query_list):
-        sub_ans, sub_retrieved_docs, chunk_index = retrieve_and_generation(sub_query, vectorstore, k = 5)
+        sub_ans, sub_retrieved_docs, chunk_index, rag_prompt = retrieve_and_generation(sub_query, vectorstore, k = 5)
+        print(f"rag_prompt: {rag_prompt}")
         sub_answers.append(sub_ans)
         retrieved_docs.append([[doc.page_content, doc.metadata["page"]] for doc in sub_retrieved_docs]) # retrieved_docs is a list of list of strings
-        logging.info(f"For sub_query: {sub_query}") # print each sub-query
+        logging.info(f"\nFor sub_query: {sub_query}") # print each sub-query
         logging.info(f"Using following chunks:") # print each sub-answer
         logging.info(f"chunk_index: {chunk_index}")
         k = 0 # print top k retrieved docs
@@ -78,7 +89,9 @@ def rag(question, folder_path):
             "in_nodes": [2],
             "out_nodes": [3+sub_query_index+sub_query_len],
             "in_data": [f"{sub_query}"],
-            "out_data": [f"{sub_retrieved_docs}"]
+            "out_data": [f"{sub_retrieved_docs}"],
+            "label": "",
+            "prompt": ""
         })
         
         next_node(node_info,{
@@ -87,7 +100,9 @@ def rag(question, folder_path):
             "in_nodes": [3+sub_query_index],
             "out_nodes": [3+sub_query_len*2],
             "in_data": [f"{sub_retrieved_docs}"],
-            "out_data": [f"{sub_ans}"]
+            "out_data": [f"{sub_ans}"],
+            "label": "LLM",
+            "prompt": str(rag_prompt)
         })
 
     # with open("output_101.txt", "w", encoding="utf-8") as file:
@@ -109,7 +124,8 @@ def rag(question, folder_path):
             
 
     # step4: answer merging
-    final_answer = merge_answers(question, sub_query_list, sub_answers)
+    final_answer, merge_prompt = merge_answers(question, sub_query_list, sub_answers)
+    print(f"merge_prompt: {merge_prompt}")
 
     next_node(node_info,{
         "node_id" : 3+sub_query_len*2,
@@ -117,7 +133,9 @@ def rag(question, folder_path):
         "in_nodes": [3+sub_query_len+sub_query_index for sub_query_index in range(sub_query_len)],
         "out_nodes": [3+sub_query_len*2+1],
         "in_data": [f"{sub_answers}"],
-        "out_data": [f"{final_answer}"]
+        "out_data": [f"{final_answer}"],
+        "label": "LLM",
+        "prompt": str(merge_prompt)
     })
 
     next_node(node_info,{
@@ -126,7 +144,9 @@ def rag(question, folder_path):
         "in_nodes": [3+sub_query_len*2],
         "out_nodes": [],
         "in_data": [f"{final_answer}"],
-        "out_data": []
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
     })
 
     # Append the question and final answer to the results list
@@ -151,6 +171,8 @@ def rag(question, folder_path):
         "retrieved_docs": retrieved_docs # retrieved_docs is a list of list of PURE strings (not Document objects, for easy json serialization)
     }
     # print(result)
+    logging.info(f"\nAll splits{all_splits}")
+    # logging.info(f"\n load pdf:{docs}")
     close_logging(logger, [file_handler, console_handler])
 
     with open(f'test/output/node_info/node_info_{timestamp}.json', 'w', encoding='utf-8') as f:

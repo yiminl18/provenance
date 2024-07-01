@@ -14,6 +14,8 @@ from indexing import civic_path, paper_path
 #         rag(question=question, folder_path=folder_path)
 #     time.sleep(5)
 
+# questions = paper_questions()
+# folder_paths = paper_path()
 questions = civic_questions()
 folder_paths = civic_path()
 

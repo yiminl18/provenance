@@ -1,0 +1,102 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What is the publication year of this paper?"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What is the publication year of this paper?"
+        ],
+        "out_data": [
+            "['publication year of the paper']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What is the publication year of this paper?"
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "publication year of the paper"
+        ],
+        "out_data": [
+            "[Document(page_content=\". \\r\\nACKNOWLEDGMENTS \\r\\nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \\r\\nDosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, \\r\\nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\r\\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\r\\ncontributions through survey design and participant interviews. \\r\\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\r\\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\r\\ndesign of visuals. This work is sponsored in part by the Intel \\r\\nScience and Technology Center for Pervasive Computing, Nokia \\r\\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\r\\nunder awards OAI-1028195 and SCH-1344613. \\r\\n740\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 44, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1999}), Document(page_content=\". \\r\\nUbiComp '15, September 7-11, 2015, Osaka, Japan. \\r\\nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \\r\\nhttp://dx.doi.org/10.1145/2750858.2804250\\r\\n731\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1932}), Document(page_content='. \\r\\nBarriers and Negative Nudges: Exploring Challenges \\r\\nin Food Journaling. CHI 2015, 1159-1162. \\r\\n12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\r\\nHeartLink : Open Broadcast of Live Biometric Data to \\r\\nSocial Networks. CHI 2013, 1749-1758. \\r\\n13. Dawe, M. Desperately Seeking Simplicity: How \\r\\nYoung Adults with Cognitive Disabilities and Their \\r\\nFamilies Adopt Assistive Technologies. CHI 2006, \\r\\n1143-1152. \\r\\n14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\r\\nAre your Participants Gaming the System? Screening \\r\\nMechanical Turk Workers. CHI 2010, 2399-2402. \\r\\n15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\r\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\r\\nExploring Visual Cuts of Personal Informatics Data. \\r\\nDIS 2014, 667-676. \\r\\n16. Fritz, T., Huang, E.M., Murphy, G.C., and \\r\\nZimmermann, T. Persuasive Technology in the Real \\r\\nWorld : A Study of Long-Term Use of Activity \\r\\nSensing Devices for Fitness. CHI 2014, 487-496. \\r\\n17. Hodges, S., Williams, L., Berry, E., Izadi, S., \\r\\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \\r\\nWood, K. SenseCam: A Retrospective Memory Aid. \\r\\nUbiComp 2006, 177-193. \\r\\n18. Humphreys, L. Mobile Social Networks and Social \\r\\nPractice: A Case Study of Dodgeball. J Compu-Mediat \\r\\nComm 13, (2007), 341-360. \\r\\n19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A. \\r\\nThere’s No Such Thing as Gaining a Pound: \\r\\nReconsidering the Bathroom Scale User Interface. \\r\\nUbiComp 2013, 401-410. \\r\\n20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \\r\\nD.A. Money Talks: Tracking Personal Finances. \\r\\nCHI 2014, 521-530. \\r\\n21. Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \\r\\nPersonal Informatics Systems. CHI 2010, 557-566. \\r\\n22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My \\r\\nData, Myself: Supporting Self-Reflection with \\r\\nUbicomp Technologies. UbiComp 2011, 405-414', metadata={'chunk_index': 46, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1905}), Document(page_content=\". \\r\\n23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \\r\\nStrub, H.B. Fish’n'Steps: Encouraging Physical Activity \\r\\nwith an Interactive Computer Game. UbiComp 2006, \\r\\n261-278.\", metadata={'chunk_index': 47, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3775}), Document(page_content=\"30. Page, X. and Kobsa, A. Navigating the Social Terrain \\r\\nwith Google Latitude. iConference 2010, 174-178. \\r\\n31. Powers, W.T. Behavior: The Control of Perception.\\r\\nBenchmark Publications, 2005. \\r\\n32. Prochaska, J.O. and Velcier, W.F. The Transtheoretical \\r\\nModel of Health Behavior Change. American Journal \\r\\nof Health Promotion 12, 1 (1997), 38-48. \\r\\n33. Rahman, T., Adams, A.T., Zhang, M., Cherry, E., \\r\\nZhou, B., Peng, H., and Choudhury, T. BodyBeat : A \\r\\nMobile System for Sensing Non-Speech Body Sounds. \\r\\nMobiSys 2014, 2-13. \\r\\n34. Rooksby, J., Rost, M., Morrison, A., and Chalmers, M. \\r\\nPersonal Tracking as Lived Informatics. CHI 2014, \\r\\n1163-1172. \\r\\n35. Schoenebeck, S.Y. Giving up Twitter for Lent: How \\r\\nand Why We Take Breaks from Social Media. \\r\\nCHI 2014, 773-782. \\r\\n36. Schön, D.A. The Reflective Practitioner. Basic Books, \\r\\n1983. \\r\\n37. Smith, I., Consolvo, S., Lamarca, A., Hightower, J., \\r\\nScott, J., Sohn, T., Hughes, J., Iachello, G., and \\r\\nAbowd, G.D. Social Disclosure of Place: From \\r\\nLocation Technology to Communication Practices. \\r\\nPervasive 2005, 134-151. \\r\\n38. Tang, K.P., Lin, J., Hong, J.I., Siewiorek, D.P., and \\r\\nSadeh, N. Rethinking Location Sharing: Exploring the \\r\\nImplications of Social-Driven vs. Purpose-Driven \\r\\nLocation Sharing. UbiComp 2010, 85-94. \\r\\n39. Thomaz, E., Zhang, C., Essa, I., and Abowd, G.D. \\r\\nInferring Meal Eating Activities in Real World Settings \\r\\nfrom Ambient Sounds: A Feasibility Study. IUI 2015, \\r\\n427-431. \\r\\n40. Toscos, T., Faber, A., Connelly, K., and Upoma, A.M. \\r\\nEncouraging Physical Activity in Teens: Can \\r\\nTechnology Help Reduce Barriers to Physical Activity \\r\\nin Adolescent Girls? PervasiveHealth 2008, 218-221. \\r\\n41. Whooley, M., Gray, K., Ploderer, B., and Gray, K. On \\r\\nthe Integration of Self-tracking Data amongst \\r\\nQuantified Self Members. HCI 2014, 151-160. \\r\\n742\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 49, 'page': 11, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "[Document(page_content=\". \\r\\nACKNOWLEDGMENTS \\r\\nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \\r\\nDosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, \\r\\nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\r\\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\r\\ncontributions through survey design and participant interviews. \\r\\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\r\\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\r\\ndesign of visuals. This work is sponsored in part by the Intel \\r\\nScience and Technology Center for Pervasive Computing, Nokia \\r\\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\r\\nunder awards OAI-1028195 and SCH-1344613. \\r\\n740\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 44, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1999}), Document(page_content=\". \\r\\nUbiComp '15, September 7-11, 2015, Osaka, Japan. \\r\\nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \\r\\nhttp://dx.doi.org/10.1145/2750858.2804250\\r\\n731\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1932}), Document(page_content='. \\r\\nBarriers and Negative Nudges: Exploring Challenges \\r\\nin Food Journaling. CHI 2015, 1159-1162. \\r\\n12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\r\\nHeartLink : Open Broadcast of Live Biometric Data to \\r\\nSocial Networks. CHI 2013, 1749-1758. \\r\\n13. Dawe, M. Desperately Seeking Simplicity: How \\r\\nYoung Adults with Cognitive Disabilities and Their \\r\\nFamilies Adopt Assistive Technologies. CHI 2006, \\r\\n1143-1152. \\r\\n14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\r\\nAre your Participants Gaming the System? Screening \\r\\nMechanical Turk Workers. CHI 2010, 2399-2402. \\r\\n15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\r\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\r\\nExploring Visual Cuts of Personal Informatics Data. \\r\\nDIS 2014, 667-676. \\r\\n16. Fritz, T., Huang, E.M., Murphy, G.C., and \\r\\nZimmermann, T. Persuasive Technology in the Real \\r\\nWorld : A Study of Long-Term Use of Activity \\r\\nSensing Devices for Fitness. CHI 2014, 487-496. \\r\\n17. Hodges, S., Williams, L., Berry, E., Izadi, S., \\r\\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \\r\\nWood, K. SenseCam: A Retrospective Memory Aid. \\r\\nUbiComp 2006, 177-193. \\r\\n18. Humphreys, L. Mobile Social Networks and Social \\r\\nPractice: A Case Study of Dodgeball. J Compu-Mediat \\r\\nComm 13, (2007), 341-360. \\r\\n19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A. \\r\\nThere’s No Such Thing as Gaining a Pound: \\r\\nReconsidering the Bathroom Scale User Interface. \\r\\nUbiComp 2013, 401-410. \\r\\n20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \\r\\nD.A. Money Talks: Tracking Personal Finances. \\r\\nCHI 2014, 521-530. \\r\\n21. Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \\r\\nPersonal Informatics Systems. CHI 2010, 557-566. \\r\\n22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My \\r\\nData, Myself: Supporting Self-Reflection with \\r\\nUbicomp Technologies. UbiComp 2011, 405-414', metadata={'chunk_index': 46, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1905}), Document(page_content=\". \\r\\n23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \\r\\nStrub, H.B. Fish’n'Steps: Encouraging Physical Activity \\r\\nwith an Interactive Computer Game. UbiComp 2006, \\r\\n261-278.\", metadata={'chunk_index': 47, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 3775}), Document(page_content=\"30. Page, X. and Kobsa, A. Navigating the Social Terrain \\r\\nwith Google Latitude. iConference 2010, 174-178. \\r\\n31. Powers, W.T. Behavior: The Control of Perception.\\r\\nBenchmark Publications, 2005. \\r\\n32. Prochaska, J.O. and Velcier, W.F. The Transtheoretical \\r\\nModel of Health Behavior Change. American Journal \\r\\nof Health Promotion 12, 1 (1997), 38-48. \\r\\n33. Rahman, T., Adams, A.T., Zhang, M., Cherry, E., \\r\\nZhou, B., Peng, H., and Choudhury, T. BodyBeat : A \\r\\nMobile System for Sensing Non-Speech Body Sounds. \\r\\nMobiSys 2014, 2-13. \\r\\n34. Rooksby, J., Rost, M., Morrison, A., and Chalmers, M. \\r\\nPersonal Tracking as Lived Informatics. CHI 2014, \\r\\n1163-1172. \\r\\n35. Schoenebeck, S.Y. Giving up Twitter for Lent: How \\r\\nand Why We Take Breaks from Social Media. \\r\\nCHI 2014, 773-782. \\r\\n36. Schön, D.A. The Reflective Practitioner. Basic Books, \\r\\n1983. \\r\\n37. Smith, I., Consolvo, S., Lamarca, A., Hightower, J., \\r\\nScott, J., Sohn, T., Hughes, J., Iachello, G., and \\r\\nAbowd, G.D. Social Disclosure of Place: From \\r\\nLocation Technology to Communication Practices. \\r\\nPervasive 2005, 134-151. \\r\\n38. Tang, K.P., Lin, J., Hong, J.I., Siewiorek, D.P., and \\r\\nSadeh, N. Rethinking Location Sharing: Exploring the \\r\\nImplications of Social-Driven vs. Purpose-Driven \\r\\nLocation Sharing. UbiComp 2010, 85-94. \\r\\n39. Thomaz, E., Zhang, C., Essa, I., and Abowd, G.D. \\r\\nInferring Meal Eating Activities in Real World Settings \\r\\nfrom Ambient Sounds: A Feasibility Study. IUI 2015, \\r\\n427-431. \\r\\n40. Toscos, T., Faber, A., Connelly, K., and Upoma, A.M. \\r\\nEncouraging Physical Activity in Teens: Can \\r\\nTechnology Help Reduce Barriers to Physical Activity \\r\\nin Adolescent Girls? PervasiveHealth 2008, 218-221. \\r\\n41. Whooley, M., Gray, K., Ploderer, B., and Gray, K. On \\r\\nthe Integration of Self-tracking Data amongst \\r\\nQuantified Self Members. HCI 2014, 151-160. \\r\\n742\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 49, 'page': 11, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0})]"
+        ],
+        "out_data": [
+            "The publication year of the paper is 2015."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: publication year of the paper \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 5,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "['The publication year of the paper is 2015.']"
+        ],
+        "out_data": [
+            "The publication year of the paper is 2015."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What is the publication year of this paper?', 'sub_query_list': ['publication year of the paper'], 'sub_answer': ['The publication year of the paper is 2015.']}"
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "end",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The publication year of the paper is 2015."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

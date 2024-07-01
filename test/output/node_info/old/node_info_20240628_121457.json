@@ -1,0 +1,140 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4
+        ],
+        "in_data": [
+            "What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects"
+        ],
+        "out_data": [
+            "['Projects related to disaster', 'Projects with a start date later than 2021']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects"
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "Projects related to disaster"
+        ],
+        "out_data": [
+            "[Document(page_content='upcoming Capital Improvements Projects and Disaster Recovery Projects.\\r\\nDISCUSSION: Staff will provide a status update on the following active projects in the \\r\\nFiscal Year 2021-2022 Capital Improvement Program:\\r\\nCapital Improvement Projects (Design)\\r\\nMarie Canyon Green Streets\\r\\n¾ Updates:\\r\\n\\x83 A hydrology report was prepared and will be used to size the pre\\x02manufactured biofilters. City staff is reviewing multiple biofilter \\r\\nmanufacturers for filters that will work in the proposed project area. It is \\r\\nanticipated to have a final design by March 2022. The project will be', metadata={'chunk_index': 1, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 506}), Document(page_content='Page 1 of 8\\r\\nAgenda Item # 4.A.\\r\\nPublic Works Commission \\r\\nAgenda Report\\r\\nTo: Chair Simmens and Members of the Public Works Commission\\r\\nPrepared by: Troy Spayd, Assistant Public Works Director/City Engineer\\r\\nApproved by: Rob DuBoux, Public Works Director/City Engineer\\r\\nDate prepared: October 21, 2021 Meeting date: October 27, 2021\\r\\nSubject: Capital Improvement Projects and Disaster Recovery Projects Status \\r\\nReport\\r\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and \\r\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.', metadata={'chunk_index': 0, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='Page 6 of 8\\r\\nAgenda Item # 4.A.\\r\\n¾ Project Description: This project will be funded through a grant from FEMA \\r\\nafter the Woolsey Fire. The City will create a complete inventory of storm \\r\\ndrains, culverts, debris basins, manholes, and other drainage structures \\r\\nwithin the City. \\r\\n¾ Updates: Council approved an agreement in December for design services', metadata={'chunk_index': 22, 'page': 5, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='Acoustic Technology to design the outdoor warning sirens. A design \\r\\nreport will be presented to Council upon completion.\\r\\n¾ Estimated Schedule: TBD\\r\\nDisaster Projects (Construction)\\r\\nNone at this time\\r\\nDisaster Projects (Completed)\\r\\nCitywide Guardrail Replacement\\r\\nProject Description: This project consisted of replacing the damaged guardrails throughout \\r\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and \\r\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged \\r\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 32, 'page': 7, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 481}), Document(page_content='Management Plan. This project is scheduled to be accepted by the Council \\r\\nat the January 24, 2022 meeting.\\r\\nDisaster Projects (Design)\\r\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\r\\n¾ Updates:\\r\\n\\x83 The project consultant prepared the specifications for the project. Staff \\r\\nis finalizing the bid documents.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: February 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\r\\n¾ Updates:\\r\\n\\x83 Staff is finalizing the design of this project.', metadata={'chunk_index': 19, 'page': 4, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 516})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 5,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='upcoming Capital Improvements Projects and Disaster Recovery Projects.\\r\\nDISCUSSION: Staff will provide a status update on the following active projects in the \\r\\nFiscal Year 2021-2022 Capital Improvement Program:\\r\\nCapital Improvement Projects (Design)\\r\\nMarie Canyon Green Streets\\r\\n¾ Updates:\\r\\n\\x83 A hydrology report was prepared and will be used to size the pre\\x02manufactured biofilters. City staff is reviewing multiple biofilter \\r\\nmanufacturers for filters that will work in the proposed project area. It is \\r\\nanticipated to have a final design by March 2022. The project will be', metadata={'chunk_index': 1, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 506}), Document(page_content='Page 1 of 8\\r\\nAgenda Item # 4.A.\\r\\nPublic Works Commission \\r\\nAgenda Report\\r\\nTo: Chair Simmens and Members of the Public Works Commission\\r\\nPrepared by: Troy Spayd, Assistant Public Works Director/City Engineer\\r\\nApproved by: Rob DuBoux, Public Works Director/City Engineer\\r\\nDate prepared: October 21, 2021 Meeting date: October 27, 2021\\r\\nSubject: Capital Improvement Projects and Disaster Recovery Projects Status \\r\\nReport\\r\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and \\r\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.', metadata={'chunk_index': 0, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='Page 6 of 8\\r\\nAgenda Item # 4.A.\\r\\n¾ Project Description: This project will be funded through a grant from FEMA \\r\\nafter the Woolsey Fire. The City will create a complete inventory of storm \\r\\ndrains, culverts, debris basins, manholes, and other drainage structures \\r\\nwithin the City. \\r\\n¾ Updates: Council approved an agreement in December for design services', metadata={'chunk_index': 22, 'page': 5, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='Acoustic Technology to design the outdoor warning sirens. A design \\r\\nreport will be presented to Council upon completion.\\r\\n¾ Estimated Schedule: TBD\\r\\nDisaster Projects (Construction)\\r\\nNone at this time\\r\\nDisaster Projects (Completed)\\r\\nCitywide Guardrail Replacement\\r\\nProject Description: This project consisted of replacing the damaged guardrails throughout \\r\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and \\r\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged \\r\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 32, 'page': 7, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 481}), Document(page_content='Management Plan. This project is scheduled to be accepted by the Council \\r\\nat the January 24, 2022 meeting.\\r\\nDisaster Projects (Design)\\r\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\r\\n¾ Updates:\\r\\n\\x83 The project consultant prepared the specifications for the project. Staff \\r\\nis finalizing the bid documents.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: February 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\r\\n¾ Updates:\\r\\n\\x83 Staff is finalizing the design of this project.', metadata={'chunk_index': 19, 'page': 4, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 516})]"
+        ],
+        "out_data": [
+            "The upcoming Capital Improvement Program includes disaster recovery projects funded by FEMA after the Woolsey Fire. These projects involve creating a complete inventory of drainage structures and replacing damaged guardrails in the city. Design work for disaster projects such as water quality infrastructure repairs and roadway improvements is ongoing."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: Projects related to disaster \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "Projects with a start date later than 2021"
+        ],
+        "out_data": [
+            "[Document(page_content='anticipated to have a final design by March 2022. The project will be \\r\\nadvertised for construction bids shortly after this date', metadata={'chunk_index': 2, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1014}), Document(page_content='. \\r\\n¾ Updates:\\r\\n\\x83 Staff is reviewing the submitted proposals and will select a qualified \\r\\nconsultant. It is anticipated that this agreement will go to Council in \\r\\nMarch 2022\\r\\n¾ Estimated Schedule:\\r\\n\\x83 Begin Design: Spring 2022\\r\\nCapital Improvement Projects (Construction)\\r\\nThe City does not have projects in construction at this time.', metadata={'chunk_index': 12, 'page': 2, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1552}), Document(page_content='Management Plan. This project is scheduled to be accepted by the Council \\r\\nat the January 24, 2022 meeting.\\r\\nDisaster Projects (Design)\\r\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\r\\n¾ Updates:\\r\\n\\x83 The project consultant prepared the specifications for the project. Staff \\r\\nis finalizing the bid documents.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: February 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\r\\n¾ Updates:\\r\\n\\x83 Staff is finalizing the design of this project.', metadata={'chunk_index': 19, 'page': 4, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 516}), Document(page_content='Page 3 of 8\\r\\nAgenda Item # 4.A.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: December 2021\\r\\n\\x83 Advertise for Bidding: February 2022\\r\\n\\x83 Begin Construction: Fall 2022\\r\\nBluffs Park Shade Structure\\r\\n¾ Project Description: This project consists of the installation of four single-post \\r\\nshade structures at Malibu Bluffs Park.\\r\\n¾ Updates:\\r\\n\\x83 Staff is currently working on the design of the project and anticipates \\r\\nsending this project out to bid during the Spring of 2022.\\r\\n¾ Estimated Schedule:\\r\\n\\x83 Complete Design: Spring 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nPermanent Skate Park', metadata={'chunk_index': 9, 'page': 2, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='upcoming Capital Improvements Projects and Disaster Recovery Projects.\\r\\nDISCUSSION: Staff will provide a status update on the following active projects in the \\r\\nFiscal Year 2021-2022 Capital Improvement Program:\\r\\nCapital Improvement Projects (Design)\\r\\nMarie Canyon Green Streets\\r\\n¾ Updates:\\r\\n\\x83 A hydrology report was prepared and will be used to size the pre\\x02manufactured biofilters. City staff is reviewing multiple biofilter \\r\\nmanufacturers for filters that will work in the proposed project area. It is \\r\\nanticipated to have a final design by March 2022. The project will be', metadata={'chunk_index': 1, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 506})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='anticipated to have a final design by March 2022. The project will be \\r\\nadvertised for construction bids shortly after this date', metadata={'chunk_index': 2, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1014}), Document(page_content='. \\r\\n¾ Updates:\\r\\n\\x83 Staff is reviewing the submitted proposals and will select a qualified \\r\\nconsultant. It is anticipated that this agreement will go to Council in \\r\\nMarch 2022\\r\\n¾ Estimated Schedule:\\r\\n\\x83 Begin Design: Spring 2022\\r\\nCapital Improvement Projects (Construction)\\r\\nThe City does not have projects in construction at this time.', metadata={'chunk_index': 12, 'page': 2, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 1552}), Document(page_content='Management Plan. This project is scheduled to be accepted by the Council \\r\\nat the January 24, 2022 meeting.\\r\\nDisaster Projects (Design)\\r\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\r\\n¾ Updates:\\r\\n\\x83 The project consultant prepared the specifications for the project. Staff \\r\\nis finalizing the bid documents.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: February 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\r\\n¾ Updates:\\r\\n\\x83 Staff is finalizing the design of this project.', metadata={'chunk_index': 19, 'page': 4, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 516}), Document(page_content='Page 3 of 8\\r\\nAgenda Item # 4.A.\\r\\n¾ Project Schedule:\\r\\n\\x83 Complete Design: December 2021\\r\\n\\x83 Advertise for Bidding: February 2022\\r\\n\\x83 Begin Construction: Fall 2022\\r\\nBluffs Park Shade Structure\\r\\n¾ Project Description: This project consists of the installation of four single-post \\r\\nshade structures at Malibu Bluffs Park.\\r\\n¾ Updates:\\r\\n\\x83 Staff is currently working on the design of the project and anticipates \\r\\nsending this project out to bid during the Spring of 2022.\\r\\n¾ Estimated Schedule:\\r\\n\\x83 Complete Design: Spring 2022\\r\\n\\x83 Begin Construction: Spring 2022\\r\\nPermanent Skate Park', metadata={'chunk_index': 9, 'page': 2, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 0}), Document(page_content='upcoming Capital Improvements Projects and Disaster Recovery Projects.\\r\\nDISCUSSION: Staff will provide a status update on the following active projects in the \\r\\nFiscal Year 2021-2022 Capital Improvement Program:\\r\\nCapital Improvement Projects (Design)\\r\\nMarie Canyon Green Streets\\r\\n¾ Updates:\\r\\n\\x83 A hydrology report was prepared and will be used to size the pre\\x02manufactured biofilters. City staff is reviewing multiple biofilter \\r\\nmanufacturers for filters that will work in the proposed project area. It is \\r\\nanticipated to have a final design by March 2022. The project will be', metadata={'chunk_index': 1, 'page': 0, 'source': 'data/civic/raw_data/malibucity_agenda__01262022-1835.pdf', 'start_index': 506})]"
+        ],
+        "out_data": [
+            "Projects with a start date later than 2021 include the Latigo Canyon Road Roadway/Retaining Wall Improvements and the Bluffs Park Shade Structure. The Bluffs Park Shade Structure project is anticipated to have a final design by March 2022 and will be advertised for construction bids shortly after. The Latigo Canyon Road project is still finalizing the design and is expected to begin construction in Spring 2022."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: Projects with a start date later than 2021 \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            5,
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "['The upcoming Capital Improvement Program includes disaster recovery projects funded by FEMA after the Woolsey Fire. These projects involve creating a complete inventory of drainage structures and replacing damaged guardrails in the city. Design work for disaster projects such as water quality infrastructure repairs and roadway improvements is ongoing.', 'Projects with a start date later than 2021 include the Latigo Canyon Road Roadway/Retaining Wall Improvements and the Bluffs Park Shade Structure. The Bluffs Park Shade Structure project is anticipated to have a final design by March 2022 and will be advertised for construction bids shortly after. The Latigo Canyon Road project is still finalizing the design and is expected to begin construction in Spring 2022.']"
+        ],
+        "out_data": [
+            "The names of projects related to disaster with a start date later than 2021 are the Latigo Canyon Road Roadway/Retaining Wall Improvements and the Bluffs Park Shade Structure. The Bluffs Park Shade Structure project is anticipated to have a final design by March 2022 and will be advertised for construction bids shortly after. The Latigo Canyon Road project is still finalizing the design and is expected to begin construction in Spring 2022. These projects are part of the upcoming Capital Improvement Program that includes disaster recovery projects funded by FEMA after the Woolsey Fire."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects', 'sub_query_list': ['Projects related to disaster', 'Projects with a start date later than 2021'], 'sub_answer': ['The upcoming Capital Improvement Program includes disaster recovery projects funded by FEMA after the Woolsey Fire. These projects involve creating a complete inventory of drainage structures and replacing damaged guardrails in the city. Design work for disaster projects such as water quality infrastructure repairs and roadway improvements is ongoing.', 'Projects with a start date later than 2021 include the Latigo Canyon Road Roadway/Retaining Wall Improvements and the Bluffs Park Shade Structure. The Bluffs Park Shade Structure project is anticipated to have a final design by March 2022 and will be advertised for construction bids shortly after. The Latigo Canyon Road project is still finalizing the design and is expected to begin construction in Spring 2022.']}"
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "end",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The names of projects related to disaster with a start date later than 2021 are the Latigo Canyon Road Roadway/Retaining Wall Improvements and the Bluffs Park Shade Structure. The Bluffs Park Shade Structure project is anticipated to have a final design by March 2022 and will be advertised for construction bids shortly after. The Latigo Canyon Road project is still finalizing the design and is expected to begin construction in Spring 2022. These projects are part of the upcoming Capital Improvement Program that includes disaster recovery projects funded by FEMA after the Woolsey Fire."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

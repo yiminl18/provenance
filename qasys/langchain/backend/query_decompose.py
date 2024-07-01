@@ -43,7 +43,7 @@ def query_decomposition(question):
     Input: question, str
     Output: subquestions, list of class SubQuery
     '''
-    system = """You are an expert at converting user questions into  sub-questions. \
+    system_prompt = """You are an expert at converting user questions into  sub-questions. \
 
     Perform query decomposition. Given a user question, break it down into distinct sub questions that \
     you need to answer in order to answer the original question.
@@ -52,7 +52,7 @@ def query_decomposition(question):
 
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", system),
+            ("system", system_prompt),
             ("human", "{question}"),
         ]
     )
@@ -60,6 +60,10 @@ def query_decomposition(question):
     llm_with_tools = llm.bind_tools([SubQuery])
     parser = PydanticToolsParser(tools=[SubQuery])
     query_analyzer = prompt | llm_with_tools | parser
+
+    # Print the prompt
+    formatted_prompt = prompt.format(question=question)
+
     l = query_analyzer.invoke(
         {
             "question": question
@@ -67,7 +71,7 @@ def query_decomposition(question):
     )   
     # print(str(l))
 
-    return l
+    return l, formatted_prompt
 
 def write_json(data, file_path):
     with open(file_path, 'w') as file:
@@ -82,9 +86,9 @@ def sample_questions():
 
 def civic_questions():
     q = []
-    # q.append('What is the number of disaster projects starting later than 2021?') # Civic
+    q.append('What is the number of disaster projects starting later than 2021?') # Civic
     # q.append('There exists at least two projects that are related to disaster and have a start date later than 2021. Please give me the name of these two projects') # Civic
-    q.append("What are the names of projects that are related to disaster and have a start date later than 2022? Only list the names of these projects") # Civic
+    # q.append("What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects") # Civic
     # q.append("What is the name of the project in design that has the earliest construction start date?")
     # q.append("How many project under construction are being discussed in the document?")
     # q.append("What is the number of vehicle related projects?")
@@ -99,7 +103,8 @@ def paper_questions():
     # q.append('How many statistical methods are used when processing data from user studies?')
     # q.append('How many user studies are taken in the paper?')
     # q.append("What is the publication year of this paper?")
-    q.append("How many authors are there in this paper?")
+    # q.append("How many authors are there in this paper?")
+    q.append("What are the emails of the authors that are not 'Gmail and end with 'edu'?")
 
     return q
 

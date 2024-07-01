@@ -92,16 +92,26 @@ def load_local_pdf_as_one_page(file_path):
     return combined_doc
 
 
-def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
+def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
     '''
     Input: docs, list of class Document
     Output: all_splits, list of class Document
+
+    At a high level, text splitters work as following:
+
+    Split the text up into small, semantically meaningful chunks (often sentences).
+    Start combining these small chunks into a larger chunk until you reach a certain size (as measured by some function).
+    Once you reach that size, make that chunk its own piece of text and then start creating a new chunk of text with some overlap (to keep context between chunks).
+    That means there are two different axes along which you can customize your text splitter:
+
+    How the text is split
+    How the chunk size is measured
     '''
 
     from langchain_text_splitters import RecursiveCharacterTextSplitter
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index
+        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index, separators=["\n\n", ". \r\n", "\n", " ", ""]
     )
     all_splits = text_splitter.split_documents(docs)
 
@@ -119,27 +129,11 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True):
 
     logging.info(f"Split {len(docs)} documents into {len(all_splits)} chunks")
 
+    all_splits_len = [len(split.page_content) for split in all_splits]
+    logging.info(f"all splits length: {all_splits_len}")
+    # logging.info(all_splits)
+
     return all_splits
-
-def store_splits(all_splits):
-    ''' 
-    Input: all_splits, list of class Document
-    Output: vectorstore, class Chroma
-    '''
-    
-    from langchain_chroma import Chroma
-    from langchain_pinecone import PineconeVectorStore
-    from langchain_openai import OpenAIEmbeddings
-
-    # vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))])
-    # PineconeVectorStore.delete_index("civic")
-    
-    vectorstore = PineconeVectorStore.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))], index_name="civic")
-
-    return vectorstore
-
-
-
 
 # def store_splits(all_splits):
 #     ''' 
@@ -148,17 +142,44 @@ def store_splits(all_splits):
 #     '''
     
 #     from langchain_chroma import Chroma
+#     from langchain_pinecone import PineconeVectorStore
 #     from langchain_openai import OpenAIEmbeddings
+
+  
+#     pc = PineconeVectorStore()
+#     embeddings = OpenAIEmbeddings()
+#     index_name = "my-index"
+#     namespace = "my-namespace"
+#     vectorstore = Pinecone(
+#         index_name=index_name,
+#         embedding=embedding,
+#         namespace=namespace,
+#     )
+#     pc.delete(delete_all=True)
     
-#     # Create vectorstore
-#     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
-#     embeddings = vectorstore.embeddings
-#     logging.info("type of embeddings: " + str(type(embeddings)))
-#     # logging.info(f"Stored {len(embeddings)} embeddings in the vectorstore")
-#     # unique_embeddings = set(tuple(embed) for embed in embeddings)
-#     # if len(unique_embeddings) != len(embeddings):
-#     #     print("数据集中有重复的 embedding")
+#     vectorstore = pc.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))], index_name="civic")
+
 #     return vectorstore
+#TODO: don't know how to delete in langchian, diff from the official one
+
+
+
+
+def store_splits(all_splits):
+    ''' 
+    Input: all_splits, list of class Document
+    Output: vectorstore, class Chroma
+    '''
+    
+    from langchain_chroma import Chroma
+    from langchain_openai import OpenAIEmbeddings
+    
+    # Create vectorstore
+    vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))])
+    embedding_vectors = vectorstore._collection.get(include=['embeddings']).get('embeddings')
+    if len(embedding_vectors) != len(set(tuple(embed) for embed in embedding_vectors)):
+        raise ValueError("Repeated embedding found in dataset")
+    return vectorstore
 
 
 

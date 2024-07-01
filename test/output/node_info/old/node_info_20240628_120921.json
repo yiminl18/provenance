@@ -1,0 +1,178 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the emails of the authors that are not 'Gmail and end with 'edu'?"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4,
+            5
+        ],
+        "in_data": [
+            "What are the emails of the authors that are not 'Gmail and end with 'edu'?"
+        ],
+        "out_data": [
+            "[\"List all authors' emails\", \"List authors' emails that are not Gmail\", \"List authors' emails that end with 'edu'\"]"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the emails of the authors that are not 'Gmail and end with 'edu'?"
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "List all authors' emails"
+        ],
+        "out_data": [
+            "[Document(page_content='mailing lists and posts to social media. These interviewees \\r\\nwere screened for the same criteria as the Turkers', metadata={'chunk_index': 50, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1765}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398}), Document(page_content='. \\r\\nPermission to make digital or hard copies of all or part of this work for\\r\\npersonal or classroom use is granted without fee provided that copies are \\r\\nnot made or distributed for profit or commercial advantage and that copies\\r\\nbear this notice and the full citation on the first page. Copyrights for\\r\\ncomponents of this work owned by others than ACM must be honored.\\r\\nAbstracting with credit is permitted. To copy otherwise, or republish, to\\r\\npost on servers or to redistribute to lists, requires prior specific permission\\r\\nand/or a fee. Request permissions from permissions@acm.org', metadata={'chunk_index': 14, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1346}), Document(page_content='. \\r\\nThe full survey consisted of free response questions about \\r\\neach current and previous tool, asking why they started and \\r\\nstopped using that tool as appropriate. The first two authors \\r\\naffinity diagrammed these responses, identified themes, and \\r\\nthen separately qualitatively coded the responses, iteratively \\r\\nrefining codes through discussion', metadata={'chunk_index': 48, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 888}), Document(page_content='. \\r\\nACKNOWLEDGMENTS \\r\\nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \\r\\nDosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, \\r\\nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\r\\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\r\\ncontributions through survey design and participant interviews', metadata={'chunk_index': 149, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1999})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            9
+        ],
+        "in_data": [
+            "[Document(page_content='mailing lists and posts to social media. These interviewees \\r\\nwere screened for the same criteria as the Turkers', metadata={'chunk_index': 50, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1765}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398}), Document(page_content='. \\r\\nPermission to make digital or hard copies of all or part of this work for\\r\\npersonal or classroom use is granted without fee provided that copies are \\r\\nnot made or distributed for profit or commercial advantage and that copies\\r\\nbear this notice and the full citation on the first page. Copyrights for\\r\\ncomponents of this work owned by others than ACM must be honored.\\r\\nAbstracting with credit is permitted. To copy otherwise, or republish, to\\r\\npost on servers or to redistribute to lists, requires prior specific permission\\r\\nand/or a fee. Request permissions from permissions@acm.org', metadata={'chunk_index': 14, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1346}), Document(page_content='. \\r\\nThe full survey consisted of free response questions about \\r\\neach current and previous tool, asking why they started and \\r\\nstopped using that tool as appropriate. The first two authors \\r\\naffinity diagrammed these responses, identified themes, and \\r\\nthen separately qualitatively coded the responses, iteratively \\r\\nrefining codes through discussion', metadata={'chunk_index': 48, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 888}), Document(page_content='. \\r\\nACKNOWLEDGMENTS \\r\\nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \\r\\nDosouto, Nicole Fugere, Coimbra Jackson, Bradley Jacobson, \\r\\nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \\r\\nMaria Suhardi, Megan Taylor, and Frank Xu for their \\r\\ncontributions through survey design and participant interviews', metadata={'chunk_index': 149, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1999})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: List all authors' emails \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "List authors' emails that are not Gmail"
+        ],
+        "out_data": [
+            "[Document(page_content=\"43 stopped (1.07) \\r\\nQuicken (21), Mint (8), \\r\\nSpreadsheets (7), \\r\\nCredit Card tools (7) \\r\\nLocation \\r\\nN=83: 36 F, 46 M, \\r\\n1 no answer \\r\\nAge: avg 30.75, \\r\\nmin 19, max 70 \\r\\n80 current (1.86) \\r\\nFacebook (56), Instagram (23), \\r\\nGoogle Latitude (19), Twitter (17), \\r\\nFoursquare (16), FindMyFriends (8)\\r\\n44 stopped (1.29) \\r\\nFoursquare (24), Facebook (9), \\r\\nGoogle Latitude (7), Instagram (5), \\r\\nTwitter (5), FindMyFriends (4) \\r\\nTable 1. We surveyed demographically diverse participants\\r\\nusing a variety of tools in three distinct self-tracking domains.\\r\\n734\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 59, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2067}), Document(page_content='manufacturer’s point of view, personal informatics tools \\r\\ncould better support their users with designs that support \\r\\nevolving motivations and feature needs and allow people to \\r\\nmigrate when the tool no longer best supports their goals', metadata={'chunk_index': 144, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0}), Document(page_content='. \\r\\nTOCHI 20, 5 (2013), 1-27. \\r\\n4. Bentley, F. and Tollmar, K. The Power of Mobile \\r\\nNotifications to Increase Wellbeing Logging Behavior. \\r\\nCHI 2013, 1095-1098. \\r\\n5. Berinsky, A.J., Huber, G.A., and Lenz, G.S. Evaluating \\r\\nOnline Labor Markets for Experimental Research: \\r\\nAmazon.com’s Mechanical Turk. Political Analysis 20, \\r\\n(2012), 351-368. \\r\\n6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\r\\nJ.A. Understanding Quantified-Selfers’ Practices in \\r\\nCollecting and Exploring Personal Data. CHI 2014, \\r\\n1143-1152', metadata={'chunk_index': 152, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 572}), Document(page_content='trackers. p19, who used spreadsheets to track her finances, \\r\\nsaid “we just kind of stopped updating it because it was too \\r\\nmuch work to keep up to date”, with p174 adding that he \\r\\n“grew tired of managing it.” For curiosity-driven trackers, \\r\\nupkeep becomes a barrier to usage. p20 wanted to use the \\r\\nlifelogging app Saga, “It would log everything… that sounds \\r\\nexactly like I’d wanted”, but gave up quickly because “I felt \\r\\nit was eating too much of my battery.” \\r\\nSkipping. People make the decision not to log everything \\r\\nthey track. Sometimes, they already know the data and do not', metadata={'chunk_index': 116, 'page': 7, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_6": {
+        "node_id": 7,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            9
+        ],
+        "in_data": [
+            "[Document(page_content=\"43 stopped (1.07) \\r\\nQuicken (21), Mint (8), \\r\\nSpreadsheets (7), \\r\\nCredit Card tools (7) \\r\\nLocation \\r\\nN=83: 36 F, 46 M, \\r\\n1 no answer \\r\\nAge: avg 30.75, \\r\\nmin 19, max 70 \\r\\n80 current (1.86) \\r\\nFacebook (56), Instagram (23), \\r\\nGoogle Latitude (19), Twitter (17), \\r\\nFoursquare (16), FindMyFriends (8)\\r\\n44 stopped (1.29) \\r\\nFoursquare (24), Facebook (9), \\r\\nGoogle Latitude (7), Instagram (5), \\r\\nTwitter (5), FindMyFriends (4) \\r\\nTable 1. We surveyed demographically diverse participants\\r\\nusing a variety of tools in three distinct self-tracking domains.\\r\\n734\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 59, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2067}), Document(page_content='manufacturer’s point of view, personal informatics tools \\r\\ncould better support their users with designs that support \\r\\nevolving motivations and feature needs and allow people to \\r\\nmigrate when the tool no longer best supports their goals', metadata={'chunk_index': 144, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0}), Document(page_content='. \\r\\nTOCHI 20, 5 (2013), 1-27. \\r\\n4. Bentley, F. and Tollmar, K. The Power of Mobile \\r\\nNotifications to Increase Wellbeing Logging Behavior. \\r\\nCHI 2013, 1095-1098. \\r\\n5. Berinsky, A.J., Huber, G.A., and Lenz, G.S. Evaluating \\r\\nOnline Labor Markets for Experimental Research: \\r\\nAmazon.com’s Mechanical Turk. Political Analysis 20, \\r\\n(2012), 351-368. \\r\\n6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\r\\nJ.A. Understanding Quantified-Selfers’ Practices in \\r\\nCollecting and Exploring Personal Data. CHI 2014, \\r\\n1143-1152', metadata={'chunk_index': 152, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 572}), Document(page_content='trackers. p19, who used spreadsheets to track her finances, \\r\\nsaid “we just kind of stopped updating it because it was too \\r\\nmuch work to keep up to date”, with p174 adding that he \\r\\n“grew tired of managing it.” For curiosity-driven trackers, \\r\\nupkeep becomes a barrier to usage. p20 wanted to use the \\r\\nlifelogging app Saga, “It would log everything… that sounds \\r\\nexactly like I’d wanted”, but gave up quickly because “I felt \\r\\nit was eating too much of my battery.” \\r\\nSkipping. People make the decision not to log everything \\r\\nthey track. Sometimes, they already know the data and do not', metadata={'chunk_index': 116, 'page': 7, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 0}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: List authors' emails that are not Gmail \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_7": {
+        "node_id": 5,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "List authors' emails that end with 'edu'"
+        ],
+        "out_data": [
+            "[Document(page_content=\". \\r\\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\r\\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\r\\ndesign of visuals. This work is sponsored in part by the Intel \\r\\nScience and Technology Center for Pervasive Computing, Nokia \\r\\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\r\\nunder awards OAI-1028195 and SCH-1344613. \\r\\n740\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 150, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2323}), Document(page_content='. \\r\\nThe screener survey, full survey, and interview protocol are \\r\\npublicly available: https://github.com/depstein/lived-informatics\\r\\nLimitations \\r\\nWe focused on three common, yet diverse, domains in which \\r\\npeople self-track. People self-track in many other domains, \\r\\nincluding to manage chronic illnesses, in which people might \\r\\nhave different motivations or tracking habits. Although we \\r\\nbelieve our findings are extensible to domains other than the \\r\\nthree on which we report (e.g., biometric or food tracking), \\r\\nthey do not necessarily cover all motivations and usages', metadata={'chunk_index': 52, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2448}), Document(page_content=\"43 stopped (1.07) \\r\\nQuicken (21), Mint (8), \\r\\nSpreadsheets (7), \\r\\nCredit Card tools (7) \\r\\nLocation \\r\\nN=83: 36 F, 46 M, \\r\\n1 no answer \\r\\nAge: avg 30.75, \\r\\nmin 19, max 70 \\r\\n80 current (1.86) \\r\\nFacebook (56), Instagram (23), \\r\\nGoogle Latitude (19), Twitter (17), \\r\\nFoursquare (16), FindMyFriends (8)\\r\\n44 stopped (1.29) \\r\\nFoursquare (24), Facebook (9), \\r\\nGoogle Latitude (7), Instagram (5), \\r\\nTwitter (5), FindMyFriends (4) \\r\\nTable 1. We surveyed demographically diverse participants\\r\\nusing a variety of tools in three distinct self-tracking domains.\\r\\n734\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 59, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2067}), Document(page_content='. \\r\\nTOCHI 20, 5 (2013), 1-27. \\r\\n4. Bentley, F. and Tollmar, K. The Power of Mobile \\r\\nNotifications to Increase Wellbeing Logging Behavior. \\r\\nCHI 2013, 1095-1098. \\r\\n5. Berinsky, A.J., Huber, G.A., and Lenz, G.S. Evaluating \\r\\nOnline Labor Markets for Experimental Research: \\r\\nAmazon.com’s Mechanical Turk. Political Analysis 20, \\r\\n(2012), 351-368. \\r\\n6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\r\\nJ.A. Understanding Quantified-Selfers’ Practices in \\r\\nCollecting and Exploring Personal Data. CHI 2014, \\r\\n1143-1152', metadata={'chunk_index': 152, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 572}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "generation",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [
+            9
+        ],
+        "in_data": [
+            "[Document(page_content=\". \\r\\nWe also thank Elena Agapie, Elizabeth Bales, Lucas Franco \\r\\nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \\r\\ndesign of visuals. This work is sponsored in part by the Intel \\r\\nScience and Technology Center for Pervasive Computing, Nokia \\r\\nResearch, the AHRQ under award 1R21HS023654, and the NSF \\r\\nunder awards OAI-1028195 and SCH-1344613. \\r\\n740\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 150, 'page': 9, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2323}), Document(page_content='. \\r\\nThe screener survey, full survey, and interview protocol are \\r\\npublicly available: https://github.com/depstein/lived-informatics\\r\\nLimitations \\r\\nWe focused on three common, yet diverse, domains in which \\r\\npeople self-track. People self-track in many other domains, \\r\\nincluding to manage chronic illnesses, in which people might \\r\\nhave different motivations or tracking habits. Although we \\r\\nbelieve our findings are extensible to domains other than the \\r\\nthree on which we report (e.g., biometric or food tracking), \\r\\nthey do not necessarily cover all motivations and usages', metadata={'chunk_index': 52, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2448}), Document(page_content=\"43 stopped (1.07) \\r\\nQuicken (21), Mint (8), \\r\\nSpreadsheets (7), \\r\\nCredit Card tools (7) \\r\\nLocation \\r\\nN=83: 36 F, 46 M, \\r\\n1 no answer \\r\\nAge: avg 30.75, \\r\\nmin 19, max 70 \\r\\n80 current (1.86) \\r\\nFacebook (56), Instagram (23), \\r\\nGoogle Latitude (19), Twitter (17), \\r\\nFoursquare (16), FindMyFriends (8)\\r\\n44 stopped (1.29) \\r\\nFoursquare (24), Facebook (9), \\r\\nGoogle Latitude (7), Instagram (5), \\r\\nTwitter (5), FindMyFriends (4) \\r\\nTable 1. We surveyed demographically diverse participants\\r\\nusing a variety of tools in three distinct self-tracking domains.\\r\\n734\\r\\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\", metadata={'chunk_index': 59, 'page': 3, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 2067}), Document(page_content='. \\r\\nTOCHI 20, 5 (2013), 1-27. \\r\\n4. Bentley, F. and Tollmar, K. The Power of Mobile \\r\\nNotifications to Increase Wellbeing Logging Behavior. \\r\\nCHI 2013, 1095-1098. \\r\\n5. Berinsky, A.J., Huber, G.A., and Lenz, G.S. Evaluating \\r\\nOnline Labor Markets for Experimental Research: \\r\\nAmazon.com’s Mechanical Turk. Political Analysis 20, \\r\\n(2012), 351-368. \\r\\n6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\r\\nJ.A. Understanding Quantified-Selfers’ Practices in \\r\\nCollecting and Exploring Personal Data. CHI 2014, \\r\\n1143-1152', metadata={'chunk_index': 152, 'page': 10, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 572}), Document(page_content='. \\r\\nAuthor Keywords \\r\\nLived Informatics; Personal Informatics; Self-Tracking; \\r\\nLapsing; Physical Activity; Finances; Location. \\r\\nACM Classification Keywords \\r\\nH.5.m. Information interfaces and presentation (e.g., HCI)', metadata={'chunk_index': 4, 'page': 0, 'source': 'data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf', 'start_index': 1398})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: List authors' emails that end with 'edu' \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_9": {
+        "node_id": 9,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            6,
+            7,
+            8
+        ],
+        "out_nodes": [
+            10
+        ],
+        "in_data": [
+            "[\"I don't know.\", \"I don't know.\", \"I don't know.\"]"
+        ],
+        "out_data": [
+            "To find the emails of authors that are not Gmail and end with 'edu', we need to consider the intersection of the sub-answers provided. Since all sub-answers are \"I don't know,\" it is not possible to generate a final answer to the initial question. Additional information or clarification is needed to proceed further."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': \"What are the emails of the authors that are not 'Gmail and end with 'edu'?\", 'sub_query_list': [\"List all authors' emails\", \"List authors' emails that are not Gmail\", \"List authors' emails that end with 'edu'\"], 'sub_answer': [\"I don't know.\", \"I don't know.\", \"I don't know.\"]}"
+    },
+    "node_10": {
+        "node_id": 10,
+        "node_name": "end",
+        "in_nodes": [
+            9
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "To find the emails of authors that are not Gmail and end with 'edu', we need to consider the intersection of the sub-answers provided. Since all sub-answers are \"I don't know,\" it is not possible to generate a final answer to the initial question. Additional information or clarification is needed to proceed further."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}
