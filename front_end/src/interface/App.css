@@ -81,19 +81,26 @@
   padding: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  max-height: 18em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-
-#InComingDateTitle, #OutGoingDataTitle{
-  align-self: flex-start;
-  height: 1em;
-  margin-bottom: 0.6em;
+#InComingDateTitleandLink, #OutGoinggDateTitleandLink{
+  
+  padding-left: 2.1em;
+  margin-bottom: 0.2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%; 
 }
+
+#InComingDateTitle{
+  columns: 1/2;
+  align-self: flex-start;
+}
+
 
 #InComingDataBoxes, #OutGoingDataBoxes{
   overflow-y: auto;
@@ -104,17 +111,32 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd; 
   padding: 1.5em;
-  /* padding-top: 1.5em; */
   background-color: #f7f9fc;
-  /* gap: 1em; */
 }
 
 .dataBox {
   padding: 0.5em;
-
   margin-bottom: 1em;
   
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd; 
+  overflow: auto;
 } 
+
+.outerLinkTextandLink{
+  columns: 2/3;
+  justify-self: flex-end;
+  display: flex;
+
+}
+
+.outerLink, .outerLink a{
+  background-image: url("../images/outerLink.jpeg");
+  height: 1em;
+  width: 3em;
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  cursor: pointer;
+}
