@@ -5,12 +5,14 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { Node } from "../classes/Node.ts"
 import { Edge } from "../classes/Edge.ts"
-import { Link } from "react-router-dom";
 import './App.css';
-
 var allNodes = [];
 var allEdges = [];
 var rerender = true
+var fetchedNodeData = null;
+var fetchedPDFData = null;
+var fetchedPDFDataPath = null;
+var data = null;
 
 const options = {
   layout: {
@@ -24,13 +26,19 @@ const options = {
 
 
 function fetchJSONData() {
-  // const fetchJsonData = require('../testData/mockData4.json');
-  const fetchJsonData = require('../testData/mockData10.json');
-  // const fetchJsonData = require('../testData/mockData50.json');
-  // const fetchJsonData = require('../testData/node_info.json');
-  // const fetchJsonData = require('../testData/zenDBsql1paper.json');
-  createNodes(fetchJsonData)
-  createEdges(fetchJsonData)
+  // const fetchedJsonData = require('../testData/mockData4.json');
+  // const fetchedJsonData = require('../testData/mockData10.json');
+  // const fetchedJsonData = require('../testData/mockData50.json');
+  const fetchedJsonData = require('../testData/node_info.json');
+  // const fetchJfetchedJsonDatasonData = require('../testData/zenDBsql1paper.json');
+
+  createNodes(fetchedJsonData)
+  createEdges(fetchedJsonData)
+    Object.values(fetchedJsonData).forEach(element => {
+        if (element.node_name == "retrival" && element.out_data != undefined) {
+            fetchedNodeData = element.out_data
+        }
+    });
 }
 
 const createNodes = (data) => {
@@ -56,13 +64,45 @@ const createEdges = (data) => {
 
 const App = () => {
   const [selectedNode, setSelectedNode] = useState("");
+  const [jsonFiles, setJsonFiles] = useState([]);
+  const [error, setError] = useState(null);
+
   var combinedStringOutout = "";
   var combinedStringIndex = "";
 
+  function compareJSONData(JSONFiles, JSONFilePath) {
+    // const folderPath = ""; 
+
+    fetchedPDFData = JSONFiles[0]
+    if (typeof fetchedPDFData !== 'string' || typeof fetchedNodeData !== 'string') {
+      fetchedPDFData = JSON.stringify(fetchedPDFData);
+      fetchedNodeData = JSON.stringify(fetchedNodeData);
+    }
+
+    if(fetchedPDFData == fetchedNodeData){
+      fetchedPDFDataPath = JSONFilePath
+      // console.log("YAYY")
+      // console.log(fetchedPDFDataPath)
+      return fetchedPDFDataPath
+    }
+  }
+
   useEffect(() => {
     if (rerender == true){
-      console.log("began fetching for json data")
       fetchJSONData();
+      const fetchJsonFiles = async () => {
+        try {
+          const response = await fetch('http://localhost:5001/');
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          const data = await response.json();
+          setJsonFiles((data));
+        } catch (error) {
+          setError(error.toString());
+        }
+      };
+      fetchJsonFiles()
       rerender = false
     }
     else{
@@ -70,6 +110,17 @@ const App = () => {
     }
 
   }, []);
+
+  useEffect(() => {
+    if (jsonFiles.length > 0) {
+      console.log("Processing JSON files:", jsonFiles);
+      jsonFiles.forEach(file => {
+        if (file.retrieved_docs && file.retrieved_docs.length > 0) {
+          compareJSONData(file.retrieved_docs, file.file_path)
+        }
+      });
+    }
+  }, [jsonFiles]);
 
 
   const FormattedContent = ({ content }) => {
