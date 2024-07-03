@@ -10,4 +10,8 @@ Steps to running the program:
 
     2.3 "npm install --save-dev @babel/plugin-transform-private-property-in-object"
 
-    2.4 "npm start"
+    2.4 "2.5 "pip install flask""
+
+    2.5 "pip install flask-cors"
+
+    2.6 "npm start"
