@@ -103,6 +103,7 @@ class App extends Component<{}, State> {
     try {
       // 使用相对路径读取本地 JSON 文件
       const response = await fetch("data/highlight_result/result_20240627_110123.json");
+      // const response = await fetch("data/highlight_result/result_20240627_103714.json");
       const data = await response.json();
       const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
 
@@ -152,7 +153,7 @@ class App extends Component<{}, State> {
 
       retrievedDocs.forEach(async (docArray, docArrayIndex) => { // for different sub_query's retrival
         docArray.forEach(async (doc, docIndex) => { // for each retrieved chunk
-          // console.log("doc:", doc[0]);
+          console.log("doc:", doc[0]);
           let docTextOriginal = doc[0]; // docText is a string
           let docText = docTextOriginal.replace(/[^a-zA-Z0-9]/g, '');
           const docTextLength = docText.length;
@@ -163,7 +164,7 @@ class App extends Component<{}, State> {
           const viewport = page.getViewport({ scale: 1 });
           let textContent = await page.getTextContent();
           let textItems = textContent.items;
-          console.log("textItems:", textItems);
+          // ("textItems:", textItems);
           // let pageItem = textItems.map(item => item.str).join("\n");
 
           
@@ -182,20 +183,20 @@ class App extends Component<{}, State> {
             }
             if (candidate_text == docText) {
               const startIndex = i;
-              console.log("For sub query", docArrayIndex + 1);
-              console.log("For top:", docIndex + 1);
-              console.log("START Match found at:", i);
+              // console.log("For sub query", docArrayIndex + 1);
+              // console.log("For top:", docIndex + 1);
+              // console.log("START Match found at:", i);
               // console.log("candidate_text:", candidate_text);
-              console.log("docTextOriginal:", docTextOriginal);
+              // console.log("docTextOriginal:", docTextOriginal);
               // find the index of the last of candidate_text in textItems
               for (let j = textItems.length; j >= i; j--) {
                 let candidate_text2 = textItems.slice(i, j).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(-docTextLength);
                 if (candidate_text2 == docText) {
                   const endIndex = j-1;
-                  console.log("END Match found at:", j);
+                  // console.log("END Match found at:", j);
 
                   let highLightArea = this.getHighlightArea(startIndex, endIndex, textItems);
-                  console.log("highlightArea:", highLightArea);
+                  // console.log("highlightArea:", highLightArea);
                   // this.getExistingHighlights();
 
                   for (let k = 0; k < highLightArea.length; k++) {
@@ -251,7 +252,7 @@ class App extends Component<{}, State> {
 
 
   addHighlight = (highlight: NewHighlight) => {
-    console.log("Saving highlight", highlight);
+    // console.log("Saving highlight", highlight);
   
     this.setState((prevState) => ({
       highlights: [{ ...highlight, id: getNextId() }, ...prevState.highlights],
@@ -279,7 +280,7 @@ class App extends Component<{}, State> {
   }
 
   updateHighlight(highlightId: string, position: Object, content: Object, comment: Object) {
-    console.log("Updating highlight", highlightId, position, content);
+    // console.log("Updating highlight", highlightId, position, content);
     this.setState({
       highlights: this.state.highlights.map((h) => {
         const { id, position: originalPosition, content: originalContent, comment: originalComment, ...rest } = h;
@@ -297,10 +298,10 @@ class App extends Component<{}, State> {
   }
 
   getExistingHighlights = () => {
-    console.log("Existing Highlights:");
+    // console.log("Existing Highlights:");
     const { highlights } = this.state;
     highlights.forEach((highlight) => {
-      console.log('Existing Highlight:', highlight);
+      // console.log('Existing Highlight:', highlight);
     });
   };
 
