@@ -8,7 +8,9 @@
             2
         ],
         "in_data": [],
-        "out_data": []
+        "out_data": [],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 1,
@@ -22,7 +24,9 @@
         "in_data": [
             "/Users/yiminglin/Documents/Codebase/TextDB/Text-DB/data/civic/extracted_data/malibucity_agenda__04282021-1687.txt\n"
         ],
-        "out_data": []
+        "out_data": [],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 2,
@@ -38,7 +42,9 @@
         ],
         "out_data": [
             "tuple 0:Marie Canyon Green Streets\ntuple 1:PCH Median Improvements Project\ntuple 2:PCH Signal Synchronization System Improvements Project\ntuple 3:Civic Center Stormwater Diversion Structure\ntuple 4:Westward Beach Road Improvements Project\ntuple 5:Civic Center Water Treatment Facility Phase 2\ntuple 6:Malibu Park Drainage Improvements\ntuple 7:Annual Street Maintenance\ntuple 8:City Hall Roof Replacement\ntuple 9:Bluffs Park Workout Station\ntuple 10:Civic Center Way Improvements\ntuple 11:Bluffs Park Shade Structure\ntuple 12:Vehicle Protection Devices\ntuple 13:Malibu Road Slope Repairs\ntuple 14:Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\ntuple 15:Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\ntuple 16:Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\ntuple 17:Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\ntuple 18:Birdview Avenue Improvements (CalOES Project)\ntuple 19:Outdoor Warning Sirens (FEMA Project)\ntuple 20:Guardrail Replacement Citywide (FEMA Project)\ntuple 21:Corral Canyon Road Bridge Repairs (FEMA Project)\ntuple 22:Corral Canyon Culvert Repairs (FEMA Project)\ntuple 23:Clover Heights Storm Drain (FEMA Project)\ntuple 24:Latigo Canyon Road Culvert Repairs (FEMA Project)\ntuple 25:Encinal Canyon Road Drainage Improvements (CalOES Project)\ntuple 26:Storm Drain Master Plan (FEMA Project)\n"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 3,
@@ -54,7 +60,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 4,
@@ -70,7 +78,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 5,
@@ -86,7 +96,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 6,
@@ -102,7 +114,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 7,
@@ -118,7 +132,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 8,
@@ -134,7 +150,9 @@
         ],
         "out_data": [
             "Is the type of project capital? Return \"True\" or \"False\" . If answer is not found, return \"None\".\nTrue"
-        ]
+        ],
+        "label":"testing label",
+        "prompt":""
     },
     {
         "node_id": 9,
