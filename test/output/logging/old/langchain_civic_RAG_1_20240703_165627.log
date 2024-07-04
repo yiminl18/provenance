@@ -1,0 +1,94 @@
+2024-07-03 16:56:27,187 - root - INFO - folder_path: data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf
+2024-07-03 16:56:27,190 - root - INFO - Split 1 documents into 98 chunks
+2024-07-03 16:56:27,191 - root - INFO - all splits length: [243, 994, 595, 830, 1245, 787, 370, 966, 596, 907, 405, 751, 572, 1205, 465, 697, 780, 675, 991, 882, 528, 908, 852, 982, 939, 579, 543, 685, 919, 791, 547, 778, 821, 737, 419, 821, 622, 942, 683, 696, 666, 963, 102, 1144, 1092, 961, 241, 989, 608, 912, 596, 1072, 479, 815, 1052, 985, 808, 885, 665, 879, 814, 862, 673, 672, 593, 598, 1045, 935, 104, 1252, 307, 1154, 772, 598, 606, 974, 948, 814, 518, 590, 915, 933, 609, 673, 718, 788, 698, 956, 949, 812, 909, 996, 974, 877, 723, 968, 990, 405]
+2024-07-03 16:56:29,047 - root - INFO - question: How many authors are there for this paper? Return None if no answer is found.
+2024-07-03 16:56:29,047 - root - INFO - sub_query_list: ['number of authors for this paper']
+2024-07-03 16:56:29,047 - root - INFO - len of sub_query_list: 1
+2024-07-03 16:56:30,477 - root - INFO - 
+For sub_query: number of authors for this paper
+2024-07-03 16:56:30,477 - root - INFO - Using following chunks:
+2024-07-03 16:56:30,477 - root - INFO - chunk_index: [3, 79, 20, 78, 49]
+2024-07-03 16:56:30,477 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 1830}
+ Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for profit or commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for components of this work owned by others than ACM 
+must  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or 
+republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific 
+permission and/or a fee. Request permissions from permissions@acm.org). 
+CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. 
+© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. 
+ACM ISBN 978-1-4503-5970-2/19/05...$15.00. 
+DOI: https://doi.org/10.1145/3290605.3300933
+ ----------
+2024-07-03 16:56:30,477 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 79, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 59542}
+ 8  CONCLUSION 
+This paper  presents  an  exploratory study  in  which  we  co-
+designed  and  then  evaluated  with  people  with  OAB  and 
+health professionals an OAB mHealth app. We commenced 
+with an  OAB and  mHealth  app literature review and  used 
+this as the basis for our requirements gathering interviews. 
+Based on the data collected we designed the first prototype 
+and validated it again with the same stakeholder categories. 
+Given  the  second  round  of  feedback,  we  improved  the 
+design of the app and evaluated it in a field study for nine 
+days with people with OAB.
+ ----------
+2024-07-03 16:56:30,477 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 20, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 14940}
+ 3.1  Medical Participants 
+
+3.1.1 Methodology. We  started  with  MPs  interviews  as  we 
+wished  to  understand  whether  they  agreed  with  the 
+concepts  derived  from  the  literature  and  whether  they 
+would  suggest  additional  ones.  We  interviewed  four  MPs: 
+two  medical  consultants 
+two  urinary 
+continence specialist nurses (MP3-4). Three interviews were 
+conducted  via  telephone  and  one  face-to-face  (MP2).  Each 
+interview lasted one hour and was divided into three phases 
+(Table 1). 
+
+(MP1-2)  and
+ ----------
+2024-07-03 16:56:30,477 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 78, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 59020}
+ 7  LIMITATIONS AND FUTURE WORK 
+One limitation of our work is the low number of UPs in our 
+field  study.  Despite  using  all  the  usual  routes  and  OAB 
+association  websites,  we  encountered  major  recruitment 
+issues. As we are planning in our next studies to make the 
+app  freely  available  for  download,  we  hope  to  achieve 
+higher numbers. Our next step is to conduct a longer-term 
+field study to evaluate if the app can increase adherence to 
+self-managed treatment and raise awareness of symptoms.
+ ----------
+2024-07-03 16:56:30,477 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 49, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 36361}
+ CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 7 
+ 
+ 
+ 
+ 
+5  STUDY 3 – SHORT FIELD STUDY 
+Kjeldskov  and  Skov  [47]  and  Baillie  and  Schatz  [6] 
+underline  the  importance  of  conducting  short  in  situ 
+evaluations  as  lab-based  ones  could  leave  usability  or  UX 
+issues  unrevealed. We, therefore, evaluated the  app  during 
+a  short  field  study  with  UPs.  When  evaluating  an  app  for 
+older  adults  with  age-related  macular  degeneration, 
+Hakobyan  et  al.  [26]  conducted  a  preliminary  7  days 
+evaluation  study  before  carrying  on  with  a  6  weeks 
+longitudinal  field  one.  Previous  sensor  research  [34,  39] 
+found  differences  between  weekdays  and  weekends  and 
+recommend undertaking a study which lasts at least a week 
+(best  9-11  days)  and  collects  both  weekday  and  weekend 
+data. Given this, we ran the study for 9 days.
+ ----------

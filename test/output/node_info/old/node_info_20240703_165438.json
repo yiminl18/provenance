@@ -1,0 +1,140 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4
+        ],
+        "in_data": [
+            "What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+        ],
+        "out_data": [
+            "['disaster projects starting later than 2022', 'Return None if no answer is found']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "disaster projects starting later than 2022"
+        ],
+        "out_data": [
+            "[Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nStorm Drain Master Plan (FEMA Project)\\n\\n(cid:190) Project Description: This project is funded through a grant from FEMA after\\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\\nculverts, debris basins, manholes, and other drainage structures within the\\nCity.\\n\\n(cid:190) Updates: Council approved an agreement in December for design services.\\n\\nA kick-off meeting was held in late December.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022', metadata={'chunk_index': 12, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 10224}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576}), Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022\\n\\nPage 6 of 6\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 9987}), Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project design has begun and preliminary design should be\\n\\ncompleted by Spring 2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nMalibu Road Slope Repairs (CalOES Project)\\n\\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.\\n\\n(cid:190) Updates:\\n\\n(cid:131) The design has started and is anticipated to be completed by the Spring\\n\\nof 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Fall 2022\\n\\nWestward Beach Road Shoulder Repairs (CalOES Project)\\n\\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\\n\\nWestward Beach Road.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 15, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 12852}), Document(page_content='(cid:190) Upates:\\n\\n(cid:131) On November 30, 2021, City Council approved an agreement with\\nAcoustic Technology to design the outdoor warning sirens. A design\\nreport will be presented to Council upon completion.\\n\\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\\n\\n2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\n\\nCitywide Guardrail Replacement\\nProject Description: This project consisted of replacing the damaged guardrails throughout\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 18, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 14874})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 5,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nStorm Drain Master Plan (FEMA Project)\\n\\n(cid:190) Project Description: This project is funded through a grant from FEMA after\\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\\nculverts, debris basins, manholes, and other drainage structures within the\\nCity.\\n\\n(cid:190) Updates: Council approved an agreement in December for design services.\\n\\nA kick-off meeting was held in late December.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022', metadata={'chunk_index': 12, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 10224}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576}), Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022\\n\\nPage 6 of 6\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 9987}), Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project design has begun and preliminary design should be\\n\\ncompleted by Spring 2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nMalibu Road Slope Repairs (CalOES Project)\\n\\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.\\n\\n(cid:190) Updates:\\n\\n(cid:131) The design has started and is anticipated to be completed by the Spring\\n\\nof 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Fall 2022\\n\\nWestward Beach Road Shoulder Repairs (CalOES Project)\\n\\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\\n\\nWestward Beach Road.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 15, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 12852}), Document(page_content='(cid:190) Upates:\\n\\n(cid:131) On November 30, 2021, City Council approved an agreement with\\nAcoustic Technology to design the outdoor warning sirens. A design\\nreport will be presented to Council upon completion.\\n\\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\\n\\n2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\n\\nCitywide Guardrail Replacement\\nProject Description: This project consisted of replacing the damaged guardrails throughout\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 18, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 14874})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: disaster projects starting later than 2022 \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "Return None if no answer is found"
+        ],
+        "out_data": [
+            "[Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022\\n\\nPage 6 of 6\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 9987}), Document(page_content='(cid:190) Upates:\\n\\n(cid:131) On November 30, 2021, City Council approved an agreement with\\nAcoustic Technology to design the outdoor warning sirens. A design\\nreport will be presented to Council upon completion.\\n\\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\\n\\n2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\n\\nCitywide Guardrail Replacement\\nProject Description: This project consisted of replacing the damaged guardrails throughout\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 18, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 14874}), Document(page_content='Outdoor Warningn Sirens - Design (FEMA Project)\\n\\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\\nCity’s ability to alert the community by providing mechanisms to alert\\nresidents in areas without power and those who live in neighborhoods with\\npoor cell service. Phase One of the project included a sound study to\\ndetermine the optimal number and locations of individual sirens, power and\\ninfrastructure requirements, and siren sound range. The City has been\\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\\nenvironmental compliance needed for a shovel ready project. Phase Two of\\n\\nPage 7 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nthe Emergency Warning Sirens project will be implementation of the design\\nplan, including purchasing, installing, and testing the sirens. The City will\\napply for future grant funding for this phase of the project.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 17, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13980}), Document(page_content='Outdoor Warning Sirens (FEMA Project)\\n\\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\\nWooley Fire. The project consists of hiring a consultant to develop a plan\\nthat includes the evaluation of a siren system and possible locations. Staff\\nis working on an RFQ to hire a consultant for the design.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Unknown\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\nGuardrail Replacement Citywide (FEMA/CalOES Project)\\n\\n(cid:190) Project Description: This project consisted of replacing the damaged\\n\\nguardrail throughout the City as a result of the Woolsey Fire.\\n\\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\\n\\n(cid:190) Project Description: This project consisted of replacing fire damaged\\nexisting fencing and repairing the damaged embankment adjacent to the\\nbridge.\\n\\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)', metadata={'chunk_index': 8, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 7284}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022\\n\\nPage 6 of 6\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 9987}), Document(page_content='(cid:190) Upates:\\n\\n(cid:131) On November 30, 2021, City Council approved an agreement with\\nAcoustic Technology to design the outdoor warning sirens. A design\\nreport will be presented to Council upon completion.\\n\\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\\n\\n2022.\\n\\n(cid:190) Estimated Schedule: TBD\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\n\\nCitywide Guardrail Replacement\\nProject Description: This project consisted of replacing the damaged guardrails throughout\\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\\nguardrails. The project was completed in February 2021.', metadata={'chunk_index': 18, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 14874}), Document(page_content='Outdoor Warningn Sirens - Design (FEMA Project)\\n\\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\\nCity’s ability to alert the community by providing mechanisms to alert\\nresidents in areas without power and those who live in neighborhoods with\\npoor cell service. Phase One of the project included a sound study to\\ndetermine the optimal number and locations of individual sirens, power and\\ninfrastructure requirements, and siren sound range. The City has been\\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\\nenvironmental compliance needed for a shovel ready project. Phase Two of\\n\\nPage 7 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nthe Emergency Warning Sirens project will be implementation of the design\\nplan, including purchasing, installing, and testing the sirens. The City will\\napply for future grant funding for this phase of the project.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 17, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13980}), Document(page_content='Outdoor Warning Sirens (FEMA Project)\\n\\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\\nWooley Fire. The project consists of hiring a consultant to develop a plan\\nthat includes the evaluation of a siren system and possible locations. Staff\\nis working on an RFQ to hire a consultant for the design.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Unknown\\n\\nDisaster Projects (Construction)\\nNone at this time\\n\\nDisaster Projects (Completed)\\nGuardrail Replacement Citywide (FEMA/CalOES Project)\\n\\n(cid:190) Project Description: This project consisted of replacing the damaged\\n\\nguardrail throughout the City as a result of the Woolsey Fire.\\n\\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\\n\\n(cid:190) Project Description: This project consisted of replacing fire damaged\\nexisting fencing and repairing the damaged embankment adjacent to the\\nbridge.\\n\\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)', metadata={'chunk_index': 8, 'source': 'data/civic/extracted_data/malibucity_agenda__03242021-1665.txt', 'start_index': 7284}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576})]"
+        ],
+        "out_data": [
+            "None"
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: Return None if no answer is found \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            5,
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "[\"I don't know.\", 'None']"
+        ],
+        "out_data": [
+            "The names of disaster projects starting later than 2022 are not available. Therefore, the answer to the question \"What are the names of disaster projects starting later than 2022?\" is that there is no information or the answer is unknown."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What are the names of disaster projects starting later than 2022? Return None if no answer is found.', 'sub_query_list': ['disaster projects starting later than 2022', 'Return None if no answer is found'], 'sub_answer': [\"I don't know.\", 'None']}"
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "end",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The names of disaster projects starting later than 2022 are not available. Therefore, the answer to the question \"What are the names of disaster projects starting later than 2022?\" is that there is no information or the answer is unknown."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

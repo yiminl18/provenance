@@ -1,0 +1,186 @@
+{
+    "evidence finding model": "gpt4o",
+    "folder_path": "data/paper/raw_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.pdf",
+    "chunk_num": 74,
+    "all splits length": [
+        352,
+        973,
+        846,
+        831,
+        879,
+        465,
+        717,
+        487,
+        735,
+        1254,
+        942,
+        998,
+        699,
+        1041,
+        593,
+        1200,
+        342,
+        724,
+        851,
+        626,
+        951,
+        764,
+        1113,
+        906,
+        605,
+        930,
+        791,
+        587,
+        445,
+        984,
+        761,
+        440,
+        611,
+        770,
+        774,
+        809,
+        245,
+        810,
+        983,
+        611,
+        900,
+        386,
+        910,
+        555,
+        736,
+        820,
+        425,
+        1607,
+        922,
+        733,
+        1283,
+        599,
+        762,
+        698,
+        434,
+        990,
+        924,
+        878,
+        965,
+        946,
+        891,
+        901,
+        934,
+        913,
+        979,
+        987,
+        843,
+        913,
+        905,
+        934,
+        977,
+        925,
+        965,
+        231
+    ],
+    "question": "What is the publication year of this paper?",
+    "sub_query_list": [
+        "What is the publication year of this paper?"
+    ],
+    "sub_answers": [
+        "2000, 2013"
+    ],
+    "final_answer": "2000, 2013",
+    "chunks_info": [
+        [
+            "\n\nRESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013. The average publication year was\n2010 and the median 2011. A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16). The later include\na mix of workshop descriptions, works in progress, posters,\netc. The next largest contingent appears in the Creativity &\nCognition  conference  (8).  The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues.\nThe  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            "sq0t0",
+            [
+                [
+                    "all published between 2000 and 2013"
+                ]
+            ],
+            "['all published between 2000 and 2013']",
+            true
+        ],
+        [
+            "During  this  third  wave  shift,  the  theme  of  designing  for\n\nPermission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from Permissions@acm.org.\nDIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00.\nhttp://dx.doi.org/10.1145/2598510.2598598",
+            "sq0t1",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "CONCLUSION\nWhile  the  literature  on  reflection  and  reflective  thought  is\ndecades  old  [e.g., 20], reflection has only recently come to\nfocus  in  HCI.  While  the  oldest  paper  in  our  corpus  was\npublished in 2000, most papers in the review presented here\nwere  published  in  the  years  since  2009.  We  suggest  this\nrecency  as  evidence  of  increasing  interest  in  designing  for\nreflection. Indeed, an increased interest in reflection aligns\nclosely  with  many  concerns  concomitant  with  third  wave\nHCI [11,35]. As research progresses in this area, we believe\nthat  the  directions  described  in  our  discussion  section  will\nbe  helpful  in  shaping  research  trajectory.  Specifically,  we\nreiterate three main implications here.",
+            "sq0t2",
+            [
+                [
+                    "the oldest paper in our corpus was published in 2000"
+                ]
+            ],
+            "['the oldest paper in our corpus was published in 2000']",
+            true
+        ],
+        [
+            "49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers. 2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172.  \nhttp://doi.org/10.1145/2556288.2557039 \n\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \n\nand Paul Resnick. 2010. Happier Together: Integrating a \nWellness Application into a Social Network Site. In \nInternational Conference on Persuasive Technology \n(PERSUASIVE 2010): 27–39. \nhttp://doi.org/10.1007/978-3-642-13226-1_5 \n\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \nFood Photography II: Use of Food Photographs for \nEstimating Portion Size and the Nutrient Content of \nMeals. The British Journal of Nutrition 76, 1: 31–49. \nhttp://doi.org/10.1079/BJN19960007",
+            "sq0t3",
+            [
+                [
+                    "2014",
+                    "2010",
+                    "1996"
+                ]
+            ],
+            "['2014', '2010', '1996']",
+            true
+        ],
+        [
+            "ReflectionDIS 2014, June 21–25, 2014, Vancouver, BC, Canada93\fwhat constituted reflection. The goal was not to articulate a\nhighly specific definition, but rather to provide some set of\ncriteria  for  whether  a  paper  should  or  should  not  be\nincluded in our review. Drawing on ideas from Dewey [20],\nSchön  [76],  Moon  [67],  and  others,  we  see  reflection  as\nreviewing  a  series of  previous  experiences, events, stories,\netc., and putting them together in such a way as to come to\na better understanding or to gain some sort of insight. This\nbroad,  general  conceptualization  was  intentional,  as  this\nreview is meant to be inclusive rather than exclusive. These\nbasic ideas were used to guide our literature search.",
+            "sq0t4",
+            [
+                []
+            ],
+            "None",
+            false
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 13,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 10081
+            },
+            "\n\nRESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013. The average publication year was\n2010 and the median 2011. A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16). The later include\na mix of workshop descriptions, works in progress, posters,\netc. The next largest contingent appears in the Creativity &\nCognition  conference  (8).  The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues.\nThe  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others."
+        ],
+        [
+            {
+                "chunk_index": 3,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 2057
+            },
+            "During  this  third  wave  shift,  the  theme  of  designing  for\n\nPermission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from Permissions@acm.org.\nDIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00.\nhttp://dx.doi.org/10.1145/2598510.2598598"
+        ],
+        [
+            {
+                "chunk_index": 52,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 40294
+            },
+            "CONCLUSION\nWhile  the  literature  on  reflection  and  reflective  thought  is\ndecades  old  [e.g., 20], reflection has only recently come to\nfocus  in  HCI.  While  the  oldest  paper  in  our  corpus  was\npublished in 2000, most papers in the review presented here\nwere  published  in  the  years  since  2009.  We  suggest  this\nrecency  as  evidence  of  increasing  interest  in  designing  for\nreflection. Indeed, an increased interest in reflection aligns\nclosely  with  many  concerns  concomitant  with  third  wave\nHCI [11,35]. As research progresses in this area, we believe\nthat  the  directions  described  in  our  discussion  section  will\nbe  helpful  in  shaping  research  trajectory.  Specifically,  we\nreiterate three main implications here."
+        ],
+        [
+            {
+                "chunk_index": 100,
+                "source": "data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt",
+                "start_index": 78927
+            },
+            "49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers. 2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172.  \nhttp://doi.org/10.1145/2556288.2557039 \n\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \n\nand Paul Resnick. 2010. Happier Together: Integrating a \nWellness Application into a Social Network Site. In \nInternational Conference on Persuasive Technology \n(PERSUASIVE 2010): 27–39. \nhttp://doi.org/10.1007/978-3-642-13226-1_5 \n\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \nFood Photography II: Use of Food Photographs for \nEstimating Portion Size and the Nutrient Content of \nMeals. The British Journal of Nutrition 76, 1: 31–49. \nhttp://doi.org/10.1079/BJN19960007"
+        ],
+        [
+            {
+                "chunk_index": 8,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 5447
+            },
+            "ReflectionDIS 2014, June 21–25, 2014, Vancouver, BC, Canada93\fwhat constituted reflection. The goal was not to articulate a\nhighly specific definition, but rather to provide some set of\ncriteria  for  whether  a  paper  should  or  should  not  be\nincluded in our review. Drawing on ideas from Dewey [20],\nSchön  [76],  Moon  [67],  and  others,  we  see  reflection  as\nreviewing  a  series of  previous  experiences, events, stories,\netc., and putting them together in such a way as to come to\na better understanding or to gain some sort of insight. This\nbroad,  general  conceptualization  was  intentional,  as  this\nreview is meant to be inclusive rather than exclusive. These\nbasic ideas were used to guide our literature search."
+        ]
+    ]
+}

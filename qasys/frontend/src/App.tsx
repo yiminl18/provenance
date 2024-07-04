@@ -28,7 +28,7 @@ interface State {
   question: string;
   sub_query: Array<string>;
   sub_answers: Array<string>;
-  retrieved_docs: Array<Array<string>>;
+  chunks: Array<Array<string>>;
   finalAnswer: string;
 }
 
@@ -60,25 +60,25 @@ class App extends Component<{}, State> {
     question: "",
     sub_query: [],
     sub_answers: [],
-    retrieved_docs: [],
+    chunks: [],
     finalAnswer: "",
   };
 
   componentDidMount() {
     // this.fetchDocumentPath();
-    this.fetchJsonPath();
+    // this.fetchJsonPath();
     window.addEventListener("hashchange", this.scrollToHighlightFromHash, false);
     
   }
 
-  fetchDocumentPath = async () => {
+  fetchJsonPath = async (fileName: String) => {
+    console.log("fileName:", fileName);
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/rag");
+      const response = await fetch(`data/highlight_result/${fileName}.json`);
       const data = await response.json();
-      const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
+      const { document_path, question, sub_query, sub_answers, chunks, final_answer } = data;
 
-      // console.log("document_path:", document_path);
-      // console.log("retrieved_docs:", retrieved_docs);
+
 
       if (document_path) {
         this.setState({
@@ -87,10 +87,10 @@ class App extends Component<{}, State> {
           question: question || "",
           sub_query: sub_query || [],
           sub_answers: sub_answers || [],
-          retrieved_docs: retrieved_docs || [],
+          chunks: chunks || [],
           finalAnswer: final_answer || "",
         }, () => {
-          this.highlightRetrievedTexts(retrieved_docs);
+          this.highlightRetrievedTexts(chunks);
         });
       }
       
@@ -99,97 +99,72 @@ class App extends Component<{}, State> {
     }
   };
 
-  fetchJsonPath = async () => {
-    try {
-      // 使用相对路径读取本地 JSON 文件
-      const response = await fetch("data/highlight_result/result_20240628_115527.json");
-      const data = await response.json();
-      const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
+//   fetchJsonPath = async () => {
+//     try {
+//       // 使用相对路径读取本地 JSON 文件
+//       const response = await fetch("data/highlight_result/result_20240628_115846.json");
+//       const data = await response.json();
+//       const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
 
-      // console.log("document_path:", document_path);
-      // console.log("retrieved_docs:", retrieved_docs);
+//       // console.log("document_path:", document_path);
+//       // console.log("retrieved_docs:", retrieved_docs);
 
-      if (document_path) {
-        this.setState({
-          url: document_path.trim(),
-          // highlights: testHighlights[document_path] ? [...testHighlights[document_path]] : [],
-          question: question || "",
-          sub_query: sub_query || [],
-          sub_answers: sub_answers || [],
-          retrieved_docs: retrieved_docs || [],
-          finalAnswer: final_answer || "",
-        }, () => {
-          this.highlightRetrievedTexts(retrieved_docs);
-        });
+//       if (document_path) {
+//         this.setState({
+//           url: document_path.trim(),
+//           // highlights: testHighlights[document_path] ? [...testHighlights[document_path]] : [],
+//           question: question || "",
+//           sub_query: sub_query || [],
+//           sub_answers: sub_answers || [],
+//           retrieved_docs: retrieved_docs || [],
+//           finalAnswer: final_answer || "",
+//         }, () => {
+//           this.highlightRetrievedTexts(retrieved_docs);
+//         });
         
-      }
+//       }
       
-    } catch (error) {
-      console.error("Error fetching document path:", error);
-    }
+//     } catch (error) {
+//       console.error("Error fetching document path:", error);
+//     }
     
-};
+// };
 
 
-  highlightRetrievedTexts = async (retrievedDocs: Array<Array<string>>) => {
+  highlightRetrievedTexts = async (chunks: Array<Array<string>>) => {
     const emoji_list = ["1🔍", "2👀", "3💩"]
     try {
       const pdf = await getDocument(this.state.url).promise;
-      // const numPages = pdf.numPages;
-  
-      // for (let i = 1; i <= numPages; i++) {
-      //   const page = await pdf.getPage(i);
-      //   const textContent = await page.getTextContent();
-      //   const textItems = textContent.items;
-      //   // console.log("textItems:", textItems);
-      //   let pageItem = textItems.map(item => item.str).join(" ");
 
-      //   // Define the chunk size (number of text items to concatenate)
-      //   const chunkSize = 50;
-      //   // console.log("pageItem:", pageItem);
-
-      // }
-
-      retrievedDocs.forEach(async (docArray, docArrayIndex) => { // for different sub_query's retrival
-        docArray.forEach(async (doc, docIndex) => { // for each retrieved chunk
-          // console.log("doc:", doc[0]);
-          let docTextOriginal = doc[0]; // docText is a string
-          let docText = docTextOriginal.replace(/[^a-zA-Z0-9]/g, '');
-          const docTextLength = docText.length;
-          // console.log("docPage(From 0):", doc[1]);
-          let docPage = Number(doc[1])+1;
-          // console.log("docPage(Number):", docPage);
-          let page = await pdf.getPage(docPage);
+      chunks.forEach(async (docArray, docArrayIndex) => { // for different sub_query's retrival
+        // docArray.forEach(async (doc, docIndex) => { // for each retrieved chunk
+        // console.log("doc:", doc[0]);
+        
+        let docTextOriginal = docArray[0]; // docText is a string
+        let docText = docTextOriginal.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+        const docTextLength = docText.length;
+        // console.log("docPage(From 0):", doc[1]);
+        // let docPage = Number(doc[1])+1;
+        // console.log("docPage(Number):", docPage);
+        for (let i = 0; i < pdf.numPages; i++) {
+          let docPage = i+1;
+          let page = await pdf.getPage(i+1);
           const viewport = page.getViewport({ scale: 1 });
           let textContent = await page.getTextContent();
           let textItems = textContent.items;
-          console.log("textItems:", textItems);
-          // let pageItem = textItems.map(item => item.str).join("\n");
-
-          
-
-
 
           for (let i = 0; i < textItems.length; i++) {
-            // for (let j = 0; j < docText.length; j++) {
-            let candidate_text = textItems.slice(i).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(0, docTextLength);
-            // let candidate_length = candidate_text.length;
-            // console.log("candidate_text:", candidate_text);
-            // console.log("docText:", docText);
-            if (candidate_text[0] == docText[0]) {
-              // console.log("candidate_text(100):", candidate_text.slice(200,250));
-              // console.log("docText(100)       :", docText.slice(200,250));
-            }
+            let candidate_text = textItems.slice(i).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(0, Math.min(docTextLength, textItems.length-i)).toLowerCase();
             if (candidate_text == docText) {
               const startIndex = i;
-              console.log("For sub query", docArrayIndex + 1);
-              console.log("For top:", docIndex + 1);
+              console.log("For", docArray[1])
               console.log("START Match found at:", i);
               // console.log("candidate_text:", candidate_text);
               console.log("docTextOriginal:", docTextOriginal);
               // find the index of the last of candidate_text in textItems
+
               for (let j = textItems.length; j >= i; j--) {
-                let candidate_text2 = textItems.slice(i, j).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(-docTextLength);
+                let candidate_text2 = textItems.slice(i, j).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(-docTextLength).toLowerCase();
                 if (candidate_text2 == docText) {
                   const endIndex = j-1;
                   console.log("END Match found at:", j);
@@ -224,8 +199,8 @@ class App extends Component<{}, State> {
                         text: docTextOriginal,
                       },
                       comment: {
-                        text: "sub_query " + (docArrayIndex + 1),
-                        emoji: emoji_list[docArrayIndex] + "top" + (docIndex + 1),
+                        text: docArray[1],
+                        emoji: docArray[1],
                       }
                     });
                   }
@@ -238,7 +213,21 @@ class App extends Component<{}, State> {
               break;
             }
           }
-        });
+
+        }
+          // let page = await pdf.getPage(docPage);
+          // const viewport = page.getViewport({ scale: 1 });
+          // let textContent = await page.getTextContent();
+          // let textItems = textContent.items;
+          // console.log("textItems:", textItems);
+          // let pageItem = textItems.map(item => item.str).join("\n");
+
+          
+
+
+
+
+        // });
       });
 
 
@@ -249,15 +238,12 @@ class App extends Component<{}, State> {
 };
 
 
-
   addHighlight = (highlight: NewHighlight) => {
     console.log("Saving highlight", highlight);
   
     this.setState((prevState) => ({
       highlights: [{ ...highlight, id: getNextId() }, ...prevState.highlights],
     }), () => {
-      // 在状态更新完成后调用
-      // console.log("current highlights:", this.state.highlights);
     });
   };
   
@@ -363,7 +349,9 @@ class App extends Component<{}, State> {
     return boundingRect;
   };
   
-  
+  handleFileSubmit = (fileName: string) => {
+    this.fetchJsonPath(fileName);
+    };
 
   render() {
     const { url, highlights, question, sub_query, sub_answers, finalAnswer } = this.state;
@@ -378,6 +366,7 @@ class App extends Component<{}, State> {
           sub_query={sub_query}
           sub_answers={sub_answers}
           finalAnswer={finalAnswer}
+          onFileSubmit={this.handleFileSubmit}
         />
         <div style={{ height: "100vh", width: "75vw", position: "relative" }}>
           {url ? (

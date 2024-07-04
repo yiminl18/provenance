@@ -1,0 +1,66 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "retrival",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)"
+        ],
+        "out_data": [
+            "[Document(page_content='11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E., \\n\\nJagannathan, A.K., Abowd, G.D., and Fogarty, J. \\nBarriers and Negative Nudges\\u2009: Exploring Challenges \\nin Food Journaling. CHI 2015, 1159-1162. \\n\\n12.  Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n\\n13.  Dawe, M. Desperately Seeking Simplicity: How \\n\\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n\\n14.  Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n\\n15.  Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\n\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n\\n16.  Fritz, T., Huang, E.M., Murphy, G.C., and', metadata={'chunk_index': 88, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 63197}), Document(page_content='[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \\n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \\nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \\nAffective Range of Feedback. In Proc. CHI’17. \\n\\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \\n\\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14', metadata={'chunk_index': 97, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 74434}), Document(page_content='49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \\nChalmers Chalmers. 2014. Personal Tracking as Lived \\nInformatics. Proceedings of the SIGCHI Conference on Human \\nFactors in Computing Systems (CHI 2014): 1163–1172.  \\nhttp://doi.org/10.1145/2556288.2557039 \\n\\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \\n\\nand Paul Resnick. 2010. Happier Together: Integrating a \\nWellness Application into a Social Network Site. In \\nInternational Conference on Persuasive Technology \\n(PERSUASIVE 2010): 27–39. \\nhttp://doi.org/10.1007/978-3-642-13226-1_5 \\n\\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \\nFood Photography II: Use of Food Photographs for \\nEstimating Portion Size and the Nutrient Content of \\nMeals. The British Journal of Nutrition 76, 1: 31–49. \\nhttp://doi.org/10.1079/BJN19960007', metadata={'chunk_index': 100, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 78927}), Document(page_content=\"Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\\npersonal or classroom use is granted without fee provided that copies are \\nnot made or distributed for profit or commercial advantage and that copies\\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.\\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\\npost on servers or to redistribute to lists, requires prior specific permission\\nand/or a fee. Request permissions from permissions@acm.org. \\nUbiComp '15, September 7-11, 2015, Osaka, Japan. \\nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \\nhttp://dx.doi.org/10.1145/2750858.2804250\", metadata={'chunk_index': 4, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 2547}), Document(page_content='6.  Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\nJ.A. Understanding Quantified-Selfers’ Practices in \\nCollecting and Exploring Personal Data. CHI 2014, \\n1143-1152. \\n\\n7.  Choe, E.K. Designing Self-Monitoring Technology to \\n\\nPromote Data Capture and Reflection. PhD Dissertation. \\nThe Information School, University of Washington, \\nSeattle Washington. \\n\\n8.  Consolvo, S., Everitt, K., Smith, I., and Landay, J.A. \\n\\nDesign Requirements for Technologies that Encourage \\nPhysical Activity. CHI 2006, 457-466. \\n\\n9.  Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \\nand Tabert, J. Location Disclosure to Social Relations: \\nWhy, When, & What People Want to Share. CHI 2005, \\n81-90. \\n\\n10.  Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J. \\nRethinking the Mobile Food Journal: Exploring \\nOpportunities for Lightweight Photo-Based Capture. \\nCHI 2015, 3207-3216. \\n\\n11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,', metadata={'chunk_index': 87, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 62323})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "generation",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "[Document(page_content='11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E., \\n\\nJagannathan, A.K., Abowd, G.D., and Fogarty, J. \\nBarriers and Negative Nudges\\u2009: Exploring Challenges \\nin Food Journaling. CHI 2015, 1159-1162. \\n\\n12.  Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n\\n13.  Dawe, M. Desperately Seeking Simplicity: How \\n\\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n\\n14.  Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n\\n15.  Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\n\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n\\n16.  Fritz, T., Huang, E.M., Murphy, G.C., and', metadata={'chunk_index': 88, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 63197}), Document(page_content='[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \\n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \\nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \\nAffective Range of Feedback. In Proc. CHI’17. \\n\\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \\n\\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14', metadata={'chunk_index': 97, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 74434}), Document(page_content='49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \\nChalmers Chalmers. 2014. Personal Tracking as Lived \\nInformatics. Proceedings of the SIGCHI Conference on Human \\nFactors in Computing Systems (CHI 2014): 1163–1172.  \\nhttp://doi.org/10.1145/2556288.2557039 \\n\\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \\n\\nand Paul Resnick. 2010. Happier Together: Integrating a \\nWellness Application into a Social Network Site. In \\nInternational Conference on Persuasive Technology \\n(PERSUASIVE 2010): 27–39. \\nhttp://doi.org/10.1007/978-3-642-13226-1_5 \\n\\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \\nFood Photography II: Use of Food Photographs for \\nEstimating Portion Size and the Nutrient Content of \\nMeals. The British Journal of Nutrition 76, 1: 31–49. \\nhttp://doi.org/10.1079/BJN19960007', metadata={'chunk_index': 100, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 78927}), Document(page_content=\"Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\\npersonal or classroom use is granted without fee provided that copies are \\nnot made or distributed for profit or commercial advantage and that copies\\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.\\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\\npost on servers or to redistribute to lists, requires prior specific permission\\nand/or a fee. Request permissions from permissions@acm.org. \\nUbiComp '15, September 7-11, 2015, Osaka, Japan. \\nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \\nhttp://dx.doi.org/10.1145/2750858.2804250\", metadata={'chunk_index': 4, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 2547}), Document(page_content='6.  Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\nJ.A. Understanding Quantified-Selfers’ Practices in \\nCollecting and Exploring Personal Data. CHI 2014, \\n1143-1152. \\n\\n7.  Choe, E.K. Designing Self-Monitoring Technology to \\n\\nPromote Data Capture and Reflection. PhD Dissertation. \\nThe Information School, University of Washington, \\nSeattle Washington. \\n\\n8.  Consolvo, S., Everitt, K., Smith, I., and Landay, J.A. \\n\\nDesign Requirements for Technologies that Encourage \\nPhysical Activity. CHI 2006, 457-466. \\n\\n9.  Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \\nand Tabert, J. Location Disclosure to Social Relations: \\nWhy, When, & What People Want to Share. CHI 2005, \\n81-90. \\n\\n10.  Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J. \\nRethinking the Mobile Food Journal: Exploring \\nOpportunities for Lightweight Photo-Based Capture. \\nCHI 2015, 3207-3216. \\n\\n11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,', metadata={'chunk_index': 87, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 62323})]"
+        ],
+        "out_data": [
+            "CHI 2014, CHI 2006, CHI 2005, CHI 2015, CHI 2013, CHI 2006, CHI 2010, CHI 2011, CHI 2014, CHI 2011, CHI 2015, CHI 2014, CHI 2014, CHI 2014, CHI 2011, CHI 2015, CHI 2015, CHI 2015, CHI 2014, CHI 2010, CHI 2014, CHI 2011, CHI 2015, CHI 2014, CHI 2014, CHI 2011, CHI 2014, CHI 2014, CHI 2014, CHI 2011, CHI 2015."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: What is the publication venue of this paper? (e.g. CHI, CSCW, etc.) Only return the answer required by the question. There is no need to include extra information such as reasons. Separate the answers with commas if there are multiple items. Return None if no answer is found. \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "end",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "CHI 2014, CHI 2006, CHI 2005, CHI 2015, CHI 2013, CHI 2006, CHI 2010, CHI 2011, CHI 2014, CHI 2011, CHI 2015, CHI 2014, CHI 2014, CHI 2014, CHI 2011, CHI 2015, CHI 2015, CHI 2015, CHI 2014, CHI 2010, CHI 2014, CHI 2011, CHI 2015, CHI 2014, CHI 2014, CHI 2011, CHI 2014, CHI 2014, CHI 2014, CHI 2011, CHI 2015."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

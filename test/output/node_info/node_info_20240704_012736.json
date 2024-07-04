@@ -1,0 +1,66 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What is the name of the company being informed later than 2023 and located in California?"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "retrival",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What is the name of the company being informed later than 2023 and located in California?"
+        ],
+        "out_data": [
+            "[Document(page_content='Following your receipt of this Notice, you have 30 days to respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension. \\n\\nIn  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-013-NOPV  and,  for  each \\ndocument you submit, please provide a copy in electronic format whenever possible.', metadata={'chunk_index': 32, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 25499}), Document(page_content='Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension.', metadata={'chunk_index': 19, 'source': 'data/NoticeViolation/extracted_data/12023022NOPV_PCO_04132023_(22-234207)_text.txt', 'start_index': 14698}), Document(page_content='Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension. \\n\\nIn  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-028-NOPV  and,  for  each \\ndocument you submit, please provide a copy in electronic format whenever possible. \\n\\nSincerely,', metadata={'chunk_index': 8, 'source': 'data/NoticeViolation/extracted_data/12023028NOPV_PCO_05252023_(22-232998)_text.txt', 'start_index': 6165}), Document(page_content='Proposed Compliance Order', metadata={'chunk_index': 4, 'source': 'data/NoticeViolation/extracted_data/12023028NOPV_PCO_05252023_(22-232998)_text.txt', 'start_index': 3091}), Document(page_content='We have reviewed the circumstances and supporting documents involved in this case, and have \\ndecided not to propose a civil penalty assessment at this time. \\n\\nWith respect to Item 2, pursuant to 49 U.S.C. § 60118, the Pipeline and Hazardous Materials Safety \\nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \\nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \\n\\nWarning Items \\n\\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \\ninvolved in this case and have decided not to conduct additional enforcement action or penalty \\nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \\ndo so may result in additional enforcement action. \\n\\nResponse to this Notice', metadata={'chunk_index': 17, 'source': 'data/NoticeViolation/extracted_data/12023022NOPV_PCO_04132023_(22-234207)_text.txt', 'start_index': 12886})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "generation",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "[Document(page_content='Following your receipt of this Notice, you have 30 days to respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension. \\n\\nIn  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-013-NOPV  and,  for  each \\ndocument you submit, please provide a copy in electronic format whenever possible.', metadata={'chunk_index': 32, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 25499}), Document(page_content='Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension.', metadata={'chunk_index': 19, 'source': 'data/NoticeViolation/extracted_data/12023022NOPV_PCO_04132023_(22-234207)_text.txt', 'start_index': 14698}), Document(page_content='Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \\nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \\na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \\nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \\nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \\nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \\nmay extend the period for responding upon a written request timely submitted demonstrating good \\ncause for an extension. \\n\\nIn  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-028-NOPV  and,  for  each \\ndocument you submit, please provide a copy in electronic format whenever possible. \\n\\nSincerely,', metadata={'chunk_index': 8, 'source': 'data/NoticeViolation/extracted_data/12023028NOPV_PCO_05252023_(22-232998)_text.txt', 'start_index': 6165}), Document(page_content='Proposed Compliance Order', metadata={'chunk_index': 4, 'source': 'data/NoticeViolation/extracted_data/12023028NOPV_PCO_05252023_(22-232998)_text.txt', 'start_index': 3091}), Document(page_content='We have reviewed the circumstances and supporting documents involved in this case, and have \\ndecided not to propose a civil penalty assessment at this time. \\n\\nWith respect to Item 2, pursuant to 49 U.S.C. § 60118, the Pipeline and Hazardous Materials Safety \\nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \\nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \\n\\nWarning Items \\n\\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \\ninvolved in this case and have decided not to conduct additional enforcement action or penalty \\nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \\ndo so may result in additional enforcement action. \\n\\nResponse to this Notice', metadata={'chunk_index': 17, 'source': 'data/NoticeViolation/extracted_data/12023022NOPV_PCO_04132023_(22-234207)_text.txt', 'start_index': 12886})]"
+        ],
+        "out_data": [
+            "Adelphia Gateway, LLC"
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: What is the name of the company being informed later than 2023 and located in California? Only return the answer required by the question. There is no need to include extra information such as reasons. Separate the answers with commas if there are multiple items. Return None if no answer is found. \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "end",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "Adelphia Gateway, LLC"
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

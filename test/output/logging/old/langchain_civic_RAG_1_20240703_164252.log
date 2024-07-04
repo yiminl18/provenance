@@ -1,0 +1,6 @@
+2024-07-03 16:42:52,194 - root - INFO - folder_path: data/civic/raw_data/malibucity_agenda__03232022-1869.pdf
+2024-07-03 16:42:52,195 - root - INFO - Split 1 documents into 20 chunks
+2024-07-03 16:42:52,195 - root - INFO - all splits length: [815, 934, 930, 839, 959, 771, 919, 735, 993, 955, 997, 975, 962, 899, 941, 763, 451, 911, 760, 789]
+2024-07-03 16:42:53,253 - root - INFO - question: What are the names of mentioned capital improvement projects? Return None if no answer is found.
+2024-07-03 16:42:53,253 - root - INFO - sub_query_list: ['names of mentioned capital improvement projects']
+2024-07-03 16:42:53,253 - root - INFO - len of sub_query_list: 1

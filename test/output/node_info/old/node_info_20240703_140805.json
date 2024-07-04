@@ -1,0 +1,140 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the emails of the authors that are not Gmail and end with 'edu'?"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4
+        ],
+        "in_data": [
+            "What are the emails of the authors that are not Gmail and end with 'edu'?"
+        ],
+        "out_data": [
+            "[\"Find authors' emails that are not Gmail\", \"Find authors' emails that end with 'edu'\"]"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the emails of the authors that are not Gmail and end with 'edu'?"
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "Find authors' emails that are not Gmail"
+        ],
+        "out_data": [
+            "[Document(page_content=\"28.  Newman, M., Lauterbach, D., Munson, S.A., Resnick, \\n\\nP., and Morris, M.E. “It’s not that I don't have \\nproblems, I'm just not putting them on Facebook”: \\nChallenges and Opportunities in Using Online Social \\nNetworks for Health. CSCW 2011, 341-350. \\n29.  Olson, P. Wearable Tech is Plugging into Health \\n\\nInsurance. Forbes. \\nhttp://www.forbes.com/sites/parmyolson/2014/06/19/ \\nwearable-tech-health-insurance/. \\n\\n741\\n\\n \\n \\n\\x0cUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\\n\\n30.  Page, X. and Kobsa, A. Navigating the Social Terrain \\nwith Google Latitude. iConference 2010, 174-178. \\n\\n31.  Powers, W.T. Behavior: The Control of Perception. \\n\\nBenchmark Publications, 2005. \\n\\n32.  Prochaska, J.O. and Velcier, W.F. The Transtheoretical \\n\\nModel of Health Behavior Change. American Journal \\nof Health Promotion 12, 1 (1997), 38-48. \\n\\n33.  Rahman, T., Adams, A.T., Zhang, M., Cherry, E.,\", metadata={'chunk_index': 95, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 66022}), Document(page_content='Author Keywords \\nLived Informatics; Personal Informatics; Self-Tracking; \\nLapsing; Physical Activity; Finances; Location. \\n\\nACM Classification Keywords \\nH.5.m. Information interfaces and presentation (e.g., HCI).', metadata={'chunk_index': 3, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 1487}), Document(page_content='The  full  survey  consisted  of  free  response  questions  about \\neach current and previous tool, asking why they started and \\nstopped using that tool as appropriate. The first two authors \\naffinity diagrammed these responses, identified themes, and \\nthen separately qualitatively coded the responses, iteratively \\nrefining codes through discussion.', metadata={'chunk_index': 31, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 20827}), Document(page_content='In  other  cases,  data  from  personal  informatics  applications \\nmay prompt people to question their behavior. For example, \\nsomeone who tracks their location to share with friends or \\nreceive discounts might receive a badge for eating out often, \\nor realize they check-in at restaurants much more than their \\nfriends, and wonder how much they could save by cooking.', metadata={'chunk_index': 87, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 59658}), Document(page_content='further \\n\\nresponse  quality,  we \\n\\nWe restricted participation to Turkers in the United States. \\nrestricted \\nTo  ensure \\nparticipation to Turkers who had a task acceptance rate of at \\nleast  95%  and  had  completed  at  least  1,000  tasks.  We \\nsurveyed 200 Turkers, compensating each with $0.50 for a \\nshort  screener  survey  (less  than  2  minutes)  in  which  they \\nindicated  all  (if  any)  self-tracking  tools  they  had  used \\npreviously.  Finally,  Turkers  were  presented  a  short  free \\nresponse question that the first author analyzed for quality, a \\nrecommended  practice  in  AMT  surveys  [14].  We  rejected \\nthree  tasks  as  spam:  two  left  the  free  response  question \\neffectively  blank  (e.g.,  “N/A”);  one  did  not  enter  a  code \\nshowing they had completed the survey.', metadata={'chunk_index': 27, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 17811})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 5,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content=\"28.  Newman, M., Lauterbach, D., Munson, S.A., Resnick, \\n\\nP., and Morris, M.E. “It’s not that I don't have \\nproblems, I'm just not putting them on Facebook”: \\nChallenges and Opportunities in Using Online Social \\nNetworks for Health. CSCW 2011, 341-350. \\n29.  Olson, P. Wearable Tech is Plugging into Health \\n\\nInsurance. Forbes. \\nhttp://www.forbes.com/sites/parmyolson/2014/06/19/ \\nwearable-tech-health-insurance/. \\n\\n741\\n\\n \\n \\n\\x0cUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\\n\\n30.  Page, X. and Kobsa, A. Navigating the Social Terrain \\nwith Google Latitude. iConference 2010, 174-178. \\n\\n31.  Powers, W.T. Behavior: The Control of Perception. \\n\\nBenchmark Publications, 2005. \\n\\n32.  Prochaska, J.O. and Velcier, W.F. The Transtheoretical \\n\\nModel of Health Behavior Change. American Journal \\nof Health Promotion 12, 1 (1997), 38-48. \\n\\n33.  Rahman, T., Adams, A.T., Zhang, M., Cherry, E.,\", metadata={'chunk_index': 95, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 66022}), Document(page_content='Author Keywords \\nLived Informatics; Personal Informatics; Self-Tracking; \\nLapsing; Physical Activity; Finances; Location. \\n\\nACM Classification Keywords \\nH.5.m. Information interfaces and presentation (e.g., HCI).', metadata={'chunk_index': 3, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 1487}), Document(page_content='The  full  survey  consisted  of  free  response  questions  about \\neach current and previous tool, asking why they started and \\nstopped using that tool as appropriate. The first two authors \\naffinity diagrammed these responses, identified themes, and \\nthen separately qualitatively coded the responses, iteratively \\nrefining codes through discussion.', metadata={'chunk_index': 31, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 20827}), Document(page_content='In  other  cases,  data  from  personal  informatics  applications \\nmay prompt people to question their behavior. For example, \\nsomeone who tracks their location to share with friends or \\nreceive discounts might receive a badge for eating out often, \\nor realize they check-in at restaurants much more than their \\nfriends, and wonder how much they could save by cooking.', metadata={'chunk_index': 87, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 59658}), Document(page_content='further \\n\\nresponse  quality,  we \\n\\nWe restricted participation to Turkers in the United States. \\nrestricted \\nTo  ensure \\nparticipation to Turkers who had a task acceptance rate of at \\nleast  95%  and  had  completed  at  least  1,000  tasks.  We \\nsurveyed 200 Turkers, compensating each with $0.50 for a \\nshort  screener  survey  (less  than  2  minutes)  in  which  they \\nindicated  all  (if  any)  self-tracking  tools  they  had  used \\npreviously.  Finally,  Turkers  were  presented  a  short  free \\nresponse question that the first author analyzed for quality, a \\nrecommended  practice  in  AMT  surveys  [14].  We  rejected \\nthree  tasks  as  spam:  two  left  the  free  response  question \\neffectively  blank  (e.g.,  “N/A”);  one  did  not  enter  a  code \\nshowing they had completed the survey.', metadata={'chunk_index': 27, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 17811})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: Find authors' emails that are not Gmail \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "Find authors' emails that end with 'edu'"
+        ],
+        "out_data": [
+            "[Document(page_content='11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E., \\n\\nJagannathan, A.K., Abowd, G.D., and Fogarty, J. \\nBarriers and Negative Nudges\\u2009: Exploring Challenges \\nin Food Journaling. CHI 2015, 1159-1162. \\n\\n12.  Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n\\n13.  Dawe, M. Desperately Seeking Simplicity: How \\n\\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n\\n14.  Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n\\n15.  Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\n\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n\\n16.  Fritz, T., Huang, E.M., Murphy, G.C., and', metadata={'chunk_index': 92, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 63197}), Document(page_content='We  invited  each  Turker  who  had  self-tracked  in  a  domain \\n(i.e.,  physical  activity,  location,  finances)  to  complete  a \\nlonger survey for that domain. They were compensated $2.00 \\nfor  completing  the  approximately  15-minute  survey.  This \\n\\n733\\n\\n \\n \\n\\x0cDomain  Demographics \\n\\nN=105: 44 F, \\n60 M, 1 FTM \\n\\nTemporal use \\n(avg # tools) \\n\\n93 current (1.25) \\n\\nPhysical \\nActivity \\n\\nFinances \\n\\nLocation \\n\\nAge: avg 31.47, \\nmin 19, max 63 \\n\\n53 stopped (1.16) \\n\\nN=99: 46 F, 52 M, \\n1 FTM \\n\\n96 current (1.58) \\n\\nAge: avg 33.46, \\nmin 19, max 70 \\n\\n43 stopped (1.07) \\n\\nN=83: 36 F, 46 M, \\n1 no answer \\n\\n80 current (1.86) \\n\\nAge: avg 30.75, \\nmin 19, max 70 \\n\\n44 stopped (1.29)', metadata={'chunk_index': 28, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 18618}), Document(page_content='Interview Methods \\nAfter completion of qualitative coding of the survey data, the \\nfirst  two  authors  identified  questions  that  required  further \\nin-depth  interviews  to  address.  Of Turkers who indicated in \\nthe survey that they were willing to be contacted for interviews, \\n36 respondents were identified as having representative tracking \\nmotivations,  behaviors,  and  experiences  and  were  verbose  in \\nresponses,  of  which  6  responded.  We  supplemented  these \\ninterviews  with  another  16  recruited  through  university \\nmailing lists and posts to social media. These interviewees \\nwere screened for the same criteria as the Turkers.', metadata={'chunk_index': 32, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 21181}), Document(page_content='The  full  survey  consisted  of  free  response  questions  about \\neach current and previous tool, asking why they started and \\nstopped using that tool as appropriate. The first two authors \\naffinity diagrammed these responses, identified themes, and \\nthen separately qualitatively coded the responses, iteratively \\nrefining codes through discussion.', metadata={'chunk_index': 31, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 20827}), Document(page_content='6.  Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\nJ.A. Understanding Quantified-Selfers’ Practices in \\nCollecting and Exploring Personal Data. CHI 2014, \\n1143-1152. \\n\\n7.  Choe, E.K. Designing Self-Monitoring Technology to \\n\\nPromote Data Capture and Reflection. PhD Dissertation. \\nThe Information School, University of Washington, \\nSeattle Washington. \\n\\n8.  Consolvo, S., Everitt, K., Smith, I., and Landay, J.A. \\n\\nDesign Requirements for Technologies that Encourage \\nPhysical Activity. CHI 2006, 457-466. \\n\\n9.  Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \\nand Tabert, J. Location Disclosure to Social Relations: \\nWhy, When, & What People Want to Share. CHI 2005, \\n81-90. \\n\\n10.  Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J. \\nRethinking the Mobile Food Journal: Exploring \\nOpportunities for Lightweight Photo-Based Capture. \\nCHI 2015, 3207-3216. \\n\\n11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,', metadata={'chunk_index': 91, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 62323})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E., \\n\\nJagannathan, A.K., Abowd, G.D., and Fogarty, J. \\nBarriers and Negative Nudges\\u2009: Exploring Challenges \\nin Food Journaling. CHI 2015, 1159-1162. \\n\\n12.  Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \\nHeartLink\\u2009: Open Broadcast of Live Biometric Data to \\nSocial Networks. CHI 2013, 1749-1758. \\n\\n13.  Dawe, M. Desperately Seeking Simplicity: How \\n\\nYoung Adults with Cognitive Disabilities and Their \\nFamilies Adopt Assistive Technologies. CHI 2006, \\n1143-1152. \\n\\n14.  Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \\nAre your Participants Gaming the System? Screening \\nMechanical Turk Workers. CHI 2010, 2399-2402. \\n\\n15.  Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \\n\\nMunson, S.A. Taming Data Complexity in Lifelogs: \\nExploring Visual Cuts of Personal Informatics Data. \\nDIS 2014, 667-676. \\n\\n16.  Fritz, T., Huang, E.M., Murphy, G.C., and', metadata={'chunk_index': 92, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 63197}), Document(page_content='We  invited  each  Turker  who  had  self-tracked  in  a  domain \\n(i.e.,  physical  activity,  location,  finances)  to  complete  a \\nlonger survey for that domain. They were compensated $2.00 \\nfor  completing  the  approximately  15-minute  survey.  This \\n\\n733\\n\\n \\n \\n\\x0cDomain  Demographics \\n\\nN=105: 44 F, \\n60 M, 1 FTM \\n\\nTemporal use \\n(avg # tools) \\n\\n93 current (1.25) \\n\\nPhysical \\nActivity \\n\\nFinances \\n\\nLocation \\n\\nAge: avg 31.47, \\nmin 19, max 63 \\n\\n53 stopped (1.16) \\n\\nN=99: 46 F, 52 M, \\n1 FTM \\n\\n96 current (1.58) \\n\\nAge: avg 33.46, \\nmin 19, max 70 \\n\\n43 stopped (1.07) \\n\\nN=83: 36 F, 46 M, \\n1 no answer \\n\\n80 current (1.86) \\n\\nAge: avg 30.75, \\nmin 19, max 70 \\n\\n44 stopped (1.29)', metadata={'chunk_index': 28, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 18618}), Document(page_content='Interview Methods \\nAfter completion of qualitative coding of the survey data, the \\nfirst  two  authors  identified  questions  that  required  further \\nin-depth  interviews  to  address.  Of Turkers who indicated in \\nthe survey that they were willing to be contacted for interviews, \\n36 respondents were identified as having representative tracking \\nmotivations,  behaviors,  and  experiences  and  were  verbose  in \\nresponses,  of  which  6  responded.  We  supplemented  these \\ninterviews  with  another  16  recruited  through  university \\nmailing lists and posts to social media. These interviewees \\nwere screened for the same criteria as the Turkers.', metadata={'chunk_index': 32, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 21181}), Document(page_content='The  full  survey  consisted  of  free  response  questions  about \\neach current and previous tool, asking why they started and \\nstopped using that tool as appropriate. The first two authors \\naffinity diagrammed these responses, identified themes, and \\nthen separately qualitatively coded the responses, iteratively \\nrefining codes through discussion.', metadata={'chunk_index': 31, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 20827}), Document(page_content='6.  Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \\nJ.A. Understanding Quantified-Selfers’ Practices in \\nCollecting and Exploring Personal Data. CHI 2014, \\n1143-1152. \\n\\n7.  Choe, E.K. Designing Self-Monitoring Technology to \\n\\nPromote Data Capture and Reflection. PhD Dissertation. \\nThe Information School, University of Washington, \\nSeattle Washington. \\n\\n8.  Consolvo, S., Everitt, K., Smith, I., and Landay, J.A. \\n\\nDesign Requirements for Technologies that Encourage \\nPhysical Activity. CHI 2006, 457-466. \\n\\n9.  Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \\nand Tabert, J. Location Disclosure to Social Relations: \\nWhy, When, & What People Want to Share. CHI 2005, \\n81-90. \\n\\n10.  Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J. \\nRethinking the Mobile Food Journal: Exploring \\nOpportunities for Lightweight Photo-Based Capture. \\nCHI 2015, 3207-3216. \\n\\n11.  Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,', metadata={'chunk_index': 91, 'source': 'data/paper/extracted_data/A Lived Informatics Model of Personal Informatics.txt', 'start_index': 62323})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: Find authors' emails that end with 'edu' \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            5,
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "[\"I don't know.\", \"I don't know.\"]"
+        ],
+        "out_data": [
+            "To find the emails of authors that are not Gmail and end with 'edu', we need to combine the results of the two sub-queries. As both sub-answers indicate that they don't have the specific information, it is not possible to provide a final answer to the initial question based on the given sub-answers."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': \"What are the emails of the authors that are not Gmail and end with 'edu'?\", 'sub_query_list': [\"Find authors' emails that are not Gmail\", \"Find authors' emails that end with 'edu'\"], 'sub_answer': [\"I don't know.\", \"I don't know.\"]}"
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "end",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "To find the emails of authors that are not Gmail and end with 'edu', we need to combine the results of the two sub-queries. As both sub-answers indicate that they don't have the specific information, it is not possible to provide a final answer to the initial question based on the given sub-answers."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

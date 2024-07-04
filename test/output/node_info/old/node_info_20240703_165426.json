@@ -1,0 +1,140 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3,
+            4
+        ],
+        "in_data": [
+            "What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+        ],
+        "out_data": [
+            "['disaster projects', 'projects starting later than 2022']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the names of disaster projects starting later than 2022? Return None if no answer is found."
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "disaster projects"
+        ],
+        "out_data": [
+            "[Document(page_content='Outdoor Warningn Sirens - Design (FEMA Project)\\n\\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\\nCity’s ability to alert the community by providing mechanisms to alert\\nresidents in areas without power and those who live in neighborhoods with\\npoor cell service. Phase One of the project included a sound study to\\ndetermine the optimal number and locations of individual sirens, power and\\ninfrastructure requirements, and siren sound range. The City has been\\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\\nenvironmental compliance needed for a shovel ready project. Phase Two of\\n\\nPage 7 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nthe Emergency Warning Sirens project will be implementation of the design\\nplan, including purchasing, installing, and testing the sirens. The City will\\napply for future grant funding for this phase of the project.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 17, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13980}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n03-23-22\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Simmens and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nTroy Spayd, Assistant Public Works Director/City Engineer\\n\\nApproved by:\\n\\nRob DuBoux, Public Works Director/City Engineer\\n\\nDate prepared: March 17, 2022\\n\\nMeeting date: March 23, 2022\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2021-2022 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 0}), Document(page_content='Malibu Park Storm Drain Repairs\\nProject Description: After the Woolsey Fire, subsequent storms caused damage to\\nmultiple storm drain facilities throughout Malibu. The project repaired the storm drains on\\nCuthbert Road, Morning View Drive, Busch Drive at Harvester Road. The project also\\nincluded the repair of a storm drainage facility on Birdview Avenue. The project was\\naccepted by the Council on January 24, 2022\\n\\nCorral Canyon Culvert Repairs (FEMA Project)\\n\\n(cid:190) Project Description: This project has been cancelled as it could not get FEMA\\n\\napproval.\\n\\nBirdview Avenue Improvements (CalOES Project)\\n(cid:190) Updates: This project was\\nincluded\\n\\nthe Malibu Park Drainage\\nImprovement. The project was accepted by the Council on January 24, 2022\\n\\nin\\n\\nPage 8 of 8\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 19, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 15636}), Document(page_content='Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant prepared the specifications for the project. Staff\\n\\nis finalizing the bid documents.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Advertise: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) Staff is finalizing the design of this project.\\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\\n\\ntimber with non-combustible materials.\\n\\n(cid:190) Project Schedule\\n\\n(cid:131) Complete Design: April 2022\\n(cid:131) Advertise: Spring 2022\\n(cid:131) Begin Construction: Spring 2022\\n\\nPage 5 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 9341}), Document(page_content='Civic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates: The contractor has completed the storm drain improvements on\\nCivic Center Way. The improvements modified the existing concrete channel\\nunderneath Civic Center Way by adding a 3’ concrete curb adjacent to the\\nexisting flap gates. The new curb prevents brackish water intrusion into the\\nCity’s Civic Center Stormwater Treatment Facility. This project was accepted\\nby the Council at the January 24, 2022 meeting.\\n\\n2021 Annual Street Maintenance\\n\\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\\nhumps to Birdview Avenue. This project was identified in the City’s Pavement\\nManagement Plan. This project was accepted by the Council at the January\\n24, 2022 meeting.\\n\\nDisaster Projects (Design)\\n\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)', metadata={'chunk_index': 10, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 8415})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 5,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='Outdoor Warningn Sirens - Design (FEMA Project)\\n\\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\\nCity’s ability to alert the community by providing mechanisms to alert\\nresidents in areas without power and those who live in neighborhoods with\\npoor cell service. Phase One of the project included a sound study to\\ndetermine the optimal number and locations of individual sirens, power and\\ninfrastructure requirements, and siren sound range. The City has been\\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\\nenvironmental compliance needed for a shovel ready project. Phase Two of\\n\\nPage 7 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nthe Emergency Warning Sirens project will be implementation of the design\\nplan, including purchasing, installing, and testing the sirens. The City will\\napply for future grant funding for this phase of the project.\\n\\n(cid:190) Upates:', metadata={'chunk_index': 17, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13980}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n03-23-22\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Simmens and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nTroy Spayd, Assistant Public Works Director/City Engineer\\n\\nApproved by:\\n\\nRob DuBoux, Public Works Director/City Engineer\\n\\nDate prepared: March 17, 2022\\n\\nMeeting date: March 23, 2022\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2021-2022 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 0}), Document(page_content='Malibu Park Storm Drain Repairs\\nProject Description: After the Woolsey Fire, subsequent storms caused damage to\\nmultiple storm drain facilities throughout Malibu. The project repaired the storm drains on\\nCuthbert Road, Morning View Drive, Busch Drive at Harvester Road. The project also\\nincluded the repair of a storm drainage facility on Birdview Avenue. The project was\\naccepted by the Council on January 24, 2022\\n\\nCorral Canyon Culvert Repairs (FEMA Project)\\n\\n(cid:190) Project Description: This project has been cancelled as it could not get FEMA\\n\\napproval.\\n\\nBirdview Avenue Improvements (CalOES Project)\\n(cid:190) Updates: This project was\\nincluded\\n\\nthe Malibu Park Drainage\\nImprovement. The project was accepted by the Council on January 24, 2022\\n\\nin\\n\\nPage 8 of 8\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 19, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 15636}), Document(page_content='Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant prepared the specifications for the project. Staff\\n\\nis finalizing the bid documents.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Advertise: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) Staff is finalizing the design of this project.\\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\\n\\ntimber with non-combustible materials.\\n\\n(cid:190) Project Schedule\\n\\n(cid:131) Complete Design: April 2022\\n(cid:131) Advertise: Spring 2022\\n(cid:131) Begin Construction: Spring 2022\\n\\nPage 5 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.', metadata={'chunk_index': 11, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 9341}), Document(page_content='Civic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates: The contractor has completed the storm drain improvements on\\nCivic Center Way. The improvements modified the existing concrete channel\\nunderneath Civic Center Way by adding a 3’ concrete curb adjacent to the\\nexisting flap gates. The new curb prevents brackish water intrusion into the\\nCity’s Civic Center Stormwater Treatment Facility. This project was accepted\\nby the Council at the January 24, 2022 meeting.\\n\\n2021 Annual Street Maintenance\\n\\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\\nhumps to Birdview Avenue. This project was identified in the City’s Pavement\\nManagement Plan. This project was accepted by the Council at the January\\n24, 2022 meeting.\\n\\nDisaster Projects (Design)\\n\\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)', metadata={'chunk_index': 10, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 8415})]"
+        ],
+        "out_data": [
+            "The City is working on a project to improve emergency warning sirens for disaster alerts with FEMA grant funding. The disaster recovery projects include storm drain repairs and roadway improvements. FEMA and CalJPIA projects are part of the disaster recovery efforts."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: disaster projects \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 4,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "projects starting later than 2022"
+        ],
+        "out_data": [
+            "[Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nStorm Drain Master Plan (FEMA Project)\\n\\n(cid:190) Project Description: This project is funded through a grant from FEMA after\\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\\nculverts, debris basins, manholes, and other drainage structures within the\\nCity.\\n\\n(cid:190) Updates: Council approved an agreement in December for design services.\\n\\nA kick-off meeting was held in late December.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022', metadata={'chunk_index': 12, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 10224}), Document(page_content='(cid:190) Project Schedule:\\n\\n(cid:131) Complete Final Design: Spring 2022\\n(cid:131) Advertise: Summer 2022\\n(cid:131) Award Contract and Begin Construction: Summer 2022\\n\\nWestward Beach Road Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) The design plans were approved by Planning Commission on\\nSeptember 20, 2021. At the December 13, 2021, City Council meeting,\\nCouncil directed staff to withdraw the proposed project and associated\\nCoastal Development Permit and directed the Public Works and Public\\nSafety Commissions\\nto develop project\\nalternatives. A joint Public Works and Public Safety Commission\\nmeeting was held on January 20, 2022 and February 23, 2022 and\\nproject alternatives were presented to the commissions. City staff will\\npresent the recommended design alternatives to Council on March 28,\\n2022.\\n\\nthe project\\n\\nto review', metadata={'chunk_index': 3, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 2537}), Document(page_content=\"the project\\n\\nto review\\n\\n(cid:131) The direction received from the four motions passed included\\nrehabilitation of the roadway to max 8' from R/W, add share road with\\nbicycles pavement markings, delineated parallel parking spaces and\\nspeed humps. There is room to add a pathway within the R/W per\\nCouncil's direction.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Summer 2022\\n(cid:131) Begin Construction: Fall/Winter 2022\\n\\nPage 2 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nCivic Center Water Treatment Facility Phase 2\\n\\n(cid:190) Updates:\\n(cid:131)\\n\\nIndividual letters were mailed to all properties within Phase 2 with their\\npreliminary estimated assessments in July 2021. Staff has been\\ncommunicating with the property owners regarding their proposed\\nassessments.\\n\\n(cid:131) The MOU has been amended modifying the deadline to the formation\\nof the assessment district to June 30, 2022. A new request for further\\nmodification of the schedule has been requested.\", metadata={'chunk_index': 4, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 3354}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576}), Document(page_content='Page 1 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nconstruction bids after approval. An agreement for construction\\nmanagement services was approved by Council on March 14, 2022.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Advertise: Spring/Summer 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nPCH Signal Synchronization System Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) This project will be presented to the Planning Commission in May 2022.\\nThis project requires Caltrans approval since the work will be on PCH.\\nThe project reports and plans are being routed through Caltrans for\\nfinal approval. It is anticipated that the project will have final approval\\nby March 2022. The project will be advertised for construction bids\\nshortly after final approval. If possible, the construction of this project\\nwill begin in conjunction with the PCH Median Improvement\\n\\n(cid:190) Project Schedule:', metadata={'chunk_index': 2, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 1634})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "generation",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            7
+        ],
+        "in_data": [
+            "[Document(page_content='(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project consultant has started the design of this project.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nStorm Drain Master Plan (FEMA Project)\\n\\n(cid:190) Project Description: This project is funded through a grant from FEMA after\\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\\nculverts, debris basins, manholes, and other drainage structures within the\\nCity.\\n\\n(cid:190) Updates: Council approved an agreement in December for design services.\\n\\nA kick-off meeting was held in late December.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Completion Date: Spring 2022', metadata={'chunk_index': 12, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 10224}), Document(page_content='(cid:190) Project Schedule:\\n\\n(cid:131) Complete Final Design: Spring 2022\\n(cid:131) Advertise: Summer 2022\\n(cid:131) Award Contract and Begin Construction: Summer 2022\\n\\nWestward Beach Road Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) The design plans were approved by Planning Commission on\\nSeptember 20, 2021. At the December 13, 2021, City Council meeting,\\nCouncil directed staff to withdraw the proposed project and associated\\nCoastal Development Permit and directed the Public Works and Public\\nSafety Commissions\\nto develop project\\nalternatives. A joint Public Works and Public Safety Commission\\nmeeting was held on January 20, 2022 and February 23, 2022 and\\nproject alternatives were presented to the commissions. City staff will\\npresent the recommended design alternatives to Council on March 28,\\n2022.\\n\\nthe project\\n\\nto review', metadata={'chunk_index': 3, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 2537}), Document(page_content=\"the project\\n\\nto review\\n\\n(cid:131) The direction received from the four motions passed included\\nrehabilitation of the roadway to max 8' from R/W, add share road with\\nbicycles pavement markings, delineated parallel parking spaces and\\nspeed humps. There is room to add a pathway within the R/W per\\nCouncil's direction.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Summer 2022\\n(cid:131) Begin Construction: Fall/Winter 2022\\n\\nPage 2 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\nCivic Center Water Treatment Facility Phase 2\\n\\n(cid:190) Updates:\\n(cid:131)\\n\\nIndividual letters were mailed to all properties within Phase 2 with their\\npreliminary estimated assessments in July 2021. Staff has been\\ncommunicating with the property owners regarding their proposed\\nassessments.\\n\\n(cid:131) The MOU has been amended modifying the deadline to the formation\\nof the assessment district to June 30, 2022. A new request for further\\nmodification of the schedule has been requested.\", metadata={'chunk_index': 4, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 3354}), Document(page_content='Westward Beach Road.\\n\\n(cid:190) Upates:\\n\\n(cid:131) This project is currently under design with the City’s consultant. It is\\nanticipated that the final design will be complete by July 2022. The\\nproject will be advertised for construction bids with construction\\nbeginning in Fall 2022.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: July 2022\\n(cid:131) Begin Construction: Fall 2022\\n(cid:131)\\n\\nOutdoor Warningn Sirens - Design (FEMA Project)', metadata={'chunk_index': 16, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 13576}), Document(page_content='Page 1 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nconstruction bids after approval. An agreement for construction\\nmanagement services was approved by Council on March 14, 2022.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Advertise: Spring/Summer 2022\\n(cid:131) Begin Construction: Summer 2022\\n\\nPCH Signal Synchronization System Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) This project will be presented to the Planning Commission in May 2022.\\nThis project requires Caltrans approval since the work will be on PCH.\\nThe project reports and plans are being routed through Caltrans for\\nfinal approval. It is anticipated that the project will have final approval\\nby March 2022. The project will be advertised for construction bids\\nshortly after final approval. If possible, the construction of this project\\nwill begin in conjunction with the PCH Median Improvement\\n\\n(cid:190) Project Schedule:', metadata={'chunk_index': 2, 'source': 'data/civic/extracted_data/malibucity_agenda__03232022-1869.txt', 'start_index': 1634})]"
+        ],
+        "out_data": [
+            "I don't know."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: projects starting later than 2022 \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_7": {
+        "node_id": 7,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            5,
+            6
+        ],
+        "out_nodes": [
+            8
+        ],
+        "in_data": [
+            "['The City is working on a project to improve emergency warning sirens for disaster alerts with FEMA grant funding. The disaster recovery projects include storm drain repairs and roadway improvements. FEMA and CalJPIA projects are part of the disaster recovery efforts.', \"I don't know.\"]"
+        ],
+        "out_data": [
+            "The names of disaster projects starting later than 2022 include projects for improving emergency warning sirens for disaster alerts with FEMA grant funding and disaster recovery projects such as storm drain repairs and roadway improvements. Unfortunately, no specific project names were provided, so the exact titles of these projects are not available."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What are the names of disaster projects starting later than 2022? Return None if no answer is found.', 'sub_query_list': ['disaster projects', 'projects starting later than 2022'], 'sub_answer': ['The City is working on a project to improve emergency warning sirens for disaster alerts with FEMA grant funding. The disaster recovery projects include storm drain repairs and roadway improvements. FEMA and CalJPIA projects are part of the disaster recovery efforts.', \"I don't know.\"]}"
+    },
+    "node_8": {
+        "node_id": 8,
+        "node_name": "end",
+        "in_nodes": [
+            7
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The names of disaster projects starting later than 2022 include projects for improving emergency warning sirens for disaster alerts with FEMA grant funding and disaster recovery projects such as storm drain repairs and roadway improvements. Unfortunately, no specific project names were provided, so the exact titles of these projects are not available."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

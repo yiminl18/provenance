@@ -1,0 +1,120 @@
+{
+    "folder_path": "data/civic/raw_data/malibucity_agenda__03242021-1665.pdf",
+    "chunk_num": 12,
+    "all splits length": [
+        927,
+        910,
+        960,
+        953,
+        989,
+        973,
+        962,
+        948,
+        945,
+        871,
+        992,
+        102
+    ],
+    "question": "What are the names of mentioned capital improvement projects? Return None if no answer is found.",
+    "sub_query_list": [
+        "names of mentioned capital improvement projects"
+    ],
+    "sub_answers": [
+        "Marie Canyon Green Streets, Malibu Park Drainage Improvements, City Hall Roof Replacement."
+    ],
+    "final_answer": "The mentioned capital improvement projects are Marie Canyon Green Streets, Malibu Park Drainage Improvements, and City Hall Roof Replacement.",
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 0,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 0
+            },
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-24-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nRobert DuBoux, Public Works Director/City Engineer\n\nDate prepared: March 18, 2021\n\nMeeting date: March 24, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:"
+        ],
+        [
+            {
+                "chunk_index": 3,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 2690
+            },
+            "February 1, 2021.\n\n(cid:131) The State is reviewing the City’s application for the State Revolving\n\nFund program.\n\n(cid:131) The project assessment engineer has begun\n\nthe process of\n\nevaluating the project costs.\n\n(cid:131) Staff is rescheduling the community meeting to April 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff is making minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is out to bid with bids due April 16, 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement\n\n(cid:190) Updates: The City has held project meetings with the contractor and is\n\ndeveloping a project schedule."
+        ],
+        [
+            {
+                "chunk_index": 1,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 900
+            },
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design. In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.\n(cid:131) Consultant is working on final design documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:"
+        ],
+        [
+            {
+                "chunk_index": 4,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 3613
+            },
+            "developing a project schedule.\n\n(cid:190) Project Schedule: February – May 2021\n\nBluffs Park Workout Station\n\n(cid:190) Updates: The contractor has received the workout equipment and is working\n\non the installation.\n\n(cid:190) Project Schedule: November 2020 – March 2021\n\nCivic Center Way Improvements\n\n(cid:190) Updates:\n\n(cid:131) Work Hours: Monday through Friday 7:00AM to 4:00PM, Saturdays\n\n7:00AM to 4:00PM\n\n(cid:131) Phase 1 of the temporary closure on Civic Center Way between Vista\nPacifica and the private driveway of 23901 Civic Center Way has\nbeen opened to local residential traffic only.\n\n(cid:131) Phase 2 remains closed in both directions between the entry to\n\nMalibu Cyn Village condos to Webb Way.\n\n(cid:190) Project Schedule: August 2020 through April 2021\n\nCapital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:"
+        ],
+        [
+            {
+                "chunk_index": 2,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 1747
+            },
+            "Civic Center Stormwater Diversion Structure\n\n(cid:190) Updates:\n\n(cid:131) A Los Angeles County Flood Control maintenance agreement is\nrequired for this project. Staff is waiting for the County’s approval of\nthe agreement.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Completed. Awaiting maintenance agreement from\n\nthe County.\n\n(cid:131) Begin Construction: Estimated Summer 2021\n\nWestward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The project requires coordination with Los Angeles County Beaches\nand Harbor. Staff is working out the final details of the project with\nthe County and will be finalizing the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n\n(cid:131) Project is at the 65% design phase.\n(cid:131) The City obtained a project CDP from Planning Commission on\n\nFebruary 1, 2021."
+        ]
+    ],
+    "chunks_info": [
+        [
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-24-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nRobert DuBoux, Public Works Director/City Engineer\n\nDate prepared: March 18, 2021\n\nMeeting date: March 24, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:",
+            "sq0t0",
+            [
+                [
+                    "Marie Canyon Green Streets"
+                ]
+            ],
+            "['Marie Canyon Green Streets', 'Malibu Park Drainage Improvements', 'City Hall Roof Replacement']",
+            true
+        ],
+        [
+            "February 1, 2021.\n\n(cid:131) The State is reviewing the City’s application for the State Revolving\n\nFund program.\n\n(cid:131) The project assessment engineer has begun\n\nthe process of\n\nevaluating the project costs.\n\n(cid:131) Staff is rescheduling the community meeting to April 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff is making minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is out to bid with bids due April 16, 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement\n\n(cid:190) Updates: The City has held project meetings with the contractor and is\n\ndeveloping a project schedule.",
+            "sq0t1",
+            [
+                [
+                    "Malibu Park Drainage Improvements",
+                    "City Hall Roof Replacement"
+                ]
+            ],
+            "['Marie Canyon Green Streets', 'Malibu Park Drainage Improvements', 'City Hall Roof Replacement']",
+            true
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design. In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.\n(cid:131) Consultant is working on final design documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+            "sq0t2",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "developing a project schedule.\n\n(cid:190) Project Schedule: February – May 2021\n\nBluffs Park Workout Station\n\n(cid:190) Updates: The contractor has received the workout equipment and is working\n\non the installation.\n\n(cid:190) Project Schedule: November 2020 – March 2021\n\nCivic Center Way Improvements\n\n(cid:190) Updates:\n\n(cid:131) Work Hours: Monday through Friday 7:00AM to 4:00PM, Saturdays\n\n7:00AM to 4:00PM\n\n(cid:131) Phase 1 of the temporary closure on Civic Center Way between Vista\nPacifica and the private driveway of 23901 Civic Center Way has\nbeen opened to local residential traffic only.\n\n(cid:131) Phase 2 remains closed in both directions between the entry to\n\nMalibu Cyn Village condos to Webb Way.\n\n(cid:190) Project Schedule: August 2020 through April 2021\n\nCapital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:",
+            "sq0t3",
+            [
+                []
+            ],
+            "None.",
+            false
+        ],
+        [
+            "Civic Center Stormwater Diversion Structure\n\n(cid:190) Updates:\n\n(cid:131) A Los Angeles County Flood Control maintenance agreement is\nrequired for this project. Staff is waiting for the County’s approval of\nthe agreement.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Completed. Awaiting maintenance agreement from\n\nthe County.\n\n(cid:131) Begin Construction: Estimated Summer 2021\n\nWestward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The project requires coordination with Los Angeles County Beaches\nand Harbor. Staff is working out the final details of the project with\nthe County and will be finalizing the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n\n(cid:131) Project is at the 65% design phase.\n(cid:131) The City obtained a project CDP from Planning Commission on\n\nFebruary 1, 2021.",
+            "sq0t4",
+            [
+                []
+            ],
+            "None.",
+            false
+        ]
+    ]
+}

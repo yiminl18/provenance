@@ -1,0 +1,102 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the names of mentioned capital improvement projects? Return None if no answer is found."
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What are the names of mentioned capital improvement projects? Return None if no answer is found."
+        ],
+        "out_data": [
+            "['names of mentioned capital improvement projects']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the names of mentioned capital improvement projects? Return None if no answer is found."
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "names of mentioned capital improvement projects"
+        ],
+        "out_data": [
+            "[Document(page_content='Agenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nAnnual Street Maintenance\\n\\n(cid:190) Project Description: This project provides for the reconstruction and\\n\\nmaintenance of City streets.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Spring 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nBluffs Park Shade Structure\\n\\n(cid:190) Project Description: This project consists of the installation of four single-\\n\\npost shade structures at Malibu Bluffs Park\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Summer 2021\\n(cid:131) Begin Construction: Fall 2021\\n\\nVehicle Protection Devices\\n\\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\\nvehicle impact protection devices to be installed for all parking spaces\\nlocated adjacent to any outdoor pedestrian seating area. There are two\\nlocations within the City’s right-of-way and City-owned property that would\\nrequire a vehicle impact protection device.', metadata={'chunk_index': 6, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 5180}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n01-27-21\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Merrick and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nRobert DuBoux, Public Works Director/City Engineer\\n\\nDate prepared:\\n\\nJanuary 22, 2021\\n\\nMeeting date: January 27, 2021\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2020-2021 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:\\n\\n(cid:131) The City has recently received Measure W funds to complete this\\nproject. Staff is working on the project plans to prepare for public\\nbidding.\\n\\n(cid:190) Project Schedule:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 0}), Document(page_content='(cid:131) The contractor is also working on the curb, gutter and storm drain\\ninstallation on Civic Center Way from Webb Way to the condos. This\\nportion of the work may require temporary road closures. However, it\\nis anticipated that this phase of the project will be completed at the\\nend of February 2021.\\n\\n(cid:190) Project Schedule: August 2020 through March 2021\\n\\nCapital Improvement Projects (Completed)\\n\\nStorm Drain Trash Screens\\n\\n(cid:190) Project Description: This project consisted of installing trash screens in City\\nowned catch basins. The proposed trash screens will reduce the amount of\\ntrash from being discharged into the ocean.\\n\\nDume Drive and Fernhill Drive Speed Humps Project\\n\\n(cid:190) Project Description: This project consists of installation of speed humps on\\n\\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.\\n\\nPage 3 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nAnnual Street Maintenance', metadata={'chunk_index': 5, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 4313}), Document(page_content='(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: April 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nPCH Median Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) Consultant is working on the final design. In March, the City be\\nto perform construction\\n\\nfrom consultants\\n\\nseeking proposals\\nmanagement.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: February 2021\\n(cid:131) Begin Construction: Fall 2021\\n\\nPage 1 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nPCH Signal Synchronization System Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) 65% design package was submitted to Caltrans in November 2020.\\n(cid:131) Consultant is working on final design documents.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Final Design: May 2021\\n(cid:131) Advertise: July 2021\\n(cid:131) Award Contract and Begin Construction: September 2021\\n\\nCivic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates:', metadata={'chunk_index': 1, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 905}), Document(page_content='Commission in February.\\n\\n(cid:131) City has submitted a project application for the State Revolving Fund\\n\\nprogram.\\n\\n(cid:131) An assessment engineer has been hired by the City and a new\\n\\nassessment district will be created.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: December 2021\\n(cid:131) Begin Construction: March 2022\\n\\nMalibu Park Drainage Improvements\\n\\n(cid:190) Updates:\\n\\n(cid:131) Staff is making minor corrections to the project plans to reduce the\\n\\noverall project costs.\\n\\nPage 2 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nCapital Improvement Projects (Construction)\\n\\nCity Hall Roof Replacement\\n\\n(cid:190) Updates: Bids were received on November 18, 2020 and Council awarded\\n\\nthe project to the low bidder on January 11, 2021.\\n\\n(cid:190) Project Schedule: February – April 2021\\n\\nBluffs Park Workout Station', metadata={'chunk_index': 3, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 2700})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "[Document(page_content='Agenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nAnnual Street Maintenance\\n\\n(cid:190) Project Description: This project provides for the reconstruction and\\n\\nmaintenance of City streets.\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Spring 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nBluffs Park Shade Structure\\n\\n(cid:190) Project Description: This project consists of the installation of four single-\\n\\npost shade structures at Malibu Bluffs Park\\n\\n(cid:190) Estimated Schedule:\\n\\n(cid:131) Complete Design: Summer 2021\\n(cid:131) Begin Construction: Fall 2021\\n\\nVehicle Protection Devices\\n\\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\\nvehicle impact protection devices to be installed for all parking spaces\\nlocated adjacent to any outdoor pedestrian seating area. There are two\\nlocations within the City’s right-of-way and City-owned property that would\\nrequire a vehicle impact protection device.', metadata={'chunk_index': 6, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 5180}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n01-27-21\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Merrick and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nRobert DuBoux, Public Works Director/City Engineer\\n\\nDate prepared:\\n\\nJanuary 22, 2021\\n\\nMeeting date: January 27, 2021\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2020-2021 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:\\n\\n(cid:131) The City has recently received Measure W funds to complete this\\nproject. Staff is working on the project plans to prepare for public\\nbidding.\\n\\n(cid:190) Project Schedule:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 0}), Document(page_content='(cid:131) The contractor is also working on the curb, gutter and storm drain\\ninstallation on Civic Center Way from Webb Way to the condos. This\\nportion of the work may require temporary road closures. However, it\\nis anticipated that this phase of the project will be completed at the\\nend of February 2021.\\n\\n(cid:190) Project Schedule: August 2020 through March 2021\\n\\nCapital Improvement Projects (Completed)\\n\\nStorm Drain Trash Screens\\n\\n(cid:190) Project Description: This project consisted of installing trash screens in City\\nowned catch basins. The proposed trash screens will reduce the amount of\\ntrash from being discharged into the ocean.\\n\\nDume Drive and Fernhill Drive Speed Humps Project\\n\\n(cid:190) Project Description: This project consists of installation of speed humps on\\n\\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.\\n\\nPage 3 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nAnnual Street Maintenance', metadata={'chunk_index': 5, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 4313}), Document(page_content='(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: April 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nPCH Median Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) Consultant is working on the final design. In March, the City be\\nto perform construction\\n\\nfrom consultants\\n\\nseeking proposals\\nmanagement.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: February 2021\\n(cid:131) Begin Construction: Fall 2021\\n\\nPage 1 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nPCH Signal Synchronization System Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) 65% design package was submitted to Caltrans in November 2020.\\n(cid:131) Consultant is working on final design documents.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Final Design: May 2021\\n(cid:131) Advertise: July 2021\\n(cid:131) Award Contract and Begin Construction: September 2021\\n\\nCivic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates:', metadata={'chunk_index': 1, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 905}), Document(page_content='Commission in February.\\n\\n(cid:131) City has submitted a project application for the State Revolving Fund\\n\\nprogram.\\n\\n(cid:131) An assessment engineer has been hired by the City and a new\\n\\nassessment district will be created.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: December 2021\\n(cid:131) Begin Construction: March 2022\\n\\nMalibu Park Drainage Improvements\\n\\n(cid:190) Updates:\\n\\n(cid:131) Staff is making minor corrections to the project plans to reduce the\\n\\noverall project costs.\\n\\nPage 2 of 6\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: Spring 2021\\n(cid:131) Begin Construction: Summer 2021\\n\\nCapital Improvement Projects (Construction)\\n\\nCity Hall Roof Replacement\\n\\n(cid:190) Updates: Bids were received on November 18, 2020 and Council awarded\\n\\nthe project to the low bidder on January 11, 2021.\\n\\n(cid:190) Project Schedule: February – April 2021\\n\\nBluffs Park Workout Station', metadata={'chunk_index': 3, 'source': 'data/civic/extracted_data/malibucity_agenda__01272021-1626.txt', 'start_index': 2700})]"
+        ],
+        "out_data": [
+            "The mentioned capital improvement projects are Annual Street Maintenance, Bluffs Park Shade Structure, and Vehicle Protection Devices."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: names of mentioned capital improvement projects \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 5,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "['The mentioned capital improvement projects are Annual Street Maintenance, Bluffs Park Shade Structure, and Vehicle Protection Devices.']"
+        ],
+        "out_data": [
+            "The mentioned capital improvement projects are Annual Street Maintenance, Bluffs Park Shade Structure, and Vehicle Protection Devices."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What are the names of mentioned capital improvement projects? Return None if no answer is found.', 'sub_query_list': ['names of mentioned capital improvement projects'], 'sub_answer': ['The mentioned capital improvement projects are Annual Street Maintenance, Bluffs Park Shade Structure, and Vehicle Protection Devices.']}"
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "end",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The mentioned capital improvement projects are Annual Street Maintenance, Bluffs Park Shade Structure, and Vehicle Protection Devices."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

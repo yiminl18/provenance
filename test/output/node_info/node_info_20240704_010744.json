@@ -1,0 +1,66 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What is the publication year of this paper?"
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "retrival",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What is the publication year of this paper?"
+        ],
+        "out_data": [
+            "[Document(page_content='\\n\\nRESULTS – THEMES AND PATTERNS\\nIn  total,  our  corpus  included  76  papers,  all  published\\nbetween 2000 and 2013. The average publication year was\\n2010 and the median 2011. A plurality of papers come from\\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\\n(13 papers) or the extended abstracts (16). The later include\\na mix of workshop descriptions, works in progress, posters,\\netc. The next largest contingent appears in the Creativity &\\nCognition  conference  (8).  The  remainder  occurred  in  such\\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\\nand  Embedded  Computing  (2),  and  other  similar  venues.\\nThe  papers  themselves  describe  a  variety  of  endeavors,\\nincluding  interactive  systems  to  support  reflection  [e.g.,\\n12], methods intended to incorporate reflection into design\\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\\n73,68], and others.', metadata={'chunk_index': 13, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 10081}), Document(page_content='[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \\n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \\nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \\nAffective Range of Feedback. In Proc. CHI’17. \\n\\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \\n\\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14', metadata={'chunk_index': 97, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 74434}), Document(page_content=\"During  this  third  wave  shift,  the  theme  of  designing  for\\n\\nPermission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\\npersonal or classroom use is granted without fee provided that copies are\\nnot made or distributed for profit or commercial advantage and that copies\\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.\\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\\npost on servers or to redistribute to lists, requires prior specific permission\\nand/or a fee. Request permissions from Permissions@acm.org.\\nDIS '14, June 07 - 11 2014, Vancouver, BC, Canada\\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00.\\nhttp://dx.doi.org/10.1145/2598510.2598598\", metadata={'chunk_index': 3, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 2057}), Document(page_content='49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \\nChalmers Chalmers. 2014. Personal Tracking as Lived \\nInformatics. Proceedings of the SIGCHI Conference on Human \\nFactors in Computing Systems (CHI 2014): 1163–1172.  \\nhttp://doi.org/10.1145/2556288.2557039 \\n\\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \\n\\nand Paul Resnick. 2010. Happier Together: Integrating a \\nWellness Application into a Social Network Site. In \\nInternational Conference on Persuasive Technology \\n(PERSUASIVE 2010): 27–39. \\nhttp://doi.org/10.1007/978-3-642-13226-1_5 \\n\\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \\nFood Photography II: Use of Food Photographs for \\nEstimating Portion Size and the Nutrient Content of \\nMeals. The British Journal of Nutrition 76, 1: 31–49. \\nhttp://doi.org/10.1079/BJN19960007', metadata={'chunk_index': 100, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 78927}), Document(page_content='103.\\n\\nZhao, O.J., Ng, T., and Cosley, D. (2012). No \\n\\nforests without trees: particulars and patterns in \\nvisualizing personal communication. Proc iConference, \\n25-32.\\n\\nReflectionDIS 2014, June 21–25, 2014, Vancouver, BC, Canada102', metadata={'chunk_index': 73, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 58308})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "generation",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "[Document(page_content='\\n\\nRESULTS – THEMES AND PATTERNS\\nIn  total,  our  corpus  included  76  papers,  all  published\\nbetween 2000 and 2013. The average publication year was\\n2010 and the median 2011. A plurality of papers come from\\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\\n(13 papers) or the extended abstracts (16). The later include\\na mix of workshop descriptions, works in progress, posters,\\netc. The next largest contingent appears in the Creativity &\\nCognition  conference  (8).  The  remainder  occurred  in  such\\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\\nand  Embedded  Computing  (2),  and  other  similar  venues.\\nThe  papers  themselves  describe  a  variety  of  endeavors,\\nincluding  interactive  systems  to  support  reflection  [e.g.,\\n12], methods intended to incorporate reflection into design\\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\\n73,68], and others.', metadata={'chunk_index': 13, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 10081}), Document(page_content='[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \\n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \\nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \\nAffective Range of Feedback. In Proc. CHI’17. \\n\\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \\n\\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14', metadata={'chunk_index': 97, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 74434}), Document(page_content=\"During  this  third  wave  shift,  the  theme  of  designing  for\\n\\nPermission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\\npersonal or classroom use is granted without fee provided that copies are\\nnot made or distributed for profit or commercial advantage and that copies\\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.\\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\\npost on servers or to redistribute to lists, requires prior specific permission\\nand/or a fee. Request permissions from Permissions@acm.org.\\nDIS '14, June 07 - 11 2014, Vancouver, BC, Canada\\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00.\\nhttp://dx.doi.org/10.1145/2598510.2598598\", metadata={'chunk_index': 3, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 2057}), Document(page_content='49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \\nChalmers Chalmers. 2014. Personal Tracking as Lived \\nInformatics. Proceedings of the SIGCHI Conference on Human \\nFactors in Computing Systems (CHI 2014): 1163–1172.  \\nhttp://doi.org/10.1145/2556288.2557039 \\n\\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \\n\\nand Paul Resnick. 2010. Happier Together: Integrating a \\nWellness Application into a Social Network Site. In \\nInternational Conference on Persuasive Technology \\n(PERSUASIVE 2010): 27–39. \\nhttp://doi.org/10.1007/978-3-642-13226-1_5 \\n\\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \\nFood Photography II: Use of Food Photographs for \\nEstimating Portion Size and the Nutrient Content of \\nMeals. The British Journal of Nutrition 76, 1: 31–49. \\nhttp://doi.org/10.1079/BJN19960007', metadata={'chunk_index': 100, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 78927}), Document(page_content='103.\\n\\nZhao, O.J., Ng, T., and Cosley, D. (2012). No \\n\\nforests without trees: particulars and patterns in \\nvisualizing personal communication. Proc iConference, \\n25-32.\\n\\nReflectionDIS 2014, June 21–25, 2014, Vancouver, BC, Canada102', metadata={'chunk_index': 73, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 58308})]"
+        ],
+        "out_data": [
+            "2000 - 2013"
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: What is the publication year of this paper? Only return the answer required by the question. There is no need to include extra information such as reasons. Separate the answers with commas if there are multiple items. Return None if no answer is found. \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "end",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "2000 - 2013"
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

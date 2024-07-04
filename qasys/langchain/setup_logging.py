@@ -1,7 +1,7 @@
 import logging
 import datetime
 
-def setup_logging(dir =  'test/output/', filename = 'langchain_civic_RAG_1'):
+def setup_logging(dir='test/output/logging/', filename='langchain_civic_RAG_1'):
     """
     配置日志记录，只打印 'root - INFO' 级别的日志。
     """
@@ -34,6 +34,17 @@ def setup_logging(dir =  'test/output/', filename = 'langchain_civic_RAG_1'):
     # 添加处理器到logger
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
+
+    return logger, file_handler, console_handler, timestamp
+
+def close_logging(logger, handlers):
+    """
+    关闭日志记录器的处理器。
+    """
+    for handler in handlers:
+        logger.removeHandler(handler)
+        handler.close()
+
 
 if __name__ == '__main__':
     # 调用日志配置函数

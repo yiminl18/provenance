@@ -1,0 +1,126 @@
+{
+    "evidence finding model": "gpt4o",
+    "folder_path": "data/civic/raw_data/malibucity_agenda__03232022-1869.pdf",
+    "chunk_num": 20,
+    "all splits length": [
+        815,
+        934,
+        930,
+        839,
+        959,
+        771,
+        919,
+        735,
+        993,
+        955,
+        997,
+        975,
+        962,
+        899,
+        941,
+        763,
+        451,
+        911,
+        760,
+        789
+    ],
+    "question": "What are the names of disaster projects advertised before 2023",
+    "sub_query_list": [
+        "What are the names of disaster projects advertised before 2023"
+    ],
+    "sub_answers": [
+        "None"
+    ],
+    "final_answer": "None",
+    "chunks_info": [
+        [
+            "Westward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            "sq0t0",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-23-22\nItem\n4.A.\n\nTo:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: March 17, 2022\n\nMeeting date: March 23, 2022\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+            "sq0t1",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "Outdoor Warningn Sirens - Design (FEMA Project)\n\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:",
+            "sq0t2",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: Spring 2022\n(cid:131) Advertise: Summer 2022\n(cid:131) Award Contract and Begin Construction: Summer 2022\n\nWestward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021. At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives. A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022 and February 23, 2022 and\nproject alternatives were presented to the commissions. City staff will\npresent the recommended design alternatives to Council on March 28,\n2022.\n\nthe project\n\nto review",
+            "sq0t3",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            "sq0t4",
+            [
+                [
+                    "None at this time"
+                ]
+            ],
+            "['None at this time']",
+            true
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 16,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 13576
+            },
+            "Westward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)"
+        ],
+        [
+            {
+                "chunk_index": 0,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 0
+            },
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-23-22\nItem\n4.A.\n\nTo:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: March 17, 2022\n\nMeeting date: March 23, 2022\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:"
+        ],
+        [
+            {
+                "chunk_index": 17,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 13980
+            },
+            "Outdoor Warningn Sirens - Design (FEMA Project)\n\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:"
+        ],
+        [
+            {
+                "chunk_index": 3,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 2537
+            },
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: Spring 2022\n(cid:131) Advertise: Summer 2022\n(cid:131) Award Contract and Begin Construction: Summer 2022\n\nWestward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021. At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives. A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022 and February 23, 2022 and\nproject alternatives were presented to the commissions. City staff will\npresent the recommended design alternatives to Council on March 28,\n2022.\n\nthe project\n\nto review"
+        ],
+        [
+            {
+                "chunk_index": 18,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 14874
+            },
+            "(cid:190) Upates:\n\n(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021."
+        ]
+    ]
+}

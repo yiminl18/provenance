@@ -1,0 +1,102 @@
+{
+    "node_1": {
+        "node_id": 1,
+        "node_name": "start",
+        "in_nodes": [],
+        "out_nodes": [
+            2
+        ],
+        "in_data": [],
+        "out_data": [
+            "What are the names of mentioned capital improvement projects? Return None if no answer is found."
+        ],
+        "label": "",
+        "prompt:": ""
+    },
+    "node_2": {
+        "node_id": 2,
+        "node_name": "query_decomposition",
+        "in_nodes": [
+            1
+        ],
+        "out_nodes": [
+            3
+        ],
+        "in_data": [
+            "What are the names of mentioned capital improvement projects? Return None if no answer is found."
+        ],
+        "out_data": [
+            "['names of mentioned capital improvement projects']"
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at converting user questions into  sub-questions. \n    Perform query decomposition. Given a user question, break it down into distinct sub questions that     you need to answer in order to answer the original question.\n\n    If there are acronyms or words you are not familiar with, do not try to rephrase them.\nHuman: What are the names of mentioned capital improvement projects? Return None if no answer is found."
+    },
+    "node_3": {
+        "node_id": 3,
+        "node_name": "retrival",
+        "in_nodes": [
+            2
+        ],
+        "out_nodes": [
+            4
+        ],
+        "in_data": [
+            "names of mentioned capital improvement projects"
+        ],
+        "out_data": [
+            "[Document(page_content='Capital Improvement Projects (Completed)\\n\\nCivic Center Way Improvements\\n\\n(cid:190) Updates: The contractor has completed the planting material maintenance\\nperiod as described within the project documents. Council accepted this\\nproject as complete at the September 13th City Council Meeting.\\n\\nCivic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates: The contractor has completed the storm drain improvements in the\\nCivic Center Way are. The improvements modified the existing concrete\\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\\nto the existing flap gates. The new curb prevents brackish water intrusion\\n\\nPage 4 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\ninto the City’s Civic Center Stormwater Treatment Facility. This project is\\nscheduled to be accepted by the Council at the January 24, 2022 meeting.\\n\\n2021 Annual Street Maintenance', metadata={'chunk_index': 9, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 7652}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n10-27-21\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Simmens and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nTroy Spayd, Assistant Public Works Director/City Engineer\\n\\nApproved by:\\n\\nRob DuBoux, Public Works Director/City Engineer\\n\\nDate prepared: October 21, 2021\\n\\nMeeting date: October 27, 2021\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2021-2022 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 0}), Document(page_content='Capital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:\\n\\n(cid:131) A hydrology report was prepared and will be used to size the pre-\\nmanufactured biofilters. City staff is reviewing multiple biofilter\\nmanufacturers for filters that will work in the proposed project area. It is\\nanticipated to have a final design by March 2022. The project will be\\nadvertised for construction bids shortly after this date.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Begin Construction: Spring 2022\\n\\nPCH Median Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project was approved by the Planning Commission on September\\n8, 2021. This project requires Caltrans approval since the work will be\\non Pacific Coast Highway. The project reports and plans are being\\nrouted through Caltrans for final approval. It is anticipated that the\\nproject will have final approval by March 2022. The project will be\\n\\nPage 1 of 8\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 1, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 735}), Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Begin Design: Spring 2022\\n\\nCapital Improvement Projects (Construction)\\n\\nThe City does not have projects in construction at this time.\\n\\nPage 3 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nVehicle Protection Devices\\n\\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\\nvehicle impact protection devices to be installed for all parking spaces located\\nadjacent to any outdoor pedestrian seating area. There are two locations\\nwithin the City’s right-of-way and City-owned property that would require a\\nvehicle impact protection device.\\n\\nLegacy Park Paver Repair Project\\n\\n(cid:190) Project Description: This project will consist of removing and repairing a large\\nsection of pavers in Legacy Park. The pavers have become uneven and\\ndamaged in several areas\\n\\nMalibu Bluffs Park South Walkway\\n\\n(cid:190) Project Description: This project will include replacing the existing sidewalk', metadata={'chunk_index': 7, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 5851}), Document(page_content='(cid:190) Project Description: This project will include replacing the existing sidewalk\\n\\nlocated on the south side of Malibu Bluffs Park.\\n\\nTrancas Playground Resurfacing\\n\\n(cid:190) Project Description: The project will include removing and replacing the upper\\n\\nlayer of the playground surfacing at Trancas Canyon Park.\\n\\nPCH Median Improvements at Paradise Cove and Zuma Beach\\n\\n(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\\nand includes installing new raised medians and improvements. New raised\\nmedians are proposed east and west of PCH and Paradise Cove Road. The\\nproposed improvements also include the relocation of the existing bus stop\\nand new signage. The project will also include the installation of new raised\\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\\nof Zuma Beach, specifically where the yellow paddles are installed.\\n\\nCapital Improvement Projects (Completed)\\n\\nCivic Center Way Improvements', metadata={'chunk_index': 8, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 6742})]"
+        ],
+        "label": "",
+        "prompt": ""
+    },
+    "node_4": {
+        "node_id": 4,
+        "node_name": "generation",
+        "in_nodes": [
+            3
+        ],
+        "out_nodes": [
+            5
+        ],
+        "in_data": [
+            "[Document(page_content='Capital Improvement Projects (Completed)\\n\\nCivic Center Way Improvements\\n\\n(cid:190) Updates: The contractor has completed the planting material maintenance\\nperiod as described within the project documents. Council accepted this\\nproject as complete at the September 13th City Council Meeting.\\n\\nCivic Center Stormwater Diversion Structure\\n\\n(cid:190) Updates: The contractor has completed the storm drain improvements in the\\nCivic Center Way are. The improvements modified the existing concrete\\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\\nto the existing flap gates. The new curb prevents brackish water intrusion\\n\\nPage 4 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\ninto the City’s Civic Center Stormwater Treatment Facility. This project is\\nscheduled to be accepted by the Council at the January 24, 2022 meeting.\\n\\n2021 Annual Street Maintenance', metadata={'chunk_index': 9, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 7652}), Document(page_content='Public Works Commission\\nAgenda Report\\n\\nPublic Works\\nCommission Meeting\\n10-27-21\\nItem\\n4.A.\\n\\nTo:\\n\\nChair Simmens and Members of the Public Works Commission\\n\\nPrepared by:\\n\\nTroy Spayd, Assistant Public Works Director/City Engineer\\n\\nApproved by:\\n\\nRob DuBoux, Public Works Director/City Engineer\\n\\nDate prepared: October 21, 2021\\n\\nMeeting date: October 27, 2021\\n\\nSubject:\\n\\nCapital Improvement Projects and Disaster Recovery Projects Status\\nReport\\n\\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\\n\\nDISCUSSION: Staff will provide a status update on the following active projects in the\\nFiscal Year 2021-2022 Capital Improvement Program:\\n\\nCapital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:', metadata={'chunk_index': 0, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 0}), Document(page_content='Capital Improvement Projects (Design)\\n\\nMarie Canyon Green Streets\\n(cid:190) Updates:\\n\\n(cid:131) A hydrology report was prepared and will be used to size the pre-\\nmanufactured biofilters. City staff is reviewing multiple biofilter\\nmanufacturers for filters that will work in the proposed project area. It is\\nanticipated to have a final design by March 2022. The project will be\\nadvertised for construction bids shortly after this date.\\n\\n(cid:190) Project Schedule:\\n\\n(cid:131) Complete Design: March 2022\\n(cid:131) Begin Construction: Spring 2022\\n\\nPCH Median Improvements Project\\n\\n(cid:190) Updates:\\n\\n(cid:131) The project was approved by the Planning Commission on September\\n8, 2021. This project requires Caltrans approval since the work will be\\non Pacific Coast Highway. The project reports and plans are being\\nrouted through Caltrans for final approval. It is anticipated that the\\nproject will have final approval by March 2022. The project will be\\n\\nPage 1 of 8\\n\\nAgenda Item # 4.A.', metadata={'chunk_index': 1, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 735}), Document(page_content='(cid:190) Estimated Schedule:\\n\\n(cid:131) Begin Design: Spring 2022\\n\\nCapital Improvement Projects (Construction)\\n\\nThe City does not have projects in construction at this time.\\n\\nPage 3 of 8\\n\\nAgenda Item # 4.A.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nCapital Improvement Projects (Not Started)\\n\\nVehicle Protection Devices\\n\\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\\nvehicle impact protection devices to be installed for all parking spaces located\\nadjacent to any outdoor pedestrian seating area. There are two locations\\nwithin the City’s right-of-way and City-owned property that would require a\\nvehicle impact protection device.\\n\\nLegacy Park Paver Repair Project\\n\\n(cid:190) Project Description: This project will consist of removing and repairing a large\\nsection of pavers in Legacy Park. The pavers have become uneven and\\ndamaged in several areas\\n\\nMalibu Bluffs Park South Walkway\\n\\n(cid:190) Project Description: This project will include replacing the existing sidewalk', metadata={'chunk_index': 7, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 5851}), Document(page_content='(cid:190) Project Description: This project will include replacing the existing sidewalk\\n\\nlocated on the south side of Malibu Bluffs Park.\\n\\nTrancas Playground Resurfacing\\n\\n(cid:190) Project Description: The project will include removing and replacing the upper\\n\\nlayer of the playground surfacing at Trancas Canyon Park.\\n\\nPCH Median Improvements at Paradise Cove and Zuma Beach\\n\\n(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\\nand includes installing new raised medians and improvements. New raised\\nmedians are proposed east and west of PCH and Paradise Cove Road. The\\nproposed improvements also include the relocation of the existing bus stop\\nand new signage. The project will also include the installation of new raised\\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\\nof Zuma Beach, specifically where the yellow paddles are installed.\\n\\nCapital Improvement Projects (Completed)\\n\\nCivic Center Way Improvements', metadata={'chunk_index': 8, 'source': 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt', 'start_index': 6742})]"
+        ],
+        "out_data": [
+            "Civic Center Way Improvements and Civic Center Stormwater Diversion Structure."
+        ],
+        "label": "LLM",
+        "prompt": "content=\"You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\\nQuestion: names of mentioned capital improvement projects \\nContext: skip for short \\nAnswer:\""
+    },
+    "node_5": {
+        "node_id": 5,
+        "node_name": "answer_merging",
+        "in_nodes": [
+            4
+        ],
+        "out_nodes": [
+            6
+        ],
+        "in_data": [
+            "['Civic Center Way Improvements and Civic Center Stormwater Diversion Structure.']"
+        ],
+        "out_data": [
+            "The mentioned capital improvement projects are Civic Center Way Improvements and Civic Center Stormwater Diversion Structure."
+        ],
+        "label": "LLM",
+        "prompt": "System: You are an expert at merging sub-answers into a final answer.                 Perform query merging, given a initial question,                 a list of its sub-queries and sub-answers, merge them into a final answer.                 These sub-answers are generated correspondingly from the sub-questions that                 have been well decomposed.                 Hence you need to find an intersection between the sub-answers to generate the final answer                 for the initial question.                 If there are acronyms or words you are not familiar with, do not try to rephrase them.                Your final answer should be a well-structured and coherent response to the initial question.\nHuman: {'question': 'What are the names of mentioned capital improvement projects? Return None if no answer is found.', 'sub_query_list': ['names of mentioned capital improvement projects'], 'sub_answer': ['Civic Center Way Improvements and Civic Center Stormwater Diversion Structure.']}"
+    },
+    "node_6": {
+        "node_id": 6,
+        "node_name": "end",
+        "in_nodes": [
+            5
+        ],
+        "out_nodes": [],
+        "in_data": [
+            "The mentioned capital improvement projects are Civic Center Way Improvements and Civic Center Stormwater Diversion Structure."
+        ],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    }
+}

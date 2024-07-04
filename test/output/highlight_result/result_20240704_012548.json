@@ -1,0 +1,54 @@
+{
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "sub_query": [
+        "Does this paper involve the theory “A Model of Personal Informatics”?"
+    ],
+    "document_path": "https://zhujuneray.github.io/assets/provenance/data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf",
+    "final_answer": "Yes, this paper involves the theory \"A Model of Personal Informatics.\"",
+    "sub_answers": [
+        "Yes, this paper involves the theory \"A Model of Personal Informatics.\""
+    ],
+    "chunks": [
+        [
+            "systems:  1) \n\nthey \n\nframework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.  Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. \nWe believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently. \n\nACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment. \n\nthank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1.  Alleyne, R. \"The house that Twitters.\" Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+            "sq0t0",
+            [
+                [
+                    "We believe that the stage-based model, the identification of the barriers within each stage, and the description of the properties of the stages will help HCI researchers and practitioners find solutions and explore new approaches in personal informatics more efficiently."
+                ]
+            ]
+        ],
+        [
+            "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. \nhttp://doi.org/10.1145/2971648.2971656",
+            "sq0t1",
+            [
+                []
+            ]
+        ],
+        [
+            "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices \n\n19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life. IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152. \n\n20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses. Journal of Happiness Studies, 4, 2003, pp. \n5-34. \n\n21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, \n2009, pp. 92-95. \n\n22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30. \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            "sq0t2",
+            [
+                []
+            ]
+        ],
+        [
+            "recommendations \n\nIn  studying  how  people  use  personal  informatics  systems, \nwe  gained  an  understanding  of  their  motivations  and \npractices.  We  used  this  to  define  a  model  that  describes \npersonal  informatics  systems  as  a  series  of  5  stages.  We \ncompiled  a  comprehensive  list  of  barriers  that  people \nencountered in each stage. We also described properties of \nthe  stages:  cascading  effect  of  barriers,  iterative,  system-\ndriven  vs.  user-driven,  and  uni-faceted  vs.  multi-faceted. \nThese properties have implications in the design of personal \ninformatics \nshould  be  designed \nholistically;  2)  they  should  improve  support  for  iteration \nbetween  stages;  3)  an  appropriate  balance  of  automated \ntechnology  and  user  control  should  be  applied  within  each \nstage  to  facilitate  the  user  experience;  and  4)  they  should \nexplore  support  for  multiple  facets  of  people’s  lives  to \nenrich the value of systems.",
+            "sq0t3",
+            [
+                [
+                    "we gained an understanding of their motivations and practices. We used this to define a model that describes personal informatics systems as a series of 5 stages."
+                ]
+            ]
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA565 \n\finformation and show users multiple facets of their lives. \nThese  multiple  facets  must  be  displayed  in  ways  that \nusers can understand them and gain valuable insight into \ntheir lives. \n\nCONCLUSION \nPersonal informatics is a growing class of systems that can \nhelp  people  know  themselves  better.  More  people  are \nbuilding  such  systems  and  there  is  an  opportunity  to \nprovide  design \nfor  creating  more \neffective systems. \n\nrecommendations",
+            "sq0t4",
+            [
+                [
+                    "Personal informatics is a growing class of systems that can help people know themselves better."
+                ]
+            ]
+        ]
+    ]
+}

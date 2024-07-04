@@ -1,0 +1,210 @@
+{
+    "evidence finding model": "gpt4o",
+    "folder_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "chunk_num": 98,
+    "all splits length": [
+        243,
+        994,
+        595,
+        830,
+        1245,
+        787,
+        370,
+        966,
+        596,
+        907,
+        405,
+        751,
+        572,
+        1205,
+        465,
+        697,
+        780,
+        675,
+        991,
+        882,
+        528,
+        908,
+        852,
+        982,
+        939,
+        579,
+        543,
+        685,
+        919,
+        791,
+        547,
+        778,
+        821,
+        737,
+        419,
+        821,
+        622,
+        942,
+        683,
+        696,
+        666,
+        963,
+        102,
+        1144,
+        1092,
+        961,
+        241,
+        989,
+        608,
+        912,
+        596,
+        1072,
+        479,
+        815,
+        1052,
+        985,
+        808,
+        885,
+        665,
+        879,
+        814,
+        862,
+        673,
+        672,
+        593,
+        598,
+        1045,
+        935,
+        104,
+        1252,
+        307,
+        1154,
+        772,
+        598,
+        606,
+        974,
+        948,
+        814,
+        518,
+        590,
+        915,
+        933,
+        609,
+        673,
+        718,
+        788,
+        698,
+        956,
+        949,
+        812,
+        909,
+        996,
+        974,
+        877,
+        723,
+        968,
+        990,
+        405
+    ],
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "sub_query_list": [
+        "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)"
+    ],
+    "sub_answers": [
+        "CHI 2019"
+    ],
+    "final_answer": "CHI 2019",
+    "chunks_info": [
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933",
+            "sq0t0",
+            [
+                [
+                    "CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK."
+                ]
+            ],
+            "['CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.']",
+            true
+        ],
+        [
+            "the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data. Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.  \n\n[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. \nIn Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). \nACM. \n\n[17]   Julie A. Couture and Luc Valiquette. 2000. Urinary Incontinence. The \n\nAnnals of Pharmacotherapy.",
+            "sq0t1",
+            [
+                [
+                    "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK"
+                ]
+            ],
+            "['CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK']",
+            true
+        ],
+        [
+            "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 5 \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n\fwork,  we  implemented  the  concept  of  doing  quick  PFM \ncontractions as a distraction. \n\nFigure 5: The two  games  proposed  in the  application:  2048 \n(left) and Tetris (right). \n\nMap:  The  map  feature  is  a  customized  version  of  the \nGoogle  Maps  application  [24]  that  includes  only  the \nlocations  mentioned  by  UPs  during  the  interviews  (e.g., \nrestaurants,  bars)  which  might  have  toilets.  The  function \nalso provides directions together with duration to reach the \ndestination.",
+            "sq0t2",
+            [
+                [
+                    "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK"
+                ]
+            ],
+            "['CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK']",
+            true
+        ],
+        [
+            "[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \nAffective Range of Feedback. In Proc. CHI’17. \n\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+            "sq0t3",
+            [
+                [
+                    "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK"
+                ]
+            ],
+            "['CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK']",
+            true
+        ],
+        [
+            "49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers. 2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172.  \nhttp://doi.org/10.1145/2556288.2557039 \n\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \n\nand Paul Resnick. 2010. Happier Together: Integrating a \nWellness Application into a Social Network Site. In \nInternational Conference on Persuasive Technology \n(PERSUASIVE 2010): 27–39. \nhttp://doi.org/10.1007/978-3-642-13226-1_5 \n\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \nFood Photography II: Use of Food Photographs for \nEstimating Portion Size and the Nutrient Content of \nMeals. The British Journal of Nutrition 76, 1: 31–49. \nhttp://doi.org/10.1079/BJN19960007",
+            "sq0t4",
+            [
+                []
+            ],
+            "None",
+            false
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 3,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 1830
+            },
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933"
+        ],
+        [
+            {
+                "chunk_index": 85,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 63892
+            },
+            "the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data. Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.  \n\n[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. \nIn Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). \nACM. \n\n[17]   Julie A. Couture and Luc Valiquette. 2000. Urinary Incontinence. The \n\nAnnals of Pharmacotherapy."
+        ],
+        [
+            {
+                "chunk_index": 36,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 26641
+            },
+            "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 5 \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n\fwork,  we  implemented  the  concept  of  doing  quick  PFM \ncontractions as a distraction. \n\nFigure 5: The two  games  proposed  in the  application:  2048 \n(left) and Tetris (right). \n\nMap:  The  map  feature  is  a  customized  version  of  the \nGoogle  Maps  application  [24]  that  includes  only  the \nlocations  mentioned  by  UPs  during  the  interviews  (e.g., \nrestaurants,  bars)  which  might  have  toilets.  The  function \nalso provides directions together with duration to reach the \ndestination."
+        ],
+        [
+            {
+                "chunk_index": 97,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 74434
+            },
+            "[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95. \n[62]  Graham  Wilson  and  Stephen  A.  Brewster.  2017.  Multi-Moji: \nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \nAffective Range of Feedback. In Proc. CHI’17. \n\n[63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14"
+        ],
+        [
+            {
+                "chunk_index": 100,
+                "source": "data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt",
+                "start_index": 78927
+            },
+            "49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers. 2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172.  \nhttp://doi.org/10.1145/2556288.2557039 \n\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \n\nand Paul Resnick. 2010. Happier Together: Integrating a \nWellness Application into a Social Network Site. In \nInternational Conference on Persuasive Technology \n(PERSUASIVE 2010): 27–39. \nhttp://doi.org/10.1007/978-3-642-13226-1_5 \n\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \nFood Photography II: Use of Food Photographs for \nEstimating Portion Size and the Nutrient Content of \nMeals. The British Journal of Nutrition 76, 1: 31–49. \nhttp://doi.org/10.1079/BJN19960007"
+        ]
+    ]
+}

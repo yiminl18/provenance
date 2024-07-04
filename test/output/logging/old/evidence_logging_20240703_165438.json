@@ -1,0 +1,142 @@
+{
+    "evidence finding model": "gpt35",
+    "folder_path": "data/civic/raw_data/malibucity_agenda__03242021-1665.pdf",
+    "chunk_num": 12,
+    "all splits length": [
+        927,
+        910,
+        960,
+        953,
+        989,
+        973,
+        962,
+        948,
+        945,
+        871,
+        992,
+        102
+    ],
+    "question": "What are the names of disaster projects starting later than 2022? Return None if no answer is found.",
+    "sub_query_list": [
+        "disaster projects starting later than 2022",
+        "Return None if no answer is found"
+    ],
+    "sub_answers": [
+        "I don't know.",
+        "None"
+    ],
+    "final_answer": "The names of disaster projects starting later than 2022 are not available. Therefore, the answer to the question \"What are the names of disaster projects starting later than 2022?\" is that there is no information or the answer is unknown.",
+    "chunks_info": [
+        [
+            "(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project is funded through a grant from FEMA after\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\nculverts, debris basins, manholes, and other drainage structures within the\nCity.\n\n(cid:190) Updates: Council approved an agreement in December for design services.\n\nA kick-off meeting was held in late December.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022",
+            "sq0t0",
+            [
+                []
+            ],
+            "None.",
+            false
+        ],
+        [
+            "Westward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            "sq0t1sq1t4",
+            [
+                [
+                    "It is anticipated that the final design will be complete by July 2022.",
+                    "The project will be advertised for construction bids with construction beginning in Fall 2022."
+                ],
+                []
+            ],
+            "['It is anticipated that the final design will be complete by July 2022.', 'The project will be advertised for construction bids with construction beginning in Fall 2022.']",
+            true
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+            "sq0t2sq1t0",
+            [
+                [],
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) The project design has begun and preliminary design should be\n\ncompleted by Spring 2022.\n\n(cid:190) Estimated Schedule: TBD\n\nMalibu Road Slope Repairs (CalOES Project)\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.\n\n(cid:190) Updates:\n\n(cid:131) The design has started and is anticipated to be completed by the Spring\n\nof 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:",
+            "sq0t3",
+            [
+                []
+            ],
+            "None.",
+            false
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            "sq0t4sq1t1",
+            [
+                [],
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "Outdoor Warningn Sirens - Design (FEMA Project)\n\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:",
+            "sq1t2",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire. The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations. Staff\nis working on an RFQ to hire a consultant for the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)",
+            "sq1t3",
+            [
+                []
+            ],
+            "None",
+            false
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 11,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 9987
+            },
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+        ],
+        [
+            {
+                "chunk_index": 18,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 14874
+            },
+            "(cid:190) Upates:\n\n(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021."
+        ],
+        [
+            {
+                "chunk_index": 17,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 13980
+            },
+            "Outdoor Warningn Sirens - Design (FEMA Project)\n\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:"
+        ],
+        [
+            {
+                "chunk_index": 8,
+                "source": "data/civic/extracted_data/malibucity_agenda__03242021-1665.txt",
+                "start_index": 7284
+            },
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire. The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations. Staff\nis working on an RFQ to hire a consultant for the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)"
+        ],
+        [
+            {
+                "chunk_index": 16,
+                "source": "data/civic/extracted_data/malibucity_agenda__03232022-1869.txt",
+                "start_index": 13576
+            },
+            "Westward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)"
+        ]
+    ]
+}

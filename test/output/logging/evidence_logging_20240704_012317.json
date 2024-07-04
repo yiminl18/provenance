@@ -1,0 +1,202 @@
+{
+    "evidence finding model": "gpt4o",
+    "folder_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "chunk_num": 98,
+    "all splits length": [
+        243,
+        994,
+        595,
+        830,
+        1245,
+        787,
+        370,
+        966,
+        596,
+        907,
+        405,
+        751,
+        572,
+        1205,
+        465,
+        697,
+        780,
+        675,
+        991,
+        882,
+        528,
+        908,
+        852,
+        982,
+        939,
+        579,
+        543,
+        685,
+        919,
+        791,
+        547,
+        778,
+        821,
+        737,
+        419,
+        821,
+        622,
+        942,
+        683,
+        696,
+        666,
+        963,
+        102,
+        1144,
+        1092,
+        961,
+        241,
+        989,
+        608,
+        912,
+        596,
+        1072,
+        479,
+        815,
+        1052,
+        985,
+        808,
+        885,
+        665,
+        879,
+        814,
+        862,
+        673,
+        672,
+        593,
+        598,
+        1045,
+        935,
+        104,
+        1252,
+        307,
+        1154,
+        772,
+        598,
+        606,
+        974,
+        948,
+        814,
+        518,
+        590,
+        915,
+        933,
+        609,
+        673,
+        718,
+        788,
+        698,
+        956,
+        949,
+        812,
+        909,
+        996,
+        974,
+        877,
+        723,
+        968,
+        990,
+        405
+    ],
+    "question": "How many authors are there for this paper?",
+    "sub_query_list": [
+        "How many authors are there for this paper?"
+    ],
+    "sub_answers": [
+        "None."
+    ],
+    "final_answer": "None.",
+    "chunks_info": [
+        [
+            "3.1  Medical Participants \n\n3.1.1 Methodology. We  started  with  MPs  interviews  as  we \nwished  to  understand  whether  they  agreed  with  the \nconcepts  derived  from  the  literature  and  whether  they \nwould  suggest  additional  ones.  We  interviewed  four  MPs: \ntwo  medical  consultants \ntwo  urinary \ncontinence specialist nurses (MP3-4). Three interviews were \nconducted  via  telephone  and  one  face-to-face  (MP2).  Each \ninterview lasted one hour and was divided into three phases \n(Table 1). \n\n(MP1-2)  and",
+            "sq0t0",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "8  CONCLUSION \nThis paper  presents  an  exploratory study  in  which  we  co-\ndesigned  and  then  evaluated  with  people  with  OAB  and \nhealth professionals an OAB mHealth app. We commenced \nwith an  OAB and  mHealth  app literature review and  used \nthis as the basis for our requirements gathering interviews. \nBased on the data collected we designed the first prototype \nand validated it again with the same stakeholder categories. \nGiven  the  second  round  of  feedback,  we  improved  the \ndesign of the app and evaluated it in a field study for nine \ndays with people with OAB.",
+            "sq0t1",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "http://blog.instagram.com/post/154506585127/161215-\n600million \n\n48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette. An Online Community Improves \nAdherence in an Internet-Mediated Walking Program. \nPart 1: Results of a Randomized Controlled Trial. \nJournal of Medical Internet Research 12, 4: e41. \nhttp://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.  \nhttp://doi.org/10.1145/2702123.2702524",
+            "sq0t2",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "3.2  User Participants \n\n3.2.1 Methodology.  During  our  MPs  interviews,  we  asked \nabout how we should approach our co-design with UPs. We \nwere advised to use single or same gender paired interviews \nand  not  to  use  any  group-based  techniques  (e.g.,  focus \ngroup, design  workshops). We interviewed nine UPs  -  two \nmales and seven females (UP1-9) since the OAB prevalence \nis  higher  in  women  [17].  UPs’  age  range  was  23-80,  mean \nage  51.  Their  symptoms  varied  from  mild  (voiding \njust  outside  the  normal  parameters,  mild \nfrequency \nurgency,  and  no  leakages)  to  severe  (increased  number  of \nvoids,  high  urgency,  and  leakages).  Most  UPs  (8/9)  were \nconfident in using a smartphone. Each interview lasted two \nhours and was divided into three parts (Table 2). UPs were \nrecruited via newsletter and research contacts. \n\nTable 2. User Participants – Interview Structure. \n\nPhase \n\nContent \n\nPhase 1 Experiences  Open-ended questions.",
+            "sq0t3",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 7 \n \n \n \n \n\f5  STUDY 3 – SHORT FIELD STUDY \nKjeldskov  and  Skov  [47]  and  Baillie  and  Schatz  [6] \nunderline  the  importance  of  conducting  short  in  situ \nevaluations  as  lab-based  ones  could  leave  usability  or  UX \nissues  unrevealed. We, therefore, evaluated the  app  during \na  short  field  study  with  UPs.  When  evaluating  an  app  for \nolder  adults  with  age-related  macular  degeneration, \nHakobyan  et  al.  [26]  conducted  a  preliminary  7  days \nevaluation  study  before  carrying  on  with  a  6  weeks \nlongitudinal  field  one.  Previous  sensor  research  [34,  39] \nfound  differences  between  weekdays  and  weekends  and \nrecommend undertaking a study which lasts at least a week \n(best  9-11  days)  and  collects  both  weekday  and  weekend \ndata. Given this, we ran the study for 9 days.",
+            "sq0t4",
+            [
+                []
+            ],
+            "None",
+            false
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 20,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 14940
+            },
+            "3.1  Medical Participants \n\n3.1.1 Methodology. We  started  with  MPs  interviews  as  we \nwished  to  understand  whether  they  agreed  with  the \nconcepts  derived  from  the  literature  and  whether  they \nwould  suggest  additional  ones.  We  interviewed  four  MPs: \ntwo  medical  consultants \ntwo  urinary \ncontinence specialist nurses (MP3-4). Three interviews were \nconducted  via  telephone  and  one  face-to-face  (MP2).  Each \ninterview lasted one hour and was divided into three phases \n(Table 1). \n\n(MP1-2)  and"
+        ],
+        [
+            {
+                "chunk_index": 79,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 59542
+            },
+            "8  CONCLUSION \nThis paper  presents  an  exploratory study  in  which  we  co-\ndesigned  and  then  evaluated  with  people  with  OAB  and \nhealth professionals an OAB mHealth app. We commenced \nwith an  OAB and  mHealth  app literature review and  used \nthis as the basis for our requirements gathering interviews. \nBased on the data collected we designed the first prototype \nand validated it again with the same stakeholder categories. \nGiven  the  second  round  of  feedback,  we  improved  the \ndesign of the app and evaluated it in a field study for nine \ndays with people with OAB."
+        ],
+        [
+            {
+                "chunk_index": 99,
+                "source": "data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt",
+                "start_index": 78146
+            },
+            "http://blog.instagram.com/post/154506585127/161215-\n600million \n\n48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette. An Online Community Improves \nAdherence in an Internet-Mediated Walking Program. \nPart 1: Results of a Randomized Controlled Trial. \nJournal of Medical Internet Research 12, 4: e41. \nhttp://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.  \nhttp://doi.org/10.1145/2702123.2702524"
+        ],
+        [
+            {
+                "chunk_index": 23,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 17198
+            },
+            "3.2  User Participants \n\n3.2.1 Methodology.  During  our  MPs  interviews,  we  asked \nabout how we should approach our co-design with UPs. We \nwere advised to use single or same gender paired interviews \nand  not  to  use  any  group-based  techniques  (e.g.,  focus \ngroup, design  workshops). We interviewed nine UPs  -  two \nmales and seven females (UP1-9) since the OAB prevalence \nis  higher  in  women  [17].  UPs’  age  range  was  23-80,  mean \nage  51.  Their  symptoms  varied  from  mild  (voiding \njust  outside  the  normal  parameters,  mild \nfrequency \nurgency,  and  no  leakages)  to  severe  (increased  number  of \nvoids,  high  urgency,  and  leakages).  Most  UPs  (8/9)  were \nconfident in using a smartphone. Each interview lasted two \nhours and was divided into three parts (Table 2). UPs were \nrecruited via newsletter and research contacts. \n\nTable 2. User Participants – Interview Structure. \n\nPhase \n\nContent \n\nPhase 1 Experiences  Open-ended questions."
+        ],
+        [
+            {
+                "chunk_index": 49,
+                "source": "data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt",
+                "start_index": 36361
+            },
+            "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 7 \n \n \n \n \n\f5  STUDY 3 – SHORT FIELD STUDY \nKjeldskov  and  Skov  [47]  and  Baillie  and  Schatz  [6] \nunderline  the  importance  of  conducting  short  in  situ \nevaluations  as  lab-based  ones  could  leave  usability  or  UX \nissues  unrevealed. We, therefore, evaluated the  app  during \na  short  field  study  with  UPs.  When  evaluating  an  app  for \nolder  adults  with  age-related  macular  degeneration, \nHakobyan  et  al.  [26]  conducted  a  preliminary  7  days \nevaluation  study  before  carrying  on  with  a  6  weeks \nlongitudinal  field  one.  Previous  sensor  research  [34,  39] \nfound  differences  between  weekdays  and  weekends  and \nrecommend undertaking a study which lasts at least a week \n(best  9-11  days)  and  collects  both  weekday  and  weekend \ndata. Given this, we ran the study for 9 days."
+        ]
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "evidence finding model": "gpt35",
+    "folder_path": "data/paper/raw_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.pdf",
+    "chunk_num": 74,
+    "all splits length": [
+        352,
+        973,
+        846,
+        831,
+        879,
+        465,
+        717,
+        487,
+        735,
+        1254,
+        942,
+        998,
+        699,
+        1041,
+        593,
+        1200,
+        342,
+        724,
+        851,
+        626,
+        951,
+        764,
+        1113,
+        906,
+        605,
+        930,
+        791,
+        587,
+        445,
+        984,
+        761,
+        440,
+        611,
+        770,
+        774,
+        809,
+        245,
+        810,
+        983,
+        611,
+        900,
+        386,
+        910,
+        555,
+        736,
+        820,
+        425,
+        1607,
+        922,
+        733,
+        1283,
+        599,
+        762,
+        698,
+        434,
+        990,
+        924,
+        878,
+        965,
+        946,
+        891,
+        901,
+        934,
+        913,
+        979,
+        987,
+        843,
+        913,
+        905,
+        934,
+        977,
+        925,
+        965,
+        231
+    ],
+    "question": "How many authors are there for this paper?",
+    "sub_query_list": [
+        "How many authors are there for this paper?"
+    ],
+    "sub_answers": [
+        "Multiple"
+    ],
+    "final_answer": "Multiple",
+    "chunks_info": [
+        [
+            "\n\nRESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013. The average publication year was\n2010 and the median 2011. A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16). The later include\na mix of workshop descriptions, works in progress, posters,\netc. The next largest contingent appears in the Creativity &\nCognition  conference  (8).  The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues.\nThe  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            "sq0t0",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "users, designers, students, the elderly)?\nIs  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?\nIf  the  paper  describes  an  interactive  system,  what\n\n4.\n\n5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?\n\n6. What are the stated benefits of reflection?\n\nThese questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.  Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions? After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors. Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.  The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+            "sq0t1",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].\nCombining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers. These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance. The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem. These memos, and the themes they describe, form the\nbasis for the following sections.",
+            "sq0t2",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "This  initial  search  generated  100  results.  Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.  We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces. We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting. This process resulted in\n76 papers being included in our review.\n\nReading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.\n\n1. What definition of reflection does the paper offer?\n2. To what application domain does the paper pertain?\n3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+            "sq0t3",
+            [
+                []
+            ],
+            "None",
+            false
+        ],
+        [
+            "This  paper  reviews  literature  in  the  emerging  area  of\ndesigning for reflection. First we describe the process of our\nliterature review, resembling in many ways that of [21]. The\nsubsequent  section  presents  a  number  of  trends,  patterns,\nand  themes  we  identified  in  our  analysis,  followed  by  an\ninterpretation  of  these  findings  and  their  implications,  as\nwell  as  suggested  directions  for  future  work  on  designing\nfor reflection.",
+            "sq0t4",
+            [
+                []
+            ],
+            "None",
+            false
+        ]
+    ],
+    "retrieved_docs": [
+        [
+            {
+                "chunk_index": 13,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 10081
+            },
+            "\n\nRESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013. The average publication year was\n2010 and the median 2011. A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16). The later include\na mix of workshop descriptions, works in progress, posters,\netc. The next largest contingent appears in the Creativity &\nCognition  conference  (8).  The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues.\nThe  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others."
+        ],
+        [
+            {
+                "chunk_index": 11,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 8382
+            },
+            "users, designers, students, the elderly)?\nIs  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?\nIf  the  paper  describes  an  interactive  system,  what\n\n4.\n\n5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?\n\n6. What are the stated benefits of reflection?\n\nThese questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.  Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions? After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors. Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.  The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions."
+        ],
+        [
+            {
+                "chunk_index": 12,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 9382
+            },
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].\nCombining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers. These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance. The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem. These memos, and the themes they describe, form the\nbasis for the following sections."
+        ],
+        [
+            {
+                "chunk_index": 10,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 7438
+            },
+            "This  initial  search  generated  100  results.  Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.  We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces. We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting. This process resulted in\n76 papers being included in our review.\n\nReading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.\n\n1. What definition of reflection does the paper offer?\n2. To what application domain does the paper pertain?\n3. Who  are  the  people  doing  the  reflecting  (e.g.,  system"
+        ],
+        [
+            {
+                "chunk_index": 5,
+                "source": "data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt",
+                "start_index": 3772
+            },
+            "This  paper  reviews  literature  in  the  emerging  area  of\ndesigning for reflection. First we describe the process of our\nliterature review, resembling in many ways that of [21]. The\nsubsequent  section  presents  a  number  of  trends,  patterns,\nand  themes  we  identified  in  our  analysis,  followed  by  an\ninterpretation  of  these  findings  and  their  implications,  as\nwell  as  suggested  directions  for  future  work  on  designing\nfor reflection."
+        ]
+    ]
+}
