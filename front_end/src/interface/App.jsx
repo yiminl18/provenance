@@ -54,6 +54,10 @@ const createEdges = (data) => {
 
 const App = () => {
   const [selectedNode, setSelectedNode] = useState("");
+
+  var combinedStringOutout = "";
+  var combinedStringIndex = "";
+
   useEffect(() => {
     if (rerender == true){
       console.log("began fetching for json data")
@@ -106,49 +110,68 @@ const App = () => {
 
   return (
     <div id="webPage">
-
       <h1 id="webPageTitle">Node Interface</h1>
       
       <div id="theGraph">
-
         <Graph graph={graph} options={options} events={events} style={{ height: "100%" }}/>
-
       </div>
+  
       <section id="NodeInfoSection">
-        
         <section id="NodeNameandPrompt">
           <div id="ClickedNodeTitle"><b>Selected Node: </b>{selectedNode.name}</div>
           <div id="ClickedNodePrompt"><b>Prompt: </b> {selectedNode.prompt !== "" ? selectedNode.prompt : "There is no prompt"}</div>
         </section>
+  
+        <section id="InComingDataContainer">
+          <section id="InComingDateTitleandLink">
+            <div id="InComingDateTitle"><b>In-Coming Data:</b></div>
+            <div className="outerLinkTextandLink">
+              Orginal Source:
+              <a href="https://google.com" class="button" className="outerLink"></a>
+            </div>
 
-        <section id ="InComingDataContainer">
-          <div id="InComingDateTitle"><b>In-Coming Data:</b></div>
-
+          </section>
           <section id="InComingDataBoxes">
-          {selectedNode.inData && selectedNode.inData.map((data, index) => (
-              <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
+            {selectedNode.inData && selectedNode.inData.map((data, index) => (
+              <div key={index} className="dataBox">From {getNodeNameById(selectedNode.inNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}/>
+              </div>
             ))}
           </section>
         </section>
-
-          {/* <div id="OutGoingDataContainer"><b>Out-Going Data:</b>  
-          {selectedNode.outData && selectedNode.outData.map((data, index) => (
-              <div key={index} className="dataBox">From {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
-            ))}</div> */}
-
+  
         <section id="OutGoingDataContainer">
-          <div id="OutGoingDataTitle"><b>Out-Going Data:</b></div>
+        <section id="OutGoinggDateTitleandLink">
+            <div id="OutGoingDataTitle"><b>Out-Going Data:</b></div>
+            <div className="outerLinkTextandLink">
+                Orginal Source:
+                <a href="http://localhost:3000/react-pdf-highlighter/" class="button" className="outerLink"></a>
+              </div>
+        </section>
           <section id="OutGoingDataBoxes">
-          {selectedNode.outData && selectedNode.outData.map((data, index) => (
-              <div key={index} className="dataBox">To {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}></FormattedContent></div>
+            {selectedNode.outData && typeof selectedNode.outData[0] === "string" && selectedNode.outData.map((data, index) => (
+              <div key={index} className="dataBox">To {getNodeNameById(selectedNode.outNodes[index])}: <FormattedContent content={selectedNode.formatDataWithNewlines(data)}/>
+              </div>
             ))}
-           </section>
-          </section>
-            
-      </section>
+  
+            {selectedNode.outData && Array.isArray(selectedNode.outData[0]) &&
+              selectedNode.outData.map((nestedList, nestedIndex) =>
+                nestedList.map((element, index) => {
+                  if (index === 0) {
+                    combinedStringOutout += selectedNode.formatDataWithNewlines(element);
+                    combinedStringIndex = getNodeNameById(selectedNode.outNodes[index]);
+                  }
+                  return null; 
+                })
+              )
+            }
 
-      {/* </section> */}
-      
+            {combinedStringIndex != "" && <div className="dataBox">To {combinedStringIndex}: <FormattedContent content ={combinedStringOutout}/>
+            <div id="outerLink"></div>
+            </div>
+            }
+          </section>
+        </section>
+      </section>
     </div>
   );
 
@@ -160,4 +183,3 @@ ReactDOM.render(
 );
 
 export default App;
-
