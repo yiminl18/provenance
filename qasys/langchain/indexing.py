@@ -129,7 +129,7 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
     from langchain_text_splitters import RecursiveCharacterTextSplitter
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index, separators=["\n\n"]
+        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index, separators=["\n\n", ".\n", ". "]
     )
     all_splits = text_splitter.split_documents(docs)
 
@@ -149,7 +149,7 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
 
     all_splits_len = [len(split.page_content) for split in all_splits]
     logging.info(f"all splits length: {all_splits_len}")
-    # logging.info(all_splits)
+    logging.info(all_splits)
 
     return all_splits
 
@@ -194,9 +194,10 @@ def store_splits(all_splits):
     
     # Create vectorstore
     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))])
-    embedding_vectors = vectorstore._collection.get(include=['embeddings']).get('embeddings')
-    if len(embedding_vectors) != len(set(tuple(embed) for embed in embedding_vectors)):
-        raise ValueError("Repeated embedding found in dataset")
+    # embedding_vectors = vectorstore._collection.get(include=['embeddings']).get('embeddings')
+    # Check for repeated embeddings
+    # if len(embedding_vectors) != len(set(tuple(embed) for embed in embedding_vectors)):
+    #     raise ValueError("Repeated embedding found in dataset")
     return vectorstore
 
 
@@ -206,5 +207,5 @@ def store_splits(all_splits):
 # print(len(load_local_pdf_as_one_page('data/civic/raw_data/malibucity_agenda__01272021-1626.pdf')))
 # print(len(load_local_pdf('data/civic/raw_data/malibucity_agenda__01272021-1626.pdf')))
 # print(len(load_local_txt('data/civic/txt_data/malibucity_agenda__01272021-1626.txt')))
-for doc in load_local_pdf('data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf'):
-    print(doc)
+# for doc in load_local_pdf('data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf'):
+#     print(doc)

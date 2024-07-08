@@ -1,13 +1,13 @@
 
 
 #this is the models API. You pass the model (name of the model) and prompt, the API will return the response out 
-def model(model_name, prompt):
+def model(model_name, prompt, json_mode=False):
     if(model_name == 'bert'):
         from models.bert_model import bert
         return bert(prompt)
     if(model_name == 'gpt35'):
         from models.gpt_35 import gpt_35
-        return gpt_35(prompt)
+        return gpt_35(prompt, json_mode=json_mode)
     if(model_name == 'gpt35_azure'):
         from models.gpt_35_azure import gpt_35_azure
         return gpt_35_azure(prompt)
@@ -19,7 +19,7 @@ def model(model_name, prompt):
         return gpt_4(prompt)
     if(model_name == 'gpt4o'):
         from models.gpt_4o import gpt_4o
-        return gpt_4o(prompt)
+        return gpt_4o(prompt, json_mode=json_mode)
     if(model_name == 'flant5small'):
         from models.flan_t5_small_model import flant5small
         return flant5small(prompt)

@@ -1,0 +1,61 @@
+{
+    "question_0": {
+        "question": "How many authors are there for this paper?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "authors",
+                "attributes": {
+                    "number": "many"
+                }
+            },
+            "entity2": {
+                "entity_name": "paper",
+                "attributes": {}
+            }
+        }
+    },
+    "question_1": {
+        "question": "What is the publication year of this paper?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "publication year": ""
+                }
+            }
+        }
+    },
+    "question_2": {
+        "question": "What are the names of authors whose institutions are in the US?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "authors",
+                "attributes": {
+                    "institution": "in the US"
+                }
+            }
+        }
+    },
+    "question_3": {
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "publication_venue": ""
+                }
+            }
+        }
+    },
+    "question_4": {
+        "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "title": "A Model of Personal Informatics"
+                }
+            }
+        }
+    }
+}

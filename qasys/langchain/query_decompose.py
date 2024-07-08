@@ -1,6 +1,7 @@
 import getpass
 import os
 import json
+from model import model
 
 def read_questions(file_path):
 
@@ -77,56 +78,79 @@ def write_json(data, file_path):
     with open(file_path, 'w') as file:
         json.dump(data, file)
 
-def sample_questions():
-    q = []
-    q.append('What is the number of disaster projects starting later than 2021?') # Civic
-    q.append('What are the titles for papers whose topic is related to AI and publication year is later than 2018?') # Paper
 
-    return q 
+# if __name__ == "__main__":
 
-def civic_questions():
-    q = []
-    q.append('What is the number of disaster projects starting later than 2021?') # Civic
-    # q.append('There exists at least two projects that are related to disaster and have a start date later than 2021. Please give me the name of these two projects') # Civic
-    # q.append("What are the names of projects that are related to disaster and have a start date later than 2021? Only list the names of these projects") # Civic
-    # q.append("What is the name of the project in design that has the earliest construction start date?")
-    # q.append("How many project under construction are being discussed in the document?")
-    # q.append("What is the number of vehicle related projects?")
-
-
-    return q
-
-def paper_questions():
-    q = []
-    # q.append('What are the titles for papers whose topic is related to AI and publication year is later than 2018?') # Paper
-    # q.append('What statistical methods are used when processing data from user studies?')
-    # q.append('How many statistical methods are used when processing data from user studies?')
-    # q.append('How many user studies are taken in the paper?')
-    # q.append("What is the publication year of this paper?")
-    # q.append("How many authors are there in this paper?")
-    # q.append("What are the emails of the authors that are not Gmail and end with 'edu'?")
-    q.append('How many authors are there for this paper?')
-
-    return q
-
-if __name__ == "__main__":
-
-    #q, sql = read_questions('/Users/yiminglin/Documents/Codebase/provenance/data/questions/q_text_sql.json')
-    q = sample_questions()
-    output = []
-    for i in range(len(q)):
-        result = {}
-        question = q[i]
-        #SQL = sql[i]
-        print(i)
-        #print(question)
-        subq = query_decomposition(question)
-        result['question'] = question
-        result['subquestions'] = subq
-        output.append(result)
-        #print(SQL)
-        if(i>=5):
-            break
+#     #q, sql = read_questions('/Users/yiminglin/Documents/Codebase/provenance/data/questions/q_text_sql.json')
+#     q = sample_questions()
+#     output = []
+#     for i in range(len(q)):
+#         result = {}
+#         question = q[i]
+#         #SQL = sql[i]
+#         print(i)
+#         #print(question)
+#         subq = query_decomposition(question)
+#         result['question'] = question
+#         result['subquestions'] = subq
+#         output.append(result)
+#         #print(SQL)
+#         if(i>=5):
+#             break
     
-    write_json(output, 'data/questions/sample_output.json')
+#     write_json(output, 'data/questions/sample_output.json')
     
+
+def query_exractor(question: str, model_name = 'gpt35') -> dict:
+    text = f"Q: {question}"
+    instruction = """Can you extract the entities, their attriubtes and attribute values from sentence Q?
+    Return the answer in JSON format as shown below:
+    {
+        "entity1": {
+            "entity_name": "entity1's name",
+            "attributes": {
+                "attribute1": "value1",
+                "attribute2": "value2"
+            }
+        },
+        "entity2": {
+            "entity_name": "entity2's name",
+            "attributes": {
+                "attribute1": "value1",
+                "attribute2": "value2"
+            }
+        }
+    }.
+    If there are no constraints on attributes, return an empty string for the attribute value."""
+
+    prompt = (instruction,text)
+    response = model(model_name,prompt, json_mode=True)
+    # print(type(response))
+    return json.loads(response)
+
+def answer_exractor(question: str, model_name = 'gpt35') -> dict:
+    text = f"Q: {question}"
+    instruction = """Can you extract the entities, their attriubtes and attribute values from sentence Q?
+    Return the answer in JSON format as shown below:
+    {
+        "entity1": {
+            "entity_name": "entity1's name",
+            "attributes": {
+                "attribute1": "value1",
+                "attribute2": "value2"
+            }
+        },
+        "entity2": {
+            "entity_name": "entity2's name",
+            "attributes": {
+                "attribute1": "value1",
+                "attribute2": "value2"
+            }
+        }
+    }.
+    If there are no constraints on attributes, return an empty string for the attribute value."""
+
+    prompt = (instruction,text)
+    response = model(model_name,prompt, json_mode=True)
+    # print(type(response))
+    return json.loads(response)

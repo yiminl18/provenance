@@ -1,0 +1,22 @@
+{
+    "model name": "gpt35",
+    "baseline type": 0,
+    "document path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+    "question": "How many authors are there for this paper?",
+    "raw provenance": [
+        [
+            "5.  Eric PS Baumer, Sherri J Katz, Jill E Freeman, Phil \n\nAdams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay. \n2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health. \nProceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.  \nhttp://doi.org/10.1145/2145204.2145279 \n\n6.  G Bird and P C Elwood. 1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record. Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.  Stevie Chancellor, Zhiyuan Lin, Erica L Goodman,",
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37–41. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "23. Andrea Grimes, Martin Bednar, Jay D Bolter, and \n\nRebecca E Grinter. 2008. EatWell: Sharing Nutrition-\nrelated Memories in a Low-income Community. \nProceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2008): 87–96. \nhttp://doi.org/10.1145/1460563.1460579 \n\n24. Andrea Grimes and Richard Harper. 2008. Celebratory \n\nTechnology : New Directions for Food Research in HCI. \nProceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2008): 467–476. \nhttp://doi.org/10.1145/1357054.1357130 \n\n25. Andrea Grimes, Desney Tan, and Dan Morris. 2009. Toward \nTechnologies that Support Family Reflections on Health. \nProceedings of the ACM 2009 International Conference on \nSupporting Group Work (Group 2009): 311–320.  \nhttps://doi.org/10.1145/1531674.1531721",
+            "at \n\ntwo \n\npersonal \n\ninformatics  web \n\nforums \nsites \n(http://slifelabs.com  and  http://moodjam.org).  We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems. Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.  We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses.  Interviewees \nreceived an additional $10 Amazon gift certificate."
+        ]
+    ],
+    "evidence": [
+        "Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James Fogarty.",
+        "Andrea Grimes, Martin Bednar, Jay D Bolter, and Rebecca E Grinter.",
+        "Eric PS Baumer, Sherri J Katz, Jill E Freeman, Phil Adams, Amy L Gonzales, John Pollak, Daniela Retelny, Jeff Niederdeppe, Christine M Olson, and Geri K Gay."
+    ],
+    "raw answer": "One",
+    "evidence answer": "4, 4, 10"
+}

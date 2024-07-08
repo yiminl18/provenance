@@ -1,0 +1,27 @@
+{
+    "model name": "gpt4o",
+    "baseline type": 1,
+    "document path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "raw provenance": [
+        [
+            "49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers. 2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172.  \nhttp://doi.org/10.1145/2556288.2557039 \n\n41. Sean A Munson, Debra Lauterbach, Mark W Newman, \n\nand Paul Resnick. 2010. Happier Together: Integrating a \nWellness Application into a Social Network Site. In \nInternational Conference on Persuasive Technology \n(PERSUASIVE 2010): 27–39. \nhttp://doi.org/10.1007/978-3-642-13226-1_5 \n\n42. Michael Nelson, M Atkinson, and S Darbyshire. 1996. \nFood Photography II: Use of Food Photographs for \nEstimating Portion Size and the Nutrient Content of \nMeals. The British Journal of Nutrition 76, 1: 31–49. \nhttp://doi.org/10.1079/BJN19960007",
+            "the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data. Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.  \n\n[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. \nIn Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). \nACM. \n\n[17]   Julie A. Couture and Luc Valiquette. 2000. Urinary Incontinence. The \n\nAnnals of Pharmacotherapy.",
+            "51. Edison Thomaz, Aman Parnami, Irfan Essa, and Gregory D \nAbowd. 2013. Feasibility of Identifying Eating Moments \nfrom First-Person Images Leveraging Human Computation. \nProceedings of the 4th International SenseCam & Pervasive \nImaging Conference: 26–33. \nhttp://doi.org/10.1145/2526667.2526672 \n\n52. Tammy Toscos, Anne Faber, Shunying An, and Mona \n\nPraful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12. \nhttp://doi.org/10.2196/jmir.1549",
+            "43. Mark W Newman, Debra Lauterbach, Sean A Munson, \nPaul Resnick, and Margaret E Morris. 2011. “It’s not \nthat I don’t have problems , I’m just not putting them on \nFacebook”: Challenges and Opportunities in Using \nOnline Social Networks for Health. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork (CSCW 2011): 341–350. \nhttp://doi.org/10.1145/1958824.1958876 \n\n44. Andrea Grimes Parker. 2014. Reflection-Through-\n\nPerformance: Personal Implications of Documenting \nHealth Behaviors for the Collective. Personal and \nUbiquitous Computing 18, 7: 1737–1752. \nhttp://doi.org/10.1007/s00779-014-0780-5 \n\n50. Chris Schaefbauer, Danish Kahn, Amy Le, Garrett \nSczechowski, and Katie Siek. 2015. Snack Buddy: \nSupporting Healthy Snacking in Low Socioeconomic \nStatus Families. Proceedings of the ACM Conference on \nComputer Supported Cooperative Work & Social \nComputing (CSCW 2015): 1045–1057. \nhttp://doi.org/10.1145/2675133.2675180",
+            "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339–350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x \n\n55. Lydia Zepeda and David Deal. 2008. Think before You \nEat: Photographic Food Diaries ss Intervention Tools to \nChange Dietary Decision Making and Attitudes. \nInternational Journal of Consumer Studies 32, 6: 692–698. \nhttp://doi.org/10.1111/j.1470-6431.2008.00725.x\n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1687"
+        ]
+    ],
+    "evidence": [
+        ". Personal Tracking as Lived \nInformatics",
+        ". Personal and \nUbiquitous Computing 18, 7: 1737–1752"
+    ],
+    "raw answer": "None",
+    "evidence answer": "None",
+    "extracted elements": [
+        "paper",
+        "involves_theory",
+        "A Model of Personal Informatics",
+        "None"
+    ]
+}

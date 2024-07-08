@@ -13,6 +13,8 @@ import { Spinner } from "./Spinner";
 import { Sidebar } from "./Sidebar";
 import "./style/App.css";
 import { getDocument, GlobalWorkerOptions, version } from 'pdfjs-dist';
+import { TextItem } from "pdfjs-dist/types/src/display/api";
+// import { text } from "stream/consumers";
 // import { start } from "repl";
 // import { text } from "stream/consumers";
 
@@ -26,10 +28,12 @@ interface State {
   url: string;
   highlights: Array<IHighlight>;
   question: string;
-  sub_query: Array<string>;
-  sub_answers: Array<string>;
-  chunks: Array<Array<string>>;
-  finalAnswer: string;
+  model_name: string;
+  baseline_type: string;
+  raw_provenance: Array<Array<string>>;
+  evidence: Array<string>;
+  raw_answer: string;
+  evidence_answer: string;
 }
 
 const getNextId = () => String(Math.random()).slice(2);
@@ -58,10 +62,12 @@ class App extends Component<{}, State> {
     url: "",
     highlights: [],
     question: "",
-    sub_query: [],
-    sub_answers: [],
-    chunks: [],
-    finalAnswer: "",
+    model_name: "",
+    baseline_type: "",
+    raw_provenance: [],
+    evidence: [],
+    raw_answer: "",
+    evidence_answer: "",
   };
 
   componentDidMount() {
@@ -74,10 +80,9 @@ class App extends Component<{}, State> {
   fetchJsonPath = async (fileName: String) => {
     console.log("fileName:", fileName);
     try {
-      const response = await fetch(`data/highlight_result/${fileName}.json`);
+      const response = await fetch(`data/${fileName}.json`);
       const data = await response.json();
-      const { document_path, question, sub_query, sub_answers, chunks, final_answer } = data;
-
+      const { model_name, baseline_type, document_path, question, raw_provenance, evidence, raw_answer, evidence_answer } = data;
 
 
       if (document_path) {
@@ -85,12 +90,14 @@ class App extends Component<{}, State> {
           url: document_path.trim(),
           // highlights: testHighlights[document_path] ? [...testHighlights[document_path]] : [],
           question: question || "",
-          sub_query: sub_query || [],
-          sub_answers: sub_answers || [],
-          chunks: chunks || [],
-          finalAnswer: final_answer || "",
+          model_name: model_name || "",
+          baseline_type: String(baseline_type) || "",
+          raw_provenance: raw_provenance || [],
+          evidence: evidence || [],
+          raw_answer: raw_answer || "",
+          evidence_answer: evidence_answer || "",
         }, () => {
-          this.highlightRetrievedTexts(chunks);
+          this.highlightTexts(raw_provenance[0]);
         });
       }
       
@@ -99,135 +106,20 @@ class App extends Component<{}, State> {
     }
   };
 
-//   fetchJsonPath = async () => {
-//     try {
-//       // 使用相对路径读取本地 JSON 文件
-//       const response = await fetch("data/highlight_result/result_20240628_115846.json");
-//       const data = await response.json();
-//       const { document_path, question, sub_query, sub_answers, retrieved_docs, final_answer } = data;
-
-//       // console.log("document_path:", document_path);
-//       // console.log("retrieved_docs:", retrieved_docs);
-
-//       if (document_path) {
-//         this.setState({
-//           url: document_path.trim(),
-//           // highlights: testHighlights[document_path] ? [...testHighlights[document_path]] : [],
-//           question: question || "",
-//           sub_query: sub_query || [],
-//           sub_answers: sub_answers || [],
-//           retrieved_docs: retrieved_docs || [],
-//           finalAnswer: final_answer || "",
-//         }, () => {
-//           this.highlightRetrievedTexts(retrieved_docs);
-//         });
-        
-//       }
-      
-//     } catch (error) {
-//       console.error("Error fetching document path:", error);
-//     }
-    
-// };
 
 
-  highlightRetrievedTexts = async (chunks: Array<Array<string>>) => {
-    const emoji_list = ["1🔍", "2👀", "3💩"]
+  highlightTexts = async (chunks: Array<string>) => {
+    console.log("chunks:", chunks);
+    // const emoji_list = ["1🔍", "2👀", "3💩"]
     try {
       const pdf = await getDocument(this.state.url).promise;
-
-      chunks.forEach(async (docArray, docArrayIndex) => { // for different sub_query's retrival
+      
+      chunks.forEach(async (docArray, docArrayIndex) => { // for different model_name's retrival
         // docArray.forEach(async (doc, docIndex) => { // for each retrieved chunk
         // console.log("doc:", doc[0]);
         
-        let docTextOriginal = docArray[0]; // docText is a string
-        let docText = docTextOriginal.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
-        const docTextLength = docText.length;
-        // console.log("docPage(From 0):", doc[1]);
-        // let docPage = Number(doc[1])+1;
-        // console.log("docPage(Number):", docPage);
-        for (let i = 0; i < pdf.numPages; i++) {
-          let docPage = i+1;
-          let page = await pdf.getPage(i+1);
-          const viewport = page.getViewport({ scale: 1 });
-          let textContent = await page.getTextContent();
-          let textItems = textContent.items;
-
-          for (let i = 0; i < textItems.length; i++) {
-            let candidate_text = textItems.slice(i).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(0, Math.min(docTextLength, textItems.length-i)).toLowerCase();
-            if (candidate_text == docText) {
-              const startIndex = i;
-              console.log("For", docArray[1])
-              console.log("START Match found at:", i);
-              // console.log("candidate_text:", candidate_text);
-              console.log("docTextOriginal:", docTextOriginal);
-              // find the index of the last of candidate_text in textItems
-
-              for (let j = textItems.length; j >= i; j--) {
-                let candidate_text2 = textItems.slice(i, j).map(item => item.str).join('').replace(/[^a-zA-Z0-9]/g, '').slice(-docTextLength).toLowerCase();
-                if (candidate_text2 == docText) {
-                  const endIndex = j-1;
-                  console.log("END Match found at:", j);
-
-                  let highLightArea = this.getHighlightArea(startIndex, endIndex, textItems);
-                  console.log("highlightArea:", highLightArea);
-                  // this.getExistingHighlights();
-
-                  for (let k = 0; k < highLightArea.length; k++) {
-                    let x1 = highLightArea[k][0];
-                    let y1 = highLightArea[k][1];
-                    let x2 = highLightArea[k][2];
-                    let y2 = highLightArea[k][3];
-                    const startCoords = viewport.convertToPdfPoint(x1, y1);
-                    const endCoords = viewport.convertToPdfPoint(x2, y2);
-                    let boundingRect = {
-                      height: viewport.height,
-                      width: viewport.width,
-                      x1: startCoords[0],
-                      y1: startCoords[1],
-                      x2: endCoords[0],
-                      y2: endCoords[1],
-                    }
-                    
-                    this.addHighlight({
-                      position: {
-                        boundingRect,
-                        rects: [boundingRect],
-                        pageNumber: docPage,
-                      },
-                      content: {
-                        text: docTextOriginal,
-                      },
-                      comment: {
-                        text: docArray[1],
-                        emoji: docArray[1],
-                      }
-                    });
-                  }
-
-                  break;
-                }
-              }
-
-              
-              break;
-            }
-          }
-
-        }
-          // let page = await pdf.getPage(docPage);
-          // const viewport = page.getViewport({ scale: 1 });
-          // let textContent = await page.getTextContent();
-          // let textItems = textContent.items;
-          // console.log("textItems:", textItems);
-          // let pageItem = textItems.map(item => item.str).join("\n");
-
-          
-
-
-
-
-        // });
+        let docTextOriginal = docArray; // docText is a string
+        this.ScanToHighlight(pdf, docTextOriginal, docArrayIndex);
       });
 
 
@@ -322,6 +214,282 @@ class App extends Component<{}, State> {
     return highlightArea;
   }
 
+  ScanToHighlight = async (pdf: any, pattern: string, patternIndex: number) => {
+    pattern = pattern.replace(/\(cid:\d+\)/g, "")
+    
+    let highlightArea: number [][] = [];
+    let lastPageHighlightArea: number [][] = [];
+
+    let highlightAreaTexts = [];
+    let highlightAreaPureTexts = '';
+    // let lastPageHighlightTexts = [];
+    let lastPageHighlightPureTexts = '';
+
+    // let highlightStartIndex = null;
+    // let highlightEndIndex = null;
+    
+    for (let i = 0; i < pdf.numPages; i++) {
+      let docPage = i+1;
+      let page = await pdf.getPage(docPage);
+      let textContents = await page.getTextContent();
+      let textItemsUnsorted = textContents.items;
+      
+      
+      const startIndex = 0;
+      let textItems = textItemsUnsorted.sort((a: TextItem, b: TextItem) => b.transform[5] - a.transform[5]);
+      const endIndex = textItems.length;
+      // console.log("textItemsLength:", endIndex);
+      // console.log("textItems:", textItems);
+      const y1Start = textItems[startIndex].transform[5];
+      const y1_1Start = y1Start + textItems[startIndex].height;
+      const y2Start = textItems[startIndex].transform[5];
+      const x1Start = textItems[startIndex].transform[4];
+      const x2Start = textItems[startIndex].transform[4] + textItems[startIndex].width;
+      // const y1End = textItems[endIndex - 1].transform[5];
+      // const y1_1End = y1End + textItems[endIndex - 1].height;
+      // const y2End = textItems[endIndex - 1].transform[5];
+      // const x1End = textItems[endIndex - 1].transform[4];
+      // const x2End = textItems[endIndex - 1].transform[4] + textItems[endIndex - 1].width;
+
+      let y1 = y1Start;
+      let y1_1 = y1_1Start;
+      let y2 = y2Start;
+      let x1 = x1Start;
+      let x2 = x2Start;
+    
+      let pureStrPattern = pattern.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+
+      let lineStartIndex = startIndex;
+      let lineEndIndex = startIndex;
+      // let highLightFlag = false;
+      let successType = 0;
+      // let noHighLightFlag = false;
+      for (let i = startIndex; i < endIndex; i++) {
+        if (textItems[i].transform[5] != y1 || i == endIndex - 1) { // go to button more
+          
+          lineEndIndex = i - 1;
+          let lineText = textItems.slice(lineStartIndex, i).map((item: TextItem) => item.str).join('');
+          if (i == endIndex - 1) {
+            lineEndIndex = i;
+            lineText = textItems.slice(lineStartIndex, endIndex).map((item: TextItem) => item.str).join('');
+          }
+          let pureStrLineText = lineText.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+          if (pureStrPattern.includes(pureStrLineText)) { // line text is in pattern
+            x1 = textItems[lineStartIndex].transform[4];
+            x2 = textItems[lineEndIndex].transform[4] + textItems[lineEndIndex].width;
+            y1 = textItems[lineStartIndex].transform[5];
+            y1_1 = y1 + textItems[lineEndIndex].height;
+            y2 = textItems[lineEndIndex].transform[5];
+            highlightArea.push([x1, y1_1, x2, y2]);
+            // pureStrPattern.replace(pureStrLineText, '');
+            // console.log("pureStrPattern:", pureStrPattern);
+            // console.log("pureStrLineText:", pureStrLineText);
+            // console.log("lineStartIndex:", lineStartIndex);
+            // console.log("lineEndIndex:", i);
+            highlightAreaTexts.push(lineText);
+            // highLightFlag = true;
+            if (i == endIndex - 1) { //case 3
+              highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+              if (highlightAreaPureTexts.includes(pureStrPattern) || highlightAreaPureTexts.length == pureStrPattern.length) { // success
+                if (highlightAreaPureTexts.length != pureStrPattern.length) {
+                  let highlightStartIndex = 0;
+                  let highlightEndIndex = i;
+                  for (let j = 1; j < highlightAreaTexts.length; j++) {
+                    if (!highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightStartIndex = j - 1;
+                      break;
+                    }
+                  }
+                  for (let j = highlightAreaTexts.length; j >= 0; j--) {
+                    if (!highlightAreaTexts.slice(0, j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightEndIndex = j + 1;
+                      break;
+                    }
+                  }
+                  // console.log("highlightStartIndex:", highlightStartIndex);
+                  // console.log("highlightEndIndex:", highlightEndIndex);
+                  // console.log("highlightLength:", highlightAreaTexts.length);
+
+                  highlightAreaTexts = highlightAreaTexts.slice(highlightStartIndex, highlightEndIndex);
+                  highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+                  highlightArea = highlightArea.slice(highlightStartIndex, highlightEndIndex);
+                }
+
+                successType = 3;
+                // console.log("successType:", successType);
+                // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
+                // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+                // console.log("pureStrPattern:", pureStrPattern);
+                break;
+              }
+              // lastPageHighlightTexts = highlightAreaTexts;
+              lastPageHighlightArea = highlightArea;
+              lastPageHighlightPureTexts = highlightAreaPureTexts;
+              highlightArea = [];
+              highlightAreaTexts = [];
+              highlightAreaPureTexts = '';
+              // next page
+            }
+          }
+          else if (highlightArea.length > 0) { // line text is not in pattern
+            // console.log("Existing Texts:", highlightArea.map(item => textItems.slice(item[0], item[2]).map(item => item.str).join('')).join(''));
+            // console.log("highlights:", highlightArea);
+            if (highlightArea[0][0] == x1Start && highlightArea[0][3] == y2Start) { //case 1
+              // console.log("case 1")
+              highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+              // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+              if ((lastPageHighlightPureTexts + highlightAreaPureTexts).includes(pureStrPattern) || (lastPageHighlightPureTexts + highlightAreaPureTexts).length == pureStrPattern.length) { // success
+                if ((lastPageHighlightPureTexts + highlightAreaPureTexts).length != pureStrPattern.length) {
+                  let highlightStartIndex = 0;
+                  let highlightEndIndex = i;
+                  for (let j = 1; j < highlightAreaTexts.length; j++) {
+                    if (!highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightStartIndex = j - 1;
+                      break;
+                    }
+                  }
+                  for (let j = highlightAreaTexts.length; j >= 0; j--) {
+                    if (!highlightAreaTexts.slice(0, j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightEndIndex = j + 1;
+                      break;
+                    }
+                  }
+
+                  // console.log("highlightStartIndex:", highlightStartIndex);
+                  // console.log("highlightEndIndex:", highlightEndIndex);
+                  // console.log("highlightLength:", highlightAreaTexts.length);
+
+                  highlightAreaTexts = highlightAreaTexts.slice(highlightStartIndex, highlightEndIndex);
+                  highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+                  highlightArea = highlightArea.slice(highlightStartIndex, highlightEndIndex);
+                }
+                
+                successType = 1;
+                // console.log("successType:", successType);
+                // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
+                // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+                // console.log("pureStrPattern:", pureStrPattern);
+                break;
+              }
+              // fail
+              highlightArea = [];
+              lastPageHighlightArea = [];
+              highlightAreaTexts = [];
+              // lastPageHighlightTexts = [];
+              highlightAreaPureTexts = '';
+              lastPageHighlightPureTexts = '';
+              continue;
+            }
+            else { // case 2
+              // console.log("case 2")
+              highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+              // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+              if (highlightAreaPureTexts.includes(pureStrPattern) || highlightAreaPureTexts.length == pureStrPattern.length) { // success
+                if (highlightAreaPureTexts.length != pureStrPattern.length) {
+                  let highlightStartIndex = 0;
+                  let highlightEndIndex = i;
+                  for (let j = 1; j < highlightAreaTexts.length; j++) {
+                    if (!highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightStartIndex = j - 1;
+                      break;
+                    }
+                  }
+                  for (let j = highlightAreaTexts.length; j >= 0; j--) {
+                    if (!highlightAreaTexts.slice(0, j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                      highlightEndIndex = j + 1;
+                      break;
+                    }
+                  }
+
+                  // console.log("highlightStartIndex:", highlightStartIndex);
+                  // console.log("highlightEndIndex:", highlightEndIndex);
+                  // console.log("highlightLength:", highlightAreaTexts.length);
+
+                  highlightAreaTexts = highlightAreaTexts.slice(highlightStartIndex, highlightEndIndex);
+                  highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+                  highlightArea = highlightArea.slice(highlightStartIndex, highlightEndIndex);
+                }
+
+                successType = 2;
+                // console.log("successType:", successType);
+                // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
+                // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+                // console.log("pureStrPattern:", pureStrPattern);
+                break;
+              }
+              highlightArea = [];
+              lastPageHighlightArea = [];
+              highlightAreaTexts = [];
+              // lastPageHighlightTexts = [];
+              highlightAreaPureTexts = '';
+              lastPageHighlightPureTexts = '';
+              continue;
+              // noHighLightFlag = true;
+            }
+          }
+          y1 = textItems[i].transform[5];
+          lineStartIndex = i;
+        }
+      }
+      // end of page
+      if (successType == 2 || successType == 3) {
+        this.setHighlightArea(highlightArea, page, docPage, pattern, patternIndex);
+        break;
+      }
+      if (successType == 1) {
+        this.setHighlightArea(lastPageHighlightArea, page, docPage - 1, pattern, patternIndex);
+        this.setHighlightArea(highlightArea, page, docPage, pattern, patternIndex);
+        break;
+      }
+    }
+    // const result = highlightArea.concat(lastPageHighlightArea);
+    // console.log("result:", result);
+    // return result;
+    
+  }
+
+  setHighlightArea = (highLightArea: any, page: any, pageNum: number, chunkText: string, chunkIndex: number) => {
+    if (highLightArea.length == 0) {
+      return;
+    }
+    const viewport = page.getViewport({ scale: 1 });
+    let x1 = highLightArea[0][0];
+    let y1 = highLightArea[0][1];
+    let x2 = highLightArea[0][2];
+    let y2 = highLightArea[0][3];
+    for (let k = 0; k < highLightArea.length; k++) {
+      x1 = Math.min(x1, highLightArea[k][0]);
+      y1 = Math.max(y1, highLightArea[k][1]);
+      x2 = Math.max(x2, highLightArea[k][2]);
+      y2 = Math.min(y2, highLightArea[k][3]);
+    }
+    const startCoords = viewport.convertToPdfPoint(x1, y1);
+    const endCoords = viewport.convertToPdfPoint(x2, y2);
+    let boundingRect = {
+      height: viewport.height,
+      width: viewport.width,
+      x1: startCoords[0],
+      y1: startCoords[1],
+      x2: endCoords[0],
+      y2: endCoords[1],
+    }
+            
+    this.addHighlight({
+      position: {
+        boundingRect,
+        rects: [boundingRect],
+        pageNumber: pageNum,
+      },
+      content: {
+        text: chunkText,
+      },
+      comment: {
+        text: "Top" + String(chunkIndex+1),
+        emoji: "",
+      }
+    });
+  }
+
 
   convertTextPositionToBoundingRect = (startPosition:any, endPosition:any , page: any): Scaled => {
     if (!startPosition || !endPosition || !startPosition.transform || !endPosition.transform) {
@@ -351,10 +519,81 @@ class App extends Component<{}, State> {
   
   handleFileSubmit = (fileName: string) => {
     this.fetchJsonPath(fileName);
-    };
+  };
+
+  // fuzzyMatchWithIndices(text:String, pattern:String, threshold = 10) {
+  //   const tLen = text.length;
+  //   const pLen = pattern.length;
+
+  //   if (tLen < pLen) return null;
+
+  //   let bestDistance = Infinity;
+  //   let bestIndices = null;
+
+  //   for (let i = 0; i <= tLen - pLen; i++) {
+  //       const substring = text.slice(i, i + pLen);
+  //       const distanceMatrix = this.levenshteinDistance(substring, pattern);
+  //       const distance = distanceMatrix[pLen][pLen];
+
+  //       if (distance <= threshold && distance < bestDistance) {
+  //           bestDistance = distance;
+  //           bestIndices = [i, i + pLen - 1];
+  //       }
+  //   }
+
+  //   return bestIndices;
+  // }
+
+  fuzzyMatchWithIndices(text: String, pattern: String, threshold = 0.9) {
+    const tLen = text.length;
+    const pLen = pattern.length;
+    
+    if (tLen < pLen) return null;
+
+    let bestMatch = { score: 0, startIndex: -1, endIndex: -1 };
+
+    for (let i = 0; i <= tLen - pLen; i++) {
+        const substring = text.slice(i, i + pLen);
+        // let matchScore = 0;
+
+        // for (let j = 0; j < pLen; j++) {
+        //     if (substring.slice(Math.max(0, j-3), Math.min(j+3, pLen)).includes(pattern[j])) {
+        //         matchScore++;
+        //     }
+        // }
+
+      // const score = matchScore / pLen;
+      const score = this.jaccardSimilarity(substring, pattern);
+
+        if (score > bestMatch.score) {
+            bestMatch = { score, startIndex: i, endIndex: i + pLen - 1 };
+        }
+
+        if (score >= threshold) {
+            return bestMatch;
+        }
+    }
+
+    return bestMatch.score >= threshold ? bestMatch : null;
+  }
+  
+  getCharacterSet(str: String) {
+    return new Set(str);
+  }
+
+  jaccardSimilarity(str1:String, str2:String) {
+    const set1 = this.getCharacterSet(str1);
+    const set2 = this.getCharacterSet(str2);
+
+    const intersection = new Set([...set1].filter(char => set2.has(char)));
+    const union = new Set([...set1, ...set2]);
+
+    return intersection.size / union.size;
+  }
+
 
   render() {
-    const { url, highlights, question, sub_query, sub_answers, finalAnswer } = this.state;
+    const { url, highlights, question, model_name, baseline_type, raw_answer, evidence_answer } = this.state;
 
     return (
       <div className="App" style={{ display: "flex", height: "100vh" }}>
@@ -363,9 +602,10 @@ class App extends Component<{}, State> {
           // resetHighlights={this.resetHighlights}
           // toggleDocument={this.toggleDocument}
           question={question}
-          sub_query={sub_query}
-          sub_answers={sub_answers}
-          finalAnswer={finalAnswer}
+          model_name={model_name}
+          baseline_type={baseline_type}
+          raw_answer={raw_answer}
+          evidence_answer={evidence_answer}
           onFileSubmit={this.handleFileSubmit}
         />
         <div style={{ height: "100vh", width: "75vw", position: "relative" }}>
@@ -401,7 +641,8 @@ class App extends Component<{}, State> {
                           this.updateHighlight(
                             highlight.id,
                             { boundingRect: viewportToScaled(boundingRect) },
-                            { image: screenshot(boundingRect) }
+                            { image: screenshot(boundingRect) },
+                            {}
                           );
                         }}
                       />

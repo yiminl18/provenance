@@ -1,0 +1,31 @@
+{
+    "model name": "gpt4o",
+    "baseline type": 1,
+    "document path": "data/civic/raw_data/malibucity_agenda__01262022-1835.pdf",
+    "question": "What are the names of disaster projects advertised before 2023",
+    "raw provenance": [
+        [
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n10-27-21\nItem\n4.A.\n\nTo:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: October 21, 2021\n\nMeeting date: October 27, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+            "Outdoor Warningn Sirens - Design (FEMA Project)\n\n(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:",
+            "Capital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) A hydrology report was prepared and will be used to size the pre-\nmanufactured biofilters. City staff is reviewing multiple biofilter\nmanufacturers for filters that will work in the proposed project area. It is\nanticipated to have a final design by March 2022. The project will be\nadvertised for construction bids shortly after this date.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Begin Construction: Spring 2022\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The project was approved by the Planning Commission on September\n8, 2021. This project requires Caltrans approval since the work will be\non Pacific Coast Highway. The project reports and plans are being\nrouted through Caltrans for final approval. It is anticipated that the\nproject will have final approval by March 2022. The project will be\n\nPage 1 of 8\n\nAgenda Item # 4.A.",
+            "(cid:190) Upates:\n\n(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            "(cid:190) Updates:\n\n(cid:131) The City has hired a consultant to design this project. The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)"
+        ]
+    ],
+    "evidence": [
+        "\n\nDisaster Projects (Construction)\nNone at this time",
+        "\n\nDisaster Projects (Completed)",
+        "\n\nWestward Beach Road Shoulder Repairs (CalOES Project)",
+        "\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road"
+    ],
+    "raw answer": "Guardrail Replacement Citywide, Corral Canyon Road Bridge Repairs, Corral Canyon Culvert Repairs",
+    "evidence answer": "Westward Beach Road Shoulder Repairs, Citywide Guardrail Replacement",
+    "extracted elements": [
+        "disaster projects",
+        "advertised before",
+        "2023",
+        "Guardrail Replacement Citywide",
+        "Corral Canyon Road Bridge Repairs",
+        "Corral Canyon Culvert Repairs"
+    ]
+}

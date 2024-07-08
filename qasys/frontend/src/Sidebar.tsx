@@ -6,9 +6,10 @@ interface Props {
   // resetHighlights: () => void;
   // toggleDocument: () => void;
   question: string;
-  sub_query: Array<string>;
-  sub_answers: Array<string>;
-  finalAnswer: string;
+  model_name: string;
+  baseline_type: string;
+  raw_answer: string;
+  evidence_answer: string;
   onFileSubmit: (fileName: string) => void;
 }
 
@@ -23,9 +24,9 @@ export function Sidebar({
   // toggleDocument,
   // resetHighlights,
   question,
-  sub_query,
-  sub_answers,
-  finalAnswer,
+  model_name,
+  raw_answer,
+  evidence_answer,
   onFileSubmit,
 }: Props) {
   const [fileName, setFileName] = useState("");
@@ -98,27 +99,28 @@ export function Sidebar({
       <p>{question}</p>
       </div>
 
-      <div className="sidebar__sub-query" style={{ padding: "1rem" }}>
-        <h3>Sub Querys</h3>
-        <ul>
-          {sub_query.map((query, index) => (
-            <li key={index}>{query}</li>
-          ))}
-        </ul>
+      <div className="sidebar__model-name" style={{ padding: "1rem" }}>
+      <h3>Model name</h3>
+      <p>{model_name}</p>
       </div>
 
-      <div className="sidebar__sub-answers" style={{ padding: "1rem" }}>
+      {/* <div className="sidebar__sub-answers" style={{ padding: "1rem" }}>
         <h3>Sub Answers</h3>
         <ul>
           {sub_answers.map((answer, index) => (
             <li key={index}>{answer}</li>
           ))}
         </ul>
+      </div> */}
+
+      <div className="sidebar__raw-answer" style={{ padding: "1rem" }}>
+        <h3>Final Answer</h3>
+        <p>{raw_answer}</p>
       </div>
 
-      <div className="sidebar__final-answer" style={{ padding: "1rem" }}>
-        <h3>Final Answer</h3>
-        <p>{finalAnswer}</p>
+      <div className="sidebar__evidence-answer" style={{ padding: "1rem" }}>
+        <h3>Evidence Answer</h3>
+        <p>{evidence_answer}</p>
       </div>
 
       {/* <div style={{ padding: "1rem" }}>
