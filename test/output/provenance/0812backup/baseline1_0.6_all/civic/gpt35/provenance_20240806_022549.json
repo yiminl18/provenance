@@ -1,0 +1,828 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__01262022-1835.pdf",
+    "question": "What are the names of disaster projects advertised before 2023",
+    "raw_provenance": [
+        "(cid:131) The City has hired a consultant to design this project. The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are. The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates. The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\ninto the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.\n\n2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue. This project was identified in the City’s Pavement\nManagement Plan. This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting.\n\nDisaster Projects (Design)",
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Updates: Council approved an agreement in December for design services.\n\nA kick-off meeting was held in late December.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022"
+    ],
+    "evidence": [
+        "(cid:131) The City has hired a consultant to design this project.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+        "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+        "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+        "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+        "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+        "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+        "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+        "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+        "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+        "This project was identified in the City’s Pavement\nManagement Plan.",
+        "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)",
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+        "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+        "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+        "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+        "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project."
+    ],
+    "raw_answer": "Westward Beach Road Shoulder Repairs (CalOES Project), Outdoor Warning Sirens (FEMA Project), Trancas Canyon Park Slope Stabilization Project (CalJPIA Project), Storm Drain Master Plan (FEMA Project), Guardrail Replacement Citywide (FEMA Project), Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project), Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project), Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)",
+    "evidence_answer": "Westward Beach Road Shoulder Repairs, Outdoor Warning Sirens - Design, Trancas Canyon Park Slope Stabilization Project, Storm Drain Master Plan, Guardrail Replacement Citywide, Broad Beach Road Water Quality Infrastructure Repairs, Latigo Canyon Road Roadway/Retaining Wall Improvements, Trancas Canyon Park Planting and Irrigation Repairs",
+    "jaccard_similarity": 0.868421052631579,
+    "search_pool": [
+        "Storm Drain Master Plan",
+        "Trancas Canyon Park Slope Stabilization Project",
+        "What are the names of disaster projects advertised before 2023",
+        "Trancas Canyon Park Planting and Irrigation Repairs",
+        "Outdoor Warning Sirens",
+        "Broad Beach Road Water Quality Infrastructure Repairs",
+        "Westward Beach Road Shoulder Repairs",
+        "Latigo Canyon Road Roadway/Retaining Wall Improvements",
+        "Guardrail Replacement Citywide"
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.3033100366592407
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            1,
+            0.18765759468078613
+        ],
+        [
+            "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)",
+            2,
+            0.4021017551422119
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            3,
+            0.2580879330635071
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            4,
+            0.4205610156059265
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.20237016677856445
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            6,
+            0.24377524852752686
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.31583094596862793
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            8,
+            0.4476385712623596
+        ],
+        [
+            "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+            0,
+            0.44833868741989136
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            2,
+            0.5134544968605042
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            4,
+            0.43381398916244507
+        ],
+        [
+            "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+            6,
+            0.45479291677474976
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            8,
+            0.46418458223342896
+        ],
+        [
+            "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+            0,
+            0.4618151783943176
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            2,
+            0.5159590244293213
+        ],
+        [
+            "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+            7,
+            0.4624958634376526
+        ],
+        [
+            "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+            0,
+            0.5204875469207764
+        ],
+        [
+            "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.46677666902542114
+        ],
+        [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+            2,
+            0.5498934984207153
+        ],
+        [
+            "(cid:131) The City has hired a consultant to design this project.",
+            8,
+            0.5862730741500854
+        ],
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            0,
+            0.5815122127532959
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            8,
+            0.5892083644866943
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.7352335453033447
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            2,
+            0.6248573064804077
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            2,
+            0.6316997408866882
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            2,
+            0.6390924453735352
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            0,
+            0.6195294857025146
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            3,
+            0.6536294221878052
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            7,
+            0.6497275829315186
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.6482353806495667
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.6745374202728271
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.6607738733291626
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            4,
+            0.8372900485992432
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.6570863723754883
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            1,
+            0.6395438313484192
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            6,
+            0.6787688732147217
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            7,
+            0.66744065284729
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            5,
+            0.6456190347671509
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            6,
+            0.6789828538894653
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            8,
+            0.6766554713249207
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.6707046627998352
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            5,
+            0.6556594371795654
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.6845675706863403
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            2,
+            0.7034065127372742
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            4,
+            0.8505475521087646
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877309083938599
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            8,
+            0.6950018405914307
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.6620023846626282
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            3,
+            0.6984274983406067
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            7,
+            0.6975983381271362
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.6910302639007568
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            1,
+            0.6781866550445557
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8610355257987976
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            8,
+            0.7180554866790771
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6976401805877686
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            1,
+            0.7306088805198669
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.7309902906417847
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.683963418006897
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            3,
+            0.7700549364089966
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            4,
+            0.8745559453964233
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.7019039988517761
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            6,
+            0.7382358312606812
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            0,
+            0.7211095094680786
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7696686387062073
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            3,
+            0.7822147607803345
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            5,
+            0.7114572525024414
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            6,
+            0.7690216302871704
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            7,
+            0.7444605827331543
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            8,
+            0.7368038892745972
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            1,
+            0.7757284045219421
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.8033996224403381
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            4,
+            0.9166709780693054
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            5,
+            0.7559790015220642
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            6,
+            0.7749807834625244
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            7,
+            0.7611244916915894
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            8,
+            0.7988507151603699
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.3033100366592407
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            1,
+            0.18765759468078613
+        ],
+        [
+            "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)",
+            2,
+            0.4021017551422119
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            3,
+            0.2580879330635071
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            4,
+            0.4205610156059265
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.20237016677856445
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            6,
+            0.24377524852752686
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.31583094596862793
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            8,
+            0.4476385712623596
+        ],
+        [
+            "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+            0,
+            0.44833868741989136
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            2,
+            0.5134544968605042
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            4,
+            0.43381398916244507
+        ],
+        [
+            "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+            6,
+            0.45479291677474976
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            8,
+            0.46418458223342896
+        ],
+        [
+            "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+            0,
+            0.4618151783943176
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            2,
+            0.5159590244293213
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.7352335453033447
+        ],
+        [
+            "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+            7,
+            0.4624958634376526
+        ],
+        [
+            "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+            0,
+            0.5204875469207764
+        ],
+        [
+            "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.46677666902542114
+        ],
+        [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+            2,
+            0.5498934984207153
+        ],
+        [
+            "(cid:131) The City has hired a consultant to design this project.",
+            8,
+            0.5862730741500854
+        ],
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            0,
+            0.5815122127532959
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            8,
+            0.5892083644866943
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            2,
+            0.6248573064804077
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            2,
+            0.6316997408866882
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            2,
+            0.6390924453735352
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            0,
+            0.6195294857025146
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            3,
+            0.6536294221878052
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            7,
+            0.6497275829315186
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.6482353806495667
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.6745374202728271
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.6607738733291626
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            4,
+            0.8372900485992432
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.6570863723754883
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            1,
+            0.6395438313484192
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            6,
+            0.6787688732147217
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            7,
+            0.66744065284729
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            5,
+            0.6456190347671509
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            6,
+            0.6789828538894653
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            8,
+            0.6766554713249207
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.6707046627998352
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            5,
+            0.6556594371795654
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.6845675706863403
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            2,
+            0.7034065127372742
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            4,
+            0.8505475521087646
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877309083938599
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            8,
+            0.6950018405914307
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.6620023846626282
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            3,
+            0.6984274983406067
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            7,
+            0.6975983381271362
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.6910302639007568
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            1,
+            0.6781866550445557
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8610355257987976
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            8,
+            0.7180554866790771
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6976401805877686
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            1,
+            0.7306088805198669
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.7309902906417847
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.683963418006897
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            3,
+            0.7700549364089966
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            4,
+            0.8745559453964233
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.7019039988517761
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            6,
+            0.7382358312606812
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            0,
+            0.7211095094680786
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7696686387062073
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            3,
+            0.7822147607803345
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            5,
+            0.7114572525024414
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            6,
+            0.7690216302871704
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            7,
+            0.7444605827331543
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            8,
+            0.7368038892745972
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            1,
+            0.7757284045219421
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.8033996224403381
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            4,
+            0.9166709780693054
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            5,
+            0.7559790015220642
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            6,
+            0.7749807834625244
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            7,
+            0.7611244916915894
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            8,
+            0.7988507151603699
+        ]
+    ]
+}

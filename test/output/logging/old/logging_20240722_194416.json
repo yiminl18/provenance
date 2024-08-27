@@ -1,0 +1,2231 @@
+{
+    "question": "What is the publication year of this paper?",
+    "raw_answer": "2000, 2009, 2010, 2011, 2013",
+    "evidence_answer": "2000, 2013",
+    "evidence_token_num": 168,
+    "total_token_num": 551,
+    "extracted_search_list": [
+        "publication year",
+        "2010",
+        "year",
+        "2013",
+        "value",
+        "paper",
+        "2009",
+        "2000",
+        "2011"
+    ],
+    "searched_docs": [
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.47600382566452026
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.691959798336029
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7071921825408936
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7086161971092224
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124501466751099
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.714047372341156
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7359858155250549
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.736445426940918
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7417404055595398
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7568954229354858
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7594577074050903
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7598019242286682
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7615975141525269
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7638601064682007
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7644640207290649
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7669097185134888
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676578760147095
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722504138946533
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7744236588478088
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7755456566810608
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7776848673820496
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7784563302993774
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.781536340713501
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7855709195137024
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7904137969017029
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7927561402320862
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.796870231628418
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8082267045974731
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8097884058952332
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8098963499069214
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.5447667837142944
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7166298627853394
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7294603586196899
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7392218112945557
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7477906942367554
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7509815096855164
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7579389810562134
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7611759901046753
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7649720907211304
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7716526985168457
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7781871557235718
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7848117351531982
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7850225567817688
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7879343628883362
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7958492040634155
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7959249019622803
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8022378087043762
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8064805865287781
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8086958527565002
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8115527033805847
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8156877756118774
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8223482370376587
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8230987787246704
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8267868757247925
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8270319700241089
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8311245441436768
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8319398164749146
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8345130085945129
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8350917100906372
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8362459540367126
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7044559717178345
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7956700325012207
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.8068108558654785
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8129908442497253
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8156522512435913
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8163443803787231
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8216311931610107
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8243523240089417
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8276503086090088
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8321840167045593
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8344937562942505
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8390843272209167
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8415480852127075
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8424135446548462
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8431577682495117
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8444659113883972
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.845683217048645
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8470155000686646
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8470645546913147
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8482880592346191
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8485706448554993
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8501933813095093
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.8571556210517883
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8596645593643188
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8618360757827759
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8625134825706482
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8695425391197205
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8709256649017334
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.871609091758728
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8718443512916565
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.6589641571044922
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7069130539894104
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7164324522018433
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7321875095367432
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7340229749679565
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7427409887313843
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7427874803543091
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.764626145362854
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7692850828170776
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7797424793243408
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7817283272743225
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7817423939704895
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.7904415130615234
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7909367680549622
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.791771411895752
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7948310375213623
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7980353832244873
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7981070280075073
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.7983988523483276
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7996788620948792
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8043068051338196
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8050671219825745
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.806167483329773
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8064157366752625
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8096902370452881
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8109369874000549
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8175287246704102
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8199827671051025
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8223431706428528
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8386532068252563
+            ]
+        ],
+        [
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7304402589797974
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7655609250068665
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7829394340515137
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.7894570231437683
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7984380125999451
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8027718663215637
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8105762004852295
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8119585514068604
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8129767775535583
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8207089900970459
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8248882293701172
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8252927660942078
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8328243494033813
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8332914710044861
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.833757758140564
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8358248472213745
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8429110646247864
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8446941375732422
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8449974060058594
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.847778856754303
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8485148549079895
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8523560166358948
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557420969009399
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8568060398101807
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8568175435066223
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8589686155319214
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.861253023147583
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8629665374755859
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8635224103927612
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8695334196090698
+            ]
+        ],
+        [
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7170326709747314
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185078859329224
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7265088558197021
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328576445579529
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7431586980819702
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660095691680908
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7717980146408081
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722312808036804
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7899212837219238
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7906948328018188
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.790962815284729
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006596565246582
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8034559488296509
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040502667427063
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8080754280090332
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8082805275917053
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171336650848389
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8193877935409546
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8212708830833435
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.823502779006958
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8264634609222412
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8277950286865234
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8293918371200562
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8319182991981506
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8336394429206848
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.6491065621376038
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.652247428894043
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.734140157699585
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.743944525718689
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7534529566764832
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7563226819038391
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7594175338745117
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7625333070755005
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7672451734542847
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7674992084503174
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.780881404876709
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7818320989608765
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7849580645561218
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7879089117050171
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.788769543170929
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7910807132720947
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7929952144622803
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8008122444152832
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8051382899284363
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8122718930244446
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8153806328773499
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8163573145866394
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8174170255661011
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.82999187707901
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8429327011108398
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8429861068725586
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.847778856754303
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8489725589752197
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8504915833473206
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.854257345199585
+            ]
+        ],
+        [
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.720210611820221
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7365462779998779
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7404310703277588
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7432308793067932
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.747215747833252
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7579872012138367
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.7590137720108032
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7624093294143677
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7634464502334595
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7711395025253296
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7725004553794861
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7756820321083069
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7796300053596497
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7840163707733154
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7850729823112488
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7924849987030029
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8005630970001221
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8080030083656311
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8118260502815247
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8123396635055542
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8145828247070312
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8173275589942932
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.817559540271759
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8199816942214966
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.820723295211792
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8241346478462219
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8391236662864685
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8398181200027466
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8440287709236145
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8450221419334412
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.535614013671875
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.6631651520729065
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7172217965126038
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7264014482498169
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7279187440872192
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7369111776351929
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7492406368255615
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7502692937850952
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7541768550872803
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7584679126739502
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7634299397468567
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7657454013824463
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7681808471679688
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7719501256942749
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7780572772026062
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7783654928207397
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7784315347671509
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7807178497314453
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7820560336112976
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7981895804405212
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8032572865486145
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8106136918067932
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8129453063011169
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8174092173576355
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8228528499603271
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8235167264938354
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8240636587142944
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8308931589126587
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8329706192016602
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8392297625541687
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.47600382566452026
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.691959798336029
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7071921825408936
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7086161971092224
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124501466751099
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.714047372341156
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7359858155250549
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.736445426940918
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7417404055595398
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7568954229354858
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7594577074050903
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7598019242286682
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7615975141525269
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7638601064682007
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7644640207290649
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7669097185134888
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676578760147095
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722504138946533
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7744236588478088
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7755456566810608
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7776848673820496
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7784563302993774
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.781536340713501
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7855709195137024
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7904137969017029
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7927561402320862
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.796870231628418
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8082267045974731
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8097884058952332
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8098963499069214
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.5447667837142944
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7166298627853394
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7294603586196899
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7392218112945557
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7477906942367554
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7509815096855164
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7579389810562134
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7611759901046753
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7649720907211304
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7716526985168457
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7781871557235718
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7848117351531982
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7850225567817688
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7879343628883362
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7958492040634155
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7959249019622803
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8022378087043762
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8064805865287781
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8086958527565002
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8115527033805847
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8156877756118774
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8223482370376587
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8230987787246704
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8267868757247925
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8270319700241089
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8311245441436768
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8319398164749146
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8345130085945129
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8350917100906372
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8362459540367126
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7044559717178345
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7956700325012207
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.8068108558654785
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8129908442497253
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8156522512435913
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8163443803787231
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8216311931610107
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8243523240089417
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8276503086090088
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8321840167045593
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8344937562942505
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8390843272209167
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8415480852127075
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8424135446548462
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8431577682495117
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8444659113883972
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.845683217048645
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8470155000686646
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8470645546913147
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8482880592346191
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8485706448554993
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8501933813095093
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.8571556210517883
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8596645593643188
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8618360757827759
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8625134825706482
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8695425391197205
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8709256649017334
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.871609091758728
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8718443512916565
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.6589641571044922
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7069130539894104
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7164324522018433
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7321875095367432
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7340229749679565
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7427409887313843
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7427874803543091
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.764626145362854
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7692850828170776
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7797424793243408
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7817283272743225
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7817423939704895
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.7904415130615234
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7909367680549622
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.791771411895752
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7948310375213623
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7980353832244873
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7981070280075073
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.7983988523483276
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7996788620948792
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8043068051338196
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8050671219825745
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.806167483329773
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8064157366752625
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8096902370452881
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8109369874000549
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8175287246704102
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8199827671051025
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8223431706428528
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8386532068252563
+            ]
+        ],
+        [
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7304402589797974
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7655609250068665
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7829394340515137
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.7894570231437683
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7984380125999451
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8027718663215637
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8105762004852295
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8119585514068604
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8129767775535583
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8207089900970459
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8248882293701172
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8252927660942078
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8328243494033813
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8332914710044861
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.833757758140564
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8358248472213745
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8429110646247864
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8446941375732422
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8449974060058594
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.847778856754303
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8485148549079895
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8523560166358948
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557420969009399
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8568060398101807
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8568175435066223
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8589686155319214
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.861253023147583
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8629665374755859
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8635224103927612
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8695334196090698
+            ]
+        ],
+        [
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7170326709747314
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185078859329224
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7265088558197021
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328576445579529
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7431586980819702
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660095691680908
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7717980146408081
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722312808036804
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0.7899212837219238
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7906948328018188
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.790962815284729
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006596565246582
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8034559488296509
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040502667427063
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8080754280090332
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8082805275917053
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171336650848389
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8193877935409546
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8212708830833435
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.823502779006958
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8264634609222412
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8277950286865234
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8293918371200562
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8319182991981506
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8336394429206848
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.6491065621376038
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.652247428894043
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.734140157699585
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.743944525718689
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7534529566764832
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7563226819038391
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7594175338745117
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7625333070755005
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7672451734542847
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7674992084503174
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.780881404876709
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7818320989608765
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7849580645561218
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7879089117050171
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.788769543170929
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7910807132720947
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7929952144622803
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8008122444152832
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8051382899284363
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8122718930244446
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8153806328773499
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8163573145866394
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8174170255661011
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.82999187707901
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8429327011108398
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8429861068725586
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.847778856754303
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8489725589752197
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8504915833473206
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.854257345199585
+            ]
+        ],
+        [
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.720210611820221
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7365462779998779
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7404310703277588
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7432308793067932
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.747215747833252
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7579872012138367
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.7590137720108032
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7624093294143677
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7634464502334595
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7711395025253296
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7725004553794861
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7756820321083069
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7796300053596497
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7840163707733154
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7850729823112488
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7924849987030029
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8005630970001221
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8080030083656311
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8118260502815247
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8123396635055542
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8145828247070312
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8173275589942932
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.817559540271759
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8199816942214966
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.820723295211792
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8241346478462219
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8391236662864685
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8398181200027466
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8440287709236145
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8450221419334412
+            ]
+        ],
+        [
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.535614013671875
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.6631651520729065
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7172217965126038
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7264014482498169
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7279187440872192
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0.7369111776351929
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7492406368255615
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7502692937850952
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7541768550872803
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7584679126739502
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7634299397468567
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7657454013824463
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7681808471679688
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7719501256942749
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7780572772026062
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7783654928207397
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7784315347671509
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7807178497314453
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7820560336112976
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7981895804405212
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8032572865486145
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0.8106136918067932
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8129453063011169
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8174092173576355
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8228528499603271
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8235167264938354
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8240636587142944
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0.8308931589126587
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8329706192016602
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8392297625541687
+            ]
+        ]
+    ],
+    "evidence": [
+        "The average publication year was\n2010 and the median 2011.",
+        "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+        "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+        "Proc CHI Ext. Abst., 1979-1988.",
+        "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+        "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+        "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+        "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+        "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group."
+    ]
+}

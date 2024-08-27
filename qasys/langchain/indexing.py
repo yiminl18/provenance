@@ -110,7 +110,7 @@ def load_local_pdf_as_one_page(file_path):
     return combined_doc
 
 
-def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
+def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True, separators=["\n\n", ".\n", ". "]):
     '''
     Input: docs, list of class Document
     Output: all_splits, list of class Document
@@ -129,7 +129,7 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
     from langchain_text_splitters import RecursiveCharacterTextSplitter
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index, separators=["\n\n", ".\n", ". "]
+        chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=add_start_index, separators=separators
     )
     all_splits = text_splitter.split_documents(docs)
 
@@ -183,17 +183,18 @@ def split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True):
 
 
 
-def store_splits(all_splits):
+def store_splits(all_splits, collection_name="_LANGCHAIN_DEFAULT_COLLECTION_NAME"):
     ''' 
     Input: all_splits, list of class Document
     Output: vectorstore, class Chroma
     '''
     
     from langchain_chroma import Chroma
+    from langchain_community.vectorstores import FAISS
     from langchain_openai import OpenAIEmbeddings
     
     # Create vectorstore
-    vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(), ids=[str(i) for i in range(len(all_splits))])
+    vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(model="text-embedding-3-small"), ids=[str(i) for i in range(len(all_splits))], collection_metadata={"hnsw:space": "cosine"}, collection_name=collection_name)
     # embedding_vectors = vectorstore._collection.get(include=['embeddings']).get('embeddings')
     # Check for repeated embeddings
     # if len(embedding_vectors) != len(set(tuple(embed) for embed in embedding_vectors)):

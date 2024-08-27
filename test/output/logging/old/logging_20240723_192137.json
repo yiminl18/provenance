@@ -1,0 +1,754 @@
+{
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "raw_answer": "CHI",
+    "evidence_answer": "CHI",
+    "evidence_token_num": 126,
+    "total_token_num": 626,
+    "extracted_search_list": [
+        "CHI",
+        "publication_venue",
+        "paper"
+    ],
+    "searched_docs": [
+        [
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.5968761444091797
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.620306670665741
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6452999114990234
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6480175852775574
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.6982533931732178
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.6996386051177979
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.783622145652771
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7881753444671631
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7882652282714844
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7915525436401367
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7917935848236084
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.7971212863922119
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7985727190971375
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8048521280288696
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8128058910369873
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8131940960884094
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8155914545059204
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8165029287338257
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8174605369567871
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8230082988739014
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8237191438674927
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8247482180595398
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8275848031044006
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8285475969314575
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8285821080207825
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8421586155891418
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8422134518623352
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8441886901855469
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8462072610855103
+            ]
+        ],
+        [
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.6500594615936279
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6971851587295532
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7203500270843506
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7346082925796509
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7502222061157227
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7615821361541748
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7709788084030151
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7726612091064453
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.7834442257881165
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7847012877464294
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7858675122261047
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7864168882369995
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7875275015830994
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7877824902534485
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7914097905158997
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.7931715846061707
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7931732535362244
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.7937920093536377
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7965861558914185
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7973611354827881
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7983538508415222
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8000946044921875
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.8008730411529541
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8096287846565247
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8131040930747986
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8141120076179504
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8154362440109253
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8183161020278931
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8288370370864868
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8299093246459961
+            ]
+        ],
+        [
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.71119225025177
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7796986699104309
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.783534586429596
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7879617214202881
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7913838624954224
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7965101003646851
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7983943223953247
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.801566481590271
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040779232978821
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8046471476554871
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.80580073595047
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8078185319900513
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8079466223716736
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.8086997270584106
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.8092310428619385
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8144974708557129
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8172160387039185
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8193877935409546
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8232638239860535
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8249074220657349
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.825659453868866
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8259392976760864
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8274602293968201
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8297226428985596
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.83621746301651
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8450788259506226
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.853093683719635
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8548702001571655
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.5968761444091797
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.620306670665741
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6452999114990234
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6480175852775574
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.6982533931732178
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.6996386051177979
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.783622145652771
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7881753444671631
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7882652282714844
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7915525436401367
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7917935848236084
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.7971212863922119
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7985727190971375
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8048521280288696
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8128058910369873
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8131940960884094
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8155914545059204
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8165029287338257
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8174605369567871
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8230082988739014
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8237191438674927
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8247482180595398
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8275848031044006
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8285475969314575
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8285821080207825
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8421586155891418
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8422134518623352
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8441886901855469
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8462072610855103
+            ]
+        ],
+        [
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.6500594615936279
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6971851587295532
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7203500270843506
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7346082925796509
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7502222061157227
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7615821361541748
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7709788084030151
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7726612091064453
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.7834442257881165
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7847012877464294
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7858675122261047
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7864168882369995
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7875275015830994
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7877824902534485
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7914097905158997
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.7931715846061707
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7931732535362244
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.7937920093536377
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7965861558914185
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7973611354827881
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7983538508415222
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8000946044921875
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.8008730411529541
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8096287846565247
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8131040930747986
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8141120076179504
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8154362440109253
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8183161020278931
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8288370370864868
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8299093246459961
+            ]
+        ],
+        [
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.71119225025177
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7796986699104309
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.783534586429596
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7879617214202881
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7913838624954224
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7965101003646851
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7983943223953247
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.801566481590271
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040779232978821
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8046471476554871
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.80580073595047
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8078185319900513
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8079466223716736
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.8086997270584106
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.8092310428619385
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8144974708557129
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8172160387039185
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8193877935409546
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8232638239860535
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8249074220657349
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.825659453868866
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8259392976760864
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8274602293968201
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8297226428985596
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.83621746301651
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8450788259506226
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.853093683719635
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8548702001571655
+            ]
+        ]
+    ],
+    "evidence": [
+        "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+        "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+        "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+        "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+    ]
+}

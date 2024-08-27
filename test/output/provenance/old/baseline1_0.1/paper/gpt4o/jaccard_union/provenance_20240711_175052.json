@@ -1,0 +1,27 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "raw_provenance": [
+        "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+        "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.  We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.  We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.  We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.  We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+        "To  date,  there  is  no  comprehensive  list  of  problems  that \nusers experience using these systems. Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information. From this, we derived a \nmodel of personal informatics systems organized by stages, \nwhich emphasizes the interdependence of the different parts \nof personal informatics systems.  \n\nWe  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems.  \n\nto",
+        "Personal informatics represents an interesting area of study \nin  human-computer  interaction.  First,  these  systems  help \npeople  better  understand  their  behavior.  While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves. \nSecond,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.  This  poses  demands  on \nusers that need to be explored. Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.  We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.  Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. \n\nthat  people  experience",
+        "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.  Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. \nWe believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently. \n\nACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment. \n\nthank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1.  Alleyne, R. \"The house that Twitters.\" Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html"
+    ],
+    "evidence": [
+        "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+        "To  date,  there  is  no  comprehensive  list  of  problems  that \nusers experience using these systems.",
+        "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment."
+    ],
+    "raw_answer": "Yes",
+    "evidence_answer": "No",
+    "search_pool": [
+        "paper",
+        "involves_theory",
+        "A Model of Personal Informatics"
+    ],
+    "jaccard_similarity": 0.0,
+    "jaccard_similarity_cleaned": 0.0
+}

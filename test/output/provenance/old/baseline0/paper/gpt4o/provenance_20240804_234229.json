@@ -1,0 +1,44 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 0,
+    "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+    "question": "Does this paper involve the theory \"A Model of Personal Informatics\"?",
+    "raw_provenance": [
+        "Self-tracking and Personal Informatics Models \nPeople  use  a  myriad  of  self-tracking  tools  to  collect  and \nreflect  on  their  personal  information.  To  understand  how \npeople  use  these  tools  and  the  information  they  collect, \nLi et al.  developed  the  five-staged  personal  informatics \nmodel [29]:  preparation,  collection,  integration,  reflection, \nand  action.  They  later  expanded  the  reflection  stage  to \nmaintenance and discovery phases [30].",
+        "Including Social Roles in Personal Informatics Models \nOur findings show that people’s interactions with others can \ntracking  behaviors.  Prior  research \ninfluence  personal \nestablished that others, such as health care providers [12,35] \nor family members [25,50], influence people’s tracking and \nhealth  decisions  and  can  help  them  maintain  their  health. \nInvolvement of others can offer accountability and guidance \non how to track as well as how to interpret and act on tracked \ndata. Although the importance of others in health behaviors \nand  in  self-tracking  decisions  is  well-established,  the \nmodels  the  HCI  community  uses  to  understand  and  design \nfor self-tracking tools [21,29] still focus on the individual.",
+        "27. Jina Huh and Mark S Ackerman. 2012. Collaborative \nHelp in Chronic Disease Management. Proceedings of \nthe ACM conference on Computer Supported \nCooperative Work (CSCW 2012): 853. \nhttp://doi.org/10.1145/2145204.2145331 \n\n28. Jina Huh, Leslie S Liu, Tina Neogi, Kori Inkpen, and \n\nWanda Pratt. 2014. Health Vlogs as Social Support for \nChronic Illness Management. ACM Transactions on \nComputer-Human Interaction (TOCHI) 21, 4: 23. \nhttp://doi.org/10.1145/2630067 \n\n29. Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A Stage-\nBased Model of Personal Informatics Systems. \nProceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2010): 557–566. \nhttp://doi.org/10.1145/1753326.1753409 \n\n30. Ian Li, Anind Dey, and Jodi Forlizzi. 2011. \n\nUnderstanding My Data, Myself: Supporting Self-\nReflection with Ubicomp Technologies. Proceedings of \nthe 13th International Conference on Ubiquitous \ncomputing (UbiComp 2011): 405–414. \nhttp://doi.org/10.1145/2030112.2030166",
+        "Designers  wanting  to  support  personal  tracking  in  social \ncontexts  should  consider  features  that  help  users  pursue \nsocial benefits. For example, systems can help users access \ncommunities \nfor  specific  health  goals  and  diverse \nexploration  as  well  as  providing  strategies  to  navigate \nthrough  different  communities.  Also,  systems  can  support \nusers in integrating information from different apps that are \nbetter fit to various aspects of their health goals. \n\nFor personal informatics researchers, the personal informatics \nmodels  should  be  further  developed  to  account  for  social \ninfluence.  Researchers  should  reflect  on  how  social  needs \naffect  people’s  decisions  about  and  behavior  surrounding \nthe  acts  of  selecting  tools,  collecting,  integrating,  and \nreflecting on data, and lapsing and resuming.",
+        "Rooksby et al. proposed “lived informatics” to describe the \nintertwined roles of self-tracking plays in people’s everyday \nlife  [49].  They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship). \nEpstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.  The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use"
+    ],
+    "evidence": [
+        "Li et al. developed  the  five-staged  personal  informatics  model [29]:  preparation,  collection,  integration,  reflection,  and  action.",
+        "They  later  expanded  the  reflection  stage  to  maintenance and discovery phases [30].",
+        "Our findings show that people’s interactions with others can influence personal tracking behaviors.",
+        "Although the importance of others in health behaviors and in self-tracking decisions is well-established, the models the HCI community uses to understand and design for self-tracking tools [21,29] still focus on the individual.",
+        "Ian Li, Anind Dey, and Jodi Forlizzi.",
+        "2010. A Stage-Based Model of Personal Informatics Systems.",
+        "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2010): 557–566.",
+        "http://doi.org/10.1145/1753326.1753409",
+        "For personal informatics researchers, the personal informatics models should be further developed to account for social influence.",
+        "Researchers should reflect on how social needs affect people’s decisions about and behavior surrounding the acts of selecting tools, collecting, integrating, and reflecting on data, and lapsing and resuming.",
+        "Epstein et al. later developed the lived informatics model [21] to better describe people’s tool selection choices, the concurrent and iterative nature of collection, integration, and reflection, as well as the lapse or resumption of tracking.",
+        "The lived informatics model has three major stages: (1) Deciding and selecting: In this stage, people make decisions about tracking and choose the tools they want to use."
+    ],
+    "raw_answer": "Yes",
+    "evidence_answer": "Yes",
+    "search_pool": [],
+    "unfiltered_evidence": [
+        "Li et al. developed  the  five-staged  personal  informatics  model [29]:  preparation,  collection,  integration,  reflection,  and  action.",
+        "They  later  expanded  the  reflection  stage  to  maintenance and discovery phases [30].",
+        "Our findings show that people’s interactions with others can influence personal tracking behaviors.",
+        "Although the importance of others in health behaviors and in self-tracking decisions is well-established, the models the HCI community uses to understand and design for self-tracking tools [21,29] still focus on the individual.",
+        "Ian Li, Anind Dey, and Jodi Forlizzi.",
+        "2010. A Stage-Based Model of Personal Informatics Systems.",
+        "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2010): 557–566.",
+        "http://doi.org/10.1145/1753326.1753409",
+        "For personal informatics researchers, the personal informatics models should be further developed to account for social influence.",
+        "Researchers should reflect on how social needs affect people’s decisions about and behavior surrounding the acts of selecting tools, collecting, integrating, and reflecting on data, and lapsing and resuming.",
+        "Epstein et al. later developed the lived informatics model [21] to better describe people’s tool selection choices, the concurrent and iterative nature of collection, integration, and reflection, as well as the lapse or resumption of tracking.",
+        "The lived informatics model has three major stages: (1) Deciding and selecting: In this stage, people make decisions about tracking and choose the tools they want to use."
+    ]
+}

@@ -1,0 +1,758 @@
+{
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "raw_answer": "CHI, CHI",
+    "evidence_answer": "CHI",
+    "evidence_token_num": 152,
+    "total_token_num": 561,
+    "extracted_search_list": [
+        "CHI",
+        "publication_venue",
+        "paper"
+    ],
+    "searched_docs": [
+        [
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.4482037425041199
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.45437192916870117
+            ],
+            [
+                "CHI 2015, 3207-3216. 11. Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,",
+                0.4627498984336853
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.5604147911071777
+            ],
+            [
+                "CHI 2014, \n1143-1152. 7. Choe, E.K. Designing Self-Monitoring Technology to \n\nPromote Data Capture and Reflection.",
+                0.604064404964447
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.6094273328781128
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.6375696659088135
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.667570173740387
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.6748978495597839
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.7201782464981079
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7463904023170471
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7643955945968628
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7881753444671631
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7891374230384827
+            ],
+            [
+                "9. Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \nand Tabert, J.",
+                0.7901747822761536
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.7945390939712524
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7966799736022949
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8015984296798706
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.8021131157875061
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8040372133255005
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8104602098464966
+            ],
+            [
+                "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+                0.8142226934432983
+            ],
+            [
+                "PhD Dissertation. The Information School, University of Washington, \nSeattle Washington.",
+                0.8145819902420044
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8164703845977783
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.8225553035736084
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.825421154499054
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8272067904472351
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8408228158950806
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8424750566482544
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.719410240650177
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7223454713821411
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7286874055862427
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7297452092170715
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7297766804695129
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7394594550132751
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7525864243507385
+            ],
+            [
+                "Rethinking the Mobile Food Journal: Exploring \nOpportunities for Lightweight Photo-Based Capture.",
+                0.7613757252693176
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.7708592414855957
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7794502973556519
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7801487445831299
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.7807353734970093
+            ],
+            [
+                "Location Disclosure to Social Relations: \nWhy, When, & What People Want to Share.",
+                0.7983773946762085
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8052771091461182
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8096287846565247
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8154285550117493
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.816027045249939
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.8187410831451416
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8259000182151794
+            ],
+            [
+                "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+                0.8269572257995605
+            ],
+            [
+                "PhD Dissertation. The Information School, University of Washington, \nSeattle Washington.",
+                0.8269965052604675
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.829015851020813
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8388098478317261
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8408912420272827
+            ],
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.8453018069267273
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.8474453091621399
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8494881987571716
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8522558212280273
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8544830083847046
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.854745626449585
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7175265550613403
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7780594825744629
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7816511988639832
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7840983867645264
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7855222225189209
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7899888753890991
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.7975407838821411
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8061938285827637
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.8081218004226685
+            ],
+            [
+                "Rethinking the Mobile Food Journal: Exploring \nOpportunities for Lightweight Photo-Based Capture.",
+                0.8087877631187439
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8120916485786438
+            ],
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.8135231733322144
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.82088303565979
+            ],
+            [
+                "CHI 2014, \n1143-1152. 7. Choe, E.K. Designing Self-Monitoring Technology to \n\nPromote Data Capture and Reflection.",
+                0.8211701512336731
+            ],
+            [
+                "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+                0.8221132159233093
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.8237384557723999
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.829042911529541
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8307438492774963
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8308130502700806
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8314695358276367
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8344066143035889
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.8356480598449707
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8379721641540527
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8412044048309326
+            ],
+            [
+                "CHI 2015, 3207-3216. 11. Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,",
+                0.846383810043335
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.8470569849014282
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.4482037425041199
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.45437192916870117
+            ],
+            [
+                "CHI 2015, 3207-3216. 11. Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,",
+                0.4627498984336853
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.5604147911071777
+            ],
+            [
+                "CHI 2014, \n1143-1152. 7. Choe, E.K. Designing Self-Monitoring Technology to \n\nPromote Data Capture and Reflection.",
+                0.604064404964447
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.6094273328781128
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.6375696659088135
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.667570173740387
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.6748978495597839
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.7201782464981079
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7463904023170471
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7643955945968628
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.7881753444671631
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7891374230384827
+            ],
+            [
+                "9. Consolvo, S., Smith, I.E., Matthews, T., LaMarca, A., \nand Tabert, J.",
+                0.7901747822761536
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.7945390939712524
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7966799736022949
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8015984296798706
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.8021131157875061
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8040372133255005
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8104602098464966
+            ],
+            [
+                "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+                0.8142226934432983
+            ],
+            [
+                "PhD Dissertation. The Information School, University of Washington, \nSeattle Washington.",
+                0.8145819902420044
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8164703845977783
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.8225553035736084
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.825421154499054
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8272067904472351
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8408228158950806
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8424750566482544
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.719410240650177
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7223454713821411
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7286874055862427
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7297452092170715
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7297766804695129
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7394594550132751
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7525864243507385
+            ],
+            [
+                "Rethinking the Mobile Food Journal: Exploring \nOpportunities for Lightweight Photo-Based Capture.",
+                0.7613757252693176
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.7708592414855957
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7794502973556519
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7801487445831299
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.7807353734970093
+            ],
+            [
+                "Location Disclosure to Social Relations: \nWhy, When, & What People Want to Share.",
+                0.7983773946762085
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8052771091461182
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8096287846565247
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8154285550117493
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.816027045249939
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.8187410831451416
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8259000182151794
+            ],
+            [
+                "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+                0.8269572257995605
+            ],
+            [
+                "PhD Dissertation. The Information School, University of Washington, \nSeattle Washington.",
+                0.8269965052604675
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.829015851020813
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8388098478317261
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8408912420272827
+            ],
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.8453018069267273
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.8474453091621399
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8494881987571716
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8522558212280273
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8544830083847046
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.854745626449585
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7175265550613403
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7780594825744629
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7816511988639832
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7840983867645264
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7855222225189209
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7899888753890991
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.7975407838821411
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8061938285827637
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.8081218004226685
+            ],
+            [
+                "Rethinking the Mobile Food Journal: Exploring \nOpportunities for Lightweight Photo-Based Capture.",
+                0.8087877631187439
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8120916485786438
+            ],
+            [
+                "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+                0.8135231733322144
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.82088303565979
+            ],
+            [
+                "CHI 2014, \n1143-1152. 7. Choe, E.K. Designing Self-Monitoring Technology to \n\nPromote Data Capture and Reflection.",
+                0.8211701512336731
+            ],
+            [
+                "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+                0.8221132159233093
+            ],
+            [
+                "Design Requirements for Technologies that Encourage \nPhysical Activity. CHI 2006, 457-466.",
+                0.8237384557723999
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.829042911529541
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8307438492774963
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8308130502700806
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8314695358276367
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8344066143035889
+            ],
+            [
+                "8. Consolvo, S., Everitt, K., Smith, I., and Landay, J.A.",
+                0.8356480598449707
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8379721641540527
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8412044048309326
+            ],
+            [
+                "CHI 2015, 3207-3216. 11. Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,",
+                0.846383810043335
+            ],
+            [
+                "6. Choe, E.K., Lee, N.B., Lee, B., Pratt, W., and Kientz, \nJ.A.",
+                0.8470569849014282
+            ]
+        ]
+    ],
+    "evidence": [
+        "CHI 2005, \n81-90. 10. Cordeiro, F., Bales, E., Cherry, E., and Fogarty, J.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+        "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+        "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+        "CHI 2015, 3207-3216. 11. Cordeiro, F., Epstein, D.A., Thomaz, E., Bales, E.,",
+        "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+        "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI)."
+    ]
+}

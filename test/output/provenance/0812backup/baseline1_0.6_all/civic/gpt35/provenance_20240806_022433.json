@@ -1,0 +1,668 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__01262022-1835.pdf",
+    "question": "What are the names of mentioned capital improvement projects?",
+    "raw_provenance": [
+        "(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\nand includes installing new raised medians and improvements. New raised\nmedians are proposed east and west of PCH and Paradise Cove Road. The\nproposed improvements also include the relocation of the existing bus stop\nand new signage. The project will also include the installation of new raised\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\nof Zuma Beach, specifically where the yellow paddles are installed.\n\nCapital Improvement Projects (Completed)\n\nCivic Center Way Improvements\n\n(cid:190) Updates: The contractor has completed the planting material maintenance\nperiod as described within the project documents. Council accepted this\nproject as complete at the September 13th City Council Meeting.\n\nCivic Center Stormwater Diversion Structure",
+        "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+        "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n10-27-21\nItem\n4.A.\n\nTo:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: October 21, 2021\n\nMeeting date: October 27, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+        "Westward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021. At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives. A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022. Project alternatives will be\npresented to the commissions at a future date.\n\nthe project\n\nto review\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer/Winter 2022\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments. Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+        "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are. The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates. The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\ninto the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.\n\n2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue. This project was identified in the City’s Pavement\nManagement Plan. This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting.\n\nDisaster Projects (Design)"
+    ],
+    "evidence": [
+        "(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\nand includes installing new raised medians and improvements.",
+        "New raised\nmedians are proposed east and west of PCH and Paradise Cove Road.",
+        "The\nproposed improvements also include the relocation of the existing bus stop\nand new signage.",
+        "The project will also include the installation of new raised\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\nof Zuma Beach, specifically where the yellow paddles are installed.",
+        "Capital Improvement Projects (Completed)\n\nCivic Center Way Improvements\n\n(cid:190) Updates: The contractor has completed the planting material maintenance\nperiod as described within the project documents.",
+        "Council accepted this\nproject as complete at the September 13th City Council Meeting. Civic Center Stormwater Diversion Structure",
+        "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+        "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+        "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n10-27-21\nItem\n4.A.",
+        "To:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: October 21, 2021\n\nMeeting date: October 27, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.",
+        "DISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+        "Westward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021.",
+        "At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives.",
+        "the project\n\nto review\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer/Winter 2022\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments.",
+        "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+        "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+        "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+        "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+        "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+        "This project was identified in the City’s Pavement\nManagement Plan.",
+        "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)"
+    ],
+    "raw_answer": "Civic Center Way Improvements, Civic Center Stormwater Diversion Structure, Broad Beach Road Water Quality Infrastructure Repairs, Latigo Canyon Road Roadway/Retaining Wall Improvements, Trancas Canyon Park Planting and Irrigation Repairs, Marie Canyon Green Streets, Westward Beach Road Improvements Project, Civic Center Water Treatment Facility Phase 2",
+    "evidence_answer": "Civic Center Way Improvements, Civic Center Stormwater Diversion Structure, Broad Beach Road Water Quality Infrastructure Repairs, Latigo Canyon Road Roadway/Retaining Wall Improvements, Trancas Canyon Park Planting and Irrigation Repairs, Marie Canyon Green Streets, Westward Beach Road Improvements Project, Civic Center Water Treatment Facility Phase 2, 2021 Annual Street Maintenance",
+    "jaccard_similarity": 0.8918918918918919,
+    "search_pool": [
+        "Civic Center Way Improvements",
+        "What are the names of mentioned capital improvement projects?",
+        "Marie Canyon Green Streets",
+        "Civic Center Water Treatment Facility Phase 2",
+        "Trancas Canyon Park Planting and Irrigation Repairs",
+        "Broad Beach Road Water Quality Infrastructure Repairs",
+        "Westward Beach Road Improvements Project",
+        "Latigo Canyon Road Roadway/Retaining Wall Improvements",
+        "Civic Center Stormwater Diversion Structure"
+    ],
+    "unsorted_evidence": [
+        [
+            "Capital Improvement Projects (Completed)\n\nCivic Center Way Improvements\n\n(cid:190) Updates: The contractor has completed the planting material maintenance\nperiod as described within the project documents.",
+            0,
+            0.2789221405982971
+        ],
+        [
+            "DISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+            1,
+            0.3881862759590149
+        ],
+        [
+            "the project\n\nto review\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer/Winter 2022\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments.",
+            3,
+            0.31159406900405884
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            4,
+            0.2580885887145996
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.20242494344711304
+        ],
+        [
+            "Westward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021.",
+            6,
+            0.2069333791732788
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.3156548738479614
+        ],
+        [
+            "Council accepted this\nproject as complete at the September 13th City Council Meeting. Civic Center Stormwater Diversion Structure",
+            8,
+            0.22209131717681885
+        ],
+        [
+            "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+            0,
+            0.30614733695983887
+        ],
+        [
+            "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+            3,
+            0.37555640935897827
+        ],
+        [
+            "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+            0,
+            0.30722200870513916
+        ],
+        [
+            "(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\nand includes installing new raised medians and improvements.",
+            1,
+            0.49148309230804443
+        ],
+        [
+            "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+            5,
+            0.4603651762008667
+        ],
+        [
+            "To:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: October 21, 2021\n\nMeeting date: October 27, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.",
+            1,
+            0.5255467891693115
+        ],
+        [
+            "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.4668015241622925
+        ],
+        [
+            "The project will also include the installation of new raised\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\nof Zuma Beach, specifically where the yellow paddles are installed.",
+            5,
+            0.4935743808746338
+        ],
+        [
+            "At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives.",
+            6,
+            0.5015597343444824
+        ],
+        [
+            "The\nproposed improvements also include the relocation of the existing bus stop\nand new signage.",
+            0,
+            0.5084261894226074
+        ],
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            1,
+            0.5571082830429077
+        ],
+        [
+            "New raised\nmedians are proposed east and west of PCH and Paradise Cove Road.",
+            6,
+            0.5181572437286377
+        ],
+        [
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n10-27-21\nItem\n4.A.",
+            3,
+            0.5648949146270752
+        ],
+        [
+            "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)",
+            8,
+            0.5758830308914185
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            3,
+            0.5956180095672607
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            2,
+            0.682991623878479
+        ],
+        [
+            "New raised\nmedians are proposed east and west of PCH and Paradise Cove Road.",
+            2,
+            0.6884322166442871
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            1,
+            0.6227191090583801
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6608061790466309
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            5,
+            0.6294305324554443
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            3,
+            0.64408278465271
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.6434096693992615
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877686977386475
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            0,
+            0.6521338224411011
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            2,
+            0.7734837532043457
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            1,
+            0.6876894235610962
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            2,
+            0.7864077091217041
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            3,
+            0.6837015151977539
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            4,
+            0.7231278419494629
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            5,
+            0.6661152243614197
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            6,
+            0.6821646094322205
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            7,
+            0.7200568318367004
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            0,
+            0.677810549736023
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.79240483045578
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            6,
+            0.6826472282409668
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            8,
+            0.6906282305717468
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            0,
+            0.7194618582725525
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.7024023532867432
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            2,
+            0.7990410327911377
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            3,
+            0.7111103534698486
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            4,
+            0.7617709636688232
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.684012770652771
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            6,
+            0.683681309223175
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            7,
+            0.7751093506813049
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            8,
+            0.7155598402023315
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.728858470916748
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            1,
+            0.724048376083374
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7157191634178162
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            4,
+            0.7716448307037354
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            5,
+            0.715792179107666
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.7074722051620483
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            7,
+            0.7849670648574829
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            8,
+            0.7310140132904053
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "Capital Improvement Projects (Completed)\n\nCivic Center Way Improvements\n\n(cid:190) Updates: The contractor has completed the planting material maintenance\nperiod as described within the project documents.",
+            0,
+            0.2789221405982971
+        ],
+        [
+            "DISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2021-2022 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:",
+            1,
+            0.3881862759590149
+        ],
+        [
+            "the project\n\nto review\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer/Winter 2022\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments.",
+            3,
+            0.31159406900405884
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            4,
+            0.2580885887145996
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.20242494344711304
+        ],
+        [
+            "Westward Beach Road Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) The design plans were approved by Planning Commission on\nSeptember 20, 2021.",
+            6,
+            0.2069333791732788
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.3156548738479614
+        ],
+        [
+            "Council accepted this\nproject as complete at the September 13th City Council Meeting. Civic Center Stormwater Diversion Structure",
+            8,
+            0.22209131717681885
+        ],
+        [
+            "The improvements modified the existing concrete\nchannel underneath Civic Center Way by adding a 3’ concrete curb adjacent\nto the existing flap gates.",
+            0,
+            0.30614733695983887
+        ],
+        [
+            "into the City’s Civic Center Stormwater Treatment Facility. This project is\nscheduled to be accepted by the Council at the January 24, 2022 meeting.",
+            3,
+            0.37555640935897827
+        ],
+        [
+            "(cid:190) Updates: The contractor has completed the storm drain improvements in the\nCivic Center Way are.",
+            0,
+            0.30722200870513916
+        ],
+        [
+            "(cid:190) Project Description: This project was identified in the 2015 PCH Safety Study\nand includes installing new raised medians and improvements.",
+            1,
+            0.49148309230804443
+        ],
+        [
+            "2021 Annual Street Maintenance\n\n(cid:190) Updates: This project included resurfacing Malibu Road, Broad Beach Road,\nLatigo Canyon Road, Corral Canyon Road, Webb Way, Rambla Pacifico\nStreet and Vista Pacifica with a slurry seal treatment and adding speed\nhumps to Birdview Avenue.",
+            5,
+            0.4603651762008667
+        ],
+        [
+            "To:\n\nChair Simmens and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nApproved by:\n\nRob DuBoux, Public Works Director/City Engineer\n\nDate prepared: October 21, 2021\n\nMeeting date: October 27, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.",
+            1,
+            0.5255467891693115
+        ],
+        [
+            "The new curb prevents brackish water intrusion\n\nPage 4 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.4668015241622925
+        ],
+        [
+            "The project will also include the installation of new raised\nmedians on PCH in the areas where the double yellow lines exist in the vicinity\nof Zuma Beach, specifically where the yellow paddles are installed.",
+            5,
+            0.4935743808746338
+        ],
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            2,
+            0.682991623878479
+        ],
+        [
+            "New raised\nmedians are proposed east and west of PCH and Paradise Cove Road.",
+            2,
+            0.6884322166442871
+        ],
+        [
+            "At the December 13, 2021, City Council meeting,\nCouncil directed staff to withdraw the proposed project and associated\nCoastal Development Permit and directed the Public Works and Public\nSafety Commissions\nto develop project\nalternatives.",
+            6,
+            0.5015597343444824
+        ],
+        [
+            "The\nproposed improvements also include the relocation of the existing bus stop\nand new signage.",
+            0,
+            0.5084261894226074
+        ],
+        [
+            "This project was identified in the City’s Pavement\nManagement Plan.",
+            1,
+            0.5571082830429077
+        ],
+        [
+            "New raised\nmedians are proposed east and west of PCH and Paradise Cove Road.",
+            6,
+            0.5181572437286377
+        ],
+        [
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n10-27-21\nItem\n4.A.",
+            3,
+            0.5648949146270752
+        ],
+        [
+            "This project is scheduled to be accepted by the Council\nat the January 24, 2022 meeting. Disaster Projects (Design)",
+            8,
+            0.5758830308914185
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            3,
+            0.5956180095672607
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            1,
+            0.6227191090583801
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6608061790466309
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            5,
+            0.6294305324554443
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            3,
+            0.64408278465271
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.6434096693992615
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877686977386475
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            0,
+            0.6521338224411011
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            2,
+            0.7734837532043457
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            1,
+            0.6876894235610962
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            2,
+            0.7864077091217041
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            3,
+            0.6837015151977539
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            4,
+            0.7231278419494629
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            5,
+            0.6661152243614197
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            6,
+            0.6821646094322205
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            7,
+            0.7200568318367004
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            0,
+            0.677810549736023
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.79240483045578
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            6,
+            0.6826472282409668
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            8,
+            0.6906282305717468
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            0,
+            0.7194618582725525
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.7024023532867432
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            2,
+            0.7990410327911377
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            3,
+            0.7111103534698486
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            4,
+            0.7617709636688232
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.684012770652771
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            6,
+            0.683681309223175
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            7,
+            0.7751093506813049
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            8,
+            0.7155598402023315
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.728858470916748
+        ],
+        [
+            "Staff has been communicating\nwith the property owners regarding their proposed assessments.",
+            1,
+            0.724048376083374
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7157191634178162
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            4,
+            0.7716448307037354
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            5,
+            0.715792179107666
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.7074722051620483
+        ],
+        [
+            "A joint Public Works and Public Safety Commission\nmeeting was held on January 20, 2022.",
+            7,
+            0.7849670648574829
+        ],
+        [
+            "Project alternatives will be\npresented to the commissions at a future date.",
+            8,
+            0.7310140132904053
+        ]
+    ]
+}

@@ -1,0 +1,1495 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "4",
+    "evidence_answer": "9, 13, 2",
+    "evidence_token_num": 208,
+    "total_token_num": 648,
+    "extracted_search_list": [
+        "authors",
+        "4",
+        "number",
+        "quantity",
+        "value",
+        "paper"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.6829224824905396
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832473278045654
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6853262782096863
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.6992552876472473
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7132229208946228
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7280181050300598
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.7299564480781555
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.731852650642395
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7525585293769836
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7536793947219849
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.7552064657211304
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.7585369944572449
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7598497271537781
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7651240229606628
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.7691516876220703
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.772479236125946
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.773546040058136
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7740709185600281
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.7766577005386353
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.7777498364448547
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7814381718635559
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.781956136226654
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.7820595502853394
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828088998794556
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.788670003414154
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.788742184638977
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.7922065854072571
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.7936629056930542
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.7947929501533508
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.7952964305877686
+            ]
+        ],
+        [
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7144493460655212
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7228745222091675
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7364528775215149
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.738221287727356
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7423940300941467
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.7550115585327148
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7555216550827026
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7560147047042847
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7562379240989685
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7603737711906433
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7636445760726929
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7721530795097351
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.781197190284729
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7837905287742615
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.787403404712677
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.790653645992279
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.7907629013061523
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.7907968759536743
+            ],
+            [
+                "Fish’n'Steps: Encouraging Physical Activity \nwith an Interactive Computer Game.",
+                0.7917593717575073
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7987851500511169
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.7997316122055054
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8000969886779785
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8004534840583801
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8004922866821289
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8034684062004089
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8059331774711609
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8062578439712524
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8067834377288818
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8076688647270203
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.809467077255249
+            ]
+        ],
+        [
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7564844489097595
+            ],
+            [
+                "9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5).",
+                0.7697627544403076
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7733428478240967
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7774015665054321
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.792690098285675
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7942445874214172
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.794622004032135
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.7975111603736877
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7976678013801575
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8046578764915466
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8046770691871643
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8062126636505127
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8072124123573303
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8083791732788086
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.816511869430542
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.821582019329071
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8244050145149231
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8253209590911865
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8273119926452637
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8278476595878601
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8327449560165405
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.8346856236457825
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8349641561508179
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8419732451438904
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442564010620117
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.844871997833252
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8462350368499756
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8500686883926392
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8516975045204163
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8569290041923523
+            ]
+        ],
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7521256804466248
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7948989868164062
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8006898164749146
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8020972609519958
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8076883554458618
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8134743571281433
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8196958303451538
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.8216214179992676
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8242741227149963
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8257182836532593
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8295642137527466
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8330873250961304
+            ],
+            [
+                "9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5).",
+                0.8361949920654297
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.8364742398262024
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8381274938583374
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8381649255752563
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.840599000453949
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8429431915283203
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8446950912475586
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8456507921218872
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8465625047683716
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8507891893386841
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.8546739220619202
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8558043241500854
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8572810292243958
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8615514039993286
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8640488982200623
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8712000846862793
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8781434893608093
+            ],
+            [
+                "Interview \nparticipants were compensated with a $20 Amazon gift card.",
+                0.8810076117515564
+            ]
+        ],
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7422069311141968
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7659703493118286
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7781656980514526
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7829722762107849
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7830029726028442
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8092641234397888
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8122225999832153
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8125741481781006
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.8146238327026367
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8176702260971069
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8239972591400146
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8245352506637573
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8261981010437012
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8267151713371277
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.8272972106933594
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8281882405281067
+            ],
+            [
+                "Interview \nparticipants were compensated with a $20 Amazon gift card.",
+                0.830969512462616
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8358563780784607
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.8361667394638062
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8429648876190186
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8453580737113953
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8508308529853821
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8512928485870361
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8553774952888489
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.856341540813446
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8568175435066223
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8640869855880737
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.8641365766525269
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8645180463790894
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8654751777648926
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7174569368362427
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7759417295455933
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7780298590660095
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7898954749107361
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7910953760147095
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7973127365112305
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.7975236177444458
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.79877769947052
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040413856506348
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.8081473708152771
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8106381297111511
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8112714886665344
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8190358877182007
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8208612203598022
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8242008090019226
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8290280103683472
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8307211399078369
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8308357000350952
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8314645886421204
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8352106213569641
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8361728191375732
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.8375294208526611
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8379618525505066
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380024433135986
+            ],
+            [
+                "Fish’n'Steps: Encouraging Physical Activity \nwith an Interactive Computer Game.",
+                0.8453032374382019
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.8471087217330933
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8482567071914673
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.849298894405365
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8495252132415771
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8558261394500732
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.6829224824905396
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832473278045654
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6853262782096863
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.6992552876472473
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7132229208946228
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7280181050300598
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.7299564480781555
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.731852650642395
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7525585293769836
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7536793947219849
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.7552064657211304
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.7585369944572449
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7598497271537781
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7651240229606628
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.7691516876220703
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.772479236125946
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.773546040058136
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7740709185600281
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.7766577005386353
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.7777498364448547
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7814381718635559
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.781956136226654
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.7820595502853394
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828088998794556
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.788670003414154
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.788742184638977
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.7922065854072571
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.7936629056930542
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.7947929501533508
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.7952964305877686
+            ]
+        ],
+        [
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.7144493460655212
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7228745222091675
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7364528775215149
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.738221287727356
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7423940300941467
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.7550115585327148
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7555216550827026
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7560147047042847
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7562379240989685
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7603737711906433
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7636445760726929
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7721530795097351
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.781197190284729
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7837905287742615
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.787403404712677
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.790653645992279
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.7907629013061523
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.7907968759536743
+            ],
+            [
+                "Fish’n'Steps: Encouraging Physical Activity \nwith an Interactive Computer Game.",
+                0.7917593717575073
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7987851500511169
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.7997316122055054
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8000969886779785
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8004534840583801
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8004922866821289
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8034684062004089
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8059331774711609
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8062578439712524
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8067834377288818
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8076688647270203
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.809467077255249
+            ]
+        ],
+        [
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7564844489097595
+            ],
+            [
+                "9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5).",
+                0.7697627544403076
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.7733428478240967
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7774015665054321
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.792690098285675
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7942445874214172
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.794622004032135
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.7975111603736877
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7976678013801575
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8046578764915466
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8046770691871643
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8062126636505127
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8072124123573303
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8083791732788086
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.816511869430542
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.821582019329071
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8244050145149231
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8253209590911865
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8273119926452637
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8278476595878601
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8327449560165405
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.8346856236457825
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8349641561508179
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8419732451438904
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442564010620117
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.844871997833252
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8462350368499756
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8500686883926392
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8516975045204163
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8569290041923523
+            ]
+        ],
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7521256804466248
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7948989868164062
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8006898164749146
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8020972609519958
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8076883554458618
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8134743571281433
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8196958303451538
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.8216214179992676
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8242741227149963
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8257182836532593
+            ],
+            [
+                "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal).",
+                0.8295642137527466
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8330873250961304
+            ],
+            [
+                "9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5).",
+                0.8361949920654297
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.8364742398262024
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.8381274938583374
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8381649255752563
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.840599000453949
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8429431915283203
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8446950912475586
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8456507921218872
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8465625047683716
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8507891893386841
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.8546739220619202
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8558043241500854
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8572810292243958
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8615514039993286
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8640488982200623
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8712000846862793
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8781434893608093
+            ],
+            [
+                "Interview \nparticipants were compensated with a $20 Amazon gift card.",
+                0.8810076117515564
+            ]
+        ],
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7422069311141968
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7659703493118286
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7781656980514526
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.7829722762107849
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.7830029726028442
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8092641234397888
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8122225999832153
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8125741481781006
+            ],
+            [
+                "Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion.",
+                0.8146238327026367
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8176702260971069
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8239972591400146
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8245352506637573
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8261981010437012
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8267151713371277
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.8272972106933594
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8281882405281067
+            ],
+            [
+                "Interview \nparticipants were compensated with a $20 Amazon gift card.",
+                0.830969512462616
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.8358563780784607
+            ],
+            [
+                "UbiComp 2006, \n261-278. 24. Lindqvist, J., Cranshaw, J., Wiese, J., Hong, J., and \n\nZimmerman, J. I’m the Mayor of My House: Examining \nWhy People Use Foursquare-A Social-Driven Location \nSharing Application.",
+                0.8361667394638062
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8429648876190186
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8453580737113953
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8508308529853821
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8512928485870361
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8553774952888489
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.856341540813446
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8568175435066223
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8640869855880737
+            ],
+            [
+                "Evaluating \nOnline Labor Markets for Experimental Research: \nAmazon.com’s Mechanical Turk. Political Analysis 20, \n(2012), 351-368.",
+                0.8641365766525269
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8645180463790894
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8654751777648926
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7174569368362427
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7759417295455933
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7780298590660095
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7898954749107361
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7910953760147095
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7973127365112305
+            ],
+            [
+                "J Organ Behav Hum Dec, 50 (1991), 248-287. 2.",
+                0.7975236177444458
+            ],
+            [
+                "CHI 2011, 2409-2418. 25. Maitland, J. and Chalmers, M. Designing for Peer \n\nInvolvement in Weight Management.",
+                0.79877769947052
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040413856506348
+            ],
+            [
+                "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+                0.8081473708152771
+            ],
+            [
+                "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+                0.8106381297111511
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8112714886665344
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8190358877182007
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8208612203598022
+            ],
+            [
+                "Data, Myself: Supporting Self-Reflection with \nUbicomp Technologies. UbiComp 2011, 405-414.",
+                0.8242008090019226
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8290280103683472
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8307211399078369
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8308357000350952
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8314645886421204
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8352106213569641
+            ],
+            [
+                "The screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics",
+                0.8361728191375732
+            ],
+            [
+                "CHI 2011, 315-324. 26. Munson, S.A. and Consolvo, S. Exploring Goal-Setting, \nRewards, Self-Monitoring, and Sharing to Motivate \nPhysical Activity.",
+                0.8375294208526611
+            ],
+            [
+                "Baumer, E.P.S., Khovanskaya, V., Matthews, M., \nReynolds, L., Sosik, V.S., and Gay, G. Reviewing \nReflection: On the Use of Reflection in Interactive \nSystem Design.",
+                0.8379618525505066
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380024433135986
+            ],
+            [
+                "Fish’n'Steps: Encouraging Physical Activity \nwith an Interactive Computer Game.",
+                0.8453032374382019
+            ],
+            [
+                "Interview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers.",
+                0.8471087217330933
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8482567071914673
+            ],
+            [
+                "23. Lin, J.J., Mamykina, L., Lindtner, S., Delajoux, G., and \nStrub, H.B.",
+                0.849298894405365
+            ],
+            [
+                "Health Mashups : Presenting Statistical \nPatterns between Wellbeing Data and Context in \nNatural Language to Promote Behavior Change.",
+                0.8495252132415771
+            ],
+            [
+                "CHI 2013, 1095-1098. 5. Berinsky, A.J., Huber, G.A., and Lenz, G.S.",
+                0.8558261394500732
+            ]
+        ]
+    ],
+    "evidence": [
+        "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+        "DIS 2014, 93-102. 3. Bentley, F., Tollmar, K., Stephenson, P., Levy, L., \n\nJones, B., Robertson, S., Price, E., Catrambone, R., and \nWilson, J.",
+        "TOCHI 20, 5 (2013), 1-27. 4. Bentley, F. and Tollmar, K. The Power of Mobile \n\nNotifications to Increase Wellbeing Logging Behavior.",
+        "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+        "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+        "9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5).",
+        "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+        "Personal  Information \n\nManagement. UW Press, 2007."
+    ]
+}

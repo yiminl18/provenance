@@ -1,0 +1,82 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__01272021-1626.pdf",
+    "question": "What are the names of disaster projects starting later than 2022?",
+    "raw_provenance": [
+        "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:",
+        "(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nPage 5 of 6",
+        "Agenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.\n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights. The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)",
+        "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area. There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+        "(cid:131) The project consultant has started the design of the project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 4 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:"
+    ],
+    "evidence": [
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights.",
+        "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+        "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:"
+    ],
+    "raw_answer": "Clover Heights Storm Drain",
+    "evidence_answer": "None",
+    "jaccard_similarity": 0.0,
+    "search_pool": [
+        "Clover Heights Storm Drain",
+        "What are the names of disaster projects starting later than 2022?"
+    ],
+    "unsorted_evidence": [
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            0,
+            0.22766131162643433
+        ],
+        [
+            "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights.",
+            1,
+            0.44505995512008667
+        ],
+        [
+            "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+            0,
+            0.25794655084609985
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+            1,
+            0.4479040503501892
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            1,
+            0.4998024106025696
+        ]
+    ],
+    "less_similar_evidence": [],
+    "unsorted_unfiltered_evidence": [
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            0,
+            0.22766131162643433
+        ],
+        [
+            "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights.",
+            1,
+            0.44505995512008667
+        ],
+        [
+            "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+            0,
+            0.25794655084609985
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+            1,
+            0.4479040503501892
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            1,
+            0.4998024106025696
+        ]
+    ]
+}

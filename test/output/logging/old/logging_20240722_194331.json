@@ -1,0 +1,1491 @@
+{
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_answer": "Franklin, B.",
+    "evidence_answer": "None",
+    "evidence_token_num": 124,
+    "total_token_num": 578,
+    "extracted_search_list": [
+        "in the US",
+        "Franklin",
+        "B.",
+        "institution",
+        "authors",
+        "paper"
+    ],
+    "searched_docs": [
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7036599516868591
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7652934193611145
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7684245109558105
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.775241494178772
+            ],
+            [
+                "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+                0.7872214317321777
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7892450094223022
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.7932985424995422
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7970290780067444
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.8014016151428223
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8021537661552429
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.8091822862625122
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.8109289407730103
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8119845390319824
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8135650157928467
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8138434290885925
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8144569396972656
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.815995454788208
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8191585540771484
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8261458873748779
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8293360471725464
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8358193039894104
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8365674018859863
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8404552936553955
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8411039113998413
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8478977680206299
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8511765599250793
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8548518419265747
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8557131290435791
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8662741780281067
+            ],
+            [
+                "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+                0.8669548034667969
+            ]
+        ],
+        [
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.4584607481956482
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.733504056930542
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7893623113632202
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.7900950908660889
+            ],
+            [
+                "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+                0.805564284324646
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8183833360671997
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8201243877410889
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8255690336227417
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8262569904327393
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8272677063941956
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8284651041030884
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.8350982069969177
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8401311635971069
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8445543050765991
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8446571230888367
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.84489506483078
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8474326729774475
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8526273369789124
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8543235063552856
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.8599177002906799
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.861960768699646
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8620258569717407
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8658297061920166
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.8686535358428955
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8698183298110962
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8706889152526855
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.8744997382164001
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.874927282333374
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8753804564476013
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8770197629928589
+            ]
+        ],
+        [
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.6757808327674866
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.6968839168548584
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7040785551071167
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7089958190917969
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7133300304412842
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.7133320569992065
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.7323039770126343
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.733264684677124
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.7381559014320374
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.7401034832000732
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7445747256278992
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.745969295501709
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7488723993301392
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7512743473052979
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.751754641532898
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7544706463813782
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.7600065469741821
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.7603986263275146
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.7605783939361572
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7696376442909241
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7698926329612732
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7699583172798157
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7709747552871704
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7728239297866821
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.7748459577560425
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7755845785140991
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7775783538818359
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.7800816297531128
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.786889910697937
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7904419898986816
+            ]
+        ],
+        [
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7179828882217407
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7598974704742432
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7660443782806396
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7825797200202942
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7948538064956665
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7977596521377563
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8100351691246033
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.8113861083984375
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8113894462585449
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8146146535873413
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8184033036231995
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8229109048843384
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8290228843688965
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.830024242401123
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8300867080688477
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.8303572535514832
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.8304849863052368
+            ],
+            [
+                "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+                0.8318405151367188
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8327242136001587
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8327244520187378
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8371536731719971
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.8385120630264282
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.841741144657135
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8419666290283203
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8508485555648804
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8514475226402283
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8534218072891235
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.8564317226409912
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.8594827055931091
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8594832420349121
+            ]
+        ],
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.6754673719406128
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.68141770362854
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.6962839365005493
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7132664918899536
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.7152605056762695
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7176042199134827
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.7330170273780823
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7404376268386841
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.7546482086181641
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.7583065629005432
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7604759931564331
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.76828533411026
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.7728193402290344
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7735322713851929
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.7740563154220581
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7762755751609802
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.7774457931518555
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7830236554145813
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7890512943267822
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7906554341316223
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.792267382144928
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.793097972869873
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7944254875183105
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7955138683319092
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7985184192657471
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.8071711659431458
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8076179027557373
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8135395050048828
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.815914511680603
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8183631896972656
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7098260521888733
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.710973858833313
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.759263277053833
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7636466026306152
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7696261405944824
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7716209888458252
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.7759217023849487
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7759366631507874
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7785985469818115
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7904928922653198
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7972920536994934
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.8052952289581299
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.8053784370422363
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8089863657951355
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8117746710777283
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.8174132704734802
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8285618424415588
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8307138681411743
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8329334259033203
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8334513902664185
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8348269462585449
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8352166414260864
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8396223187446594
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8404912352561951
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.847676157951355
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8478681445121765
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8493753671646118
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8566865921020508
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8587141633033752
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7036599516868591
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7652934193611145
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7684245109558105
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.775241494178772
+            ],
+            [
+                "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+                0.7872214317321777
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7892450094223022
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.7932985424995422
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7970290780067444
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.8014016151428223
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8021537661552429
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.8091822862625122
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.8109289407730103
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8119845390319824
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8135650157928467
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8138434290885925
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8144569396972656
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.815995454788208
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8191585540771484
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8261458873748779
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8293360471725464
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8358193039894104
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8365674018859863
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8404552936553955
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8411039113998413
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8478977680206299
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8511765599250793
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8548518419265747
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8557131290435791
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8662741780281067
+            ],
+            [
+                "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+                0.8669548034667969
+            ]
+        ],
+        [
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.4584607481956482
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.733504056930542
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7893623113632202
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.7900950908660889
+            ],
+            [
+                "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+                0.805564284324646
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8183833360671997
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8201243877410889
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8255690336227417
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8262569904327393
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8272677063941956
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8284651041030884
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.8350982069969177
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8401311635971069
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8445543050765991
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8446571230888367
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.84489506483078
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8474326729774475
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8526273369789124
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8543235063552856
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.8599177002906799
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.861960768699646
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8620258569717407
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8658297061920166
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.8686535358428955
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8698183298110962
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8706889152526855
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.8744997382164001
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.874927282333374
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8753804564476013
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8770197629928589
+            ]
+        ],
+        [
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.6757808327674866
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.6968839168548584
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7040785551071167
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7089958190917969
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7133300304412842
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.7133320569992065
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.7323039770126343
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.733264684677124
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.7381559014320374
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.7401034832000732
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7445747256278992
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.745969295501709
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7488723993301392
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7512743473052979
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.751754641532898
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7544706463813782
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.7600065469741821
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.7603986263275146
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.7605783939361572
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7696376442909241
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7698926329612732
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7699583172798157
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7709747552871704
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7728239297866821
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.7748459577560425
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7755845785140991
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7775783538818359
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.7800816297531128
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.786889910697937
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7904419898986816
+            ]
+        ],
+        [
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7179828882217407
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7598974704742432
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7660443782806396
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7825797200202942
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7948538064956665
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7977596521377563
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8100351691246033
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.8113861083984375
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8113894462585449
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8146146535873413
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8184033036231995
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8229109048843384
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8290228843688965
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.830024242401123
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.8300867080688477
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.8303572535514832
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.8304849863052368
+            ],
+            [
+                "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+                0.8318405151367188
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8327242136001587
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.8327244520187378
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8371536731719971
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.8385120630264282
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.841741144657135
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8419666290283203
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8508485555648804
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8514475226402283
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8534218072891235
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.8564317226409912
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.8594827055931091
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8594832420349121
+            ]
+        ],
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.6754673719406128
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.68141770362854
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.6962839365005493
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7132664918899536
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.7152605056762695
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7176042199134827
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.7330170273780823
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7404376268386841
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.7546482086181641
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.7583065629005432
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.7604759931564331
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.76828533411026
+            ],
+            [
+                "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+                0.7728193402290344
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7735322713851929
+            ],
+            [
+                "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+                0.7740563154220581
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7762755751609802
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.7774457931518555
+            ],
+            [
+                "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+                0.7830236554145813
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7890512943267822
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.7906554341316223
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.792267382144928
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.793097972869873
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7944254875183105
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7955138683319092
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.7985184192657471
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.8071711659431458
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8076179027557373
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.8135395050048828
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.815914511680603
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8183631896972656
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7098260521888733
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.710973858833313
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.759263277053833
+            ],
+            [
+                "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+                0.7636466026306152
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7696261405944824
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7716209888458252
+            ],
+            [
+                "Communications  of \nthe ACM, 2006, pp. 88-95.",
+                0.7759217023849487
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7759366631507874
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7785985469818115
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7904928922653198
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7972920536994934
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.8052952289581299
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.8053784370422363
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8089863657951355
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8117746710777283
+            ],
+            [
+                "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+                0.8174132704734802
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+                0.8285618424415588
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8307138681411743
+            ],
+            [
+                "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+                0.8329334259033203
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8334513902664185
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.8348269462585449
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.8352166414260864
+            ],
+            [
+                "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+                0.8396223187446594
+            ],
+            [
+                "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+                0.8404912352561951
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.847676157951355
+            ],
+            [
+                "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+                0.8478681445121765
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8493753671646118
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8566865921020508
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.8587141633033752
+            ]
+        ]
+    ],
+    "evidence": [
+        "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+        "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+        "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+        "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+        "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page."
+    ]
+}

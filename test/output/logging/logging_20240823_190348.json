@@ -1,0 +1,853 @@
+{
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_answer": "Daniel A. Epstein, James Fogarty, Sean A. Munson",
+    "evidence_answer": "Daniel A. Epstein, James Fogarty",
+    "evidence_token_num": 122,
+    "total_token_num": 492,
+    "extracted_search_list": [
+        "What are the names of authors whose institutions are in the US for this paper?",
+        " James Fogarty ",
+        " Sean A. Munson",
+        "Daniel A. Epstein "
+    ],
+    "searched_docs": [
+        [
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.6687320470809937
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.6802860498428345
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6919087171554565
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.693679690361023
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.701696515083313
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7052338123321533
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7150489687919617
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.7284004092216492
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.7303996086120605
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.7315152883529663
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7359974384307861
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.7382367849349976
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7492997646331787
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.7541905641555786
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.7614227533340454
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7662390470504761
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7718791365623474
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.7792409062385559
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7927860021591187
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8010241985321045
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.809843122959137
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8416770696640015
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9074278473854065
+            ]
+        ],
+        [
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7707096338272095
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.786830484867096
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8217138051986694
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8271310329437256
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.8356469869613647
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8407620787620544
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8462801575660706
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.8516927361488342
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.854304850101471
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8549761772155762
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8553457856178284
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8572058081626892
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.8587619066238403
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.860049843788147
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8635170459747314
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.8700964450836182
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8728989362716675
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.879446804523468
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.8810515403747559
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.8843488097190857
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.9059345722198486
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.9142493009567261
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9208061695098877
+            ]
+        ],
+        [
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8057181239128113
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8154648542404175
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.8180932998657227
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.8231023550033569
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.831881046295166
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.837617814540863
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.8401303291320801
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.8448918461799622
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8483127355575562
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8484370708465576
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.8497480154037476
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8515647053718567
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8578078746795654
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.861865222454071
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8671499490737915
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8672540187835693
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8693549633026123
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8749805688858032
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.877362847328186
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.881068229675293
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8851866722106934
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.8864991068840027
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9080432057380676
+            ]
+        ],
+        [
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.6969302296638489
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.7234822511672974
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7246901988983154
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.7493908405303955
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7499834895133972
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7511516213417053
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7710807919502258
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.7851407527923584
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.7872552871704102
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7920104265213013
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.7943986654281616
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.794413685798645
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8129705190658569
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8157006502151489
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8163775205612183
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.8230016231536865
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8346067667007446
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.8461782336235046
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.851179301738739
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8663390874862671
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8855330944061279
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.8988296985626221
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.899838387966156
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.6687320470809937
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.6802860498428345
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6919087171554565
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.693679690361023
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.701696515083313
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.7052338123321533
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7150489687919617
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.7284004092216492
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.7303996086120605
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.7315152883529663
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.7359974384307861
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.7382367849349976
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7492997646331787
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.7541905641555786
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.7614227533340454
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7662390470504761
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7718791365623474
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.7792409062385559
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7927860021591187
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8010241985321045
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.809843122959137
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8416770696640015
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9074278473854065
+            ]
+        ],
+        [
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.7707096338272095
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.786830484867096
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8217138051986694
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8271310329437256
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.8356469869613647
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8407620787620544
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8462801575660706
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.8516927361488342
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.854304850101471
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8549761772155762
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.8553457856178284
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8572058081626892
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.8587619066238403
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.860049843788147
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8635170459747314
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.8700964450836182
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8728989362716675
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.879446804523468
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.8810515403747559
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.8843488097190857
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.9059345722198486
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.9142493009567261
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9208061695098877
+            ]
+        ],
+        [
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8057181239128113
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8154648542404175
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.8180932998657227
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.8231023550033569
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.831881046295166
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.837617814540863
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.8401303291320801
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.8448918461799622
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8483127355575562
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.8484370708465576
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.8497480154037476
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.8515647053718567
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8578078746795654
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.861865222454071
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.8671499490737915
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.8672540187835693
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8693549633026123
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8749805688858032
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.877362847328186
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.881068229675293
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.8851866722106934
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.8864991068840027
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.9080432057380676
+            ]
+        ],
+        [
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.6969302296638489
+            ],
+            [
+                "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+                0.7234822511672974
+            ],
+            [
+                "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+                0.7246901988983154
+            ],
+            [
+                "CHI 2010, 557-566. 22. Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+                0.7493908405303955
+            ],
+            [
+                "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data.",
+                0.7499834895133972
+            ],
+            [
+                "CHI 2006, \n1143-1152. 14. Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System?",
+                0.7511516213417053
+            ],
+            [
+                "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+                0.7710807919502258
+            ],
+            [
+                "UbiComp 2006, 177-193. 18. Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball.",
+                0.7851407527923584
+            ],
+            [
+                "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+                0.7872552871704102
+            ],
+            [
+                "CHI 2013, 1749-1758. 13. Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies.",
+                0.7920104265213013
+            ],
+            [
+                "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness.",
+                0.7943986654281616
+            ],
+            [
+                "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+                0.794413685798645
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8129705190658569
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8157006502151489
+            ],
+            [
+                "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+                0.8163775205612183
+            ],
+            [
+                "Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems.",
+                0.8230016231536865
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+                0.8346067667007446
+            ],
+            [
+                "CHI 2014, 487-496. 17. Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid.",
+                0.8461782336235046
+            ],
+            [
+                "J Compu-Mediat \nComm 13, (2007), 341-360. 19. Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A.",
+                0.851179301738739
+            ],
+            [
+                "Request permissions from permissions@acm.org. UbiComp '15, September 7-11, 2015, Osaka, Japan.",
+                0.8663390874862671
+            ],
+            [
+                "CHI 2015, 1159-1162. 12. Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks.",
+                0.8855330944061279
+            ],
+            [
+                "There’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface.",
+                0.8988296985626221
+            ],
+            [
+                "ACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+                0.899838387966156
+            ]
+        ]
+    ],
+    "evidence": [
+        "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+        "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+        "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+        "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+        "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+        "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu"
+    ],
+    "unsorted_evidence": [
+        [
+            "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+            0,
+            0.6687320470809937
+        ],
+        [
+            "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+            1,
+            0.7707096338272095
+        ],
+        [
+            "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+            3,
+            0.6969302296638489
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+            0,
+            0.6802860498428345
+        ],
+        [
+            "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+            1,
+            0.786830484867096
+        ],
+        [
+            "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+            3,
+            0.7234822511672974
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+            2,
+            0.8057181239128113
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "Copyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. http://dx.doi.org/10.1145/2750858.2804250",
+            0,
+            0.6687320470809937
+        ],
+        [
+            "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+            1,
+            0.7707096338272095
+        ],
+        [
+            "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+            2,
+            0.8057181239128113
+        ],
+        [
+            "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+            3,
+            0.6969302296638489
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.",
+            0,
+            0.6802860498428345
+        ],
+        [
+            "DIS 2014, 667-676. 16. Fritz, T., Huang, E.M., Murphy, G.C., and",
+            1,
+            0.786830484867096
+        ],
+        [
+            "Money Talks: Tracking Personal Finances. CHI  2014, 521-530. 21.",
+            3,
+            0.7234822511672974
+        ]
+    ]
+}

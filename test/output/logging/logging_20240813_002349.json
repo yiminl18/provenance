@@ -1,0 +1,620 @@
+{
+    "question": "What is the publication year of this paper?",
+    "raw_answer": "2007",
+    "evidence_answer": "2007,2018,2000,2006,2003,1984",
+    "evidence_token_num": 106,
+    "total_token_num": 511,
+    "extracted_search_list": [
+        "What is the publication year of this paper?",
+        "2007"
+    ],
+    "searched_docs": [
+        [
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.5976971387863159
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.6304450631141663
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.6426613330841064
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.6512727737426758
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.6652345061302185
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.6694392561912537
+            ],
+            [
+                "We thank Asma Ghan-\ndeharioun, Weixuan (Vincent) Chen and Sam Spaulding for\ncomments that greatly improved the manuscript, and 3 \"anony-\nmous\" reviewers for their insights in presenting the research\nmethodology and results.",
+                0.6888318061828613
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.6960767507553101
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7006711959838867
+            ],
+            [
+                "Assessment 13, 1 (2006), 27–45. 2. Joseph Bates and others.",
+                0.7043691277503967
+            ],
+            [
+                "REFERENCES\n\n1. Ruth A Baer, Gregory T Smith, Jaclyn Hopkins, Jennifer\nKrietemeyer, and Leslie Toney.",
+                0.710749626159668
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.711031436920166
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7137596607208252
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7151317000389099
+            ],
+            [
+                "ACKNOWLEDGEMENT\nThis research was partially supported by the Advancing Well-\nbeing Initiative at the MIT Media Lab.",
+                0.724245548248291
+            ],
+            [
+                "1994. The role of emotion in\n\nbelievable agents. Commun. ACM 37, 7 (1994), 122–125.",
+                0.7393920421600342
+            ],
+            [
+                "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+                0.7427092790603638
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.7490061521530151
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7525207996368408
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7619655728340149
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7679238319396973
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7708926200866699
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7777068614959717
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7855237722396851
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7869501113891602
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7985777854919434
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.800010085105896
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.800033688545227
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8070480227470398
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8091298341751099
+            ]
+        ],
+        [
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.6834404468536377
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.6890742182731628
+            ],
+            [
+                "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+                0.6902576088905334
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7015278935432434
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7160559892654419
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7212437987327576
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7434122562408447
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7464332580566406
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7697160243988037
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.772333025932312
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7735424637794495
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.775513768196106
+            ],
+            [
+                "Assessment 13, 1 (2006), 27–45. 2. Joseph Bates and others.",
+                0.7757652997970581
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7774004340171814
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7791225910186768
+            ],
+            [
+                "REFERENCES\n\n1. Ruth A Baer, Gregory T Smith, Jaclyn Hopkins, Jennifer\nKrietemeyer, and Leslie Toney.",
+                0.7837882041931152
+            ],
+            [
+                "ACKNOWLEDGEMENT\nThis research was partially supported by the Advancing Well-\nbeing Initiative at the MIT Media Lab.",
+                0.7838499546051025
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7844372391700745
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7874500751495361
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.789145290851593
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.7907575368881226
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7917465567588806
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.7920535802841187
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7928163409233093
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7937378883361816
+            ],
+            [
+                "1994. The role of emotion in\n\nbelievable agents. Commun. ACM 37, 7 (1994), 122–125.",
+                0.7962252497673035
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8024535179138184
+            ],
+            [
+                "We thank Asma Ghan-\ndeharioun, Weixuan (Vincent) Chen and Sam Spaulding for\ncomments that greatly improved the manuscript, and 3 \"anony-\nmous\" reviewers for their insights in presenting the research\nmethodology and results.",
+                0.805152416229248
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.8100827932357788
+            ],
+            [
+                "3. Todd Bentley, Lorraine Johnston, and Karola von Baggo.",
+                0.8184845447540283
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.5976971387863159
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.6304450631141663
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.6426613330841064
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.6512727737426758
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.6652345061302185
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.6694392561912537
+            ],
+            [
+                "We thank Asma Ghan-\ndeharioun, Weixuan (Vincent) Chen and Sam Spaulding for\ncomments that greatly improved the manuscript, and 3 \"anony-\nmous\" reviewers for their insights in presenting the research\nmethodology and results.",
+                0.6888318061828613
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.6960767507553101
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7006711959838867
+            ],
+            [
+                "Assessment 13, 1 (2006), 27–45. 2. Joseph Bates and others.",
+                0.7043691277503967
+            ],
+            [
+                "REFERENCES\n\n1. Ruth A Baer, Gregory T Smith, Jaclyn Hopkins, Jennifer\nKrietemeyer, and Leslie Toney.",
+                0.710749626159668
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.711031436920166
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7137596607208252
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7151317000389099
+            ],
+            [
+                "ACKNOWLEDGEMENT\nThis research was partially supported by the Advancing Well-\nbeing Initiative at the MIT Media Lab.",
+                0.724245548248291
+            ],
+            [
+                "1994. The role of emotion in\n\nbelievable agents. Commun. ACM 37, 7 (1994), 122–125.",
+                0.7393920421600342
+            ],
+            [
+                "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+                0.7427092790603638
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.7490061521530151
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7525207996368408
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7619655728340149
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7679238319396973
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7708926200866699
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7777068614959717
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7855237722396851
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7869501113891602
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7985777854919434
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.800010085105896
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.800033688545227
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8070480227470398
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8091298341751099
+            ]
+        ],
+        [
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.6834404468536377
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.6890742182731628
+            ],
+            [
+                "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+                0.6902576088905334
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7015278935432434
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7160559892654419
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7212437987327576
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7434122562408447
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7464332580566406
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7697160243988037
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.772333025932312
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7735424637794495
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.775513768196106
+            ],
+            [
+                "Assessment 13, 1 (2006), 27–45. 2. Joseph Bates and others.",
+                0.7757652997970581
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7774004340171814
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7791225910186768
+            ],
+            [
+                "REFERENCES\n\n1. Ruth A Baer, Gregory T Smith, Jaclyn Hopkins, Jennifer\nKrietemeyer, and Leslie Toney.",
+                0.7837882041931152
+            ],
+            [
+                "ACKNOWLEDGEMENT\nThis research was partially supported by the Advancing Well-\nbeing Initiative at the MIT Media Lab.",
+                0.7838499546051025
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7844372391700745
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7874500751495361
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.789145290851593
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.7907575368881226
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7917465567588806
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.7920535802841187
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7928163409233093
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7937378883361816
+            ],
+            [
+                "1994. The role of emotion in\n\nbelievable agents. Commun. ACM 37, 7 (1994), 122–125.",
+                0.7962252497673035
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8024535179138184
+            ],
+            [
+                "We thank Asma Ghan-\ndeharioun, Weixuan (Vincent) Chen and Sam Spaulding for\ncomments that greatly improved the manuscript, and 3 \"anony-\nmous\" reviewers for their insights in presenting the research\nmethodology and results.",
+                0.805152416229248
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.8100827932357788
+            ],
+            [
+                "3. Todd Bentley, Lorraine Johnston, and Karola von Baggo.",
+                0.8184845447540283
+            ]
+        ]
+    ],
+    "evidence": [
+        "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+        "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+        "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+        "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+        "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+        "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+        "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+        "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+        "Journal of\npersonality and Social Psychology 46, 4 (1984), 919."
+    ],
+    "unsorted_evidence": [
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            0,
+            0.5976971387863159
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            1,
+            0.6834404468536377
+        ],
+        [
+            "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+            0,
+            0.6304450631141663
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            1,
+            0.6890742182731628
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            0,
+            0.6426613330841064
+        ],
+        [
+            "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+            1,
+            0.6902576088905334
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            0,
+            0.6512727737426758
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            0,
+            0.6652345061302185
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            0,
+            0.6694392561912537
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            1,
+            0.7160559892654419
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            0,
+            0.5976971387863159
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            1,
+            0.6834404468536377
+        ],
+        [
+            "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+            0,
+            0.6304450631141663
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            1,
+            0.6890742182731628
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            0,
+            0.6426613330841064
+        ],
+        [
+            "2006. Using self-report\nassessment methods to explore facets of mindfulness.",
+            1,
+            0.6902576088905334
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            0,
+            0.6512727737426758
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            0,
+            0.6652345061302185
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            1,
+            0.7160559892654419
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            0,
+            0.6694392561912537
+        ]
+    ]
+}

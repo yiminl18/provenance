@@ -1,0 +1,815 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03232022-1869.pdf",
+        "question": "What are the names of projects starting before 2022?",
+        "raw_provenance": [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant. It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.\n(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.\n\nCapital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area. There are two locations\nwithin the City\u2019s right-of-way and City-owned property that would require a\nvehicle impact protection device.\n\nLegacy Park Paver Repair Project",
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles\u2019 damaged\nguardrails. The project was completed in February 2021.",
+            "(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nCivic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021. Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.\n\n(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022. A new request for further\nmodification of the schedule has been requested.\n\n(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure"
+        ],
+        "evidence": [
+            "There are two locations\nwithin the City\u2019s right-of-way and City-owned property that would require a\nvehicle impact protection device. Legacy Park Paver Repair Project",
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            "The project was combined with the County of Los Angeles\u2019 damaged\nguardrails. The project was completed in February 2021."
+        ],
+        "raw_answer": "Legacy Park Paver Repair Project, Citywide Guardrail Replacement",
+        "evidence_answer": "Citywide Guardrail Replacement",
+        "jaccard_similarity": 0.3333333333333333,
+        "search_pool": [
+            "What are the names of projects starting before 2022?",
+            "Citywide Guardrail Replacement",
+            "Legacy Park Paver Repair Project"
+        ],
+        "unsorted_evidence": [
+            [
+                "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+                1,
+                0.41031837463378906
+            ],
+            [
+                "There are two locations\nwithin the City\u2019s right-of-way and City-owned property that would require a\nvehicle impact protection device. Legacy Park Paver Repair Project",
+                2,
+                0.33200424909591675
+            ],
+            [
+                "The project was combined with the County of Los Angeles\u2019 damaged\nguardrails. The project was completed in February 2021.",
+                1,
+                0.41213977336883545
+            ]
+        ],
+        "less_similar_evidence": [
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                0,
+                0.5046838521957397
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                0,
+                0.527402400970459
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                2,
+                0.5211201906204224
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                0,
+                0.5653669238090515
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                2,
+                0.5344724059104919
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                0,
+                0.5727724432945251
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                1,
+                0.544723629951477
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                2,
+                0.5372139811515808
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                0,
+                0.5848679542541504
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                1,
+                0.556675374507904
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                0,
+                0.6046772003173828
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                1,
+                0.5646024942398071
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                2,
+                0.5657144784927368
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                0,
+                0.6070124506950378
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                1,
+                0.5759738683700562
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                0,
+                0.6370970010757446
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                1,
+                0.585747480392456
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                2,
+                0.5884939432144165
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                1,
+                0.6046468019485474
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                2,
+                0.5957737565040588
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0,
+                0.6445143222808838
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                1,
+                0.6184892058372498
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                2,
+                0.6008361577987671
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                0,
+                0.6553100943565369
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                1,
+                0.6242730021476746
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                2,
+                0.6046786308288574
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                0,
+                0.6640099287033081
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                1,
+                0.629437267780304
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                2,
+                0.6063985228538513
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                0,
+                0.6722140908241272
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                1,
+                0.6526238918304443
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                2,
+                0.6205163598060608
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                0,
+                0.6729454398155212
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                1,
+                0.653997540473938
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                2,
+                0.6271843910217285
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                1,
+                0.6545685529708862
+            ],
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                2,
+                0.6285301446914673
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0,
+                0.7145410180091858
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                1,
+                0.66497802734375
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                2,
+                0.6296245455741882
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                0,
+                0.726080060005188
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                1,
+                0.6768292784690857
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                2,
+                0.6509675979614258
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                0,
+                0.7269959449768066
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                1,
+                0.6796776056289673
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                2,
+                0.6535593867301941
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                0,
+                0.7539017200469971
+            ],
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                1,
+                0.6885743141174316
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                2,
+                0.6716185212135315
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                0,
+                0.7568968534469604
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                1,
+                0.6974013447761536
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                2,
+                0.6883958578109741
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                1,
+                0.7258437871932983
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                2,
+                0.7115810513496399
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                0,
+                0.7931720018386841
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                1,
+                0.7305116653442383
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                2,
+                0.7219729423522949
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                0,
+                0.7953559160232544
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                1,
+                0.7312328815460205
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                2,
+                0.7439978718757629
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                0,
+                0.807831883430481
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                1,
+                0.7417916059494019
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                2,
+                0.7459578514099121
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                0,
+                0.8083951473236084
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                1,
+                0.7523704767227173
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                2,
+                0.7548359036445618
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0,
+                0.8343573808670044
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                1,
+                0.7588016986846924
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                2,
+                0.7640883922576904
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                0,
+                0.855502188205719
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                1,
+                0.7898116111755371
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                2,
+                0.7742727994918823
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                0,
+                0.8748633861541748
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                1,
+                0.8635133504867554
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                2,
+                0.8491469621658325
+            ]
+        ],
+        "unsorted_unfiltered_evidence": [
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                0,
+                0.5046838521957397
+            ],
+            [
+                "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+                1,
+                0.41031837463378906
+            ],
+            [
+                "There are two locations\nwithin the City\u2019s right-of-way and City-owned property that would require a\nvehicle impact protection device. Legacy Park Paver Repair Project",
+                2,
+                0.33200424909591675
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                0,
+                0.527402400970459
+            ],
+            [
+                "The project was combined with the County of Los Angeles\u2019 damaged\nguardrails. The project was completed in February 2021.",
+                1,
+                0.41213977336883545
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                2,
+                0.5211201906204224
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                0,
+                0.5653669238090515
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                2,
+                0.5344724059104919
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                0,
+                0.5727724432945251
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                1,
+                0.544723629951477
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                2,
+                0.5372139811515808
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                0,
+                0.5848679542541504
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                1,
+                0.556675374507904
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                0,
+                0.6046772003173828
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                1,
+                0.5646024942398071
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                2,
+                0.5657144784927368
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                0,
+                0.6070124506950378
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                1,
+                0.5759738683700562
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                0,
+                0.6370970010757446
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                1,
+                0.585747480392456
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                2,
+                0.5884939432144165
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                1,
+                0.6046468019485474
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                2,
+                0.5957737565040588
+            ],
+            [
+                "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0,
+                0.6445143222808838
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                1,
+                0.6184892058372498
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                2,
+                0.6008361577987671
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+                0,
+                0.6553100943565369
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                1,
+                0.6242730021476746
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                2,
+                0.6046786308288574
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces located\nadjacent to any outdoor pedestrian seating area.",
+                0,
+                0.6640099287033081
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Advertise for Bidding: December 2022\n(cid:131) Begin Construction: Spring 2023\n\nBluffs Park Shade Structure",
+                1,
+                0.629437267780304
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Begin Design: Late Spring 2022\n\nCapital Improvement Projects (Construction)\n\nThe City does not have projects in construction at this time.",
+                2,
+                0.6063985228538513
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                0,
+                0.6722140908241272
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+                1,
+                0.6526238918304443
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                2,
+                0.6205163598060608
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                0,
+                0.6729454398155212
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2022\n(cid:131) Begin Construction: Fall/Winter 2022\n\nPage 2 of 8\n\nAgenda Item # 4.A.",
+                1,
+                0.653997540473938
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+                2,
+                0.6271843910217285
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                1,
+                0.6545685529708862
+            ],
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                2,
+                0.6285301446914673
+            ],
+            [
+                "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0,
+                0.7145410180091858
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                1,
+                0.66497802734375
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                2,
+                0.6296245455741882
+            ],
+            [
+                "Civic Center Water Treatment Facility Phase 2\n\n(cid:190) Updates:\n(cid:131)\n\nIndividual letters were mailed to all properties within Phase 2 with their\npreliminary estimated assessments in July 2021.",
+                0,
+                0.726080060005188
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                1,
+                0.6768292784690857
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                2,
+                0.6509675979614258
+            ],
+            [
+                "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City\u2019s consultant.",
+                0,
+                0.7269959449768066
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+                1,
+                0.6796776056289673
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                2,
+                0.6535593867301941
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                0,
+                0.7539017200469971
+            ],
+            [
+                "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+                1,
+                0.6885743141174316
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                2,
+                0.6716185212135315
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                0,
+                0.7568968534469604
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                1,
+                0.6974013447761536
+            ],
+            [
+                "It is\nanticipated that the final design will be complete by July 2022.",
+                2,
+                0.6883958578109741
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                1,
+                0.7258437871932983
+            ],
+            [
+                "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+                2,
+                0.7115810513496399
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                0,
+                0.7931720018386841
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                1,
+                0.7305116653442383
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                2,
+                0.7219729423522949
+            ],
+            [
+                "(cid:131) Staff reviewed proposals for engineering design services and has\nselected a qualified consultant.",
+                0,
+                0.7953559160232544
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                1,
+                0.7312328815460205
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                2,
+                0.7439978718757629
+            ],
+            [
+                "A design\nreport will be presented to Council upon completion.",
+                0,
+                0.807831883430481
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                1,
+                0.7417916059494019
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                2,
+                0.7459578514099121
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                0,
+                0.8083951473236084
+            ],
+            [
+                "(cid:131) The project consultant prepared the specifications for the project.",
+                1,
+                0.7523704767227173
+            ],
+            [
+                "A new request for further\nmodification of the schedule has been requested.",
+                2,
+                0.7548359036445618
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0,
+                0.8343573808670044
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                1,
+                0.7588016986846924
+            ],
+            [
+                "It is anticipated that the agreement will\ngo to Council in April 2022 after the Funding Agreement is issued by\nMetro.",
+                2,
+                0.7640883922576904
+            ],
+            [
+                "(cid:131) Staff mailed easement documents to property owners for review and\nexecution in July and has followed up with an additional letter to those\nproperty owners.",
+                0,
+                0.855502188205719
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                1,
+                0.7898116111755371
+            ],
+            [
+                "(cid:131) The MOU has been amended modifying the deadline to the formation\nof the assessment district to June 30, 2022.",
+                2,
+                0.7742727994918823
+            ],
+            [
+                "Staff has been\ncommunicating with the property owners regarding their proposed\nassessments.",
+                0,
+                0.8748633861541748
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                1,
+                0.8635133504867554
+            ],
+            [
+                "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+                2,
+                0.8491469621658325
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_0.5/civic/gpt4o/provenance_20240813_000905.json"
+    }
+]

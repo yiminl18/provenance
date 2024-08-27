@@ -1,0 +1,35 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 0,
+    "document_path": "data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf",
+    "question": "How many authors are there for this paper?",
+    "raw_provenance": [
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from permissions@acm.org. \nUbiComp '15, September 7-11, 2015, Osaka, Japan. \nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \nhttp://dx.doi.org/10.1145/2750858.2804250",
+        "The  full  survey  consisted  of  free  response  questions  about \neach current and previous tool, asking why they started and \nstopped using that tool as appropriate. The first two authors \naffinity diagrammed these responses, identified themes, and \nthen separately qualitatively coded the responses, iteratively \nrefining codes through discussion.",
+        "ACKNOWLEDGMENTS \nWe thank Kelly Campbell, Monica Caraway, Season Dai, Yoanna \nDosouto,  Nicole  Fugere,  Coimbra  Jackson,  Bradley  Jacobson, \nChuck Johnston, Kim Lambert, Alex Pease, Sreedev Sidharthan, \nMaria  Suhardi,  Megan  Taylor,  and  Frank  Xu  for  their \ncontributions  through  survey  design  and  participant  interviews. \nWe  also  thank  Elena  Agapie,  Elizabeth  Bales,  Lucas  Franco \nColusso, Felicia Cordeiro, and Ravi Karkar for early feedback and \ndesign  of  visuals.  This  work  is  sponsored  in  part  by  the  Intel \nScience and Technology Center for Pervasive Computing, Nokia \nResearch, the AHRQ under award 1R21HS023654, and the NSF \nunder awards OAI-1028195 and SCH-1344613. \n\n \n \n\fSESSION: PERSUASIVE AND PERSONAL\n\nREFERENCES \n1.  Bandura, A. Social Cognitive Theory of Self-Regulation.",
+        "Interview Methods \nAfter completion of qualitative coding of the survey data, the \nfirst  two  authors  identified  questions  that  required  further \nin-depth  interviews  to  address.  Of Turkers who indicated in \nthe survey that they were willing to be contacted for interviews, \n36 respondents were identified as having representative tracking \nmotivations,  behaviors,  and  experiences  and  were  verbose  in \nresponses,  of  which  6  responded.  We  supplemented  these \ninterviews  with  another  16  recruited  through  university \nmailing lists and posts to social media. These interviewees \nwere screened for the same criteria as the Turkers.",
+        "Interviews lasted an average of 38 minutes (min 16, max 59) \nand  were  each  conducted  by  two  members  of  the  research \nteam  (12  researchers  conducted \ntotal). \n9  interviewees identified as male, 13 as female. They ranged \nin age from 24 to 39 (mean: 29.7, median: 29.5). Interview \nparticipants were compensated with a $20 Amazon gift card. \nInterview  themes  were  identified  and  codes  were  created \n\ninterviews \n\nin \n\nUBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nthrough a discussion with all interviewers. Two interviewers \nqualitatively  coded  each  interview,  with  codes  iteratively \nrefined through discussion. \n\nThe screener survey, full survey, and interview protocol are \npublicly available: https://github.com/depstein/lived-informatics"
+    ],
+    "evidence": [
+        "The first two authors",
+        "Monica Caraway",
+        "Frank Xu",
+        "Alex Pease",
+        "Bradley Jacobson",
+        "Season Dai",
+        "Megan Taylor",
+        "Yoanna Dosouto",
+        "Kelly Campbell",
+        "Maria Suhardi",
+        "12 researchers conducted total",
+        "Coimbra Jackson",
+        "Sreedev Sidharthan",
+        "Nicole Fugere",
+        "Kim Lambert",
+        "Chuck Johnston",
+        "first two authors"
+    ],
+    "raw_answer": "9",
+    "evidence_answer": "2",
+    "search_pool": []
+}

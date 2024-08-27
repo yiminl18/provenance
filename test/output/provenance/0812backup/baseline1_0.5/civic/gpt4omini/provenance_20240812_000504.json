@@ -1,0 +1,308 @@
+{
+    "model_name": "gpt4omini",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__01262022-1835.pdf",
+    "question": "What are the names of disaster projects starting later than 2022?",
+    "raw_provenance": [
+        "(cid:131) The City has hired a consultant to design this project. The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Updates: Council approved an agreement in December for design services.\n\nA kick-off meeting was held in late December.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by February 2022. The\nproject will be advertised for construction bids with construction\nbeginning in April 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.\n\n(cid:190) Updates:\n\n(cid:131) The project design will commence during the Spring 2022.\n\n(cid:190) Estimated Schedule: TBD\n\nMalibu Road Slope Repairs (CalOES Project)\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road.\n\n(cid:190) Updates:",
+        "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022"
+    ],
+    "evidence": [
+        "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road."
+    ],
+    "raw_answer": "None",
+    "evidence_answer": "None",
+    "jaccard_similarity": 1.0,
+    "search_pool": [
+        "What are the names of disaster projects starting later than 2022?"
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            0,
+            0.4850482940673828
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            0,
+            0.5000801086425781
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            0,
+            0.5147557258605957
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            0,
+            0.5166435241699219
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in April 2022.",
+            0,
+            0.5210064649581909
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.5228832960128784
+        ],
+        [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+            0,
+            0.5264782905578613
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            0,
+            0.5571646690368652
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            0,
+            0.561901330947876
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.5647497177124023
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by February 2022.",
+            0,
+            0.5684099793434143
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) The project design will commence during the Spring 2022.",
+            0,
+            0.5731985569000244
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            0,
+            0.5768256187438965
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            0,
+            0.577989399433136
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            0,
+            0.5796281099319458
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            0,
+            0.6102297306060791
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            0,
+            0.6399259567260742
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nMalibu Road Slope Repairs (CalOES Project)\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road. (cid:190) Updates:",
+            0,
+            0.6512800455093384
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6667490005493164
+        ],
+        [
+            "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+            0,
+            0.6803063750267029
+        ],
+        [
+            "(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.6930427551269531
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            0,
+            0.702512264251709
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            0,
+            0.7040280103683472
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.7080166339874268
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.7168912887573242
+        ],
+        [
+            "(cid:131) The City has hired a consultant to design this project.",
+            0,
+            0.7236146330833435
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.7366961240768433
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.7803494334220886
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            0,
+            0.4850482940673828
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            0,
+            0.5000801086425781
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            0,
+            0.5147557258605957
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            0,
+            0.5166435241699219
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in April 2022.",
+            0,
+            0.5210064649581909
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.5228832960128784
+        ],
+        [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+            0,
+            0.5264782905578613
+        ],
+        [
+            "The design has\n\nstarted and is anticipated to be completed by the Spring of 2022.",
+            0,
+            0.5571646690368652
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            0,
+            0.561901330947876
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.5647497177124023
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by February 2022.",
+            0,
+            0.5684099793434143
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) The project design will commence during the Spring 2022.",
+            0,
+            0.5731985569000244
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            0,
+            0.5768256187438965
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: Spring 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            0,
+            0.577989399433136
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: February 2022\n(cid:131) Begin Construction: April 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            0,
+            0.5796281099319458
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            0,
+            0.6102297306060791
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            0,
+            0.6399259567260742
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nMalibu Road Slope Repairs (CalOES Project)\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu Road. (cid:190) Updates:",
+            0,
+            0.6512800455093384
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6667490005493164
+        ],
+        [
+            "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+            0,
+            0.6803063750267029
+        ],
+        [
+            "(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.6930427551269531
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            0,
+            0.702512264251709
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            0,
+            0.7040280103683472
+        ],
+        [
+            "Broad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.7080166339874268
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.7168912887573242
+        ],
+        [
+            "(cid:131) The City has hired a consultant to design this project.",
+            0,
+            0.7236146330833435
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.7366961240768433
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.7803494334220886
+        ]
+    ]
+}

@@ -10,6 +10,8 @@ interface Props {
   baseline_type: string;
   raw_answer: string;
   evidence_answer: string;
+  evidence: string;
+  search_pool: string;
   onFileSubmit: (fileName: string) => void;
 }
 
@@ -27,6 +29,8 @@ export function Sidebar({
   model_name,
   raw_answer,
   evidence_answer,
+  search_pool,
+  evidence,
   onFileSubmit,
 }: Props) {
   const [fileName, setFileName] = useState("");
@@ -121,6 +125,16 @@ export function Sidebar({
       <div className="sidebar__evidence-answer" style={{ padding: "1rem" }}>
         <h3>Evidence Answer</h3>
         <p>{evidence_answer}</p>
+      </div>
+
+      <div className="search_pool" style={{ padding: "1rem" }}>
+        <h3>Search Pool(baseline1 only)</h3>
+        <p>{search_pool}</p>
+      </div>
+
+      <div className="evidence" style={{ padding: "1rem" }}>
+        <h3>Evidence</h3>
+        <p>{evidence}</p>
       </div>
 
       {/* <div style={{ padding: "1rem" }}>

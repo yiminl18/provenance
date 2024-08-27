@@ -1,0 +1,763 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/civic/raw_data/malibucity_agenda__04282021-1687.pdf",
+        "question": "What are the names of projects that were completed before 2022?",
+        "raw_provenance": [
+            "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire. The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations. Staff is\nworking on an RFQ to hire a consultant for the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            "(cid:131) Civic Center Way was reopened to the public on April 8th. While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures). The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.\n\n(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.\n\n(cid:131) Staff is rescheduling the community meeting to May 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is out to bid with bids due April 21, 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+            "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design. In March, the City be seeking\nproposals from consultants to perform construction management.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.\n(cid:131) Consultant is working on final design documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:"
+        ],
+        "evidence": [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire."
+        ],
+        "raw_answer": "Guardrail Replacement Citywide",
+        "evidence_answer": "Guardrail Replacement Citywide (FEMA Project)",
+        "jaccard_similarity": 0.5,
+        "search_pool": [
+            "What are the names of projects that were completed before 2022?",
+            "Guardrail Replacement",
+            "Citywide"
+        ],
+        "unsorted_evidence": [
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                1,
+                0.49617451429367065
+            ]
+        ],
+        "less_similar_evidence": [
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                0,
+                0.5646089911460876
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                2,
+                0.5944744348526001
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0,
+                0.565038800239563
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                1,
+                0.6315157413482666
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.5658225417137146
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                1,
+                0.6366541385650635
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                2,
+                0.6521308422088623
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.5871275663375854
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                1,
+                0.6520552635192871
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                2,
+                0.6545547246932983
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                0,
+                0.5908224582672119
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                1,
+                0.6729559898376465
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                2,
+                0.6549655199050903
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0,
+                0.600694477558136
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                1,
+                0.6751917600631714
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                2,
+                0.6550678610801697
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.6116808652877808
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                1,
+                0.6850714087486267
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                2,
+                0.6665893793106079
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                1,
+                0.6930719614028931
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                2,
+                0.6885912418365479
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                0,
+                0.6191893815994263
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                1,
+                0.6938962340354919
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                2,
+                0.6993436217308044
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                0,
+                0.6207086443901062
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.6994943618774414
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                2,
+                0.7119379043579102
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                0,
+                0.6222301125526428
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.7030844688415527
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                2,
+                0.7177237272262573
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0,
+                0.6292760372161865
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                1,
+                0.7034229040145874
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                2,
+                0.7221451997756958
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0,
+                0.6318831443786621
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                1,
+                0.7112582325935364
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                2,
+                0.7249878644943237
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                0,
+                0.6499425172805786
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                1,
+                0.7188235521316528
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                2,
+                0.7265906929969788
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                0,
+                0.6801824569702148
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                1,
+                0.7270987033843994
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                2,
+                0.730606198310852
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                0,
+                0.6888349652290344
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                1,
+                0.7325546741485596
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                2,
+                0.7342097163200378
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                0,
+                0.6914552450180054
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                1,
+                0.7344928979873657
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                2,
+                0.741763710975647
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                0,
+                0.7086321115493774
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                1,
+                0.7452089786529541
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7470213174819946
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0,
+                0.7188043594360352
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                1,
+                0.7516586780548096
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                2,
+                0.7520636320114136
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                0,
+                0.7377825975418091
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                1,
+                0.7589559555053711
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7539466023445129
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                0,
+                0.7540084719657898
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                1,
+                0.7711912989616394
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                2,
+                0.7652679085731506
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                0,
+                0.7582496404647827
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                1,
+                0.7726902365684509
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7699769139289856
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                0,
+                0.7620315551757812
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.7761738896369934
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                2,
+                0.7754252552986145
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                0,
+                0.7899551391601562
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                1,
+                0.7921766638755798
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                2,
+                0.7968504428863525
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                0,
+                0.8052144646644592
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                1,
+                0.8351392149925232
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                2,
+                0.8294500112533569
+            ]
+        ],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                0,
+                0.5646089911460876
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                1,
+                0.49617451429367065
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                2,
+                0.5944744348526001
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0,
+                0.565038800239563
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                1,
+                0.6315157413482666
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.5658225417137146
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                1,
+                0.6366541385650635
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                2,
+                0.6521308422088623
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.5871275663375854
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                1,
+                0.6520552635192871
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                2,
+                0.6545547246932983
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                0,
+                0.5908224582672119
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                1,
+                0.6729559898376465
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                2,
+                0.6549655199050903
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0,
+                0.600694477558136
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+                1,
+                0.6751917600631714
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                2,
+                0.6550678610801697
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                0,
+                0.6116808652877808
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                1,
+                0.6850714087486267
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                2,
+                0.6665893793106079
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                1,
+                0.6930719614028931
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                2,
+                0.6885912418365479
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                0,
+                0.6191893815994263
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                1,
+                0.6938962340354919
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                2,
+                0.6993436217308044
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                0,
+                0.6207086443901062
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.6994943618774414
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                2,
+                0.7119379043579102
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                0,
+                0.6222301125526428
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.7030844688415527
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                2,
+                0.7177237272262573
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0,
+                0.6292760372161865
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                1,
+                0.7034229040145874
+            ],
+            [
+                "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+                2,
+                0.7221451997756958
+            ],
+            [
+                "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0,
+                0.6318831443786621
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                1,
+                0.7112582325935364
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+                2,
+                0.7249878644943237
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                0,
+                0.6499425172805786
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                1,
+                0.7188235521316528
+            ],
+            [
+                "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+                2,
+                0.7265906929969788
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                0,
+                0.6801824569702148
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                1,
+                0.7270987033843994
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                2,
+                0.730606198310852
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                0,
+                0.6888349652290344
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                1,
+                0.7325546741485596
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+                2,
+                0.7342097163200378
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                0,
+                0.6914552450180054
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                1,
+                0.7344928979873657
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020 and\n\nwe are still awaiting comments to those plans.",
+                2,
+                0.741763710975647
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                0,
+                0.7086321115493774
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                1,
+                0.7452089786529541
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7470213174819946
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0,
+                0.7188043594360352
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                1,
+                0.7516586780548096
+            ],
+            [
+                "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+                2,
+                0.7520636320114136
+            ],
+            [
+                "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+                0,
+                0.7377825975418091
+            ],
+            [
+                "(cid:131) Project is out to bid with bids due April 21, 2021.",
+                1,
+                0.7589559555053711
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7539466023445129
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                0,
+                0.7540084719657898
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                1,
+                0.7711912989616394
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                2,
+                0.7652679085731506
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                0,
+                0.7582496404647827
+            ],
+            [
+                "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+                1,
+                0.7726902365684509
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                2,
+                0.7699769139289856
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                0,
+                0.7620315551757812
+            ],
+            [
+                "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+                1,
+                0.7761738896369934
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+                2,
+                0.7754252552986145
+            ],
+            [
+                "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+                0,
+                0.7899551391601562
+            ],
+            [
+                "In March, the City be seeking\nproposals from consultants to perform construction management.",
+                1,
+                0.7921766638755798
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                2,
+                0.7968504428863525
+            ],
+            [
+                "Staff is\nworking on an RFQ to hire a consultant for the design.",
+                0,
+                0.8052144646644592
+            ],
+            [
+                "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+                1,
+                0.8351392149925232
+            ],
+            [
+                "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+                2,
+                0.8294500112533569
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_0.5/civic/gpt4o/provenance_20240813_000808.json"
+    }
+]

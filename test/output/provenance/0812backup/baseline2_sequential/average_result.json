@@ -1,0 +1,29 @@
+[
+    {
+        "baseline_name": "baseline2_sequential",
+        "model_name": "gpt4o",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 0.6628001602448642,
+        "accuracy": 0.4,
+        "average_len_of_success_evidence": 30.917525773195877,
+        "average_sentence_number_of_success_evidence": 8.083333333333334
+    },
+    {
+        "baseline_name": "baseline2_sequential",
+        "model_name": "gpt4o",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 0.9392857142857144,
+        "accuracy": 0.9,
+        "average_len_of_success_evidence": 35.233333333333334,
+        "average_sentence_number_of_success_evidence": 2.2222222222222223
+    },
+    {
+        "baseline_name": "baseline2_sequential",
+        "model_name": "gpt4o",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 0.7478682170542635,
+        "accuracy": 0.7333333333333333,
+        "average_len_of_success_evidence": 19.85,
+        "average_sentence_number_of_success_evidence": 3.6363636363636362
+    }
+]

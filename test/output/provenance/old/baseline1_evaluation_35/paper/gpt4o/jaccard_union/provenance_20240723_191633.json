@@ -1,0 +1,38 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Lived Informatics Model of Personal Informatics.pdf",
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_provenance": [
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\ncomponents  of  this  work  owned  by  others  than  ACM  must  be  honored.\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from permissions@acm.org. \nUbiComp '15, September 7-11, 2015, Osaka, Japan. \nCopyright 2015 © ACM 978-1-4503-3574-4/15/09...$15.00. \nhttp://dx.doi.org/10.1145/2750858.2804250",
+        "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. \nBarriers and Negative Nudges : Exploring Challenges \nin Food Journaling. CHI 2015, 1159-1162. \n\n12.  Curmi, F., Ferrario, M.A., Southern, J., and Whittle, J. \nHeartLink : Open Broadcast of Live Biometric Data to \nSocial Networks. CHI 2013, 1749-1758. \n\n13.  Dawe, M. Desperately Seeking Simplicity: How \n\nYoung Adults with Cognitive Disabilities and Their \nFamilies Adopt Assistive Technologies. CHI 2006, \n1143-1152. \n\n14.  Downs, J.S., Holbrook, M.B., Sheng, S., and Cranor, L.F. \nAre your Participants Gaming the System? Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. \n\n15.  Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data. \nDIS 2014, 667-676. \n\n16.  Fritz, T., Huang, E.M., Murphy, G.C., and",
+        "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location. \n\nACM Classification Keywords \nH.5.m. Information interfaces and presentation (e.g., HCI).",
+        "Zimmermann, T. Persuasive Technology in the Real \nWorld : A Study of Long-Term Use of Activity \nSensing Devices for Fitness. CHI 2014, 487-496. \n\n17.  Hodges, S., Williams, L., Berry, E., Izadi, S., \n\nSrinivasan, J., Butler, A., Smyth, G., Kapur, N., and \nWood, K. SenseCam: A Retrospective Memory Aid. \nUbiComp 2006, 177-193. \n\n18.  Humphreys, L. Mobile Social Networks and Social \n\nPractice: A Case Study of Dodgeball. J Compu-Mediat \nComm 13, (2007), 341-360. \n\n19.  Kay, M., Morris, D., schraefel, m.c., and Kientz, J.A. \n\nThere’s No Such Thing as Gaining a Pound: \nReconsidering the Bathroom Scale User Interface. \nUbiComp 2013, 401-410. \n\n20.  Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A. Money Talks: Tracking Personal Finances. \nCHI  2014, 521-530. \n\n21.  Li, I., Dey, A., and Forlizzi, J. A Stage-Based Model of \nPersonal Informatics Systems. CHI 2010, 557-566. \n22.  Li, I., Dey, A.K.A., and Forlizzi, J. Understanding My",
+        "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu"
+    ],
+    "evidence": [
+        "UbiComp 2013, 401-410. 20. Kaye, J.J., Mccuistion, M., Gulotta, R., and Shamma, \nD.A.",
+        "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+        "Jagannathan, A.K., Abowd, G.D., and Fogarty, J. Barriers and Negative Nudges : Exploring Challenges \nin Food Journaling.",
+        "Author Keywords \nLived Informatics; Personal Informatics; Self-Tracking; \nLapsing; Physical Activity; Finances; Location.",
+        "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "Screening \nMechanical Turk Workers. CHI 2010, 2399-2402. 15. Epstein, D.A., Cordeiro, F., Bales, E., Fogarty, J., and \n\nMunson, S.A. Taming Data Complexity in Lifelogs: \nExploring Visual Cuts of Personal Informatics Data."
+    ],
+    "raw_answer": "Jagannathan, A.K., Abowd, G.D., Fogarty, J.",
+    "evidence_answer": "Daniel A Epstein, Felicia Cordeiro, James Fogarty, Gary Hsieh, Sean A Munson",
+    "search_pool": [
+        "Abowd, G.D.",
+        "institutions",
+        "Jagannathan, A.K.",
+        "title",
+        "Fogarty, J.",
+        "paper",
+        "authors",
+        "names",
+        "US"
+    ],
+    "jaccard_similarity": 0.1111111111111111,
+    "jaccard_similarity_cleaned": 0.11764705882352941,
+    "cosine_similarity": 0.44573070178650853
+}

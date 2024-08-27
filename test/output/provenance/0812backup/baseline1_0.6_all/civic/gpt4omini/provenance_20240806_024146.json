@@ -1,0 +1,999 @@
+{
+    "model_name": "gpt4omini",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__03232022-1869.pdf",
+    "question": "What are the names of disaster projects advertised before 2023",
+    "raw_provenance": [
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights. The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.\n\nProposals are due in April 14, 2022.\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.\n\n(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by March 2022. The",
+        "(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+        "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service. Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range. The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project. Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nthe Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens. The City will\napply for future grant funding for this phase of the project.\n\n(cid:190) Upates:"
+    ],
+    "evidence": [
+        "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+        "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+        "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+        "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+        "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+        "During storms, this\nintersection floods and causes debris to block the road.",
+        "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+        "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+        "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+        "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+        "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project.",
+        "the Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens."
+    ],
+    "raw_answer": "Citywide Guardrail Replacement, Westward Beach Road Shoulder Repairs, Clover Heights Storm Drain, Latigo Canyon Road Culvert Repairs, Trancas Canyon Park Planting and Irrigation Repairs",
+    "evidence_answer": "Citywide Guardrail Replacement, Westward Beach Road Shoulder Repairs, Outdoor Warning Sirens - Design, Clover Heights Storm Drain, Latigo Canyon Road Culvert Repairs, Latigo Canyon Road Roadway/Retaining Wall Improvements, Trancas Canyon Park Planting and Irrigation Repairs",
+    "jaccard_similarity": 0.75,
+    "search_pool": [
+        " Westward Beach Road Shoulder Repairs ",
+        "What are the names of disaster projects advertised before 2023",
+        " Latigo Canyon Road Culvert Repairs ",
+        "Citywide Guardrail Replacement ",
+        " Trancas Canyon Park Planting and Irrigation Repairs",
+        " Clover Heights Storm Drain "
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            0,
+            0.2612157464027405
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            1,
+            0.5134406685829163
+        ],
+        [
+            "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            2,
+            0.34309619665145874
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            3,
+            0.39570313692092896
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            4,
+            0.23499971628189087
+        ],
+        [
+            "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+            5,
+            0.27707844972610474
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            0,
+            0.550380289554596
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            2,
+            0.45087820291519165
+        ],
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            5,
+            0.35305315256118774
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            1,
+            0.5251367092132568
+        ],
+        [
+            "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+            5,
+            0.3870730996131897
+        ],
+        [
+            "The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project.",
+            1,
+            0.5357851982116699
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            5,
+            0.5273378491401672
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            1,
+            0.5700912475585938
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.5782711505889893
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.5831530094146729
+        ],
+        [
+            "the Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens.",
+            1,
+            0.5996156930923462
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            5,
+            0.608080267906189
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            2,
+            0.6679824590682983
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.6046029329299927
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            4,
+            0.6632565259933472
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            0,
+            0.6711840629577637
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            1,
+            0.6017283201217651
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            4,
+            0.6673095226287842
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            1,
+            0.6217153072357178
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.692563533782959
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            3,
+            0.6139030456542969
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            4,
+            0.668677568435669
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            1,
+            0.6234112977981567
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6711914539337158
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            1,
+            0.6316326856613159
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            3,
+            0.6242780685424805
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            0,
+            0.6894210577011108
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            3,
+            0.6472487449645996
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            1,
+            0.6622494459152222
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            2,
+            0.7119003534317017
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            0,
+            0.6924286484718323
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            1,
+            0.6624692678451538
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            2,
+            0.7127586603164673
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            3,
+            0.6746089458465576
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            5,
+            0.6948877573013306
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.7138617038726807
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.6746044158935547
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            5,
+            0.6954421997070312
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            5,
+            0.700097918510437
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            1,
+            0.6819949150085449
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            2,
+            0.7734238505363464
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            3,
+            0.6847423911094666
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.719074547290802
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            0,
+            0.7272045612335205
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            2,
+            0.7747203707695007
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            3,
+            0.710332989692688
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            4,
+            0.7553808689117432
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            5,
+            0.72273188829422
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.7660245895385742
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            1,
+            0.729426383972168
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            2,
+            0.7832215428352356
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            4,
+            0.760779082775116
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            5,
+            0.7282333374023438
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            0,
+            0.7675319910049438
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7309982180595398
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            2,
+            0.7862132787704468
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            3,
+            0.7141257524490356
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            4,
+            0.7691690921783447
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            5,
+            0.7438191771507263
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            0,
+            0.7696715593338013
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            1,
+            0.7446759939193726
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            2,
+            0.8049865365028381
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.7245336174964905
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            4,
+            0.7761551737785339
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.7569718956947327
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.7820947170257568
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            2,
+            0.8181281685829163
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            3,
+            0.7267869710922241
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            4,
+            0.7790272235870361
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.7885792255401611
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            3,
+            0.7643064856529236
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            4,
+            0.78547602891922
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.785923182964325
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            0,
+            0.7946624755859375
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            1,
+            0.7723039388656616
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.8267831802368164
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            4,
+            0.786058247089386
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            5,
+            0.7911316156387329
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.805552065372467
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            1,
+            0.7806199193000793
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            2,
+            0.839421272277832
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            3,
+            0.7678447961807251
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8079600930213928
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.8194642066955566
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            0,
+            0.864214301109314
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            2,
+            0.9006026983261108
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            3,
+            0.8646137714385986
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            4,
+            0.8396381139755249
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            5,
+            0.8496434092521667
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            0,
+            0.2612157464027405
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            1,
+            0.5134406685829163
+        ],
+        [
+            "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            2,
+            0.34309619665145874
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            3,
+            0.39570313692092896
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            4,
+            0.23499971628189087
+        ],
+        [
+            "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+            5,
+            0.27707844972610474
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            0,
+            0.550380289554596
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            2,
+            0.45087820291519165
+        ],
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            5,
+            0.35305315256118774
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            1,
+            0.5251367092132568
+        ],
+        [
+            "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+            5,
+            0.3870730996131897
+        ],
+        [
+            "The City has been\nawarded a FEMA Hazard Mitigation grant to fund the design, engineering and\nenvironmental compliance needed for a shovel ready project.",
+            1,
+            0.5357851982116699
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            5,
+            0.5273378491401672
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            1,
+            0.5700912475585938
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.5782711505889893
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.5831530094146729
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            5,
+            0.608080267906189
+        ],
+        [
+            "the Emergency Warning Sirens project will be implementation of the design\nplan, including purchasing, installing, and testing the sirens.",
+            1,
+            0.5996156930923462
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            2,
+            0.6679824590682983
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.6046029329299927
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            4,
+            0.6632565259933472
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            0,
+            0.6711840629577637
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            1,
+            0.6017283201217651
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            4,
+            0.6673095226287842
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            1,
+            0.6217153072357178
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.692563533782959
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            3,
+            0.6139030456542969
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            4,
+            0.668677568435669
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            1,
+            0.6234112977981567
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6711914539337158
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            1,
+            0.6316326856613159
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            3,
+            0.6242780685424805
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            0,
+            0.6894210577011108
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            3,
+            0.6472487449645996
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            1,
+            0.6622494459152222
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            2,
+            0.7119003534317017
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            0,
+            0.6924286484718323
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            1,
+            0.6624692678451538
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            2,
+            0.7127586603164673
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            3,
+            0.6746089458465576
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            5,
+            0.6948877573013306
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.7138617038726807
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.6746044158935547
+        ],
+        [
+            "The City will\napply for future grant funding for this phase of the project. (cid:190) Upates:",
+            5,
+            0.6954421997070312
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            5,
+            0.700097918510437
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            1,
+            0.6819949150085449
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            2,
+            0.7734238505363464
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            3,
+            0.6847423911094666
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.719074547290802
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            0,
+            0.7272045612335205
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            2,
+            0.7747203707695007
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            3,
+            0.710332989692688
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            4,
+            0.7553808689117432
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            5,
+            0.72273188829422
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            0,
+            0.7660245895385742
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            1,
+            0.729426383972168
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            2,
+            0.7832215428352356
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            4,
+            0.760779082775116
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            5,
+            0.7282333374023438
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            0,
+            0.7675319910049438
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7309982180595398
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            2,
+            0.7862132787704468
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            3,
+            0.7141257524490356
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            4,
+            0.7691690921783447
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            5,
+            0.7438191771507263
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            0,
+            0.7696715593338013
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            1,
+            0.7446759939193726
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            2,
+            0.8049865365028381
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.7245336174964905
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            4,
+            0.7761551737785339
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.7569718956947327
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.7820947170257568
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            2,
+            0.8181281685829163
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            3,
+            0.7267869710922241
+        ],
+        [
+            "(cid:190) Project Description: An Emergency Warning Siren system will improve the\nCity’s ability to alert the community by providing mechanisms to alert\nresidents in areas without power and those who live in neighborhoods with\npoor cell service.",
+            4,
+            0.7790272235870361
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.7885792255401611
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            3,
+            0.7643064856529236
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            4,
+            0.78547602891922
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.785923182964325
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            0,
+            0.7946624755859375
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            1,
+            0.7723039388656616
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.8267831802368164
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            4,
+            0.786058247089386
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            5,
+            0.7911316156387329
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.805552065372467
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            1,
+            0.7806199193000793
+        ],
+        [
+            "Phase One of the project included a sound study to\ndetermine the optimal number and locations of individual sirens, power and\ninfrastructure requirements, and siren sound range.",
+            2,
+            0.839421272277832
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            3,
+            0.7678447961807251
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8079600930213928
+        ],
+        [
+            "Phase Two of\n\nPage 7 of 8\n\nAgenda Item # 4.A.",
+            5,
+            0.8194642066955566
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            0,
+            0.864214301109314
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            2,
+            0.9006026983261108
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            3,
+            0.8646137714385986
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            4,
+            0.8396381139755249
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            5,
+            0.8496434092521667
+        ]
+    ]
+}

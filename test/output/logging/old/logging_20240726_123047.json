@@ -1,0 +1,1245 @@
+{
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "raw_answer": "CHI 2017",
+    "evidence_answer": "CHI",
+    "evidence_token_num": 133,
+    "total_token_num": 626,
+    "extracted_search_list": [
+        "CHI",
+        "2017",
+        "paper",
+        "year",
+        "publication venue"
+    ],
+    "searched_docs": [
+        [
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.5967596769332886
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6203175187110901
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.6384069323539734
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6449185013771057
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6480481624603271
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.6982132792472839
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7001051902770996
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7836025953292847
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.7839378714561462
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.788243293762207
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7915726900100708
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.7971469163894653
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7986549139022827
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8003436326980591
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8040586709976196
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8047806024551392
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.8064063787460327
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8127796053886414
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8131173849105835
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8156178593635559
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8174629211425781
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8230082988739014
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8237512707710266
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8247607350349426
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.827594518661499
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8285821080207825
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8289586305618286
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8340644836425781
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8421521186828613
+            ]
+        ],
+        [
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6541838645935059
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6676685810089111
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6693657040596008
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.698196291923523
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.7018647193908691
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7036177515983582
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7192902565002441
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7232133150100708
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7274536490440369
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7293024063110352
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7334290742874146
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.7339116334915161
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.7374793291091919
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.7379046678543091
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7402018904685974
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7429183721542358
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7504872679710388
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7530572414398193
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7541268467903137
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7560551166534424
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7603338956832886
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.7624157667160034
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7646703124046326
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.765874445438385
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7784930467605591
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.782802939414978
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.7874571084976196
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.788271963596344
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7896599769592285
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.7915664911270142
+            ]
+        ],
+        [
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7112060785293579
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7797188758850098
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7835426926612854
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.787944495677948
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7914395928382874
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7964832186698914
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7984040379524231
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8015108108520508
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8038383722305298
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.805799126625061
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8078202605247498
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8080025911331177
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.808712899684906
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.809174656867981
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8145279288291931
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8171746730804443
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8231450319290161
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8248687982559204
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8256289958953857
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.825921893119812
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8267609477043152
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8296613693237305
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.8362228274345398
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8441355228424072
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8450754880905151
+            ]
+        ],
+        [
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8112872838973999
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.8123929500579834
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8228945732116699
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.8257113695144653
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8337850570678711
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.8364199995994568
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.839205801486969
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8444898724555969
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8490172624588013
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8521522879600525
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8558264970779419
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8575215935707092
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8593240976333618
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8598009347915649
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8602891564369202
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8604114651679993
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8606067299842834
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.861653745174408
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8663010597229004
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.8673510551452637
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8689985275268555
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.870179295539856
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.870520830154419
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.8705263733863831
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8711900115013123
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.8729313611984253
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8770962953567505
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8779550194740295
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8787412643432617
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8791549205780029
+            ]
+        ],
+        [
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.6199710369110107
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6246086359024048
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.6656664609909058
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.6989978551864624
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7001274824142456
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.707161545753479
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7073155045509338
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7191131114959717
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7219051122665405
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7228052616119385
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7294816970825195
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.7301924228668213
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7357701063156128
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7365611791610718
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7403209209442139
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7443264722824097
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7448546886444092
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7478930354118347
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.7490484118461609
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.754233717918396
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7553170919418335
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7637962102890015
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7654353380203247
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7680927515029907
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7719156742095947
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7730967402458191
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.7760725617408752
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7766479253768921
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.7900312542915344
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.793815016746521
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.5967596769332886
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6203175187110901
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.6384069323539734
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6449185013771057
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6480481624603271
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.6982132792472839
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7001051902770996
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7836025953292847
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.7839378714561462
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.788243293762207
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7915726900100708
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.7971469163894653
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7986549139022827
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8003436326980591
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8040586709976196
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8047806024551392
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8049481511116028
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.8064063787460327
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8127796053886414
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8131173849105835
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8156178593635559
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8174629211425781
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8230082988739014
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8237512707710266
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8247607350349426
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.827594518661499
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8285821080207825
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8289586305618286
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8340644836425781
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8421521186828613
+            ]
+        ],
+        [
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.6541838645935059
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.6676685810089111
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6693657040596008
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.698196291923523
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.7018647193908691
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7036177515983582
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7192902565002441
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7232133150100708
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7274536490440369
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7293024063110352
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7334290742874146
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.7339116334915161
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.7374793291091919
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.7379046678543091
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7402018904685974
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7429183721542358
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7504872679710388
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7530572414398193
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7541268467903137
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7560551166534424
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7603338956832886
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.7624157667160034
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7646703124046326
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.765874445438385
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7784930467605591
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.782802939414978
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.7874571084976196
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.788271963596344
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7896599769592285
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.7915664911270142
+            ]
+        ],
+        [
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7112060785293579
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.7797188758850098
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7835426926612854
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.787944495677948
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.7914395928382874
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7964832186698914
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7984040379524231
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.8015108108520508
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8038383722305298
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.805799126625061
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.8078202605247498
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8080025911331177
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.808712899684906
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.809174656867981
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8145279288291931
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8171746730804443
+            ],
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8231450319290161
+            ],
+            [
+                "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.",
+                0.8248687982559204
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8256289958953857
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.825921893119812
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8267609477043152
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.8296613693237305
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.8362228274345398
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8441355228424072
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8450754880905151
+            ]
+        ],
+        [
+            [
+                "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+                0.8112872838973999
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.8123929500579834
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.8228945732116699
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.8257113695144653
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8337850570678711
+            ],
+            [
+                "2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics.",
+                0.8364199995994568
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.839205801486969
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8444898724555969
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.8490172624588013
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8521522879600525
+            ],
+            [
+                "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+                0.8558264970779419
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8575215935707092
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.8593240976333618
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8598009347915649
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.8602891564369202
+            ],
+            [
+                "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+                0.8604114651679993
+            ],
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.8606067299842834
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.861653745174408
+            ],
+            [
+                "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+                0.8663010597229004
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.8673510551452637
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8689985275268555
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.870179295539856
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.870520830154419
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.8705263733863831
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.8711900115013123
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.8729313611984253
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8770962953567505
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8779550194740295
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8787412643432617
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8791549205780029
+            ]
+        ],
+        [
+            [
+                "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+                0.6199710369110107
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0.6246086359024048
+            ],
+            [
+                "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+                0.6656664609909058
+            ],
+            [
+                "Abstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee.",
+                0.6989978551864624
+            ],
+            [
+                "Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829–840. http://doi.org/10.1145/2971648.2971656",
+                0.7001274824142456
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.707161545753479
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7073155045509338
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7191131114959717
+            ],
+            [
+                "http://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson.",
+                0.7219051122665405
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7228052616119385
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7294816970825195
+            ],
+            [
+                "http://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood.",
+                0.7301924228668213
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7357701063156128
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1686\f54.",
+                0.7365611791610718
+            ],
+            [
+                "Journal of Advanced \nNursing 57, 3: 339–350. http://doi.org/10.1111/j.1365-2648.2006.04089.x",
+                0.7403209209442139
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.7443264722824097
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.7448546886444092
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7478930354118347
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+                0.7490484118461609
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622–1636.",
+                0.754233717918396
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7553170919418335
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7637962102890015
+            ],
+            [
+                "2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1–12.",
+                0.7654353380203247
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.7680927515029907
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7719156742095947
+            ],
+            [
+                "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+                0.7730967402458191
+            ],
+            [
+                "Copyrights for \ncomponents of this work owned by others than the author(s) must be honored.",
+                0.7760725617408752
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7766479253768921
+            ],
+            [
+                "Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson.",
+                0.7900312542915344
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.793815016746521
+            ]
+        ]
+    ],
+    "evidence": [
+        "CHI ’06 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873–1878.",
+        "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1684\f18.",
+        "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+        "2015. From \n“nobody cares” to “way to go!”: A Design Framework for \nSocial Sharing in Personal Informatics.",
+        "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05…$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing."
+    ]
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 0,
+        "document_path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+        "question": "What are the names of authors whose institutions are in the US for this paper?",
+        "raw_provenance": [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org).  We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems. Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.  We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses.  Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            "2.  Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp. 1-10. \n\n3.  Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al. \nActivity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden. CHI\u201808, 2008, pp. 1797-1806. \n\n4.  Froehlich, J., Dillahunt, T., Klasnja, P., et al. Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits. CHI\u201909, 2009, \npp. 1043-1052. \n\n5.  Franklin, B. Autobiography of Benjamin Franklin. New \n\nYork, 1916, pp. 146-155. \n\n6.  Frost, J. and Smith, B.K. Visualizing Health: imagery in \n\ndiabetes education. DUX \u201903, 2003, pp. 1-14. \n\n7.  Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.  Communications  of \nthe ACM, 2006, pp. 88-95.",
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee. \nCHI 2010, April 10\u201315, 2010, Atlanta, Georgia, USA. \nCopyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. \n\nto \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.  A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). \n\nreflect  on  personal \n\ninformation \n\ninform  people  about",
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life. IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152. \n\n20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses. Journal of Happiness Studies, 4, 2003, pp. \n5-34. \n\n21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, \n2009, pp. 92-95. \n\n22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30. \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10\u201315, 2010, Atlanta, GA, USA566",
+            "Table 1. Top 10 types of personal information, \nautomatically and manually collected by the participants."
+        ],
+        "evidence": [
+            "3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit Garden.",
+            "CHI\u201808, 2008, pp. 1797-1806.",
+            "##CHI 2010, April 10\u201315, 2010, Atlanta, Georgia, USA.##"
+        ],
+        "raw_answer": "Consolvo, S., McDonald, D.W., Toscos, T., et al.",
+        "evidence_answer": "Consolvo, McDonald, Toscos",
+        "search_pool": [],
+        "jaccard_similarity": 0.4,
+        "jaccard_similarity_cleaned": 0.4444444444444444
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 0,
+        "document_path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+        "question": "What are the names of authors whose institutions are in the US for this paper?",
+        "raw_provenance": [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org).  We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems. Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.  We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses.  Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            "2.  Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp. 1-10. \n\n3.  Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al. \nActivity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden. CHI\u201808, 2008, pp. 1797-1806. \n\n4.  Froehlich, J., Dillahunt, T., Klasnja, P., et al. Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits. CHI\u201909, 2009, \npp. 1043-1052. \n\n5.  Franklin, B. Autobiography of Benjamin Franklin. New \n\nYork, 1916, pp. 146-155. \n\n6.  Frost, J. and Smith, B.K. Visualizing Health: imagery in \n\ndiabetes education. DUX \u201903, 2003, pp. 1-14. \n\n7.  Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.  Communications  of \nthe ACM, 2006, pp. 88-95.",
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee. \nCHI 2010, April 10\u201315, 2010, Atlanta, Georgia, USA. \nCopyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. \n\nto \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.  A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). \n\nreflect  on  personal \n\ninformation \n\ninform  people  about",
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life. IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152. \n\n20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses. Journal of Happiness Studies, 4, 2003, pp. \n5-34. \n\n21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, \n2009, pp. 92-95. \n\n22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30. \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10\u201315, 2010, Atlanta, GA, USA566",
+            "Table 1. Top 10 types of personal information, \nautomatically and manually collected by the participants."
+        ],
+        "evidence": [],
+        "raw_answer": "None",
+        "evidence_answer": "None",
+        "search_pool": [],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 0,
+        "document_path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+        "question": "What are the names of authors whose institutions are in the US for this paper?",
+        "raw_provenance": [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org).  We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems. Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.  We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses.  Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            "2.  Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp. 1-10. \n\n3.  Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al. \nActivity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden. CHI\u201808, 2008, pp. 1797-1806. \n\n4.  Froehlich, J., Dillahunt, T., Klasnja, P., et al. Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits. CHI\u201909, 2009, \npp. 1043-1052. \n\n5.  Franklin, B. Autobiography of Benjamin Franklin. New \n\nYork, 1916, pp. 146-155. \n\n6.  Frost, J. and Smith, B.K. Visualizing Health: imagery in \n\ndiabetes education. DUX \u201903, 2003, pp. 1-14. \n\n7.  Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.  Communications  of \nthe ACM, 2006, pp. 88-95.",
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee. \nCHI 2010, April 10\u201315, 2010, Atlanta, Georgia, USA. \nCopyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. \n\nto \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.  A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). \n\nreflect  on  personal \n\ninformation \n\ninform  people  about",
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life. IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152. \n\n20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses. Journal of Happiness Studies, 4, 2003, pp. \n5-34. \n\n21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, \n2009, pp. 92-95. \n\n22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30. \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10\u201315, 2010, Atlanta, GA, USA566",
+            "Table 1. Top 10 types of personal information, \nautomatically and manually collected by the participants."
+        ],
+        "evidence": [
+            "3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            "CHI\u201808, 2008, pp. 1797-1806."
+        ],
+        "raw_answer": "Consolvo, S., McDonald, D.W., Toscos, T., et al.",
+        "evidence_answer": "Consolvo S.",
+        "search_pool": [],
+        "jaccard_similarity": 0.18181818181818182,
+        "jaccard_similarity_cleaned": 0.3333333333333333
+    }
+]

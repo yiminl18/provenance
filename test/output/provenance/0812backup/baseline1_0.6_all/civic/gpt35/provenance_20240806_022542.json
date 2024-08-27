@@ -1,0 +1,925 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__03232022-1869.pdf",
+    "question": "What are the names of disaster projects starting later than 2022?",
+    "raw_provenance": [
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens. A design\nreport will be presented to Council upon completion.\n\n(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.\n\n(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road. The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.\n\n(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by July 2022. The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights. The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.\n\nProposals are due in April 14, 2022.\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.\n\n(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant. It is\nanticipated that the final design will be complete by March 2022. The",
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project is funded through a grant from FEMA after\nthe Woolsey Fire. The City will create a complete inventory of storm drains,\nculverts, debris basins, manholes, and other drainage structures within the\nCity.\n\n(cid:190) Updates: Council approved an agreement in December for design services.\n\nA kick-off meeting was held in late December.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nCorral Canyon Road Bridge Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged existing\nfencing and repairing the damaged embankment adjacent to the bridge.",
+        "(cid:131) The project consultant prepared the specifications for the project. Staff\n\nis finalizing the bid documents.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022"
+    ],
+    "evidence": [
+        "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+        "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+        "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+        "It is\nanticipated that the final design will be complete by July 2022.",
+        "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+        "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+        "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+        "During storms, this\nintersection floods and causes debris to block the road.",
+        "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+        "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+        "It is\nanticipated that the final design will be complete by March 2022. The",
+        "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project is funded through a grant from FEMA after\nthe Woolsey Fire.",
+        "The City will create a complete inventory of storm drains,\nculverts, debris basins, manholes, and other drainage structures within the\nCity.",
+        "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nCorral Canyon Road Bridge Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged existing\nfencing and repairing the damaged embankment adjacent to the bridge.",
+        "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+        "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022"
+    ],
+    "raw_answer": "Outdoor Warning Sirens, Clover Heights Storm Drain, Latigo Canyon Road Culvert Repairs, Trancas Canyon Park Slope Stabilization Project, Storm Drain Master Plan, Coral Canyon Road Bridge Repairs, Latigo Canyon Road Roadway/Retaining Wall Improvements",
+    "evidence_answer": "Trancas Canyon Park Slope Stabilization Project, Corral Canyon Road Bridge Repairs, Trancas Canyon Park Planting and Irrigation Repairs",
+    "jaccard_similarity": 0.3448275862068966,
+    "search_pool": [
+        "Storm Drain Master Plan",
+        "Coral Canyon Road Bridge Repairs",
+        "Outdoor Warning Sirens",
+        "Clover Heights Storm Drain",
+        "Latigo Canyon Road Culvert Repairs",
+        "Trancas Canyon Park Slope Stabilization Project",
+        "What are the names of disaster projects starting later than 2022?",
+        "Latigo Canyon Road Roadway/Retaining Wall Improvements"
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project is funded through a grant from FEMA after\nthe Woolsey Fire.",
+            0,
+            0.3527817726135254
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nCorral Canyon Road Bridge Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged existing\nfencing and repairing the damaged embankment adjacent to the bridge.",
+            1,
+            0.3553934097290039
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            2,
+            0.4205777645111084
+        ],
+        [
+            "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+            3,
+            0.15556740760803223
+        ],
+        [
+            "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            4,
+            0.3245745897293091
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            5,
+            0.18834596872329712
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            6,
+            0.4850611090660095
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.3206775188446045
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            2,
+            0.4339200258255005
+        ],
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            3,
+            0.2277214527130127
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            5,
+            0.3850977420806885
+        ],
+        [
+            "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+            3,
+            0.2589048147201538
+        ],
+        [
+            "The City will create a complete inventory of storm drains,\nculverts, debris basins, manholes, and other drainage structures within the\nCity.",
+            0,
+            0.4614039659500122
+        ],
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            1,
+            0.5120127201080322
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            6,
+            0.5166565179824829
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            7,
+            0.5022541284561157
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            3,
+            0.49414199590682983
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            6,
+            0.5582522749900818
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            6,
+            0.5647627711296082
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            6,
+            0.5663779377937317
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            6,
+            0.5762377977371216
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.7352489233016968
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            2,
+            0.7354270219802856
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            7,
+            0.6148701906204224
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.6038753986358643
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            1,
+            0.6481914520263672
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            7,
+            0.6203675270080566
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            5,
+            0.6089620590209961
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.6103923320770264
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            2,
+            0.8048675656318665
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            5,
+            0.6105404496192932
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            1,
+            0.6578812003135681
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            2,
+            0.8065329194068909
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            4,
+            0.6594440937042236
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.618827223777771
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6621777415275574
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            2,
+            0.8108134269714355
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            4,
+            0.6811607480049133
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            7,
+            0.6572110652923584
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            1,
+            0.6743738055229187
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.6654117107391357
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            4,
+            0.6855382919311523
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.6667903065681458
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            7,
+            0.6676425933837891
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            0,
+            0.6335777044296265
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            1,
+            0.6868131160736084
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.6668766736984253
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.6482248306274414
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            6,
+            0.6996549367904663
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.6620336771011353
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            2,
+            0.8372786641120911
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7123031616210938
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            5,
+            0.6747168302536011
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.670785665512085
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.7091479301452637
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            6,
+            0.7168614864349365
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877686977386475
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            4,
+            0.7186908721923828
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            5,
+            0.6783363819122314
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            6,
+            0.7179795503616333
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            3,
+            0.7381239533424377
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.7040808200836182
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.8610453605651855
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            6,
+            0.7364023327827454
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            3,
+            0.7560157775878906
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            4,
+            0.7672533392906189
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6977338790893555
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7680394649505615
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            6,
+            0.7512615919113159
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            7,
+            0.7308219075202942
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.716443657875061
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            1,
+            0.7748553156852722
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.7642357349395752
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            2,
+            0.914591908454895
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            3,
+            0.804451048374176
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8252533674240112
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.769645094871521
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            6,
+            0.7804000973701477
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            7,
+            0.7444268465042114
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            0,
+            0.7887210249900818
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            1,
+            0.8676943778991699
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            2,
+            0.9294992685317993
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            3,
+            0.8390989303588867
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            4,
+            0.8795406818389893
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            5,
+            0.8358556032180786
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            6,
+            0.8102001547813416
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            7,
+            0.8559556603431702
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project is funded through a grant from FEMA after\nthe Woolsey Fire.",
+            0,
+            0.3527817726135254
+        ],
+        [
+            "A kick-off meeting was held in late December. (cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nCorral Canyon Road Bridge Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged existing\nfencing and repairing the damaged embankment adjacent to the bridge.",
+            1,
+            0.3553934097290039
+        ],
+        [
+            "(cid:131) On November 30, 2021, City Council approved an agreement with\nAcoustic Technology to design the outdoor warning sirens.",
+            2,
+            0.4205777645111084
+        ],
+        [
+            "Clover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a few\nstorm drains on Clover Heights.",
+            3,
+            0.15556740760803223
+        ],
+        [
+            "Proposals are due in April 14, 2022. Latigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            4,
+            0.3245745897293091
+        ],
+        [
+            "Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            5,
+            0.18834596872329712
+        ],
+        [
+            "(cid:190) Estimated Schedule: TBD\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\n\nCitywide Guardrail Replacement\nProject Description: This project consisted of replacing the damaged guardrails throughout\nthe City caused by the Woolsey Fire on Encinal Canyon Road, Corral Canyon Road, and\nKanan Dume Road.",
+            6,
+            0.4850611090660095
+        ],
+        [
+            "Staff\n\nis finalizing the bid documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            7,
+            0.3206775188446045
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: July 2022\n(cid:131) Begin Construction: Fall 2022\n(cid:131)\n\nOutdoor Warningn Sirens - Design (FEMA Project)",
+            2,
+            0.4339200258255005
+        ],
+        [
+            "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+            3,
+            0.2277214527130127
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            5,
+            0.3850977420806885
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.7352489233016968
+        ],
+        [
+            "The existing storm drain facility ends at the\nintersection of Clover Heights and Harvester Road.",
+            3,
+            0.2589048147201538
+        ],
+        [
+            "The City will create a complete inventory of storm drains,\nculverts, debris basins, manholes, and other drainage structures within the\nCity.",
+            0,
+            0.4614039659500122
+        ],
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Fall 2022\n\nWestward Beach Road Shoulder Repairs (CalOES Project)\n\n(cid:190) Project Description: The project consists of repairs the damaged shoulder on\n\nWestward Beach Road.",
+            1,
+            0.5120127201080322
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            2,
+            0.7354270219802856
+        ],
+        [
+            "The\nproject will be advertised for construction bids with construction\nbeginning in Fall 2022.",
+            6,
+            0.5166565179824829
+        ],
+        [
+            "The project was combined with the County of Los Angeles’ damaged\nguardrails. The project was completed in February 2021.",
+            7,
+            0.5022541284561157
+        ],
+        [
+            "During storms, this\nintersection floods and causes debris to block the road.",
+            3,
+            0.49414199590682983
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022",
+            6,
+            0.5582522749900818
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by July 2022.",
+            6,
+            0.5647627711296082
+        ],
+        [
+            "It is\nanticipated that the final design will be complete by March 2022. The",
+            6,
+            0.5663779377937317
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            7,
+            0.6148701906204224
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            0,
+            0.6038753986358643
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            1,
+            0.6481914520263672
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            7,
+            0.6203675270080566
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            5,
+            0.6089620590209961
+        ],
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: April 2022\n(cid:131) Advertise: Spring 2022\n(cid:131) Begin Construction: Spring 2022\n\nPage 5 of 8\n\nAgenda Item # 4.A.",
+            6,
+            0.5762377977371216
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.6103923320770264
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            2,
+            0.8048675656318665
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            5,
+            0.6105404496192932
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            1,
+            0.6578812003135681
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            2,
+            0.8065329194068909
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            4,
+            0.6594440937042236
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            0,
+            0.618827223777771
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.6621777415275574
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            2,
+            0.8108134269714355
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            4,
+            0.6811607480049133
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            7,
+            0.6572110652923584
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            1,
+            0.6743738055229187
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.6654117107391357
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            4,
+            0.6855382919311523
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.6667903065681458
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            7,
+            0.6676425933837891
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            0,
+            0.6335777044296265
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            1,
+            0.6868131160736084
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            3,
+            0.6668766736984253
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            0,
+            0.6482248306274414
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            6,
+            0.6996549367904663
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.6620336771011353
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            2,
+            0.8372786641120911
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7123031616210938
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            5,
+            0.6747168302536011
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            0,
+            0.670785665512085
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.7091479301452637
+        ],
+        [
+            "(cid:190) Upates:\n\n(cid:131) This project is currently under design with the City’s consultant.",
+            6,
+            0.7168614864349365
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.6877686977386475
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            4,
+            0.7186908721923828
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            5,
+            0.6783363819122314
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            6,
+            0.7179795503616333
+        ],
+        [
+            "(cid:190) Updates:\n\n(cid:131) Staff released a Request for Proposals for engineering design services.",
+            3,
+            0.7381239533424377
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            5,
+            0.7040808200836182
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            2,
+            0.8610453605651855
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            6,
+            0.7364023327827454
+        ],
+        [
+            "(cid:190) Updates: Council approved an agreement in December for design services.",
+            3,
+            0.7560157775878906
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            4,
+            0.7672533392906189
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.6977338790893555
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            1,
+            0.7680394649505615
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            6,
+            0.7512615919113159
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            7,
+            0.7308219075202942
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            0,
+            0.716443657875061
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            1,
+            0.7748553156852722
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            3,
+            0.7642357349395752
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            2,
+            0.914591908454895
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            3,
+            0.804451048374176
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            4,
+            0.8252533674240112
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            5,
+            0.769645094871521
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            6,
+            0.7804000973701477
+        ],
+        [
+            "A design\nreport will be presented to Council upon completion.",
+            7,
+            0.7444268465042114
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            0,
+            0.7887210249900818
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            1,
+            0.8676943778991699
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            2,
+            0.9294992685317993
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            3,
+            0.8390989303588867
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            4,
+            0.8795406818389893
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            5,
+            0.8358556032180786
+        ],
+        [
+            "(cid:131) The project consultant prepared the specifications for the project.",
+            6,
+            0.8102001547813416
+        ],
+        [
+            "(cid:131) The Kickoff meeting for the Steering Committee was held on March 17,\n\n2022.",
+            7,
+            0.8559556603431702
+        ]
+    ]
+}

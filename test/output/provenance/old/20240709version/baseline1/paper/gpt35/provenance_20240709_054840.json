@@ -1,0 +1,26 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "question": "How many authors are there for this paper?",
+    "raw_provenance": [
+        "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933",
+        "3.1.1 Methodology. We  started  with  MPs  interviews  as  we \nwished  to  understand  whether  they  agreed  with  the \nconcepts  derived  from  the  literature  and  whether  they \nwould  suggest  additional  ones.  We  interviewed  four  MPs: \ntwo  medical  consultants \ntwo  urinary \ncontinence specialist nurses (MP3-4). Three interviews were \nconducted  via  telephone  and  one  face-to-face  (MP2).  Each \ninterview lasted one hour and was divided into three phases \n(Table 1). \n\n(MP1-2)  and",
+        "8  CONCLUSION \nThis paper  presents  an  exploratory study  in  which  we  co-\ndesigned  and  then  evaluated  with  people  with  OAB  and \nhealth professionals an OAB mHealth app. We commenced \nwith an  OAB and  mHealth  app literature review and  used \nthis as the basis for our requirements gathering interviews. \nBased on the data collected we designed the first prototype \nand validated it again with the same stakeholder categories. \nGiven  the  second  round  of  feedback,  we  improved  the \ndesign of the app and evaluated it in a field study for nine \ndays with people with OAB.",
+        "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 7 \n \n \n \n \n\f5  STUDY 3 – SHORT FIELD STUDY \nKjeldskov  and  Skov  [47]  and  Baillie  and  Schatz  [6] \nunderline  the  importance  of  conducting  short  in  situ \nevaluations  as  lab-based  ones  could  leave  usability  or  UX \nissues  unrevealed. We, therefore, evaluated the  app  during \na  short  field  study  with  UPs.  When  evaluating  an  app  for \nolder  adults  with  age-related  macular  degeneration, \nHakobyan  et  al.  [26]  conducted  a  preliminary  7  days \nevaluation  study  before  carrying  on  with  a  6  weeks \nlongitudinal  field  one.  Previous  sensor  research  [34,  39] \nfound  differences  between  weekdays  and  weekends  and \nrecommend undertaking a study which lasts at least a week \n(best  9-11  days)  and  collects  both  weekday  and  weekend \ndata. Given this, we ran the study for 9 days.",
+        "CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 1 \n\fevaluating the app’s usability and the user experience (UX) \nduring  a  short exploratory field  study  with end-users.  The \noutcomes  from  the  three  studies  are  then  discussed  in  the \ncontext  of  our three RQs,  before  outlining  our conclusions \nand  proposed  future  work.  Some  of  the  findings  from  the \nfirst  two  studies  have  been  published  in  [51].  University \nethical approval was granted for all studies. We will refer to \npeople  with  OAB  symptoms  taking  part  in  the  studies  as \nuser participants (UP) and medical participants as MP. \n\n2  BACKGROUND \nIn  this  section,  we  present  the  OAB  condition  and  its \ntreatment. We then outline the current research in the area \nof  mHealth  apps.  Finally,  derived  from  the  literature,  we \nhighlight key issues surrounding OAB that could be used to \nsupport users.  \n\n2.1  Overactive Bladder"
+    ],
+    "evidence": [],
+    "raw_answer": "1",
+    "evidence_answer": "None",
+    "search_pool": [
+        "authors",
+        "number",
+        "many",
+        "paper",
+        "entities",
+        "attributes",
+        "attributes",
+        "attributes"
+    ]
+}

@@ -1,0 +1,587 @@
+{
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "raw_answer": "Yes",
+    "evidence_answer": "Yes",
+    "evidence_token_num": 157,
+    "total_token_num": 492,
+    "extracted_search_list": [
+        "theory",
+        "paper",
+        "A Model of Personal Informatics",
+        "Yes"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.6793115139007568
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.7296313047409058
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.738550066947937
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.7526977062225342
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.7532195448875427
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.7645074129104614
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.7647290229797363
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.786585807800293
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8004634380340576
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.8087011575698853
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8127759695053101
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8201429843902588
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.8219293355941772
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.823248028755188
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8377110958099365
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.8422964811325073
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.8528276085853577
+            ]
+        ],
+        [
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.7810747027397156
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.7938582897186279
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.8296124935150146
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.8352539539337158
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.8441577553749084
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8446212410926819
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.8479110598564148
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8518044948577881
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.8597619533538818
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.8624168634414673
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.869593620300293
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.8703725337982178
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8722189664840698
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.8778354525566101
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8831765055656433
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.88420569896698
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.9442539811134338
+            ]
+        ],
+        [
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.21359926462173462
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.22829800844192505
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.2864486575126648
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.3141111731529236
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.3485114574432373
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.3499985933303833
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.39179956912994385
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.48276054859161377
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.5713489055633545
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.602167010307312
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.6163814067840576
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.6478772163391113
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.6493771076202393
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.6564810276031494
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.6746524572372437
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.7559278011322021
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.7618286609649658
+            ]
+        ],
+        [
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.8054438233375549
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.8255392909049988
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.8297841548919678
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8341163396835327
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.8565334677696228
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8581581711769104
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.8645784854888916
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.8654847145080566
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.8696775436401367
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.870727002620697
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.8712770938873291
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8724527359008789
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.879273533821106
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8943406343460083
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.8943461179733276
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.9123075008392334
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.9167284965515137
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.6793115139007568
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.7296313047409058
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.738550066947937
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.7526977062225342
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.7532195448875427
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.7645074129104614
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.7647290229797363
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.786585807800293
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8004634380340576
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.8087011575698853
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8127759695053101
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8201429843902588
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.8219293355941772
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.823248028755188
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8377110958099365
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.8422964811325073
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.8528276085853577
+            ]
+        ],
+        [
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.7810747027397156
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.7938582897186279
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.8296124935150146
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.8352539539337158
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.8441577553749084
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8446212410926819
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.8479110598564148
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8518044948577881
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.8597619533538818
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.8624168634414673
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.869593620300293
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.8703725337982178
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8722189664840698
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.8778354525566101
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8831765055656433
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.88420569896698
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.9442539811134338
+            ]
+        ],
+        [
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.21359926462173462
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.22829800844192505
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.2864486575126648
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.3141111731529236
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.3485114574432373
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.3499985933303833
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.39179956912994385
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.48276054859161377
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.5713489055633545
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.602167010307312
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.6163814067840576
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.6478772163391113
+            ],
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.6493771076202393
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.6564810276031494
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.6746524572372437
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.7559278011322021
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.7618286609649658
+            ]
+        ],
+        [
+            [
+                "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+                0.8054438233375549
+            ],
+            [
+                "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+                0.8255392909049988
+            ],
+            [
+                "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+                0.8297841548919678
+            ],
+            [
+                "We supplement these \nguidelines  by  recommending  that  designers  plan  for  lapse \nand  resumption,  consider  people  migrating  between  tools, \nand support people adjusting their tracking goals.",
+                0.8341163396835327
+            ],
+            [
+                "Some  guidelines  are  consistent  with  those  suggested  by \nRooksby et al., including to consider the agency of people \nand how they want to self-track [34].",
+                0.8565334677696228
+            ],
+            [
+                "UBICOMP '15, SEPTEMBER 7–11, 2015, OSAKA, JAPAN\n\nA Lived Informatics Model of Personal Informatics \n\nDaniel A. Epstein1, An Ping2, James Fogarty1, Sean A. Munson2 \n1Computer Science & Engineering, 2Human Centered Design & Engineering \nDUB Group, University of Washington \n{depstein, jfogarty}@cs.washington.edu, {anping, smunson}@uw.edu",
+                0.8581581711769104
+            ],
+            [
+                "We develop a \nmodel characterizing tracker processes of deciding to track \nand selecting a tool, elaborate on tool usage during collection, \nintegration,  and  reflection  as  components  of  tracking  and \nacting,  and  discuss  the  lapsing  and  potential  resuming  of \ntracking",
+                0.8645784854888916
+            ],
+            [
+                "The pervasiveness of self-tracking tools has led researchers \nto  study  people’s  use  of  commercial  tools  for  tracking \nlocation  [24,30],  finances  [20],  food  [11],  weight  [19,25], \nand  physical  activity  [16,34]  and  to  develop  research \nprototypes to expand our understanding of usage [3,8,12,40].",
+                0.8654847145080566
+            ],
+            [
+                "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments.",
+                0.8696775436401367
+            ],
+            [
+                "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+                0.870727002620697
+            ],
+            [
+                "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+                0.8712770938873291
+            ],
+            [
+                "Beyond \nthese goal-driven motivations, self-tracking tools are now a \npart  of  everyday  life,  or  “lived  informatics”,  with  people \ntracking out of curiosity or a fascination with numbers [34].",
+                0.8724527359008789
+            ],
+            [
+                "The model has five stages: 1) preparation, or \nstarting to collect data and thinking about what information \nto  record  and  how  to  collect  it;  2)  collection,  or  gathering \ndata;  3)  integration,  or  preparing  data  to  reflect  upon; \n4) reflection, or examining and exploring data; and 5) action, \nor  taking  one’s  newfound  understanding  of  themselves  to \ninform changes.",
+                0.879273533821106
+            ],
+            [
+                "We examine how lived informatics manifests in the habits of \nself-trackers across a variety of domains, first by surveying \n105, 99, and 83 past and present trackers of physical activity, \nfinances, and location and then by interviewing 22 trackers \nregarding their lived informatics experiences.",
+                0.8943406343460083
+            ],
+            [
+                "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+                0.8943461179733276
+            ],
+            [
+                "ABSTRACT \nCurrent  models  of  how  people  use  personal  informatics \nsystems are largely based in behavior change goals.",
+                0.9123075008392334
+            ],
+            [
+                "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+                0.9167284965515137
+            ]
+        ]
+    ],
+    "evidence": [
+        "Models of Personal Informatics \nLi et al. develop a stage-based model of personal informatics \nsystems  and  describe  barriers  people  face  in  each  stage \n(Figure 1) [21].",
+        "Motivated by the Transtheoretical Model of \nBehavior  Change  (TTM)  [32],  Li  et  al.",
+        "later  identify  two \nphases  of  reflection,  discovery  and  maintenance,  and  note \npeople ask different types of questions in each phase [22].",
+        "DISCUSSION \nOur revised model of personal informatics offers guidance and \ndesign  challenges  for  the  personal  informatics  community.",
+        "They do \nnot  adequately  characterize  the  integration  of  self-tracking \ninto  everyday  life  by  people  with  varying  goals.",
+        "We  build \nupon  prior  work  by  embracing  the  perspective  of  lived \ninformatics to propose a new model of personal informatics.",
+        "INTRODUCTION \nPersonal informatics, or collecting and reflecting on personal \ninformation,  has  become  increasingly  prevalent.",
+        "Personal \ninformatics can serve a goal-driven purpose, such as tracking \nweight loss, increasing physical activity, having a record of \nplaces  visited,  or  tracking  student  loan  payments."
+    ]
+}

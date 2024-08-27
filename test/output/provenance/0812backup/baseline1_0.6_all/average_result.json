@@ -1,0 +1,56 @@
+[
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt35",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 0.6148517205956726
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4o",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 0.6113493541318457
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4omini",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 0.6170861336921546
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt35",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 0.5236772486772486
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4o",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 0.5236772486772486
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4omini",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 0.5581111111111111
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt35",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 0.9013227513227513
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4o",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 0.8985449735449735
+    },
+    {
+        "baseline_name": "baseline1_0.6",
+        "model_name": "gpt4omini",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 0.8917989417989418
+    }
+]

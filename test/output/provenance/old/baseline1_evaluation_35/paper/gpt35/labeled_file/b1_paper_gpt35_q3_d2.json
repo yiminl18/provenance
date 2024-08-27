@@ -1,0 +1,730 @@
+[
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Publication rights licensed to ACM. ACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s)."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "search_pool": [
+            "publication venue",
+            "CHI",
+            "paper"
+        ],
+        "jaccard_similarity": 1.0,
+        "jaccard_similarity_cleaned": 1.0,
+        "cosine_similarity": 1.0000000000000002,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191143.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "http://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206611123762049,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191324.json"
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty. 2015. Rethinking the Mobile Food Journal. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.  \nhttp://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty. 2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling. \nProceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159\u20131162.  \nhttp://doi.org/10.1145/2702123.2702155",
+            "20. Daniel A Epstein, Felicia Cordeiro, James Fogarty, \nGary Hsieh, and Sean A Munson. 2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness. Proceedings of the \nSIGCHI Conference on Human Factors in Computing \nSystems (CHI 2016): 5632\u20135644.  \nhttp://doi.org/10.1145/2858036.2858044 \n\n21. Daniel A Epstein, An Ping, James Fogarty, and Sean A \nMunson. 2015. A Lived Informatics Model of Personal \nInformatics. Proceedings of the 2015 ACM International \nJoint Conference on Pervasive and Ubiquitous \nComputing (UbiComp 2015): 731\u2013742. \nhttp://doi.org/10.1145/2750858.2804250 \n\n22. Susannah Fox and M Duggan. 2013. Health online 2013. \n\nHealth: 1\u201355. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+            "34. Diane Maloney-Krichmar and Jenny Preece. 2005. A Multilevel \nAnalysis of Sociability, Usability, and Community Dynamics in \nan Online Health Community. ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232. \nhttp://doi.org/10.1145/1067860.1067864 \n\n35. Lena Mamykina, Elizabeth Mynatt, Patricia Davidson, and \nDaniel Greenblatt. 2008. MAHI: Investigation of Social \nScaffolding for Reflective Thinking in Diabetes \nManagement. Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.  \nhttp://doi.org/10.1145/1357054.1357131 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1685 \n \n\f36. Yelena Mejova, Sofiane Abbar, and Hamed Haddadi. \n2016. Fetishizing Food in Digital Age: #foodporn \nAround the World. Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016). \n\n37. Hannah K Menefee, Morgan J Thompson, Thomas M"
+        ],
+        "evidence": [
+            "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207\u20133216.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "2016. Crumbs: \nLightweight Daily Food Challenges to Promote \nEngagement and Mindfulness.",
+            "Tenth International AAAI \nConference on Web and Social Media (ICWSM 2016).",
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38\u201343.",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+            "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2008): 477\u2013486.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 12, 2: 201\u2013232."
+        ],
+        "raw_answer": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+        "evidence_answer": "CHI, CSCW",
+        "search_pool": [
+            "publication venue",
+            "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+            "paper",
+            "CSCW 2016",
+            "Conference Name"
+        ],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.15384615384615385,
+        "cosine_similarity": 0.6206442745397377,
+        "file_path": "test/output/provenance/baseline1/paper/gpt35/jaccard_union/provenance_20240723_191000.json"
+    }
+]

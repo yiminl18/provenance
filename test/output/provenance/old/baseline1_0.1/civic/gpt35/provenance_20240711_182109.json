@@ -1,0 +1,28 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__04282021-1687.pdf",
+    "question": "What are the names of projects starting before 2022?",
+    "raw_provenance": [
+        "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.\n\n(cid:131) Staff is rescheduling the community meeting to May 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is out to bid with bids due April 21, 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+        "(cid:190) Updates: City staff continues to review project related material submittals.\nOnce submittals are approved, all materials will be ordered and shipped to\nthe project site. The roof ISO board membrane is on back order due to the\nrecent storms in Texas which halted manufacturing. The estimated material\narrival and start date is the middle of May.\n(cid:190) Project Schedule: May 2021 through July 2021\n\nBluffs Park Workout Station\n\n(cid:190) Updates: The contractor has completed and installed all the new workout\nequipment and rubber surfacing. Remaining work includes punch list items\nonly.\n\n(cid:190) Project Schedule: Estimated completion date is April 2021.\n\nCivic Center Way Improvements\n\n(cid:190) Updates:\n\n(cid:131) Work Hours: Monday through Friday 7:00AM to 4:00PM, Saturdays\n\n7:00AM to 4:00PM",
+        "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n04-28-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nTroy Spayd, Assistant Public Works Director/City Engineer\n\nDate prepared: April 15, 2021\n\nMeeting date: April 28, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City’s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:",
+        "(cid:131) Civic Center Way was reopened to the public on April 8th. While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures). The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.\n\n(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+        "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+    ],
+    "evidence": [
+        "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+        "Remaining work includes punch list items\nonly. (cid:190) Project Schedule: Estimated completion date is April 2021."
+    ],
+    "raw_answer": "Marie Canyon Green Streets, Bluffs Park Shade Structures, Vehicle Protection Devices.",
+    "evidence_answer": "Annual Street Maintenance",
+    "search_pool": [
+        "Marie Canyon Green Streets",
+        "projects",
+        "Vehicle Protection Devices",
+        "Bluffs Park Shade Structures",
+        "before 2022",
+        "start_date"
+    ]
+}

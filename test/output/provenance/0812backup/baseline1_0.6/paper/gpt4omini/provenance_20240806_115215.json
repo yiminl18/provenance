@@ -1,0 +1,1108 @@
+{
+    "model_name": "gpt4omini",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf",
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_provenance": [
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee. \nCHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. \nCopyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. \n\nto \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.  A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). \n\nreflect  on  personal \n\ninformation \n\ninform  people  about",
+        "2.  Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp. 1-10. \n\n3.  Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al. \nActivity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden. CHI‘08, 2008, pp. 1797-1806. \n\n4.  Froehlich, J., Dillahunt, T., Klasnja, P., et al. Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits. CHI’09, 2009, \npp. 1043-1052. \n\n5.  Franklin, B. Autobiography of Benjamin Franklin. New \n\nYork, 1916, pp. 146-155. \n\n6.  Frost, J. and Smith, B.K. Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp. 1-14. \n\n7.  Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.  Communications  of \nthe ACM, 2006, pp. 88-95.",
+        "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life. IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152. \n\n20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses. Journal of Happiness Studies, 4, 2003, pp. \n5-34. \n\n21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, \n2009, pp. 92-95. \n\n22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30. \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+        "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+        "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org).  We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems. Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.  We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses.  Interviewees \nreceived an additional $10 Amazon gift certificate."
+    ],
+    "evidence": [],
+    "raw_answer": "Ian Li, Anind Dey, Jodi Forlizzi",
+    "evidence_answer": "None",
+    "jaccard_similarity": 0.0,
+    "search_pool": [
+        " Anind Dey ",
+        " Jodi Forlizzi",
+        "Ian Li ",
+        "What are the names of authors whose institutions are in the US for this paper?"
+    ],
+    "unsorted_evidence": [],
+    "less_similar_evidence": [
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            0,
+            0.7836920022964478
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            1,
+            0.7847689986228943
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            2,
+            0.6635522842407227
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            3,
+            0.6457215547561646
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            0,
+            0.810524582862854
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            1,
+            0.7981631755828857
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            2,
+            0.7499929666519165
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            3,
+            0.6818454265594482
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            0,
+            0.8182694315910339
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            1,
+            0.8076143264770508
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            2,
+            0.7699263095855713
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            3,
+            0.6868152618408203
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            0,
+            0.820019006729126
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            1,
+            0.8083226680755615
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            2,
+            0.7726646661758423
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            3,
+            0.687645435333252
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            0,
+            0.8225087523460388
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            1,
+            0.8088586926460266
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            2,
+            0.7794004678726196
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            3,
+            0.7014903426170349
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            0,
+            0.8279908895492554
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            1,
+            0.8239362239837646
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            2,
+            0.7938526272773743
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            3,
+            0.7030980587005615
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            0,
+            0.8294448852539062
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            1,
+            0.8265537619590759
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            2,
+            0.794399082660675
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            3,
+            0.7087033987045288
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            0,
+            0.829572319984436
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            1,
+            0.8326650857925415
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            2,
+            0.8163883090019226
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            3,
+            0.7185704708099365
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            0,
+            0.8339072465896606
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            1,
+            0.8400484323501587
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            2,
+            0.8171460628509521
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            3,
+            0.7354888319969177
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            0,
+            0.8375754356384277
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            1,
+            0.8417666554450989
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            2,
+            0.823887288570404
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            3,
+            0.7389987707138062
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            0,
+            0.8399554491043091
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            1,
+            0.8433545827865601
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            2,
+            0.8288427591323853
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            3,
+            0.7542105913162231
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            0,
+            0.8469582200050354
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            1,
+            0.8480654954910278
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            2,
+            0.8335270285606384
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            3,
+            0.7578282356262207
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            0,
+            0.8481719493865967
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            1,
+            0.8491001129150391
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            2,
+            0.840796947479248
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            3,
+            0.7645383477210999
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            0,
+            0.8524391651153564
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            1,
+            0.8592259287834167
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            2,
+            0.841711699962616
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            3,
+            0.7666490077972412
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            0,
+            0.8533912301063538
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            1,
+            0.8656667470932007
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            2,
+            0.8475437164306641
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            3,
+            0.7688813209533691
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            0,
+            0.8566168546676636
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            1,
+            0.8659074306488037
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            2,
+            0.8500555157661438
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            3,
+            0.7738685607910156
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            0,
+            0.8600515127182007
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            1,
+            0.8730763792991638
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            2,
+            0.8514062166213989
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            3,
+            0.7760311365127563
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            0,
+            0.8632439374923706
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            1,
+            0.8734190464019775
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            2,
+            0.8514872789382935
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            3,
+            0.7871047854423523
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            0,
+            0.8634512424468994
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            1,
+            0.8795991539955139
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            2,
+            0.8577940464019775
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            3,
+            0.8097606301307678
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            0,
+            0.8645265698432922
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            1,
+            0.8806285858154297
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            2,
+            0.8610677719116211
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            3,
+            0.8099767565727234
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            0,
+            0.8645866513252258
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            1,
+            0.8817561864852905
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            2,
+            0.8656943440437317
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            3,
+            0.8139382004737854
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            0,
+            0.8686619400978088
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            1,
+            0.8846896886825562
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            2,
+            0.8739056587219238
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            3,
+            0.8563512563705444
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            0,
+            0.8840454816818237
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            1,
+            0.8851693272590637
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            2,
+            0.8806954622268677
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            3,
+            0.8596137762069702
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            0,
+            0.8870252370834351
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            1,
+            0.8870648741722107
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            2,
+            0.8883020281791687
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            3,
+            0.8630199432373047
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            0,
+            0.8924292325973511
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            1,
+            0.8951753973960876
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            2,
+            0.888996422290802
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            3,
+            0.8688164949417114
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            0,
+            0.9052931070327759
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            1,
+            0.9155226945877075
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            2,
+            0.8989277482032776
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            3,
+            0.8816059827804565
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            0,
+            0.9066926836967468
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            1,
+            0.9269938468933105
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            2,
+            0.9234218597412109
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            3,
+            0.9130980372428894
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            0,
+            0.7836920022964478
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            1,
+            0.7847689986228943
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            2,
+            0.6635522842407227
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            3,
+            0.6457215547561646
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            0,
+            0.810524582862854
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            1,
+            0.7981631755828857
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            2,
+            0.7499929666519165
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            3,
+            0.6818454265594482
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            0,
+            0.8182694315910339
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            1,
+            0.8076143264770508
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            2,
+            0.7699263095855713
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            3,
+            0.6868152618408203
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            0,
+            0.820019006729126
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            1,
+            0.8083226680755615
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            2,
+            0.7726646661758423
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            3,
+            0.687645435333252
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            0,
+            0.8225087523460388
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            1,
+            0.8088586926460266
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            2,
+            0.7794004678726196
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            3,
+            0.7014903426170349
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            0,
+            0.8279908895492554
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            1,
+            0.8239362239837646
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            2,
+            0.7938526272773743
+        ],
+        [
+            "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+            3,
+            0.7030980587005615
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            0,
+            0.8294448852539062
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            1,
+            0.8265537619590759
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            2,
+            0.794399082660675
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            3,
+            0.7087033987045288
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            0,
+            0.829572319984436
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            1,
+            0.8326650857925415
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            2,
+            0.8163883090019226
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            3,
+            0.7185704708099365
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            0,
+            0.8339072465896606
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            1,
+            0.8400484323501587
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            2,
+            0.8171460628509521
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            3,
+            0.7354888319969177
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            0,
+            0.8375754356384277
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            1,
+            0.8417666554450989
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            2,
+            0.823887288570404
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            3,
+            0.7389987707138062
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            0,
+            0.8399554491043091
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            1,
+            0.8433545827865601
+        ],
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            2,
+            0.8288427591323853
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            3,
+            0.7542105913162231
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            0,
+            0.8469582200050354
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            1,
+            0.8480654954910278
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            2,
+            0.8335270285606384
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            3,
+            0.7578282356262207
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            0,
+            0.8481719493865967
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            1,
+            0.8491001129150391
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            2,
+            0.840796947479248
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            3,
+            0.7645383477210999
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            0,
+            0.8524391651153564
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            1,
+            0.8592259287834167
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            2,
+            0.841711699962616
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            3,
+            0.7666490077972412
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            0,
+            0.8533912301063538
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            1,
+            0.8656667470932007
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            2,
+            0.8475437164306641
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            3,
+            0.7688813209533691
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            0,
+            0.8566168546676636
+        ],
+        [
+            "Communications  of \nthe ACM, 2006, pp. 88-95.",
+            1,
+            0.8659074306488037
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            2,
+            0.8500555157661438
+        ],
+        [
+            "We  interviewed  a  subset  of \nto  collect \nthese  participants  using \ninstant  messenger \nadditional  details  about \ntheir  responses. Interviewees \nreceived an additional $10 Amazon gift certificate.",
+            3,
+            0.7738685607910156
+        ],
+        [
+            "forums \nsites \n(http://slifelabs.com  and  http://moodjam.org). We  chose \nthese  web  sites  because  their  readers  and  users  were  more \nlikely  to  have  used  one  or  more  personal  informatics \nsystems.",
+            0,
+            0.8600515127182007
+        ],
+        [
+            "CHI’09, 2009, \npp. 1043-1052. 5. Franklin, B. Autobiography of Benjamin Franklin.",
+            1,
+            0.8730763792991638
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            2,
+            0.8514062166213989
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            3,
+            0.7760311365127563
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            0,
+            0.8632439374923706
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            1,
+            0.8734190464019775
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            2,
+            0.8514872789382935
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            3,
+            0.7871047854423523
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            0,
+            0.8634512424468994
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            1,
+            0.8795991539955139
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            2,
+            0.8577940464019775
+        ],
+        [
+            "1-14. 7. Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a \npersonal  database  for  everything.",
+            3,
+            0.8097606301307678
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            0,
+            0.8645265698432922
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            1,
+            0.8806285858154297
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            2,
+            0.8610677719116211
+        ],
+        [
+            "2. Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual \n\nMicroblogging. HICSS'09, 2009, pp.",
+            3,
+            0.8099767565727234
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            0,
+            0.8645866513252258
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            1,
+            0.8817561864852905
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            2,
+            0.8656943440437317
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            3,
+            0.8139382004737854
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            0,
+            0.8686619400978088
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            1,
+            0.8846896886825562
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            2,
+            0.8739056587219238
+        ],
+        [
+            "Ubigreen: \nfor  Tracking  and \n\nInvestigating  a  Mobile  Tool \n\nSupporting Green Transportation Habits.",
+            3,
+            0.8563512563705444
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            0,
+            0.8840454816818237
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            1,
+            0.8851693272590637
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            2,
+            0.8806954622268677
+        ],
+        [
+            "Survey participants were entered into a raffle for a \n$25  Amazon  gift  certificate.",
+            3,
+            0.8596137762069702
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            0,
+            0.8870252370834351
+        ],
+        [
+            "New \n\nYork, 1916, pp. 146-155. 6. Frost, J. and Smith, B.K.",
+            1,
+            0.8870648741722107
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            2,
+            0.8883020281791687
+        ],
+        [
+            "Visualizing Health: imagery in \n\ndiabetes education. DUX ’03, 2003, pp.",
+            3,
+            0.8630199432373047
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            0,
+            0.8924292325973511
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            1,
+            0.8951753973960876
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            2,
+            0.888996422290802
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            3,
+            0.8688164949417114
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            0,
+            0.9052931070327759
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            1,
+            0.9155226945877075
+        ],
+        [
+            "1-10. 3. Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al.",
+            2,
+            0.8989277482032776
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            3,
+            0.8816059827804565
+        ],
+        [
+            "CHI‘08, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
+            0,
+            0.9066926836967468
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            1,
+            0.9269938468933105
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            2,
+            0.9234218597412109
+        ],
+        [
+            "Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit \nGarden.",
+            3,
+            0.9130980372428894
+        ]
+    ]
+}

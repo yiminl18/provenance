@@ -11,12 +11,12 @@
         }
     },
     "question_1": {
-        "question": "What are the violation codes for the items listed in this notice?",
+        "question": "What are the violation codes for the listed items?",
         "extracted": {
             "entity1": {
                 "entity_name": "violation codes",
                 "attributes": {
-                    "items": "listed in this notice"
+                    "items": ""
                 }
             }
         }
@@ -39,7 +39,7 @@
             "entity1": {
                 "entity_name": "company",
                 "attributes": {
-                    "receiving the notice": "",
+                    "notice": "",
                     "civil penalty": "non-zero"
                 }
             }
@@ -51,8 +51,8 @@
             "entity1": {
                 "entity_name": "company",
                 "attributes": {
-                    "receiving_notice": "",
-                    "proposed_compliance": "",
+                    "receiving the notice": "",
+                    "proposed compliance": "",
                     "warning": ""
                 }
             }

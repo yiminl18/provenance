@@ -1,0 +1,1328 @@
+{
+    "model_name": "gpt4omini",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__04282021-1687.pdf",
+    "question": "What are the names of projects starting before 2022?",
+    "raw_provenance": [
+        "(cid:131) Civic Center Way was reopened to the public on April 8th. While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures). The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.\n\n(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+        "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire. The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations. Staff is\nworking on an RFQ to hire a consultant for the design.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+        "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.\n\n(cid:131) Staff is rescheduling the community meeting to May 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is out to bid with bids due April 21, 2021.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+        "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.\n(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nPage 4 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\n\nTrancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.\n\n(cid:190) Project Schedule:"
+    ],
+    "evidence": [
+        "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+        "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+        "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+        "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+        "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+        "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+        "(cid:131) Project is out to bid with bids due April 21, 2021.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+        "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nPage 4 of 6\n\nAgenda Item # 4.A.",
+        "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project. (cid:190) Project Schedule:"
+    ],
+    "raw_answer": "Civic Center Way, Project Schedule: August 2020 through April 2021, Complete Design: Summer 2021, Begin Construction: Fall 2021, Vehicle Protection Devices, Complete Design: Summer 2021, Begin Construction: Summer/Fall 2021, Complete Design: Winter 2021, Begin Construction: Spring 2022, Complete Design: March 2021, Begin Construction: June/July 2021, Complete Design: Spring 2021, Begin Construction: Summer 2021, Complete Design: Summer 2021, Begin Construction: Fall 2021, Complete Design: Summer 2021, Begin Construction: Summer/Fall 2021",
+    "evidence_answer": "Annual Street Maintenance, City Hall Roof Replacement, Latigo Canyon Road Roadway/Retaining Wall Improvements, Trancas Canyon Park Planting and Irrigation Repairs, Trancas Canyon Park Slope Stabilization Project",
+    "jaccard_similarity": 0.0425531914893617,
+    "search_pool": [
+        " Complete Design: Summer 2021 ",
+        " Complete Design: Spring 2021 ",
+        " Begin Construction: Summer/Fall 2021 ",
+        " Begin Construction: Spring 2022 ",
+        " Complete Design: March 2021 ",
+        " Begin Construction: Fall 2021 ",
+        " Begin Construction: Summer 2021 ",
+        "Civic Center Way ",
+        " Vehicle Protection Devices ",
+        "What are the names of projects starting before 2022?",
+        " Complete Design: Winter 2021 ",
+        " Begin Construction: June/July 2021 ",
+        " Begin Construction: Summer/Fall 2021",
+        " Project Schedule: August 2020 through April 2021 "
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nPage 4 of 6\n\nAgenda Item # 4.A.",
+            0,
+            0.4587807059288025
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+            4,
+            0.4772648811340332
+        ],
+        [
+            "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+            7,
+            0.3550509810447693
+        ],
+        [
+            "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+            9,
+            0.556768000125885
+        ],
+        [
+            "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+            13,
+            0.2230204939842224
+        ],
+        [
+            "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+            0,
+            0.477596640586853
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+            1,
+            0.5307968854904175
+        ],
+        [
+            "(cid:131) Project is out to bid with bids due April 21, 2021.",
+            9,
+            0.599908709526062
+        ],
+        [
+            "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            0,
+            0.4839598536491394
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+            5,
+            0.40790247917175293
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+            11,
+            0.4271894693374634
+        ],
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            0,
+            0.5709960460662842
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project. (cid:190) Project Schedule:",
+            2,
+            0.4161016345024109
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            13,
+            0.5249229669570923
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            13,
+            0.5450359582901001
+        ],
+        [
+            "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+            13,
+            0.5594652891159058
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            2,
+            0.5777621269226074
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            12,
+            0.5968906879425049
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+            8,
+            0.6433472633361816
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            8,
+            0.7691564559936523
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            8,
+            0.7702544927597046
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            7,
+            0.6565361022949219
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            8,
+            0.7865633964538574
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project. (cid:190) Project Schedule:",
+            7,
+            0.6742806434631348
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+            9,
+            0.6097592711448669
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            7,
+            0.6857280731201172
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            8,
+            0.8267183303833008
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            8,
+            0.829897403717041
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            10,
+            0.7048627138137817
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            7,
+            0.7177459001541138
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            0,
+            0.6653665900230408
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            1,
+            0.6760358810424805
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            4,
+            0.6542967557907104
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            9,
+            0.6712294816970825
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            10,
+            0.7273610234260559
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            0,
+            0.6921718120574951
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            1,
+            0.6888844966888428
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            8,
+            0.840068519115448
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            3,
+            0.6301855444908142
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            4,
+            0.693213939666748
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.844565749168396
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            2,
+            0.6006536483764648
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            3,
+            0.6305744051933289
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            5,
+            0.6259075403213501
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            6,
+            0.6201990842819214
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            9,
+            0.70160973072052
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            11,
+            0.6148723363876343
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            5,
+            0.638103723526001
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            7,
+            0.7546432614326477
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            11,
+            0.6302403211593628
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            12,
+            0.6051031351089478
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            0,
+            0.7599146962165833
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            2,
+            0.6422934532165527
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            5,
+            0.6586419939994812
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            6,
+            0.6504831314086914
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            11,
+            0.6356308460235596
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            13,
+            0.6615397930145264
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            2,
+            0.6483041048049927
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            3,
+            0.6501047611236572
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            4,
+            0.754732608795166
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            5,
+            0.6645516157150269
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            6,
+            0.6644538640975952
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            9,
+            0.7329559922218323
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            11,
+            0.6491952538490295
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            12,
+            0.6488015651702881
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            13,
+            0.6735016107559204
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            1,
+            0.7745861411094666
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            2,
+            0.6627538204193115
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            8,
+            0.8671023845672607
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            9,
+            0.7585095167160034
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            10,
+            0.8234645128250122
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            11,
+            0.6559967994689941
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            12,
+            0.6529248356819153
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            13,
+            0.6839005947113037
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            0,
+            0.7828577756881714
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            1,
+            0.7766923904418945
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            2,
+            0.6635968685150146
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            3,
+            0.6797391176223755
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            4,
+            0.7615381479263306
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            5,
+            0.6757386922836304
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            6,
+            0.6702587008476257
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            7,
+            0.7868421673774719
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            9,
+            0.7661720514297485
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            10,
+            0.8240668177604675
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            12,
+            0.6624612808227539
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            13,
+            0.6876938343048096
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            0,
+            0.7902872562408447
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            3,
+            0.6834441423416138
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            4,
+            0.764662504196167
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            5,
+            0.6762767434120178
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            6,
+            0.6713249683380127
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.801887571811676
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            8,
+            0.8704156279563904
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            9,
+            0.7846783995628357
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            10,
+            0.8352090120315552
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            11,
+            0.6816364526748657
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            12,
+            0.6678979396820068
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            13,
+            0.7052714824676514
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            0,
+            0.7948862314224243
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            1,
+            0.8061391711235046
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.6849565505981445
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            3,
+            0.6874209046363831
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            5,
+            0.6853273510932922
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            6,
+            0.7018558382987976
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            7,
+            0.8124741315841675
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            9,
+            0.7939278483390808
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            10,
+            0.8378832936286926
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            12,
+            0.683605432510376
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            13,
+            0.7072063684463501
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.7965031862258911
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            1,
+            0.824637234210968
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            2,
+            0.6867649555206299
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            3,
+            0.7044742107391357
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            4,
+            0.800432562828064
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.6956189870834351
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.7027148008346558
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            7,
+            0.8238434195518494
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            10,
+            0.8432791829109192
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            11,
+            0.6979622840881348
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            12,
+            0.6875429153442383
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.829386830329895
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7475078105926514
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.8064640164375305
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            7,
+            0.8549247980117798
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            9,
+            0.8344131708145142
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            11,
+            0.7243466377258301
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            13,
+            0.7476901412010193
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nPage 4 of 6\n\nAgenda Item # 4.A.",
+            0,
+            0.4587807059288025
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.",
+            4,
+            0.4772648811340332
+        ],
+        [
+            "(cid:131) Civic Center Way was reopened to the public on April 8th.",
+            7,
+            0.3550509810447693
+        ],
+        [
+            "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+            8,
+            0.6433472633361816
+        ],
+        [
+            "Capital Improvement Projects (Not Started)\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-post\n\nshade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices",
+            9,
+            0.556768000125885
+        ],
+        [
+            "(cid:190) Project Schedule: August 2020 through April 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.",
+            13,
+            0.2230204939842224
+        ],
+        [
+            "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+            0,
+            0.477596640586853
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)",
+            1,
+            0.5307968854904175
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            8,
+            0.7691564559936523
+        ],
+        [
+            "(cid:131) Project is out to bid with bids due April 21, 2021.",
+            9,
+            0.599908709526062
+        ],
+        [
+            "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+            0,
+            0.4839598536491394
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement",
+            5,
+            0.40790247917175293
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            8,
+            0.7702544927597046
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            7,
+            0.6565361022949219
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            8,
+            0.7865633964538574
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project. (cid:190) Project Schedule:",
+            7,
+            0.6742806434631348
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+            9,
+            0.6097592711448669
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: March 2021\n(cid:131) Begin Construction: June/July 2021\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+            11,
+            0.4271894693374634
+        ],
+        [
+            "(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm drain\non Latigo Canyon Road located approximately 2,500 feet from PCH that was\ndamaged by the Woolsey Fire.",
+            0,
+            0.5709960460662842
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalJPIA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project. (cid:190) Project Schedule:",
+            2,
+            0.4161016345024109
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            7,
+            0.6857280731201172
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey Fire.",
+            13,
+            0.5249229669570923
+        ],
+        [
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            13,
+            0.5450359582901001
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            8,
+            0.8267183303833008
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            8,
+            0.829897403717041
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            10,
+            0.7048627138137817
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            7,
+            0.7177459001541138
+        ],
+        [
+            "(cid:131) Staff is rescheduling the community meeting to May 2021.",
+            13,
+            0.5594652891159058
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            0,
+            0.6653665900230408
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            1,
+            0.6760358810424805
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            4,
+            0.6542967557907104
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            9,
+            0.6712294816970825
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            10,
+            0.7273610234260559
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            0,
+            0.6921718120574951
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            1,
+            0.6888844966888428
+        ],
+        [
+            "Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+            2,
+            0.5777621269226074
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            8,
+            0.840068519115448
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            3,
+            0.6301855444908142
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            4,
+            0.693213939666748
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            8,
+            0.844565749168396
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            2,
+            0.6006536483764648
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            3,
+            0.6305744051933289
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            5,
+            0.6259075403213501
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            6,
+            0.6201990842819214
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            9,
+            0.70160973072052
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            11,
+            0.6148723363876343
+        ],
+        [
+            "While being\nopen, many project related items will continue. This will include\nintermittent traffic control (lane closures).",
+            12,
+            0.5968906879425049
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            5,
+            0.638103723526001
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            7,
+            0.7546432614326477
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            11,
+            0.6302403211593628
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            12,
+            0.6051031351089478
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            0,
+            0.7599146962165833
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            2,
+            0.6422934532165527
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            5,
+            0.6586419939994812
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            6,
+            0.6504831314086914
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            11,
+            0.6356308460235596
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            13,
+            0.6615397930145264
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            2,
+            0.6483041048049927
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            3,
+            0.6501047611236572
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            4,
+            0.754732608795166
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            5,
+            0.6645516157150269
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            6,
+            0.6644538640975952
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            9,
+            0.7329559922218323
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            11,
+            0.6491952538490295
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            12,
+            0.6488015651702881
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            13,
+            0.6735016107559204
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            1,
+            0.7745861411094666
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            2,
+            0.6627538204193115
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            8,
+            0.8671023845672607
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            9,
+            0.7585095167160034
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            10,
+            0.8234645128250122
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            11,
+            0.6559967994689941
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            12,
+            0.6529248356819153
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            13,
+            0.6839005947113037
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            0,
+            0.7828577756881714
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            1,
+            0.7766923904418945
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            2,
+            0.6635968685150146
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            3,
+            0.6797391176223755
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            4,
+            0.7615381479263306
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            5,
+            0.6757386922836304
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            6,
+            0.6702587008476257
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            7,
+            0.7868421673774719
+        ],
+        [
+            "The remaining items includes\nfinal paving, striping, irrigation, painting, planting material, clean-up,\nand final detailing.",
+            9,
+            0.7661720514297485
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            10,
+            0.8240668177604675
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            12,
+            0.6624612808227539
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            13,
+            0.6876938343048096
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            0,
+            0.7902872562408447
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            3,
+            0.6834441423416138
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            4,
+            0.764662504196167
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            5,
+            0.6762767434120178
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            6,
+            0.6713249683380127
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            7,
+            0.801887571811676
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            8,
+            0.8704156279563904
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            9,
+            0.7846783995628357
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            10,
+            0.8352090120315552
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            11,
+            0.6816364526748657
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            12,
+            0.6678979396820068
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            13,
+            0.7052714824676514
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            0,
+            0.7948862314224243
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            1,
+            0.8061391711235046
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            2,
+            0.6849565505981445
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            3,
+            0.6874209046363831
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            5,
+            0.6853273510932922
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            6,
+            0.7018558382987976
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            7,
+            0.8124741315841675
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            9,
+            0.7939278483390808
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            10,
+            0.8378832936286926
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            12,
+            0.683605432510376
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            13,
+            0.7072063684463501
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            0,
+            0.7965031862258911
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            1,
+            0.824637234210968
+        ],
+        [
+            "The project consists of hiring a consultant to develop a plan that\nincludes the evaluation of a siren system and possible locations.",
+            2,
+            0.6867649555206299
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            3,
+            0.7044742107391357
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            4,
+            0.800432562828064
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            5,
+            0.6956189870834351
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            6,
+            0.7027148008346558
+        ],
+        [
+            "Staff is\nworking on an RFQ to hire a consultant for the design.",
+            7,
+            0.8238434195518494
+        ],
+        [
+            "Malibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff made minor modifications to the project plans to reduce the\n\noverall project costs.",
+            10,
+            0.8432791829109192
+        ],
+        [
+            "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+            11,
+            0.6979622840881348
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            12,
+            0.6875429153442383
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            1,
+            0.829386830329895
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            3,
+            0.7475078105926514
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            4,
+            0.8064640164375305
+        ],
+        [
+            "(cid:131) The project assessment engineer has begun the process of evaluating\n\nthe project costs.",
+            7,
+            0.8549247980117798
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            9,
+            0.8344131708145142
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            11,
+            0.7243466377258301
+        ],
+        [
+            "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+            13,
+            0.7476901412010193
+        ]
+    ]
+}

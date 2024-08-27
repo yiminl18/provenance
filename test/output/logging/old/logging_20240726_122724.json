@@ -1,0 +1,1250 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "None",
+    "evidence_answer": "3",
+    "evidence_token_num": 205,
+    "total_token_num": 511,
+    "extracted_search_list": [
+        "many",
+        "None",
+        "paper",
+        "authors",
+        "number"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7846454381942749
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7986064553260803
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7988107800483704
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.809474527835846
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.810146689414978
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8110740184783936
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8178006410598755
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8185781240463257
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.81915682554245
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8232262134552002
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8261984586715698
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337706327438354
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8344792127609253
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8368953466415405
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8449795246124268
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8464787602424622
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8490782976150513
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8598446249961853
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8637300729751587
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8638761639595032
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728506565093994
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8748356103897095
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8762901425361633
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8769504427909851
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8779532313346863
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.881881833076477
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8841924071311951
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8859565258026123
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9023629426956177
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.902642548084259
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7367410659790039
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7639416456222534
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7670548558235168
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7694066762924194
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.773742139339447
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742114663124084
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7880157232284546
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7926845550537109
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7978366017341614
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8001689910888672
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8063802719116211
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8070506453514099
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121375441551208
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8124686479568481
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161934614181519
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8225909471511841
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8230893611907959
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8366873264312744
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8438934683799744
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8445060849189758
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8514785766601562
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.862730085849762
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8738163113594055
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8743973970413208
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8766137957572937
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816482424736023
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8861786723136902
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8881719708442688
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914321660995483
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8919316530227661
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.661322295665741
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7170051336288452
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185325622558594
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.726495087146759
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7329767942428589
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.743188738822937
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452148199081421
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512030005455017
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.752288281917572
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7637467384338379
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7659576535224915
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669017910957336
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7721500396728516
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731600999832153
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7911672592163086
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7942202687263489
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7966496348381042
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8151811361312866
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171175718307495
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8274834752082825
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8437695503234863
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8515788316726685
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8608251214027405
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8691089153289795
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8711847066879272
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8774320483207703
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8825410008430481
+            ]
+        ],
+        [
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832193732261658
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842705607414246
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875220537185669
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.6966731548309326
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004221677780151
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.717896580696106
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7245804071426392
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279207110404968
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.742512047290802
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499215602874756
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7533290982246399
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7536385655403137
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559331059455872
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570759057998657
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.760130763053894
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603652477264404
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671034932136536
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738491296768188
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762767672538757
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767742872238159
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.7831217646598816
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7848642468452454
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874433994293213
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.7939341068267822
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8166367411613464
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8174952268600464
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8231967687606812
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8270586133003235
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.831740140914917
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7455184459686279
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7727791666984558
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7803675532341003
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8059524297714233
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8247203230857849
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286904692649841
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8295162916183472
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8303602933883667
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321986794471741
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8410045504570007
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8422545194625854
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442927598953247
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.848360538482666
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595506548881531
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605225086212158
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.862859845161438
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8737247586250305
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8738672733306885
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747355341911316
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8816612362861633
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8953353762626648
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8987091183662415
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.906492292881012
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.9100221991539001
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.9100548028945923
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.9282126426696777
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.9424256682395935
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9427900910377502
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7846454381942749
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7986064553260803
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7988107800483704
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.809474527835846
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.810146689414978
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8110740184783936
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8178006410598755
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8185781240463257
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.81915682554245
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8232262134552002
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8261984586715698
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337706327438354
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8344792127609253
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8368953466415405
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8449795246124268
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8464787602424622
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8490782976150513
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8598446249961853
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8637300729751587
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8638761639595032
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728506565093994
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8748356103897095
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8762901425361633
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8769504427909851
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8779532313346863
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.881881833076477
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8841924071311951
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8859565258026123
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9023629426956177
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.902642548084259
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7367410659790039
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7639416456222534
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7670548558235168
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7694066762924194
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.773742139339447
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742114663124084
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7880157232284546
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7926845550537109
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7978366017341614
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8001689910888672
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8063802719116211
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8070506453514099
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121375441551208
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8124686479568481
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161934614181519
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8225909471511841
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8230893611907959
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8366873264312744
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8438934683799744
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8445060849189758
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8514785766601562
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.862730085849762
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8738163113594055
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8743973970413208
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8766137957572937
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816482424736023
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8861786723136902
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8881719708442688
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914321660995483
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8919316530227661
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.661322295665741
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7170051336288452
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185325622558594
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.726495087146759
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7329767942428589
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.743188738822937
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452148199081421
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512030005455017
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.752288281917572
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7637467384338379
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7659576535224915
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669017910957336
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7721500396728516
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731600999832153
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7911672592163086
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7942202687263489
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7966496348381042
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8151811361312866
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171175718307495
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8274834752082825
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8437695503234863
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8515788316726685
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8608251214027405
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8691089153289795
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8711847066879272
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8774320483207703
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8825410008430481
+            ]
+        ],
+        [
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832193732261658
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842705607414246
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875220537185669
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.6966731548309326
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004221677780151
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.717896580696106
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7245804071426392
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279207110404968
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.742512047290802
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499215602874756
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7533290982246399
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7536385655403137
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559331059455872
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570759057998657
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.760130763053894
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603652477264404
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671034932136536
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738491296768188
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762767672538757
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767742872238159
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.7831217646598816
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7848642468452454
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874433994293213
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.7939341068267822
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8166367411613464
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8174952268600464
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8231967687606812
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8270586133003235
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.831740140914917
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7455184459686279
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.7727791666984558
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7803675532341003
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8059524297714233
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8247203230857849
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286904692649841
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8295162916183472
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8303602933883667
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321986794471741
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8410045504570007
+            ],
+            [
+                "The  lived  informatics  model  has  three  major \nstages:  (1)  Deciding  and  selecting:  In  this  stage,  people \nmake  decisions  about  tracking  and  choose  the  tools  they \nwant  to  use",
+                0.8422545194625854
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442927598953247
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.848360538482666
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595506548881531
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605225086212158
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.862859845161438
+            ],
+            [
+                "Epstein et al. later developed the lived informatics model [21] \nto  better  describe  people’s  tool  selection  choices,  the \nconcurrent  and  iterative  nature  of  collection,  integration, \nand  reflection,  as  well  as  the  lapse  or  resumption  of \ntracking.",
+                0.8737247586250305
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8738672733306885
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747355341911316
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8816612362861633
+            ],
+            [
+                "They  also  described  various  goals  people  have \nwhile  adopting  self-tracking  practices,  such  as  behavior \nchange, curiosity, or instrumental purposes (having a record, \nreceiving \nincentives,  and  maintaining  a  relationship).",
+                0.8953353762626648
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8987091183662415
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.906492292881012
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.9100221991539001
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.9100548028945923
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.9282126426696777
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.9424256682395935
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9427900910377502
+            ]
+        ]
+    ],
+    "evidence": [
+        "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+        "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+        "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+        "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+        "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+        "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+        "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+        "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World."
+    ]
+}

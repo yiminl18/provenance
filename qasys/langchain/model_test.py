@@ -35,7 +35,7 @@ Return the answer in JSON format as shown below:
 }.
 If there are no constraints on attributes, return an empty string for the attribute value."""
 
-model_name = 'gpt4o'
+model_name = 'gpt4turbo'
 
 
 prompt = (instruction,text)

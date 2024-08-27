@@ -35,7 +35,7 @@
     "question_3": {
         "question": "What are the names of disaster projects starting later than 2022?",
         "extracted": {
-            "disaster_projects": {
+            "entity1": {
                 "entity_name": "disaster projects",
                 "attributes": {
                     "start_date": "later than 2022"

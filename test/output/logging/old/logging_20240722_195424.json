@@ -1,0 +1,758 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "3",
+    "evidence_answer": "None",
+    "evidence_token_num": 157,
+    "total_token_num": 628,
+    "extracted_search_list": [
+        "paper",
+        "number_of_authors",
+        "3"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7098260521888733
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7109801769256592
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512553930282593
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7696624994277954
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7716209888458252
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7785985469818115
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7904928922653198
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.7917813062667847
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920682430267334
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920941114425659
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8048884868621826
+            ],
+            [
+                "14. Li,  I.,  Dey,  A.,  and  Forlizzi,  J. Using  Contextual \nInformation to Improve Awareness of Physical Activity.",
+                0.8070416450500488
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8089762330055237
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8117893934249878
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8151707649230957
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183228373527527
+            ],
+            [
+                "Increasing  the  Awareness  of  Moderate  Exercise  with \nPervasive  Computing. IEEE  Pervasive  Health \nConference, 2006, pp.",
+                0.8183588981628418
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.819081723690033
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8307355046272278
+            ],
+            [
+                "Engaging Data Forum 2009, Boston, MA, 2009. 15. Lin, J.J., Mamykina, L., Lindtner, S., et al.",
+                0.8309057950973511
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.833074152469635
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8347292542457581
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "Ubicomp’06, 2006, pp. 261-278. 16. Maitland,  J.,  Sherwood,  S.,  Barkhuus,  L.,  et  al.",
+                0.8394672870635986
+            ],
+            [
+                "Fish’n’Steps: \nEncouraging  Physical  Activity  with  an  Interactive \nComputer Game.",
+                0.8432546257972717
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8439558744430542
+            ]
+        ],
+        [
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.7585021257400513
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.758516788482666
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.773695170879364
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7814040780067444
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8023443818092346
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8066251277923584
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8068742752075195
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.8215888738632202
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.8230226039886475
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8238975405693054
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8292059898376465
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8309403657913208
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8318091630935669
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8338183164596558
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8394249677658081
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8394297957420349
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8442145586013794
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.848651111125946
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.848651111125946
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8495545983314514
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8506228923797607
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8513586521148682
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8514075875282288
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.8521668314933777
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8536698818206787
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8536747097969055
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8536819219589233
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8548668622970581
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8608017563819885
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8665413856506348
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.76181960105896
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7629976272583008
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7838959097862244
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7889758348464966
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.7970101833343506
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.797636866569519
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7984802722930908
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7984979748725891
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7992151975631714
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7997230291366577
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8007233142852783
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8017335534095764
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.803408682346344
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.8035966157913208
+            ],
+            [
+                "Engaging Data Forum 2009, Boston, MA, 2009. 15. Lin, J.J., Mamykina, L., Lindtner, S., et al.",
+                0.8050167560577393
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8059408068656921
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8059408068656921
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8061764240264893
+            ],
+            [
+                "Fish’n’Steps: \nEncouraging  Physical  Activity  with  an  Interactive \nComputer Game.",
+                0.8110011219978333
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8130083084106445
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8158920407295227
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.816409170627594
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8165980577468872
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8201740980148315
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8216228485107422
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8226988315582275
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8228857517242432
+            ],
+            [
+                "14. Li,  I.,  Dey,  A.,  and  Forlizzi,  J. Using  Contextual \nInformation to Improve Awareness of Physical Activity.",
+                0.8245729804039001
+            ],
+            [
+                "From this, we derived a \nmodel of personal informatics systems organized by stages, \nwhich emphasizes the interdependence of the different parts \nof personal informatics systems.",
+                0.8269027471542358
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.827198326587677
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7098260521888733
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7109801769256592
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512553930282593
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7696624994277954
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7716209888458252
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.7785985469818115
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7904928922653198
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.7917813062667847
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920682430267334
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920941114425659
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8048884868621826
+            ],
+            [
+                "14. Li,  I.,  Dey,  A.,  and  Forlizzi,  J. Using  Contextual \nInformation to Improve Awareness of Physical Activity.",
+                0.8070416450500488
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8089762330055237
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8117893934249878
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8151707649230957
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183228373527527
+            ],
+            [
+                "Increasing  the  Awareness  of  Moderate  Exercise  with \nPervasive  Computing. IEEE  Pervasive  Health \nConference, 2006, pp.",
+                0.8183588981628418
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.819081723690033
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8307355046272278
+            ],
+            [
+                "Engaging Data Forum 2009, Boston, MA, 2009. 15. Lin, J.J., Mamykina, L., Lindtner, S., et al.",
+                0.8309057950973511
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.833074152469635
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8347292542457581
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "Ubicomp’06, 2006, pp. 261-278. 16. Maitland,  J.,  Sherwood,  S.,  Barkhuus,  L.,  et  al.",
+                0.8394672870635986
+            ],
+            [
+                "Fish’n’Steps: \nEncouraging  Physical  Activity  with  an  Interactive \nComputer Game.",
+                0.8432546257972717
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8439558744430542
+            ]
+        ],
+        [
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.7585021257400513
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.758516788482666
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.773695170879364
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.7814040780067444
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8023443818092346
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8066251277923584
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8068742752075195
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.8215888738632202
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.8230226039886475
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8238975405693054
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8292059898376465
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.8309403657913208
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8318091630935669
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8338183164596558
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8394249677658081
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8394297957420349
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.8442145586013794
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.848651111125946
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.848651111125946
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8495545983314514
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.8506228923797607
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8513586521148682
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8514075875282288
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.8521668314933777
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.8536698818206787
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8536747097969055
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8536819219589233
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8548668622970581
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.8608017563819885
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8665413856506348
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.76181960105896
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.7629976272583008
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7838959097862244
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7889758348464966
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.7970101833343506
+            ],
+            [
+                "of \nhealth  management \nInvestigating \nindividuals with diabetes. CHI’06, 2006, pp.",
+                0.797636866569519
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7984802722930908
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7984979748725891
+            ],
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.7992151975631714
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7997230291366577
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                0.8007233142852783
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.8017335534095764
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.803408682346344
+            ],
+            [
+                "Toward this end, we \nconducted  surveys  and  interviews  with  people  who  collect \nand reflect on personal information.",
+                0.8035966157913208
+            ],
+            [
+                "Engaging Data Forum 2009, Boston, MA, 2009. 15. Lin, J.J., Mamykina, L., Lindtner, S., et al.",
+                0.8050167560577393
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8059408068656921
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8059408068656921
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8061764240264893
+            ],
+            [
+                "Fish’n’Steps: \nEncouraging  Physical  Activity  with  an  Interactive \nComputer Game.",
+                0.8110011219978333
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8130083084106445
+            ],
+            [
+                "1-9. 17. Mamykina,  L.,  Mynatt,  E.D.,  and  Kaufman,  D.R.",
+                0.8158920407295227
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.816409170627594
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8165980577468872
+            ],
+            [
+                "We  provide  three  main  contributions  in  this  paper:  1)  we \nidentify  problems  across  personal  informatics  tools,  2)  we \nintroduce and discuss a model that improves the diagnosis, \nin  personal \nassessment,  and  prediction  of  problems \ninformatics  systems,  and  3)  we  make  recommendations \nabout  how  to  improve  existing  systems  and  build  new  and \neffective personal informatics systems. to",
+                0.8201740980148315
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.8216228485107422
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8226988315582275
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8228857517242432
+            ],
+            [
+                "14. Li,  I.,  Dey,  A.,  and  Forlizzi,  J. Using  Contextual \nInformation to Improve Awareness of Physical Activity.",
+                0.8245729804039001
+            ],
+            [
+                "From this, we derived a \nmodel of personal informatics systems organized by stages, \nwhich emphasizes the interdependence of the different parts \nof personal informatics systems.",
+                0.8269027471542358
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.827198326587677
+            ]
+        ]
+    ],
+    "evidence": [
+        "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+        "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+        "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+        "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+        "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+        "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+        "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations."
+    ]
+}

@@ -1,0 +1,777 @@
+{
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "raw_answer": "Yes",
+    "evidence_answer": "Yes",
+    "evidence_token_num": 173,
+    "total_token_num": 525,
+    "extracted_search_list": [
+        "theory",
+        "paper",
+        "A Model of Personal Informatics",
+        "Yes"
+    ],
+    "searched_docs": [
+        [
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.6058783531188965
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.721466064453125
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.7347031831741333
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.7421671152114868
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.74518221616745
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.7624601125717163
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.7659445405006409
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.7685865759849548
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.7911585569381714
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.8034467697143555
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8064649701118469
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8151152729988098
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.818981409072876
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8210790753364563
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8236267566680908
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8245382308959961
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.8296571969985962
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8380711674690247
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8473950028419495
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8556721210479736
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.8621729612350464
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.8743687868118286
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8964158296585083
+            ]
+        ],
+        [
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.7797315120697021
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920682430267334
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.7994153499603271
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.8087806105613708
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.8160619735717773
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.8171285390853882
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8177840709686279
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8254116177558899
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8313383460044861
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.8330798149108887
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.8358641266822815
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8439837098121643
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8484072089195251
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8490839004516602
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8494482040405273
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.8502362966537476
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.8514347672462463
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8667022585868835
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.8680895566940308
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.8894367218017578
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8990873098373413
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.9014760255813599
+            ]
+        ],
+        [
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.19203001260757446
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.29909706115722656
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.3156774640083313
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.3157060146331787
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.35407644510269165
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.3585094213485718
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.3794695734977722
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.42842352390289307
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.4333500862121582
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.4437835216522217
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.4813118577003479
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.5112007856369019
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.5588598251342773
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.6611312627792358
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.6647361516952515
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.6680111885070801
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.7216715812683105
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.7306485176086426
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8017455339431763
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.814490795135498
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8193824291229248
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8295153975486755
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8351393342018127
+            ]
+        ],
+        [
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.775847315788269
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.8312171697616577
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.8330382704734802
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.8367141485214233
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8415709733963013
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8480042219161987
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.8560083508491516
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8603161573410034
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8604156970977783
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8636555075645447
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8637897968292236
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8643257021903992
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8653552532196045
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8710380792617798
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8724000453948975
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.8810820579528809
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.8882443904876709
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8886195421218872
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.8942736983299255
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8992000818252563
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.900364339351654
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.9191160202026367
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.9443429708480835
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.6058783531188965
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.721466064453125
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.7347031831741333
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.7421671152114868
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.74518221616745
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.7624601125717163
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.7659445405006409
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.7685865759849548
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.7911585569381714
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.8034467697143555
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8064649701118469
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8151152729988098
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.818981409072876
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8210790753364563
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8236267566680908
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8245382308959961
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.8296571969985962
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8380711674690247
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8473950028419495
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8556721210479736
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.8621729612350464
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.8743687868118286
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8964158296585083
+            ]
+        ],
+        [
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.7797315120697021
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.7920682430267334
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.7994153499603271
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.8087806105613708
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.8160619735717773
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.8171285390853882
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8177840709686279
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8183026313781738
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8254116177558899
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8313383460044861
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.8330798149108887
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.8358641266822815
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8439837098121643
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8484072089195251
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8490839004516602
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8494482040405273
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.8502362966537476
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.8514347672462463
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8667022585868835
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.8680895566940308
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.8894367218017578
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8990873098373413
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.9014760255813599
+            ]
+        ],
+        [
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.19203001260757446
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.29909706115722656
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.3156774640083313
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.3157060146331787
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.35407644510269165
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.3585094213485718
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.3794695734977722
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.42842352390289307
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.4333500862121582
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.4437835216522217
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.4813118577003479
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.5112007856369019
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.5588598251342773
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.6611312627792358
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.6647361516952515
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.6680111885070801
+            ],
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.7216715812683105
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.7306485176086426
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8017455339431763
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.814490795135498
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8193824291229248
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8295153975486755
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8351393342018127
+            ]
+        ],
+        [
+            [
+                "This  poses  demands  on \nusers that need to be explored.",
+                0.775847315788269
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.8312171697616577
+            ],
+            [
+                "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+                0.8330382704734802
+            ],
+            [
+                "These  days,  there  are  people  like  Nicholas \nFelton,  who  has  been  publishing  annual  reports  about \nhimself since 2005 (http://feltron.com), and Ellie Harrison, \nwho  created  art  projects  on  her  personal  behavior,  such  as \nfood  consumption  and  sneezes  (http://ellieharrison.com).",
+                0.8367141485214233
+            ],
+            [
+                "thank  our  survey  and \n\nlike \n\nto \n\ninterview \n\nREFERENCES \n1. Alleyne, R. \"The house that Twitters.\"",
+                0.8415709733963013
+            ],
+            [
+                "Benjamin  Franklin  tracked \nthe days in which he accomplished one of his 13 virtues for \n60  years  [5].",
+                0.8480042219161987
+            ],
+            [
+                "Second,  people  participate  in  both  the  collection  of \nbehavioral  information  as  well  as  the  exploration  and \nunderstanding  of  the  information.",
+                0.8560083508491516
+            ],
+            [
+                "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+                0.8603161573410034
+            ],
+            [
+                "Finally, we do not know all \nthe  problems  that  people  may  experience  with  personal \ninformatics  systems.",
+                0.8604156970977783
+            ],
+            [
+                "We  know  that  people  want  to  get \ninformation about themselves to reflect on, and that systems \nthat support this activity need to be effective and simple to \nuse.",
+                0.8636555075645447
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8637897968292236
+            ],
+            [
+                "These  are  extreme  examples,  but  regular  people  are \ntracking one or two types of personal information and using \ncomputing  technology  in  the  form  of  personal  informatics \nsystems to do so.",
+                0.8643257021903992
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe  would \nparticipants and the websites that helped our recruitment.",
+                0.8653552532196045
+            ],
+            [
+                "Telegraph.co.uk, \nSeptember 8, 2009. Accessed on September 16, 2009 at \nhttp://www.telegraph.co.uk/science/science-\nnews/6156291/The-house-that-Twitters.html",
+                0.8710380792617798
+            ],
+            [
+                "Personal informatics represents an interesting area of study \nin  human-computer  interaction.",
+                0.8724000453948975
+            ],
+            [
+                "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+                0.8810820579528809
+            ],
+            [
+                "First,  these  systems  help \npeople  better  understand  their  behavior. While  many \ntechnologies  inform  people  about  the  world,  personal \ninformatics  systems \nthemselves.",
+                0.8882443904876709
+            ],
+            [
+                "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+                0.8886195421218872
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.8942736983299255
+            ],
+            [
+                "Identifying  problems \nin \ncollecting and making sense of personal information while \nusing such systems is critical for designing and developing \neffective personal informatics. that  people  experience",
+                0.8992000818252563
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.900364339351654
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.9191160202026367
+            ],
+            [
+                "A Definition of Personal Informatics \nCollecting  information  about  oneself  and  reflecting  on  the \ninformation  has  a  long  history.",
+                0.9443429708480835
+            ]
+        ]
+    ],
+    "evidence": [
+        "A Stage-Based Model of Personal Informatics Systems \nIan Li1, Anind Dey1, and Jodi Forlizzi1,2 \n1Human Computer Interaction Institute, 2School of Design \nCarnegie Mellon University, Pittsburgh, PA 15213 \nianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu",
+        "Buckminster  Fuller  documented  every  15 \nminutes of his life in a scrapbook he called the “Dymaxion \nChronofile”.",
+        "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+        "framework \npersonal \n\nWe believe the model and its properties will be valuable for \nfuture  research  and  development  because  it  provides  a \nfor  describing,  comparing,  and \ncommon \nevaluating \nsystems.",
+        "Personal \ninformatics \ninformatics  systems  pose  new  interesting  HCI  challenges. We believe that the stage-based model, the identification of \nthe  barriers  within  each  stage,  and  the  description  of  the \nproperties  of  the  stages  will  help  HCI  researchers  and \npractitioners  find  solutions  and  explore  new  approaches  in \npersonal informatics more efficiently.",
+        "This  poses  demands  on \nusers that need to be explored."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 0,
+    "document_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_provenance": [
+        "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933",
+        "[7]   Aaron  Bangor,  Philip  T.  Kortum  and  James  T.  Miller.  2008.  An \nEmpirical  Evaluation  of  the  System  Usability  Scale.  International \nJournal  of  Human-Computer \n(6):  574–594. \ndoi:10.1080/10447310802205776 \n\nInteraction.  24 \n\n[8]   Walter  R.  Boot, Arthur  F.  Kramer, Daniel  J.  Simons, Monica  Fabiani \nand Gabriele  Gratton.  2008.  The  effects  of  video  game  playing  on \nattention,  memory,  and  executive  control.  Acta  psychologica 129.3: \n387-398. \n\n[9]   John Brooke. 1996. SUS -  A Quick and Dirty Usability Scale. Usability \n\nevaluation in industry, 189(194), pp.4–7.",
+        "[40]  Rowland \n\nS.  Miller. \n\nsocial \n\n[41]  Chulhong  Min,  Saumay  Pushp,  Seungchul  Lee,  Inseok  Hwang, \nYoungki  Lee,  Seungwoo  Kang and Junehwa  Song.  2014.  Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.  In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication. \n\n[42]  Hendrik  Müller,  Aaron  Sedley  and  Elizabeth  Ferrall-Nunge.  Survey \nresearch in HCI. Ways of Knowing in HCI. Springer, New York, NY, \n2014. 229-266. \n\n[43]  My  pelvic  floor  Fitness.  2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.  2015.  ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps. Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. \n\nto  Empower",
+        "3  right)  as  “it's descriptive but doesn't offer  too much info.” \n(UP10).  \n\n4.2  User Participants",
+        "[17]   Julie A. Couture and Luc Valiquette. 2000. Urinary Incontinence. The \n\nAnnals of Pharmacotherapy. \n\n[18]   Karin  S.  Coyne,  Alan  Wein,  Sean  Nicholson,  Marion  Kvasz,Chieh-I \nChen  and  Ian  Milsom.  2014.  Economic  burden  of  urgency  urinary \nincontinence  in  the  United  States:  a  systematic  review. Journal  of \nManaged Care Pharmacy. \n\n[19]   Graham  Dove,  Kim  Halskov,  Jodi  Forlizzi  and  John  Zimmerman. \n2017.  UX  Design  Innovation:  Challenges  for  Working  with  Machine \nLearning  as  a  Design  Material.  In Proceedings  of  the  2017  CHI \nConference on  Human  Factors  in  Computing  Systems (pp.  278-288). \nACM. \n\n[20]  European  Association  of  Urology,  International  Consultation  on \n\nUrological Diseases. 2013. Incontinence."
+    ],
+    "evidence": [
+        "Aaron Bangor, Philip T. Kortum and James T. Miller.",
+        "2008. An Empirical Evaluation of the System Usability Scale.",
+        "John Brooke. 1996. SUS - A Quick and Dirty Usability Scale.",
+        "Usability evaluation in industry, 189(194), pp.4–7.",
+        "Hendrik Müller, Aaron Sedley and Elizabeth Ferrall-Nunge.",
+        "Survey research in HCI. Ways of Knowing in HCI.",
+        "Springer, New York, NY, 2014. 229-266.",
+        "Evidence:\n- Karin S. Coyne, Alan Wein, Sean Nicholson, Marion Kvasz, Chieh-I Chen and Ian Milsom.",
+        "2014. Economic burden of urgency urinary incontinence in the United States: a systematic review.",
+        "Journal of Managed Care Pharmacy."
+    ],
+    "raw_answer": "Aaron Bangor, Philip T. Kortum, James T. Miller",
+    "evdience_answer": "Karin S. Coyne, Alan Wein, Sean Nicholson, Marion Kvasz, Chieh-I Chen, Ian Milsom",
+    "search_pool": [],
+    "jaccard_similarity": 0.047619047619047616
+}

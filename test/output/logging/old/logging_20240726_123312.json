@@ -1,0 +1,1245 @@
+{
+    "question": "What is the publication year of this paper?",
+    "raw_answer": "2014",
+    "evidence_answer": "2009,2010",
+    "evidence_token_num": 120,
+    "total_token_num": 487,
+    "extracted_search_list": [
+        "publication year",
+        "value",
+        "paper",
+        "Year",
+        "2014"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7071826457977295
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7086957693099976
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124420404434204
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124420404434204
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7359858155250549
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7364943623542786
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7364943623542786
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7417404055595398
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7446998357772827
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7461651563644409
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7544324398040771
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7573489546775818
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.759440541267395
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7599236369132996
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676160335540771
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676160335540771
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722442150115967
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722442150115967
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7784944772720337
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7786614298820496
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7815918922424316
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7816535234451294
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7872201204299927
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7903425097465515
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7927340865135193
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8097412586212158
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8159282207489014
+            ],
+            [
+                "DISCUSSION\nThis  section  turns  from  describing  what  we  found  during\nour  literature  review  to  considering  the  implications  of\nthese  patterns,  as  well  as  what  they  suggest  as  valuable\ndirections for future work in this area.",
+                0.8165091872215271
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8224479556083679
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.827301025390625
+            ]
+        ],
+        [
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7304645776748657
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.7869113683700562
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.7894759178161621
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.789492130279541
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7985007762908936
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.802862286567688
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.802862286567688
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8105762004852295
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8119585514068604
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8202214241027832
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8248882293701172
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8253185749053955
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8336426615715027
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8336436748504639
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8358887434005737
+            ],
+            [
+                "As  mentioned  above,  the  Personal  Informatics\nmodel  described  reflection as “looking at lists  of  collected\npersonal  information  or  exploring  or  interacting  with\ninformation  visualizations,”  [55:562].",
+                0.838333010673523
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8428453803062439
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8428453803062439
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8447011709213257
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8447011709213257
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8454264402389526
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8467147350311279
+            ],
+            [
+                "For\nexample,  what  does  it  take  to  reflect? How  can\ninterventions  provide  spaces  that  are  conducive  to\nreflection?",
+                0.8470326662063599
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8476456999778748
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.848517894744873
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8513245582580566
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8523495197296143
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557494282722473
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557709455490112
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8568068742752075
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185544967651367
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328015565872192
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660123705863953
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722227573394775
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793380618095398
+            ],
+            [
+                "The Constitution of Reflection\nMany  of  the  papers  in  this  review  described  interventions\ndesigned  to  support  or  encourage  reflection  in  some  way.",
+                0.7901430130004883
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7910277843475342
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7910277843475342
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006559014320374
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006559014320374
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8034271597862244
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040264248847961
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040264248847961
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056005239486694
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8070123195648193
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8080999255180359
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8082761168479919
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170813918113708
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8234935402870178
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8234996199607849
+            ],
+            [
+                "DISCUSSION\nThis  section  turns  from  describing  what  we  found  during\nour  literature  review  to  considering  the  implications  of\nthese  patterns,  as  well  as  what  they  suggest  as  valuable\ndirections for future work in this area.",
+                0.8239620923995972
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8277950286865234
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8293619155883789
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.831851065158844
+            ]
+        ],
+        [
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7931439280509949
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7931446433067322
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7960769534111023
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7960769534111023
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7987686395645142
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7994182109832764
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8044275641441345
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.807170569896698
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.807170569896698
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8144193291664124
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8315224647521973
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8321117162704468
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8380269408226013
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8387698531150818
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8390171527862549
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.846903920173645
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8488880395889282
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8514246344566345
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8552391529083252
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8555307388305664
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.855729877948761
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.855729877948761
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8561391234397888
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8607162833213806
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8607379198074341
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.861111581325531
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8621904850006104
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.8643322587013245
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8646950721740723
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8655515909194946
+            ]
+        ],
+        [
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.6421009302139282
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7318224906921387
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7442220449447632
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7553707361221313
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7553707361221313
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7585317492485046
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.75954270362854
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7689177989959717
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7695193290710449
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7695193290710449
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7787318229675293
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7829168438911438
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7853996157646179
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7853996157646179
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7869658470153809
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7890478372573853
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7945757508277893
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8045356273651123
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8079848289489746
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8080027103424072
+            ],
+            [
+                "The majority of the interventions in our review held similar",
+                0.811148464679718
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8118444085121155
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8208220601081848
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8219215869903564
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8223479390144348
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8246642351150513
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8422737717628479
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.8443515300750732
+            ],
+            [
+                "OntoSketch: Towards Digital Sketching as a \nTool for Creating and Extending Ontologies for Non-\nExperts.",
+                0.8540152907371521
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8572359681129456
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7071826457977295
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7086957693099976
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124420404434204
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7124420404434204
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7359858155250549
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7364943623542786
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7364943623542786
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7417404055595398
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7446998357772827
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7461651563644409
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7544324398040771
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7573489546775818
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.759440541267395
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7599236369132996
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676160335540771
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7676160335540771
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722442150115967
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7722442150115967
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7784944772720337
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7786614298820496
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7815918922424316
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7816535234451294
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7872201204299927
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7903425097465515
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7927340865135193
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8097412586212158
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8159282207489014
+            ],
+            [
+                "DISCUSSION\nThis  section  turns  from  describing  what  we  found  during\nour  literature  review  to  considering  the  implications  of\nthese  patterns,  as  well  as  what  they  suggest  as  valuable\ndirections for future work in this area.",
+                0.8165091872215271
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8224479556083679
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.827301025390625
+            ]
+        ],
+        [
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7304645776748657
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.7869113683700562
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.7894759178161621
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.789492130279541
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7985007762908936
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.802862286567688
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.802862286567688
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8105762004852295
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8119585514068604
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8202214241027832
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.8248882293701172
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8253185749053955
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8336426615715027
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8336436748504639
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8358887434005737
+            ],
+            [
+                "As  mentioned  above,  the  Personal  Informatics\nmodel  described  reflection as “looking at lists  of  collected\npersonal  information  or  exploring  or  interacting  with\ninformation  visualizations,”  [55:562].",
+                0.838333010673523
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8428453803062439
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.8428453803062439
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8447011709213257
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8447011709213257
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8454264402389526
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8467147350311279
+            ],
+            [
+                "For\nexample,  what  does  it  take  to  reflect? How  can\ninterventions  provide  spaces  that  are  conducive  to\nreflection?",
+                0.8470326662063599
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8476456999778748
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.848517894744873
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8513245582580566
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8523495197296143
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557494282722473
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8557709455490112
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.8568068742752075
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185544967651367
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328015565872192
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660123705863953
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722227573394775
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793380618095398
+            ],
+            [
+                "The Constitution of Reflection\nMany  of  the  papers  in  this  review  described  interventions\ndesigned  to  support  or  encourage  reflection  in  some  way.",
+                0.7901430130004883
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7910277843475342
+            ],
+            [
+                "While  this  rhetorical  positioning  comes  across  clearly  in\npersonal informatics, many papers in our review that were\nnot identified by the authors under that umbrella still cited\nsimilar  motivations.",
+                0.7910277843475342
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006559014320374
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.8006559014320374
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8034271597862244
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040264248847961
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.8040264248847961
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056005239486694
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8070123195648193
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8080999255180359
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8082761168479919
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170813918113708
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8234935402870178
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8234996199607849
+            ],
+            [
+                "DISCUSSION\nThis  section  turns  from  describing  what  we  found  during\nour  literature  review  to  considering  the  implications  of\nthese  patterns,  as  well  as  what  they  suggest  as  valuable\ndirections for future work in this area.",
+                0.8239620923995972
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8277950286865234
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8293619155883789
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.831851065158844
+            ]
+        ],
+        [
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7931439280509949
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.7931446433067322
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7960769534111023
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7960769534111023
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7987686395645142
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7994182109832764
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8044275641441345
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.807170569896698
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.807170569896698
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8144193291664124
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.8315224647521973
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.8321117162704468
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.8380269408226013
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.8387698531150818
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8390171527862549
+            ],
+            [
+                "(2000). Two-dimensional spatial positioning as a \nmeans for reflection in design.",
+                0.846903920173645
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8488880395889282
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8514246344566345
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8552391529083252
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8555307388305664
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.855729877948761
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.855729877948761
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8561391234397888
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8607162833213806
+            ],
+            [
+                "For  example, Mathur  and  Karahalios\ndescribe  a  visualization  system  based  on  bookmarks  in  a\nweb  browser  wherein  “the  user  is  able  to  notice  things\nabout  oneself  that  he  or  she  did  not  notice  before”\n[65:4657].",
+                0.8607379198074341
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.861111581325531
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8621904850006104
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.8643322587013245
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8646950721740723
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8655515909194946
+            ]
+        ],
+        [
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.6421009302139282
+            ],
+            [
+                "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+                0.7318224906921387
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7442220449447632
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7553707361221313
+            ],
+            [
+                "72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal\ninformatics and reflection: a critical examination of the \nnature of reflection.",
+                0.7553707361221313
+            ],
+            [
+                "Proc IDC, 129-132. 55.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.7585317492485046
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.75954270362854
+            ],
+            [
+                "(2008). Push-me, pull-me: \ndescribing and designing technologies for varying \ndegrees of reflection and invention.",
+                0.7689177989959717
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7695193290710449
+            ],
+            [
+                "(2011). Understanding \n\nmy data, myself: supporting self-reflection with \n\nNew York: Perseus Group.",
+                0.7695193290710449
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7787318229675293
+            ],
+            [
+                "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+                0.7829168438911438
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7853996157646179
+            ],
+            [
+                "Proc CHI Ext. Abst., 1979-1988.",
+                0.7853996157646179
+            ],
+            [
+                "209–216). Melbourne, Australia. 70.Nelson, E.J. and Freier, N.G.",
+                0.7869658470153809
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.7890478372573853
+            ],
+            [
+                "69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, \nB.N.",
+                0.7945757508277893
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8045356273651123
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8079848289489746
+            ],
+            [
+                "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+                0.8080027103424072
+            ],
+            [
+                "The majority of the interventions in our review held similar",
+                0.811148464679718
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8118444085121155
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8208220601081848
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8219215869903564
+            ],
+            [
+                "Model of Personal Informatics Systems. Proc CHI, 557–\n566. 56.Li, I., Dey, A.K., & Forlizzi, J.",
+                0.8223479390144348
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8246642351150513
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8422737717628479
+            ],
+            [
+                "This  definition\ncarries  an  implicit  assumption  that  by  providing  access  to\ndata  that  has  been  “prepared,  combined,  and  transformed”\n[55:561] for the purpose of reflection, reflection will occur.",
+                0.8443515300750732
+            ],
+            [
+                "OntoSketch: Towards Digital Sketching as a \nTool for Creating and Extending Ontologies for Non-\nExperts.",
+                0.8540152907371521
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8572359681129456
+            ]
+        ]
+    ],
+    "evidence": [
+        "Proc DIS, 145-154. 54.Leong, T. W., & Brynskov, M. (2009).",
+        "CO2nfession: \nEngaging with values through urban conversations. Proc OZCHI (pp.",
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "(2010). A Stage-Based \n\n71.Norman, D. A. (1993). Things That Make Us Smart.",
+        "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598"
+    ]
+}

@@ -1,0 +1,765 @@
+{
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_answer": "None",
+    "evidence_answer": "None",
+    "evidence_token_num": 0,
+    "total_token_num": 525,
+    "extracted_search_list": [
+        "None",
+        "What are the names of authors whose institutions are in the US for this paper?"
+    ],
+    "searched_docs": [
+        [
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7687218189239502
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7737439870834351
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742114663124084
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.7813905477523804
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7840423583984375
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7978366017341614
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8070506453514099
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121375441551208
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.812351644039154
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8124686479568481
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8129431009292603
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161765336990356
+            ],
+            [
+                ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+                0.8210020661354065
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8226017355918884
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8242939710617065
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8366873264312744
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8444988131523132
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8524307012557983
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.862730085849762
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8766137957572937
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816482424736023
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914321660995483
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8940935730934143
+            ]
+        ],
+        [
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.5734561085700989
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6024911999702454
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.619981050491333
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.6347354650497437
+            ],
+            [
+                ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+                0.6539610624313354
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.6661071181297302
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.6730249524116516
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.6790148615837097
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.6813796758651733
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.6814844608306885
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6826809644699097
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.6905401945114136
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6919169425964355
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7003306150436401
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7015021443367004
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7125970125198364
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.7165437936782837
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.7327314019203186
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7378590106964111
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7408677339553833
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7439767122268677
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7895179986953735
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8314744830131531
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7687218189239502
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7737439870834351
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742114663124084
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.7813905477523804
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7840423583984375
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7978366017341614
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8070506453514099
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121375441551208
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.812351644039154
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8124686479568481
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8129431009292603
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161765336990356
+            ],
+            [
+                ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+                0.8210020661354065
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8226017355918884
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8242939710617065
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8366873264312744
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8444988131523132
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8524307012557983
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.862730085849762
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8766137957572937
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816482424736023
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914321660995483
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8940935730934143
+            ]
+        ],
+        [
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.5734561085700989
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6024911999702454
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.619981050491333
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.6347354650497437
+            ],
+            [
+                ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+                0.6539610624313354
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.6661071181297302
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.6730249524116516
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.6790148615837097
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.6813796758651733
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.6814844608306885
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6826809644699097
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.6905401945114136
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6919169425964355
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7003306150436401
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7015021443367004
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7125970125198364
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.7165437936782837
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.7327314019203186
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7378590106964111
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7408677339553833
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7439767122268677
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7895179986953735
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8314744830131531
+            ]
+        ]
+    ],
+    "evidence": [],
+    "unsorted_evidence": [],
+    "less_similar_evidence": [
+        [
+            "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+            0
+        ],
+        [
+            "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+            1
+        ],
+        [
+            "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+            0
+        ],
+        [
+            "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+            1
+        ],
+        [
+            "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+            0
+        ],
+        [
+            "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+            1
+        ],
+        [
+            "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+            0
+        ],
+        [
+            "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+            1
+        ],
+        [
+            "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+            0
+        ],
+        [
+            ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            1
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+            0
+        ],
+        [
+            "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+            1
+        ],
+        [
+            "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+            0
+        ],
+        [
+            "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+            1
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+            0
+        ],
+        [
+            "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+            1
+        ],
+        [
+            "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+            0
+        ],
+        [
+            "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+            1
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+            0
+        ],
+        [
+            "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+            1
+        ],
+        [
+            "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+            0
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+            1
+        ],
+        [
+            "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+            0
+        ],
+        [
+            "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+            1
+        ],
+        [
+            ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            0
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+            1
+        ],
+        [
+            "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+            0
+        ],
+        [
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+            1
+        ],
+        [
+            "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+            0
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+            1
+        ],
+        [
+            "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+            0
+        ],
+        [
+            "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+            1
+        ],
+        [
+            "The average publication year was\n2010 and the median 2011.",
+            0
+        ],
+        [
+            "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+            1
+        ],
+        [
+            "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+            0
+        ],
+        [
+            "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+            1
+        ],
+        [
+            "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+            0
+        ],
+        [
+            "The average publication year was\n2010 and the median 2011.",
+            1
+        ],
+        [
+            "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+            0
+        ],
+        [
+            "These memos, and the themes they describe, form the\nbasis for the following sections.",
+            1
+        ],
+        [
+            "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+            0
+        ],
+        [
+            "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+            1
+        ],
+        [
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+            0
+        ],
+        [
+            "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+            1
+        ],
+        [
+            "These memos, and the themes they describe, form the\nbasis for the following sections.",
+            0
+        ],
+        [
+            "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+            1
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+            0
+        ],
+        [
+            "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+            1
+        ],
+        [
+            "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+            0
+        ],
+        [
+            "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+            1
+        ],
+        [
+            "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+            0
+        ],
+        [
+            "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+            1
+        ],
+        [
+            "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+            0
+        ],
+        [
+            "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+            1
+        ],
+        [
+            "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+            0
+        ],
+        [
+            ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            1
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+            0
+        ],
+        [
+            "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+            1
+        ],
+        [
+            "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+            0
+        ],
+        [
+            "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+            1
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+            0
+        ],
+        [
+            "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+            1
+        ],
+        [
+            "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+            0
+        ],
+        [
+            "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+            1
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+            0
+        ],
+        [
+            "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+            1
+        ],
+        [
+            "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+            0
+        ],
+        [
+            "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+            1
+        ],
+        [
+            "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+            0
+        ],
+        [
+            "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+            1
+        ],
+        [
+            ". The  papers  themselves  describe  a  variety  of  endeavors,\nincluding  interactive  systems  to  support  reflection  [e.g.,\n12], methods intended to incorporate reflection into design\nprocesses  [e.g., 19],  techniques  for  user  studies  [e.g.,\n39,40],  empirical  studies  of  reflective  practitioners  [e.g.,\n73,68], and others.",
+            0
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+            1
+        ],
+        [
+            "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+            0
+        ],
+        [
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+            1
+        ],
+        [
+            "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+            0
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+            1
+        ],
+        [
+            "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+            0
+        ],
+        [
+            "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+            1
+        ],
+        [
+            "The average publication year was\n2010 and the median 2011.",
+            0
+        ],
+        [
+            "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+            1
+        ],
+        [
+            "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+            0
+        ],
+        [
+            "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+            1
+        ],
+        [
+            "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+            0
+        ],
+        [
+            "The average publication year was\n2010 and the median 2011.",
+            1
+        ],
+        [
+            "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+            0
+        ],
+        [
+            "These memos, and the themes they describe, form the\nbasis for the following sections.",
+            1
+        ],
+        [
+            "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+            0
+        ],
+        [
+            "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+            1
+        ],
+        [
+            "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+            0
+        ],
+        [
+            "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+            1
+        ],
+        [
+            "These memos, and the themes they describe, form the\nbasis for the following sections.",
+            0
+        ],
+        [
+            "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+            1
+        ]
+    ]
+}

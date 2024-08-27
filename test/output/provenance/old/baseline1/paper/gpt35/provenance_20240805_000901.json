@@ -1,0 +1,4120 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "question": "How many authors are there for this paper?",
+    "raw_provenance": [
+        "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933",
+        "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.  2011.  Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder. In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE. \n\n[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein. 2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?. Translational Behavioural Medicine, Volume 1, Issue 1. \n\n[50]   James A. Russell and Merry Bullock. 1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+        "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.  2014.  Quitty:  using  technology  to  persuade \nsmokers  to  quit.  In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational. ACM. \n\n[46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.  2014.  A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study. JMIR mHealth and uHealth 2.2. \n\n[47]   Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.  In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+        "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko. 2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake. Proceedings  of \nUbiquitous computing.  \n\nthe  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data. Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.  \n\n[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. \nIn Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). \nACM.",
+        "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan. \n2016.  A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.   Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services. \n[27]   Sandra G.  Hart.  2006.  NASA-task  load  index (NASA-TLX);  20  years \nlater.  In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.  50,  No.  9,  pp.  904-908).  Sage  CA:  Los  Angeles, \nCA: Sage Publications. \n\n[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin. \n2017.  Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth."
+    ],
+    "evidence": [],
+    "raw_answer": "4,6,7,2,11,3,5,4",
+    "evidence_answer": "None",
+    "search_pool": [
+        "attribute5",
+        "2",
+        "7",
+        "attribute2",
+        "attribute6",
+        "attribute1",
+        "How many authors are there for this paper?",
+        "3",
+        "attribute7",
+        "5",
+        "6",
+        "4",
+        "attribute8",
+        "attribute4",
+        "Q",
+        "11",
+        "attribute3"
+    ],
+    "unsorted_evidence": [],
+    "less_similar_evidence": [
+        [
+            "2365-2368). ACM.",
+            0
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            1
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            2
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            3
+        ],
+        [
+            "2365-2368). ACM.",
+            4
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            5
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            6
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            7
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            8
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            9
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            10
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            11
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            12
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            13
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            14
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            15
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            16
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            0
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            1
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            2
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            3
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            4
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            5
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            6
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            7
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            8
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            9
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            10
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            11
+        ],
+        [
+            "2365-2368). ACM.",
+            12
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            13
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            14
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            15
+        ],
+        [
+            "2365-2368). ACM.",
+            16
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            0
+        ],
+        [
+            "2365-2368). ACM.",
+            1
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            2
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            3
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            4
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            5
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            6
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            7
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            8
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            9
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            10
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            11
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            12
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            13
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            14
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            15
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            16
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            0
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            1
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            2
+        ],
+        [
+            "2365-2368). ACM.",
+            3
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            4
+        ],
+        [
+            "2365-2368). ACM.",
+            5
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            6
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            7
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            8
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            9
+        ],
+        [
+            "2365-2368). ACM.",
+            10
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            11
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            12
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            13
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            14
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            15
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            16
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            0
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            1
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            2
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            3
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            4
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            5
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            6
+        ],
+        [
+            "2365-2368). ACM.",
+            7
+        ],
+        [
+            "2365-2368). ACM.",
+            8
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            9
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            10
+        ],
+        [
+            "2365-2368). ACM.",
+            11
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            12
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            13
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            14
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            15
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            16
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            0
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            1
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            2
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            3
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            4
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            5
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            6
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            7
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            8
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            9
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            10
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            11
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            12
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            13
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            14
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            15
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            16
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            0
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            1
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            2
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            3
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            4
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            5
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            6
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            7
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            8
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            9
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            10
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            11
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            12
+        ],
+        [
+            "2365-2368). ACM.",
+            13
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            14
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            15
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            16
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            0
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            1
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            2
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            3
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            4
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            5
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            6
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            7
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            8
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            9
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            10
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            11
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            12
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            13
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            14
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            15
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            16
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            0
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            1
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            2
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            3
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            4
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            5
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            6
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            7
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            8
+        ],
+        [
+            "2365-2368). ACM.",
+            9
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            10
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            11
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            12
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            13
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            14
+        ],
+        [
+            "2365-2368). ACM.",
+            15
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            16
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            0
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            1
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            2
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            3
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            4
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            5
+        ],
+        [
+            "2365-2368). ACM.",
+            6
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            7
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            8
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            9
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            10
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            11
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            12
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            13
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            14
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            15
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            16
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            0
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            1
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            2
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            3
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            4
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            5
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            6
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            7
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            8
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            9
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            10
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            11
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            12
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            13
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            14
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            15
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            16
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            0
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            1
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            2
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            3
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            4
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            5
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            6
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            7
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            8
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            9
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            10
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            11
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            12
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            13
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            14
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            15
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            16
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            0
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            1
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            2
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            3
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            4
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            5
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            6
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            7
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            8
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            9
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            10
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            11
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            12
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            13
+        ],
+        [
+            "2365-2368). ACM.",
+            14
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            15
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            16
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            0
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            1
+        ],
+        [
+            "2365-2368). ACM.",
+            2
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            3
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            4
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            5
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            6
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            7
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            8
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            9
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            10
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            11
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            12
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            13
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            14
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            15
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            16
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            0
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            1
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            2
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            3
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            4
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            5
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            6
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            7
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            8
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            9
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            10
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            11
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            12
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            13
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            14
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            15
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            16
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            0
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            1
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            2
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            3
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            4
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            5
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            6
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            7
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            8
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            9
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            10
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            11
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            12
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            13
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            14
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            15
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            16
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            0
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            1
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            2
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            3
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            4
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            5
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            6
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            7
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            8
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            9
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            10
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            11
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            12
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            13
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            14
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            15
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            16
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            0
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            1
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            2
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            3
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            4
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            5
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            6
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            7
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            8
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            9
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            10
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            11
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            12
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            13
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            14
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            15
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            16
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            0
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            1
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            2
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            3
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            4
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            5
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            6
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            7
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            8
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            9
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            10
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            11
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            12
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            13
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            14
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            15
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            16
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            0
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            1
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            2
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            3
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            4
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            5
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            6
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            7
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            8
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            9
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            10
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            11
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            12
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            13
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            14
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            15
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            16
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            0
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            1
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            2
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            3
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            4
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            5
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            6
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            7
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            8
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            9
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            10
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            11
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            12
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            13
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            14
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            15
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            16
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            0
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            1
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            2
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            3
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            4
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            5
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            6
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            7
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            8
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            9
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            10
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            11
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            12
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            13
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            14
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            15
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            16
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            0
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            1
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            2
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            3
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            4
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            5
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            6
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            7
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            8
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            9
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            10
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            11
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            12
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            13
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            14
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            15
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            16
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            0
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            1
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            2
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            3
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            4
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            5
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            6
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            7
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            8
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            9
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            10
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            11
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            12
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            13
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            14
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            15
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            16
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            0
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            1
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            2
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            3
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            4
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            5
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            6
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            7
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            8
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            9
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            10
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            11
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            12
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            13
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            14
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            15
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            16
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            0
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            1
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            2
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            3
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            4
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            5
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            6
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            7
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            8
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            9
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            10
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            11
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            12
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            13
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            14
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            15
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            16
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            0
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            1
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            2
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            3
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            4
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            5
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            6
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            7
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            8
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            9
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            10
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            11
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            12
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            13
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            14
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            15
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            16
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            0
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            1
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            2
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            3
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            4
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            5
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            6
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            7
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            8
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            9
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            10
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            11
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            12
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            13
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            14
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            15
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            16
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            0
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            1
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            2
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            3
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            4
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            5
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            6
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            7
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            8
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            9
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            10
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            11
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            12
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            13
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            14
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            15
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            16
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            0
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            1
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            2
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            3
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            4
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            5
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            6
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            7
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            8
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            9
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            10
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            11
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            12
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            13
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            14
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            15
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            16
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "2365-2368). ACM.",
+            0
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            1
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            2
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            3
+        ],
+        [
+            "2365-2368). ACM.",
+            4
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            5
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            6
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            7
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            8
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            9
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            10
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            11
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            12
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            13
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            14
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            15
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            16
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            0
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            1
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            2
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            3
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            4
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            5
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            6
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            7
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            8
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            9
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            10
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            11
+        ],
+        [
+            "2365-2368). ACM.",
+            12
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            13
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            14
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            15
+        ],
+        [
+            "2365-2368). ACM.",
+            16
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            0
+        ],
+        [
+            "2365-2368). ACM.",
+            1
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            2
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            3
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            4
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            5
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            6
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            7
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            8
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            9
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            10
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            11
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            12
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            13
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            14
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            15
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            16
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            0
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            1
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            2
+        ],
+        [
+            "2365-2368). ACM.",
+            3
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            4
+        ],
+        [
+            "2365-2368). ACM.",
+            5
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            6
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            7
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            8
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            9
+        ],
+        [
+            "2365-2368). ACM.",
+            10
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            11
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            12
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            13
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            14
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            15
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            16
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            0
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            1
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            2
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            3
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            4
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            5
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            6
+        ],
+        [
+            "2365-2368). ACM.",
+            7
+        ],
+        [
+            "2365-2368). ACM.",
+            8
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            9
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            10
+        ],
+        [
+            "2365-2368). ACM.",
+            11
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            12
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            13
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            14
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            15
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            16
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            0
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            1
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            2
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            3
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            4
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            5
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            6
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            7
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            8
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            9
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            10
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            11
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            12
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            13
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            14
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            15
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            16
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            0
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            1
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            2
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            3
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            4
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            5
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            6
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            7
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            8
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            9
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            10
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            11
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            12
+        ],
+        [
+            "2365-2368). ACM.",
+            13
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            14
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            15
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            16
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            0
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            1
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            2
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            3
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            4
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            5
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            6
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            7
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            8
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            9
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            10
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            11
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            12
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            13
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            14
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            15
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            16
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            0
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            1
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            2
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            3
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            4
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            5
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            6
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            7
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            8
+        ],
+        [
+            "2365-2368). ACM.",
+            9
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            10
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            11
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            12
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            13
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            14
+        ],
+        [
+            "2365-2368). ACM.",
+            15
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            16
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            0
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            1
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            2
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            3
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            4
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            5
+        ],
+        [
+            "2365-2368). ACM.",
+            6
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            7
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            8
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            9
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            10
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            11
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            12
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            13
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            14
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            15
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            16
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            0
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            1
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            2
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            3
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            4
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            5
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            6
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            7
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            8
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            9
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            10
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            11
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            12
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            13
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            14
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            15
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            16
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            0
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            1
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            2
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            3
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            4
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            5
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            6
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            7
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            8
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            9
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            10
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            11
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            12
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            13
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            14
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            15
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            16
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            0
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            1
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            2
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            3
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            4
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            5
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            6
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            7
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            8
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            9
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            10
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            11
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            12
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            13
+        ],
+        [
+            "2365-2368). ACM.",
+            14
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            15
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            16
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            0
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            1
+        ],
+        [
+            "2365-2368). ACM.",
+            2
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            3
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            4
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            5
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            6
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            7
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            8
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            9
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            10
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            11
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            12
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            13
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            14
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            15
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            16
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            0
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            1
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            2
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            3
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            4
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            5
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            6
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            7
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            8
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            9
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            10
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            11
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            12
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            13
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            14
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            15
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            16
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            0
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            1
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            2
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            3
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            4
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            5
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            6
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            7
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            8
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            9
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            10
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            11
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            12
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            13
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            14
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            15
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            16
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            0
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            1
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            2
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            3
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            4
+        ],
+        [
+            "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.",
+            5
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            6
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            7
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            8
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            9
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            10
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            11
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            12
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            13
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            14
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            15
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            16
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            0
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            1
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            2
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            3
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            4
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            5
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            6
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            7
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            8
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            9
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            10
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            11
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            12
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            13
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            14
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            15
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            16
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            0
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            1
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            2
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            3
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            4
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            5
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            6
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            7
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            8
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            9
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            10
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            11
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            12
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            13
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            14
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            15
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            16
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            0
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            1
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            2
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            3
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            4
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            5
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            6
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            7
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            8
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            9
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            10
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            11
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            12
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            13
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            14
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            15
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            16
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            0
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            1
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            2
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            3
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            4
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            5
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            6
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            7
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            8
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            9
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            10
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            11
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            12
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            13
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            14
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            15
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            16
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            0
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            1
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            2
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            3
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            4
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            5
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            6
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            7
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            8
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            9
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            10
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            11
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            12
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            13
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            14
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            15
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            16
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            0
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            1
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            2
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            3
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            4
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            5
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            6
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            7
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            8
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            9
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            10
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            11
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            12
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            13
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            14
+        ],
+        [
+            "ACM. [46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.",
+            15
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            16
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            0
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            1
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            2
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            3
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            4
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            5
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            6
+        ],
+        [
+            "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+            7
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            8
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            9
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            10
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            11
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            12
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            13
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            14
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            15
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            16
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            0
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            1
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            2
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            3
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            4
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            5
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            6
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            7
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            8
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            9
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            10
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            11
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            12
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            13
+        ],
+        [
+            "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+            14
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            15
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            16
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            0
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            1
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            2
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            3
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            4
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            5
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            6
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            7
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            8
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            9
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            10
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            11
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            12
+        ],
+        [
+            "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+            13
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            14
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            15
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            16
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            0
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            1
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            2
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            3
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            4
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            5
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            6
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            7
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            8
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            9
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            10
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            11
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            12
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            13
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            14
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            15
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            16
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            0
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            1
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            2
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            3
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            4
+        ],
+        [
+            "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.",
+            5
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            6
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            7
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            8
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            9
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            10
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            11
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            12
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            13
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            14
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            15
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            16
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            0
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            1
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            2
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            3
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            4
+        ],
+        [
+            "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+            5
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            6
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            7
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            8
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            9
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            10
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            11
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            12
+        ],
+        [
+            "2016. A  longitudinal evaluation  of  the  acceptability  and impact of  a \nfor  older  adults  with  age-related  macular \ndiet  diary  app \ndegeneration.",
+            13
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            14
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            15
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            16
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            0
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            1
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            2
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            3
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            4
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            5
+        ],
+        [
+            "Proceedings  of  the  18th  International  Conference  on \nHuman-Computer Interaction with Mobile Devices and Services.",
+            6
+        ],
+        [
+            "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+            7
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            8
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            9
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            10
+        ],
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            11
+        ],
+        [
+            "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+            12
+        ],
+        [
+            "[26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan.",
+            13
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            14
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            15
+        ],
+        [
+            "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+            16
+        ]
+    ]
+}

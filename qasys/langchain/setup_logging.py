@@ -1,7 +1,7 @@
 import logging
 import datetime
 
-def setup_logging(dir='test/output/logging/', filename='langchain_civic_RAG_1'):
+def setup_logging(dir='test/output/logging/', filename='logging'):
     """
     配置日志记录，只打印 'root - INFO' 级别的日志。
     """

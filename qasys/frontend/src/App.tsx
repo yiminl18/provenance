@@ -30,10 +30,11 @@ interface State {
   question: string;
   model_name: string;
   baseline_type: string;
-  raw_provenance: Array<Array<string>>;
+  raw_provenance: Array<string>;
   evidence: Array<string>;
   raw_answer: string;
   evidence_answer: string;
+  search_pool: Array<string>;
 }
 
 const getNextId = () => String(Math.random()).slice(2);
@@ -68,6 +69,7 @@ class App extends Component<{}, State> {
     evidence: [],
     raw_answer: "",
     evidence_answer: "",
+    search_pool: [],
   };
 
   componentDidMount() {
@@ -82,7 +84,7 @@ class App extends Component<{}, State> {
     try {
       const response = await fetch(`data/${fileName}.json`);
       const data = await response.json();
-      const { model_name, baseline_type, document_path, question, raw_provenance, evidence, raw_answer, evidence_answer } = data;
+      const { model_name, baseline_type, document_path, question, raw_provenance, evidence, raw_answer, evidence_answer, search_pool } = data;
 
 
       if (document_path) {
@@ -96,8 +98,9 @@ class App extends Component<{}, State> {
           evidence: evidence || [],
           raw_answer: raw_answer || "",
           evidence_answer: evidence_answer || "",
+          search_pool: search_pool || [],
         }, () => {
-          this.highlightTexts(raw_provenance[0]);
+          this.highlightTexts(raw_provenance);
         });
       }
       
@@ -119,7 +122,7 @@ class App extends Component<{}, State> {
         // console.log("doc:", doc[0]);
         
         let docTextOriginal = docArray; // docText is a string
-        this.ScanToHighlight(pdf, docTextOriginal, docArrayIndex);
+        this.ScanToHighlightChunk(pdf, docTextOriginal, docArrayIndex);
       });
 
 
@@ -214,11 +217,13 @@ class App extends Component<{}, State> {
     return highlightArea;
   }
 
-  ScanToHighlight = async (pdf: any, pattern: string, patternIndex: number) => {
+  ScanToHighlightChunk = async (pdf: any, pattern: string, patternIndex: number) => {
     pattern = pattern.replace(/\(cid:\d+\)/g, "")
     
     let highlightArea: number [][] = [];
-    let lastPageHighlightArea: number [][] = [];
+    let lastPageHighlightArea: number[][] = [];
+    
+    
 
     let highlightAreaTexts = [];
     let highlightAreaPureTexts = '';
@@ -236,7 +241,13 @@ class App extends Component<{}, State> {
       
       
       const startIndex = 0;
-      let textItems = textItemsUnsorted.sort((a: TextItem, b: TextItem) => b.transform[5] - a.transform[5]);
+      const textItems = textItemsUnsorted.sort((a: TextItem, b: TextItem) => {
+        if (a.transform[4] === b.transform[4]) {
+            return b.transform[5] - a.transform[5];
+        } else {
+            return a.transform[4] - b.transform[4];
+        }
+    });
       const endIndex = textItems.length;
       // console.log("textItemsLength:", endIndex);
       // console.log("textItems:", textItems);
@@ -258,7 +269,8 @@ class App extends Component<{}, State> {
       let x2 = x2Start;
     
       let pureStrPattern = pattern.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
-
+      // console.log("pureStrPattern:", pureStrPattern);
+      // console.log("pattern:", pattern);
       let lineStartIndex = startIndex;
       let lineEndIndex = startIndex;
       // let highLightFlag = false;
@@ -274,6 +286,7 @@ class App extends Component<{}, State> {
             lineText = textItems.slice(lineStartIndex, endIndex).map((item: TextItem) => item.str).join('');
           }
           let pureStrLineText = lineText.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+          // console.log("pureStrLineText:", pureStrLineText);
           if (pureStrPattern.includes(pureStrLineText)) { // line text is in pattern
             x1 = textItems[lineStartIndex].transform[4];
             x2 = textItems[lineEndIndex].transform[4] + textItems[lineEndIndex].width;
@@ -283,6 +296,7 @@ class App extends Component<{}, State> {
             highlightArea.push([x1, y1_1, x2, y2]);
             // pureStrPattern.replace(pureStrLineText, '');
             // console.log("pureStrPattern:", pureStrPattern);
+            // console.log("pattern", pattern);
             // console.log("pureStrLineText:", pureStrLineText);
             // console.log("lineStartIndex:", lineStartIndex);
             // console.log("lineEndIndex:", i);
@@ -290,38 +304,49 @@ class App extends Component<{}, State> {
             // highLightFlag = true;
             if (i == endIndex - 1) { //case 3
               highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
-              if (highlightAreaPureTexts.includes(pureStrPattern) || highlightAreaPureTexts.length == pureStrPattern.length) { // success
-                if (highlightAreaPureTexts.length != pureStrPattern.length) {
-                  let highlightStartIndex = 0;
-                  let highlightEndIndex = i;
-                  for (let j = 1; j < highlightAreaTexts.length; j++) {
-                    if (!highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
-                      highlightStartIndex = j - 1;
-                      break;
-                    }
-                  }
-                  for (let j = highlightAreaTexts.length; j >= 0; j--) {
-                    if (!highlightAreaTexts.slice(0, j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
-                      highlightEndIndex = j + 1;
-                      break;
-                    }
-                  }
-                  // console.log("highlightStartIndex:", highlightStartIndex);
-                  // console.log("highlightEndIndex:", highlightEndIndex);
-                  // console.log("highlightLength:", highlightAreaTexts.length);
-
-                  highlightAreaTexts = highlightAreaTexts.slice(highlightStartIndex, highlightEndIndex);
+              let highlightStartIndex = 0;
+              let highlightEndIndex = i;
+              for (let j = 1; j < highlightAreaTexts.length; j++) {
+                console.log("j:", j)
+                if (highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().slice(0, 3) == pureStrPattern.slice(0, 3)) {
+                  console.log("highlighttext3: ",highlightAreaTexts.slice(j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase())
+                  console.log("strpattern3: ", pureStrPattern)
+                  highlightStartIndex = j;
+                  break;
+                }
+              }
+              highlightAreaTexts = highlightAreaTexts.slice(highlightStartIndex, highlightEndIndex);
                   highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
                   highlightArea = highlightArea.slice(highlightStartIndex, highlightEndIndex);
-                }
+              if (highlightAreaPureTexts.includes(pureStrPattern) || this.compareCharFrequency(highlightAreaPureTexts, pureStrPattern, 0.8)) { // success
+                // if (highlightAreaPureTexts.length != pureStrPattern.length) {
+                  
 
+                //   // for (let j = highlightAreaTexts.length; j >= 0; j--) {
+                //   //   if (!highlightAreaTexts.slice(0, j).join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase().includes(pureStrPattern)) {
+                //   //     highlightEndIndex = j + 1;
+                //   //     break;
+                //   //   }
+                //   // }
+                //   // console.log("highlightStartIndex:", highlightStartIndex);
+                //   // console.log("highlightEndIndex:", highlightEndIndex);
+                //   // console.log("highlightLength:", highlightAreaTexts.length);
+
+                  
+                // }
+                
                 successType = 3;
+                for (let evidenceElement of this.state.evidence) {
+                  this.ScanToHighlightRow(page, textItems, evidenceElement, startIndex, endIndex, docPage);
+                }
                 // console.log("successType:", successType);
                 // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
                 // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
                 // console.log("pureStrPattern:", pureStrPattern);
                 break;
               }
+              
+              console.log("highlightAreaTexts:", highlightAreaTexts);
               // lastPageHighlightTexts = highlightAreaTexts;
               lastPageHighlightArea = highlightArea;
               lastPageHighlightPureTexts = highlightAreaPureTexts;
@@ -337,8 +362,10 @@ class App extends Component<{}, State> {
             if (highlightArea[0][0] == x1Start && highlightArea[0][3] == y2Start) { //case 1
               // console.log("case 1")
               highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
-              // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
-              if ((lastPageHighlightPureTexts + highlightAreaPureTexts).includes(pureStrPattern) || (lastPageHighlightPureTexts + highlightAreaPureTexts).length == pureStrPattern.length) { // success
+              console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts)
+              console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
+              console.log("pureStrPattern:", pureStrPattern);
+              if ((lastPageHighlightPureTexts + highlightAreaPureTexts).includes(pureStrPattern) || this.compareCharFrequency(lastPageHighlightPureTexts + highlightAreaPureTexts, pureStrPattern, 0.8)) { // success
                 if ((lastPageHighlightPureTexts + highlightAreaPureTexts).length != pureStrPattern.length) {
                   let highlightStartIndex = 0;
                   let highlightEndIndex = i;
@@ -365,6 +392,18 @@ class App extends Component<{}, State> {
                 }
                 
                 successType = 1;
+                for (let evidenceElement of this.state.evidence) {
+                  if (docPage > 1) {
+                    const lastPage = await pdf.getPage(docPage - 1);
+                    const lastTextContents = await lastPage.getTextContent();
+                    const lastTextItemsUnsorted = lastTextContents.items;
+                    const lastTextItems = lastTextItemsUnsorted.sort((a: TextItem, b: TextItem) => b.transform[5] - a.transform[5]);
+                    const lastPageStartIndex = 0;
+                    const lastPageEndIndex = lastTextItems.length;
+                    this.ScanToHighlightRow(lastPage, lastTextItems, evidenceElement, lastPageStartIndex, lastPageEndIndex, docPage - 1);
+                  }
+                  this.ScanToHighlightRow(page, textItems, evidenceElement, startIndex, endIndex, docPage);
+                }
                 // console.log("successType:", successType);
                 // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
                 // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
@@ -384,8 +423,8 @@ class App extends Component<{}, State> {
               // console.log("case 2")
               highlightAreaPureTexts = highlightAreaTexts.join('').replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
               // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
-              if (highlightAreaPureTexts.includes(pureStrPattern) || highlightAreaPureTexts.length == pureStrPattern.length) { // success
-                if (highlightAreaPureTexts.length != pureStrPattern.length) {
+              if (highlightAreaPureTexts.includes(pureStrPattern) || this.compareCharFrequency(highlightAreaPureTexts, pureStrPattern, 0.8)) { // success
+                if (!this.compareCharFrequency(highlightAreaPureTexts, pureStrPattern, 0.95)) {
                   let highlightStartIndex = 0;
                   let highlightEndIndex = i;
                   for (let j = 1; j < highlightAreaTexts.length; j++) {
@@ -411,6 +450,9 @@ class App extends Component<{}, State> {
                 }
 
                 successType = 2;
+                for (let evidenceElement of this.state.evidence) {
+                  this.ScanToHighlightRow(page, textItems, evidenceElement, startIndex, endIndex, docPage);
+                }
                 // console.log("successType:", successType);
                 // console.log("lastPageHighlightPureTexts:", lastPageHighlightPureTexts);
                 // console.log("highlightAreaPureTexts:", highlightAreaPureTexts);
@@ -446,6 +488,51 @@ class App extends Component<{}, State> {
     // console.log("result:", result);
     // return result;
     
+  }
+
+  ScanToHighlightRow = async (page: any, textItems: any, pattern: string, startIndex: number, endIndex: number, docPage: number) => {
+    pattern = pattern.replace(/\(cid:\d+\)/g, "")
+    let patternPure = pattern.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+    let highlightAllText = textItems.slice(startIndex, endIndex).map((item: TextItem) => item.str).join('');
+    let highlightPureText = highlightAllText.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+    // console.log("highlightAllText:", highlightAllText);
+    //   console.log("pattern:", pattern);
+    if (highlightPureText.includes(patternPure) || this.compareCharFrequency(highlightPureText, patternPure, 0.65)) {
+      
+      let highlightStartIndex = 0;
+      let highlightEndIndex = 0;
+      for (let i = startIndex; i < endIndex; i++) {
+        let highlightTexts = textItems.slice(i, endIndex).map((item: TextItem) => item.str).join('');
+        let highlightPureTexts = highlightTexts.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+        if (!highlightPureTexts.includes(patternPure)) {
+          highlightStartIndex = i - 1;
+          break;
+        }
+      }
+      for (let i = endIndex - startIndex; i >= 0; i--) {
+        let highlightTexts = textItems.slice(startIndex, startIndex + i).map((item: TextItem) => item.str).join('');
+        let highlightPureTexts = highlightTexts.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
+        if (!highlightPureTexts.includes(patternPure)) {
+          highlightEndIndex = i + 1;
+          break;
+        }
+      }
+      let highlightArea = [];
+      let y1 = textItems[highlightStartIndex].transform[5];
+      let y1_1 = y1+textItems[highlightStartIndex].height;
+      let y2 = textItems[highlightStartIndex].transform[5];
+      let x1 = textItems[highlightStartIndex].transform[4];
+      let x2 = textItems[highlightStartIndex].transform[4] + textItems[highlightStartIndex].width;
+      for (let i = highlightStartIndex; i < highlightEndIndex; i++) {
+        x1 = textItems[i].transform[4];
+        x2 = textItems[i].transform[4] + textItems[i].width;
+        y1 = textItems[i].transform[5];
+        y1_1 = y1 + textItems[i].height;
+        y2 = textItems[i].transform[5];
+        highlightArea.push([x1, y1_1, x2, y2]);
+      }
+      this.setHighlightRow(highlightArea, page, docPage, pattern, 0);
+    }
   }
 
   setHighlightArea = (highLightArea: any, page: any, pageNum: number, chunkText: string, chunkIndex: number) => {
@@ -490,6 +577,41 @@ class App extends Component<{}, State> {
     });
   }
 
+  setHighlightRow = (highLightArea: any, page: any, pageNum: number, chunkText: string, chunkIndex: number) => {
+    const viewport = page.getViewport({ scale: 1 });
+    for (let k = 0; k < highLightArea.length; k++) {
+      let x1 = highLightArea[k][0];
+      let y1 = highLightArea[k][1];
+      let x2 = highLightArea[k][2];
+      let y2 = highLightArea[k][3];
+      const startCoords = viewport.convertToPdfPoint(x1, y1);
+    const endCoords = viewport.convertToPdfPoint(x2, y2);
+    let boundingRect = {
+      height: viewport.height,
+      width: viewport.width,
+      x1: startCoords[0],
+      y1: startCoords[1],
+      x2: endCoords[0],
+      y2: endCoords[1],
+    }
+            
+    this.addHighlight({
+      position: {
+        boundingRect,
+        rects: [boundingRect],
+        pageNumber: pageNum,
+      },
+      content: {
+        text: chunkText,
+      },
+      comment: {
+        text: "",
+        emoji: "",
+      }
+    });
+    }
+  }
+
 
   convertTextPositionToBoundingRect = (startPosition:any, endPosition:any , page: any): Scaled => {
     if (!startPosition || !endPosition || !startPosition.transform || !endPosition.transform) {
@@ -520,6 +642,36 @@ class App extends Component<{}, State> {
   handleFileSubmit = (fileName: string) => {
     this.fetchJsonPath(fileName);
   };
+
+  charFrequency(str: string) {
+    let frequency: Record<string, number> = {};
+  
+    for (const char of str) {
+      frequency[char] = (frequency[char] || 0) + 1;
+    }
+  
+    return frequency;
+  }
+  
+  compareCharFrequency(str1: string, str2: string, threshold = 0.9) {
+    const freq1 = this.charFrequency(str1);
+    const freq2 = this.charFrequency(str2);
+  
+    const allChars = new Set([...Object.keys(freq1), ...Object.keys(freq2)]);
+    let totalChars = 0;
+    let matchingChars = 0;
+  
+    allChars.forEach((char) => {
+      const count1 = freq1[char] || 0;
+      const count2 = freq2[char] || 0;
+      totalChars += Math.max(count1, count2);
+      matchingChars += Math.min(count1, count2);
+    });
+  
+    const similarity = matchingChars / totalChars;
+    // console.log("similarity:", similarity);
+    return similarity >= threshold;
+  }
 
   // fuzzyMatchWithIndices(text:String, pattern:String, threshold = 10) {
   //   const tLen = text.length;
@@ -593,7 +745,7 @@ class App extends Component<{}, State> {
 
 
   render() {
-    const { url, highlights, question, model_name, baseline_type, raw_answer, evidence_answer } = this.state;
+    const { url, highlights, question, model_name, baseline_type, raw_answer, evidence_answer, search_pool, evidence } = this.state;
 
     return (
       <div className="App" style={{ display: "flex", height: "100vh" }}>
@@ -606,6 +758,8 @@ class App extends Component<{}, State> {
           baseline_type={baseline_type}
           raw_answer={raw_answer}
           evidence_answer={evidence_answer}
+          search_pool={String(search_pool)}
+          evidence={String(evidence)}
           onFileSubmit={this.handleFileSubmit}
         />
         <div style={{ height: "100vh", width: "75vw", position: "relative" }}>

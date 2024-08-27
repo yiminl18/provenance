@@ -1,0 +1,98 @@
+[
+    {
+        "model_name": "gpt35",
+        "baseline_type": 0,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects starting later than 2022?",
+        "raw_provenance": [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-02-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nRobert DuBoux, Public Works Director/City Engineer\n\nDate prepared: February 18, 2021\n\nMeeting date: March 2, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City\u2019s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:",
+            "(cid:131) The project assessment engineer has begun\n\nthe process of\n\nevaluating the project costs.\n\n(cid:131) Next public community meeting is scheduled for March 25th.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff is making minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is scheduled to go out to bid next week.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: April 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement\n\n(cid:190) Updates: The City has held project meetings with the contractor and is\n\ndeveloping a project schedule.\n\n(cid:190) Project Schedule: February \u2013 April 2021\n\nBluffs Park Workout Station",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:131) The contractor is also working on the curb, gutter and storm drain\ninstallation on Civic Center Way from Webb Way to the condos. This\nportion of the work may require temporary road closures. However, it\nis anticipated that this phase of the project will be completed at the\nend of February 2021.\n\n(cid:190) Project Schedule: August 2020 through March 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "evidence": [
+            "The City will create a complete inventory of storm drains, culverts, debris basins, manholes, and other drainage structures within the City.",
+            "The project assessment engineer has begun evaluating the project costs.",
+            "Begin Construction: March 2022. Next public community meeting is scheduled for March 25th.",
+            "Project is scheduled to go out to bid next week.",
+            "Begin Construction: April 2021. City has held project meetings with the contractor and is developing a project schedule.",
+            "Project Schedule: February \u2013 April 2021.",
+            "Begin Construction: Spring 2022. - This project consists of repairing damage storm drain facilities and roadway embankments that were damaged by the Woolsey Fire.",
+            "This project will be funded through a grant from FEMA after the Wooley Fire."
+        ],
+        "raw_answer": "Encinal Canyon Road Drainage Improvements, Outdoor Warning Sirens.",
+        "evidence_answer": "None",
+        "search_pool": [],
+        "jaccard_similarity": 0.0,
+        "jaccard_similarity_cleaned": 0.0
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 0,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects starting later than 2022?",
+        "raw_provenance": [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-02-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nRobert DuBoux, Public Works Director/City Engineer\n\nDate prepared: February 18, 2021\n\nMeeting date: March 2, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City\u2019s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:",
+            "(cid:131) The project assessment engineer has begun\n\nthe process of\n\nevaluating the project costs.\n\n(cid:131) Next public community meeting is scheduled for March 25th.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff is making minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is scheduled to go out to bid next week.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: April 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement\n\n(cid:190) Updates: The City has held project meetings with the contractor and is\n\ndeveloping a project schedule.\n\n(cid:190) Project Schedule: February \u2013 April 2021\n\nBluffs Park Workout Station",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:131) The contractor is also working on the curb, gutter and storm drain\ninstallation on Civic Center Way from Webb Way to the condos. This\nportion of the work may require temporary road closures. However, it\nis anticipated that this phase of the project will be completed at the\nend of February 2021.\n\n(cid:190) Project Schedule: August 2020 through March 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "evidence": [
+            "The City will create a complete inventory of storm drains, culverts, debris basins, manholes, and other drainage structures within the City.",
+            "The project will be funded through a grant from FEMA after the Woolsey Fire.",
+            "The City has recently received Measure W funds to complete this project.",
+            "Staff is working on the project plans to prepare for public bidding.",
+            "The project assessment engineer has begun the process of evaluating the project costs.",
+            "Next public community meeting is scheduled for March 25th.",
+            "Project is scheduled to go out to bid next week.",
+            "Staff is making minor modifications to the project plans to reduce the overall project costs.",
+            "Project is scheduled to go out to bid next week.",
+            "City has held project meetings with the contractor and is developing a project schedule.",
+            "Project Schedule: Complete Design: February 2021, Begin Construction: April 2021. None.",
+            "Begin Construction: Spring 2022. - This project consists of repairing damage storm drain facilities and roadway embankments that were damaged by the Woolsey Fire.",
+            "This project will be funded through a grant from FEMA after the Wooley Fire.",
+            "The contractor is also working on the curb, gutter and storm drain installation on Civic Center Way from Webb Way to the condos.",
+            "This portion of the work may require temporary road closures.",
+            "However, it is anticipated that this phase of the project will be completed at the end of February 2021.",
+            "Project Schedule: August 2020 through March 2021.",
+            "Estimated Schedule: Complete Design: Spring 2021.",
+            "Begin Construction: Summer 2021. Estimated Schedule: Complete Design: Summer 2021. Begin Construction: Fall 2021."
+        ],
+        "raw_answer": "Encinal Canyon Road Drainage Improvements, Outdoor Warning Sirens, Encinal Canyon Road Drainage Improvements.",
+        "evidence_answer": "Begin Construction: Spring 2022.",
+        "search_pool": [],
+        "jaccard_similarity": 0.06666666666666667,
+        "jaccard_similarity_cleaned": 0.07692307692307693
+    },
+    {
+        "model_name": "gpt35",
+        "baseline_type": 0,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects starting later than 2022?",
+        "raw_provenance": [
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+            "Public Works Commission\nAgenda Report\n\nPublic Works\nCommission Meeting\n03-02-21\nItem\n4.A.\n\nTo:\n\nChair Merrick and Members of the Public Works Commission\n\nPrepared by:\n\nRobert DuBoux, Public Works Director/City Engineer\n\nDate prepared: February 18, 2021\n\nMeeting date: March 2, 2021\n\nSubject:\n\nCapital Improvement Projects and Disaster Recovery Projects Status\nReport\n\nRECOMMENDED ACTION: Receive and file report on the status of the City\u2019s current and\nupcoming Capital Improvements Projects and Disaster Recovery Projects.\n\nDISCUSSION: Staff will provide a status update on the following active projects in the\nFiscal Year 2020-2021 Capital Improvement Program:\n\nCapital Improvement Projects (Design)\n\nMarie Canyon Green Streets\n(cid:190) Updates:\n\n(cid:131) The City has recently received Measure W funds to complete this\nproject. Staff is working on the project plans to prepare for public\nbidding.\n\n(cid:190) Project Schedule:",
+            "(cid:131) The project assessment engineer has begun\n\nthe process of\n\nevaluating the project costs.\n\n(cid:131) Next public community meeting is scheduled for March 25th.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: December 2021\n(cid:131) Begin Construction: March 2022\n\nPage 2 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nMalibu Park Drainage Improvements\n\n(cid:190) Updates:\n\n(cid:131) Staff is making minor modifications to the project plans to reduce the\n\noverall project costs.\n\n(cid:131) Project is scheduled to go out to bid next week.\n\n(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: April 2021\n\nCapital Improvement Projects (Construction)\n\nCity Hall Roof Replacement\n\n(cid:190) Updates: The City has held project meetings with the contractor and is\n\ndeveloping a project schedule.\n\n(cid:190) Project Schedule: February \u2013 April 2021\n\nBluffs Park Workout Station",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:131) The contractor is also working on the curb, gutter and storm drain\ninstallation on Civic Center Way from Webb Way to the condos. This\nportion of the work may require temporary road closures. However, it\nis anticipated that this phase of the project will be completed at the\nend of February 2021.\n\n(cid:190) Project Schedule: August 2020 through March 2021\n\nPage 3 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\nCapital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021"
+        ],
+        "evidence": [
+            "The Enclinal Canyon Road Drainage Improvements project will be funded through a grant from FEMA after the Woolsey Fire.",
+            "The project assessment engineer has begun evaluating the project costs.",
+            "Next public community meeting is scheduled for March 25th.",
+            "Staff is making minor modifications to the project plans to reduce the overall project costs.",
+            "Project is scheduled to go out to bid next week.",
+            "The City has held project meetings with the contractor and is developing a project schedule.",
+            "City Hall Roof Replacement project schedule is February \u2013 April 2021.",
+            "Begin Construction: Spring 2022. - This project consists of repairing damage storm drain facilities and roadway embankments that were damaged by the Woolsey Fire.",
+            "This project will be funded through a grant from FEMA after the Wooley Fire."
+        ],
+        "raw_answer": "Enclinal Canyon Road Drainage Improvements, Outdoor Warning Sirens",
+        "evidence_answer": "Enclinal Canyon Road Drainage Improvements, City Hall Roof Replacement",
+        "search_pool": [],
+        "jaccard_similarity": 0.46153846153846156,
+        "jaccard_similarity_cleaned": 0.46153846153846156
+    }
+]

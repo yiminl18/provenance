@@ -5,7 +5,7 @@
             "entity1": {
                 "entity_name": "authors",
                 "attributes": {
-                    "count": ""
+                    "quantity": ""
                 }
             },
             "entity2": {
@@ -26,18 +26,19 @@
         }
     },
     "question_2": {
-        "question": "What are the names of authors whose institutions are in the US?",
+        "question": "What are the names of authors whose institutions are in the US for this paper?",
         "extracted": {
             "entity1": {
                 "entity_name": "authors",
                 "attributes": {
-                    "names": ""
+                    "names": "",
+                    "institutions": "US"
                 }
             },
             "entity2": {
-                "entity_name": "institutions",
+                "entity_name": "paper",
                 "attributes": {
-                    "location": "US"
+                    "title": ""
                 }
             }
         }

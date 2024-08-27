@@ -1,0 +1,811 @@
+{
+    "question": "What are the names of disaster projects starting later than 2022?",
+    "raw_answer": "Clover Heights Storm Drain",
+    "evidence_answer": "None",
+    "evidence_token_num": 166,
+    "total_token_num": 658,
+    "extracted_search_list": [
+        "start_date",
+        "disaster projects",
+        "later than 2022",
+        "Clover Heights Storm Drain"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7145178914070129
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7383438348770142
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.7470607161521912
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.8264623880386353
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.8284510374069214
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.8317224979400635
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.8327714800834656
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.8327988386154175
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.8479951024055481
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.853946328163147
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.8549285531044006
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.8794712424278259
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8802790641784668
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.8887619376182556
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.9043079018592834
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.914819598197937
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.9162130951881409
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.9172506928443909
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.9189854860305786
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.9251441359519958
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.9373297691345215
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.9605594873428345
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.9609742164611816
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.9703656435012817
+            ]
+        ],
+        [
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.37730520963668823
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.42225944995880127
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.5045304298400879
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.536003589630127
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.5476075410842896
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.5830326080322266
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.6011881828308105
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.6184946298599243
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.6223365664482117
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.6353065967559814
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6524365544319153
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.6599798798561096
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.6651769876480103
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.6713974475860596
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.6722010970115662
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6750927567481995
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.6792303919792175
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6803680658340454
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.6944513916969299
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7122137546539307
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7238367795944214
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.7466737031936646
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.7576444745063782
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8022569417953491
+            ]
+        ],
+        [
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.6345218420028687
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.6817505359649658
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6991140842437744
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.7067585587501526
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.7114763855934143
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7332699298858643
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.7343193888664246
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.7351725697517395
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.7521365880966187
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.755163311958313
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.7685053944587708
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.8041631579399109
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.8106253147125244
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.811732292175293
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8168541193008423
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.8171740174293518
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.8399958610534668
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.8542511463165283
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.8607659935951233
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.8648444414138794
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.8657647371292114
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.8674694299697876
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.8728919625282288
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.8833469152450562
+            ]
+        ],
+        [
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.21267366409301758
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.22772574424743652
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.25794655084609985
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.356437087059021
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.4487469792366028
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.4869586229324341
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.4872080087661743
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.494052529335022
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.519871175289154
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.5290303826332092
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.5530085563659668
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.5716369152069092
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.5842615365982056
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6070446372032166
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6100804805755615
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6252120733261108
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.6289303302764893
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.6710448265075684
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.6816256642341614
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.6985867619514465
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.7122793197631836
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7429397106170654
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.750930666923523
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7770767211914062
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7145178914070129
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7383438348770142
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.7470607161521912
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.8264623880386353
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.8284510374069214
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.8317224979400635
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.8327714800834656
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.8327988386154175
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.8479951024055481
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.853946328163147
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.8549285531044006
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.8794712424278259
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8802790641784668
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.8887619376182556
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.9043079018592834
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.914819598197937
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.9162130951881409
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.9172506928443909
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.9189854860305786
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.9251441359519958
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.9373297691345215
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.9605594873428345
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.9609742164611816
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.9703656435012817
+            ]
+        ],
+        [
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.37730520963668823
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.42225944995880127
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.5045304298400879
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.536003589630127
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.5476075410842896
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.5830326080322266
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.6011881828308105
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.6184946298599243
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.6223365664482117
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.6353065967559814
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6524365544319153
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.6599798798561096
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.6651769876480103
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.6713974475860596
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.6722010970115662
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6750927567481995
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.6792303919792175
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6803680658340454
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.6944513916969299
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7122137546539307
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7238367795944214
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.7466737031936646
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.7576444745063782
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8022569417953491
+            ]
+        ],
+        [
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.6345218420028687
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.6817505359649658
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6991140842437744
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.7067585587501526
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.7114763855934143
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7332699298858643
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.7343193888664246
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.7351725697517395
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.7521365880966187
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.755163311958313
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.7685053944587708
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.8041631579399109
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.8106253147125244
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.811732292175293
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.8168541193008423
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.8171740174293518
+            ],
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.8399958610534668
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.8542511463165283
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.8607659935951233
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.8648444414138794
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.8657647371292114
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.8674694299697876
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.8728919625282288
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.8833469152450562
+            ]
+        ],
+        [
+            [
+                "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+                0.21267366409301758
+            ],
+            [
+                "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+                0.22772574424743652
+            ],
+            [
+                "The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road.",
+                0.25794655084609985
+            ],
+            [
+                "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+                0.356437087059021
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nStorm Drain Master Plan (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire.",
+                0.4487469792366028
+            ],
+            [
+                "The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.",
+                0.4869586229324341
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.4872080087661743
+            ],
+            [
+                "During storms, this\nintersection floods and causes debris to block the road.",
+                0.494052529335022
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+                0.519871175289154
+            ],
+            [
+                "Corral Canyon Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.",
+                0.5290303826332092
+            ],
+            [
+                "(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.",
+                0.5530085563659668
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\nDrainage Improvements project and updates will be provided under\nthat project.",
+                0.5716369152069092
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.5842615365982056
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nTrancas Canyon Park Slope Stabilization Project (CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6070446372032166
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nTrancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of this project.",
+                0.6100804805755615
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nLatigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES\nProject)\n\n(cid:190) Updates:\n\n(cid:131) Staff is finalizing the design of this project.",
+                0.6252120733261108
+            ],
+            [
+                "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.6289303302764893
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+                0.6710448265075684
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.",
+                0.6816256642341614
+            ],
+            [
+                "Outdoor Warning Sirens (FEMA Project)\n\n(cid:190) Updates: This project will be funded through a grant from FEMA after the\nWooley Fire.",
+                0.6985867619514465
+            ],
+            [
+                "(cid:131) Staff is also working with FEMA/CalOES to substitute the existing\n\ntimber with non-combustible materials.",
+                0.7122793197631836
+            ],
+            [
+                "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+                0.7429397106170654
+            ],
+            [
+                "The project consists of hiring a consultant to develop a plan\nthat includes the evaluation of a siren system and possible locations.",
+                0.750930666923523
+            ],
+            [
+                "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown",
+                0.7770767211914062
+            ]
+        ]
+    ],
+    "evidence": [
+        "Disaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\nPage 5 of 6\n\nAgenda Item # 4.A.",
+        "Page 4 of 6\n\nAgenda Item # 4.A. (cid:190) Project Schedule:",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A.",
+        "(cid:190) Project Description: This project consists of design and construction of a\nfew storm drains on Clover Heights.",
+        "An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)",
+        "Staff\nis working on an RFQ to hire a consultant for the design. (cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown"
+    ]
+}

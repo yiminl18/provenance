@@ -1,0 +1,1072 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "13",
+    "evidence_answer": "3,7,3,3,2,4,8",
+    "evidence_token_num": 141,
+    "total_token_num": 603,
+    "extracted_search_list": [
+        "number",
+        "How many authors are there for this paper?",
+        "value",
+        "13"
+    ],
+    "searched_docs": [
+        [
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.7885308861732483
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.792824387550354
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.7958490252494812
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.7961390614509583
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.7962166666984558
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.79849773645401
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8108749985694885
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8200275897979736
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8205877542495728
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8215521574020386
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.8234434723854065
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.827024519443512
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8367297649383545
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8371333479881287
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8379157185554504
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.8514033555984497
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8535552620887756
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8540525436401367
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.8575690984725952
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.8577026724815369
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.85939621925354
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.8659793138504028
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.868221640586853
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8689978718757629
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8700910806655884
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8738272786140442
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8760861158370972
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8768320679664612
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8805054426193237
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8809022307395935
+            ]
+        ],
+        [
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.5374253988265991
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.5374284982681274
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.5585409998893738
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.5612401962280273
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.5767141580581665
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.5812282562255859
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.5841870307922363
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.5867019891738892
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.638656497001648
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.652086615562439
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.6625814437866211
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.6744665503501892
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.6769394874572754
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.6781280040740967
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.6800657510757446
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.6865546107292175
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.6972988843917847
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.6975954174995422
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7021535038948059
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.7046186327934265
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.7184638977050781
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.7234254479408264
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.7289703488349915
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.7338775992393494
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7375291585922241
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.7459795475006104
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7562992572784424
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.7688584327697754
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.7756303548812866
+            ],
+            [
+                "An Online Community Improves \nAdherence in an Internet-Mediated Walking Program.",
+                0.7841153144836426
+            ]
+        ],
+        [
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.8165060877799988
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8166534900665283
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.820408821105957
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.8207386136054993
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8319985270500183
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8371626138687134
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.8393083810806274
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8489099144935608
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.8499399423599243
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8525048494338989
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8535992503166199
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8548523187637329
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8557933568954468
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8565545082092285
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8569360971450806
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8608837127685547
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.8614789843559265
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.8628524541854858
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8645559549331665
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.8733097314834595
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8773305416107178
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.8796565532684326
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.880562424659729
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.8841931223869324
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.8847445249557495
+            ],
+            [
+                "An Online Community Improves \nAdherence in an Internet-Mediated Walking Program.",
+                0.8891997933387756
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.8906537294387817
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.8927052021026611
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8986657857894897
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.9022969603538513
+            ]
+        ],
+        [
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.7364837527275085
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7781888842582703
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.7790156602859497
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7822800874710083
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7827520370483398
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.7956821322441101
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7982097864151001
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7984992265701294
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8021466732025146
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8104280233383179
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.8124799728393555
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.8143859505653381
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.8158546090126038
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.8168751001358032
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8197882175445557
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8278324007987976
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.8318355083465576
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.8333497047424316
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8356640934944153
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.837277889251709
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8378840684890747
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8397583365440369
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8405823707580566
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8487141132354736
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8538581728935242
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.8549228310585022
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8562356233596802
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.8584210276603699
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8609428405761719
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8612154126167297
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.7885308861732483
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.792824387550354
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.7958490252494812
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.7961390614509583
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.7962166666984558
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.79849773645401
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8108749985694885
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8200275897979736
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8205877542495728
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8215521574020386
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.8234434723854065
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.827024519443512
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8367297649383545
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8371333479881287
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.8379157185554504
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.8514033555984497
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8535552620887756
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8540525436401367
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.8575690984725952
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.8577026724815369
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.85939621925354
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.8659793138504028
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.868221640586853
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8689978718757629
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.8700910806655884
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8738272786140442
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8760861158370972
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8768320679664612
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8805054426193237
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8809022307395935
+            ]
+        ],
+        [
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.5374253988265991
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.5374284982681274
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.5585409998893738
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.5612401962280273
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.5767141580581665
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.5812282562255859
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.5841870307922363
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.5867019891738892
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.638656497001648
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.652086615562439
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.6625814437866211
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.6744665503501892
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.6769394874572754
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.6781280040740967
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770–786.",
+                0.6800657510757446
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.6865546107292175
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.6972988843917847
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.6975954174995422
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.7021535038948059
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.7046186327934265
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.7184638977050781
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.7234254479408264
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.7289703488349915
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.7338775992393494
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.7375291585922241
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.7459795475006104
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.7562992572784424
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.7688584327697754
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.7756303548812866
+            ],
+            [
+                "An Online Community Improves \nAdherence in an Internet-Mediated Walking Program.",
+                0.7841153144836426
+            ]
+        ],
+        [
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.8165060877799988
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.8166534900665283
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.820408821105957
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.8207386136054993
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8319985270500183
+            ],
+            [
+                "Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia.",
+                0.8371626138687134
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.8393083810806274
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8489099144935608
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.8499399423599243
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8525048494338989
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.8535992503166199
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8548523187637329
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8557933568954468
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8565545082092285
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8569360971450806
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8608837127685547
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.8614789843559265
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.8628524541854858
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8645559549331665
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.8733097314834595
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8773305416107178
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.8796565532684326
+            ],
+            [
+                "Part 1: Results of a Randomized Controlled Trial. Journal of Medical Internet Research 12, 4: e41.",
+                0.880562424659729
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.8841931223869324
+            ],
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.8847445249557495
+            ],
+            [
+                "An Online Community Improves \nAdherence in an Internet-Mediated Walking Program.",
+                0.8891997933387756
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.8906537294387817
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.8927052021026611
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8986657857894897
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.9022969603538513
+            ]
+        ],
+        [
+            [
+                "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+                0.7364837527275085
+            ],
+            [
+                "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+                0.7781888842582703
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+                0.7790156602859497
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0.7822800874710083
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+                0.7827520370483398
+            ],
+            [
+                "Adams, Amy L Gonzales, John Pollak, Daniela Retelny, \nJeff Niederdeppe, Christine M Olson, and Geri K Gay.",
+                0.7956821322441101
+            ],
+            [
+                "International Journal of Human \nComputer interaction 24, July 2014: 37–41.",
+                0.7982097864151001
+            ],
+            [
+                "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+                0.7984992265701294
+            ],
+            [
+                "http://doi.org/10.1145/2702123.2702524 \n\n49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew \nChalmers Chalmers.",
+                0.8021466732025146
+            ],
+            [
+                "2012. Prescriptive Persuasion and Open-Ended Social \nAwareness: Expanding the Design Space of Mobile Health.",
+                0.8104280233383179
+            ],
+            [
+                "48. Caroline R Richardson, Lorraine R Buis, Adrienne W. \nJanney, David E Goodrich, Ananda Sen, Michael L \nHess, Kathleen S Mehari, Laurie A Fortlage1, Paul J \nResnick, Brian J Zikmund-Fisher, Victor J Strecher,  \nand John D Piette.",
+                0.8124799728393555
+            ],
+            [
+                "1983. The Dietary Intakes of \n\nSubjects Estimated From Photographs Compared with a \nWeighed Record.",
+                0.8143859505653381
+            ],
+            [
+                "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+                0.8158546090126038
+            ],
+            [
+                "2016. Quantifying and Predicting Mental Illness Severity in \nOnline Pro-Eating Disorder Communities.",
+                0.8168751001358032
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0.8197882175445557
+            ],
+            [
+                "2014. Personal Tracking as Lived \nInformatics. Proceedings of the SIGCHI Conference on Human \nFactors in Computing Systems (CHI 2014): 1163–1172. http://doi.org/10.1145/2556288.2557039",
+                0.8278324007987976
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on \nHuman Factors in Computing Systems (CHI 2015), 1135–1144.",
+                0.8318355083465576
+            ],
+            [
+                "Human nutrition. Applied nutrition 37, 6: \n470–473. http://europepmc.org/abstract/MED/6662734 \n\n7.",
+                0.8333497047424316
+            ],
+            [
+                "2015. Barriers and Negative \nNudges: Exploring Challenges in Food Journaling.",
+                0.8356640934944153
+            ],
+            [
+                "Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 1159–1162. http://doi.org/10.1145/2702123.2702155",
+                0.837277889251709
+            ],
+            [
+                "This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft.",
+                0.8378840684890747
+            ],
+            [
+                "2015. Rethinking the Mobile Food Journal. Proceedings of the SIGCHI Conference on Human Factors \nin Computing Systems (CHI 2015): 3207–3216.",
+                0.8397583365440369
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1338 \n\nResnick. 2015. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical Activity \nIntervention.",
+                0.8405823707580566
+            ],
+            [
+                "Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, \n\nStephanie Zerwas, and Munmun De Choudhury.",
+                0.8487141132354736
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157–1170.",
+                0.8538581728935242
+            ],
+            [
+                "Proceedings of \nthe ACM Conference on Computer-Supported Cooperative \nWork and Social Computing (CSCW 2016): 1171–1184. http://doi.org/10.1145/2818048.2819973",
+                0.8549228310585022
+            ],
+            [
+                "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+                0.8562356233596802
+            ],
+            [
+                "Proceedings of the ACM Conference on Computer \nSupported Cooperative Work (CSCW 2012): 475–484.",
+                0.8584210276603699
+            ],
+            [
+                "2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data.",
+                0.8609428405761719
+            ],
+            [
+                "Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility.",
+                0.8612154126167297
+            ]
+        ]
+    ],
+    "evidence": [
+        "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+        "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+        "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+        "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+        "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+        "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+        "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+        "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty."
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+            0
+        ],
+        [
+            "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+            1
+        ],
+        [
+            "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            2
+        ],
+        [
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+            3
+        ],
+        [
+            "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+            1
+        ],
+        [
+            "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            2
+        ],
+        [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+            3
+        ],
+        [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+            2
+        ]
+    ],
+    "less_similar_evidence": [],
+    "unsorted_evidence": [
+        [
+            "http://doi.org/10.1145/2145204.2145279 \n\n6. G Bird and P C Elwood.",
+            0
+        ],
+        [
+            "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+            1
+        ],
+        [
+            "http://doi.org/10.1207/S15327051HCI1523 \n\n2. Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            2
+        ],
+        [
+            "16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James \nFogarty.",
+            3
+        ],
+        [
+            "http://doi.org/10.1145/2702123.2702154 \n\n17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, \n\nCordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory \nD Abowd, and James Fogarty.",
+            1
+        ],
+        [
+            "http://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            2
+        ],
+        [
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016.",
+            3
+        ],
+        [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper.",
+            2
+        ]
+    ]
+}

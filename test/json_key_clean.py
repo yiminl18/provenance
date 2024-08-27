@@ -25,5 +25,5 @@ def process_json_files(folder_path):
             with open(file_path, 'w', encoding='utf-8') as file:
                 json.dump(updated_data, file, ensure_ascii=False, indent=4)
 
-folder_path = 'qasys/frontend/data/baseline0/paper/gpt4o'  # 替换为实际文件夹路径
+folder_path = 'test/output/provenance/baseline1/notice/gpt4o'  # 替换为实际文件夹路径
 process_json_files(folder_path)

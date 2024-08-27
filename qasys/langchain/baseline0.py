@@ -1,121 +1,338 @@
-'''
-    main.py is for testing the RAG pipeline
-'''
-import time
-from rag_1hop import rag
-from questions import civic_q, paper_q, notice_q, civic_path, paper_path, notice_path
-
-# questions = civic_questions()
-# folder_paths = civic_path()
-
-# for question, folder_path in zip(questions, folder_paths):
-#     for i in range(10):
-#         rag(question=question, folder_path=folder_path)
-#     time.sleep(5)
-
-# questions = paper_questions()
-# folder_paths = paper_path()
-questions = civic_q()
-folder_paths = civic_path()
+import os, sys
+import json
+import logging
 
 
-# rag(question=questions[0], folder_path=folder_paths[0])
+from retrieve_and_generation import retrieve_and_generation, generate_from_evidence
+
+from answer_merge import merge_answers
+from setup_logging import setup_logging, close_logging
+from txt2pdf_path import txt2pdf_path, txt2pdf_path_list, pdf2pdf_path
+from node_process import next_node
+from evidence_finder import find_evidence
 
 
-for question in questions:
-    for folder_path in folder_paths:
-        rag(question=question, folder_path=folder_path) 
 
-time.sleep(5)
+def rag(question, folder_path):
+    node_info = {}
+    logger, file_handler, console_handler, timestamp = setup_logging()
+    # step0: load sample question and folder path
 
+    logging.info(f"folder_path: {folder_path}")
 
-questions = paper_q()
-folder_paths = paper_path()
-for question in questions:
-    for folder_path in folder_paths:
-        rag(question=question, folder_path=folder_path)
-time.sleep(5)
-rag(question=questions[0], folder_path=folder_paths[0])
+    next_node(node_info, {
+         "node_id" : 1,
+         "node_name": "start",
+         "in_nodes": [],
+         "out_nodes": [2],
+         "in_data": [],
+         "out_data": [f"{question}"],
+         "label": "",
+         "prompt:": ""
+    })
 
-questions = notice_q()
-folder_paths = notice_path()
-for question in questions:
-    for folder_path in folder_paths:
-        rag(question=question, folder_path=folder_path)
+    # step1: indexing
+    # docs = load_local_txt(folder_path)
+    docs = load_local_txt(path_raw2extracted(folder_path))
 
-# rag(question=questions[0], folder_path=folder_paths[0])
-# rag()
+    all_splits = split_docs(docs, chunk_size=1000, chunk_overlap=100, add_start_index=True)
 
+    vectorstore = store_splits(all_splits)
 
-# import os, sys, json
-# from query_decompose import query_decomposition, sample_questions, civic_questions, paper_questions # sample_questions() returns a list of sample questions
-# from retrieve_and_generation import retrieve_and_generation
-# from indexing import load_local_folder_of_txt, load_local_txt, split_docs, store_splits, sample_folders
-# from answer_merge import merge_answers
-# from setup_logging import setup_logging
-# import logging
+    # Initialize a list to store the results
+    results = []
 
-# setup_logging()
+    # for question in questions:
 
-# # step0: load sample question and folder path ----------------------------
-# # question = sample_questions()[0] # 0 is Civic, 1 is Paper
-# questions = civic_questions() 
-# # folder_path = sample_folders()[0] # 0 is Civic, 1 is Paper
-# folder_path = 'data/civic/extracted_data/malibucity_agenda__01262022-1835.txt'
+    # do not decompose
+    sub_query_list = [question]
+    decomposition_prompt = ""
 
-# logging.info(f"folder_path: {folder_path}")
+    sub_query_len = len(sub_query_list)
+    logging.info(f"question: {question}")
+    logging.info(f"sub_query_list: {sub_query_list}")
 
 
-# # step1: indexing ----------------------------
-# # docs = load_local_folder_of_txt(folder_path)
-# docs = load_local_txt(folder_path)
-# vectorstore = store_splits(split_docs(docs, chunk_size=1000, chunk_overlap=200, add_start_index=True))
+    # step3: retrieve and generation for each sub-query
+    sub_answers = []
+    retrieved_docs = [] # index for sub_answer and retrieved_docs should be the same
 
-# # Initialize a list to store the results
-# results = []
+    logging.info("len of sub_query_list: " + str(len(sub_query_list)))
+    for sub_query_index, sub_query in enumerate(sub_query_list):
+        sub_ans, sub_retrieved_docs, chunk_index, rag_prompt = retrieve_and_generation(sub_query, vectorstore, k = 5)
+        print(f"rag_prompt: {rag_prompt}")
+        sub_answers.append(sub_ans)
+        # retrieved_docs.append([[doc.page_content, doc.metadata["page"]] for doc in sub_retrieved_docs]) # retrieved_docs is a list of list of strings
+        retrieved_docs.append([doc.page_content for doc in sub_retrieved_docs]) # retrieved_docs is a list of list of strings
+        logging.info(f"\nFor sub_query: {sub_query}") # print each sub-query
+        logging.info(f"Using following chunks:") # print each sub-answer
+        logging.info(f"chunk_index: {chunk_index}")
+        k = 0 # print top k retrieved docs
+        for doc in sub_retrieved_docs:
+                k += 1
+                logging.info(f"top{k}\n retrieved_docs:\n {doc.metadata}\n {doc.page_content}\n {'-'*10}") # print each retrieved doc
+        next_node(node_info, {
+            "node_id" : 2+sub_query_index,
+            "node_name": "retrival",
+            "in_nodes": [1],
+            "out_nodes": [2+sub_query_index+sub_query_len],
+            "in_data": [f"{sub_query}"],
+            "out_data": [f"{sub_retrieved_docs}"],
+            "label": "",
+            "prompt": ""
+        })
+        
+        next_node(node_info,{
+            "node_id" : 2+sub_query_len+sub_query_index,
+            "node_name": "generation",
+            "in_nodes": [2+sub_query_index],
+            "out_nodes": [2+sub_query_len*2],
+            "in_data": [f"{sub_retrieved_docs}"],
+            "out_data": [f"{sub_ans}"],
+            "label": "LLM",
+            "prompt": str(rag_prompt)
+        })
 
-# for question in questions:
+    vectorstore.delete(ids=[str(i) for i in range(len(all_splits))])
 
-#     # step2: query decomposition --------------------------------
-#     sub_querys = query_decomposition(question)
-#     # print(sub_querys)
-#     sub_query_list = [sub_query.sub_query for sub_query in sub_querys]
-#     logging.info(f"question: {question}")
-#     logging.info(f"sub_query_list: {sub_query_list}")
+    # with open("output_101.txt", "w", encoding="utf-8") as file:
+    #     for sub_query in sub_query_list:
+    #         # file.write("RETRIEDED_DOCS[0]" + str(retrieved_docs[0]))
+    #         # print("LEN_RETRIEVED_DOCS[0]", len(retrieved_docs[0]))
+    #         # file.write("type of retrieved_docs: " + str(type(retrieved_docs[0])) + "\n")
+    #         file.write("LEN OF RETRIEVED_DOCS[0]: " + str(len(retrieved_docs[0])) + "\n")
+    #         file.write("--------------------\n")
+    #         for doc in retrieved_docs[0]:
+    #             file.write("retrieved_chunk_data: ")
+    #             # file.write("type of doc: " + str(type(doc)) + "\n") # doc is a tuple
+    #             # file.write (str(doc[0].metadata) + "\n")
+    #             file.write("For sub_query: " + sub_query + "\n")
+    #             file.write(str(doc[0]) + "\n----------retrieved_chunk_end--------\n")
+
+            
+    #         # print("LEN_SUB_RETRIEVED_DOCS", len(sub_retrieved_docs))
+            
+
+    # step4: answer merging
+    final_answer  = sub_answers[0]
+    # final_answer, merge_prompt = merge_answers(question, sub_query_list, sub_answers)
+    # print(f"merge_prompt: {merge_prompt}")
+
+    next_node(node_info,{
+         "node_id" : 2+sub_query_len*2,
+        "node_name": "end",
+        "in_nodes": [1+sub_query_len*2],
+        "out_nodes": [],
+        "in_data": [f"{final_answer}"],
+        "out_data": [],
+        "label": "",
+        "prompt:": ""
+    })
+
+    # Append the question and final answer to the results list
+    results.append({
+        "question": question,
+        "final_answer": final_answer
+    })
+
+    logging.info(f"sub_answer: {sub_answers}")
+    logging.info(f"final_answer: {final_answer}")
+
+    # # Save results to a JSON file
+    # with open('test/output/langchain_civic_RAG_1.json', 'w', encoding='utf-8') as f:
+    #     json.dump(results, f, ensure_ascii=False, indent=4)
+
+    # find attention span
+    evdience_finding_model_name = 'gpt35'
+    chunks = []
+    chunks_text = []
+    chunks_info = []
+    for subquery_index, chunks_for_subquery in enumerate(retrieved_docs): # sub_query
+        for topk, chunk in enumerate(chunks_for_subquery): # each chunk
+            if chunk not in chunks_text:
+                chunk_info = f"sq{subquery_index}t{topk}"
+                
+                
+                chunks.append([chunk, chunk_info, []])
+                attention_span, original_attention_span, attention_span_response, valid_flag = find_evidence(sub_query_list[subquery_index], sub_answers[subquery_index], chunk, model_name = evdience_finding_model_name)
+                chunks[-1][2].append(attention_span)
+                logging.info(f"attention_span: {attention_span}")
+                chunks_text.append(chunk)
+                # chunk_info is for json logging
+                chunks_info.append([chunk, chunk_info, [], attention_span_response, valid_flag])
+                chunks_info[-1][2].append(attention_span)
+            else:
+                for chunk_id in range(len(chunks)):
+                    c = chunks[chunk_id]
+                    if c[0] == chunk:
+                        c[1] = c[1]+(f"sq{subquery_index}t{topk}")
+                        attention_span, original_attention_span, attention_span_response, valid_flag = find_evidence(sub_query_list[subquery_index], sub_answers[subquery_index], chunk, model_name = evdience_finding_model_name)
+                        c[2].append(attention_span)
+                        logging.info(f"attention_span: {attention_span}")
+
+                        chunks_info[chunk_id][1] = chunks_info[chunk_id][1]+(f"sq{subquery_index}t{topk}")
+                        chunks_info[chunk_id][2].append(attention_span)
+            
+
+    evidence = list(set([attention_span for chunk in chunks for attention_spans in chunk[2] for attention_span in attention_spans]))
+    logging.info(f"evidence: {evidence}")
+    evidence_answer = generate_from_evidence(question, evidence)
+    logging.info(f"evidence_answer: {evidence_answer}")
 
 
-#     # step3: retrieve and generation for each sub-query----------------------------
-#     sub_answer = []
-#     for sub_query in sub_query_list:
-#         sub_ans, retrieved_docs = retrieve_and_generation(sub_query, vectorstore)
-#         sub_answer.append(sub_ans)
 
-#         logging.info(f"For sub_query: {sub_query}") # print each sub-query
-#         logging.info(f"Its sub_answer: {sub_ans}\n Using following chunks:") # print each sub-answer
-#         k = 0 # print top k retrieved docs
-#         for doc in retrieved_docs:
-#             k += 1
-#             logging.info(f"top{k}\n retrieved_docs:\n {doc.metadata}\n {doc.page_content}\n {'-'*10}") # print each retrieved doc
+    result = {
+        "question": question,
+        "sub_query": sub_query_list,
+        "document_path": pdf2pdf_path(folder_path),
+        "final_answer": final_answer,
+        "sub_answers": sub_answers,
+        # "retrieved_docs": retrieved_docs # retrieved_docs is a list of list of PURE strings (not Document objects, for easy json serialization)
+        "chunks": chunks
+    }
+    # print(result)
+    logging.info(f"\nAll splits\n{all_splits}")
+    # logging.info(f"\n load pdf:{docs}")
+    close_logging(logger, [file_handler, console_handler])
 
-#     # step4: answer merging ----------------------------
-#     final_answer = merge_answers(question, sub_query_list, sub_answer)
+    logging_dict = {
+        "evidence finding model": evdience_finding_model_name,
+        "folder_path": folder_path,
+        "chunk_num": len(all_splits),
+        "all splits length": [len(split.page_content) for split in all_splits],
+        "question": question,
+        "sub_query_list": sub_query_list,
+        "sub_answers": sub_answers,
+        "final_answer": final_answer,
+        "chunks_info": chunks_info,
+        "retrieved_docs": [[doc.metadata, doc.page_content] for doc in sub_retrieved_docs],
 
-#     # Append the question and final answer to the results list
-#     results.append({
-#         "question": question,
-#         "final_answer": final_answer
-#     })
+    }
 
-#     # print(question)
-#     # print(final_answer)
+    provenance_dict = {
+        "model name": evdience_finding_model_name,
+        "baseline type": 0,
+        "document path": folder_path,
+        "question": question,
+        "raw provenance": retrieved_docs,
+        "evidence": evidence,
+        "raw answer": final_answer,
+        "evidence answer": evidence_answer
+    }
 
-# logging.info(f"sub_answer: {sub_answer}")
-# logging.info(f"final_answer: {final_answer}")
+    
 
-# # Save results to a JSON file
-# with open('test/output/langchain_civic_RAG_1.json', 'w', encoding='utf-8') as f:
-#     json.dump(results, f, ensure_ascii=False, indent=4)
+    with open(f'test/output/node_info/node_info_{timestamp}.json', 'w', encoding='utf-8') as f:
+        json.dump(node_info, f, ensure_ascii=False, indent=4)
 
-# print("output saved to json file!")
+    with open(f'test/output/highlight_result/result_{timestamp}.json', 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
 
-# #TODO: store vectorstore to disk
+    with open(f'test/output/logging/evidence_logging_{timestamp}.json', 'w', encoding='utf-8') as f:
+        json.dump(logging_dict, f, ensure_ascii=False, indent=4)
+
+    with open(f'test/output/provenance/provenance_{timestamp}.json', 'w', encoding='utf-8') as f:
+        json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+
+    return result
+
+    # return result, node_info
+
+
+# we have multipule questions for one document
+
+
+
+    
+
+
+
+def baseline0(dataset_name:str, model_names:list[str], question_set:list[str], document_path:str):
+    node_info = {}
+    
+    # step0: load sample question and folder path
+    docs = load_local_txt(path_raw2extracted(document_path))
+
+    # step1: indexing
+    all_splits = split_docs(docs, chunk_size=1000, chunk_overlap=0, add_start_index=True)
+    vectorstore = store_splits(all_splits)
+
+    
+
+    for question_index, question in enumerate(question_set):
+        logger, file_handler, console_handler, timestamp = setup_logging()
+        logging.info(f"folder_path: {document_path}")
+        logging.info(f"question: {question}")
+
+        # step3: retrieve and generation for each question
+
+        evaluation_instruction = get_evaluation_instruction(question, question_set, dataset_name)
+
+        raw_answer, sub_retrieved_docs, chunk_index, rag_prompt = retrieve_and_generation(question, vectorstore, k = 5, evaluation_instruction = evaluation_instruction)
+        print(f"rag_prompt: {rag_prompt}")
+
+        # record
+        # retrieved_docs = [] # index for sub_answer and retrieved_docs should be the same
+        provenance = ([doc.page_content for doc in sub_retrieved_docs]) # retrieved_docs is a list of list of strings
+        logging.info(f"Using following chunks:") # print each sub-answer
+        logging.info(f"chunk_index: {chunk_index}")
+        k = 0 # print top k retrieved docs
+        for doc in sub_retrieved_docs:
+                k += 1
+                logging.info(f"top{k}\n retrieved_docs:\n {doc.metadata}\n {doc.page_content}\n {'-'*10}") # print each retrieved doc
+
+        # step4: evidence finding
+        evidence = []
+        evidence_unfiltered = []
+
+        for model_name in model_names:
+            for chunk_index, chunk in enumerate(provenance): # find attention for each chunk
+                chunk_text = str(chunk)
+                logging.info("chunk_index: " + str(chunk_index))
+                logging.info(f"chunk_text: {chunk_text}")
+                attention_span, original_attention_span, attention_span_response, valid_flag = find_evidence(question, raw_answer, chunk_text, model_name = model_name) # w/o filter, first two returned ele are the same
+                logging.info(f"original_attention_span: {original_attention_span}")
+                logging.info(f"attention_span: {attention_span}")
+                logging.info(f"attention_span_response: {attention_span_response}")
+                logging.info(f"valid_flag: {valid_flag}")
+                evidence_unfiltered += original_attention_span
+                if valid_flag:
+                    evidence+=attention_span # attention_sapn is a string
+
+            
+
+            # evidence = list(set([attention_span for attention_spans in evidence for attention_span in attention_spans])) # regardless of chunk_index
+
+
+            # step5: generate answer using evidence
+            evidence_answer = generate_from_evidence(question+evaluation_instruction, evidence)
+
+            provenance_dict = {
+            "model_name": model_name,
+            "baseline_type": 0,
+            "document_path": document_path,
+            "question": question,
+            "raw_provenance": provenance,
+            "evidence": evidence,
+            "raw_answer": raw_answer,
+            "evidence_answer": evidence_answer,
+            "jaccard_similarity": jaccard_similarity_word_union_cleaned(raw_answer, evidence_answer),
+            "search_pool": [],
+            "unfiltered_evidence": evidence_unfiltered
+            }
+
+            logging.info(f"\nAll splits\n{all_splits}")
+            close_logging(logger, [file_handler, console_handler])
+
+            with open(f'test/output/provenance/baseline0/{dataset_name}/{model_name}/provenance_{timestamp}.json', 'w', encoding='utf-8') as f:
+                json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+        
+    vectorstore.delete_collection()
+
+
+
+
+    
+
+    
+

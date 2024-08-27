@@ -1,0 +1,73 @@
+{
+    "question_0": {
+        "question": "How many authors are there for this paper?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "authors",
+                "attributes": {
+                    "count": ""
+                }
+            },
+            "entity2": {
+                "entity_name": "paper",
+                "attributes": {}
+            }
+        }
+    },
+    "question_1": {
+        "question": "What is the publication year of this paper?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "publication year": ""
+                }
+            }
+        }
+    },
+    "question_2": {
+        "question": "What are the names of authors whose institutions are in the US for this paper?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "authors",
+                "attributes": {
+                    "names": ""
+                }
+            },
+            "entity2": {
+                "entity_name": "institutions",
+                "attributes": {
+                    "location": "US"
+                }
+            },
+            "entity3": {
+                "entity_name": "paper",
+                "attributes": {
+                    "this": ""
+                }
+            }
+        }
+    },
+    "question_3": {
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "publication venue": ""
+                }
+            }
+        }
+    },
+    "question_4": {
+        "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "paper",
+                "attributes": {
+                    "involves_theory": "A Model of Personal Informatics"
+                }
+            }
+        }
+    }
+}

@@ -14,9 +14,9 @@ def model(model_name, prompt, json_mode=False):
     if(model_name == 'gpt35long'):
         from models.gpt_35_long import gpt_35_long
         return gpt_35_long(prompt)
-    if(model_name == 'gpt4'):
-        from models.gpt_4 import gpt_4
-        return gpt_4(prompt)
+    if(model_name == 'gpt4turbo'):
+        from models.gpt_4_turbo import gpt_4_turbo
+        return gpt_4_turbo(prompt)
     if(model_name == 'gpt4o'):
         from models.gpt_4o import gpt_4o
         return gpt_4o(prompt, json_mode=json_mode)

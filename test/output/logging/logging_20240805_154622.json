@@ -1,0 +1,984 @@
+{
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "raw_answer": "IEEE",
+    "evidence_answer": "ASIS&T",
+    "evidence_token_num": 10,
+    "total_token_num": 568,
+    "extracted_search_list": [
+        "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "IEEE"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.48306530714035034
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.531475305557251
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.5669703483581543
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.5930764079093933
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+                0.593796968460083
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.5965875387191772
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.5967104434967041
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.5977332592010498
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.6124836206436157
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.6338094472885132
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.6377125978469849
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.6386853456497192
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.6697847843170166
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.6737208366394043
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.6886088848114014
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.6966444253921509
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.6981356143951416
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.733349621295929
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7375755906105042
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.7456209659576416
+            ],
+            [
+                "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+                0.7509773969650269
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.767765462398529
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.7744978070259094
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7790708541870117
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7876370549201965
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7907048463821411
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.796761155128479
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.8279238939285278
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8366285562515259
+            ],
+            [
+                "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+                0.8422930240631104
+            ]
+        ],
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.6219773888587952
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.6471202373504639
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.6550233364105225
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.6563267707824707
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.6631894111633301
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.6898502707481384
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7038185596466064
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.7054700255393982
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.712146520614624
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7123306393623352
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+                0.728111982345581
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7302764058113098
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.7345715761184692
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.7349459528923035
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.7381159067153931
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.7383773922920227
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7508991360664368
+            ],
+            [
+                "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+                0.7512514591217041
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7572234869003296
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.7730722427368164
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7772146463394165
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7848437428474426
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7874552011489868
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.7958770990371704
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8094789981842041
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8185091614723206
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8433026075363159
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8443625569343567
+            ],
+            [
+                "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+                0.856300413608551
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8688621520996094
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.48306530714035034
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.531475305557251
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.5669703483581543
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.5930764079093933
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+                0.593796968460083
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.5965875387191772
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.5967104434967041
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.5977332592010498
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.6124836206436157
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.6338094472885132
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.6377125978469849
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.6386853456497192
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.6697847843170166
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.6737208366394043
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.6886088848114014
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.6966444253921509
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.6981356143951416
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.733349621295929
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7375755906105042
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.7456209659576416
+            ],
+            [
+                "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+                0.7509773969650269
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.767765462398529
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.7744978070259094
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7790708541870117
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7876370549201965
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.7907048463821411
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.796761155128479
+            ],
+            [
+                "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+                0.8279238939285278
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8366285562515259
+            ],
+            [
+                "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+                0.8422930240631104
+            ]
+        ],
+        [
+            [
+                "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+                0.6219773888587952
+            ],
+            [
+                "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+                0.6471202373504639
+            ],
+            [
+                "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+                0.6550233364105225
+            ],
+            [
+                "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+                0.6563267707824707
+            ],
+            [
+                "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+                0.6631894111633301
+            ],
+            [
+                "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+                0.6898502707481384
+            ],
+            [
+                "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+                0.7038185596466064
+            ],
+            [
+                "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+                0.7054700255393982
+            ],
+            [
+                "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+                0.712146520614624
+            ],
+            [
+                "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+                0.7123306393623352
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+                0.728111982345581
+            ],
+            [
+                "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+                0.7302764058113098
+            ],
+            [
+                "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+                0.7345715761184692
+            ],
+            [
+                "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+                0.7349459528923035
+            ],
+            [
+                "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+                0.7381159067153931
+            ],
+            [
+                "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+                0.7383773922920227
+            ],
+            [
+                "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+                0.7508991360664368
+            ],
+            [
+                "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+                0.7512514591217041
+            ],
+            [
+                "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+                0.7572234869003296
+            ],
+            [
+                "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+                0.7730722427368164
+            ],
+            [
+                "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+                0.7772146463394165
+            ],
+            [
+                "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+                0.7848437428474426
+            ],
+            [
+                "Personal  Information \n\nManagement. UW Press, 2007.",
+                0.7874552011489868
+            ],
+            [
+                "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+                0.7958770990371704
+            ],
+            [
+                "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+                0.8094789981842041
+            ],
+            [
+                "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+                0.8185091614723206
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+                0.8433026075363159
+            ],
+            [
+                "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+                0.8443625569343567
+            ],
+            [
+                "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+                0.856300413608551
+            ],
+            [
+                "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+                0.8688621520996094
+            ]
+        ]
+    ],
+    "evidence": [
+        "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30."
+    ],
+    "unsorted_evidence": [
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            0
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            0
+        ],
+        [
+            "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+            1
+        ],
+        [
+            "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+            0
+        ],
+        [
+            "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+            1
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            0
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            1
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+            0
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            1
+        ],
+        [
+            "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+            0
+        ],
+        [
+            "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+            1
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            0
+        ],
+        [
+            "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+            1
+        ],
+        [
+            "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+            0
+        ],
+        [
+            "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+            1
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            0
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            1
+        ],
+        [
+            "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+            0
+        ],
+        [
+            "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+            1
+        ],
+        [
+            "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+            0
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+            1
+        ],
+        [
+            "Personal  Information \n\nManagement. UW Press, 2007.",
+            0
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            1
+        ],
+        [
+            "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+            0
+        ],
+        [
+            "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+            1
+        ],
+        [
+            "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+            0
+        ],
+        [
+            "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+            1
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            0
+        ],
+        [
+            "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+            1
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            0
+        ],
+        [
+            "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+            1
+        ],
+        [
+            "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+            0
+        ],
+        [
+            "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+            1
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            0
+        ],
+        [
+            "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+            1
+        ],
+        [
+            "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+            0
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            1
+        ],
+        [
+            "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+            0
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            1
+        ],
+        [
+            "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+            0
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            1
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            0
+        ],
+        [
+            "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+            1
+        ],
+        [
+            "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+            0
+        ],
+        [
+            "Personal  Information \n\nManagement. UW Press, 2007.",
+            1
+        ],
+        [
+            "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+            0
+        ],
+        [
+            "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+            1
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            0
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            1
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            0
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            1
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            0
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            1
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            0
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            1
+        ],
+        [
+            "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+            0
+        ],
+        [
+            "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+            1
+        ],
+        [
+            "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+            0
+        ],
+        [
+            "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+            1
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
+            0
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            0
+        ],
+        [
+            "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+            1
+        ],
+        [
+            "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+            0
+        ],
+        [
+            "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
+            1
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            0
+        ],
+        [
+            "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
+            1
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+            0
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            1
+        ],
+        [
+            "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+            0
+        ],
+        [
+            "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+            1
+        ],
+        [
+            "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
+            0
+        ],
+        [
+            "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+            1
+        ],
+        [
+            "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
+            0
+        ],
+        [
+            "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+            1
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            0
+        ],
+        [
+            "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
+            1
+        ],
+        [
+            "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+            0
+        ],
+        [
+            "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
+            1
+        ],
+        [
+            "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+            0
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
+            1
+        ],
+        [
+            "Personal  Information \n\nManagement. UW Press, 2007.",
+            0
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            1
+        ],
+        [
+            "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research.",
+            0
+        ],
+        [
+            "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
+            1
+        ],
+        [
+            "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
+            0
+        ],
+        [
+            "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
+            1
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            0
+        ],
+        [
+            "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+            1
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            0
+        ],
+        [
+            "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+            1
+        ],
+        [
+            "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
+            0
+        ],
+        [
+            "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
+            1
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            0
+        ],
+        [
+            "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+            1
+        ],
+        [
+            "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+            0
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            1
+        ],
+        [
+            "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
+            0
+        ],
+        [
+            "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
+            1
+        ],
+        [
+            "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
+            0
+        ],
+        [
+            "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
+            1
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            0
+        ],
+        [
+            "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
+            1
+        ],
+        [
+            "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+            0
+        ],
+        [
+            "Personal  Information \n\nManagement. UW Press, 2007.",
+            1
+        ],
+        [
+            "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
+            0
+        ],
+        [
+            "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
+            1
+        ],
+        [
+            "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
+            0
+        ],
+        [
+            "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
+            1
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            0
+        ],
+        [
+            "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
+            1
+        ],
+        [
+            "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
+            0
+        ],
+        [
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
+            1
+        ],
+        [
+            "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
+            0
+        ],
+        [
+            "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
+            1
+        ],
+        [
+            "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+            0
+        ],
+        [
+            "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+            1
+        ],
+        [
+            "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
+            0
+        ],
+        [
+            "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
+            1
+        ]
+    ]
+}

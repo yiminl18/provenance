@@ -1,0 +1,30 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf",
+    "question": "Does this paper involve the theory “A Model of Personal Informatics”?",
+    "raw_provenance": [
+        "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin. 2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection. In\nCHI’06 extended abstracts on Human factors in\ncomputing systems. ACM, 1037–1042.\n\n16. Michael Mateas and Phoebe Sengers. 2003. Narrative\n\nintelligence. (2003).\n\n17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge. Journal of\npersonality and Social Psychology 46, 4 (1984), 919.\n\n18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform. Muska &\nLipman/Premier-Trade.\n\n19. Rosalind W Picard and Shaundra Bryant Daily. 2005.\n\nEvaluating affective interactions: Alternatives to asking\nwhat users feel. In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.\n\n20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+        "computing. Vol. 252. MIT press Cambridge.\n\n21. Tom Porter and Galyn Susman. 2000. On site: Creating\nlifelike characters in pixar movies. Commun. ACM 43, 1\n(2000), 25.\n\n22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen. TED.\n\n23. Christian Roth, Peter Vorderer, and Christoph Klimmt.\n\n2009. The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience. In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.\n\n24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones. Ph.D. Dissertation.\nMassachusetts Institute of Technology.\n\n25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+        ". The results indicated\nthat personalized animations tended to be more emotionally\nengaging, encouraging greater and lengthier writing that indi-\ncated self-reﬂection about moods and behaviors. Furthermore,\nwhile human imagination plays an important and valuable part\nin both conditions – test and control – the impact we found\nsuggests that true personalization may be more powerfully\ninﬂuential on moods and self-reﬂection than simply believing\nthat one is receiving personalized feedback.",
+        "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories. In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems. ACM, 1041–1046.\n\n26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye. 2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility. ACM, 49–58.\n\n27. Phoebe Sengers and Bill Gaver. 2006. Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation. In Proceedings of the 6th conference on\nDesigning Interactive systems. ACM, 99–108.\n28. CR Snyder, Randee J Shenkel, and Carol R Lowery.\n1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond. Journal of consulting and\nclinical psychology 45, 1 (1977), 104.\n\n29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995.\nThe illusion of life: Disney animation. Hyperion New\nYork.",
+        "ACKNOWLEDGEMENT\nThis research was partially supported by the Advancing Well-\nbeing Initiative at the MIT Media Lab. We thank Asma Ghan-\ndeharioun, Weixuan (Vincent) Chen and Sam Spaulding for\ncomments that greatly improved the manuscript, and 3 \"anony-\nmous\" reviewers for their insights in presenting the research\nmethodology and results.\n\nREFERENCES\n\n1. Ruth A Baer, Gregory T Smith, Jaclyn Hopkins, Jennifer\nKrietemeyer, and Leslie Toney. 2006. Using self-report\nassessment methods to explore facets of mindfulness.\nAssessment 13, 1 (2006), 27–45.\n\n2. Joseph Bates and others. 1994. The role of emotion in\n\nbelievable agents. Commun. ACM 37, 7 (1994), 122–125.\n\n3. Todd Bentley, Lorraine Johnston, and Karola von Baggo."
+    ],
+    "evidence": [
+        "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+        "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+        "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+        "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+        ". The results indicated\nthat personalized animations tended to be more emotionally\nengaging, encouraging greater and lengthier writing that indi-\ncated self-reﬂection about moods and behaviors.",
+        "Furthermore,\nwhile human imagination plays an important and valuable part\nin both conditions – test and control – the impact we found\nsuggests that true personalization may be more powerfully\ninﬂuential on moods and self-reﬂection than simply believing\nthat one is receiving personalized feedback."
+    ],
+    "raw_answer": "None",
+    "evidence_answer": "No",
+    "search_pool": [
+        "title",
+        "paper",
+        "A Model of Personal Informatics"
+    ],
+    "jaccard_similarity": 0.0,
+    "jaccard_similarity_cleaned": 0.0
+}

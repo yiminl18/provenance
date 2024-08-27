@@ -1,0 +1,1005 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "None",
+    "evidence_answer": "None",
+    "evidence_token_num": 136,
+    "total_token_num": 511,
+    "extracted_search_list": [
+        "paper",
+        "many",
+        "None",
+        "number",
+        "authors"
+    ],
+    "searched_docs": [
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6613308787345886
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.716973066329956
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.718441903591156
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7264251112937927
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328695058822632
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7431237697601318
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452082633972168
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522576451301575
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7636853456497192
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660173177719116
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669188976287842
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722095251083374
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7732080221176147
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793200016021729
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7910441756248474
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7940230965614319
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7966089248657227
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056290149688721
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170762062072754
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.827494740486145
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8437404632568359
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8514826893806458
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8774076700210571
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8916557431221008
+            ]
+        ],
+        [
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7987807393074036
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8094990253448486
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8101782202720642
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8177646398544312
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8186033964157104
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8231707215309143
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8261984586715698
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337512016296387
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8344166278839111
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8367806077003479
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8449589014053345
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8464787602424622
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8598446249961853
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728803396224976
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8748356103897095
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8763344287872314
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8769761919975281
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8779294490814209
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.881881833076477
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8841507434844971
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8859150409698486
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9024289846420288
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.9026723504066467
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.9033966660499573
+            ]
+        ],
+        [
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7639365792274475
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669898867607117
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7736732363700867
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742771506309509
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7880157232284546
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.79786616563797
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8001689910888672
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8064142465591431
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8071132302284241
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121527433395386
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8125317692756653
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161934614181519
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8225909471511841
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8367295861244202
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8439388275146484
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8444942235946655
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8627214431762695
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8738163113594055
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.876650333404541
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816397190093994
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8861462473869324
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914085626602173
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.891974925994873
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8940971493721008
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8060096502304077
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8246192336082458
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286839127540588
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8304371237754822
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321986794471741
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8409527540206909
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442564010620117
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8483415842056274
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595840930938721
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605722784996033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8628262877464294
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8738672733306885
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747609853744507
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8816612362861633
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8987030386924744
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.9064555764198303
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.9098020792007446
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.9101102948188782
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.9282394647598267
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.9424033761024475
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9428718090057373
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.9582511186599731
+            ]
+        ],
+        [
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832473278045654
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842895746231079
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875028610229492
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.696677565574646
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004170417785645
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.7179092168807983
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279745936393738
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.742512047290802
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499082088470459
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7535120248794556
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559176087379456
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570717334747314
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603652477264404
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671500444412231
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7737895846366882
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762079834938049
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767814993858337
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.784758448600769
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874314785003662
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8174952268600464
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8231967687606812
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8317598700523376
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8819679617881775
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6613308787345886
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.716973066329956
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.718441903591156
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7264251112937927
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328695058822632
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7431237697601318
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452082633972168
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522576451301575
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7636853456497192
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660173177719116
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669188976287842
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722095251083374
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7732080221176147
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793200016021729
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7910441756248474
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7940230965614319
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7966089248657227
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056290149688721
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170762062072754
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.827494740486145
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8437404632568359
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8514826893806458
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8774076700210571
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8916557431221008
+            ]
+        ],
+        [
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7987807393074036
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8094990253448486
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8101782202720642
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8177646398544312
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8186033964157104
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8231707215309143
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8261984586715698
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337512016296387
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8344166278839111
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8367806077003479
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8449589014053345
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8464787602424622
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8598446249961853
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728803396224976
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8748356103897095
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8763344287872314
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8769761919975281
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8779294490814209
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.881881833076477
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8841507434844971
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8859150409698486
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9024289846420288
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.9026723504066467
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.9033966660499573
+            ]
+        ],
+        [
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7639365792274475
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669898867607117
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7736732363700867
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7742771506309509
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7880157232284546
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.79786616563797
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8001689910888672
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.8064142465591431
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8071132302284241
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8121527433395386
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8125317692756653
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8161934614181519
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8225909471511841
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8367295861244202
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8439388275146484
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8444942235946655
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8627214431762695
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8738163113594055
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.876650333404541
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8816397190093994
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.8861462473869324
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.8914085626602173
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.891974925994873
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8940971493721008
+            ]
+        ],
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8060096502304077
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8246192336082458
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286839127540588
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8304371237754822
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321986794471741
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8409527540206909
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8442564010620117
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8483415842056274
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595840930938721
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605722784996033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8628262877464294
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8738672733306885
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747609853744507
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8816612362861633
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.8987030386924744
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.9064555764198303
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.9098020792007446
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.9101102948188782
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.9282394647598267
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.9424033761024475
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.9428718090057373
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.9582511186599731
+            ]
+        ],
+        [
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832473278045654
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842895746231079
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875028610229492
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.696677565574646
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004170417785645
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.7179092168807983
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279745936393738
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.742512047290802
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499082088470459
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7535120248794556
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559176087379456
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570717334747314
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603652477264404
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671500444412231
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7737895846366882
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762079834938049
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767814993858337
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.784758448600769
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874314785003662
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8174952268600464
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8231967687606812
+            ],
+            [
+                "Reading and Analysis\nWe began our analysis by developing a series of questions\nintended  to  provide  a  sense  for  how  reflection  was\nconceptualized and deployed.",
+                0.8317598700523376
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.8819679617881775
+            ]
+        ]
+    ],
+    "evidence": [
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+        "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+        "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+        "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system"
+    ]
+}

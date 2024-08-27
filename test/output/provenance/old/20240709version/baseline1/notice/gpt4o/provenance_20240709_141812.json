@@ -1,0 +1,27 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 1,
+    "document_path": "data/NoticeViolation/raw_data/12023011NOPV_PCP_05052023_(21-207810)_text.pdf",
+    "question": "What is the name of the company receiving the notice with a non-zero civil penalty?",
+    "raw_provenance": [
+        "Under 49 U.S.C. § 60122 and 49 CFR § 190.223, you are subject to a civil penalty not to exceed \n$257,664 per violation per day the violation persists, up to a maximum of $2,576,627 for a related \nseries of violations.  For violation occurring on or after March 21, 2022 and before January 6, \n2023, the maximum penalty may not exceed $239,142 per violation per day the violation persists, \nup to a maximum of $2,391,412 for a related series of violations.  For violation occurring on or \nafter May 3, 2021 and before March 21, 2022, the maximum penalty may not exceed $225,134 \nper violation per day the violation persists, up to a maximum of $2,251,334 for a related series of \nviolations.  For  violation  occurring  on  or  after  January  11,  2021  and  before  May  3,  2021,  the \nmaximum penalty may not exceed $222,504 per violation per day the violation persists, up to a \nmaximum of $2,225,034 for a related series of violations",
+        "2 See RCFA at 26. \n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                 \n \n \n \n \n\fWe  have  reviewed  the  circumstances  and  supporting  documentation  involved  for  the  above \nprobable violations and recommend that you be preliminarily assessed a civil penalty of $441,151 \nas follows: \n\nItem number \n1 \n3 \n\nPENALTY \n$ 218,647 \n$ 222,504 \n\nWarning Item \n\nWith respect to Item 2, we have reviewed the circumstances and supporting documents involved \nin this case and have decided not to conduct additional enforcement action or penalty assessment \nproceedings at this time.  We advise you to promptly correct this item.  Failure to do so may result \nin additional enforcement action. \n\nResponse to this Notice",
+        "Following the incident and pursuant to the Corrective Action Order 1-2021-034-CAO, Buckeye \nconducted  a  root  cause  failure  analysis  (RCFA)  of  the  incident.  Based  on  the  determinations \ncontained  within  the  RCFA  report,  the  written  control  room  management  procedures  for \ninvestigating SCADA indications were not followed2. \n\nTherefore,  Buckeye  failed  to  follow  its  written  control  room  management  procedures  for \ninvestigating SCADA indications of a leak in accordance with § 195.446(a). \n\nProposed Civil Penalty",
+        "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED CIVIL PENALTY \n\nVIA ELECTRONIC MAIL TO: jsauger@buckeye.com \n\nMay 5, 2023 \n\nMr. Joseph Sauger \nSenior Vice President of Operations and Engineering \nBuckeye Partners, LP \nOne Greenway Plaza, Suite 600 \nHouston, Texas 77046 \n\nCPF 1-2023-011-NOPV \n\nDear Mr. Sauger: \n\nFrom  March  16,  2021  through  May  30,  2021,  a  representative  of  the  Pipeline  and  Hazardous \nMaterials Safety Administration (PHMSA), Office of Pipeline Safety (OPS),  pursuant to Chapter \n601 of 49 United States Code (U.S.C.) investigated Buckeye Partners, LP’s (Buckeye) in-service, \nrupture in Linden, NJ. \n\nOn  March  16,  2021,  at  5:26  am  Eastern  Standard  Time  (EST),  Buckeye  Line  602  ruptured \nreleasing 353 barrels (bbls) of unleaded gasoline into a marsh in Linden, New Jersey.",
+        ".  For violation occurring on or after July \n31,  2019  and  before  January  11,  2021,  the  maximum  penalty  may  not  exceed  $218,647  per \nviolation  per  day the  violation  persists,  up to  a maximum  of  $2,186,465  for  a related  series  of \nviolations.  For violation occurring on or after November 27, 2018 and before July 31, 2019, the \nmaximum penalty may not exceed $213,268 per violation per day, with a maximum penalty not to \nexceed $2,132,679.  For violation occurring on or after November 2, 2015 and before November \n27, 2018, the maximum penalty may not exceed $209,002 per violation per day, with a maximum \npenalty not to exceed $2,090,022."
+    ],
+    "evidence": [
+        "Response to this Notice",
+        "Proposed Civil Penalty"
+    ],
+    "raw_answer": "Buckeye",
+    "evidence_answer": "None",
+    "search_pool": [
+        "company",
+        "receiving the notice",
+        "",
+        "civil penalty",
+        "non-zero",
+        "Buckeye"
+    ]
+}

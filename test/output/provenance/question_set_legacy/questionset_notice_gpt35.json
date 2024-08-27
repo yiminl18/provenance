@@ -1,0 +1,67 @@
+{
+    "question_0": {
+        "question": "What is the issue date of the notice?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "notice",
+                "attributes": {
+                    "issue date": ""
+                }
+            }
+        }
+    },
+    "question_1": {
+        "question": "What are the violation codes for the items listed in this notice?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "violation codes",
+                "attributes": {
+                    "": ""
+                }
+            },
+            "entity2": {
+                "entity_name": "items",
+                "attributes": {
+                    "": ""
+                }
+            }
+        }
+    },
+    "question_2": {
+        "question": "What is the name of the company being informed later than 2023 and located in California?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "location": "California",
+                    "information_date": "later than 2023"
+                }
+            }
+        }
+    },
+    "question_3": {
+        "question": "What is the name of the company receiving the notice with a non-zero civil penalty?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "receiving notice": "",
+                    "civil penalty": "non-zero"
+                }
+            }
+        }
+    },
+    "question_4": {
+        "question": "What is the name of the company receiving the notice that has proposed compliance and a warning?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "receiving the notice": "",
+                    "proposed compliance": "",
+                    "warning": ""
+                }
+            }
+        }
+    }
+}

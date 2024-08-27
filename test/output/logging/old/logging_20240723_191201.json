@@ -1,0 +1,1249 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "9",
+    "evidence_answer": "4",
+    "evidence_token_num": 123,
+    "total_token_num": 543,
+    "extracted_search_list": [
+        "9",
+        "number",
+        "many",
+        "paper",
+        "authors"
+    ],
+    "searched_docs": [
+        [
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7516677379608154
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.7717878222465515
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7794938683509827
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7870407104492188
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7908394932746887
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.792198896408081
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7952709197998047
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7984727025032043
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8023012280464172
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8071421384811401
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8110262751579285
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8150339126586914
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8185575008392334
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8188717365264893
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8226417899131775
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8231313228607178
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8289015293121338
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8323900103569031
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8332695960998535
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.833591103553772
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8339139819145203
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8354446291923523
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8357465267181396
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8368625640869141
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8385270237922668
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.8420759439468384
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.8435402512550354
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8448983430862427
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8450905084609985
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8491148352622986
+            ]
+        ],
+        [
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7642161250114441
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7693982124328613
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7921675443649292
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7922425866127014
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8008116483688354
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8080979585647583
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8093715310096741
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8110795617103577
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.8116715550422668
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8132486939430237
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.8143628239631653
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8191871047019958
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8232113122940063
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.824428915977478
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8245017528533936
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.830750048160553
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8326126337051392
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8338464498519897
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.8349789977073669
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8400105237960815
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8448834419250488
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8454290628433228
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.84735107421875
+            ],
+            [
+                "Philosophical\nTransactions of the Royal Society of London B:\nBiological Sciences 364, 1535 (2009), 3585–3595.",
+                0.8555237054824829
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8712762594223022
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8937071561813354
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8987281322479248
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8993749022483826
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.9014544486999512
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.9047800302505493
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.777712881565094
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7899770736694336
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8074651956558228
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8234887719154358
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8252022862434387
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8304348587989807
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8388727307319641
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.8403577208518982
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8417749404907227
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.843598484992981
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8438930511474609
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.845252275466919
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.8487765789031982
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.8492468595504761
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.8495502471923828
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8510976433753967
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8572664260864258
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8587327003479004
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8620032668113708
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8636126518249512
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8637563586235046
+            ],
+            [
+                "Philosophical\nTransactions of the Royal Society of London B:\nBiological Sciences 364, 1535 (2009), 3585–3595.",
+                0.8646805286407471
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8661034107208252
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8665208220481873
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8687997460365295
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8694168925285339
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.8723018765449524
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.873099684715271
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8743784427642822
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.874538242816925
+            ]
+        ],
+        [
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.683089017868042
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7261399030685425
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.76548171043396
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7836639881134033
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7957037687301636
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7982478737831116
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8037430047988892
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8043314218521118
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8131909370422363
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8197815418243408
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.8222746849060059
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8231240510940552
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8265948295593262
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8273235559463501
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8389042019844055
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8391671776771545
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8396180868148804
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.841200590133667
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.842607855796814
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8493717908859253
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8536543846130371
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.853671669960022
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.8550023436546326
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.855404257774353
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.8557717204093933
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8567399978637695
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6770246624946594
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.6988101601600647
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7202049493789673
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7292848825454712
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7319456338882446
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.7348798513412476
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7372201085090637
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7378227710723877
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7397418022155762
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7438365817070007
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7469542026519775
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7490562200546265
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7506970763206482
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7580379247665405
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.7656289935112
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7752782702445984
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.7769516110420227
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.7810682654380798
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.7825918793678284
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828088998794556
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7890859842300415
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.7893669605255127
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.793211817741394
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7932605743408203
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.7965582609176636
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8031656742095947
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8079575896263123
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8082959651947021
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.810895562171936
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8142485618591309
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7516677379608154
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.7717878222465515
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7794938683509827
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7870407104492188
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7908394932746887
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.792198896408081
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7952709197998047
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7984727025032043
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8023012280464172
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8071421384811401
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8110262751579285
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8150339126586914
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8185575008392334
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8188717365264893
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8226417899131775
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8231313228607178
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8289015293121338
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8323900103569031
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8332695960998535
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.833591103553772
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8339139819145203
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8354446291923523
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8357465267181396
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8368625640869141
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8385270237922668
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.8420759439468384
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.8435402512550354
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8448983430862427
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8450905084609985
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8491148352622986
+            ]
+        ],
+        [
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7642161250114441
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7693982124328613
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7921675443649292
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7922425866127014
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8008116483688354
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8080979585647583
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8093715310096741
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8110795617103577
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.8116715550422668
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8132486939430237
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.8143628239631653
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8191871047019958
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8232113122940063
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.824428915977478
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8245017528533936
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.830750048160553
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8326126337051392
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8338464498519897
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.8349789977073669
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8400105237960815
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8448834419250488
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8454290628433228
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.84735107421875
+            ],
+            [
+                "Philosophical\nTransactions of the Royal Society of London B:\nBiological Sciences 364, 1535 (2009), 3585–3595.",
+                0.8555237054824829
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8712762594223022
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8937071561813354
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8987281322479248
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8993749022483826
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.9014544486999512
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.9047800302505493
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.777712881565094
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7899770736694336
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8074651956558228
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8234887719154358
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8252022862434387
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8304348587989807
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8388727307319641
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.8403577208518982
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8417749404907227
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.843598484992981
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8438930511474609
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.845252275466919
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.8487765789031982
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.8492468595504761
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.8495502471923828
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.8510976433753967
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8572664260864258
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8587327003479004
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8620032668113708
+            ],
+            [
+                "2010. Serious games for\nhealth: personalized exergames. In Proceedings of the\n18th ACM international conference on Multimedia.",
+                0.8636126518249512
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8637563586235046
+            ],
+            [
+                "Philosophical\nTransactions of the Royal Society of London B:\nBiological Sciences 364, 1535 (2009), 3585–3595.",
+                0.8646805286407471
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8661034107208252
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8665208220481873
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8687997460365295
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8694168925285339
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.8723018765449524
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.873099684715271
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8743784427642822
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.874538242816925
+            ]
+        ],
+        [
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.683089017868042
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7261399030685425
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.76548171043396
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7836639881134033
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7957037687301636
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7982478737831116
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8037430047988892
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040727972984314
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8043314218521118
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8131909370422363
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8197815418243408
+            ],
+            [
+                "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+                0.8222746849060059
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8231240510940552
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8265948295593262
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.8273235559463501
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8380193710327148
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8389042019844055
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.8391671776771545
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8396180868148804
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.841200590133667
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.842607855796814
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8493717908859253
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.8536543846130371
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.853671669960022
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.8550023436546326
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.855404257774353
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.8557717204093933
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8567399978637695
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6770246624946594
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.6988101601600647
+            ],
+            [
+                "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+                0.7202049493789673
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7292848825454712
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7319456338882446
+            ],
+            [
+                "11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and",
+                0.7348798513412476
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7372201085090637
+            ],
+            [
+                "ACM,\n182–189. 9. Lisa L Harlow, Michael D Newcomb, and Peter M\n\nBentler.",
+                0.7378227710723877
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7397418022155762
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7438365817070007
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7469542026519775
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7490562200546265
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7506970763206482
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7580379247665405
+            ],
+            [
+                "In Proceedings of the International Conference on\nAdvances in Computer Enterntainment Technology.",
+                0.7656289935112
+            ],
+            [
+                "7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian\nMehm, and Ralf Steinmetz.",
+                0.7752782702445984
+            ],
+            [
+                "Journal of clinical psychology 42, 1\n(1986), 5–21. 10.",
+                0.7769516110420227
+            ],
+            [
+                "30. AJN Van Breemen. 2004. Bringing robots to life:\nApplying principles of animation to robots.",
+                0.7810682654380798
+            ],
+            [
+                "ACM,\n1663–1666. 8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.",
+                0.7825918793678284
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828088998794556
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.7890859842300415
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.7893669605255127
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.793211817741394
+            ],
+            [
+                "In\nProceedings of Shapping Human-Robot Interaction\nworkshop held at CHI 2004.",
+                0.7932605743408203
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.7965582609176636
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8031656742095947
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8079575896263123
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8082959651947021
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.810895562171936
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8142485618591309
+            ]
+        ]
+    ],
+    "evidence": [
+        "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+        "143–144. CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10",
+        "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+        "2009. Power explorer: a casual game style for\nencouraging long term behavior change among teenagers.",
+        "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+        "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+        "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+        "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+        "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection."
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "model_name": "gpt4omini",
+    "baseline_type": 1,
+    "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+    "question": "What are the names of disaster projects advertised before 2023",
+    "raw_provenance": [
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+        "Vehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area. There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.\n\n(cid:190) Project Schedule:",
+        "(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.\n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights. The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+        "(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nPage 5 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)",
+        "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+    ],
+    "evidence": [
+        "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+        "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights.",
+        "(cid:131) Complete Design: May 2021\n(cid:131) Begin Construction: Winter 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+        "Staff is\nworking on an RFQ to hire a consultant for the design.",
+        "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Unknown\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire."
+    ],
+    "raw_answer": "None",
+    "evidence_answer": "Clover Heights Storm Drain, Guardrail Replacement Citywide",
+    "search_pool": [
+        "advertised_before",
+        "None",
+        "disaster projects",
+        "2023"
+    ],
+    "jaccard_similarity": 0.0,
+    "jaccard_similarity_cleaned": 0.0,
+    "cosine_similarity": 0.17009044445168325
+}

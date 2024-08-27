@@ -1,0 +1,104 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects advertised before 2023",
+        "raw_provenance": [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "Vehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area. There are two\nlocations within the City\u2019s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.\n\n(cid:190) Project Schedule:",
+            "(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.\n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights. The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+            "(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nPage 5 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)",
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+        ],
+        "evidence": [
+            "Disaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights.",
+            "It is anticipated that the project will have final\napproval by March 2022.",
+            "The project will be advertised for construction\nbids shortly after final approval.",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project. (cid:190) Project Schedule:",
+            "If possible, the construction of this\nproject will begin in conjunction with the PCH Median Improvement\nProject Schedule:\n\n(cid:131) Complete Final Design: Spring 2022\n(cid:131) Advertise: Spring/Summer 2022\n(cid:131) Award Contract and Begin Construction: Spring/Summer 2022",
+            "advertised for construction bids after this date. A construction manager\nagreement will be sent to City Council in March."
+        ],
+        "raw_answer": "None.",
+        "evidence_answer": "Clover Heights Storm Drain, Broad Beach Road Water Quality Infrastructure Repairs",
+        "search_pool": [
+            "disaster projects",
+            "2023",
+            "advertised before"
+        ],
+        "jaccard_similarity": 0.0,
+        "jaccard_similarity_cleaned": 0.07692307692307693,
+        "cosine_similarity": 0.17056847456489438,
+        "file_path": "test/output/provenance/baseline1/civic/gpt4o/jaccard_union/provenance_20240722_192647.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects advertised before 2023",
+        "raw_provenance": [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "Vehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area. There are two\nlocations within the City\u2019s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.\n\n(cid:190) Project Schedule:",
+            "(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.\n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights. The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+            "(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nPage 5 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)",
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+        ],
+        "evidence": [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+            "This project was accepted\nby the Council at the January 24, 2022 meeting.",
+            "Disaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            "Vehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area."
+        ],
+        "raw_answer": "Outdoor Warning Sirens, Storm Drain Master Plan, Vehicle Protection Devices",
+        "evidence_answer": "Outdoor Warning Sirens (FEMA Project), Storm Drain Master Plan (FEMA Project)",
+        "search_pool": [
+            "Outdoor Warning Sirens",
+            "advertised before",
+            "disaster projects",
+            "Storm Drain Master Plan",
+            "2023",
+            "Vehicle Protection Devices"
+        ],
+        "jaccard_similarity": 0.5333333333333333,
+        "jaccard_similarity_cleaned": 0.6153846153846154,
+        "cosine_similarity": 0.8528853544827372,
+        "file_path": "test/output/provenance/baseline1/civic/gpt4o/jaccard_union/provenance_20240722_193423.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/civic/raw_data/malibucity_agenda__03022021-1648.pdf",
+        "question": "What are the names of disaster projects advertised before 2023",
+        "raw_provenance": [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire. The project consists of hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "Vehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area. There are two\nlocations within the City\u2019s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:\n\n(cid:131) The project consultant has started the design of the project.\n\n(cid:190) Project Schedule:",
+            "(cid:190) Project Description: This project consisted of replacing a portion of Corral\n\nCanyon Road that was damaged from a failed storm drain.\n\nDisaster Projects (Not Started)\nClover Heights Storm Drain (FEMA Project)\n\n(cid:190) Project Description: This project consists of design and construction of a\nfew storm drain on Clover Heights. The existing storm drain facility ends at\nthe intersection of Clover Heights and Harvester Road. During storms, this\nintersection floods and causes debris to block the road. An extended storm\ndrain towards the end of Clover Heights will help eliminate this issue.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Summer 2022\n\nLatigo Canyon Road Culvert Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+            "(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.\n\n(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.\n\nCorral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge.\n\nPage 5 of 6\n\nAgenda Item # 4.A.\n\n\n\n\n\n\n\n\n\n\nCorral Canyon Culvert Repairs (FEMA/CalOES Project)",
+            "(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Woolsey Fire. The City will create a complete inventory of storm\ndrains, culverts, debris basins, manholes, and other drainage structures\nwithin the City.\n\n(cid:190) Estimated Schedule:\n\n(cid:131) Completion Date: Spring 2022\n\nPage 6 of 6\n\nAgenda Item # 4.A."
+        ],
+        "evidence": [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA Project)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+            "This project was accepted\nby the Council at the January 24, 2022 meeting.",
+            "Disaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs (CalJPIA Project)\n\n(cid:190) Updates:",
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Dependent upon final grant approval from FEMA\n\nStorm Drain Master Plan (FEMA Project)",
+            "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: Spring 2022\n(cid:131) Begin Construction: Spring 2022",
+            "(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project."
+        ],
+        "raw_answer": "Outdoor Warning Sirens, Storm Drain Master Plan, Birdview Avenue Improvements",
+        "evidence_answer": "Outdoor Warning Sirens, Broad Beach Road Water Quality Infrastructure Repairs, Storm Drain Master Plan, Birdview Avenue Improvements",
+        "search_pool": [
+            "Outdoor Warning Sirens",
+            "advertised before",
+            "disaster projects",
+            "Storm Drain Master Plan",
+            "2023",
+            "Birdview Avenue Improvements"
+        ],
+        "jaccard_similarity": 0.6111111111111112,
+        "jaccard_similarity_cleaned": 0.6111111111111112,
+        "cosine_similarity": 0.8740972672561295,
+        "file_path": "test/output/provenance/baseline1/civic/gpt4o/jaccard_union/provenance_20240722_193428.json"
+    }
+]

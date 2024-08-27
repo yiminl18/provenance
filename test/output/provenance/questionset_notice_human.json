@@ -1,0 +1,61 @@
+{
+    "question_0": {
+        "question": "What is the issue date of the notice?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "notice",
+                "attributes": {
+                    "issue_date": "disaster project"
+                }
+            }
+        }
+    },
+    "question_1": {
+        "question": "What are the violation codes for the listed items?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "items",
+                "attributes": {
+                    "violation_code": ""
+                }
+            }
+        }
+    },
+    "question_2": {
+        "question": "What is the name of the company being informed later than 2023 and located in California?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "informed_date": "later than 2023",
+                    "location": "California"
+                }
+            }
+        }
+    },
+    "question_3": {
+        "question": "What is the name of the company receiving the notice with a non-zero civil penalty?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "status": "received notice",
+                    "penalty_type": "non-zero civil penalty"
+                }
+            }
+        }
+    },
+    "question_4": {
+        "question": "What is the name of the company receiving the notice that has proposed compliance and a warning?",
+        "extracted": {
+            "entity1": {
+                "entity_name": "company",
+                "attributes": {
+                    "status": "received notice",
+                    "proposed_entity1": "compliance",
+                    "proposed_entity2": "warning"
+                }
+            }
+        }
+    }
+}

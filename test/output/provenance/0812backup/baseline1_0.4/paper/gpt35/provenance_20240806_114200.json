@@ -1,0 +1,325 @@
+{
+    "model_name": "gpt35",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf",
+    "question": "Does this paper involve the theory \"A Model of Personal Informatics\"?",
+    "raw_provenance": [
+        "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko. 2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake. Proceedings  of \nUbiquitous computing.  \n\nthe  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data. Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.  \n\n[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. \nIn Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). \nACM.",
+        "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page. Copyrights for components of this work owned by others than ACM \nmust  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee. Request permissions from permissions@acm.org). \nCHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. \n© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM ISBN 978-1-4503-5970-2/19/05...$15.00. \nDOI: https://doi.org/10.1145/3290605.3300933",
+        "[48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar \nMayora.  2011.  Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder. In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE. \n\n[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein. 2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?. Translational Behavioural Medicine, Volume 1, Issue 1. \n\n[50]   James A. Russell and Merry Bullock. 1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+        "[40]  Rowland \n\nS.  Miller. \n\nsocial \n\n[41]  Chulhong  Min,  Saumay  Pushp,  Seungchul  Lee,  Inseok  Hwang, \nYoungki  Lee,  Seungwoo  Kang and Junehwa  Song.  2014.  Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.  In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication. \n\n[42]  Hendrik  Müller,  Aaron  Sedley  and  Elizabeth  Ferrall-Nunge.  Survey \nresearch in HCI. Ways of Knowing in HCI. Springer, New York, NY, \n2014. 229-266. \n\n[43]  My  pelvic  floor  Fitness.  2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.  2015.  ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps. Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. \n\nto  Empower",
+        "[45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, \nStephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley \nand  Bernd  Ploderer.  2014.  Quitty:  using  technology  to  persuade \nsmokers  to  quit.  In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational. ACM. \n\n[46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.  2014.  A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study. JMIR mHealth and uHealth 2.2. \n\n[47]   Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.  In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM."
+    ],
+    "evidence": [],
+    "raw_answer": "No",
+    "evidence_answer": "None",
+    "jaccard_similarity": 0.0,
+    "search_pool": [
+        "Does this paper involve the theory \"A Model of Personal Informatics\"?"
+    ],
+    "unsorted_evidence": [],
+    "less_similar_evidence": [
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            0,
+            0.5110217332839966
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            0,
+            0.5229886770248413
+        ],
+        [
+            "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+            0,
+            0.5781551599502563
+        ],
+        [
+            "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+            0,
+            0.5954653024673462
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            0,
+            0.5989469289779663
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            0,
+            0.6041514277458191
+        ],
+        [
+            "[42]  Hendrik  Müller,  Aaron  Sedley  and  Elizabeth  Ferrall-Nunge. Survey \nresearch in HCI.",
+            0,
+            0.6060886383056641
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            0,
+            0.6084774732589722
+        ],
+        [
+            "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+            0,
+            0.6140409708023071
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            0,
+            0.6197609901428223
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            0,
+            0.6214198470115662
+        ],
+        [
+            "2015. ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps.",
+            0,
+            0.6431723833084106
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            0,
+            0.6445024013519287
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            0,
+            0.6475508213043213
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            0,
+            0.6740202903747559
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            0,
+            0.6829190850257874
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            0,
+            0.6925855875015259
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            0,
+            0.7102810144424438
+        ],
+        [
+            "2365-2368). ACM.",
+            0,
+            0.7112643718719482
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            0,
+            0.7200831770896912
+        ],
+        [
+            "229-266. [43]  My  pelvic  floor  Fitness. 2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.",
+            0,
+            0.7289607524871826
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            0,
+            0.7314615845680237
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            0,
+            0.737672746181488
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            0,
+            0.7505582571029663
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            0,
+            0.7525923848152161
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            0,
+            0.7596529126167297
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            0,
+            0.760368824005127
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            0,
+            0.7654135823249817
+        ],
+        [
+            "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+            0,
+            0.7675238251686096
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            0,
+            0.7760778665542603
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "2011. Health behaviour \nmodels in the age of mobile interventions: are our theories up to the \ntask?.",
+            0,
+            0.5110217332839966
+        ],
+        [
+            "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+            0,
+            0.5229886770248413
+        ],
+        [
+            "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+            0,
+            0.5781551599502563
+        ],
+        [
+            "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+            0,
+            0.5954653024673462
+        ],
+        [
+            "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+            0,
+            0.5989469289779663
+        ],
+        [
+            "2014. Quitty:  using  technology  to  persuade \nsmokers  to  quit. In Proceedings  of  the  8th  Nordic  Conference  on \nHuman-Computer Interaction: Fun, Fast, Foundational.",
+            0,
+            0.6041514277458191
+        ],
+        [
+            "[42]  Hendrik  Müller,  Aaron  Sedley  and  Elizabeth  Ferrall-Nunge. Survey \nresearch in HCI.",
+            0,
+            0.6060886383056641
+        ],
+        [
+            "JMIR mHealth and uHealth 2.2. [47]   Jesper Kjeldskov and Mikael B. Skov.",
+            0,
+            0.6084774732589722
+        ],
+        [
+            "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+            0,
+            0.6140409708023071
+        ],
+        [
+            "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+            0,
+            0.6197609901428223
+        ],
+        [
+            "In: Proceedings  of  the  16th  international  conference  on \nHuman-computer interaction with mobile devices & services. ACM.",
+            0,
+            0.6214198470115662
+        ],
+        [
+            "2015. ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps.",
+            0,
+            0.6431723833084106
+        ],
+        [
+            "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+            0,
+            0.6445024013519287
+        ],
+        [
+            "2014. Was it worth the hassle? : \nten  years  of  mobile  HCI  research  discussions  on  lab  and  field \nevaluations.",
+            0,
+            0.6475508213043213
+        ],
+        [
+            "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+            0,
+            0.6740202903747559
+        ],
+        [
+            "Translational Behavioural Medicine, Volume 1, Issue 1. [50]   James A. Russell and Merry Bullock.",
+            0,
+            0.6829190850257874
+        ],
+        [
+            "2011. Smartphone-centred  wearable  sensors  network  for \nmonitoring patients with bipolar disorder.",
+            0,
+            0.6925855875015259
+        ],
+        [
+            "In Engineering in Medicine \nand Biology Society, EMBC, 2011 annual international conference of \nthe IEEE.",
+            0,
+            0.7102810144424438
+        ],
+        [
+            "2365-2368). ACM.",
+            0,
+            0.7112643718719482
+        ],
+        [
+            "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+            0,
+            0.7200831770896912
+        ],
+        [
+            "229-266. [43]  My  pelvic  floor  Fitness. 2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.",
+            0,
+            0.7289607524871826
+        ],
+        [
+            "1985.Multidimensional scaling of \nemotional facial expressions of emotion. J Pers Soc Psychol 48:1290–\n1298",
+            0,
+            0.7314615845680237
+        ],
+        [
+            "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+            0,
+            0.737672746181488
+        ],
+        [
+            "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+            0,
+            0.7505582571029663
+        ],
+        [
+            "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+            0,
+            0.7525923848152161
+        ],
+        [
+            "2014. A \nmobile  app  offering  distractions  and  tips  to  cope  with  cigarette \ncraving: a qualitative study.",
+            0,
+            0.7596529126167297
+        ],
+        [
+            "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+            0,
+            0.760368824005127
+        ],
+        [
+            "[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, \nSusannah M. Allison and Robin Mermelstein.",
+            0,
+            0.7654135823249817
+        ],
+        [
+            "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+            0,
+            0.7675238251686096
+        ],
+        [
+            "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+            0,
+            0.7760778665542603
+        ]
+    ]
+}

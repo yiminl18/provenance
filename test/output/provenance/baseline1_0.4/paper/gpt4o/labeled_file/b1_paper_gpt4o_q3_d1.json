@@ -1,0 +1,930 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/paper/raw_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.pdf",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "raw_provenance": [
+            "RESULTS \u2013 THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013. The average publication year was\n2010 and the median 2011. A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16). The later include\na mix of workshop descriptions, works in progress, posters,\netc. The next largest contingent appears in the Creativity &\nCognition  conference  (8).  The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+            "34.Hansen, N.B. and Dalsgaard, P. (2012). The productive \nrole of material design artefacts in participatory design \nevents. Proc NordiCHI, 665-674.\n\n35.Harrison, S., Sengers, P., & Tatar, D. (2011). Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.\n\n36.Hebert, M.G. (2009). Vehicle #3: heliotropic furniture - \n\nan autonomous installation. Proc C&C, 465-466.\n\n37.Hummels, C. and Frens, J. (2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.\n\n38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.\n\n39.Intille, S., Kukla, C., and Ma, X. (2002). Eliciting user \n\npreferences using image-based experience sampling and \nreflection. Proc CHI Ext. Abst., 738-739.\n\nReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003). A context-aware experience sampling tool. \nProc CHI Ext. Abst., 972-973.",
+            "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.\nAbstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee. Request permissions from Permissions@acm.org.\nDIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00.\nhttp://dx.doi.org/10.1145/2598510.2598598",
+            "92.Tomico, O., Frens, J.W., and Overbeeke, K.C.J. (2009). \nCo-reflection: user involvement for highly dynamic \ndesign processes. Proc CHI Ext. Abst., 2695-2698.\n\n93.Tseng, T. and Bryant, C. (2013). Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext. Abst., 619-624.\n\n94.Valkanova, N., Jorda, S., Tomitsch, M., and Moere, A.V.\n(2013). Reveal-it!: the impact of a social visualization \nprojection on public awareness and discourse. Proc CHI,\n3461-3470.\n\n95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J. 2011. NOOT: a tool for sharing \nmoments of reflection during creative meetings. Proc \nC&C, 157-164.\n\n96.Vygotsky, L. S. (1978). Mind and Society. Cambridge, \n\nMA: Harvard University Press.\n\n97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013). A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+            "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010). Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.\n\n42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013). Echoes from the \npast: how technology mediated reflection improves \nwell-being. Proc CHI, 1071-1080.\n\n43.Johnston, A., Amitani, S., and Edmonds, E. (2005). \n\nAmplifying reflective thinking in musical performance. \nProc C&C, 166-175.\n\n44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012). \nVisualizations for self-reflection on mouse pointer \nperformance for older adults. Proc ASSETS, 287-288.\n\n45.Joslyn, S. L., & Oakes, M. A. (2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577\u2013587.\n\n46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704."
+        ],
+        "evidence": [],
+        "raw_answer": "CHI,C&C",
+        "evidence_answer": "None",
+        "jaccard_similarity": 0.0,
+        "search_pool": [
+            "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+            "CHI",
+            "C&C"
+        ],
+        "unsorted_evidence": [],
+        "less_similar_evidence": [
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0,
+                0.43277889490127563
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                1,
+                0.49195241928100586
+            ],
+            [
+                "Proc C&C, 465-466. 37.Hummels, C. and Frens, J.",
+                2,
+                0.4375435709953308
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                0,
+                0.5364473462104797
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                1,
+                0.49277329444885254
+            ],
+            [
+                "Proc \nC&C, 157-164. 96.Vygotsky, L. S. (1978).",
+                2,
+                0.4498221278190613
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0,
+                0.5425372123718262
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                1,
+                0.5526660084724426
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                2,
+                0.643417477607727
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                0,
+                0.5526137948036194
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                1,
+                0.5553851127624512
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                2,
+                0.7073260545730591
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0,
+                0.5539282560348511
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                1,
+                0.6510113477706909
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                2,
+                0.7192312479019165
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                0,
+                0.5570122599601746
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                1,
+                0.6526564359664917
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                2,
+                0.7275267243385315
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                0,
+                0.5593478679656982
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                1,
+                0.6822419166564941
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                2,
+                0.7310170531272888
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                0,
+                0.5640278458595276
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                1,
+                0.6916686296463013
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                2,
+                0.7330194711685181
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0,
+                0.5655355453491211
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                1,
+                0.7003424763679504
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                2,
+                0.7442919015884399
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                0,
+                0.5726723670959473
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                1,
+                0.7015866041183472
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                2,
+                0.7454520463943481
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                0,
+                0.5776166915893555
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                1,
+                0.7412736415863037
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                2,
+                0.7463244199752808
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0,
+                0.5804389715194702
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                1,
+                0.7881729006767273
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                2,
+                0.7575632333755493
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                0,
+                0.5919063091278076
+            ],
+            [
+                "2011. NOOT: a tool for sharing \nmoments of reflection during creative meetings.",
+                1,
+                0.7906896471977234
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                2,
+                0.7596839666366577
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                0,
+                0.5948421359062195
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                1,
+                0.7917935848236084
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                2,
+                0.7700484991073608
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0,
+                0.6128031015396118
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                1,
+                0.7930262684822083
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                2,
+                0.7791768908500671
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0,
+                0.6146218180656433
+            ],
+            [
+                "Proc C&C, 465-466. 37.Hummels, C. and Frens, J.",
+                1,
+                0.795646607875824
+            ],
+            [
+                "92.Tomico, O., Frens, J.W., and Overbeeke, K.C.J.",
+                2,
+                0.7820271849632263
+            ],
+            [
+                "34.Hansen, N.B. and Dalsgaard, P. (2012). The productive \nrole of material design artefacts in participatory design \nevents.",
+                0,
+                0.6312215924263
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                1,
+                0.8000054359436035
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                2,
+                0.7855721116065979
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                0,
+                0.6356834173202515
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                1,
+                0.8034253716468811
+            ],
+            [
+                "2011. NOOT: a tool for sharing \nmoments of reflection during creative meetings.",
+                2,
+                0.7874494791030884
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                0,
+                0.6543434858322144
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                1,
+                0.8041417598724365
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                2,
+                0.7940070033073425
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0,
+                0.6564799547195435
+            ],
+            [
+                "Proc \nC&C, 157-164. 96.Vygotsky, L. S. (1978).",
+                1,
+                0.8137898445129395
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                2,
+                0.794980525970459
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0,
+                0.6666343212127686
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                1,
+                0.8166846036911011
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                2,
+                0.8061826825141907
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0,
+                0.6683457493782043
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                1,
+                0.8269597291946411
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                2,
+                0.8062140345573425
+            ],
+            [
+                "(2013). Reveal-it! : the impact of a social visualization \nprojection on public awareness and discourse.",
+                0,
+                0.6777044534683228
+            ],
+            [
+                "92.Tomico, O., Frens, J.W., and Overbeeke, K.C.J.",
+                1,
+                0.8313432335853577
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                2,
+                0.8064138889312744
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                0,
+                0.678361713886261
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                1,
+                0.8342276811599731
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                2,
+                0.8089388608932495
+            ],
+            [
+                "RESULTS \u2013 THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0,
+                0.6834523677825928
+            ],
+            [
+                "39.Intille, S., Kukla, C., and Ma, X. (2002). Eliciting user \n\npreferences using image-based experience sampling and \nreflection.",
+                1,
+                0.8399944305419922
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                2,
+                0.8094710111618042
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0,
+                0.7000992298126221
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                1,
+                0.8430137634277344
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                2,
+                0.8105943202972412
+            ],
+            [
+                "36.Hebert, M.G. (2009). Vehicle #3: heliotropic furniture - \n\nan autonomous installation.",
+                0,
+                0.7007439136505127
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                1,
+                0.8457270860671997
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                2,
+                0.8131147027015686
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0,
+                0.7030612826347351
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                1,
+                0.8487025499343872
+            ],
+            [
+                "39.Intille, S., Kukla, C., and Ma, X. (2002). Eliciting user \n\npreferences using image-based experience sampling and \nreflection.",
+                2,
+                0.8136289715766907
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0,
+                0.7156846523284912
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                1,
+                0.8544662594795227
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                2,
+                0.8203726410865784
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0,
+                0.7176480293273926
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                1,
+                0.8557745218276978
+            ],
+            [
+                "36.Hebert, M.G. (2009). Vehicle #3: heliotropic furniture - \n\nan autonomous installation.",
+                2,
+                0.8250620365142822
+            ]
+        ],
+        "unsorted_unfiltered_evidence": [
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0,
+                0.43277889490127563
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                1,
+                0.49195241928100586
+            ],
+            [
+                "Proc C&C, 465-466. 37.Hummels, C. and Frens, J.",
+                2,
+                0.4375435709953308
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                0,
+                0.5364473462104797
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                1,
+                0.49277329444885254
+            ],
+            [
+                "Proc \nC&C, 157-164. 96.Vygotsky, L. S. (1978).",
+                2,
+                0.4498221278190613
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0,
+                0.5425372123718262
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                1,
+                0.5526660084724426
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                2,
+                0.643417477607727
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                0,
+                0.5526137948036194
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                1,
+                0.5553851127624512
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                2,
+                0.7073260545730591
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0,
+                0.5539282560348511
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                1,
+                0.6510113477706909
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                2,
+                0.7192312479019165
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                0,
+                0.5570122599601746
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                1,
+                0.6526564359664917
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                2,
+                0.7275267243385315
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                0,
+                0.5593478679656982
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                1,
+                0.6822419166564941
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                2,
+                0.7310170531272888
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                0,
+                0.5640278458595276
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                1,
+                0.6916686296463013
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                2,
+                0.7330194711685181
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0,
+                0.5655355453491211
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                1,
+                0.7003424763679504
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                2,
+                0.7442919015884399
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                0,
+                0.5726723670959473
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                1,
+                0.7015866041183472
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                2,
+                0.7454520463943481
+            ],
+            [
+                "Proc NordiCHI, 665-674. 35.Harrison, S., Sengers, P., & Tatar, D. (2011).",
+                0,
+                0.5776166915893555
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                1,
+                0.7412736415863037
+            ],
+            [
+                "Proc CHI Ext. Abst., 2695-2698. 93.Tseng, T. and Bryant, C. (2013).",
+                2,
+                0.7463244199752808
+            ],
+            [
+                "A design-led inquiry \ninto personhood in dementia. Proc CHI, 2617-2626.",
+                0,
+                0.5804389715194702
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                1,
+                0.7881729006767273
+            ],
+            [
+                "A context-aware experience sampling tool. Proc CHI Ext. Abst., 972-973.",
+                2,
+                0.7575632333755493
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                0,
+                0.5919063091278076
+            ],
+            [
+                "2011. NOOT: a tool for sharing \nmoments of reflection during creative meetings.",
+                1,
+                0.7906896471977234
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311\u20131320.",
+                2,
+                0.7596839666366577
+            ],
+            [
+                "Proc CHI,\n3461-3470. 95.van Dijk, J., van der Roest, J., van der Lugt, R., and \nOverbeeke, K.C.J.",
+                0,
+                0.5948421359062195
+            ],
+            [
+                "Visualizations for self-reflection on mouse pointer \nperformance for older adults.",
+                1,
+                0.7917935848236084
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                2,
+                0.7700484991073608
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                0,
+                0.6128031015396118
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06\u2026$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                1,
+                0.7930262684822083
+            ],
+            [
+                "Proc CHI Ext. Abst., 738-739. ReflectionDIS 2014, June 21\u201325, 2014, Vancouver, BC, Canada100\f40.Intille, S.S., Rondoni, J., Kukla, C., Ancona, I., and Bao,\nL. (2003).",
+                2,
+                0.7791768908500671
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0,
+                0.6146218180656433
+            ],
+            [
+                "Proc C&C, 465-466. 37.Hummels, C. and Frens, J.",
+                1,
+                0.795646607875824
+            ],
+            [
+                "92.Tomico, O., Frens, J.W., and Overbeeke, K.C.J.",
+                2,
+                0.7820271849632263
+            ],
+            [
+                "34.Hansen, N.B. and Dalsgaard, P. (2012). The productive \nrole of material design artefacts in participatory design \nevents.",
+                0,
+                0.6312215924263
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                1,
+                0.8000054359436035
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                2,
+                0.7855721116065979
+            ],
+            [
+                "Design, reflect, \nexplore: encouraging children's reflections with \nmechanix. Proc CHI Ext.",
+                0,
+                0.6356834173202515
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                1,
+                0.8034253716468811
+            ],
+            [
+                "2011. NOOT: a tool for sharing \nmoments of reflection during creative meetings.",
+                2,
+                0.7874494791030884
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                0,
+                0.6543434858322144
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                1,
+                0.8041417598724365
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                2,
+                0.7940070033073425
+            ],
+            [
+                "Mind and Society. Cambridge, \n\nMA: Harvard University Press. 97.Wallace, J., Wright, P.C., McCarthy, J., Green, D.P., \n\nThomas, J., and Olivier, P. (2013).",
+                0,
+                0.6564799547195435
+            ],
+            [
+                "Proc \nC&C, 157-164. 96.Vygotsky, L. S. (1978).",
+                1,
+                0.8137898445129395
+            ],
+            [
+                "Making \nepistemological trouble: Third-paradigm HCI as \nsuccessor science. Interacting with Computers, 23(5), \n385\u2013392.",
+                2,
+                0.794980525970459
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0,
+                0.6666343212127686
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                1,
+                0.8166846036911011
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                2,
+                0.8061826825141907
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0,
+                0.6683457493782043
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                1,
+                0.8269597291946411
+            ],
+            [
+                "(2009). The reflective \n\ntransformative design process. Proc CHI Ext. Abst., \n2655-2658.",
+                2,
+                0.8062140345573425
+            ],
+            [
+                "(2013). Reveal-it! : the impact of a social visualization \nprojection on public awareness and discourse.",
+                0,
+                0.6777044534683228
+            ],
+            [
+                "92.Tomico, O., Frens, J.W., and Overbeeke, K.C.J.",
+                1,
+                0.8313432335853577
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                2,
+                0.8064138889312744
+            ],
+            [
+                "(2009). Co-reflection: user involvement for highly dynamic \ndesign processes.",
+                0,
+                0.678361713886261
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                1,
+                0.8342276811599731
+            ],
+            [
+                "41.Irani, L., Vertesi, J., Dourish, P., Philip, K., & Grinter, R.\nE. (2010).",
+                2,
+                0.8089388608932495
+            ],
+            [
+                "RESULTS \u2013 THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0,
+                0.6834523677825928
+            ],
+            [
+                "39.Intille, S., Kukla, C., and Ma, X. (2002). Eliciting user \n\npreferences using image-based experience sampling and \nreflection.",
+                1,
+                0.8399944305419922
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                2,
+                0.8094710111618042
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0,
+                0.7000992298126221
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                1,
+                0.8430137634277344
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                2,
+                0.8105943202972412
+            ],
+            [
+                "36.Hebert, M.G. (2009). Vehicle #3: heliotropic furniture - \n\nan autonomous installation.",
+                0,
+                0.7007439136505127
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                1,
+                0.8457270860671997
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695\u2013704.",
+                2,
+                0.8131147027015686
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0,
+                0.7030612826347351
+            ],
+            [
+                "38.Hutchins, E. (1995). Cognition in the Wild. Cambridge, \n\nMA: MIT Press.",
+                1,
+                0.8487025499343872
+            ],
+            [
+                "39.Intille, S., Kukla, C., and Ma, X. (2002). Eliciting user \n\npreferences using image-based experience sampling and \nreflection.",
+                2,
+                0.8136289715766907
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0,
+                0.7156846523284912
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                1,
+                0.8544662594795227
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                2,
+                0.8203726410865784
+            ],
+            [
+                "Amplifying reflective thinking in musical performance. Proc C&C, 166-175.",
+                0,
+                0.7176480293273926
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                1,
+                0.8557745218276978
+            ],
+            [
+                "36.Hebert, M.G. (2009). Vehicle #3: heliotropic furniture - \n\nan autonomous installation.",
+                2,
+                0.8250620365142822
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_0.4/paper/gpt4o/provenance_20240813_000717.json"
+    }
+]

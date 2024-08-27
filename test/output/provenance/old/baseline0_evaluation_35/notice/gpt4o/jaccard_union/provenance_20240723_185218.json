@@ -1,0 +1,32 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 0,
+    "document_path": "data/NoticeViolation/raw_data/12023028NOPV_PCO_05252023_(22-232998)_text.pdf",
+    "question": "What is the name of the company receiving the notice that has proposed compliance and a warning?",
+    "raw_provenance": [
+        "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\fWith respect to Item 1, pursuant to 49 U.S.C. § 60118, the PHMSA proposes to issue a Compliance \nOrder to EGT&S .  Please refer to the Proposed Compliance Order, which is enclosed and made \na part of this Notice. \n\nResponse to this Notice",
+        "Proposed Compliance Order",
+        "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension. \n\nIn  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-028-NOPV  and,  for  each \ndocument you submit, please provide a copy in electronic format whenever possible. \n\nSincerely,",
+        "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nMay 25, 2023 \n\nMr. Paul Ruppert \nPresident and Chief Executive Officer \nEastern Gas Transmission and Storage, Inc. \n6603 West Broad Street \nRichmond, Virginia 23200 \n\nDear Mr. Ruppert: \n\nCPF 1-2023-028-NOPV \n\nFrom September 7 – November 10, 2022, representatives of the Pipeline and Hazardous Materials \nSafety Administration (PHMSA), Office of Pipeline Safety (OPS),  pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  conducted  onsite  inspections  of  Eastern  Gas  Transmission  and \nStorage, Inc’s (EGT&S) procedures, records, and pipeline facilities in and around Luthersburg, \nPennsylvania. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1.",
+        "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. § 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. § 552(b)."
+    ],
+    "evidence": [
+        "With respect to Item 1, pursuant to 49 U.S.C.",
+        "§ 60118, the PHMSA proposes to issue a Compliance Order to EGT&S .",
+        "Please refer to the Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+        "Following the receipt of this Notice, you have 30 days to respond as described in the enclosed Response Options.",
+        "If you do not respond within 30 days of receipt of this Notice, this constitutes a waiver of your right to contest the allegations in this Notice and authorizes the Associate Administrator for Pipeline Safety to find facts as alleged in this Notice without further notice to you and to issue a Final Order.",
+        "If you are responding to this Notice, we propose that you submit your correspondence to my office within 30 days from receipt of this Notice.",
+        "The Region Director may extend the period for responding upon a written request timely submitted demonstrating good cause for an extension.",
+        "In your correspondence on this matter, please refer to CPF 1-2023-028-NOPV and, for each document you submit, please provide a copy in electronic format whenever possible.",
+        "Here are the sentences that provide evidence for this:\n\n\"Mr. Paul Ruppert President and Chief Executive Officer Eastern Gas Transmission and Storage, Inc.\"\n\n\"From September 7 – November 10, 2022, representatives of the Pipeline and Hazardous Materials Safety Administration (PHMSA), Office of Pipeline Safety (OPS), pursuant to Chapter 601 of 49 United States Code (U.S.C.)",
+        "conducted onsite inspections of Eastern Gas Transmission and Storage, Inc’s (EGT&S) procedures, records, and pipeline facilities in and around Luthersburg, Pennsylvania.\"",
+        "\"As a result of the inspection, it is alleged that you have committed probable violations of the Pipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR).\""
+    ],
+    "raw_answer": "Eastern Gas Transmission and Storage, Inc.",
+    "evidence_answer": "Eastern Gas Transmission and Storage, Inc.",
+    "search_pool": [],
+    "jaccard_similarity": 1.0,
+    "jaccard_similarity_cleaned": 1.0,
+    "cosine_similarity": 1.0000000000000002
+}

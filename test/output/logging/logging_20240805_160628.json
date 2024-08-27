@@ -1,0 +1,1332 @@
+{
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_answer": "Fengjiao Peng, Veronica Crista LaBelle, Rosalind W. Picard, Emily Christen Yue",
+    "evidence_answer": "Fengjiao Peng, Veronica Crista LaBelle, Rosalind W. Picard, Emily Christen Yue",
+    "evidence_token_num": 115,
+    "total_token_num": 557,
+    "extracted_search_list": [
+        "Veronica Crista LaBelle",
+        "Emily Christen Yue",
+        "Fengjiao Peng",
+        "Rosalind W. Picard",
+        "What are the names of authors whose institutions are in the US for this paper?"
+    ],
+    "searched_docs": [
+        [
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7535623908042908
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.7723211646080017
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7737741470336914
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7992642521858215
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.8187189102172852
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8255783319473267
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8274402022361755
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.8292522430419922
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8496195077896118
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8563699722290039
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.858463704586029
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.8591317534446716
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8606717586517334
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8716342449188232
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8924229145050049
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.8934763073921204
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.9005464315414429
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.9022054076194763
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.9026955366134644
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.9033165574073792
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.9036225080490112
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.9071468114852905
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.9076409339904785
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.9078647494316101
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.9111051559448242
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.9158093929290771
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.9169769287109375
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.9180494546890259
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.9208003282546997
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.9266284108161926
+            ]
+        ],
+        [
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.6047279238700867
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.6604483723640442
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7138023376464844
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.768210232257843
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7744370698928833
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.77552330493927
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.780194103717804
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7819814085960388
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7836521863937378
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7919248342514038
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.793501615524292
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7979484796524048
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.8047468662261963
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.8064204454421997
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.810712456703186
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8137467503547668
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8175127506256104
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.8254483938217163
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8257904052734375
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8270504474639893
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8305479884147644
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.8347873687744141
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.8349946737289429
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.8364372253417969
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.8425124287605286
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8479860424995422
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8531378507614136
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.8534396886825562
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8558775186538696
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.8593152761459351
+            ]
+        ],
+        [
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.48252224922180176
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7392551898956299
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.743995726108551
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7504373788833618
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7520411610603333
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7535045742988586
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7556114792823792
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.7575773000717163
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7595335245132446
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.7608835697174072
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7616016864776611
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7637987732887268
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.763840913772583
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.7646991610527039
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7676816582679749
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.768197774887085
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7770715951919556
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.7825470566749573
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7877411842346191
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.789867103099823
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.792183518409729
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7937268018722534
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7988212704658508
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.8006221055984497
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8007882833480835
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8061807155609131
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8113200068473816
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8134059309959412
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.8142410516738892
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.8211345672607422
+            ]
+        ],
+        [
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.2615823745727539
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.4854269027709961
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.5965903997421265
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6559123992919922
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.6725134253501892
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.6957170963287354
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.7033175230026245
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7059732675552368
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7075753211975098
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7215129137039185
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7377387285232544
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.738564133644104
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.7407176494598389
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.7432504892349243
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.7435085773468018
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7470245361328125
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7526804208755493
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.7547121047973633
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.7556310296058655
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.7595257759094238
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7613816261291504
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.7628722190856934
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7638644576072693
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7640283703804016
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7670996785163879
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7692674398422241
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7694144248962402
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.7718294858932495
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7768160104751587
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.7881984710693359
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6023781299591064
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.6715686321258545
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.6853774785995483
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.6946556568145752
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.6953263282775879
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7033681869506836
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7052289247512817
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7070858478546143
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7098231911659241
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7116331458091736
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.712223470211029
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.7137235403060913
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7274481058120728
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7407369613647461
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7422126531600952
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.7458579540252686
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7549800872802734
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.7639186382293701
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.7659542560577393
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.767358124256134
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.7875336408615112
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8037583827972412
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8153975009918213
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.8183645606040955
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8214726448059082
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8252911567687988
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8279129862785339
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8284987211227417
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8303048014640808
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8377041220664978
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7535623908042908
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.7723211646080017
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7737741470336914
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7992642521858215
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.8187189102172852
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.8255783319473267
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.8274402022361755
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.8292522430419922
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.8496195077896118
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8563699722290039
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.858463704586029
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.8591317534446716
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8606717586517334
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8716342449188232
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8924229145050049
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.8934763073921204
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.9005464315414429
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.9022054076194763
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.9026955366134644
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.9033165574073792
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.9036225080490112
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.9071468114852905
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.9076409339904785
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.9078647494316101
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.9111051559448242
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.9158093929290771
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.9169769287109375
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.9180494546890259
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.9208003282546997
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.9266284108161926
+            ]
+        ],
+        [
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.6047279238700867
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.6604483723640442
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7138023376464844
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.768210232257843
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7744370698928833
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.77552330493927
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.780194103717804
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7819814085960388
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7836521863937378
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7919248342514038
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.793501615524292
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7979484796524048
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.8047468662261963
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.8064204454421997
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.810712456703186
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8137467503547668
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.8175127506256104
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.8254483938217163
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8257904052734375
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8270504474639893
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8305479884147644
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.8347873687744141
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.8349946737289429
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.8364372253417969
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.8425124287605286
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8479860424995422
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.8531378507614136
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.8534396886825562
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.8558775186538696
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.8593152761459351
+            ]
+        ],
+        [
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.48252224922180176
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7392551898956299
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.743995726108551
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7504373788833618
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7520411610603333
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.7535045742988586
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7556114792823792
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.7575773000717163
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7595335245132446
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.7608835697174072
+            ],
+            [
+                "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+                0.7616016864776611
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7637987732887268
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.763840913772583
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.7646991610527039
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7676816582679749
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.768197774887085
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7770715951919556
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.7825470566749573
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7877411842346191
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.789867103099823
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.792183518409729
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7937268018722534
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7988212704658508
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.8006221055984497
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8007882833480835
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8061807155609131
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8113200068473816
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8134059309959412
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.8142410516738892
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.8211345672607422
+            ]
+        ],
+        [
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.2615823745727539
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.4854269027709961
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.5965903997421265
+            ],
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6559123992919922
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.6725134253501892
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.6957170963287354
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.7033175230026245
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7059732675552368
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7075753211975098
+            ],
+            [
+                "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+                0.7215129137039185
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7377387285232544
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.738564133644104
+            ],
+            [
+                "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+                0.7407176494598389
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.7432504892349243
+            ],
+            [
+                "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+                0.7435085773468018
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7470245361328125
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.7526804208755493
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.7547121047973633
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.7556310296058655
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.7595257759094238
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.7613816261291504
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.7628722190856934
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7638644576072693
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7640283703804016
+            ],
+            [
+                "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+                0.7670996785163879
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7692674398422241
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7694144248962402
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.7718294858932495
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.7768160104751587
+            ],
+            [
+                "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+                0.7881984710693359
+            ]
+        ],
+        [
+            [
+                "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+                0.6023781299591064
+            ],
+            [
+                "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+                0.6715686321258545
+            ],
+            [
+                "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+                0.6853774785995483
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.6946556568145752
+            ],
+            [
+                "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+                0.6953263282775879
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7033681869506836
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7052289247512817
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7070858478546143
+            ],
+            [
+                "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+                0.7098231911659241
+            ],
+            [
+                "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+                0.7116331458091736
+            ],
+            [
+                "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+                0.712223470211029
+            ],
+            [
+                "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+                0.7137235403060913
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7274481058120728
+            ],
+            [
+                "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+                0.7407369613647461
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.7422126531600952
+            ],
+            [
+                "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+                0.7458579540252686
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.7549800872802734
+            ],
+            [
+                "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+                0.7639186382293701
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.7659542560577393
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.767358124256134
+            ],
+            [
+                "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+                0.7875336408615112
+            ],
+            [
+                "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+                0.8037583827972412
+            ],
+            [
+                "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+                0.8153975009918213
+            ],
+            [
+                "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+                0.8183645606040955
+            ],
+            [
+                "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+                0.8214726448059082
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8252911567687988
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8279129862785339
+            ],
+            [
+                "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+                0.8284987211227417
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8303048014640808
+            ],
+            [
+                "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+                0.8377041220664978
+            ]
+        ]
+    ],
+    "evidence": [
+        "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+        "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+        "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+        "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+        "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+        "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13."
+    ],
+    "unsorted_evidence": [
+        [
+            "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+            1
+        ],
+        [
+            "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+            3
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            4
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            1
+        ],
+        [
+            "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+            3
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            4
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            0
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            2
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            1
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            2
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            0
+        ],
+        [
+            "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+            1
+        ],
+        [
+            "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+            3
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            4
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            1
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            2
+        ],
+        [
+            "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+            3
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            1
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            2
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            4
+        ]
+    ]
+}

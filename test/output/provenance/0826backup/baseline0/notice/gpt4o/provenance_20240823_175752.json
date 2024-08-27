@@ -1,0 +1,32 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 0,
+    "document_path": "data/NoticeViolation/raw_data/12023027NOPV_PCP_06012023_(21-199435)_text.pdf",
+    "question": "What is the name of the company receiving the notice with a non-zero civil penalty?",
+    "raw_provenance": [
+        "We  have  reviewed  the  circumstances  and  supporting  documentation  involved  for  the  above \nprobable violations and recommend that you be preliminarily assessed a civil penalty of $ 26,000 \nas follows: \n\nItem number \n1 \n\nPENALTY \n$ 26,000 \n\nWarning Item \n\nWith respect to Item 2, we have reviewed the circumstances and supporting documents involved \nin this case and have decided not to conduct additional enforcement action or penalty assessment \nproceedings at this time.  We advise you to promptly correct this item.  Failure to do so may result \nin additional enforcement action. \n\nResponse to this Notice",
+        "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED CIVIL PENALTY \n\nOVERNIGHT EXPRESS DELIVERY \n\nJune 1, 2023 \n\nMr. Paul Ruppert \nPresident and Chief Executive Officer \nEastern Gas Transmission and Storage, Inc. \n6603 West Broad Street \nRichmond, Virginia 23200 \n\nDear Mr. Ruppert: \n\nCPF 1-2023-027-NOPV \n\nFrom November 15, 2021, to November 19, 2021, via on-site inspection, representatives of the \nPipeline  and  Hazardous  Materials  Safety  Administration  (PHMSA),  Office  of  Pipeline  Safety \n(OPS),  pursuant  to  Chapter  601  of  49  United  States  Code  (U.S.C.)  inspected  Eastern  Gas \nTransmission and Storage, Inc.’s (EGT&S) procedures and records for control room management \nof its control room in Bridgeport, West Virginia. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1.",
+        ".  For violation occurring on or after July \n31,  2019  and  before  January  11,  2021,  the  maximum  penalty  may  not  exceed  $218,647  per \nviolation  per  day the  violation  persists,  up to  a maximum  of  $2,186,465  for  a related  series  of \nviolations.  For violation occurring on or after November 27, 2018 and before July 31, 2019, the \nmaximum penalty may not exceed $213,268 per violation per day, with a maximum penalty not to \nexceed $2,132,679.  For violation occurring on or after November 2, 2015 and before November \n27, 2018, the maximum penalty may not exceed $209,002 per violation per day, with a maximum \npenalty not to exceed $2,090,022.",
+        "Therefore, EGT&S failed to maintain records that demonstrate compliance with § 192.631(f)(2) \nas required pursuant to § 192.631(j)(1). \n\nProposed Civil Penalty \n\nUnder 49 U.S.C. § 60122 and 49 CFR § 190.223, you are subject to a civil penalty not to exceed \n$257,664 per violation per day the violation persists, up to a maximum of $2,576,627 for a related \nseries of violations.  For violation occurring on or after March 21, 2022 and before January 6, \n2023, the maximum penalty may not exceed $239,142 per violation per day the violation persists, \n\n1 Section 192.631(h) requires that an operator's controller training program must provide for training each controller \nto carry out the roles and responsibilities defined by the operator. \n\n2 Section 192.631(f)(2) requires that field personnel contact the control room when emergency conditions exist and \nwhen making field changes that affect control room operations.",
+        "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour  correspondence to my office  within  30 days  from the receipt  of this Notice.  The Region \nDirector  may  extend  the  period  for  responding  upon  a  written  request  timely  submitted \ndemonstrating good cause for an extension."
+    ],
+    "evidence": [
+        "We have reviewed the circumstances and supporting documentation involved for the above probable violations and recommend that you be preliminarily assessed a civil penalty of $ 26,000 as follows: Item number 1 PENALTY $ 26,000.",
+        "Eastern Gas Transmission and Storage, Inc.’s (EGT&S) procedures and records for control room management of its control room in Bridgeport, West Virginia.",
+        "As a result of the inspection, it is alleged that you have committed probable violations of the Pipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR).",
+        "Proposed Civil Penalty Under 49 U.S.C.",
+        "§ 60122 and 49 CFR § 190.223, you are subject to a civil penalty not to exceed $257,664 per violation per day the violation persists, up to a maximum of $2,576,627 for a related series of violations."
+    ],
+    "raw_answer": "Eastern Gas Transmission and Storage, Inc.",
+    "evidence_answer": "Eastern Gas Transmission and Storage, Inc.",
+    "jaccard_similarity": 1.0,
+    "search_pool": [],
+    "unfiltered_evidence": [
+        "We have reviewed the circumstances and supporting documentation involved for the above probable violations and recommend that you be preliminarily assessed a civil penalty of $ 26,000 as follows: Item number 1 PENALTY $ 26,000.",
+        "Eastern Gas Transmission and Storage, Inc.’s (EGT&S) procedures and records for control room management of its control room in Bridgeport, West Virginia.",
+        "As a result of the inspection, it is alleged that you have committed probable violations of the Pipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR).",
+        "Eastern Gas Transmission and Storage, Inc. is the company receiving the notice with a non-zero civil penalty.",
+        "Proposed Civil Penalty Under 49 U.S.C.",
+        "§ 60122 and 49 CFR § 190.223, you are subject to a civil penalty not to exceed $257,664 per violation per day the violation persists, up to a maximum of $2,576,627 for a related series of violations."
+    ]
+}

@@ -1,0 +1,756 @@
+{
+    "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+    "raw_answer": "CHI 2019",
+    "evidence_answer": "CHI",
+    "evidence_token_num": 130,
+    "total_token_num": 546,
+    "extracted_search_list": [
+        "publication_venue",
+        "paper",
+        "CHI 2019"
+    ],
+    "searched_docs": [
+        [
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.6039712429046631
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.6492599248886108
+            ],
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.6772747039794922
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.6833758354187012
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7220867276191711
+            ],
+            [
+                "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+                0.7221642732620239
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7223684191703796
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+                0.7229349613189697
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.728390634059906
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7394594550132751
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+                0.7412509918212891
+            ],
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.7537612915039062
+            ],
+            [
+                "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+                0.7730394005775452
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7757813334465027
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.7767578363418579
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.7768030166625977
+            ],
+            [
+                "229-266. [43]  My  pelvic  floor  Fitness. 2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.",
+                0.7804228067398071
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7807477712631226
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7827824354171753
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.7839263677597046
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.7840057015419006
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.787717342376709
+            ],
+            [
+                "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+                0.7916717529296875
+            ],
+            [
+                "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+                0.8021891117095947
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.8107998371124268
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.814108669757843
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.8178268671035767
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.8241142630577087
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8265762329101562
+            ],
+            [
+                "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+                0.8269572257995605
+            ]
+        ],
+        [
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.6998454332351685
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+                0.71794593334198
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.7441426515579224
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.7749142646789551
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7840983867645264
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7855207324028015
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.7860584259033203
+            ],
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.7860738635063171
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7864147424697876
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7864904999732971
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+                0.792258083820343
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.7979761362075806
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8059526085853577
+            ],
+            [
+                "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+                0.809698224067688
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8112335801124573
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.8120074272155762
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.8196397423744202
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.8198785781860352
+            ],
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.8214325904846191
+            ],
+            [
+                "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+                0.822094202041626
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95.",
+                0.8267927765846252
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.8271002769470215
+            ],
+            [
+                "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+                0.8297314047813416
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "2013. Health online 2013. Health: 1–55. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+                0.8402307629585266
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8441355228424072
+            ]
+        ],
+        [
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.4136349558830261
+            ],
+            [
+                "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+                0.4748501181602478
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.5525076389312744
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.5933302044868469
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.5964163541793823
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.6780885457992554
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.6830512881278992
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.6839438676834106
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.6945195198059082
+            ],
+            [
+                "2015. ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps.",
+                0.6966854333877563
+            ],
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.6967922449111938
+            ],
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.7021300792694092
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7048085927963257
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7090945839881897
+            ],
+            [
+                "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+                0.7134320735931396
+            ],
+            [
+                "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+                0.7158321738243103
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.719001293182373
+            ],
+            [
+                "2019. A  Wee  Bit  More  Interaction: \nDesigning  and  Evaluating  an  Overactive  Bladder  App.",
+                0.7292252779006958
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7330166101455688
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.737127423286438
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.7384687066078186
+            ],
+            [
+                "[62]  Graham  Wilson  and  Stephen  A.  Brewster. 2017. Multi-Moji: \nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \nAffective Range of Feedback.",
+                0.747660219669342
+            ],
+            [
+                "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+                0.7478750944137573
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7512997984886169
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.7553299069404602
+            ],
+            [
+                "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+                0.7565211057662964
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.7584574222564697
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7614856958389282
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7723134756088257
+            ],
+            [
+                "2013. Health online 2013. Health: 1–55. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+                0.7723840475082397
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.6039712429046631
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.6492599248886108
+            ],
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.6772747039794922
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.6833758354187012
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7220867276191711
+            ],
+            [
+                "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+                0.7221642732620239
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7223684191703796
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+                0.7229349613189697
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.728390634059906
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7394594550132751
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+                0.7412509918212891
+            ],
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.7537612915039062
+            ],
+            [
+                "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+                0.7730394005775452
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7757813334465027
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.7767578363418579
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.7768030166625977
+            ],
+            [
+                "229-266. [43]  My  pelvic  floor  Fitness. 2016.  http://www.lightsbytena.co.uk/my-\n\npelvic-floor-fitness/app-info/ \n\n[44]  Tom  Owen,  Jennifer  Pearson,  Harold  Thimbleby  and  George \nIndividual \nBuchanan.",
+                0.7804228067398071
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7807477712631226
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7827824354171753
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.7839263677597046
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.7840057015419006
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.787717342376709
+            ],
+            [
+                "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+                0.7916717529296875
+            ],
+            [
+                "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+                0.8021891117095947
+            ],
+            [
+                "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+                0.8107998371124268
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.814108669757843
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.8178268671035767
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.8241142630577087
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.8265762329101562
+            ],
+            [
+                "[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-\nMolinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin.",
+                0.8269572257995605
+            ]
+        ],
+        [
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.6998454332351685
+            ],
+            [
+                "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+                0.71794593334198
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.7441426515579224
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.7749142646789551
+            ],
+            [
+                "50,  No. 9,  pp. 904-908). Sage  CA:  Los  Angeles, \nCA: Sage Publications.",
+                0.7840983867645264
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7855207324028015
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.7860584259033203
+            ],
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.7860738635063171
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7864147424697876
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7864904999732971
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or \nrepublish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific \npermission and/or a fee.",
+                0.792258083820343
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946907877922058
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.7979761362075806
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8059526085853577
+            ],
+            [
+                "2014. Uncovering \nembarrassing  moments  in  in-situ  exposure  of  incoming  mobile \nmessages.",
+                0.809698224067688
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.8112335801124573
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.8120074272155762
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.8196397423744202
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.8198785781860352
+            ],
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.8214325904846191
+            ],
+            [
+                "[27]   Sandra G.  Hart. 2006. NASA-task  load  index (NASA-TLX);  20  years \nlater.",
+                0.822094202041626
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8264983892440796
+            ],
+            [
+                "[61]   Lois M. Verbrugg 1980. Health diaries. Medical care 18.1: 73-95.",
+                0.8267927765846252
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.8271002769470215
+            ],
+            [
+                "Copyrights for components of this work owned by others than ACM \nmust  be  honored.",
+                0.8297314047813416
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8300288915634155
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.8343959450721741
+            ],
+            [
+                "2013. Health online 2013. Health: 1–55. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+                0.8402307629585266
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.8441355228424072
+            ]
+        ],
+        [
+            [
+                "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+                0.4136349558830261
+            ],
+            [
+                "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK.",
+                0.4748501181602478
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.5525076389312744
+            ],
+            [
+                "Proceedings  of \nUbiquitous computing. the  11th \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 \n \n\f[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and \nJulie  A.  Kientz.",
+                0.5933302044868469
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.5964163541793823
+            ],
+            [
+                "Proceedings  of  the  32nd \nannual ACM conference on Human factors in computing systems.",
+                0.6780885457992554
+            ],
+            [
+                "[14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, \nCheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko.",
+                0.6830512881278992
+            ],
+            [
+                "2015. Embarrassing  interactions. In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended \nAbstracts  on  Human Factors  in  Computing Systems (pp.",
+                0.6839438676834106
+            ],
+            [
+                "Proceedings of \nthe  17th  International  Conference  on  Human-Computer  Interaction \nwith Mobile Devices and Services. to  Empower",
+                0.6945195198059082
+            ],
+            [
+                "2015. ConCap:  Designing \nReflection on Chronic Conditions using Mobile Apps.",
+                0.6966854333877563
+            ],
+            [
+                "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+                0.6967922449111938
+            ],
+            [
+                "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+                0.7021300792694092
+            ],
+            [
+                "2365-2368). ACM.",
+                0.7048085927963257
+            ],
+            [
+                "In Proceedings  of  the  human  factors  and  ergonomics  society \nannual meeting (Vol.",
+                0.7090945839881897
+            ],
+            [
+                "[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, \nAnnika  Waern  and  Steffen  Walz.",
+                0.7134320735931396
+            ],
+            [
+                "Ways of Knowing in HCI. Springer, New York, NY, \n2014.",
+                0.7158321738243103
+            ],
+            [
+                "PervasiveHealth 2012, 25-32. 27. Munson, S.A., Krupka, E., Richardson, C., and \nResnick, P. Effects of Public Commitments and \nAccountability in a Technology-Supported Physical \nActivity Intervention. CHI 2015, 1135-1144.",
+                0.719001293182373
+            ],
+            [
+                "2019. A  Wee  Bit  More  Interaction: \nDesigning  and  Evaluating  an  Overactive  Bladder  App.",
+                0.7292252779006958
+            ],
+            [
+                "2009. Playful \nbottle:  a  mobile social  persuasion system  to  motivate  healthy water \ninternational  conference  on \nintake.",
+                0.7330166101455688
+            ],
+            [
+                "CCS CONCEPTS \n• Human-centered  computing  ~  User  studies;  Usability  Testing; \nField Studies \n\nKEYWORDS \nMobile  Health  Applications;  Assistive  Technology;  Co-Design; \nInterviews; Usability; Overactive Bladder \n\nACM Reference format: \n\nAna-Maria  Salai  and  Lynne  Baillie.",
+                0.737127423286438
+            ],
+            [
+                "ACM ISBN 978-1-4503-5970-2/19/05...$15.00. DOI: https://doi.org/10.1145/3290605.3300933",
+                0.7384687066078186
+            ],
+            [
+                "[62]  Graham  Wilson  and  Stephen  A.  Brewster. 2017. Multi-Moji: \nCombining  Thermal,  Vibrotactile  &  Visual  Stimuli  to  Expand  the \nAffective Range of Feedback.",
+                0.747660219669342
+            ],
+            [
+                "2017. Human-centered  design  study:  enhancing  the  usability  of  a \nmobile phone app in an integrated falls risk detection system for use \nby older adult users. JMIR mHealth and uHealth.",
+                0.7478750944137573
+            ],
+            [
+                "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+                0.7512997984886169
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.7553299069404602
+            ],
+            [
+                "2014. Understanding  quantified-selfers'  practices  in \ncollecting  and  exploring  personal  data.",
+                0.7565211057662964
+            ],
+            [
+                "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+                0.7584574222564697
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7614856958389282
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.7723134756088257
+            ],
+            [
+                "2013. Health online 2013. Health: 1–55. Retrieved from \nhttp://www.pewinternet.org/~/media/Files/Reports/PIP_\nHealthOnline.pdf \n\n23. Andrea Grimes, Martin Bednar, Jay D Bolter, and",
+                0.7723840475082397
+            ]
+        ]
+    ],
+    "evidence": [
+        "© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM.",
+        "ACM,  NY,  NY,  USA. Paper  703,  13 \npages. https://doi.org/10.1145/3290605.3300933",
+        "In  2019  CHI \nConference on Human Factors in Computing Systems Proceedings (CHI 2019), \nMay 4–9, 2019, Glagsow, Scotland, UK.",
+        "In Proceedings  of  the  2014  ACM  International  Joint \nConference  on  Pervasive  and  Ubiquitous  Computing:  Adjunct \nPublication.",
+        "Permission to make digital or hard copies of all or part of this work for personal or \nclassroom use is granted without fee provided that copies are not made or distributed \nfor profit or commercial advantage and that copies bear this notice and the full citation \non the first page.",
+        "Request permissions from permissions@acm.org). CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK."
+    ]
+}

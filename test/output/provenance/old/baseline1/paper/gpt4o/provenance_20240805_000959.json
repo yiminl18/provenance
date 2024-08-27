@@ -1,0 +1,1137 @@
+{
+    "model_name": "gpt4o",
+    "baseline_type": 1,
+    "document_path": "data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf",
+    "question": "What are the names of authors whose institutions are in the US for this paper?",
+    "raw_provenance": [
+        "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+        "computing. Vol. 252. MIT press Cambridge.\n\n21. Tom Porter and Galyn Susman. 2000. On site: Creating\nlifelike characters in pixar movies. Commun. ACM 43, 1\n(2000), 25.\n\n22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen. TED.\n\n23. Christian Roth, Peter Vorderer, and Christoph Klimmt.\n\n2009. The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience. In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.\n\n24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones. Ph.D. Dissertation.\nMassachusetts Institute of Technology.\n\n25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+        "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin. 2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection. In\nCHI’06 extended abstracts on Human factors in\ncomputing systems. ACM, 1037–1042.\n\n16. Michael Mateas and Phoebe Sengers. 2003. Narrative\n\nintelligence. (2003).\n\n17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge. Journal of\npersonality and Social Psychology 46, 4 (1984), 919.\n\n18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform. Muska &\nLipman/Premier-Trade.\n\n19. Rosalind W Picard and Shaundra Bryant Daily. 2005.\n\nEvaluating affective interactions: Alternatives to asking\nwhat users feel. In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.\n\n20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+        "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.\nInternational journal of human-computer studies 65, 4\n(2007), 315–328.\n\n12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias. 2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.\n\nCHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13. Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion. (June 2011).\n\n14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+        "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories. In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems. ACM, 1041–1046.\n\n26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye. 2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility. ACM, 49–58.\n\n27. Phoebe Sengers and Bill Gaver. 2006. Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation. In Proceedings of the 6th conference on\nDesigning Interactive systems. ACM, 99–108.\n28. CR Snyder, Randee J Shenkel, and Carol R Lowery.\n1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond. Journal of consulting and\nclinical psychology 45, 1 (1977), 104.\n\n29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995.\nThe illusion of life: Disney animation. Hyperion New\nYork."
+    ],
+    "evidence": [
+        "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+        "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+        "20. Rosalind W Picard and Roalind Picard. 1997. Affective"
+    ],
+    "raw_answer": "Fengjiao Peng, Veronica Crista LaBelle, Rosalind W. Picard, Emily Christen Yue",
+    "evidence_answer": "Fengjiao Peng, Veronica Crista LaBelle, Rosalind W. Picard, Emily Christen Yue",
+    "search_pool": [
+        "What are the names of authors whose institutions are in the US for this paper?",
+        "Fengjiao Peng",
+        "Veronica Crista LaBelle",
+        "Rosalind W. Picard",
+        "Emily Christen Yue"
+    ],
+    "unsorted_evidence": [
+        [
+            "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+            1
+        ],
+        [
+            "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+            3
+        ],
+        [
+            "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+            3
+        ]
+    ],
+    "less_similar_evidence": [
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            0
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            2
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            1
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            4
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            0
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            1
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            4
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            0
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            1
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            2
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            3
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            4
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            0
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            1
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            2
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            3
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            4
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            0
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            1
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            2
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            3
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            4
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            0
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            1
+        ],
+        [
+            "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+            2
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            3
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            4
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            1
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            2
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            3
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            4
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            0
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            1
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            2
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            3
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            4
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            0
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            1
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            3
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            4
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            0
+        ],
+        [
+            "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+            1
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            2
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            3
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            4
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            0
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            1
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            2
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            3
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            4
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            0
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            1
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            2
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            3
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            4
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            0
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            1
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            2
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            3
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            4
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            0
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            1
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            2
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            3
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            4
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            0
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            1
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            2
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            3
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            4
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            0
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            1
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            2
+        ],
+        [
+            "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+            3
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            4
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            0
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            1
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            2
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            3
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            4
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            0
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            1
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            2
+        ],
+        [
+            "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+            3
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            4
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            0
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            1
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            2
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            3
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            4
+        ],
+        [
+            "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+            0
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            2
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            3
+        ],
+        [
+            "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+            0
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            1
+        ],
+        [
+            "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+            2
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            3
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            4
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            0
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            1
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            2
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            3
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            4
+        ],
+        [
+            "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+            0
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            1
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            2
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            3
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            4
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            2
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            3
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            4
+        ],
+        [
+            "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+            0
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            1
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            2
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            3
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            0
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            1
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            2
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            3
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            4
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            0
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            1
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            2
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            3
+        ],
+        [
+            "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+            4
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            0
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            1
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            2
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            3
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            4
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            0
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            1
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            2
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            3
+        ],
+        [
+            "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+            4
+        ]
+    ],
+    "unsorted_unfiltered_evidence": [
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            0
+        ],
+        [
+            "Fengjiao Peng\nMIT Media Lab\nCambridge, MA, USA\nfpeng@mit.edu\n\nA Trip to the Moon: Personalized Animated Movies for\nSelf-reﬂection\nVeronica Crista LaBelle\nMIT\nCambridge, MA, USA\nvlabelle@mit.edu\nRosalind W. Picard\nMIT Media Lab\nCambridge, MA, USA\npicard@media.mit.edu\n\nEmily Christen Yue\nHarvard University\nCambridge, MA, USA\neyue@college.harvard.edu",
+            1
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            2
+        ],
+        [
+            "20. Rosalind W Picard and Roalind Picard. 1997. Affective",
+            3
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            1
+        ],
+        [
+            "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+            3
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            4
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            0
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            1
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            4
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            0
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            1
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            2
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            3
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            4
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            0
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            1
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            2
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            3
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            4
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            0
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            1
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            2
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            3
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            4
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            0
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            1
+        ],
+        [
+            "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+            2
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            3
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            4
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            1
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            2
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            3
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            4
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            0
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            1
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            2
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            3
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            4
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            0
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            1
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            3
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            4
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            0
+        ],
+        [
+            "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+            1
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            2
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            3
+        ],
+        [
+            "12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and\n\nBetsy A Tobias.",
+            4
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            0
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            1
+        ],
+        [
+            "ACM, 1041–1046. 26. Phoebe Sengers, Kirsten Boehner, Shay David, and\nJoseph’Joﬁsh’ Kaye.",
+            2
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            3
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            4
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            0
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            1
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            2
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            3
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            4
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            0
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            1
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            2
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            3
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            4
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            0
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            1
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            2
+        ],
+        [
+            "Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina\nHöök. 2013. AffectCam: arousal-augmented sensecam\nfor richer recall of episodic memories.",
+            3
+        ],
+        [
+            "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+            4
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            0
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            1
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            2
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            3
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            4
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            0
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            1
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            2
+        ],
+        [
+            "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+            3
+        ],
+        [
+            "Kurt Lancaster. 2011. The Psychology of the Lens:\n\nPatrick Moreau creates ﬁlmic intimacy with DSLRs at\nStillmotion.",
+            4
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            0
+        ],
+        [
+            "ACM, 49–58. 27. Phoebe Sengers and Bill Gaver. 2006.",
+            1
+        ],
+        [
+            "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+            2
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            3
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            4
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            0
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            1
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            2
+        ],
+        [
+            "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+            3
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            4
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            0
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            1
+        ],
+        [
+            "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+            2
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            3
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            4
+        ],
+        [
+            "29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995. The illusion of life: Disney animation. Hyperion New\nYork.",
+            0
+        ],
+        [
+            "Journal of consulting and\nclinical psychology 45, 1 (1977), 104.",
+            2
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            3
+        ],
+        [
+            "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+            0
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            1
+        ],
+        [
+            "ACM 43, 1\n(2000), 25. 22. Hans Rosling. 2006. Debunking third-world myths with\n\nthe best stats you’ve ever seen.",
+            2
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            3
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            4
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            0
+        ],
+        [
+            "2000. On site: Creating\nlifelike characters in pixar movies. Commun.",
+            1
+        ],
+        [
+            "Michael Sharp. 2007. The sensual evaluation instrument:\nDeveloping a trans-cultural self-report measure of affect.",
+            2
+        ],
+        [
+            "computing. Vol. 252. MIT press Cambridge. 21. Tom Porter and Galyn Susman.",
+            3
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            4
+        ],
+        [
+            "2000. Emotion and memory:\nImplications for self-report. The science of self-report:\nImplications for research and practice (2000), 81–99.",
+            0
+        ],
+        [
+            "2005. Reﬂective design. In\nProceedings of the 4th decennial conference on Critical\ncomputing: between sense and sensibility.",
+            1
+        ],
+        [
+            "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+            2
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            3
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            4
+        ],
+        [
+            "In CHI’13\nExtended Abstracts on Human Factors in Computing\nSystems.",
+            2
+        ],
+        [
+            "TED. 23. Christian Roth, Peter Vorderer, and Christoph Klimmt. 2009.",
+            3
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            4
+        ],
+        [
+            "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+            0
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            1
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            2
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            3
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            0
+        ],
+        [
+            "1977. Acceptance of personality interpretations: the\"\nBarnum Effect\" and beyond.",
+            1
+        ],
+        [
+            "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+            2
+        ],
+        [
+            "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+            3
+        ],
+        [
+            "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+            4
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            0
+        ],
+        [
+            "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+            1
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            2
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            3
+        ],
+        [
+            "2005. Evaluating affective interactions: Alternatives to asking\nwhat users feel.",
+            4
+        ],
+        [
+            "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+            0
+        ],
+        [
+            "ACM, 99–108. 28. CR Snyder, Randee J Shenkel, and Carol R Lowery.",
+            1
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            2
+        ],
+        [
+            "CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 9\f13.",
+            3
+        ],
+        [
+            "International journal of human-computer studies 65, 4\n(2007), 315–328.",
+            4
+        ],
+        [
+            "(June 2011). 14. Kurt Lancaster. 2017. Using lenses to enhance visual\n\nstorytelling. (January 2017).",
+            0
+        ],
+        [
+            "In Proceedings of the 6th conference on\nDesigning Interactive systems.",
+            1
+        ],
+        [
+            "24. Akane Sano. 2016. Measuring college students’ sleep,\nstress, mental health and wellbeing with wearable\nsensors and mobile phones.",
+            2
+        ],
+        [
+            "Staying open to\n\ninterpretation: engaging multiple meanings in design and\nevaluation.",
+            3
+        ],
+        [
+            "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+            4
+        ]
+    ]
+}

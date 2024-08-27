@@ -1,0 +1,756 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "None",
+    "evidence_answer": "2",
+    "evidence_token_num": 132,
+    "total_token_num": 559,
+    "extracted_search_list": [
+        "quantity",
+        "paper",
+        "authors"
+    ],
+    "searched_docs": [
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8107326626777649
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8254855871200562
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.83272385597229
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8363392949104309
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8416467308998108
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8429803848266602
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8433456420898438
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8550437688827515
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8570687770843506
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8677043914794922
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8704826831817627
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8720084428787231
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8737238645553589
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8747192621231079
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8754041194915771
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.877082109451294
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8868243098258972
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8871482014656067
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.887499213218689
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8912827968597412
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8942166566848755
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8975836038589478
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8978803753852844
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8980774283409119
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.9008865356445312
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.9097158908843994
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.9143287539482117
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.9165700674057007
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.9170376658439636
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.9175101518630981
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6613370180130005
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7159889936447144
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185325622558594
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.7200860977172852
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7329767942428589
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7451633214950562
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522846460342407
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.763157844543457
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7637049555778503
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7654944062232971
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7659576535224915
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669017910957336
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7721500396728516
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731485366821289
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7739428281784058
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7911672592163086
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7941113114356995
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946799993515015
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7969159483909607
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7979273200035095
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8037490248680115
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8075827956199646
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8134957551956177
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171175718307495
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8197504878044128
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8231412768363953
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.826188325881958
+            ]
+        ],
+        [
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.5947105884552002
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.6455091834068298
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6694992780685425
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832193732261658
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842705607414246
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875220537185669
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.6968370676040649
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.6987825632095337
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7003717422485352
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.717896580696106
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7318360805511475
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7368002533912659
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7372274398803711
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.7425893545150757
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7438958883285522
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7471024990081787
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7490271329879761
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499215602874756
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7510080337524414
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7533290982246399
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7580379247665405
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7649471759796143
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7710000276565552
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738491296768188
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762767672538757
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767742872238159
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7828851938247681
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7847330570220947
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874433994293213
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.7893922328948975
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8107326626777649
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.8254855871200562
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.83272385597229
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.8363392949104309
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8416467308998108
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.8429803848266602
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.8433456420898438
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8550437688827515
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8570687770843506
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8677043914794922
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.8704826831817627
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8720084428787231
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.8737238645553589
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.8747192621231079
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8754041194915771
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.877082109451294
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8868243098258972
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.8871482014656067
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.887499213218689
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8912827968597412
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8942166566848755
+            ],
+            [
+                "Expanding the design space for intimacy: supporting \nmutual reflection for local partners. Proc DIS, 220-223.",
+                0.8975836038589478
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8978803753852844
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8980774283409119
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.9008865356445312
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.9097158908843994
+            ],
+            [
+                "11. Bødker, S. (2006). When second wave HCI meets third \n\nwave challenges.",
+                0.9143287539482117
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.9165700674057007
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.9170376658439636
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.9175101518630981
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6613370180130005
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7159889936447144
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185325622558594
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.7200860977172852
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7329767942428589
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7451633214950562
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522846460342407
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.763157844543457
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7637049555778503
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7654944062232971
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7659576535224915
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669017910957336
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7721500396728516
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731485366821289
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7739428281784058
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793543934822083
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7911672592163086
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7941113114356995
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7946799993515015
+            ],
+            [
+                "Transparency and \nReflectivity: Digital art and the aesthetics of interface \nDesign.",
+                0.7956933379173279
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.7969159483909607
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7979273200035095
+            ],
+            [
+                "Journal of\npersonality and Social Psychology 46, 4 (1984), 919.",
+                0.8037490248680115
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8054971694946289
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8075827956199646
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.8134957551956177
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8171175718307495
+            ],
+            [
+                "Narrative\n\nintelligence. (2003). 17. Robert R McCrae. 1984. Situational determinants of\n\ncoping responses: Loss, threat, and challenge.",
+                0.8197504878044128
+            ],
+            [
+                "In CHI Workshop on Evaluating Affective\nInterfaces: Innovative Approaches. ACM New York, NY,\n2119–2122.",
+                0.8231412768363953
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.826188325881958
+            ]
+        ],
+        [
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.5947105884552002
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.6455091834068298
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6694992780685425
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832193732261658
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842705607414246
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875220537185669
+            ],
+            [
+                "The  remainder  cite  work\nfrom a variety of areas, such as creativity [100].",
+                0.6968370676040649
+            ],
+            [
+                "In\nJoint International Conference on Interactive Digital\nStorytelling. Springer, 38–43.",
+                0.6987825632095337
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7003717422485352
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.717896580696106
+            ],
+            [
+                "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+                0.7318360805511475
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7368002533912659
+            ],
+            [
+                "15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra\nSundström, Jarmo Laaksolathi, Marco Combetto, Alex\nTaylor, and Roberto Bresin.",
+                0.7372274398803711
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.7425893545150757
+            ],
+            [
+                "18. David R Michael and Sandra L Chen. 2005. Serious\n\ngames: Games that educate, train, and inform.",
+                0.7438958883285522
+            ],
+            [
+                "In: Fishwick, P. (ed.). Aesthetic Computing. Cambridge, MA: MIT Press.",
+                0.7471024990081787
+            ],
+            [
+                "ACM, 1037–1042. 16. Michael Mateas and Phoebe Sengers. 2003.",
+                0.7490271329879761
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499215602874756
+            ],
+            [
+                "In\nCHI’06 extended abstracts on Human factors in\ncomputing systems.",
+                0.7510080337524414
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7533290982246399
+            ],
+            [
+                "Ph.D. Dissertation. Massachusetts Institute of Technology. 25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans",
+                0.7580379247665405
+            ],
+            [
+                "Proc NordiCHI, 1–8. 12.Brade, M., Schneider, F., Salmen, A., and Groh, R. \n\n(2013).",
+                0.7649471759796143
+            ],
+            [
+                "2006. Affective diary:\ndesigning for bodily expressiveness and self-reﬂection.",
+                0.7710000276565552
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738491296768188
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7762767672538757
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767742872238159
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7828851938247681
+            ],
+            [
+                ". Of  those  28  papers  that  did  cite  a  reference  for\nreflection,  a  large  majority  (20)  drew  on  Schön’s  [76]\nconcept  of  reflection-in-action.",
+                0.7847330570220947
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874433994293213
+            ],
+            [
+                "The motivational appeal of interactive storytelling:\n\nTowards a dimensional model of the user experience.",
+                0.7893922328948975
+            ]
+        ]
+    ],
+    "evidence": [
+        "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+        "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+        "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+        "Muska &\nLipman/Premier-Trade. 19. Rosalind W Picard and Shaundra Bryant Daily.",
+        "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+        "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends."
+    ]
+}

@@ -1,0 +1,1005 @@
+{
+    "question": "How many authors are there for this paper?",
+    "raw_answer": "2",
+    "evidence_answer": "8",
+    "evidence_token_num": 180,
+    "total_token_num": 620,
+    "extracted_search_list": [
+        "authors",
+        "paper",
+        "many",
+        "number"
+    ],
+    "searched_docs": [
+        [
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.5946226119995117
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.6454713344573975
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6695094108581543
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832548379898071
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842895746231079
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875028610229492
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004170417785645
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.7178858518600464
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7245804071426392
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279207110404968
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7280181050300598
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7318421602249146
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7329819202423096
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7368409633636475
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.7429724335670471
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499082088470459
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7535120248794556
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559176087379456
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570717334747314
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7594433426856995
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.760130763053894
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603757977485657
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7668306827545166
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671500444412231
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738358974456787
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.776193380355835
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767813205718994
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828283309936523
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874314785003662
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6612816452980042
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7159193754196167
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.717012345790863
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185078859329224
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.7200349569320679
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7265233993530273
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328015565872192
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.743188738822937
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452148199081421
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512030005455017
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522565126419067
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.7631240487098694
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7636935710906982
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660123705863953
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669235467910767
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722227573394775
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731895446777344
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7739362716674805
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793374061584473
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040998578071594
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056169152259827
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8059526085853577
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8075565099716187
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170813918113708
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.819081723690033
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8212881088256836
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8261600136756897
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7845996022224426
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7987596988677979
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8008820414543152
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8060550689697266
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.8077549934387207
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8094685077667236
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8110389709472656
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8119567632675171
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.814812958240509
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8155243396759033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8177862763404846
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8185696601867676
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8231340646743774
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8262139558792114
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8270139694213867
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8293331861495972
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8304668664932251
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.83130943775177
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8328809142112732
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337792158126831
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8343601226806641
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.8375531435012817
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8448888063430786
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8465274572372437
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8587044477462769
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8587332963943481
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8597725629806519
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8663998246192932
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.866481602191925
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728228211402893
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7455184459686279
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.7570686340332031
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7802771329879761
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7803675532341003
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8060096502304077
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.808369517326355
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.824428915977478
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8245965242385864
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286839127540588
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8304371237754822
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321473002433777
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8327449560165405
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.8402564525604248
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8409527540206909
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8443308472633362
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8502952456474304
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.8544046878814697
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595840930938721
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8600561618804932
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605722784996033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.862859845161438
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.8676208853721619
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8718258142471313
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8722903728485107
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8722964525222778
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8737670183181763
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747609853744507
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8817004561424255
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.5946226119995117
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.6454713344573975
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.6695094108581543
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.6832548379898071
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.6842895746231079
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.6875028610229492
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7004170417785645
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.7178858518600464
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7245804071426392
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.7279207110404968
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.7280181050300598
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.7318421602249146
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.7329819202423096
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7368409633636475
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.7429724335670471
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7499082088470459
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.7535120248794556
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.7559176087379456
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.7570717334747314
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7594433426856995
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.760130763053894
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7603757977485657
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.7668306827545166
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.7671500444412231
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7738358974456787
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.776193380355835
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7767813205718994
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.7828283309936523
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7829270362854004
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7874314785003662
+            ]
+        ],
+        [
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.6612816452980042
+            ],
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.6985577940940857
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.7159193754196167
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.717012345790863
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.7185078859329224
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.7200349569320679
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.7265233993530273
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.7328015565872192
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.743188738822937
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.7452148199081421
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7512030005455017
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.7522565126419067
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.7631240487098694
+            ],
+            [
+                "We  also  excluded  papers  that  were\nreflections on the field of HCI where the  authors were the\nprimary people doing the reflecting.",
+                0.7636935710906982
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.7660123705863953
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7669235467910767
+            ],
+            [
+                "After reading all the papers in our corpus, we conducted an\nanalysis  based  on  a  grounded  theory  approach  [27].",
+                0.7722227573394775
+            ],
+            [
+                "1. What definition of reflection does the paper offer? 2.",
+                0.7731895446777344
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.7739362716674805
+            ],
+            [
+                "These memos, and the themes they describe, form the\nbasis for the following sections.",
+                0.7793374061584473
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.7912052869796753
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.8040998578071594
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8056169152259827
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8059526085853577
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8075565099716187
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8170813918113708
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.819081723690033
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8212881088256836
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8261600136756897
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8275408148765564
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7845996022224426
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.7987596988677979
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.8008820414543152
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8060550689697266
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.8077549934387207
+            ],
+            [
+                "The memos were\nthen  circulated  among  the  authors,  who  discussed  them\nfurther,  refined  them,  and  considered  relationships  among\nthem.",
+                0.8094685077667236
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.8110389709472656
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8119567632675171
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.814812958240509
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.8155243396759033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.8177862763404846
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8185696601867676
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8231340646743774
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8262139558792114
+            ],
+            [
+                "6. What are the stated benefits of reflection? These questions were not meant to be restrictive, i.e., these\nwere not the only aspects of these papers in which we were\ninterested.",
+                0.8270139694213867
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8293331861495972
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8304668664932251
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.83130943775177
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.8328809142112732
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8337792158126831
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8343601226806641
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.8375531435012817
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8448888063430786
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8465274572372437
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.8587044477462769
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8587332963943481
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8597725629806519
+            ],
+            [
+                "Echoes from the \npast: how technology mediated reflection improves \nwell-being.",
+                0.8663998246192932
+            ],
+            [
+                "(2005). Directed \n\nforgetting of autobiographical events. Memory & \nCognition, 33(4), 577–587.",
+                0.866481602191925
+            ],
+            [
+                "Combining  our  answers  to  the  above  questions  with  other\nnotes  and  observations,  we  developed  a  list  of  salient\nthemes emerging from our discussions of the papers.",
+                0.8728228211402893
+            ]
+        ],
+        [
+            [
+                "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+                0.7455184459686279
+            ],
+            [
+                "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+                0.7570686340332031
+            ],
+            [
+                "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005).",
+                0.7802771329879761
+            ],
+            [
+                "927-936. 18. Mankoff, J., Kravets, R., and Blevis, E. Some Computer \nin  Creating  a  Sustainable  World.",
+                0.7803675532341003
+            ],
+            [
+                "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for\npersonal or classroom use is granted without fee provided that copies are\nnot made or distributed for profit or commercial advantage and that copies\nbear  this  notice  and  the  full  citation  on  the  first  page.",
+                0.8060096502304077
+            ],
+            [
+                "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+                0.808369517326355
+            ],
+            [
+                "46.Kannabiran, G., Bardzell, J., & Bardzell, S. (2011). How\n\nHCI Talks about Sexuality. Proc CHI, 695–704.",
+                0.824428915977478
+            ],
+            [
+                "These\nthemes became the  basis for  a  series  of  memos,  with each\nmemo both describing one theme or pattern and indicating\nthe reason for its interest or significance.",
+                0.8245965242385864
+            ],
+            [
+                "Copyrights  for\ncomponents  of  this  work  owned  by  others  than ACM  must  be  honored.",
+                0.8286839127540588
+            ],
+            [
+                "The  remainder  occurred  in  such\nvenues  as  Designing  Interactive  Systems  (3),  Artificial\nIntelligence  and  Education  (3),  iConference  (2),  Tangible\nand  Embedded  Computing  (2),  and  other  similar  venues",
+                0.8304371237754822
+            ],
+            [
+                "A plurality of papers come from\nthe  ACM  SIGCHI  conference,  either  the  full  proceedings\n(13 papers) or the extended abstracts (16).",
+                0.8321473002433777
+            ],
+            [
+                "Proc ASSETS, 287-288. 45.Joslyn, S. L., & Oakes, M. A.",
+                0.8327449560165405
+            ],
+            [
+                "This process resulted in\n76 papers being included in our review.",
+                0.8345274925231934
+            ],
+            [
+                "The next largest contingent appears in the Creativity &\nCognition  conference  (8).",
+                0.8373435735702515
+            ],
+            [
+                "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+                0.8402564525604248
+            ],
+            [
+                "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+                0.8409527540206909
+            ],
+            [
+                "Abstracting  with  credit  is  permitted. To  copy  otherwise,  or  republish,  to\npost on servers or to redistribute to lists, requires prior specific permission\nand/or a fee.",
+                0.8443308472633362
+            ],
+            [
+                "42.Isaacs, E., Konrad, A., Walendowski, A., Lennig, T, \nHollis, V, and Whittaker, S. (2013).",
+                0.8502952456474304
+            ],
+            [
+                "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+                0.8544046878814697
+            ],
+            [
+                "Request permissions from Permissions@acm.org. DIS '14, June 07 - 11 2014, Vancouver, BC, Canada\nCopyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00. http://dx.doi.org/10.1145/2598510.2598598",
+                0.8595840930938721
+            ],
+            [
+                "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+                0.8600561618804932
+            ],
+            [
+                "The average publication year was\n2010 and the median 2011.",
+                0.8605722784996033
+            ],
+            [
+                "The later include\na mix of workshop descriptions, works in progress, posters,\netc.",
+                0.862859845161438
+            ],
+            [
+                "users, designers, students, the elderly)? Is  reflection  the  desired  result  of  an  intervention\ndescribed  in  the  paper  (as  opposed  to,  say,  a  paper\nstudying reflection in some specific context)?",
+                0.8676208853721619
+            ],
+            [
+                "Postcolonial computing: a lens on design and \ndevelopment. Proc CHI, 1311–1320.",
+                0.8718258142471313
+            ],
+            [
+                "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+                0.8722903728485107
+            ],
+            [
+                "Rather,  they  were  meant  to  provide  generative\nguidance—what patterns, trends, or themes might be noted\nby  attending  to  these  questions?",
+                0.8722964525222778
+            ],
+            [
+                "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+                0.8737670183181763
+            ],
+            [
+                "RESULTS – THEMES AND PATTERNS\nIn  total,  our  corpus  included  76  papers,  all  published\nbetween 2000 and 2013.",
+                0.8747609853744507
+            ],
+            [
+                "We  excluded  papers  where  the  keyword\n“reflection”  was  used  to  refer  to  the  optical  phenomenon,\ne.g.,  “frustrated  total  internal  reflection”  as  a  technique  in\ntouch-based  interfaces.",
+                0.8817004561424255
+            ]
+        ]
+    ],
+    "evidence": [
+        "The  authors\nalso  met  periodically  throughout  the  reading  process  to\ndiscuss both observations and questions.",
+        "To what application domain does the paper pertain? 3. Who  are  the  people  doing  the  reflecting  (e.g.,  system",
+        "Science  Issues \nComputer, 41(8), 2008, pp. 102-105. \n\npractices",
+        "Each author read her or his papers, both answering\nour  list  of  questions  and  noting  other  trends.",
+        "This  initial  search  generated  100  results. Of  those,  we\nsought  papers  that  involved  studies  of  some  person  or\npersons  (often  users  though  not  always)  who  were\nreflecting.",
+        "In Proc. CHI’17. [63]   2048, https://en.wikipedia.org/wiki/2048_(video_game) \n\nCHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 14",
+        "After  formulating  our  list\nof  questions,  the  papers  were  evenly  divided  among  the\nauthors.",
+        "If  the  paper  describes  an  interactive  system,  what\n\n4. 5.\n\ndesign  features  or  strategies  are  used  to  support\nreflection?",
+        "44.Jones, J., Hall, S., Gentis, M., Reynolds, C., Gadwal, C.,\n\nHurst, A., Ronch, J., and Neylan, C. (2012).",
+        "Proc CHI, 1071-1080. 43.Johnston, A., Amitani, S., and Edmonds, E. (2005)."
+    ]
+}

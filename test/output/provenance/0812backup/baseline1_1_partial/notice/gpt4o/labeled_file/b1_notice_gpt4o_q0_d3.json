@@ -1,0 +1,487 @@
+[
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf",
+        "question": "What is the issue date of the notice?",
+        "raw_provenance": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  inspected  Adelphia  Gateway,  LLC\u2019s  (Adelphia)  pipeline  facilities \nfrom Quakertown, PA to Martins Creek, PA. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1. \n\n\u00a7 192.481 Atmospheric corrosion control: Monitoring.",
+            "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. \u00a7 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. \u00a7 552(b).",
+            "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\nWith respect to Item 2, pursuant to 49 U.S.C. \u00a7 60118, the Pipeline and Hazardous Materials Safety \nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \n\nWarning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \ndo so may result in additional enforcement action. \n\nResponse to this Notice",
+            "In regard to Item 2 of the Notice pertaining to stud bolts on flange joints at G-75 \nBushkill Creek Valve Setting, Adelphia must replace stud bolts that were \nimproperly installed at G-75 Valve Setting with stud bolts that meet the \nrequirements of Adelphia\u2019s Flange Installation Specification. within 270 days of \nreceipt of the Final Order. \n\nIt  is requested (not mandated) that Adelphia Gateway, LLC maintain \ndocumentation of the safety improvement costs associated with fulfilling this \nCompliance Order and submit the total to Robert Burrough, Director, Eastern \nRegion, Pipeline and Hazardous Materials Safety Administration.  It is requested \nthat these costs be reported in two categories: 1) total cost associated with \npreparation/revision of plans, procedures, studies and analyses, and 2) total cost \nassociated with replacements, additions and other changes to pipeline \ninfrastructure."
+        ],
+        "evidence": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+            "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+            "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+            "With respect to Item 2, pursuant to 49 U.S.C.",
+            "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+            "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time."
+        ],
+        "raw_answer": "April 13, 2023",
+        "evidence_answer": "April 13, 2023",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "13",
+            "day",
+            "What is the issue date of the notice?",
+            "2023",
+            "year",
+            "month",
+            "April",
+            "Date"
+        ],
+        "unsorted_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_1/notice/gpt4o/provenance_20240805_162849.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf",
+        "question": "What is the issue date of the notice?",
+        "raw_provenance": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  inspected  Adelphia  Gateway,  LLC\u2019s  (Adelphia)  pipeline  facilities \nfrom Quakertown, PA to Martins Creek, PA. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1. \n\n\u00a7 192.481 Atmospheric corrosion control: Monitoring.",
+            "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. \u00a7 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. \u00a7 552(b).",
+            "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\nWith respect to Item 2, pursuant to 49 U.S.C. \u00a7 60118, the Pipeline and Hazardous Materials Safety \nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \n\nWarning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \ndo so may result in additional enforcement action. \n\nResponse to this Notice",
+            "In regard to Item 2 of the Notice pertaining to stud bolts on flange joints at G-75 \nBushkill Creek Valve Setting, Adelphia must replace stud bolts that were \nimproperly installed at G-75 Valve Setting with stud bolts that meet the \nrequirements of Adelphia\u2019s Flange Installation Specification. within 270 days of \nreceipt of the Final Order. \n\nIt  is requested (not mandated) that Adelphia Gateway, LLC maintain \ndocumentation of the safety improvement costs associated with fulfilling this \nCompliance Order and submit the total to Robert Burrough, Director, Eastern \nRegion, Pipeline and Hazardous Materials Safety Administration.  It is requested \nthat these costs be reported in two categories: 1) total cost associated with \npreparation/revision of plans, procedures, studies and analyses, and 2) total cost \nassociated with replacements, additions and other changes to pipeline \ninfrastructure."
+        ],
+        "evidence": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+            "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+            "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+            "With respect to Item 2, pursuant to 49 U.S.C.",
+            "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+            "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time."
+        ],
+        "raw_answer": "April 13, 2023",
+        "evidence_answer": "April 13, 2023",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "13",
+            "day",
+            "What is the issue date of the notice?",
+            "2023",
+            "year",
+            "month",
+            "April",
+            "Date"
+        ],
+        "unsorted_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_1/notice/gpt4o/provenance_20240805_162849.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf",
+        "question": "What is the issue date of the notice?",
+        "raw_provenance": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  inspected  Adelphia  Gateway,  LLC\u2019s  (Adelphia)  pipeline  facilities \nfrom Quakertown, PA to Martins Creek, PA. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1. \n\n\u00a7 192.481 Atmospheric corrosion control: Monitoring.",
+            "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. \u00a7 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. \u00a7 552(b).",
+            "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\nWith respect to Item 2, pursuant to 49 U.S.C. \u00a7 60118, the Pipeline and Hazardous Materials Safety \nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \n\nWarning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \ndo so may result in additional enforcement action. \n\nResponse to this Notice",
+            "In regard to Item 2 of the Notice pertaining to stud bolts on flange joints at G-75 \nBushkill Creek Valve Setting, Adelphia must replace stud bolts that were \nimproperly installed at G-75 Valve Setting with stud bolts that meet the \nrequirements of Adelphia\u2019s Flange Installation Specification. within 270 days of \nreceipt of the Final Order. \n\nIt  is requested (not mandated) that Adelphia Gateway, LLC maintain \ndocumentation of the safety improvement costs associated with fulfilling this \nCompliance Order and submit the total to Robert Burrough, Director, Eastern \nRegion, Pipeline and Hazardous Materials Safety Administration.  It is requested \nthat these costs be reported in two categories: 1) total cost associated with \npreparation/revision of plans, procedures, studies and analyses, and 2) total cost \nassociated with replacements, additions and other changes to pipeline \ninfrastructure."
+        ],
+        "evidence": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+            "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+            "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+            "With respect to Item 2, pursuant to 49 U.S.C.",
+            "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+            "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time."
+        ],
+        "raw_answer": "April 13, 2023",
+        "evidence_answer": "April 13, 2023",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "13",
+            "day",
+            "What is the issue date of the notice?",
+            "2023",
+            "year",
+            "month",
+            "April",
+            "Date"
+        ],
+        "unsorted_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_1/notice/gpt4o/provenance_20240805_162849.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf",
+        "question": "What is the issue date of the notice?",
+        "raw_provenance": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  inspected  Adelphia  Gateway,  LLC\u2019s  (Adelphia)  pipeline  facilities \nfrom Quakertown, PA to Martins Creek, PA. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1. \n\n\u00a7 192.481 Atmospheric corrosion control: Monitoring.",
+            "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. \u00a7 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. \u00a7 552(b).",
+            "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\nWith respect to Item 2, pursuant to 49 U.S.C. \u00a7 60118, the Pipeline and Hazardous Materials Safety \nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \n\nWarning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \ndo so may result in additional enforcement action. \n\nResponse to this Notice",
+            "In regard to Item 2 of the Notice pertaining to stud bolts on flange joints at G-75 \nBushkill Creek Valve Setting, Adelphia must replace stud bolts that were \nimproperly installed at G-75 Valve Setting with stud bolts that meet the \nrequirements of Adelphia\u2019s Flange Installation Specification. within 270 days of \nreceipt of the Final Order. \n\nIt  is requested (not mandated) that Adelphia Gateway, LLC maintain \ndocumentation of the safety improvement costs associated with fulfilling this \nCompliance Order and submit the total to Robert Burrough, Director, Eastern \nRegion, Pipeline and Hazardous Materials Safety Administration.  It is requested \nthat these costs be reported in two categories: 1) total cost associated with \npreparation/revision of plans, procedures, studies and analyses, and 2) total cost \nassociated with replacements, additions and other changes to pipeline \ninfrastructure."
+        ],
+        "evidence": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+            "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+            "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+            "With respect to Item 2, pursuant to 49 U.S.C.",
+            "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+            "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time."
+        ],
+        "raw_answer": "April 13, 2023",
+        "evidence_answer": "April 13, 2023",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "13",
+            "day",
+            "What is the issue date of the notice?",
+            "2023",
+            "year",
+            "month",
+            "April",
+            "Date"
+        ],
+        "unsorted_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_1/notice/gpt4o/provenance_20240805_162849.json"
+    },
+    {
+        "model_name": "gpt4o",
+        "baseline_type": 1,
+        "document_path": "data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf",
+        "question": "What is the issue date of the notice?",
+        "raw_provenance": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes \na  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate \nAdministrator for Pipeline Safety to find facts as alleged in this Notice without further notice to \nyou and to issue a Final Order.  If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.  The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)  inspected  Adelphia  Gateway,  LLC\u2019s  (Adelphia)  pipeline  facilities \nfrom Quakertown, PA to Martins Creek, PA. \n\nAs  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the \nPipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR). The items inspected \nand the probable violations are: \n\n1. \n\n\u00a7 192.481 Atmospheric corrosion control: Monitoring.",
+            "Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in \nEnforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  Be \nadvised that all material you submit in response to this enforcement action is subject to being made \npublicly  available.  If  you  believe  that  any  portion  of  your  responsive  material  qualifies  for \nconfidential treatment under 5 U.S.C. \u00a7 552(b), along with the complete original document you \nmust provide a second copy of the document with the portions you believe qualify for confidential \ntreatment redacted and an explanation of why you believe the redacted information qualifies for \nconfidential treatment under 5 U.S.C. \u00a7 552(b).",
+            "We have reviewed the circumstances and supporting documents involved in this case, and have \ndecided not to propose a civil penalty assessment at this time. \n\nWith respect to Item 2, pursuant to 49 U.S.C. \u00a7 60118, the Pipeline and Hazardous Materials Safety \nAdministration proposes to issue a Compliance Order to Adelphia Gateway, LLC.  Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice. \n\nWarning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.  We advise you to promptly correct these items.  Failure to \ndo so may result in additional enforcement action. \n\nResponse to this Notice",
+            "In regard to Item 2 of the Notice pertaining to stud bolts on flange joints at G-75 \nBushkill Creek Valve Setting, Adelphia must replace stud bolts that were \nimproperly installed at G-75 Valve Setting with stud bolts that meet the \nrequirements of Adelphia\u2019s Flange Installation Specification. within 270 days of \nreceipt of the Final Order. \n\nIt  is requested (not mandated) that Adelphia Gateway, LLC maintain \ndocumentation of the safety improvement costs associated with fulfilling this \nCompliance Order and submit the total to Robert Burrough, Director, Eastern \nRegion, Pipeline and Hazardous Materials Safety Administration.  It is requested \nthat these costs be reported in two categories: 1) total cost associated with \npreparation/revision of plans, procedures, studies and analyses, and 2) total cost \nassociated with replacements, additions and other changes to pipeline \ninfrastructure."
+        ],
+        "evidence": [
+            "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+            "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+            "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+            "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+            "With respect to Item 2, pursuant to 49 U.S.C.",
+            "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+            "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time."
+        ],
+        "raw_answer": "April 13, 2023",
+        "evidence_answer": "April 13, 2023",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "13",
+            "day",
+            "What is the issue date of the notice?",
+            "2023",
+            "year",
+            "month",
+            "April",
+            "Date"
+        ],
+        "unsorted_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "Warning Items \n\nWith respect to Items 1, 3, 4, and 5, we have reviewed the circumstances and supporting documents \ninvolved in this case and have decided not to conduct additional enforcement action or penalty \nassessment proceedings at this time.",
+                0
+            ],
+            [
+                "The Region Director \nmay extend the period for responding upon a written request timely submitted demonstrating good \ncause for an extension.",
+                1
+            ],
+            [
+                "Following the receipt of this Notice, you have 30 days to  respond as described in the enclosed \nResponse Options.",
+                2
+            ],
+            [
+                "NOTICE OF PROBABLE VIOLATION \nand \nPROPOSED COMPLIANCE ORDER \n\nOVERNIGHT EXPRESS DELIVERY \n\nApril 13, 2023 \n\nMs. Ginger Richman \nPresident \nAdelphia Gateway, LLC \n1416 Wyckoff Road \nPO BOX 1464 \nWall, New Jersey 07719 \n\nDear Ms. Richman: \n\nCPF 1-2023-022-NOPV \n\nFrom April 4th, 2022, through August 17th, 2022, of the on-site inspection, a representative of the \nPipeline and Hazardous Materials Safety Administration (PHMSA) pursuant to Chapter 601 of 49 \nUnited  States  Code  (U.S.C.)",
+                3
+            ],
+            [
+                "With respect to Item 2, pursuant to 49 U.S.C.",
+                4
+            ],
+            [
+                "If you are responding to this Notice, we propose that you submit \nyour correspondence to my office within 30 days from receipt of this Notice.",
+                5
+            ],
+            [
+                "Please refer to \nthe Proposed Compliance Order, which is enclosed and made a part of this Notice.",
+                7
+            ]
+        ],
+        "file_path": "test/output/provenance/baseline1_1/notice/gpt4o/provenance_20240805_162849.json"
+    }
+]
