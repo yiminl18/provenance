@@ -1,0 +1,197 @@
+2024-09-01 17:41:59,851 - root - INFO - question: What are the names of projects starting before 2022?
+2024-09-01 17:41:59,851 - root - INFO - evaluation_instruction: 
+2024-09-01 17:42:02,524 - root - INFO - rag_prompt: 
+2024-09-01 17:42:02,524 - root - INFO - Using following chunks:
+2024-09-01 17:42:02,524 - root - INFO - chunk_index: [5, 10, 6, 7, 9]
+2024-09-01 17:42:02,524 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 5, 'source': 'data/civic/extracted_data/malibucity_agenda__03022021-1648.txt', 'start_index': 4481}
+ (cid:131) The contractor is also working on the curb, gutter and storm drain
+installation on Civic Center Way from Webb Way to the condos. This
+portion of the work may require temporary road closures. However, it
+is anticipated that this phase of the project will be completed at the
+end of February 2021.
+
+(cid:190) Project Schedule: August 2020 through March 2021
+
+Page 3 of 6
+
+Agenda Item # 4.A.
+
+
+
+
+
+
+
+
+Capital Improvement Projects (Not Started)
+
+Annual Street Maintenance
+
+(cid:190) Project Description: This project provides for the reconstruction and
+
+maintenance of City streets.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Spring 2021
+(cid:131) Begin Construction: Summer 2021
+
+Bluffs Park Shade Structure
+
+(cid:190) Project Description: This project consists of the installation of four single-
+
+post shade structures at Malibu Bluffs Park
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Fall 2021
+ ----------
+2024-09-01 17:42:02,525 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 10, 'source': 'data/civic/extracted_data/malibucity_agenda__03022021-1648.txt', 'start_index': 9360}
+ (cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Winter 2021
+(cid:131) Begin Construction: Spring 2022
+
+Encinal Canyon Road Drainage Improvements (FEMA/CalOES Project)
+
+(cid:190) Project Description: This project consists of repairing damage storm drain
+facilities and roadway embankments that were damaged by the Woolsey
+Fire.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Winter 2021
+(cid:131) Begin Construction: Spring 2022
+
+Outdoor Warning Sirens (FEMA Project)
+
+(cid:190) Project Description: This project will be funded through a grant from FEMA
+after the Wooley Fire. The project consists of hiring a consultant to develop
+a plan that includes the evaluation of a siren system and possible locations.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Dependent upon final grant approval from FEMA
+
+Storm Drain Master Plan (FEMA Project)
+ ----------
+2024-09-01 17:42:02,525 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 6, 'source': 'data/civic/extracted_data/malibucity_agenda__03022021-1648.txt', 'start_index': 5458}
+ Vehicle Protection Devices
+
+(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires
+vehicle impact protection devices to be installed for all parking spaces
+located adjacent to any outdoor pedestrian seating area. There are two
+locations within the City’s right-of-way and City-owned property that would
+require a vehicle impact protection device.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Fall 2021
+
+Malibu Road Slope Repairs
+
+(cid:190) Project Description: The existing slope adjacent to the beach access stairs
+at 24712 Malibu Road has been eroded and caused damage to Malibu
+Road.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Fall 2021
+(cid:131) Begin Construction: Winter 2021
+
+Disaster Projects (Design)
+
+Broad Beach Road Water Quality Infrastructure Repairs
+
+(cid:190) Updates:
+
+(cid:131) The project consultant has started the design of the project.
+
+(cid:190) Project Schedule:
+ ----------
+2024-09-01 17:42:02,525 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 7, 'source': 'data/civic/extracted_data/malibucity_agenda__03022021-1648.txt', 'start_index': 6447}
+ (cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Fall 2021
+
+Page 4 of 6
+
+Agenda Item # 4.A.
+
+
+
+
+
+
+
+
+
+Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA/CalOES Project)
+
+(cid:190) Updates:
+
+(cid:131) Staff is finalizing the design of this project.
+(cid:131) Staff is also working with FEMA/CalOES to substitute the existing
+
+timber with non-combustible materials.
+
+(cid:190) Project Schedule
+
+(cid:131) Complete Design: Spring 2021
+(cid:131) Begin Construction: Summer 2021
+
+Trancas Canyon Park Planting and Irrigation Repairs (FEMA/CalOES Project)
+
+(cid:190) Updates:
+
+(cid:131) The project consultant has started the design of this project.
+
+(cid:190) Project Schedule
+
+(cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Summer/Fall 2021
+
+Trancas Canyon Park Slope Stabilization Project (CalOES Project)
+
+(cid:190) Updates:
+
+(cid:131) The project consultant has started the design of this project.
+
+(cid:190) Project Schedule
+ ----------
+2024-09-01 17:42:02,525 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 9, 'source': 'data/civic/extracted_data/malibucity_agenda__03022021-1648.txt', 'start_index': 8390}
+ (cid:190) Project Description: This project consisted of replacing a portion of Corral
+
+Canyon Road that was damaged from a failed storm drain.
+
+Disaster Projects (Not Started)
+Clover Heights Storm Drain (FEMA Project)
+
+(cid:190) Project Description: This project consists of design and construction of a
+few storm drain on Clover Heights. The existing storm drain facility ends at
+the intersection of Clover Heights and Harvester Road. During storms, this
+intersection floods and causes debris to block the road. An extended storm
+drain towards the end of Clover Heights will help eliminate this issue.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Spring 2022
+(cid:131) Begin Construction: Summer 2022
+
+Latigo Canyon Road Culvert Repairs (FEMA/CalOES Project)
+
+(cid:190) Project Description: This project consists of repairing the existing storm
+drain on Latigo Canyon Road located approximately 2,500 feet from PCH
+that was damaged by the Woolsey Fire.
+ ----------

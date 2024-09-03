@@ -1,0 +1,136 @@
+2024-09-01 17:43:26,378 - root - INFO - question: Does this paper involve the theory "A Model of Personal Informatics"?
+2024-09-01 17:43:26,378 - root - INFO - evaluation_instruction:  Return yes or no.
+2024-09-01 17:43:27,168 - root - INFO - rag_prompt: 
+2024-09-01 17:43:27,169 - root - INFO - Using following chunks:
+2024-09-01 17:43:27,169 - root - INFO - chunk_index: [70, 33, 72, 32, 71]
+2024-09-01 17:43:27,169 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 70, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 50784}
+ ubicomp technologies. Proc UbiComp, 405-414.
+
+57.Li, I., Forlizzi, J., and Dey, A.K. (2010). Know thyself: 
+monitoring and reflecting on facets of one's life. Proc 
+CHI Ext. Abst., 4489-4492.
+
+58.Li, I., Froehlich, J., Larsen, J.E., Grevet, C., and 
+
+Ramirez, E. (2013). Personal informatics in the wild. 
+Proc CHI Ext. Abst., 3179-3182.
+
+59.Li, I., Medynskiy, Y., Froehlich, J., and Larsen, J.E. 
+
+(2012). Personal informatics in practice. Proc CHI Ext. 
+Abst., 2799-2802.
+
+60.Lindley, S.E., Harper, R., and Sellen, A. (2009). 
+
+Desiring to be in touch in a changing communications 
+landscape. Proc CHI, 1693-1702.
+
+61.Loke, L. and Robertson, T. (2009). Design 
+
+representations of moving bodies for interactive, 
+motion-sensing spaces. Int. J. Hum.-Comput. Stud., 
+67(4), 394-410.
+
+62.Malacria, S., Scarr, J., Cockburn, A., Gutwin, C., and 
+Grossman, T. (2013). Skillometers: reflective widgets 
+that motivate and help users to improve performance. 
+Proc UIST, 321-330.
+ ----------
+2024-09-01 17:43:27,169 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 33, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 22578}
+ Interestingly,  although  reflection  plays  a  prominent  role  in
+personal informatics and related work, the final stage of Li
+et  al.’s  [55]  model,  and  the  goal  of  much  similar  work,  is
+action. Their line of reasoning suggests that showing users
+data  about  themselves  will  lead  them  to do  something,
+presumably  something  different  from  and  better  than  what
+they  are  already  doing.  For  example,  showing  diabetics
+blood sugar levels will increase their ability to manage their
+condition  [25];  showing  frequency  of  shortcut  key  usage
+will increase their usage [62]; showing mouse accuracy will
+reduce  exaggerated  movements  and  improve  future
+performance  [44].  Indeed,  the  idea  of  inciting  behavioral
+change occurred implicitly in much of the papers reviewed
+here.  However,  these  papers  also  varied  in  the  degree  of
+prescribing  exactly  of  what  that  behavioral  change  should
+consist, raising comparisons with persuasion.
+ ----------
+2024-09-01 17:43:27,169 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 72, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 52640}
+ 69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, 
+B.N. (2000). Two-dimensional spatial positioning as a 
+means for reflection in design. Proc DIS, 145-154.
+
+54.Leong, T. W., & Brynskov, M. (2009). CO2nfession: 
+Engaging with values through urban conversations. 
+Proc OZCHI (pp. 209–216). Melbourne, Australia.
+
+70.Nelson, E.J. and Freier, N.G. (2008). Push-me, pull-me: 
+describing and designing technologies for varying 
+degrees of reflection and invention. Proc IDC, 129-132.
+
+55.Li, I., Dey, A.K., & Forlizzi, J. (2010). A Stage-Based 
+
+71.Norman, D. A. (1993). Things That Make Us Smart. 
+
+Model of Personal Informatics Systems. Proc CHI, 557–
+566.
+
+56.Li, I., Dey, A.K., & Forlizzi, J. (2011). Understanding 
+
+my data, myself: supporting self-reflection with 
+
+New York: Perseus Group.
+
+72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal
+informatics and reflection: a critical examination of the 
+nature of reflection. Proc CHI Ext. Abst., 1979-1988.
+ ----------
+2024-09-01 17:43:27,169 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 32, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 22131}
+ While  this  rhetorical  positioning  comes  across  clearly  in
+personal informatics, many papers in our review that were
+not identified by the authors under that umbrella still cited
+similar  motivations.  For  example, Mathur  and  Karahalios
+describe  a  visualization  system  based  on  bookmarks  in  a
+web  browser  wherein  “the  user  is  able  to  notice  things
+about  oneself  that  he  or  she  did  not  notice  before”
+[65:4657].
+ ----------
+2024-09-01 17:43:27,169 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 71, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 51757}
+ 63.Mamykina, L., Miller, A.D., Mynatt, E.D., and 
+
+Greenblatt, D. (2010). Constructing identities through 
+storytelling in diabetes management. Proc CHI, 1203-
+1212.
+
+64.Mamykina, L., Mynatt, E.D., Davidson, P.R., and 
+
+Greenblatt, D. (2008). MAHI: Investigation of Social 
+Scaffolding for Reflective Thinking in Diabetes 
+Management. Proc CHI, 477–486.
+
+65.Mathur P. and Karahalios, K. (2009). Using bookmark 
+visualizations for self-reflection and navigation. Proc 
+CHI Ext. Abst., 4657-4662.
+
+66.Mendels, P., Frens, J., and Overbeeke, K. (2011). Freed: 
+
+a system for creating multiple views of a digital 
+collection during the design process. Proc CHI, 1481-
+1490.
+
+67.Moon, J. (1999). Reflection in Learning & Professional 
+Development. Abingdon, Oxon: RoutledgeFalmer.
+
+68.Müller, L. 2013. Pervasive monitoring to support 
+
+reflective learning. Proc UbiComp Adjunct, 349-354.
+ ----------

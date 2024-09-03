@@ -18,7 +18,7 @@ def most_frequent_element(input_list):
     # Return the most common element
     return counter.most_common(1)[0][0]
 
-def retrieve_and_generation(question, vectorstore, k = 6, evaluation_instruction = ""):
+def retrieve_and_generation(question, vectorstore, k = 6, evaluation_instruction = "", model_name='gpt4turbo'):
     '''
     Input : question, str
             folder_path, str
@@ -51,7 +51,7 @@ def retrieve_and_generation(question, vectorstore, k = 6, evaluation_instruction
     formatted_docs = format_docs(retrieved_docs)
     provenance = ([doc.page_content for doc in retrieved_docs]) # retrieved_docs is a list of list of strings
     
-    return generate_from_evidence(question+evaluation_instruction, provenance), retrieved_docs, retrieved_chunk_indices, ""
+    return generate_from_evidence(question+evaluation_instruction, provenance, model_name), retrieved_docs, retrieved_chunk_indices, ""
 
 # version 0
 # def generate_from_evidence(question, evidence):
@@ -71,24 +71,25 @@ def retrieve_and_generation(question, vectorstore, k = 6, evaluation_instruction
 # print(retrieve_and_generation(question))
 
 # version 1
-def generate_from_evidence(question:str, evidence:list[str]):
+def generate_from_evidence(question:str, evidence:list[str], model_name='gpt4turbo'):
     '''
     Input: question, str
             evidence, list of str
     Output: final_answer, str
     '''
     from model import model
-    system = """ You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. Different pieces of retrieved context are seperated by '||' delimiter. If you don't know the answer, just say that you don't know. Use a maximum of three sentences and keep the answer concise."""
+    system = """ You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use a maximum of three sentences and keep the answer concise."""
+    # system = """ You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. Different pieces of retrieved context are seperated by '||' delimiter. If you don't know the answer, just say that you don't know. Use a maximum of three sentences and keep the answer concise."""
     question_for_evaluation = question+' Only return the answer without any explanations. Separate the answers with commas if there are multiple items. Return None if no answer is found. Please answer this question based on the following description, which contains a set of evidences to help answer the question.'
     # evidence_str = '\n\n'.join(evidence)
-    evidence_str = '||'.join(evidence)
-    text = f""" Question: {question_for_evaluation}\n\n{evidence_str}\n\nAnswer: """
+    evidence_str = ' '.join(evidence)
+    text = f""" Question: {question_for_evaluation}\n\nRetrieved context: {evidence_str}\n\nAnswer: """
     prompt = (system, text)
     # final_answers = []
     # for i in range(10):
     #     final_answers.append(model('gpt4turbo', prompt))
     # print(final_answers)
-    return model('gpt4turbo', prompt)
+    return model(model_name, prompt) # a dict, "content", "input_tokens", "output_tokens", "cost"
 
 
 # evidence = \

@@ -1,0 +1,101 @@
+2024-09-01 17:43:55,603 - root - INFO - question: How many authors are there for this paper?
+2024-09-01 17:43:55,603 - root - INFO - evaluation_instruction:  Return only a number.
+2024-09-01 17:43:56,333 - root - INFO - rag_prompt: 
+2024-09-01 17:43:56,333 - root - INFO - Using following chunks:
+2024-09-01 17:43:56,333 - root - INFO - chunk_index: [3, 102, 101, 93, 96]
+2024-09-01 17:43:56,333 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 1830}
+ Permission to make digital or hard copies of all or part of this work for personal or 
+classroom use is granted without fee provided that copies are not made or distributed 
+for profit or commercial advantage and that copies bear this notice and the full citation 
+on the first page. Copyrights for components of this work owned by others than ACM 
+must  be  honored.  Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or 
+republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior  specific 
+permission and/or a fee. Request permissions from permissions@acm.org). 
+CHI 2019, May 4-9, 2019, Glasgow, Scotland, UK. 
+© 2019 Copyright is held by the owner/author(s). Publication rights licensed to ACM. 
+ACM ISBN 978-1-4503-5970-2/19/05...$15.00. 
+DOI: https://doi.org/10.1145/3290605.3300933
+ ----------
+2024-09-01 17:43:56,334 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 102, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 71745}
+ [48]   Alessandro  Puiatti,  Steven  Mudda,  Silvia  Giordano  and  Oscar 
+Mayora.  2011.  Smartphone-centred  wearable  sensors  network  for 
+monitoring patients with bipolar disorder. In Engineering in Medicine 
+and Biology Society, EMBC, 2011 annual international conference of 
+the IEEE. 
+
+[49]   William T. Riley, Daniel E. Rivera, Audie A. Atienza, Wendy Nilsen, 
+Susannah M. Allison and Robin Mermelstein. 2011. Health behaviour 
+models in the age of mobile interventions: are our theories up to the 
+task?. Translational Behavioural Medicine, Volume 1, Issue 1. 
+
+[50]   James A. Russell and Merry Bullock. 1985.Multidimensional scaling of 
+emotional facial expressions of emotion. J Pers Soc Psychol 48:1290–
+1298
+ ----------
+2024-09-01 17:43:56,334 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 101, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 70879}
+ [45]  Jeni  Paay,  Jesper  Kjeldskov,  Umachanger  Brinthaparan,  Lars  Lichon, 
+Stephan Rasmussen, Nirojan Srikandaraja, Wally Smith, Greg Wadley 
+and  Bernd  Ploderer.  2014.  Quitty:  using  technology  to  persuade 
+smokers  to  quit.  In Proceedings  of  the  8th  Nordic  Conference  on 
+Human-Computer Interaction: Fun, Fast, Foundational. ACM. 
+
+[46]  Bernd  Ploderer,  Wally  Smith,  Jon  Pearce  and  Ron  Borland.  2014.  A 
+mobile  app  offering  distractions  and  tips  to  cope  with  cigarette 
+craving: a qualitative study. JMIR mHealth and uHealth 2.2. 
+
+[47]   Jesper Kjeldskov and Mikael B. Skov. 2014. Was it worth the hassle?: 
+ten  years  of  mobile  HCI  research  discussions  on  lab  and  field 
+evaluations.  In: Proceedings  of  the  16th  international  conference  on 
+Human-computer interaction with mobile devices & services. ACM.
+ ----------
+2024-09-01 17:43:56,334 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 93, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 63598}
+ [14]   Meng-Chieh Chiu, Shih-Ping Chang, Yu-Chen Chang, Hao-Hua Chu, 
+Cheryl Chia-Hui Chen, Fei-Hsiu Hsiao and Ju-Chun Ko. 2009. Playful 
+bottle:  a  mobile social  persuasion system  to  motivate  healthy water 
+international  conference  on 
+intake. Proceedings  of 
+Ubiquitous computing.  
+
+the  11th 
+
+CHI 2019 Paper  CHI 2019, May 4–9, 2019, Glasgow, Scotland, UKPaper 703Page 12 
+ 
+[15]   Eun  Kyoung  Choe,  Nicole  B.  Lee,  Bongshin  Lee,  Wanda  Pratt  and 
+Julie  A.  Kientz.  2014.  Understanding  quantified-selfers'  practices  in 
+collecting  and  exploring  personal  data. Proceedings  of  the  32nd 
+annual ACM conference on Human factors in computing systems.  
+
+[16]   Sebastian  Deterding,  Andrés  Lucero,  Chulhong  Min,  Adrian  Cheok, 
+Annika  Waern  and  Steffen  Walz.  2015.  Embarrassing  interactions. 
+In Proceedings  of  the  33rd  Annual  ACM  Conference  Extended 
+Abstracts  on  Human Factors  in  Computing Systems (pp.  2365-2368). 
+ACM.
+ ----------
+2024-09-01 17:43:56,334 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 96, 'source': 'data/paper/extracted_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.txt', 'start_index': 66271}
+ [26]   Lilit Hakobyan, Jo  Lumsden,  Rachel Shaw   and  Dympna  O'Sullivan. 
+2016.  A  longitudinal evaluation  of  the  acceptability  and impact of  a 
+for  older  adults  with  age-related  macular 
+diet  diary  app 
+degeneration.   Proceedings  of  the  18th  International  Conference  on 
+Human-Computer Interaction with Mobile Devices and Services. 
+[27]   Sandra G.  Hart.  2006.  NASA-task  load  index (NASA-TLX);  20  years 
+later.  In Proceedings  of  the  human  factors  and  ergonomics  society 
+annual meeting (Vol.  50,  No.  9,  pp.  904-908).  Sage  CA:  Los  Angeles, 
+CA: Sage Publications. 
+
+[28]   Richard  Harte,  Leo  R  Quinlan,  Liam  Glynn,  Alejandro  Rodríguez-
+Molinero,  Paul  MA  Baker,Thomas  Scharf and Gearóid  ÓLaighin. 
+2017.  Human-centered  design  study:  enhancing  the  usability  of  a 
+mobile phone app in an integrated falls risk detection system for use 
+by older adult users. JMIR mHealth and uHealth.
+ ----------

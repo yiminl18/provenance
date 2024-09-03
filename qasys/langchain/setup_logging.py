@@ -15,11 +15,17 @@ def setup_logging(dir='test/output/logging/', filename='logging'):
     # 配置日志记录
     log_filename = f'{dir}{filename}_{timestamp}.log'
     logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
+    # logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG) # do not print info level logging in terminal, but save in file
 
-    # 创建文件处理器和控制台处理器
-    file_handler = logging.FileHandler(log_filename)
+    # # 创建文件处理器和控制台处理器
+    # file_handler = logging.FileHandler(log_filename)
     console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.WARNING)  # do not print info level logging in terminal, but save in file
+
+    # 创建文件处理器
+    file_handler = logging.FileHandler(log_filename)
+    file_handler.setLevel(logging.INFO)  # Log INFO and above to file, # do not print info level logging in terminal, but save in file
 
     # 创建并添加过滤器
     filter = RootInfoFilter()

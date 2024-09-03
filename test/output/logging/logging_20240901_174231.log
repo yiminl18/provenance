@@ -1,0 +1,215 @@
+2024-09-01 17:42:31,493 - root - INFO - question: What are the names of projects starting before 2022?
+2024-09-01 17:42:31,494 - root - INFO - evaluation_instruction: 
+2024-09-01 17:42:33,532 - root - INFO - rag_prompt: 
+2024-09-01 17:42:33,533 - root - INFO - Using following chunks:
+2024-09-01 17:42:33,533 - root - INFO - chunk_index: [5, 8, 10, 3, 7]
+2024-09-01 17:42:33,533 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 5, 'source': 'data/civic/extracted_data/malibucity_agenda__04282021-1687.txt', 'start_index': 4653}
+ (cid:131) Civic Center Way was reopened to the public on April 8th. While being
+open, many project related items will continue. This will include
+intermittent traffic control (lane closures). The remaining items includes
+final paving, striping, irrigation, painting, planting material, clean-up,
+and final detailing.
+
+(cid:190) Project Schedule: August 2020 through April 2021
+
+Page 3 of 6
+
+Agenda Item # 4.A.
+
+
+
+
+
+
+
+
+
+
+Capital Improvement Projects (Not Started)
+
+Bluffs Park Shade Structure
+
+(cid:190) Project Description: This project consists of the installation of four single-post
+
+shade structures at Malibu Bluffs Park
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Fall 2021
+
+Vehicle Protection Devices
+ ----------
+2024-09-01 17:42:33,533 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 8, 'source': 'data/civic/extracted_data/malibucity_agenda__04282021-1687.txt', 'start_index': 7373}
+ (cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Summer/Fall 2021
+
+Birdview Avenue Improvements (CalOES Project)
+
+(cid:190) Updates:
+
+(cid:131) The design of this project has been included in the Malibu Park
+Drainage Improvements project and updates will be provided under
+that project.
+
+Outdoor Warning Sirens (FEMA Project)
+
+(cid:190) Updates: This project will be funded through a grant from FEMA after the
+Wooley Fire. The project consists of hiring a consultant to develop a plan that
+includes the evaluation of a siren system and possible locations. Staff is
+working on an RFQ to hire a consultant for the design.
+
+(cid:190) Project Schedule:
+
+(cid:131) Complete Design: Unknown
+
+Disaster Projects (Construction)
+None at this time
+
+Disaster Projects (Completed)
+Guardrail Replacement Citywide (FEMA Project)
+
+(cid:190) Project Description: This project consisted of replacing the damaged
+
+guardrail throughout the City as a result of the Woolsey Fire.
+ ----------
+2024-09-01 17:42:33,533 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 10, 'source': 'data/civic/extracted_data/malibucity_agenda__04282021-1687.txt', 'start_index': 9288}
+ (cid:131) Complete Design: Spring 2022
+(cid:131) Begin Construction: Summer 2022
+
+Latigo Canyon Road Culvert Repairs (FEMA Project)
+
+(cid:190) Project Description: This project consists of repairing the existing storm drain
+on Latigo Canyon Road located approximately 2,500 feet from PCH that was
+damaged by the Woolsey Fire.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Winter 2021
+(cid:131) Begin Construction: Spring 2022
+
+Encinal Canyon Road Drainage Improvements (CalOES Project)
+
+(cid:190) Project Description: This project consists of repairing damage storm drain
+facilities and roadway embankments that were damaged by the Woolsey Fire.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Winter 2021
+(cid:131) Begin Construction: Spring 2022
+
+Storm Drain Master Plan (FEMA Project)
+ ----------
+2024-09-01 17:42:33,533 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 3, 'source': 'data/civic/extracted_data/malibucity_agenda__04282021-1687.txt', 'start_index': 2865}
+ (cid:131) The project assessment engineer has begun the process of evaluating
+
+the project costs.
+
+(cid:131) Staff is rescheduling the community meeting to May 2021.
+
+(cid:190) Project Schedule:
+
+(cid:131) Complete Design: December 2021
+(cid:131) Begin Construction: March 2022
+
+Page 2 of 6
+
+Agenda Item # 4.A.
+
+
+
+
+
+
+
+Malibu Park Drainage Improvements
+
+(cid:190) Updates:
+
+(cid:131) Staff made minor modifications to the project plans to reduce the
+
+overall project costs.
+
+(cid:131) Project is out to bid with bids due April 21, 2021.
+
+(cid:190) Project Schedule:
+
+(cid:131) Complete Design: March 2021
+(cid:131) Begin Construction: June/July 2021
+
+Annual Street Maintenance
+
+(cid:190) Project Description: This project provides for the reconstruction and
+
+maintenance of City streets.
+
+(cid:190) Estimated Schedule:
+
+(cid:131) Complete Design: Spring 2021
+(cid:131) Begin Construction: Summer 2021
+
+Capital Improvement Projects (Construction)
+
+City Hall Roof Replacement
+ ----------
+2024-09-01 17:42:33,533 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 7, 'source': 'data/civic/extracted_data/malibucity_agenda__04282021-1687.txt', 'start_index': 6398}
+ (cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Fall 2021
+
+Latigo Canyon Road Roadway/Retaining Wall Improvements (FEMA Project)
+
+(cid:190) Updates:
+
+(cid:131) Staff is finalizing the design of this project.
+(cid:131) Staff is also working with FEMA/CalOES to substitute the existing
+
+timber with non-combustible materials.
+
+(cid:190) Project Schedule
+
+(cid:131) Complete Design: Spring 2021
+(cid:131) Begin Construction: Summer 2021
+
+Page 4 of 6
+
+Agenda Item # 4.A.
+
+
+
+
+
+
+
+
+
+
+
+Trancas Canyon Park Planting and Irrigation Repairs (CalJPIA/FEMA Project)
+
+(cid:190) Updates:
+
+(cid:131) The project consultant has started the design of this project.
+
+(cid:190) Project Schedule:
+
+(cid:131) Complete Design: Summer 2021
+(cid:131) Begin Construction: Summer/Fall 2021
+
+Trancas Canyon Park Slope Stabilization Project (CalJPIA Project)
+
+(cid:190) Updates:
+
+(cid:131) The project consultant has started the design of this project.
+
+(cid:190) Project Schedule:
+ ----------

@@ -1,0 +1,110 @@
+2024-09-01 17:43:35,281 - root - INFO - question: What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)
+2024-09-01 17:43:35,281 - root - INFO - evaluation_instruction:  Return only one word representing the venue.
+2024-09-01 17:43:36,072 - root - INFO - rag_prompt: 
+2024-09-01 17:43:36,072 - root - INFO - Using following chunks:
+2024-09-01 17:43:36,072 - root - INFO - chunk_index: [97, 4, 101, 115, 104]
+2024-09-01 17:43:36,072 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 97, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 65370}
+ ACKNOWLEDGMENTS 
+We thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita 
+Bhattacharya,  and  reviewers  for  thoughtful  feedback  on  the 
+earlier version of this paper. This study is funded in part by 
+the  National  Science  Foundation  under  awards  IIS-1553167 
+and SCH-1344613, the Agency for Healthcare Research and 
+Quality  under  award  1R21HS023654,  a  University  of 
+Washington Innovation Research Award, and Microsoft. 
+
+Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 
+ 
+REFERENCES  
+1.  Mark Ackerman. 2009. The Intellectual Challenge of 
+CSCW: The Gap Between Social Requirements and 
+Technical Feasibility. International Journal of Human 
+Computer interaction 24, July 2014: 37–41. 
+http://doi.org/10.1207/S15327051HCI1523 
+
+2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.
+ ----------
+2024-09-01 17:43:36,072 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 2346}
+ Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that copies 
+bear this notice and the full citation on the first page. Copyrights for 
+components of this work owned by others than the author(s) must be honored. 
+Abstracting with credit is permitted. To copy otherwise, or republish, to 
+post on servers or to redistribute to lists, requires prior specific permission 
+and/or a fee. Request permissions from permissions@acm.org. 
+CHI 2017, May 06 - 11, 2017, Denver, CO, USA 
+Copyright is held by the owner/author(s). Publication rights licensed to ACM. 
+ACM 978-1-4503-4655-9/17/05…$15.00  
+DOI: http://dx.doi.org/10.1145/3025453.3025747 
+
+health  information  may  affect  their  image  influences  what 
+and with whom they are comfortable sharing.
+ ----------
+2024-09-01 17:43:36,072 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 101, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 68917}
+ 11. Munmun De Choudhury, Sanket Sharma, and Emre 
+Kiciman. 2016. Characterizing Dietary Choices, 
+Nutrition, and Language in Food Deserts via Social 
+Media. Proceedings of the ACM Conference on 
+Computer-Supported Cooperative Work & Social 
+Computing (CSCW 2016): 1157–1170. 
+http://doi.org/10.1145/2818048.2819956 
+
+12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine 
+
+Zia, James Fogarty, Julie A Kientz, and Sean A 
+Munson. 2016. Boundary Negotiating Artifacts in 
+Personal Informatics: Patient-Provider Collaboration 
+with Patient-Generated Data. Proceedings of the ACM 
+Conference on Computer-Supported Cooperative Work 
+& Social Computing (CSCW 2016): 770–786. 
+http://doi.org/10.1145/2818048.2819926 
+
+13. Andrea Civan-Hartzler, David W McDonald, Chris
+ ----------
+2024-09-01 17:43:36,072 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 115, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 81049}
+ Praful Gandhi. 2006. Chick Clique: Persuasive 
+Technology to Motivate Teenage Girls to Exercise.  
+CHI ’06 Extended Abstracts on Human Factors in 
+Computing Systems 31, 3: 1873–1878. 
+http://doi.org/10.1145/1125451.1125805 
+
+53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine 
+Brownstein, Sally Okun, Timothy Vaughan, Richard 
+Bradley, and James Heywood. 2010. Sharing Health 
+Data for Better Outcomes on Patientslikeme. Journal of 
+Medical Internet Research 12, 2: 1–12. 
+http://doi.org/10.2196/jmir.1549 
+
+Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA168654. Mary H Wilde and Suzanne Garvin. 2007. A Concept 
+Analysis of Self-monitoring. Journal of Advanced 
+Nursing 57, 3: 339–350.  
+http://doi.org/10.1111/j.1365-2648.2006.04089.x
+ ----------
+2024-09-01 17:43:36,072 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 104, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 71200}
+ Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA168418. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, 
+David W McDonald, and Sean A Munson. 2015. From 
+“nobody cares” to “way to go!”: A Design Framework for 
+Social Sharing in Personal Informatics. Proceedings of the 
+ACM Conference on Computer Supported Cooperative 
+Work & Social Computing (CSCW 2015): 1622–1636. 
+http://doi.org/10.1145/2675133.2675135 
+
+19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James 
+Fogarty, and Sean A Munson. 2016. Reconsidering the 
+Device in the Drawer: Lapses as a Design Opportunity 
+in Personal Informatics. Proceedings of the 2016 ACM 
+International Joint Conference on Pervasive and 
+Ubiquitous Computing (UbiComp 2016): 829–840. 
+http://doi.org/10.1145/2971648.2971656
+ ----------

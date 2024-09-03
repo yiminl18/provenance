@@ -4,11 +4,11 @@ from nltk import word_tokenize
 from questions import civic_q, paper_q, notice_q, civic_path, paper_path, notice_path
 from label_file import append_to_json_file
 
-baseline_names = ['baseline1_0.7', 'baseline2']
-combined_baseline_name = 'baseline1_0.7_and_2'
+baseline_names = ['baseline2_binary', 'baseline2_greedy']
+combined_baseline_name = 'baseline2_binary_gt'
 baseline_indexes = [1, 2]
 dataset_names = ['civic','paper','notice']
-model_names = ['gpt4o']
+model_names = ['gpt4turbo']
 question_set = [civic_q(), paper_q(), notice_q()] # same index as dataset_names
 path_set = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
 
@@ -185,59 +185,57 @@ if __name__ == "__main__":
             for question_index, question in enumerate(question_set[dataset_index]):
                 for path_index, path in enumerate(path_set[dataset_index]):
                     baseline_name = baseline_names[0]
-                    baseline_index = baseline_indexes[0]
-                    with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/labeled_file/b{baseline_index}_{dataset_name}_{model_name}_q{question_index}_d{path_index}.json', 'r') as file0: # f is a list of dict element
-                        content_list = json.load(file0)
-                        for content_index, content0 in enumerate(content_list):
-                            evidence_answer_0 = content0["evidence_answer"] # evidence_answer_0 is list of str, of baseline1_0.7
-                            evidence_0 = content0["evidence"]
-                            jaccard_similarity_0 = content0["jaccard_similarity"]
-                            if jaccard_similarity_0 < 0.5:
-                                baseline_name = baseline_names[1]
-                                baseline_index = baseline_indexes[1]
-                                with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/labeled_file/b{baseline_index}_{dataset_name}_{model_name}_q{question_index}_d{path_index}.json', 'r') as file1: # f is a list of dict element
-                                    content_list = json.load(file1)
-                                    content1 = content_list[content_index]
-                                    evidence_answer_1 = content1["evidence_answer"] # evidence_answer_0 is list of str, of baseline2, ground_truth
-                                    evidence_1 = content1["evidence"]
+                    # baseline_index = baseline_indexes[0]
+                    with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{path_index}.json', 'r') as file0: # f is a list of dict element
+                        content0 = json.load(file0)
+                        evidence_answer_0 = content0["evidence_answer"] # evidence_answer_0 is list of str, of baseline1_0.7
+                        evidence_0 = content0["evidence"]
+                        jaccard_similarity_0 = content0["jaccard_similarity"]
+                        if jaccard_similarity_0 < 0.5:
+                            baseline_name = baseline_names[1] # ground-truth
+                            # baseline_index = baseline_indexes[1]
+                            with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{path_index}.json', 'r') as file1: # f is a list of dict element
+                                content1 = json.load(file1)
+                                evidence_answer_1 = content1["evidence_answer"] # evidence_answer_0 is list of str, of baseline2, ground_truth
+                                evidence_1 = content1["evidence"]
+                            
+                            precision, PL_sentences = precision_loss(evidence_0, evidence_1) # precision loss, P2里P1没有capture的句子
+                            recall, RL_sentences = precision_loss(evidence_1, evidence_0) # recall loss, P1里P2没有capture的句子
+                            print("score: ", jaccard_similarity_0)
+                            print("PL: ", precision)
+                            print("RL: ", recall)
+                            print("PL_sentences: ", PL_sentences)
+                            print("RL_sentences: ", RL_sentences)
+                            f1_score = get_f1_score(precision, recall)
+                            dict_to_save = {
+                                "question": question,
+                                "raw_answer": evidence_answer_1,
+                                "evidence_answer": evidence_answer_0,
                                 
-                                precision, PL_sentences = precision_loss(evidence_0, evidence_1) # precision loss, P2里P1没有capture的句子
-                                recall, RL_sentences = precision_loss(evidence_1, evidence_0) # recall loss, P1里P2没有capture的句子
-                                print("score: ", jaccard_similarity_0)
-                                print("PL: ", precision)
-                                print("RL: ", recall)
-                                print("PL_sentences: ", PL_sentences)
-                                print("RL_sentences: ", RL_sentences)
-                                f1_score = get_f1_score(precision, recall)
-                                dict_to_save = {
-                                    "question": question,
-                                    "raw_answer": evidence_answer_1,
-                                    "evidence_answer": evidence_answer_0,
-                                    
-                                    "jaccard_similarity": jaccard_similarity_0,
-                                    "precision": precision,
-                                    "recall": recall,
-                                    "f1_score": f1_score,
-                                    "precision_loss_sentences": PL_sentences,
-                                    "recall_loss_sentences": RL_sentences,
-                                    
-                                    "predicted_evidence": content0["evidence"],
-                                    "ground_truth_evidence": content1["evidence"],
-                                    "index_to_delete": content1["index_to_delete"],
+                                "jaccard_similarity": jaccard_similarity_0,
+                                "precision": precision,
+                                "recall": recall,
+                                "f1_score": f1_score,
+                                "precision_loss_sentences": PL_sentences,
+                                "recall_loss_sentences": RL_sentences,
+                                
+                                "predicted_evidence": content0["evidence"],
+                                "ground_truth_evidence": content1["evidence"],
+                                "index_to_delete": content1["index_to_delete"],
 
-                                    "search_pool": content0["search_pool"],
-                                    
-                                    
-                                    "provenance": content0["raw_provenance"],
+                                # "search_pool": content0["search_pool"],
+                                
+                                
+                                "provenance": content0["provenance"],
 
 
-                                    "model_name": model_name,
-                                    "baseline_name_0": baseline_names[0],
-                                    "baseline_name_1": baseline_names[1],
-                                    "document_path": path,
-                                    
-                                }
-                                append_to_json_file(f'test/output/provenance/{combined_baseline_name}/{dataset_name}/{model_name}/{dataset_name}_{model_name}_q{question_index}_d{path_index}.json', dict_to_save)
+                                "model_name": model_name,
+                                "baseline_name": baseline_names[0],
+                                "baseline_name_gt": baseline_names[1],
+                                "document_path": path,
+                                
+                            }
+                            append_to_json_file(f'test/output/provenance/{combined_baseline_name}/{dataset_name}/{model_name}/{ baseline_names[0]}_{model_name}_q{question_index}_d{path_index}.json', dict_to_save)
 
 
         # for question_index, question in enumerate(question_set[dataset_index]):

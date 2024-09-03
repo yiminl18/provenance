@@ -1,0 +1,118 @@
+2024-09-01 17:43:39,450 - root - INFO - question: What are the names of authors whose institutions are in the US for this paper?
+2024-09-01 17:43:39,450 - root - INFO - evaluation_instruction: 
+2024-09-01 17:43:40,489 - root - INFO - rag_prompt: 
+2024-09-01 17:43:40,489 - root - INFO - Using following chunks:
+2024-09-01 17:43:40,489 - root - INFO - chunk_index: [4, 87, 90, 0, 22]
+2024-09-01 17:43:40,489 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 4, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 2368}
+ Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that copies 
+bear this notice and the full citation on the first page. To copy otherwise, 
+or  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior 
+specific permission and/or a fee. 
+CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. 
+Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. 
+
+to 
+
+information  brought  by 
+
+because  of  advances  in  sensor  technologies,  ubiquity  of 
+the  Internet,  and 
+access 
+improvements  in  visualizations.  A  class  of  systems  called 
+personal  informatics  is  appearing  that  help  people  collect 
+and 
+(e.g.,  Mint, 
+http://mint.com, for finance and Nike+, http://nikeplus.com, 
+for physical activity). 
+
+reflect  on  personal 
+
+information 
+
+inform  people  about
+ ----------
+2024-09-01 17:43:40,490 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 87, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 60082}
+ 2.  Assogba,  Y.,  and  Donath,  J.  Mycrocosm:  Visual 
+
+Microblogging. HICSS'09, 2009, pp. 1-10. 
+
+3.  Consolvo,  S.,  McDonald,  D.W.,  Toscos,  T.,  et  al. 
+Activity  Sensing  in  the  Wild:  A  Field  Trial  of  Ubifit 
+Garden. CHI‘08, 2008, pp. 1797-1806. 
+
+4.  Froehlich, J., Dillahunt, T., Klasnja, P., et al. Ubigreen: 
+for  Tracking  and 
+
+Investigating  a  Mobile  Tool 
+
+Supporting Green Transportation Habits. CHI’09, 2009, 
+pp. 1043-1052. 
+
+5.  Franklin, B. Autobiography of Benjamin Franklin. New 
+
+York, 1916, pp. 146-155. 
+
+6.  Frost, J. and Smith, B.K. Visualizing Health: imagery in 
+
+diabetes education. DUX ’03, 2003, pp. 1-14. 
+
+7.  Gemmell,  J.,  Bell,  G.,  and  Lueder,  R.  MyLifeBits:  a 
+personal  database  for  everything.  Communications  of 
+the ACM, 2006, pp. 88-95.
+ ----------
+2024-09-01 17:43:40,490 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 90, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 62575}
+ 19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual 
+Information  Visualization:  Depictions  of  Data 
+in 
+Everyday Life. IEEE Transactions on Visualization and 
+Computer Graphics, 2002, pp. 1145-1152. 
+
+20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience 
+Sampling:  Promises  and  Pitfalls,  Strengths  and 
+Weaknesses. Journal of Happiness Studies, 4, 2003, pp. 
+5-34. 
+
+21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, 
+from  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, 
+2009, pp. 92-95. 
+
+22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of 
+
+ASIS&T, June/July 2009, pp. 24-30. 
+
+CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566
+ ----------
+2024-09-01 17:43:40,490 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 0, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 0}
+ A Stage-Based Model of Personal Informatics Systems 
+Ian Li1, Anind Dey1, and Jodi Forlizzi1,2 
+1Human Computer Interaction Institute, 2School of Design 
+Carnegie Mellon University, Pittsburgh, PA 15213 
+ianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu
+ ----------
+2024-09-01 17:43:40,490 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 22, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 15452}
+ forums 
+sites 
+(http://slifelabs.com  and  http://moodjam.org).  We  chose 
+these  web  sites  because  their  readers  and  users  were  more 
+likely  to  have  used  one  or  more  personal  informatics 
+systems. Survey participants were entered into a raffle for a 
+$25  Amazon  gift  certificate.  We  interviewed  a  subset  of 
+to  collect 
+these  participants  using 
+instant  messenger 
+additional  details  about 
+their  responses.  Interviewees 
+received an additional $10 Amazon gift certificate.
+ ----------

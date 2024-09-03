@@ -1,0 +1,89 @@
+2024-09-01 17:43:23,812 - root - INFO - question: What is the publication year of this paper?
+2024-09-01 17:43:23,813 - root - INFO - evaluation_instruction:  Return only a number.
+2024-09-01 17:43:24,689 - root - INFO - rag_prompt: 
+2024-09-01 17:43:24,689 - root - INFO - Using following chunks:
+2024-09-01 17:43:24,689 - root - INFO - chunk_index: [3, 32, 13, 72, 40]
+2024-09-01 17:43:24,689 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 2124}
+ Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear  this  notice  and  the  full  citation  on  the  first  page.  Copyrights  for
+components  of  this  work  owned  by  others  than ACM  must  be  honored.
+Abstracting  with  credit  is  permitted.  To  copy  otherwise,  or  republish,  to
+post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from Permissions@acm.org.
+DIS '14, June 07 - 11 2014, Vancouver, BC, Canada
+Copyright 2014 ACM 978-1-4503-2902-6/14/06…$15.00.
+http://dx.doi.org/10.1145/2598510.2598598
+ ----------
+2024-09-01 17:43:24,689 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 32, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 22131}
+ While  this  rhetorical  positioning  comes  across  clearly  in
+personal informatics, many papers in our review that were
+not identified by the authors under that umbrella still cited
+similar  motivations.  For  example, Mathur  and  Karahalios
+describe  a  visualization  system  based  on  bookmarks  in  a
+web  browser  wherein  “the  user  is  able  to  notice  things
+about  oneself  that  he  or  she  did  not  notice  before”
+[65:4657].
+ ----------
+2024-09-01 17:43:24,689 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 13, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 9382}
+ After reading all the papers in our corpus, we conducted an
+analysis  based  on  a  grounded  theory  approach  [27].
+Combining  our  answers  to  the  above  questions  with  other
+notes  and  observations,  we  developed  a  list  of  salient
+themes emerging from our discussions of the papers. These
+themes became the  basis for  a  series  of  memos,  with each
+memo both describing one theme or pattern and indicating
+the reason for its interest or significance. The memos were
+then  circulated  among  the  authors,  who  discussed  them
+further,  refined  them,  and  considered  relationships  among
+them. These memos, and the themes they describe, form the
+basis for the following sections.
+ ----------
+2024-09-01 17:43:24,689 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 72, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 52640}
+ 69.Nakakoji, K., Yamamoto, Y., Takada, S., and Reeves, 
+B.N. (2000). Two-dimensional spatial positioning as a 
+means for reflection in design. Proc DIS, 145-154.
+
+54.Leong, T. W., & Brynskov, M. (2009). CO2nfession: 
+Engaging with values through urban conversations. 
+Proc OZCHI (pp. 209–216). Melbourne, Australia.
+
+70.Nelson, E.J. and Freier, N.G. (2008). Push-me, pull-me: 
+describing and designing technologies for varying 
+degrees of reflection and invention. Proc IDC, 129-132.
+
+55.Li, I., Dey, A.K., & Forlizzi, J. (2010). A Stage-Based 
+
+71.Norman, D. A. (1993). Things That Make Us Smart. 
+
+Model of Personal Informatics Systems. Proc CHI, 557–
+566.
+
+56.Li, I., Dey, A.K., & Forlizzi, J. (2011). Understanding 
+
+my data, myself: supporting self-reflection with 
+
+New York: Perseus Group.
+
+72.Pirzadeh, A., He, L., and Stolterman, E. (2013). Personal
+informatics and reflection: a critical examination of the 
+nature of reflection. Proc CHI Ext. Abst., 1979-1988.
+ ----------
+2024-09-01 17:43:24,689 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 40, 'source': 'data/paper/extracted_data/Reviewing Reflection: On the Use of Reflection in Interactive System Design.txt', 'start_index': 27741}
+ DISCUSSION
+This  section  turns  from  describing  what  we  found  during
+our  literature  review  to  considering  the  implications  of
+these  patterns,  as  well  as  what  they  suggest  as  valuable
+directions for future work in this area.
+ ----------

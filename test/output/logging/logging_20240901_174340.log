@@ -1,0 +1,131 @@
+2024-09-01 17:43:40,490 - root - INFO - question: What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)
+2024-09-01 17:43:40,490 - root - INFO - evaluation_instruction:  Return only one word representing the venue.
+2024-09-01 17:43:43,471 - root - INFO - rag_prompt: 
+2024-09-01 17:43:43,472 - root - INFO - Using following chunks:
+2024-09-01 17:43:43,472 - root - INFO - chunk_index: [90, 4, 88, 52, 7]
+2024-09-01 17:43:43,472 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 90, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 62575}
+ 19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual 
+Information  Visualization:  Depictions  of  Data 
+in 
+Everyday Life. IEEE Transactions on Visualization and 
+Computer Graphics, 2002, pp. 1145-1152. 
+
+20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience 
+Sampling:  Promises  and  Pitfalls,  Strengths  and 
+Weaknesses. Journal of Happiness Studies, 4, 2003, pp. 
+5-34. 
+
+21. Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, 
+from  Sleep  to  Mood  to  Pain,  24/7/365.  Wired,  17.07, 
+2009, pp. 92-95. 
+
+22. Yau,  N. and Schneider,  J.  Self-Surveillance.  Bulletin of 
+
+ASIS&T, June/July 2009, pp. 24-30. 
+
+CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566
+ ----------
+2024-09-01 17:43:43,473 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 4, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 2368}
+ Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that copies 
+bear this notice and the full citation on the first page. To copy otherwise, 
+or  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior 
+specific permission and/or a fee. 
+CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. 
+Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00. 
+
+to 
+
+information  brought  by 
+
+because  of  advances  in  sensor  technologies,  ubiquity  of 
+the  Internet,  and 
+access 
+improvements  in  visualizations.  A  class  of  systems  called 
+personal  informatics  is  appearing  that  help  people  collect 
+and 
+(e.g.,  Mint, 
+http://mint.com, for finance and Nike+, http://nikeplus.com, 
+for physical activity). 
+
+reflect  on  personal 
+
+information 
+
+inform  people  about
+ ----------
+2024-09-01 17:43:43,473 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 88, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 60885}
+ 8.  Gemmell,  J.  &  Vemuri,  S.  "CARPE  Research  Area." 
+SIGMM.  Accessed 
+at 
+2010 
+on 
+http://www.sigmm.org/Members/jgemmell/CARPE 
+9.  Hallnäs,  L.  and  Redström,  J.  Slow  Technology: 
+Designing  for  Reflection.  Personal  and  Ubiquitous 
+Computing, 5(3), 2001. 
+
+January 
+
+6, 
+
+10. Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: 
+a  Retrospective  Memory  Aid.  Ubicomp’06,  2006,  pp. 
+177-193. 
+
+11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E. 
+in 
+to 
+
+Using  Visualizations 
+Experience Sampling. Ubicomp’08, 2008, pp. 164-167. 
+12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.  Tools  for 
+Studying Behavior and Technology in Natural Settings. 
+Ubicomp’03, 2003, pp. 157-174. 
+
+Increase  Compliance 
+
+13. Jones,  W.,  and  Teevan,  J.  Personal  Information 
+
+Management. UW Press, 2007.
+ ----------
+2024-09-01 17:43:43,473 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 52, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 37067}
+ CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 
+Cascading  barriers  suggest  that  a  holistic  approach  to  the 
+design of personal informatics systems is critical. Focusing 
+only on one stage ignores the whole experience of the user 
+with  the  system.  While  we  can  take  inspiration  from 
+different  fields  to  resolve  barriers  within  each  stage  (e.g., 
+visualization  techniques  from  information  visualization 
+research), creating an effective personal informatics system 
+requires the consideration of all of the system's parts.
+ ----------
+2024-09-01 17:43:43,473 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 7, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 5175}
+ In  the  next  section,  we  provide  a  working  definition  of 
+personal  informatics  and  review  related  literature.  We 
+present  the  method  and  findings  from  our  survey,  and  use 
+them 
+introduce  a  stage-based  model  of  personal 
+informatics  systems.  We  describe  the  barriers  encountered 
+in  each  stage  and  highlight  opportunities  for  intervention 
+within  each  stage.  We  also  compare  and  analyze  existing 
+systems to demonstrate the use of the model for diagnosing 
+
+CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 
+ 
+ 
+and  assessing  problems.  We  conclude  with  a  discussion  of 
+design  guidelines  for  personal  informatics  systems  and 
+directions for future research.
+ ----------

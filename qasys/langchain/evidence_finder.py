@@ -49,16 +49,13 @@ def find_evidence(Q: str, A: str, P: str, model_name = 'gpt35'):
     #text = f"Question: {Q}\nAnswer: {A}\nDescription: {P}"
     
     prompt = (instruction,text)
-    response = model(model_name,prompt) # response is a string
-    result = []
+    response = model(model_name,prompt) # response is a dict
     
-    result = response
-    flag = True
+    result = response["content"]
     None_list = ['None', 'none', 'NONE', 'None.', '##None##', 'None##', '##None', 'None##.', '##None##.', 'None.', 'None.##', '##None.'] # list of strings
-    if response in None_list:
+    if result in None_list:
         result =''
-        flag = False
-        return '', '', response, False
+        return '', '', response
 
     original_result = nltk_sent_tokenize(result, 5) # unfiltered, may be hallucinated
     filtered_result = []
@@ -68,7 +65,7 @@ def find_evidence(Q: str, A: str, P: str, model_name = 'gpt35'):
             r = r[len(prefix_to_remove):] if r.startswith(prefix_to_remove) else r
             filtered_result.append(r)
 
-    return filtered_result, original_result, response, flag # result is a list of strings, response is a string, flag is a boolean
+    return filtered_result, original_result, response # result is a list of strings, response is a string, flag is a boolean
 
 # # test
 # Q = "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)"

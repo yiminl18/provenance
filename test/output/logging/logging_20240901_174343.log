@@ -1,0 +1,116 @@
+2024-09-01 17:43:43,475 - root - INFO - question: Does this paper involve the theory "A Model of Personal Informatics"?
+2024-09-01 17:43:43,475 - root - INFO - evaluation_instruction:  Return yes or no.
+2024-09-01 17:43:44,241 - root - INFO - rag_prompt: 
+2024-09-01 17:43:44,241 - root - INFO - Using following chunks:
+2024-09-01 17:43:44,241 - root - INFO - chunk_index: [0, 8, 7, 86, 5]
+2024-09-01 17:43:44,241 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 0, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 0}
+ A Stage-Based Model of Personal Informatics Systems 
+Ian Li1, Anind Dey1, and Jodi Forlizzi1,2 
+1Human Computer Interaction Institute, 2School of Design 
+Carnegie Mellon University, Pittsburgh, PA 15213 
+ianli@cmu.edu, {anind, forlizzi}@cs.cmu.edu
+ ----------
+2024-09-01 17:43:44,241 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 8, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 5933}
+ A Definition of Personal Informatics 
+Collecting  information  about  oneself  and  reflecting  on  the 
+information  has  a  long  history.  Benjamin  Franklin  tracked 
+the days in which he accomplished one of his 13 virtues for 
+60  years  [5].  Buckminster  Fuller  documented  every  15 
+minutes of his life in a scrapbook he called the “Dymaxion 
+Chronofile”.  These  days,  there  are  people  like  Nicholas 
+Felton,  who  has  been  publishing  annual  reports  about 
+himself since 2005 (http://feltron.com), and Ellie Harrison, 
+who  created  art  projects  on  her  personal  behavior,  such  as 
+food  consumption  and  sneezes  (http://ellieharrison.com). 
+These  are  extreme  examples,  but  regular  people  are 
+tracking one or two types of personal information and using 
+computing  technology  in  the  form  of  personal  informatics 
+systems to do so.
+ ----------
+2024-09-01 17:43:44,241 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 7, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 5175}
+ In  the  next  section,  we  provide  a  working  definition  of 
+personal  informatics  and  review  related  literature.  We 
+present  the  method  and  findings  from  our  survey,  and  use 
+them 
+introduce  a  stage-based  model  of  personal 
+informatics  systems.  We  describe  the  barriers  encountered 
+in  each  stage  and  highlight  opportunities  for  intervention 
+within  each  stage.  We  also  compare  and  analyze  existing 
+systems to demonstrate the use of the model for diagnosing 
+
+CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 
+ 
+ 
+and  assessing  problems.  We  conclude  with  a  discussion  of 
+design  guidelines  for  personal  informatics  systems  and 
+directions for future research.
+ ----------
+2024-09-01 17:43:44,241 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 86, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 59127}
+ framework 
+personal 
+
+We believe the model and its properties will be valuable for 
+future  research  and  development  because  it  provides  a 
+for  describing,  comparing,  and 
+common 
+evaluating 
+systems.  Personal 
+informatics 
+informatics  systems  pose  new  interesting  HCI  challenges. 
+We believe that the stage-based model, the identification of 
+the  barriers  within  each  stage,  and  the  description  of  the 
+properties  of  the  stages  will  help  HCI  researchers  and 
+practitioners  find  solutions  and  explore  new  approaches  in 
+personal informatics more efficiently. 
+
+ACKNOWLEDGMENTS 
+We  would 
+participants and the websites that helped our recruitment. 
+
+thank  our  survey  and 
+
+like 
+
+to 
+
+interview 
+
+REFERENCES 
+1.  Alleyne, R. "The house that Twitters." Telegraph.co.uk, 
+September 8, 2009. Accessed on September 16, 2009 at 
+http://www.telegraph.co.uk/science/science-
+news/6156291/The-house-that-Twitters.html
+ ----------
+2024-09-01 17:43:44,241 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 5, 'source': 'data/paper/extracted_data/A Stage-based Model of Personal Informatics Systems.txt', 'start_index': 3349}
+ Personal informatics represents an interesting area of study 
+in  human-computer  interaction.  First,  these  systems  help 
+people  better  understand  their  behavior.  While  many 
+technologies  inform  people  about  the  world,  personal 
+informatics  systems 
+themselves. 
+Second,  people  participate  in  both  the  collection  of 
+behavioral  information  as  well  as  the  exploration  and 
+understanding  of  the  information.  This  poses  demands  on 
+users that need to be explored. Finally, we do not know all 
+the  problems  that  people  may  experience  with  personal 
+informatics  systems.  We  know  that  people  want  to  get 
+information about themselves to reflect on, and that systems 
+that support this activity need to be effective and simple to 
+use.  Identifying  problems 
+in 
+collecting and making sense of personal information while 
+using such systems is critical for designing and developing 
+effective personal informatics. 
+
+that  people  experience
+ ----------

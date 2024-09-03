@@ -1,0 +1,618 @@
+{
+    "question": "What are the names of projects that were completed before 2022?",
+    "raw_answer": "Guardrail Replacement Citywide, Corral Canyon Road Bridge Repairs",
+    "evidence_answer": "Guardrail Replacement Citywide, Corral Canyon Road Bridge Repairs",
+    "evidence_token_num": 164,
+    "total_token_num": 697,
+    "extracted_search_list": [
+        "What are the names of projects that were completed before 2022?",
+        "Guardrail Replacement Citywide",
+        "Corral Canyon Road Bridge Repairs"
+    ],
+    "searched_docs": [
+        [
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.5658305287361145
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5662854313850403
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.5899215340614319
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.5910259485244751
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.600694477558136
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.6247938275337219
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6343863010406494
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6402955651283264
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.649254560470581
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.664232611656189
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.6799138784408569
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6840497255325317
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.6847614049911499
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.703618586063385
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.7040266394615173
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.7050768136978149
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.7234878540039062
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.7367861270904541
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.7622559666633606
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.7665766477584839
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.8239188194274902
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.8646180033683777
+            ]
+        ],
+        [
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.44886571168899536
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.5397663712501526
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.5573732256889343
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.5664406418800354
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5857450366020203
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.5912843942642212
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.6066133975982666
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.6124412417411804
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.6274562478065491
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.6277986168861389
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.6371427774429321
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.6437428593635559
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6518733501434326
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.6529195308685303
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.6549094915390015
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.6570569276809692
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.6632158756256104
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6648716330528259
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6733464002609253
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.6767469048500061
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.7372081279754639
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.7637231945991516
+            ]
+        ],
+        [
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.246049165725708
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.45448803901672363
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.4709504246711731
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.49838972091674805
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.5423184633255005
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.5447021126747131
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5498186945915222
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.5979810953140259
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6145772337913513
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.6250379681587219
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.6377009153366089
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6382708549499512
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.6519767045974731
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.6575157046318054
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6626560688018799
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.680209755897522
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.6891556978225708
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.7146013975143433
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.7249104380607605
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.7393347024917603
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.78033846616745
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.8472253084182739
+            ]
+        ]
+    ],
+    "sorted_data": [
+        [
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.5658305287361145
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5662854313850403
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.5899215340614319
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.5910259485244751
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.600694477558136
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.6247938275337219
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6343863010406494
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6402955651283264
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.649254560470581
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.664232611656189
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.6799138784408569
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6840497255325317
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.6847614049911499
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.703618586063385
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.7040266394615173
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.7050768136978149
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.7234878540039062
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.7367861270904541
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.7622559666633606
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.7665766477584839
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.8239188194274902
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.8646180033683777
+            ]
+        ],
+        [
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.44886571168899536
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.5397663712501526
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.5573732256889343
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.5664406418800354
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5857450366020203
+            ],
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.5912843942642212
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.6066133975982666
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.6124412417411804
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.6274562478065491
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.6277986168861389
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.6371427774429321
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.6437428593635559
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6518733501434326
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.6529195308685303
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.6549094915390015
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.6570569276809692
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.6632158756256104
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6648716330528259
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6733464002609253
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.6767469048500061
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.7372081279754639
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.7637231945991516
+            ]
+        ],
+        [
+            [
+                "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+                0.246049165725708
+            ],
+            [
+                "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+                0.45448803901672363
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nEncinal Canyon Road Drainage Improvements (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consists of repairing damage storm drain\nfacilities and roadway embankments that were damaged by the Woolsey\nFire.",
+                0.4709504246711731
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nMalibu Road Slope Repairs\n\n(cid:190) Project Description: The existing slope adjacent to the beach access stairs\nat 24712 Malibu Road has been eroded and caused damage to Malibu\nRoad.",
+                0.49838972091674805
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+                0.5423184633255005
+            ],
+            [
+                "(cid:131) Complete Design: April 2021\n(cid:131) Begin Construction: Summer 2021\n\nPCH Median Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) Consultant is working on the final design.",
+                0.5447021126747131
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+                0.5498186945915222
+            ],
+            [
+                "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer/Fall 2021\n\nBirdview Avenue Improvements (FEMA/CalOES Project)\n\n(cid:190) Updates:\n\n(cid:131) The design of this project has been included in the Malibu Park\n\nDrainage Improvements project.",
+                0.5979810953140259
+            ],
+            [
+                "PCH Signal Synchronization System Improvements Project\n\n(cid:190) Updates:\n\n(cid:131) 65% design package was submitted to Caltrans in November 2020.",
+                0.6145772337913513
+            ],
+            [
+                "(cid:131) Consultant is working on final design documents. (cid:190) Project Schedule:\n\n(cid:131) Complete Final Design: May 2021\n(cid:131) Advertise: July 2021\n(cid:131) Award Contract and Begin Construction: September 2021\n\nCivic Center Stormwater Diversion Structure\n\n(cid:190) Updates:",
+                0.6250379681587219
+            ],
+            [
+                "Dume Drive and Fernhill Drive Speed Humps Project\n\n(cid:190) Project Description: This project consists of installation of speed humps on\n\nDume Drive and Fernhill Drive from Grayfox Street to Cliffside Drive.",
+                0.6377009153366089
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Winter 2021\n(cid:131) Begin Construction: Spring 2022\n\nOutdoor Warning Sirens (FEMA)\n\n(cid:190) Project Description: This project will be funded through a grant from FEMA\nafter the Wooley Fire.",
+                0.6382708549499512
+            ],
+            [
+                "(cid:190) Project Schedule:\n\n(cid:131) Complete Design: February 2021\n(cid:131) Begin Construction: Fall 2021\n\nPage 1 of 6\n\nAgenda Item # 4.A.",
+                0.6519767045974731
+            ],
+            [
+                "Page 3 of 6\n\nAgenda Item # 4.A. Capital Improvement Projects (Not Started)\n\nAnnual Street Maintenance\n\n(cid:190) Project Description: This project provides for the reconstruction and\n\nmaintenance of City streets.",
+                0.6575157046318054
+            ],
+            [
+                "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nBluffs Park Shade Structure\n\n(cid:190) Project Description: This project consists of the installation of four single-\n\npost shade structures at Malibu Bluffs Park\n\n(cid:190) Estimated Schedule:",
+                0.6626560688018799
+            ],
+            [
+                "In March, the City be\nto perform construction\n\nfrom consultants\n\nseeking proposals\nmanagement.",
+                0.680209755897522
+            ],
+            [
+                "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+                0.6891556978225708
+            ],
+            [
+                "The project consists o hiring a consultant to develop\na plan that includes the evaluation of a siren system and possible locations. (cid:190) Estimated Schedule:",
+                0.7146013975143433
+            ],
+            [
+                "(cid:131) Complete Design: Summer 2021\n(cid:131) Begin Construction: Fall 2021\n\nVehicle Protection Devices\n\n(cid:190) Project Description: Per Malibu Municipal Code Section 17.48.070 requires\nvehicle impact protection devices to be installed for all parking spaces\nlocated adjacent to any outdoor pedestrian seating area.",
+                0.7249104380607605
+            ],
+            [
+                "There are two\nlocations within the City’s right-of-way and City-owned property that would\nrequire a vehicle impact protection device.",
+                0.7393347024917603
+            ],
+            [
+                "(cid:131) The project consultant has started the design of this project.",
+                0.78033846616745
+            ],
+            [
+                "The proposed trash screens will reduce the amount of\ntrash from being discharged into the ocean.",
+                0.8472253084182739
+            ]
+        ]
+    ],
+    "evidence": [
+        "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+        "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+        "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+        "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+        "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire."
+    ],
+    "unsorted_evidence": [
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            0,
+            0.5658305287361145
+        ],
+        [
+            "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+            2,
+            0.246049165725708
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+            0,
+            0.5662854313850403
+        ],
+        [
+            "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+            1,
+            0.5397663712501526
+        ],
+        [
+            "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+            2,
+            0.45448803901672363
+        ]
+    ],
+    "less_similar_evidence": [],
+    "unsorted_unfiltered_evidence": [
+        [
+            "(cid:190) Project Schedule\n\n(cid:131) Complete Design: Spring 2021\n(cid:131) Begin Construction: Summer 2021\n\nDisaster Projects (Construction)\nNone at this time\n\nDisaster Projects (Completed)\nGuardrail Replacement Citywide (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing the damaged\n\nguardrail throughout the City as a result of the Woolsey Fire.",
+            0,
+            0.5658305287361145
+        ],
+        [
+            "Corral Canyon Road Bridge Repairs (FEMA/CalOES Project)\n\n(cid:190) Project Description: This project consisted of replacing fire damaged\nexisting fencing and repairing the damaged embankment adjacent to the\nbridge. Page 5 of 6",
+            2,
+            0.246049165725708
+        ],
+        [
+            "(cid:190) Estimated Schedule:\n\n(cid:131) Complete Design: Fall 2021\n(cid:131) Begin Construction: Winter 2021\n\nDisaster Projects (Design)\n\nBroad Beach Road Water Quality Infrastructure Repairs\n\n(cid:190) Updates:",
+            0,
+            0.5662854313850403
+        ],
+        [
+            "(cid:190) Project Description: This project consisted of installing trash screens in City\nowned catch basins.",
+            1,
+            0.5397663712501526
+        ],
+        [
+            "(cid:190) Project Description: This project consists of repairing the existing storm\ndrain on Latigo Canyon Road located approximately 2,500 feet from PCH\nthat was damaged by the Woolsey Fire.",
+            2,
+            0.45448803901672363
+        ]
+    ]
+}

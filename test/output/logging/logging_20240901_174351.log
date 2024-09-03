@@ -1,0 +1,141 @@
+2024-09-01 17:43:51,665 - root - INFO - question: What are the names of authors whose institutions are in the US for this paper?
+2024-09-01 17:43:51,665 - root - INFO - evaluation_instruction: 
+2024-09-01 17:43:53,059 - root - INFO - rag_prompt: 
+2024-09-01 17:43:53,059 - root - INFO - Using following chunks:
+2024-09-01 17:43:53,059 - root - INFO - chunk_index: [0, 72, 71, 70, 73]
+2024-09-01 17:43:53,060 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 0, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 0}
+ Fengjiao Peng
+MIT Media Lab
+Cambridge, MA, USA
+fpeng@mit.edu
+
+A Trip to the Moon: Personalized Animated Movies for
+Self-reﬂection
+Veronica Crista LaBelle
+MIT
+Cambridge, MA, USA
+vlabelle@mit.edu
+Rosalind W. Picard
+MIT Media Lab
+Cambridge, MA, USA
+picard@media.mit.edu
+
+Emily Christen Yue
+Harvard University
+Cambridge, MA, USA
+eyue@college.harvard.edu
+ ----------
+2024-09-01 17:43:53,060 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 72, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 52368}
+ computing. Vol. 252. MIT press Cambridge.
+
+21. Tom Porter and Galyn Susman. 2000. On site: Creating
+lifelike characters in pixar movies. Commun. ACM 43, 1
+(2000), 25.
+
+22. Hans Rosling. 2006. Debunking third-world myths with
+
+the best stats you’ve ever seen. TED.
+
+23. Christian Roth, Peter Vorderer, and Christoph Klimmt.
+
+2009. The motivational appeal of interactive storytelling:
+
+Towards a dimensional model of the user experience. In
+Joint International Conference on Interactive Digital
+Storytelling. Springer, 38–43.
+
+24. Akane Sano. 2016. Measuring college students’ sleep,
+stress, mental health and wellbeing with wearable
+sensors and mobile phones. Ph.D. Dissertation.
+Massachusetts Institute of Technology.
+
+25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans
+ ----------
+2024-09-01 17:43:53,060 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 71, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 51395}
+ 15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra
+Sundström, Jarmo Laaksolathi, Marco Combetto, Alex
+Taylor, and Roberto Bresin. 2006. Affective diary:
+designing for bodily expressiveness and self-reﬂection. In
+CHI’06 extended abstracts on Human factors in
+computing systems. ACM, 1037–1042.
+
+16. Michael Mateas and Phoebe Sengers. 2003. Narrative
+
+intelligence. (2003).
+
+17. Robert R McCrae. 1984. Situational determinants of
+
+coping responses: Loss, threat, and challenge. Journal of
+personality and Social Psychology 46, 4 (1984), 919.
+
+18. David R Michael and Sandra L Chen. 2005. Serious
+
+games: Games that educate, train, and inform. Muska &
+Lipman/Premier-Trade.
+
+19. Rosalind W Picard and Shaundra Bryant Daily. 2005.
+
+Evaluating affective interactions: Alternatives to asking
+what users feel. In CHI Workshop on Evaluating Affective
+Interfaces: Innovative Approaches. ACM New York, NY,
+2119–2122.
+
+20. Rosalind W Picard and Roalind Picard. 1997. Affective
+ ----------
+2024-09-01 17:43:53,060 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 70, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 50693}
+ Michael Sharp. 2007. The sensual evaluation instrument:
+Developing a trans-cultural self-report measure of affect.
+International journal of human-computer studies 65, 4
+(2007), 315–328.
+
+12. John F Kihlstrom, Eric Eich, Deborah Sandbrand, and
+
+Betsy A Tobias. 2000. Emotion and memory:
+Implications for self-report. The science of self-report:
+Implications for research and practice (2000), 81–99.
+
+CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 913. Kurt Lancaster. 2011. The Psychology of the Lens:
+
+Patrick Moreau creates ﬁlmic intimacy with DSLRs at
+Stillmotion. (June 2011).
+
+14. Kurt Lancaster. 2017. Using lenses to enhance visual
+
+storytelling. (January 2017).
+ ----------
+2024-09-01 17:43:53,060 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 73, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 53140}
+ Gellersen, Vaiva Kalnikaite, Alina Coman, and Kristina
+Höök. 2013. AffectCam: arousal-augmented sensecam
+for richer recall of episodic memories. In CHI’13
+Extended Abstracts on Human Factors in Computing
+Systems. ACM, 1041–1046.
+
+26. Phoebe Sengers, Kirsten Boehner, Shay David, and
+Joseph’Joﬁsh’ Kaye. 2005. Reﬂective design. In
+Proceedings of the 4th decennial conference on Critical
+computing: between sense and sensibility. ACM, 49–58.
+
+27. Phoebe Sengers and Bill Gaver. 2006. Staying open to
+
+interpretation: engaging multiple meanings in design and
+evaluation. In Proceedings of the 6th conference on
+Designing Interactive systems. ACM, 99–108.
+28. CR Snyder, Randee J Shenkel, and Carol R Lowery.
+1977. Acceptance of personality interpretations: the"
+Barnum Effect" and beyond. Journal of consulting and
+clinical psychology 45, 1 (1977), 104.
+
+29. Frank Thomas, Ollie Johnston, and Frank. Thomas. 1995.
+The illusion of life: Disney animation. Hyperion New
+York.
+ ----------

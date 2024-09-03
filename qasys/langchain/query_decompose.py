@@ -2,6 +2,7 @@ import getpass
 import os
 import json
 from model import model
+from models.gpt_4_turbo import gpt_4_turbo
 from questions import civic_q, paper_q, notice_q
 
 def json_flatten_2list(json_data):
@@ -124,11 +125,17 @@ def write_json(data, file_path):
 #     return json.loads(response)
 
 
-def query_extractor(question: str, model_name = 'gpt35') -> list:
+def query_extractor(question: str, model_name = 'gpt4turbo') -> list:
     bad_words = ['Yes', 'No', 'yes', 'no', 'YES', 'NO', 'None', 'none', 'NONE', "I don't know.",]
     if question in bad_words:
-        return []
-    text = f"Q: {question}"
+        # return []
+        return {
+            "content": [],
+            "input_token": 0,
+            "output_token": 0,
+            "cost": 0,
+        }
+    text = f"Q: {question}. Your answer:"
 
     instruction = """Your task is to decompose a sentence Q into its components. \
         If the sentence is a single entity, return the entity name. \
@@ -140,9 +147,11 @@ def query_extractor(question: str, model_name = 'gpt35') -> list:
 
     prompt = (instruction,text)
     response = model(model_name,prompt)
-    return response.split('@')
+    response["content"] = response["content"].split('@') # a list[str]
+    return response
 
-def answer_extractor(question: str, model_name = 'gpt35') -> list:
+
+def answer_extractor(question: str, model_name = 'gpt4turbo') -> list:
     return query_extractor(question, model_name)
 
 # question = 
@@ -154,11 +163,11 @@ def answer_extractor(question: str, model_name = 'gpt35') -> list:
 #     question_set = notice_q()
 #     dataset_name = 'notice'
 #     json_to_store = {}
-#     model_names = ['gpt35', 'gpt4o', 'gpt4omini']
+#     model_names = ['gpt4turbo']
+#     gpt_4_turbo.call_count = 0
 #     for model_name in model_names:
 #         for i, question in enumerate(question_set):
-#             extracted_dict = query_extractor(question, model_name=model_name)
+#             extracted_dict = query_extractor(question, model_name=model_name)["content"]
 #             json_to_store[f"question_{i}"] = {"question": question, "extracted": extracted_dict}
-
 #         with open(f'test/output/provenance/questionset_{dataset_name}_{model_name}.json', 'w', encoding='utf-8') as f:
 #             json.dump(json_to_store, f, ensure_ascii=False, indent=4)

@@ -1,48 +1,41 @@
-import re
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
+# I'll modify the `remove_intervals` function to achieve the desired result where adjacent intervals are not merged.
+def remove_intervals(full_intervals: list[list[int]], remove_intervals: list[list[int]]):
+    full_set = convert_intervals_to_set(full_intervals)
+    remove_set = convert_intervals_to_set(remove_intervals)
+    result_set = full_set - remove_set
+    result_intervals = convert_set_to_intervals_without_merging(result_set, full_intervals)
+    return result_intervals
 
-def find_with_fuzzy_match(text, query, match_type='exact', threshold=75):
-    """
-    Find a matching string in the text, supporting exact and fuzzy matching.
+def convert_set_to_intervals_without_merging(result_set, original_intervals):
+    if not result_set:
+        return []
     
-    Parameters:
-    text (str): The text to search within.
-    query (str): The query string to search for.
-    match_type (str): The type of match, 'exact' for exact match, 'fuzzy' for fuzzy match.
-    threshold (int): The similarity threshold for fuzzy matching, used only for fuzzy match.
+    intervals = []
+    for original_interval in original_intervals:
+        start, end = original_interval
+        current_interval = []
+        for i in range(start, end + 1):
+            if i in result_set:
+                current_interval.append(i)
+            else:
+                if current_interval:
+                    intervals.append([current_interval[0], current_interval[-1]])
+                    current_interval = []
+        if current_interval:
+            intervals.append([current_interval[0], current_interval[-1]])
     
-    Returns:
-    int: The index of the match if found, or -1 if not found.
-    """
-    if match_type == 'exact':
-        # Perform exact match using regular expression
-        match = re.search(re.escape(query), text)
-        if match:
-            return match.start()
-        else:
-            return -1
+    return intervals
+
+def convert_intervals_to_set(intervals: list[list[int]]):
+    result_set = set()
     
-    elif match_type == 'fuzzy':
-        # Perform fuzzy match using fuzzywuzzy
-        matches = process.extract(query, [text], limit=1)
-        best_match = matches[0]
-        if best_match[1] >= threshold:
-            return text.find(best_match[0])
-        else:
-            return -1
-    else:
-        raise ValueError("match_type must be 'exact' or 'fuzzy'.")
+    for interval in intervals:
+        start, end = interval
+        result_set.update(range(start, end + 1))
+    
+    return result_set
 
-# Example usage
-text = "Hello, this is a sample text."
-query_exact = "sample"
-query_fuzzy = "sampel"
-
-# Exact match
-result_exact = find_with_fuzzy_match(text, query_exact, match_type='exact')
-print(result_exact)  # Output: 17 (expected)
-
-# Fuzzy match
-result_fuzzy = find_with_fuzzy_match(text, query_fuzzy, match_type='fuzzy')
-print(result_fuzzy)  # Output: 17 (expected if threshold is met) or -1 if not
+# Test the function with the provided example
+full_intervals = [[1,2], [3,6], [11, 20]]
+remove_intervals = [[4, 5], [13,17]]
+print(remove_intervals(full_intervals, remove_intervals))

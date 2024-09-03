@@ -1,0 +1,116 @@
+2024-09-01 17:42:57,365 - root - INFO - question: What is the name of the company receiving the notice that has proposed compliance and a warning?
+2024-09-01 17:42:57,365 - root - INFO - evaluation_instruction:  Return only one company name.
+2024-09-01 17:42:58,318 - root - INFO - rag_prompt: 
+2024-09-01 17:42:58,318 - root - INFO - Using following chunks:
+2024-09-01 17:42:58,318 - root - INFO - chunk_index: [0, 33, 35, 34, 36]
+2024-09-01 17:42:58,318 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 0, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 0}
+ NOTICE OF PROBABLE VIOLATION 
+PROPOSED CIVIL PENALTY 
+and 
+PROPOSED COMPLIANCE ORDER 
+
+VIA ELECTRONIC MAIL TO: dwortman@urc.com 
+
+May 5, 2023 
+
+Mr. Dave Wortman 
+Vice President, Supply and Transportation 
+Kiantone Pipeline Corp 
+15 Bradley Street 
+PO BOX 780 
+Warren, Pennsylvania 16365 
+
+Dear Mr. Wortman: 
+
+CPF 1-2023-013-NOPV 
+
+From  April  25,  2022  through  May  20,  2022,  a  representative  of  the  Pipeline  and  Hazardous 
+Materials  Safety  Administration  (PHMSA)  pursuant  to  Chapter  601  of  49  United  States  Code 
+(U.S.C.) conducted an inspection of Kiantone Pipeline Corp’s (Kiantone) procedures, records, and 
+field observations in Warren, Pennsylvania. 
+
+As  a  result  of  the  inspection,  it  is  alleged  that  you  have  committed  probable  violations  of  the 
+Pipeline Safety Regulations, Title 49, Code of Federal Regulations (CFR).  The items inspected 
+and the probable violations are: 
+
+1. 
+
+§ 194.7 Operating restrictions and interim operating authorization.
+ ----------
+2024-09-01 17:42:58,318 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 33, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 24464}
+ With respect to items 3 and 9 pursuant to 49 U.S.C. § 60118, the Pipeline and Hazardous Materials 
+Safety Administration proposes to issue a Compliance Order to Kiantone Pipeline Corp.  Please 
+refer to the Proposed Compliance Order, which is enclosed and made a part of this Notice. 
+
+Response to this Notice
+ ----------
+2024-09-01 17:42:58,319 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 35, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 25499}
+ Following your receipt of this Notice, you have 30 days to respond as described in the enclosed 
+Response Options.  If you do not respond within 30 days of receipt of this Notice, this constitutes 
+a  waiver  of  your  right  to  contest  the  allegations  in  this  Notice  and  authorizes  the  Associate 
+Administrator for Pipeline Safety to find facts as alleged in this Notice without further notice to 
+you and to issue a Final Order.  If you are responding to this Notice, we propose that you submit 
+your correspondence to my office within 30 days from receipt of this Notice.  The Region Director 
+may extend the period for responding upon a written request timely submitted demonstrating good 
+cause for an extension. 
+
+In  your  correspondence  on  this  matter,  please  refer  to  CPF  1-2023-013-NOPV  and,  for  each 
+document you submit, please provide a copy in electronic format whenever possible.
+ ----------
+2024-09-01 17:42:58,319 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 34, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 24776}
+ Enclosed as part of this Notice is a document entitled Response Options for Pipeline Operators in 
+Enforcement  Proceedings.  Please  refer  to  this  document  and  note  the  response  options.  All 
+material you submit in response to this enforcement action may be made publicly available.  If you 
+believe that any portion of your responsive material qualifies for confidential treatment under 5 
+U.S.C. §552(b), along with the complete original document you must provide a second copy of 
+the  document  with  the  portions  you  believe  qualify  for  confidential  treatment  redacted  and  an 
+explanation of why you believe the redacted information qualifies for confidential treatment under 
+5 U.S.C. § 552(b).
+ ----------
+2024-09-01 17:42:58,319 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 36, 'source': 'data/NoticeViolation/extracted_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.txt', 'start_index': 26646}
+ Sincerely, 
+
+Robert Burrough 
+Director, Eastern Region, Office of Pipeline Safety 
+Pipeline and Hazardous Materials Safety Administration 
+
+Enclosures: Proposed Compliance Order 
+
+Response Options for Pipeline Operators in Enforcement Proceedings 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PROPOSED COMPLIANCE ORDER 
+
+Pursuant to 49 United States Code § 60118, the Pipeline and Hazardous Materials Safety 
+Administration (PHMSA) proposes to issue to Kiantone Pipeline Corp (Kiantone) a Compliance 
+Order incorporating the following remedial requirements to ensure the compliance of Kiantone 
+with the pipeline safety regulations: 
+
+A. 
+
+B. 
+
+C.
+ ----------

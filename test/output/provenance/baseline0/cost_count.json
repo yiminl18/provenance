@@ -1,0 +1,35 @@
+[
+    {
+        "dataset_name": "civic",
+        "model_name": "gpt4turbo",
+        "cost": 0.7408099999999997,
+        "run_time": 60,
+        "average_cost": 0.01234683333333333,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 0,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 60
+    },
+    {
+        "dataset_name": "notice",
+        "model_name": "gpt4turbo",
+        "cost": 0.4660600000000002,
+        "run_time": 60,
+        "average_cost": 0.00776766666666667,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 0,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 60
+    },
+    {
+        "dataset_name": "paper",
+        "model_name": "gpt4turbo",
+        "cost": 0.5627300000000003,
+        "run_time": 60,
+        "average_cost": 0.009378833333333338,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 0,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 60
+    }
+]

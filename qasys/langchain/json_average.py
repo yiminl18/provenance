@@ -93,11 +93,11 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
                     content = json.load(file)
                     print(f"file_path: {file_path}")
                     scores.append(content["jaccard_similarity"])
-                    index_to_delete = content["index_to_delete"]
-                    if len(index_to_delete) >= 5 and scores[-1] > 0.99: # valid index list
-                        success_scores.append(content["jaccard_similarity"])
-                        success_evidence += content["evidence"] # evidence is a list of str
-                        success_evidence_sentence_number.append(len(content["evidence"]))
+                    # index_to_delete = content["index_to_delete"]
+                    # if len(index_to_delete) >= 5 and scores[-1] > 0.99: # valid index list
+                    success_scores.append(content["jaccard_similarity"])
+                    success_evidence += content["evidence"] # evidence is a list of str
+                    success_evidence_sentence_number.append(len(content["evidence"]))
                     
             result = {
                 "baseline_name": baseline_name,
@@ -339,7 +339,7 @@ def check_uncertainty(baseline_names:list[str], dataset_names:list[str], model_n
                     with open(file_path, 'r', encoding='utf-8') as file:
                         content = json.load(file)
                         question = content["question"]
-                        raw_provenance = content["raw_provenance"]
+                        raw_provenance = content["provenance"]
                         evidence = content["evidence"]
                         raw_answer = content["raw_answer"]
                         evidence_answer = content["evidence_answer"]
@@ -382,9 +382,12 @@ def check_uncertainty(baseline_names:list[str], dataset_names:list[str], model_n
                                 })
 
 if __name__ == "__main__":
-    baseline_names = ["baseline2_sequential"]
+    baseline_names = ["baseline2_binary"]
     dataset_names = ['civic', 'paper', 'notice']
-    model_names = ['gpt4o']
+    model_names = ['gpt4turbo']
     question_sets = [civic_q(), paper_q(), notice_q()] # same index as dataset_names
-    document_path_sets = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
-    check_uncertainty(baseline_names, dataset_names, model_names, question_sets)
+    # document_path_sets = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
+    # check_uncertainty(baseline_names, dataset_names, model_names, question_sets)
+    # for baseline_name in baseline_names:
+    #     draw_average_result_all(baseline_name)
+    get_average_result_baseline2("baseline0", dataset_names, model_names)

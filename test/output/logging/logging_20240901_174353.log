@@ -1,0 +1,243 @@
+2024-09-01 17:43:53,061 - root - INFO - question: What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)
+2024-09-01 17:43:53,061 - root - INFO - evaluation_instruction:  Return only one word representing the venue.
+2024-09-01 17:43:53,812 - root - INFO - rag_prompt: 
+2024-09-01 17:43:53,812 - root - INFO - Using following chunks:
+2024-09-01 17:43:53,812 - root - INFO - chunk_index: [3, 74, 71, 37, 72]
+2024-09-01 17:43:53,812 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 3, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 1930}
+ Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for proﬁt or commercial advantage and that copies bear this notice and the full citation
+on the ﬁrst page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission
+and/or a fee. Request permissions from permissions@acm.org.
+CHI 2018, April 21–26, 2018, Montréal, QC, Canada
+© 2018 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ISBN 978-1-4503-5620-6/18/04. . . $15.00
+DOI: http://dx.doi.org/10.1145/3173574.3173827
+
+need to couple such critical thinking with emotional engage-
+ment, as emotions are a powerful factor in both impairing and
+facilitating decision making [20].
+ ----------
+2024-09-01 17:43:53,812 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 74, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 54111}
+ 30. AJN Van Breemen. 2004. Bringing robots to life:
+Applying principles of animation to robots. In
+Proceedings of Shapping Human-Robot Interaction
+workshop held at CHI 2004. 143–144.
+
+CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 10
+ ----------
+2024-09-01 17:43:53,812 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 71, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 51395}
+ 15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra
+Sundström, Jarmo Laaksolathi, Marco Combetto, Alex
+Taylor, and Roberto Bresin. 2006. Affective diary:
+designing for bodily expressiveness and self-reﬂection. In
+CHI’06 extended abstracts on Human factors in
+computing systems. ACM, 1037–1042.
+
+16. Michael Mateas and Phoebe Sengers. 2003. Narrative
+
+intelligence. (2003).
+
+17. Robert R McCrae. 1984. Situational determinants of
+
+coping responses: Loss, threat, and challenge. Journal of
+personality and Social Psychology 46, 4 (1984), 919.
+
+18. David R Michael and Sandra L Chen. 2005. Serious
+
+games: Games that educate, train, and inform. Muska &
+Lipman/Premier-Trade.
+
+19. Rosalind W Picard and Shaundra Bryant Daily. 2005.
+
+Evaluating affective interactions: Alternatives to asking
+what users feel. In CHI Workshop on Evaluating Affective
+Interfaces: Innovative Approaches. ACM New York, NY,
+2119–2122.
+
+20. Rosalind W Picard and Roalind Picard. 1997. Affective
+ ----------
+2024-09-01 17:43:53,812 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 37, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 26497}
+ All participants were told the same story: that the video was
+customized to their mood and behavior data. After watching
+the videos, participants ﬁlled out an evaluation form. There
+were three questions that accepted free text-form responses,
+without prompting the participants with any of the researcher’s
+preconceptions such as "stress" or "social interaction":
+
+• Q1 Ignoring imperfect AI renderings, what do you think
+
+about the story in the video?
+
+• Q2 What do you think about the main character (corgi dog)?
+
+CHI 2018 Paper CHI 2018, April 21–26, 2018, Montréal, QC, CanadaPaper 253Page 5• Q3 This video is generated from your mood and behavioral
+data. What do you think the video reﬂected about you?
+ ----------
+2024-09-01 17:43:53,812 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 72, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 52368}
+ computing. Vol. 252. MIT press Cambridge.
+
+21. Tom Porter and Galyn Susman. 2000. On site: Creating
+lifelike characters in pixar movies. Commun. ACM 43, 1
+(2000), 25.
+
+22. Hans Rosling. 2006. Debunking third-world myths with
+
+the best stats you’ve ever seen. TED.
+
+23. Christian Roth, Peter Vorderer, and Christoph Klimmt.
+
+2009. The motivational appeal of interactive storytelling:
+
+Towards a dimensional model of the user experience. In
+Joint International Conference on Interactive Digital
+Storytelling. Springer, 38–43.
+
+24. Akane Sano. 2016. Measuring college students’ sleep,
+stress, mental health and wellbeing with wearable
+sensors and mobile phones. Ph.D. Dissertation.
+Massachusetts Institute of Technology.
+
+25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans
+ ----------
+2024-09-01 17:43:53,813 - root - INFO - question: Does this paper involve the theory "A Model of Personal Informatics"?
+2024-09-01 17:43:53,813 - root - INFO - evaluation_instruction:  Return yes or no.
+2024-09-01 17:43:54,567 - root - INFO - rag_prompt: 
+2024-09-01 17:43:54,567 - root - INFO - Using following chunks:
+2024-09-01 17:43:54,567 - root - INFO - chunk_index: [2, 71, 69, 72, 66]
+2024-09-01 17:43:54,567 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 2, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 1268}
+ Author Keywords
+Personalization; animation; emotion; engagement; empathy;
+self-reﬂection.
+
+INTRODUCTION
+The development of mobile phone technology and biological
+sensors is enabling individuals to self-track biological, phys-
+ical and environmental information. From rich self-tracking
+data, individuals can interpret and infer the patterns, correla-
+tions and causal relations in their own behavior and wellbeing.
+Recent HCI research attempts to help users build up a critical
+understanding of their data, especially to motivate users to
+change their behaviors for the betterment of their own well-
+being or their social, biological environment [26]. We often
+ ----------
+2024-09-01 17:43:54,567 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 71, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 51395}
+ 15. Madelene Lindström, Anna Ståhl, Kristina Höök, Petra
+Sundström, Jarmo Laaksolathi, Marco Combetto, Alex
+Taylor, and Roberto Bresin. 2006. Affective diary:
+designing for bodily expressiveness and self-reﬂection. In
+CHI’06 extended abstracts on Human factors in
+computing systems. ACM, 1037–1042.
+
+16. Michael Mateas and Phoebe Sengers. 2003. Narrative
+
+intelligence. (2003).
+
+17. Robert R McCrae. 1984. Situational determinants of
+
+coping responses: Loss, threat, and challenge. Journal of
+personality and Social Psychology 46, 4 (1984), 919.
+
+18. David R Michael and Sandra L Chen. 2005. Serious
+
+games: Games that educate, train, and inform. Muska &
+Lipman/Premier-Trade.
+
+19. Rosalind W Picard and Shaundra Bryant Daily. 2005.
+
+Evaluating affective interactions: Alternatives to asking
+what users feel. In CHI Workshop on Evaluating Affective
+Interfaces: Innovative Approaches. ACM New York, NY,
+2119–2122.
+
+20. Rosalind W Picard and Roalind Picard. 1997. Affective
+ ----------
+2024-09-01 17:43:54,567 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 69, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 49706}
+ 7. Stefan Göbel, Sandro Hardy, Viktor Wendel, Florian
+Mehm, and Ralf Steinmetz. 2010. Serious games for
+health: personalized exergames. In Proceedings of the
+18th ACM international conference on Multimedia. ACM,
+1663–1666.
+
+8. Anton Gustafsson, Magnus Bång, and Mattias Svahn.
+
+2009. Power explorer: a casual game style for
+encouraging long term behavior change among teenagers.
+In Proceedings of the International Conference on
+Advances in Computer Enterntainment Technology. ACM,
+182–189.
+
+9. Lisa L Harlow, Michael D Newcomb, and Peter M
+
+Bentler. 1986. Depression, self-derogation, substance use,
+and suicide ideation: Lack of purpose in life as a
+mediational factor. Journal of clinical psychology 42, 1
+(1986), 5–21.
+
+10. Kristina Höök. 2009. Affective loop experiences:
+
+designing for interactional embodiment. Philosophical
+Transactions of the Royal Society of London B:
+Biological Sciences 364, 1535 (2009), 3585–3595.
+
+11. Katherine Isbister, Kia Höök, Jarmo Laaksolahti, and
+ ----------
+2024-09-01 17:43:54,567 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 72, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 52368}
+ computing. Vol. 252. MIT press Cambridge.
+
+21. Tom Porter and Galyn Susman. 2000. On site: Creating
+lifelike characters in pixar movies. Commun. ACM 43, 1
+(2000), 25.
+
+22. Hans Rosling. 2006. Debunking third-world myths with
+
+the best stats you’ve ever seen. TED.
+
+23. Christian Roth, Peter Vorderer, and Christoph Klimmt.
+
+2009. The motivational appeal of interactive storytelling:
+
+Towards a dimensional model of the user experience. In
+Joint International Conference on Interactive Digital
+Storytelling. Springer, 38–43.
+
+24. Akane Sano. 2016. Measuring college students’ sleep,
+stress, mental health and wellbeing with wearable
+sensors and mobile phones. Ph.D. Dissertation.
+Massachusetts Institute of Technology.
+
+25. Corina Sas, Tomasz Fratczak, Matthew Rees, Hans
+ ----------
+2024-09-01 17:43:54,567 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 66, 'source': 'data/paper/extracted_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.txt', 'start_index': 47637}
+ . The results indicated
+that personalized animations tended to be more emotionally
+engaging, encouraging greater and lengthier writing that indi-
+cated self-reﬂection about moods and behaviors. Furthermore,
+while human imagination plays an important and valuable part
+in both conditions – test and control – the impact we found
+suggests that true personalization may be more powerfully
+inﬂuential on moods and self-reﬂection than simply believing
+that one is receiving personalized feedback.
+ ----------

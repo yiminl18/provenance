@@ -1,0 +1,29 @@
+[
+    {
+        "baseline_name": "baseline2_binary",
+        "model_name": "gpt4turbo",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 1.0,
+        "accuracy": 1.0,
+        "average_len_of_success_evidence": 32.24163568773234,
+        "average_sentence_number_of_success_evidence": 8.966666666666667
+    },
+    {
+        "baseline_name": "baseline2_binary",
+        "model_name": "gpt4turbo",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 1.0,
+        "accuracy": 1.0,
+        "average_len_of_success_evidence": 27.823529411764707,
+        "average_sentence_number_of_success_evidence": 3.966666666666667
+    },
+    {
+        "baseline_name": "baseline2_binary",
+        "model_name": "gpt4turbo",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 1.0,
+        "accuracy": 1.0,
+        "average_len_of_success_evidence": 40.8,
+        "average_sentence_number_of_success_evidence": 0.8333333333333334
+    }
+]

@@ -1,0 +1,120 @@
+2024-09-01 17:43:28,734 - root - INFO - question: How many authors are there for this paper?
+2024-09-01 17:43:28,734 - root - INFO - evaluation_instruction:  Return only a number.
+2024-09-01 17:43:29,447 - root - INFO - rag_prompt: 
+2024-09-01 17:43:29,447 - root - INFO - Using following chunks:
+2024-09-01 17:43:29,447 - root - INFO - chunk_index: [112, 101, 97, 99, 103]
+2024-09-01 17:43:29,447 - root - INFO - top1
+ retrieved_docs:
+ {'chunk_index': 112, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 78211}
+ 48. Caroline R Richardson, Lorraine R Buis, Adrienne W. 
+Janney, David E Goodrich, Ananda Sen, Michael L 
+Hess, Kathleen S Mehari, Laurie A Fortlage1, Paul J 
+Resnick, Brian J Zikmund-Fisher, Victor J Strecher,  
+and John D Piette. An Online Community Improves 
+Adherence in an Internet-Mediated Walking Program. 
+Part 1: Results of a Randomized Controlled Trial. 
+Journal of Medical Internet Research 12, 4: e41. 
+http://doi.org/10.2196/jmir.1338 
+
+Resnick. 2015. Effects of Public Commitments and 
+Accountability in a Technology-Supported Physical Activity 
+Intervention. Proceedings of the SIGCHI Conference on 
+Human Factors in Computing Systems (CHI 2015), 1135–1144.  
+http://doi.org/10.1145/2702123.2702524 
+
+49. John Rooksby, Mattias Rost, Alistair Morrison, and Matthew 
+Chalmers Chalmers. 2014. Personal Tracking as Lived 
+Informatics. Proceedings of the SIGCHI Conference on Human 
+Factors in Computing Systems (CHI 2014): 1163–1172.  
+http://doi.org/10.1145/2556288.2557039
+ ----------
+2024-09-01 17:43:29,447 - root - INFO - top2
+ retrieved_docs:
+ {'chunk_index': 101, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 68917}
+ 11. Munmun De Choudhury, Sanket Sharma, and Emre 
+Kiciman. 2016. Characterizing Dietary Choices, 
+Nutrition, and Language in Food Deserts via Social 
+Media. Proceedings of the ACM Conference on 
+Computer-Supported Cooperative Work & Social 
+Computing (CSCW 2016): 1157–1170. 
+http://doi.org/10.1145/2818048.2819956 
+
+12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine 
+
+Zia, James Fogarty, Julie A Kientz, and Sean A 
+Munson. 2016. Boundary Negotiating Artifacts in 
+Personal Informatics: Patient-Provider Collaboration 
+with Patient-Generated Data. Proceedings of the ACM 
+Conference on Computer-Supported Cooperative Work 
+& Social Computing (CSCW 2016): 770–786. 
+http://doi.org/10.1145/2818048.2819926 
+
+13. Andrea Civan-Hartzler, David W McDonald, Chris
+ ----------
+2024-09-01 17:43:29,447 - root - INFO - top3
+ retrieved_docs:
+ {'chunk_index': 97, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 65370}
+ ACKNOWLEDGMENTS 
+We thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita 
+Bhattacharya,  and  reviewers  for  thoughtful  feedback  on  the 
+earlier version of this paper. This study is funded in part by 
+the  National  Science  Foundation  under  awards  IIS-1553167 
+and SCH-1344613, the Agency for Healthcare Research and 
+Quality  under  award  1R21HS023654,  a  University  of 
+Washington Innovation Research Award, and Microsoft. 
+
+Social Computing and HealthCHI 2017, May 6–11, 2017, Denver, CO, USA1683 
+ 
+REFERENCES  
+1.  Mark Ackerman. 2009. The Intellectual Challenge of 
+CSCW: The Gap Between Social Requirements and 
+Technical Feasibility. International Journal of Human 
+Computer interaction 24, July 2014: 37–41. 
+http://doi.org/10.1207/S15327051HCI1523 
+
+2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.
+ ----------
+2024-09-01 17:43:29,447 - root - INFO - top4
+ retrieved_docs:
+ {'chunk_index': 99, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 67000}
+ Adams, Amy L Gonzales, John Pollak, Daniela Retelny, 
+Jeff Niederdeppe, Christine M Olson, and Geri K Gay. 
+2012. Prescriptive Persuasion and Open-Ended Social 
+Awareness: Expanding the Design Space of Mobile Health. 
+Proceedings of the ACM Conference on Computer 
+Supported Cooperative Work (CSCW 2012): 475–484.  
+http://doi.org/10.1145/2145204.2145279 
+
+6.  G Bird and P C Elwood. 1983. The Dietary Intakes of 
+
+Subjects Estimated From Photographs Compared with a 
+Weighed Record. Human nutrition. Applied nutrition 37, 6: 
+470–473. http://europepmc.org/abstract/MED/6662734 
+
+7.  Stevie Chancellor, Zhiyuan Lin, Erica L Goodman, 
+
+Stephanie Zerwas, and Munmun De Choudhury. 2016. 
+Quantifying and Predicting Mental Illness Severity in 
+Online Pro-Eating Disorder Communities. Proceedings of 
+the ACM Conference on Computer-Supported Cooperative 
+Work and Social Computing (CSCW 2016): 1171–1184.  
+http://doi.org/10.1145/2818048.2819973
+ ----------
+2024-09-01 17:43:29,447 - root - INFO - top5
+ retrieved_docs:
+ {'chunk_index': 103, 'source': 'data/paper/extracted_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.txt', 'start_index': 70579}
+ 16. Felicia Cordeiro, Elizabeth Bales, Erin Cherry, and James 
+Fogarty. 2015. Rethinking the Mobile Food Journal. 
+Proceedings of the SIGCHI Conference on Human Factors 
+in Computing Systems (CHI 2015): 3207–3216.  
+http://doi.org/10.1145/2702123.2702154 
+
+17. Felicia Cordeiro, Daniel A Epstein, Edison Thomaz, 
+
+Cordeiro, Elizabeth Bales, Arvind K Jagannathan, Gregory 
+D Abowd, and James Fogarty. 2015. Barriers and Negative 
+Nudges: Exploring Challenges in Food Journaling. 
+Proceedings of the SIGCHI Conference on Human Factors 
+in Computing Systems (CHI 2015): 1159–1162.  
+http://doi.org/10.1145/2702123.2702155
+ ----------
