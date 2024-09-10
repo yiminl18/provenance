@@ -6,6 +6,8 @@ import pandas as pd
 from pretrain_sentence_splitter import get_token_num_for_list, get_token_num
 from questions import civic_q, paper_q, notice_q, civic_path, paper_path, notice_path, get_evaluation_instruction
 from retrieve_and_generation import generate_from_evidence
+from baseline12_result_merge import get_precision, get_recall, get_jaccard_sentences
+import seaborn as sns
 
 
 # def get_average_result(baseline_name, dataset_name, model_name):
@@ -85,12 +87,17 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
             success_scores = []
             success_evidence = []
             success_evidence_sentence_number = []
+            provenance_token_number_list = []
+            evidence_token_number_list = []
 
             # 依次读取每个JSON文件并解析为字典
             for file_path in file_paths:
                 # 打开文件并读取内容
                 with open(file_path, 'r', encoding='utf-8') as file:
                     content = json.load(file)
+
+                    # for content in content_list: # if use append_to_json in baseline function
+
                     print(f"file_path: {file_path}")
                     scores.append(content["jaccard_similarity"])
                     # index_to_delete = content["index_to_delete"]
@@ -98,19 +105,335 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
                     success_scores.append(content["jaccard_similarity"])
                     success_evidence += content["evidence"] # evidence is a list of str
                     success_evidence_sentence_number.append(len(content["evidence"]))
+                    provenance_token_number_list.append(get_token_num_for_list(content["provenance"]))
+                    evidence_token_number_list.append(get_token_num_for_list(content["evidence"]))
                     
+            average_token_number_of_evidence = sum(evidence_token_number_list) / len(evidence_token_number_list)
+            average_token_number_of_provenance = sum(provenance_token_number_list) / len(provenance_token_number_list)
             result = {
                 "baseline_name": baseline_name,
                 "model_name": model_name,
                 "dataset_name": dataset_name,
                 "average_jaccard_similarity": sum(scores) / len(scores),
-                "accuracy": len(success_scores) / len(scores),
-                "average_len_of_success_evidence": get_token_num_for_list(success_evidence) / len(success_evidence),
-                "average_sentence_number_of_success_evidence": sum(success_evidence_sentence_number) / len(success_evidence_sentence_number)
+                # "accuracy": len(success_scores) / len(scores),
+                "average_token_number_of_evidence": average_token_number_of_evidence,
+                "average_token_number_of_provenance": average_token_number_of_provenance,
+                "compression_rate": average_token_number_of_evidence / average_token_number_of_provenance
             }
 
             file_path_to_save = f'test/output/provenance/{baseline_name}/average_result.json'
             append_to_json_file(file_path_to_save, result)
+
+def compression_rate_heatmap(baseline_name: str, dataset_names: list[str], model_names: list[str]):
+    
+    
+
+    # 获取文件夹内所有JSON文件的路径
+    for dataset_name in dataset_names:
+        for model_name in model_names:
+            # 定义一个字典用于存储每个 (question_index, document_index) 对应的 compression_rate
+            compression_rates = {}
+            folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+
+            file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+
+            # 依次读取每个JSON文件并解析为字典
+            for file_path in file_paths:
+                # 打开文件并读取内容
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = json.load(file)[0]
+
+                    print(f"file_path: {file_path}")
+                    question_index = content["question_id"]
+                    document_index = content["document_id"]
+                    provenance_token_number = get_token_num_for_list(content["provenance"])
+                    evidence_token_number = get_token_num_for_list(content["evidence"])
+                    compression_rate = evidence_token_number / provenance_token_number
+
+                    # 使用 question_index 和 document_index 作为键，存储对应的 compression_rate
+                    compression_rates[(question_index, document_index)] = compression_rate
+
+            # 获取所有 unique 的 question 和 document 索引
+            question_indices = sorted(set([q for q, _ in compression_rates.keys()]))
+            document_indices = sorted(set([d for _, d in compression_rates.keys()]))
+
+            # 初始化一个二维数组用于存储 compression_rate 值
+            heatmap_data = np.zeros((len(question_indices), len(document_indices)))
+
+            # 将 compression_rate 数据填充到二维数组中
+            for (q, d), compression_rate in compression_rates.items():
+                q_idx = question_indices.index(q)
+                d_idx = document_indices.index(d)
+                heatmap_data[q_idx, d_idx] = compression_rate
+
+            # 创建保存热图的文件路径
+            save_path = f'test/output/provenance/{baseline_name}/{dataset_name}_{model_name}_compression_rate_heatmap.png'
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)  # 确保目录存在
+
+            # 绘制热图
+            plt.figure(figsize=(10, 8))
+            sns.heatmap(heatmap_data, xticklabels=document_indices, yticklabels=question_indices, cmap='coolwarm', annot=True)
+            plt.xlabel('Document Index')
+            plt.ylabel('Question Index')
+            plt.title(f'Compression Rate Heatmap for {dataset_name} - {model_name}')
+
+            # 保存热图为图片
+            plt.savefig(save_path)
+            plt.close()  # 关闭图像，释放内存
+
+            print(f"Heatmap saved to {save_path}")
+
+
+def robustness_heatmap(baseline_name: str, dataset_names: list[str], model_names: list[str]):
+
+    # 获取文件夹内所有JSON文件的路径
+    for dataset_name in dataset_names:
+        for model_name in model_names:
+            folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+
+            file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+
+            # 定义字典来保存不同 content_index 的 precision, recall, f1_score
+            precision_dict = {}
+            recall_dict = {}
+            f1_dict = {}
+
+            # 依次读取每个JSON文件并解析为字典
+            for file_path in file_paths:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content_list = json.load(file)
+                    gt_evidence = []
+                    for context_index, content in enumerate(content_list):  # 如果使用 append_to_json
+                        if context_index == 0:
+                            gt_evidence = content["evidence"]
+                            continue
+
+                        evidence = content["evidence"]
+                        precision = get_precision(evidence, gt_evidence)
+                        recall = get_recall(evidence, gt_evidence)
+                        f1_score = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+                        question_index = content["question_id"]
+                        document_index = content["document_id"]
+
+                        # 将 precision, recall, f1_score 存储到对应的 content_index 字典中
+                        if context_index not in precision_dict:
+                            precision_dict[context_index] = {}
+                            recall_dict[context_index] = {}
+                            f1_dict[context_index] = {}
+
+                        precision_dict[context_index][(question_index, document_index)] = precision
+                        recall_dict[context_index][(question_index, document_index)] = recall
+                        f1_dict[context_index][(question_index, document_index)] = f1_score
+
+            # 针对每个 content_index 生成一张 heatmap
+            for context_index in precision_dict.keys():
+                # 获取所有 unique 的 question 和 document 索引
+                question_indices = sorted(set([q for q, _ in precision_dict[context_index].keys()]))
+                document_indices = sorted(set([d for _, d in precision_dict[context_index].keys()]))
+
+                # 初始化三个二维数组分别用于存储 precision, recall, f1_score 的值
+                precision_data = np.zeros((len(question_indices), len(document_indices)))
+                recall_data = np.zeros((len(question_indices), len(document_indices)))
+                f1_data = np.zeros((len(question_indices), len(document_indices)))
+
+                # 填充数据到二维数组中
+                for (q, d), precision in precision_dict[context_index].items():
+                    q_idx = question_indices.index(q)
+                    d_idx = document_indices.index(d)
+                    precision_data[q_idx, d_idx] = precision
+
+                for (q, d), recall in recall_dict[context_index].items():
+                    q_idx = question_indices.index(q)
+                    d_idx = document_indices.index(d)
+                    recall_data[q_idx, d_idx] = recall
+
+                for (q, d), f1 in f1_dict[context_index].items():
+                    q_idx = question_indices.index(q)
+                    d_idx = document_indices.index(d)
+                    f1_data[q_idx, d_idx] = f1
+
+                # 保存热图的文件路径
+                precision_save_path = f'test/output/provenance/{baseline_name}/{dataset_name}_{model_name}_precision_heatmap_{context_index}.png'
+                recall_save_path = f'test/output/provenance/{baseline_name}/{dataset_name}_{model_name}_recall_heatmap_{context_index}.png'
+                # f1_save_path = f'test/output/provenance/{baseline_name}/{dataset_name}_{model_name}_f1_heatmap_{context_index}.png'
+
+                os.makedirs(os.path.dirname(precision_save_path), exist_ok=True)
+
+                # 绘制并保存 precision 热图
+                plt.figure(figsize=(8, 8))
+                sns.heatmap(precision_data, xticklabels=document_indices, yticklabels=question_indices, cmap='coolwarm', annot=True)
+                plt.xlabel('Document Index')
+                plt.ylabel('Question Index')
+                plt.title(f'Precision Heatmap for {dataset_name} - {model_name} (Run {context_index})')
+                plt.savefig(precision_save_path)
+                plt.close()
+
+                # 绘制并保存 recall 热图
+                plt.figure(figsize=(8, 8))
+                sns.heatmap(recall_data, xticklabels=document_indices, yticklabels=question_indices, cmap='coolwarm', annot=True)
+                plt.xlabel('Document Index')
+                plt.ylabel('Question Index')
+                plt.title(f'Recall Heatmap for {dataset_name} - {model_name} (Run {context_index})')
+                plt.savefig(recall_save_path)
+                plt.close()
+
+                print(f"Precision heatmap saved to {precision_save_path}")
+                print(f"Recall heatmap saved to {recall_save_path}")
+
+
+def robustness_heatmap_combined(baseline_name: str, dataset_names: list[str], model_names: list[str], content_index_list: list[int]):
+
+    # Number of rows (metrics) and columns (datasets)
+    rows = 2  # Precision and Recall for each row
+    cols = len(dataset_names)  # Each dataset will have its own column
+
+    # Create the figure with subplots
+    fig, axes = plt.subplots(rows, cols, figsize=(15, 10), constrained_layout=True)
+
+    # Loop through datasets and models to fill the heatmaps for precision and recall
+    # dataloading
+    precision_dict = {} # {dataset_name: {model_name: {content_index: {(question_index, document_index): precision}}}}
+    recall_dict = {}
+    for col_idx, dataset_name in enumerate(dataset_names):
+        for model_name in model_names:
+            folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+            file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+            # Initialize dictionaries to store precision and recall
+
+
+            # Loop through JSON files and parse data
+            for file_path in file_paths:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content_list = json.load(file)
+                    gt_evidence = []
+                    for content_idx, content in enumerate(content_list):
+                        if content_idx == 0:
+                            gt_evidence = content["evidence"]
+                            continue
+
+                        evidence = content["evidence"]
+                        precision = get_precision(evidence, gt_evidence)
+                        recall = get_recall(evidence, gt_evidence)
+                        question_index = content["question_id"]
+                        document_index = content["document_id"]
+
+                        # Save precision and recall for each content_index
+                        if content_idx not in precision_dict:
+                            precision_dict[content_idx] = {}
+                            recall_dict[content_idx] = {}
+
+                        precision_dict[content_idx][(question_index, document_index)] = precision
+                        recall_dict[content_idx][(question_index, document_index)] = recall
+
+            # Generate heatmap for precision and recall for the current dataset and model
+            for context_idx in precision_dict.keys():
+                # Get unique question and document indices
+                question_indices = sorted(set([q for q, _ in precision_dict[context_idx].keys()]))
+                document_indices = sorted(set([d for _, d in precision_dict[context_idx].keys()]))
+
+                # Create 2D arrays for precision and recall
+                precision_data = np.zeros((len(question_indices), len(document_indices)))
+                recall_data = np.zeros((len(question_indices), len(document_indices)))
+
+                # Fill precision and recall data arrays
+                for (q, d), precision in precision_dict[context_idx].items():
+                    q_idx = question_indices.index(q)
+                    d_idx = document_indices.index(d)
+                    precision_data[q_idx, d_idx] = precision
+
+                for (q, d), recall in recall_dict[context_idx].items():
+                    q_idx = question_indices.index(q)
+                    d_idx = document_indices.index(d)
+                    recall_data[q_idx, d_idx] = recall
+
+                # Plot precision heatmap (1st row)
+                sns.heatmap(precision_data, ax=axes[0, col_idx], cmap='coolwarm', annot=True, cbar=True)
+                axes[0, col_idx].set_title(f'{dataset_name.capitalize()} - Precision')
+                axes[0, col_idx].set_xlabel('Document Index')
+                if col_idx == 0:
+                    axes[0, col_idx].set_ylabel('Question Index (Precision)')
+
+                # Plot recall heatmap (2nd row)
+                sns.heatmap(recall_data, ax=axes[1, col_idx], cmap='coolwarm', annot=True, cbar=True)
+                axes[1, col_idx].set_title(f'{dataset_name.capitalize()} - Recall')
+                axes[1, col_idx].set_xlabel('Document Index')
+                if col_idx == 0:
+                    axes[1, col_idx].set_ylabel('Question Index (Recall)')
+
+            # Save the combined figure
+            combined_save_path = f'test/output/provenance/{baseline_name}_combined_heatmap_context_{context_index}.png'
+            os.makedirs(os.path.dirname(combined_save_path), exist_ok=True)
+            plt.savefig(combined_save_path)
+            plt.close()
+
+            print(f"Combined heatmap saved to {combined_save_path}")
+
+                    
+
+def get_robustness(baseline_name: str, dataset_names: list[str], model_names: list[str]):
+
+    for dataset_name in dataset_names:
+        for model_name in model_names:
+            folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+            file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+
+            # 存储不同 context_index 的 evidence 和度量值
+            precision_dict = {}
+            recall_dict = {}
+            jaccard_dict = {}
+            score_dict = {}
+
+            # 依次读取每个JSON文件并解析为字典
+            for file_path in file_paths:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content_list = json.load(file)
+                    gt_evidence = []
+                    for context_index, content in enumerate(content_list): 
+                        if context_index == 0:
+                            gt_evidence = content["evidence"]
+                            # 初始化 score_dict
+                            if context_index not in score_dict:
+                                score_dict[context_index] = []
+                            score_dict[context_index].append(content["jaccard_similarity"])
+                            continue
+                        
+                        # 记录每个文件的 evidence 和其他度量值
+                        evidence = content["evidence"]
+                        if context_index not in precision_dict:
+                            precision_dict[context_index] = []
+                            recall_dict[context_index] = []
+                            jaccard_dict[context_index] = []
+                            score_dict[context_index] = []
+                        
+                        precision_dict[context_index].append(get_precision(evidence, gt_evidence))
+                        recall_dict[context_index].append(get_recall(evidence, gt_evidence))
+                        jaccard_dict[context_index].append(get_jaccard_sentences(evidence, gt_evidence))
+                        score_dict[context_index].append(content["jaccard_similarity"])
+
+            # 计算每个 context_index 的平均值
+            results = []
+            for context_index in precision_dict:
+                ave_precision = sum(precision_dict[context_index]) / len(precision_dict[context_index])
+                ave_recall = sum(recall_dict[context_index]) / len(recall_dict[context_index])
+                ave_f1 = 2 * ave_precision * ave_recall / (ave_precision + ave_recall) if (ave_precision + ave_recall) != 0 else 0
+                ave_jaccard = sum(jaccard_dict[context_index]) / len(jaccard_dict[context_index])
+                
+                result = {
+                    "baseline_name": baseline_name,
+                    "model_name": model_name,
+                    "dataset_name": dataset_name,
+                    "run_time": context_index,
+                    "average_precision": ave_precision,
+                    "average_recall": ave_recall,
+                    # "average_f1": ave_f1,
+                    "average_jaccard": ave_jaccard,
+                    # "prediction_number": len(precision_dict[context_index]),
+                }
+                results.append(result)
+
+            # 保存结果到JSON文件
+            file_path_to_save = f'test/output/provenance/{baseline_name}/robustness_result.json'
+            append_to_json_file(file_path_to_save, results)
 
 def draw_score_distribution(baseline_name:str, dataset_names:list[str], model_names:list[str]):
     # 获取文件夹内所有JSON文件的路径
@@ -381,13 +704,44 @@ def check_uncertainty(baseline_names:list[str], dataset_names:list[str], model_n
                                     "run": i
                                 })
 
+
+def clean_output_json(baseline_name:str, dataset_names:list[str], model_names:list[str]):
+
+    # 获取文件夹内所有JSON文件的路径
+    for dataset_name in dataset_names:
+        for model_name in model_names:
+            folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+
+            file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+
+            # 依次读取每个JSON文件并解析为字典
+            for file_path in file_paths:
+                # 打开文件并读取内容
+                content = []
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = json.load(file)
+                    for dic in content:
+                        dic["model_name"] = "gpt4turbo"
+                    dic_to_save = content[0]
+                    question_index = dic_to_save["question_id"]
+                    document_index = dic_to_save["document_id"]
+                    
+                with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
+                    json.dump(content, f, ensure_ascii=False, indent=4)
+
+
 if __name__ == "__main__":
-    baseline_names = ["baseline2_binary"]
+    # baseline_names = ["baseline2_binary"]
     dataset_names = ['civic', 'paper', 'notice']
-    model_names = ['gpt4turbo']
+    model_names = ['gpt4o']
     question_sets = [civic_q(), paper_q(), notice_q()] # same index as dataset_names
     # document_path_sets = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
     # check_uncertainty(baseline_names, dataset_names, model_names, question_sets)
     # for baseline_name in baseline_names:
     #     draw_average_result_all(baseline_name)
-    get_average_result_baseline2("baseline0", dataset_names, model_names)
+    # get_average_result_baseline2("baseline2_greedy_gt", dataset_names, model_names)
+    # for baseline_name in baseline_names:
+    #     clean_output_json(baseline_name, dataset_names, model_names)
+    # get_robustness("baseline2_greedy", dataset_names, model_names)
+    # compression_rate_heatmap("baseline2_greedy", dataset_names, model_names)
+    robustness_heatmap_combined("baseline2_greedy", dataset_names, model_names)

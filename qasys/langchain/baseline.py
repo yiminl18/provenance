@@ -59,7 +59,7 @@ def try_interval(sentences: list[str], interval: list[int], intervals_to_be_remo
     # print(temp_intervals_to_be_removed)
     temp_sentences = remove_elements_by_intervals(sentences, temp_intervals_to_be_removed)
     # print(temp_sentences)
-    llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentences)
+    llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentences, model_name)
     jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, llm_call["content"])
     threshold = 0.99
     influence = True if jaccard_similarity < threshold else False
@@ -343,7 +343,7 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
         close_logging(logger, [file_handler, console_handler])
 
         # 依次读取每个JSON文件并解析为字典
-        for file_path in file_paths:
+        for file_index, file_path in enumerate(file_paths):
             # 打开文件并读取内容
             with open(file_path, 'r', encoding='utf-8') as file:
                 content = json.load(file)
@@ -355,6 +355,7 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
                 document_index = content["document_id"]
                 evaluation_instruction = content["evaluation_instruction"]
 
+                print(f"file_index: {file_index}")
                 print(f"q{question_index}_d{document_index}")
 
                 provenance_text = " ".join(provenance)
@@ -385,8 +386,9 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
 
             close_logging(logger, [file_handler, console_handler])
 
-            with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
-                json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+            # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
+            #     json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+            append_to_json_file(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', provenance_dict)
         
         cost_dict = {
             "baseline_name": baseline_name,
@@ -548,7 +550,7 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
 
         # 5. generate answer from evidence
 
-                llm_call = generate_from_evidence(question+evaluation_instruction, evidence)
+                llm_call = generate_from_evidence(question+evaluation_instruction, evidence, model_name)
                 evidence_answer = llm_call["content"]
                 cost_list.append(llm_call["cost"])
                 logging.info(f"prompt_instruction: {question+evaluation_instruction}")
@@ -593,8 +595,9 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
                 logging.info(f"all_splits: {all_splits}")
                 
                 # output_filename = convert_baseline(os.path.basename(file_path))
-                with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
-                    json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
+                #     json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                append_to_json_file(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', provenance_dict)
                 with open(f'test/output/logging/logging_{timestamp}.json', 'w', encoding='utf-8') as f:
                     json.dump(logging_dict, f, ensure_ascii=False, indent=4)
                 close_logging(logger, [file_handler, console_handler])
@@ -694,7 +697,7 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
                     logging.info(f"temp_index_to_delete: {temp_index_to_delete}")
                     temp_sentence = remove_elements_by_indexes(sentences, temp_index_to_delete)
                     logging.info(f"temp_sentence: {temp_sentence}")
-                    llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence)
+                    llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence, model_name)
                     temp_evidence_answer = llm_call["content"]
                     cost_list.append(llm_call["cost"])
                     logging.info(f"temp_evidence_answer: {temp_evidence_answer}")
@@ -762,8 +765,9 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
                 }
                 
                 # output_filename = convert_baseline(os.path.basename(file_path))
-                with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
-                    json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
+                #     json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                append_to_json_file(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', provenance_dict)
                 with open(f'test/output/logging/logging_{timestamp}.json', 'w', encoding='utf-8') as f:
                     json.dump(logging_dict, f, ensure_ascii=False, indent=4)
                 close_logging(logger, [file_handler, console_handler])
@@ -792,7 +796,7 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
         gpt_4o_mini.call_count = 0
         gpt_4_turbo.call_count = 0
         cost_list = []
-        folder_path = f'test/output/provenance/baseline0/{dataset_name}/{model_name}'
+        folder_path = f'test/output/rag_dataset/{dataset_name}'
 
 
         # 获取文件夹内所有JSON文件的路径
@@ -910,8 +914,9 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
                 }
                 
                 # output_filename = convert_baseline(os.path.basename(file_path))
-                with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
-                    json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', 'w', encoding='utf-8') as f:
+                #     json.dump(provenance_dict, f, ensure_ascii=False, indent=4)
+                append_to_json_file(f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}/{baseline_name}_{model_name}_q{question_index}_d{document_index}.json', provenance_dict)
                 with open(f'test/output/logging/logging_{timestamp}.json', 'w', encoding='utf-8') as f:
                     json.dump(logging_dict, f, ensure_ascii=False, indent=4)
                 close_logging(logger, [file_handler, console_handler])

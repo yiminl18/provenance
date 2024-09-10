@@ -31,6 +31,13 @@ def get_recall(prediction, ground_truth):
     recall = len(set(prediction).intersection(set(ground_truth))) / len(ground_truth)
     return recall
 
+def get_jaccard_sentences(prediction, ground_truth):
+        # 计算召回率
+    if len(set(prediction).union(set(ground_truth))) == 0:
+        return 0.0  # 防止分母为零
+    jaccard = len(set(prediction).intersection(set(ground_truth))) / len(set(prediction).union(set(ground_truth)))
+    return jaccard
+
 def get_f1_score(precision, recall):
     # 计算 F1 分数
     if precision + recall == 0:

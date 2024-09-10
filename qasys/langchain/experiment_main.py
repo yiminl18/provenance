@@ -6,27 +6,31 @@ from json_average import draw_average_result, draw_average_result_all, get_avera
 
 
 from baseline import baseline0, baseline1, baseline2_greedy_search, baseline2_binary_search, rag_dataset_generation
-dataset_names = ['paper']
-model_names = ['gpt4turbo']
-question_sets = [paper_q()]
-document_sets = [paper_path()]
+dataset_names = ['civic', 'notice', 'paper']
+model_names = ['gpt4o']
+question_sets = [civic_q(), notice_q(), paper_q()]
+document_sets = [civic_path(), notice_path(), paper_path()]
 baseline_names = ['baseline0', 'baseline1', 'baseline2_greedy', 'baseline2_binary']
 # thresholds = [0.4, 0.6, 0.7]
 
 # for dataset_name, question_set, document_set in zip(dataset_names, question_sets, document_sets):
 #     rag_dataset_generation(dataset_name, question_set, document_set)
+for _ in range(3):
+    for dataset_name in dataset_names:
+        baseline0(dataset_name, model_names, "baseline0")
+
+    # for dataset_name in dataset_names:
+    #     baseline1(dataset_name, model_names, 0.7, "baseline1")
 
 # for dataset_name in dataset_names:
-#     baseline0(dataset_name, model_names, "baseline0")
+#     baseline2_binary_search(dataset_name, model_names, baseline_name="baseline2_binary")
 
-# for dataset_name in dataset_names:
-#     baseline1(dataset_name, model_names, 0.7, "baseline1")
 
-# for dataset_name in dataset_names:
-#     baseline2_greedy_search(dataset_name, model_names, baseline_name="baseline2_greedy")
+    # for dataset_name in dataset_names:
+    #     baseline2_greedy_search(dataset_name, model_names, baseline_name="baseline2_greedy")
 
-for dataset_name in dataset_names:
-    baseline2_binary_search(dataset_name, model_names, baseline_name="baseline2_binary")
+    # for dataset_name in dataset_names:
+    #     baseline2_binary_search(dataset_name, model_names, baseline_name="baseline2_binary")
 
 # for dataset_name, question_set, folder_path in zip(dataset_names, question_sets, folder_paths):
 #     for doc in folder_path:

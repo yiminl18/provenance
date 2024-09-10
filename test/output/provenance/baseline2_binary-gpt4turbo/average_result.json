@@ -1,0 +1,29 @@
+[
+    {
+        "baseline_name": "baseline2_binary-gpt4turbo",
+        "model_name": "gpt4turbo",
+        "dataset_name": "civic",
+        "average_jaccard_similarity": 1.0,
+        "average_token_number_of_evidence": 298.45,
+        "average_token_number_of_provenance": 669.4333333333333,
+        "compression_rate": 0.44582482696808245
+    },
+    {
+        "baseline_name": "baseline2_binary-gpt4turbo",
+        "model_name": "gpt4turbo",
+        "dataset_name": "paper",
+        "average_jaccard_similarity": 1.0,
+        "average_token_number_of_evidence": 106.6,
+        "average_token_number_of_provenance": 573.3666666666667,
+        "compression_rate": 0.18591942328934363
+    },
+    {
+        "baseline_name": "baseline2_binary-gpt4turbo",
+        "model_name": "gpt4turbo",
+        "dataset_name": "notice",
+        "average_jaccard_similarity": 1.0,
+        "average_token_number_of_evidence": 33.06666666666667,
+        "average_token_number_of_provenance": 591.3666666666667,
+        "compression_rate": 0.05591567555380193
+    }
+]

@@ -1,41 +1,43 @@
-# I'll modify the `remove_intervals` function to achieve the desired result where adjacent intervals are not merged.
-def remove_intervals(full_intervals: list[list[int]], remove_intervals: list[list[int]]):
-    full_set = convert_intervals_to_set(full_intervals)
-    remove_set = convert_intervals_to_set(remove_intervals)
-    result_set = full_set - remove_set
-    result_intervals = convert_set_to_intervals_without_merging(result_set, full_intervals)
-    return result_intervals
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import Lasso
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
 
-def convert_set_to_intervals_without_merging(result_set, original_intervals):
-    if not result_set:
-        return []
-    
-    intervals = []
-    for original_interval in original_intervals:
-        start, end = original_interval
-        current_interval = []
-        for i in range(start, end + 1):
-            if i in result_set:
-                current_interval.append(i)
-            else:
-                if current_interval:
-                    intervals.append([current_interval[0], current_interval[-1]])
-                    current_interval = []
-        if current_interval:
-            intervals.append([current_interval[0], current_interval[-1]])
-    
-    return intervals
+# Generate sample data
+np.random.seed(42)
+n_samples, n_features = 100, 10
+X = np.random.randn(n_samples, n_features)
 
-def convert_intervals_to_set(intervals: list[list[int]]):
-    result_set = set()
-    
-    for interval in intervals:
-        start, end = interval
-        result_set.update(range(start, end + 1))
-    
-    return result_set
+# Only the first 3 features are important
+true_coefficients = np.array([1.5, -2.0, 3.0] + [0] * (n_features - 3))
 
-# Test the function with the provided example
-full_intervals = [[1,2], [3,6], [11, 20]]
-remove_intervals = [[4, 5], [13,17]]
-print(remove_intervals(full_intervals, remove_intervals))
+# Generate target variable with some noise
+y = X.dot(true_coefficients) + np.random.normal(0, 0.5, size=n_samples)
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create and fit the LASSO model
+lasso = Lasso(alpha=0.1)
+lasso.fit(X_train, y_train)
+
+# Print the coefficients
+print("LASSO coefficients:", lasso.coef_)
+print("Intercept (bias term):", lasso.intercept_)
+
+# Predict on the test set
+y_pred = lasso.predict(X_test)
+
+# Evaluate the model
+mse = mean_squared_error(y_test, y_pred)
+print("Mean Squared Error:", mse)
+
+# Plot the true coefficients vs. estimated coefficients
+plt.figure(figsize=(10,6))
+plt.plot(true_coefficients, 'ro', label="True coefficients")
+plt.plot(lasso.coef_, 'bx', label="LASSO estimated coefficients")
+plt.axhline(0, color='gray', linestyle='--')
+plt.legend()
+plt.title("True vs LASSO Estimated Coefficients")
+plt.show()

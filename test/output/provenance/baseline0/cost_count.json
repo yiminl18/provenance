@@ -1,35 +1,110 @@
 [
     {
+        "baseline_name": "baseline0",
         "dataset_name": "civic",
-        "model_name": "gpt4turbo",
-        "cost": 0.7408099999999997,
+        "model_name": "gpt4o",
+        "cost": 0.4057850000000002,
         "run_time": 60,
-        "average_cost": 0.01234683333333333,
+        "average_cost": 0.006763083333333336,
         "gpt35_call_count": 0,
-        "gpt4o_call_count": 0,
+        "gpt4o_call_count": 30,
         "gpt4o_mini_call_count": 0,
-        "gpt4_turbo_call_count": 60
+        "gpt4_turbo_call_count": 30
     },
     {
+        "baseline_name": "baseline0",
         "dataset_name": "notice",
-        "model_name": "gpt4turbo",
-        "cost": 0.4660600000000002,
+        "model_name": "gpt4o",
+        "cost": 0.2920999999999999,
         "run_time": 60,
-        "average_cost": 0.00776766666666667,
+        "average_cost": 0.004868333333333332,
         "gpt35_call_count": 0,
-        "gpt4o_call_count": 0,
+        "gpt4o_call_count": 30,
         "gpt4o_mini_call_count": 0,
-        "gpt4_turbo_call_count": 60
+        "gpt4_turbo_call_count": 30
     },
     {
+        "baseline_name": "baseline0",
         "dataset_name": "paper",
-        "model_name": "gpt4turbo",
-        "cost": 0.5627300000000003,
+        "model_name": "gpt4o",
+        "cost": 0.3409950000000001,
         "run_time": 60,
-        "average_cost": 0.009378833333333338,
+        "average_cost": 0.005683250000000002,
         "gpt35_call_count": 0,
-        "gpt4o_call_count": 0,
+        "gpt4o_call_count": 30,
         "gpt4o_mini_call_count": 0,
-        "gpt4_turbo_call_count": 60
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "civic",
+        "model_name": "gpt4o",
+        "cost": 0.37865500000000024,
+        "run_time": 60,
+        "average_cost": 0.00631091666666667,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "notice",
+        "model_name": "gpt4o",
+        "cost": 0.2878849999999999,
+        "run_time": 60,
+        "average_cost": 0.004798083333333331,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "paper",
+        "model_name": "gpt4o",
+        "cost": 0.33731500000000014,
+        "run_time": 60,
+        "average_cost": 0.005621916666666669,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "civic",
+        "model_name": "gpt4o",
+        "cost": 0.3929550000000001,
+        "run_time": 60,
+        "average_cost": 0.006549250000000002,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "notice",
+        "model_name": "gpt4o",
+        "cost": 0.2849649999999999,
+        "run_time": 60,
+        "average_cost": 0.004749416666666665,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
+    },
+    {
+        "baseline_name": "baseline0",
+        "dataset_name": "paper",
+        "model_name": "gpt4o",
+        "cost": 0.3334400000000002,
+        "run_time": 60,
+        "average_cost": 0.005557333333333336,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 30,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 30
     }
 ]
