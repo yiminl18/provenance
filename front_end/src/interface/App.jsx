@@ -179,7 +179,6 @@ const App = () => {
             <div id="InComingDateTitle"><b>In-Coming Data:</b></div>
             <div className="outerLinkTextandLink">
               Orginal Source:
-              <a href="https://google.com" class="button" className="outerLink"></a>
             </div>
 
           </section>
