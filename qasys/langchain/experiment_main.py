@@ -5,7 +5,7 @@ from json_average import draw_average_result, draw_average_result_all, get_avera
 # #TODO: store vectorstore to disk
 
 
-from baseline import baseline0, baseline1, baseline2_greedy_search, baseline2_binary_search, rag_dataset_generation
+from baseline import baseline0, baseline1, baseline2_greedy_search, baseline2_binary_search, rag_dataset_generation, baseline3_reverse_search
 dataset_names = ['civic', 'notice', 'paper']
 model_names = ['gpt4o']
 question_sets = [civic_q(), notice_q(), paper_q()]
@@ -15,9 +15,12 @@ baseline_names = ['baseline0', 'baseline1', 'baseline2_greedy', 'baseline2_binar
 
 # for dataset_name, question_set, document_set in zip(dataset_names, question_sets, document_sets):
 #     rag_dataset_generation(dataset_name, question_set, document_set)
-for _ in range(3):
-    for dataset_name in dataset_names:
-        baseline0(dataset_name, model_names, "baseline0")
+# for _ in range(3):
+#     for dataset_name in dataset_names:
+#         baseline0(dataset_name, model_names, "baseline0")
+
+for dataset_name in dataset_names:
+    baseline3_reverse_search(dataset_name, model_names, "baseline3_reverse")
 
     # for dataset_name in dataset_names:
     #     baseline1(dataset_name, model_names, 0.7, "baseline1")

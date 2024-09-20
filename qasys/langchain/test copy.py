@@ -1,43 +1,56 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.linear_model import Lasso
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
+import numpy as np
+# Data for GPT-4o
+gpt4o_datasets = ["civic", "paper", "notice"]
+gpt4o_compression_rates = [0.2015635114275756, 0.12609731992326026, 0.1087875542528606]
 
-# Generate sample data
-np.random.seed(42)
-n_samples, n_features = 100, 10
-X = np.random.randn(n_samples, n_features)
+# Data for GPT-4turbo
+gpt4turbo_compression_rates = [0.24289199820743915, 0.08766932155107261, 0.07136012626120286]
+gpt4turbo_jaccard_similarity = [0.7640746928396542, 0.7440609098503835, 0.825]
 
-# Only the first 3 features are important
-true_coefficients = np.array([1.5, -2.0, 3.0] + [0] * (n_features - 3))
+# Creating two plots: Compression Rate and Average Jaccard Similarity
 
-# Generate target variable with some noise
-y = X.dot(true_coefficients) + np.random.normal(0, 0.5, size=n_samples)
+fig, axs = plt.subplots(2, 1, figsize=(8, 12))
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Compression Rate Comparison
+bar_width = 0.35
+x = np.arange(len(gpt4o_datasets))
 
-# Create and fit the LASSO model
-lasso = Lasso(alpha=0.1)
-lasso.fit(X_train, y_train)
+# Bar chart for compression rates
+bars_gpt4o = axs[0].bar(x - bar_width/2, gpt4o_compression_rates, bar_width, label='GPT-4o', color='blue')
+bars_gpt4turbo = axs[0].bar(x + bar_width/2, gpt4turbo_compression_rates, bar_width, label='GPT-4turbo', color='green')
 
-# Print the coefficients
-print("LASSO coefficients:", lasso.coef_)
-print("Intercept (bias term):", lasso.intercept_)
+# Adding labels to each bar for compression rates
+for bar in bars_gpt4o:
+    yval = bar.get_height()
+    axs[0].text(bar.get_x() + bar.get_width()/2, yval + 0.01, round(yval, 3), ha='center', va='bottom')
+for bar in bars_gpt4turbo:
+    yval = bar.get_height()
+    axs[0].text(bar.get_x() + bar.get_width()/2, yval + 0.01, round(yval, 3), ha='center', va='bottom')
 
-# Predict on the test set
-y_pred = lasso.predict(X_test)
+# Labels and title for Compression Rate
+axs[0].set_xlabel('Dataset')
+axs[0].set_ylabel('Compression Rate')
+axs[0].set_title('Baseline1 Compression Rate Comparison: GPT-4o vs GPT-4turbo')
+axs[0].set_xticks(x)
+axs[0].set_xticklabels(gpt4o_datasets)
+axs[0].legend()
 
-# Evaluate the model
-mse = mean_squared_error(y_test, y_pred)
-print("Mean Squared Error:", mse)
+# Jaccard Similarity Comparison for GPT-4turbo
+bars_jaccard = axs[1].bar(x, gpt4turbo_jaccard_similarity, bar_width, label='Jaccard Similarity (GPT-4turbo)', color='orange')
 
-# Plot the true coefficients vs. estimated coefficients
-plt.figure(figsize=(10,6))
-plt.plot(true_coefficients, 'ro', label="True coefficients")
-plt.plot(lasso.coef_, 'bx', label="LASSO estimated coefficients")
-plt.axhline(0, color='gray', linestyle='--')
-plt.legend()
-plt.title("True vs LASSO Estimated Coefficients")
+# Adding labels to each bar for Jaccard similarity
+for bar in bars_jaccard:
+    yval = bar.get_height()
+    axs[1].text(bar.get_x() + bar.get_width()/2, yval + 0.01, round(yval, 3), ha='center', va='bottom')
+
+# Labels and title for Jaccard Similarity
+axs[1].set_xlabel('Dataset')
+axs[1].set_ylabel('Jaccard Similarity')
+axs[1].set_title('Average Jaccard Similarity Comparison (GPT-4turbo)')
+axs[1].set_xticks(x)
+axs[1].set_xticklabels(gpt4o_datasets)
+
+# Display the plots
+plt.tight_layout()
 plt.show()

@@ -45,30 +45,30 @@ def get_average_result_baseline1(baseline_name:str, dataset_names:list[str], mod
             file_paths = glob.glob(os.path.join(folder_path, '*.json'))
 
             scores = []
-            success_scores = []
-            success_evidence = []
-            success_evidence_sentence_number = []
+            # success_scores = []
+            evidence = []
+            evidence_sentence_number = []
 
             # 依次读取每个JSON文件并解析为字典
             for file_path in file_paths:
                 # 打开文件并读取内容
                 with open(file_path, 'r', encoding='utf-8') as file:
-                    content = json.load(file)
+                    content = json.load(file)[0]
                     print(f"file_path: {file_path}")
                     scores.append(content["jaccard_similarity"])
-                    if scores[-1] > 0.99: # valid index list
-                        success_scores.append(content["jaccard_similarity"])
-                        success_evidence += content["evidence"] # evidence is a list of str
-                        success_evidence_sentence_number.append(len(content["evidence"]))
+                    # if scores[-1] > 0.99: # valid index list
+                    # success_scores.append(content["jaccard_similarity"])
+                    evidence += content["evidence"] # evidence is a list of str
+                    # evidence_sentence_number.append(len(content["evidence"]))
                     
             result = {
                 "baseline_name": baseline_name,
                 "model_name": model_name,
                 "dataset_name": dataset_name,
                 "average_jaccard_similarity": sum(scores) / len(scores),
-                "accuracy": len(success_scores) / len(scores),
-                "average_len_of_success_evidence": get_token_num_for_list(success_evidence) / len(success_evidence),
-                "average_sentence_number_of_success_evidence": sum(success_evidence_sentence_number) / len(success_evidence_sentence_number)
+                # "accuracy": len(success_scores) / len(scores),
+                "average_len_of_success_evidence": get_token_num_for_list(evidence) / len(evidence),
+                # "average_sentence_number_of_success_evidence": sum(success_evidence_sentence_number) / len(success_evidence_sentence_number)
             }
 
             file_path_to_save = f'test/output/provenance/{baseline_name}/average_result.json'
@@ -370,8 +370,76 @@ def robustness_heatmap_combined(baseline_name: str, dataset_names: list[str], mo
 
                     
 
-def get_robustness(baseline_name: str, dataset_names: list[str], model_names: list[str]):
+# def get_robustness(baseline_name: str, dataset_names: list[str], model_names: list[str]):
 
+#     for dataset_name in dataset_names:
+#         for model_name in model_names:
+#             folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
+#             file_paths = glob.glob(os.path.join(folder_path, '*.json'))
+
+#             # 存储不同 context_index 的 evidence 和度量值
+#             precision_dict = {}
+#             recall_dict = {}
+#             jaccard_dict = {}
+#             score_dict = {}
+
+#             # 依次读取每个JSON文件并解析为字典
+#             for file_path in file_paths:
+#                 with open(file_path, 'r', encoding='utf-8') as file:
+#                     content_list = json.load(file)
+#                     gt_evidence = []
+#                     for context_index, content in enumerate(content_list): 
+#                         if context_index == 2: # choose as ground truth
+#                             gt_evidence = content["evidence"]
+#                             # 初始化 score_dict
+#                             if context_index not in score_dict:
+#                                 score_dict[context_index] = []
+#                             score_dict[context_index].append(content["jaccard_similarity"])
+#                             continue
+
+#                     for context_index, content in enumerate(content_list): 
+#                         if context_index == 2:
+#                             continue
+#                         # 记录每个文件的 evidence 和其他度量值
+#                         evidence = content["evidence"]
+#                         if context_index not in precision_dict:
+#                             precision_dict[context_index] = []
+#                             recall_dict[context_index] = []
+#                             jaccard_dict[context_index] = []
+#                             score_dict[context_index] = []
+                        
+#                         precision_dict[context_index].append(get_precision(evidence, gt_evidence))
+#                         recall_dict[context_index].append(get_recall(evidence, gt_evidence))
+#                         jaccard_dict[context_index].append(get_jaccard_sentences(evidence, gt_evidence))
+#                         score_dict[context_index].append(content["jaccard_similarity"])
+
+#             # 计算每个 context_index 的平均值
+#             results = []
+#             for context_index in precision_dict:
+#                 ave_precision = sum(precision_dict[context_index]) / len(precision_dict[context_index])
+#                 ave_recall = sum(recall_dict[context_index]) / len(recall_dict[context_index])
+#                 ave_f1 = 2 * ave_precision * ave_recall / (ave_precision + ave_recall) if (ave_precision + ave_recall) != 0 else 0
+#                 ave_jaccard = sum(jaccard_dict[context_index]) / len(jaccard_dict[context_index])
+                
+#                 result = {
+#                     "baseline_name": baseline_name,
+#                     "model_name": model_name,
+#                     "dataset_name": dataset_name,
+#                     "run_time": context_index,
+#                     "average_precision": ave_precision,
+#                     "average_recall": ave_recall,
+#                     # "average_f1": ave_f1,
+#                     "average_jaccard": ave_jaccard,
+#                     # "prediction_number": len(precision_dict[context_index]),
+#                 }
+#                 results.append(result)
+
+#             # 保存结果到JSON文件
+#             file_path_to_save = f'test/output/provenance/{baseline_name}/robustness_result.json'
+#             append_to_json_file(file_path_to_save, results)
+#             # print(f"results: {results}")
+
+def get_robustness(baseline_name: str, dataset_names: list[str], model_names: list[str]):
     for dataset_name in dataset_names:
         for model_name in model_names:
             folder_path = f'test/output/provenance/{baseline_name}/{dataset_name}/{model_name}'
@@ -387,35 +455,40 @@ def get_robustness(baseline_name: str, dataset_names: list[str], model_names: li
             for file_path in file_paths:
                 with open(file_path, 'r', encoding='utf-8') as file:
                     content_list = json.load(file)
-                    gt_evidence = []
-                    for context_index, content in enumerate(content_list): 
-                        if context_index == 0:
-                            gt_evidence = content["evidence"]
-                            # 初始化 score_dict
-                            if context_index not in score_dict:
-                                score_dict[context_index] = []
-                            score_dict[context_index].append(content["jaccard_similarity"])
-                            continue
-                        
-                        # 记录每个文件的 evidence 和其他度量值
-                        evidence = content["evidence"]
-                        if context_index not in precision_dict:
-                            precision_dict[context_index] = []
-                            recall_dict[context_index] = []
-                            jaccard_dict[context_index] = []
-                            score_dict[context_index] = []
-                        
-                        precision_dict[context_index].append(get_precision(evidence, gt_evidence))
-                        recall_dict[context_index].append(get_recall(evidence, gt_evidence))
-                        jaccard_dict[context_index].append(get_jaccard_sentences(evidence, gt_evidence))
-                        score_dict[context_index].append(content["jaccard_similarity"])
 
-            # 计算每个 context_index 的平均值
+                    # 遍历每个 context_index，将其作为 ground truth
+                    for gt_context_index, gt_content in enumerate(content_list):
+                        gt_evidence = gt_content["evidence"]
+
+                        # 初始化 score_dict
+                        if gt_context_index not in score_dict:
+                            score_dict[gt_context_index] = []
+                        score_dict[gt_context_index].append(gt_content["jaccard_similarity"])
+
+                        # 对每个文件的 context_index，计算与 ground truth 的度量值
+                        for context_index, content in enumerate(content_list):
+                            if context_index == gt_context_index:
+                                continue
+
+                            # 记录每个文件的 evidence 和其他度量值
+                            evidence = content["evidence"]
+                            if context_index not in precision_dict:
+                                precision_dict[context_index] = []
+                                recall_dict[context_index] = []
+                                jaccard_dict[context_index] = []
+                                score_dict[context_index] = []
+
+                            precision_dict[context_index].append(get_precision(evidence, gt_evidence))
+                            recall_dict[context_index].append(get_recall(evidence, gt_evidence))
+                            jaccard_dict[context_index].append(get_jaccard_sentences(evidence, gt_evidence))
+                            score_dict[context_index].append(content["jaccard_similarity"])
+
+            # 计算每个 context_index 对不同 ground truth 的平均值
             results = []
             for context_index in precision_dict:
                 ave_precision = sum(precision_dict[context_index]) / len(precision_dict[context_index])
                 ave_recall = sum(recall_dict[context_index]) / len(recall_dict[context_index])
-                ave_f1 = 2 * ave_precision * ave_recall / (ave_precision + ave_recall) if (ave_precision + ave_recall) != 0 else 0
+                # ave_f1 = 2 * ave_precision * ave_recall / (ave_precision + ave_recall) if (ave_precision + ave_recall) != 0 else 0
                 ave_jaccard = sum(jaccard_dict[context_index]) / len(jaccard_dict[context_index])
                 
                 result = {
@@ -432,8 +505,9 @@ def get_robustness(baseline_name: str, dataset_names: list[str], model_names: li
                 results.append(result)
 
             # 保存结果到JSON文件
-            file_path_to_save = f'test/output/provenance/{baseline_name}/robustness_result.json'
-            append_to_json_file(file_path_to_save, results)
+            # file_path_to_save = f'test/output/provenance/{baseline_name}/robustness_result.json'
+            # append_to_json_file(file_path_to_save, results)
+            print(f"results: {results}")
 
 def draw_score_distribution(baseline_name:str, dataset_names:list[str], model_names:list[str]):
     # 获取文件夹内所有JSON文件的路径
@@ -733,7 +807,7 @@ def clean_output_json(baseline_name:str, dataset_names:list[str], model_names:li
 if __name__ == "__main__":
     # baseline_names = ["baseline2_binary"]
     dataset_names = ['civic', 'paper', 'notice']
-    model_names = ['gpt4o']
+    model_names = ['gpt4turbo']
     question_sets = [civic_q(), paper_q(), notice_q()] # same index as dataset_names
     # document_path_sets = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
     # check_uncertainty(baseline_names, dataset_names, model_names, question_sets)
@@ -744,4 +818,5 @@ if __name__ == "__main__":
     #     clean_output_json(baseline_name, dataset_names, model_names)
     # get_robustness("baseline2_greedy", dataset_names, model_names)
     # compression_rate_heatmap("baseline2_greedy", dataset_names, model_names)
-    robustness_heatmap_combined("baseline2_greedy", dataset_names, model_names)
+    # robustness_heatmap_combined("baseline2_greedy", dataset_names, model_names)
+    get_average_result_baseline2("baseline1_gt", dataset_names, model_names)

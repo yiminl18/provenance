@@ -54,11 +54,7 @@ def try_interval(sentences: list[str], interval: list[int], intervals_to_be_remo
     intervals_to_be_removed = intervals_to_be_removed.copy()
     intervals_to_be_removed.append(interval)
     temp_intervals_to_be_removed = intervals_to_be_removed
-    # print(interval)
-    # print(intervals_to_be_removed)
-    # print(temp_intervals_to_be_removed)
     temp_sentences = remove_elements_by_intervals(sentences, temp_intervals_to_be_removed)
-    # print(temp_sentences)
     llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentences, model_name)
     jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, llm_call["content"])
     threshold = 0.99
@@ -93,14 +89,6 @@ def partition_intervals(intervals: list[list[int]]):
     
     return result
 
-
-# def remove_intervals(full_intervals: list[list[int]], remove_intervals: list[list[int]]): # with merging
-#     full_set = convert_intervals_to_set(full_intervals)
-#     remove_set = convert_intervals_to_set(remove_intervals)
-#     result_set = full_set - remove_set
-#     result_intervals = convert_set_to_intervals(result_set)
-#     return result_intervals
-
 def convert_set_to_intervals_without_merging(result_set, original_intervals):
     if not result_set:
         return []
@@ -133,8 +121,6 @@ def remove_elements_by_intervals(sentences: list[str], remove_intervals: list[li
     remove_indexes = list(remove_set)
     return remove_elements_by_indexes(sentences, remove_indexes)
 
-
-
 def binary_search_sentences(sentences: list[str], question:str, evaluation_instruction:str, raw_answer:str, model_name: str):
     iterate_list = [[0, len(sentences)-1]]
     updated_iterate_list = iterate_list
@@ -143,30 +129,24 @@ def binary_search_sentences(sentences: list[str], question:str, evaluation_instr
     final_try_result = {}
     while True:
         print("-"*10)
-        # logging.info("-"*10)
         temp_intervals_to_be_removed = []
         for interval in updated_iterate_list:
             print("testing interval: ", interval)
-            # logging.info("testing interval: ", interval)
             try_result = try_interval(sentences, interval, intervals_to_be_removed, question, evaluation_instruction, raw_answer, model_name)
-            # logging.info("temp_sentence: ", try_result["evidence"])
             cost_list.append(try_result["cost"])
             if not try_result["influence"]: # no influence, remove it
                 final_try_result = try_result
                 intervals_to_be_removed.append(interval)
                 temp_intervals_to_be_removed.append(interval)
                 print("no influence, intervals_to_be_removed: ", intervals_to_be_removed)
-                # logging.info("no influence, intervals_to_be_removed: ", intervals_to_be_removed)
             else:
                 print("have influence")
-                # logging.info("have influence")
                 continue
         # if each interval of iterate_list is of len(1), return
         iterate_set = convert_intervals_to_set(iterate_list)
         intervals_to_be_removed_set = convert_intervals_to_set(intervals_to_be_removed)
         if interval_all_len_1(updated_iterate_list) or iterate_set == intervals_to_be_removed_set:
             print("binary ends, intervals_to_be_removed: ", intervals_to_be_removed)
-            # logging.info("binary ends, intervals_to_be_removed: ", intervals_to_be_removed)
             if not intervals_to_be_removed: # no deletion
                 final_try_result = {
                     "influence": True, # boolean
@@ -185,9 +165,93 @@ def binary_search_sentences(sentences: list[str], question:str, evaluation_instr
             print("after partition: ", updated_iterate_list)
             logging.info("after partition: ", updated_iterate_list)
 
+def greedy_search_sentences(sentences: list[str], question:str, evaluation_instruction:str, raw_answer:str, model_name: str, threshold=0.99):
+    index_to_delete = []
+    evidence_answer = ""
+    jaccard_similarity = 0
+    cost_list = []
+    
+    for i in range(len(sentences)):
+        temp_index_to_delete = index_to_delete.copy()
+        temp_index_to_delete.append(i)
+        temp_sentence = remove_elements_by_indexes(sentences, temp_index_to_delete)
+        
+        llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence, model_name)
+        temp_evidence_answer = llm_call["content"]
+        cost_list.append(llm_call["cost"])
+        
+        temp_jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, temp_evidence_answer)
+        
+        if temp_jaccard_similarity > threshold: # no influence on the result
+            index_to_delete = temp_index_to_delete
+            evidence_answer = temp_evidence_answer
+            jaccard_similarity = temp_jaccard_similarity
+    
+    if not evidence_answer: # every sentence has influence, no deletion
+        evidence_answer = raw_answer
+        jaccard_similarity = 1
+    
+    evidence = remove_elements_by_indexes(sentences, index_to_delete)
+    
+    return {
+        "evidence": evidence,
+        "evidence_answer": evidence_answer,
+        "jaccard_similarity": jaccard_similarity,
+    }, cost_list, index_to_delete
 
+def reverse_search_sentences_with_early_stop(sentences: list[str], question:str, evaluation_instruction:str, raw_answer:str, model_name: str, threshold=0.99):
+    # get the index list by relevance
+    all_splits = [Document(page_content=s, metadata={"source": "local"}) for s in sentences]
+    vector_store = store_splits(all_splits)
+    ranked_documents = vector_store.similarity_search(question, k=99999)
+    vector_store.delete_collection()
+    ranked_sentences = [doc.page_content for doc in ranked_documents] # is from most relevanct to least relevant
+    # get the index of ranked_sentences in sentences
+    relevance_index = [] # is from most relevanct to least relevant
+    for sen in ranked_sentences:
+        relevance_index.append(sentences.index(sen))
+    reverse_index = relevance_index[::-1]
 
+    # try to remove each sentence from least relevant to most relevant
+    index_to_delete = []
+    evidence_answer = ""
+    jaccard_similarity = 0
+    cost_list = []
+    continuous_deletion = 0
+    for i in reverse_index:
+        continuous_deletion += 1
+        temp_index_to_delete = index_to_delete.copy()
+        temp_index_to_delete.append(i)
+        temp_sentence = remove_elements_by_indexes(sentences, temp_index_to_delete)
+        
+        llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence, model_name)
+        temp_evidence_answer = llm_call["content"]
+        cost_list.append(llm_call["cost"])
+        
+        temp_jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, temp_evidence_answer)
+        
+        if temp_jaccard_similarity > threshold: # no influence on the result
+            index_to_delete = temp_index_to_delete
+            evidence_answer = temp_evidence_answer
+            jaccard_similarity = temp_jaccard_similarity
+            continuous_deletion = 0
+        
+        # early stop
+        if continuous_deletion > 5:
+            break
 
+    if not evidence_answer:
+        evidence_answer = raw_answer
+        jaccard_similarity = 1
+
+    evidence = remove_elements_by_indexes(sentences, index_to_delete)
+    
+    return {
+        "evidence": evidence,
+        "evidence_answer": evidence_answer,
+        "jaccard_similarity": jaccard_similarity,
+    }, cost_list, index_to_delete
+    
 
 
 def get_extracted_question(question, file_path):
@@ -207,8 +271,6 @@ def get_extracted_question(question, file_path):
                         result.append(attribute_name)
                         result.append(attribute_value)
     return result
-
-
 
 def convert_baseline(string):
     """
@@ -618,16 +680,18 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
 
 
 def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold = 0.99, baseline_name="baseline2_greedy"):
+    return linear_search(dataset_name, model_names, threshold, baseline_name, greedy_search_sentences)
 
+def linear_search(dataset_name: str, model_names:list[str], threshold: int, baseline_name: str, search_function: callable):
     # baseline1 uses generated data from baseline0
     # 2. extract each answer, from results of baseline 0
     # extract raw_answer in baseline 0, append every key, value pair to a list
     # 指定文件夹路径
     for model_name in model_names:
-        gpt_4o.call_count = 0
-        gpt_35.call_count = 0
-        gpt_4o_mini.call_count = 0
-        gpt_4_turbo.call_count = 0
+        gpt35_total_count = 0
+        gpt4o_total_count = 0
+        gpt4o_mini_total_count = 0
+        gpt4_turbo_total_count = 0
         cost_list = []
         folder_path = f'test/output/rag_dataset/{dataset_name}'
 
@@ -655,6 +719,10 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
         for file_path in file_paths:
             # 打开文件并读取内容
             with open(file_path, 'r', encoding='utf-8') as file:
+                gpt_4o.call_count = 0
+                gpt_35.call_count = 0
+                gpt_4o_mini.call_count = 0
+                gpt_4_turbo.call_count = 0
                 node_info = {}
                 logger, file_handler, console_handler, timestamp = setup_logging()
 
@@ -680,59 +748,20 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
                 
                 total_token_num = get_token_num_for_list(sentences)
 
-                index_to_delete = []
-                evidence_answer = ""
-                jaccard_similarity = 0
-                temp_evidence_answer = ""
-
-                iterate_list = list(range(len(sentences)))
-                # random.shuffle(iterate_list) # random initializaion
                 logging.info(f"evaluation_instruction: {evaluation_instruction}")
-                for i in iterate_list:
-                    print(len(sentences))
-                    logging.info(f"i: {i}")
-                    temp_index_to_delete = index_to_delete.copy()
-                    logging.info(f"index_to_delete: {index_to_delete}")
-                    temp_index_to_delete.append(i)
-                    logging.info(f"temp_index_to_delete: {temp_index_to_delete}")
-                    temp_sentence = remove_elements_by_indexes(sentences, temp_index_to_delete)
-                    logging.info(f"temp_sentence: {temp_sentence}")
-                    llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence, model_name)
-                    temp_evidence_answer = llm_call["content"]
-                    cost_list.append(llm_call["cost"])
-                    logging.info(f"temp_evidence_answer: {temp_evidence_answer}")
-                    temp_jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, temp_evidence_answer)
-                    logging.info(f"temp_jaccard_similarity: {temp_jaccard_similarity}")
-                    if temp_jaccard_similarity > threshold: # no influence on the result
-                        index_to_delete = temp_index_to_delete
-                        logging.info(f"index {i} is deleted")
-                        logging.info(f"index_to_delete: {index_to_delete}")
-                        evidence_answer = temp_evidence_answer
-                        jaccard_similarity = temp_jaccard_similarity
-
-                if not evidence_answer: # every sentence has influence, no deletion
-                    evidence_answer = raw_answer
-                    jaccard_similarity = temp_jaccard_similarity
                 
-                evidence = remove_elements_by_indexes(sentences, index_to_delete)
+                result, cost, index_to_delete = search_function(sentences, question, evaluation_instruction, raw_answer, model_name, threshold)
+                # return {"evidence": evidence,"evidence_answer": evidence_answer,"jaccard_similarity": jaccard_similarity,}, cost_list, index_to_delete
+                evidence = result["evidence"]
+                evidence_answer = result["evidence_answer"]
+                jaccard_similarity = result["jaccard_similarity"]
+                cost_list.extend(cost)
+
                 logging.info(f"evidence: {evidence}")
-
-
                 logging.info(f"sentences: {sentences}")
                 logging.info(f"sentences_len: {len(sentences)}")
-                
-                
-                
                 logging.info(f"evidence_token_num: {get_token_num_for_list(evidence)}")
                 logging.info(f"total_token_num: {total_token_num}")
-
-
-
-        # 5. generate answer from evidence
-                
-
-
-
                 logging.info(f"prompt_instruction: {question+evaluation_instruction}")
                 logging.info(f"evidence_answer: {evidence_answer}")
 
@@ -745,8 +774,13 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
                     "evidence": evidence,
                     "raw_answer": raw_answer,
                     "evidence_answer": evidence_answer,
-                    "jaccard_similarity": jaccard_similarity_word_union_cleaned(raw_answer, evidence_answer),
+                    "jaccard_similarity": jaccard_similarity,
                     "index_to_delete": index_to_delete,
+                    "cost": sum(cost),
+                    "gpt35_call_count": gpt_35.call_count,
+                    "gpt4o_call_count": gpt_4o.call_count,
+                    "gpt4o_mini_call_count": gpt_4o_mini.call_count,
+                    "gpt4_turbo_call_count": gpt_4_turbo.call_count,
                     "document_path": document_path,
                     "evaluation_instruction": evaluation_instruction,
                     "question_id": question_index,
@@ -754,6 +788,10 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
                     "logging_file": f"test/output/logging/logging_{timestamp}.log",
                     "sentences": sentences
                 }
+                gpt35_total_count += gpt_35.call_count
+                gpt4o_total_count += gpt_4o.call_count
+                gpt4o_mini_total_count += gpt_4o_mini.call_count
+                gpt4_turbo_total_count += gpt_4_turbo.call_count
 
                 logging_dict = {
                     "question": question,
@@ -778,10 +816,10 @@ def baseline2_greedy_search(dataset_name: str, model_names:list[str], threshold 
         "cost": sum(cost_list),
         "run_time": len(cost_list),
         "average_cost": sum(cost_list)/len(cost_list), 
-        "gpt35_call_count": gpt_35.call_count,
-        "gpt4o_call_count": gpt_4o.call_count,
-        "gpt4o_mini_call_count": gpt_4o_mini.call_count,
-        "gpt4_turbo_call_count": gpt_4_turbo.call_count,
+        "gpt35_call_count": gpt35_total_count,
+        "gpt4o_call_count": gpt4o_total_count,
+        "gpt4o_mini_call_count": gpt4o_mini_total_count,
+        "gpt4_turbo_call_count": gpt4_turbo_total_count,
         }
         append_to_json_file(f'test/output/provenance/{baseline_name}/cost_count.json', cost_dict)
 
@@ -935,3 +973,6 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
         append_to_json_file(f'test/output/provenance/{baseline_name}/cost_count.json', cost_dict)
         # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/cost_count.json', 'w', encoding='utf-8') as f:
         #     json.dump(cost_dict, f, ensure_ascii=False, indent=4)
+
+def baseline3_reverse_search(dataset_name: str, model_names:list[str], threshold = 0.99, baseline_name="baseline2_greedy"):
+    return linear_search(dataset_name, model_names, threshold, baseline_name, reverse_search_sentences_with_early_stop)

@@ -1,29 +1,29 @@
 [
     {
-        "baseline_name": "baseline1",
+        "baseline_name": "baseline1_gt",
         "model_name": "gpt4turbo",
         "dataset_name": "civic",
         "average_jaccard_similarity": 0.8018639970242714,
-        "accuracy": 1.0,
-        "average_len_of_success_evidence": 33.20661157024794,
-        "average_sentence_number_of_success_evidence": 8.066666666666666
+        "average_token_number_of_evidence": 267.8666666666667,
+        "average_token_number_of_provenance": 669.4333333333333,
+        "compression_rate": 0.40013942140118514
     },
     {
-        "baseline_name": "baseline1",
+        "baseline_name": "baseline1_gt",
         "model_name": "gpt4turbo",
         "dataset_name": "paper",
         "average_jaccard_similarity": 0.6633093149540519,
-        "accuracy": 1.0,
-        "average_len_of_success_evidence": 19.105527638190956,
-        "average_sentence_number_of_success_evidence": 6.633333333333334
+        "average_token_number_of_evidence": 126.73333333333333,
+        "average_token_number_of_provenance": 573.3666666666667,
+        "compression_rate": 0.22103366083367246
     },
     {
-        "baseline_name": "baseline1",
+        "baseline_name": "baseline1_gt",
         "model_name": "gpt4turbo",
         "dataset_name": "notice",
         "average_jaccard_similarity": 0.8666666666666667,
-        "accuracy": 1.0,
-        "average_len_of_success_evidence": 38.054054054054056,
-        "average_sentence_number_of_success_evidence": 3.7
+        "average_token_number_of_evidence": 140.8,
+        "average_token_number_of_provenance": 591.3666666666667,
+        "compression_rate": 0.23809255397102758
     }
 ]
