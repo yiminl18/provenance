@@ -1,0 +1,38 @@
+[
+    {
+        "baseline_name": "baseline3_reverse",
+        "dataset_name": "civic",
+        "model_names": "gpt4o",
+        "cost": 2.45169,
+        "run_time": 484,
+        "average_cost": 0.005065475206611571,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 484,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 0
+    },
+    {
+        "baseline_name": "baseline3_reverse",
+        "dataset_name": "notice",
+        "model_names": "gpt4o",
+        "cost": 1.8237400000000001,
+        "run_time": 516,
+        "average_cost": 0.0035343798449612406,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 516,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 0
+    },
+    {
+        "baseline_name": "baseline3_reverse",
+        "dataset_name": "paper",
+        "model_names": "gpt4o",
+        "cost": 2.4607400000000004,
+        "run_time": 578,
+        "average_cost": 0.0042573356401384085,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 578,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 0
+    }
+]

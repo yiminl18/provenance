@@ -199,10 +199,58 @@ def greedy_search_sentences(sentences: list[str], question:str, evaluation_instr
         "jaccard_similarity": jaccard_similarity,
     }, cost_list, index_to_delete
 
+def greedy_search_sentences_with_refine(sentences: list[str], question:str, evaluation_instruction:str, raw_answer:str, model_name: str, threshold=0.99):
+    index_to_delete = []
+    evidence_answer = ""
+    jaccard_similarity = 0
+    cost_list = []
+    original_list = [i for i in range(len(sentences))]
+    iterate_list = [i for i in range(len(sentences))]
+
+    while True:
+        for i in iterate_list:
+            temp_index_to_delete = index_to_delete.copy()
+            temp_index_to_delete.append(i)
+            temp_sentence = remove_elements_by_indexes(sentences, temp_index_to_delete)
+            
+            llm_call = generate_from_evidence(question+evaluation_instruction, temp_sentence, model_name)
+            temp_evidence_answer = llm_call["content"]
+            cost_list.append(llm_call["cost"])
+            
+            temp_jaccard_similarity = jaccard_similarity_word_union_cleaned(raw_answer, temp_evidence_answer)
+            
+            if temp_jaccard_similarity > threshold: # no influence on the result
+                index_to_delete = temp_index_to_delete
+                evidence_answer = temp_evidence_answer
+                jaccard_similarity = temp_jaccard_similarity
+        
+        if not evidence_answer: # every sentence has influence, no deletion
+            evidence_answer = raw_answer
+            jaccard_similarity = 1
+            break
+        print("iterate_list: ", iterate_list)
+        print("index_to_delete: ", index_to_delete)
+        
+        if remove_elements_by_indexes(original_list, index_to_delete) == iterate_list:
+            break
+
+
+        iterate_list = remove_elements_by_indexes(original_list, index_to_delete)
+        # index_to_delete = []
+
+            
+        
+    evidence = remove_elements_by_indexes(sentences, index_to_delete)
+    return {
+        "evidence": evidence,
+        "evidence_answer": evidence_answer,
+        "jaccard_similarity": jaccard_similarity,
+    }, cost_list, index_to_delete
+
 def reverse_search_sentences_with_early_stop(sentences: list[str], question:str, evaluation_instruction:str, raw_answer:str, model_name: str, threshold=0.99):
     # get the index list by relevance
     all_splits = [Document(page_content=s, metadata={"source": "local"}) for s in sentences]
-    vector_store = store_splits(all_splits)
+    vector_store = store_splits(all_splits, "reverse_search")
     ranked_documents = vector_store.similarity_search(question, k=99999)
     vector_store.delete_collection()
     ranked_sentences = [doc.page_content for doc in ranked_documents] # is from most relevanct to least relevant
@@ -387,11 +435,13 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
     node_info = {}
 
     for model_name in model_names:
-        gpt_4o.call_count = 0
-        gpt_35.call_count = 0
-        gpt_4o_mini.call_count = 0
-        gpt_4_turbo.call_count = 0
+        gpt35_total_count = 0
+        gpt4o_total_count = 0
+        gpt4o_mini_total_count = 0
+        gpt4_turbo_total_count = 0
+        
         cost_list = []
+        last_run_cost = 0
 
         folder_path = f'test/output/rag_dataset/{dataset_name}'
 
@@ -408,6 +458,10 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
         for file_index, file_path in enumerate(file_paths):
             # 打开文件并读取内容
             with open(file_path, 'r', encoding='utf-8') as file:
+                gpt_4o.call_count = 0
+                gpt_35.call_count = 0
+                gpt_4o_mini.call_count = 0
+                gpt_4_turbo.call_count = 0
                 content = json.load(file)
                 question = content["question"]
                 provenance = content["provenance"] # list[str]
@@ -427,6 +481,10 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
                 llm_call = generate_from_evidence(question+evaluation_instruction, evidence)
                 evidence_answer = llm_call["content"]
                 cost_list.append(llm_call["cost"])
+                gpt35_total_count += gpt_35.call_count
+                gpt4o_total_count += gpt_4o.call_count
+                gpt4o_mini_total_count += gpt_4o_mini.call_count
+                gpt4_turbo_total_count += gpt_4_turbo.call_count
 
                 provenance_dict = {
                     "dataset": dataset_name,
@@ -438,6 +496,12 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
                     "raw_answer": raw_answer,
                     "evidence_answer": evidence_answer,
                     "jaccard_similarity": jaccard_similarity_word_union_cleaned(raw_answer, evidence_answer),
+                    "compression_rate": get_token_num_for_list(evidence)/get_token_num_for_list(provenance),
+                    "cost": sum(cost_list)-last_run_cost,
+                    "gpt35_call_count": gpt_35.call_count,
+                    "gpt4o_call_count": gpt_4o.call_count,
+                    "gpt4o_mini_call_count": gpt_4o_mini.call_count,
+                    "gpt4_turbo_call_count": gpt_4_turbo.call_count,
                     "document_path": document_path,
                     "evaluation_instruction": evaluation_instruction,
                     "question_id": question_index,
@@ -445,6 +509,8 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
                     "unfiltered_evidence": unfiltered_evidence,
                     "logging_file": f"test/output/logging/logging_{timestamp}.log"
                 }
+
+            last_run_cost = sum(cost_list)
 
             close_logging(logger, [file_handler, console_handler])
 
@@ -459,10 +525,10 @@ def baseline0(dataset_name:str, model_names:list[str], baseline_name: str):
             "cost": sum(cost_list),
             "run_time": len(cost_list),
             "average_cost": sum(cost_list)/len(cost_list),
-            "gpt35_call_count": gpt_35.call_count,
-            "gpt4o_call_count": gpt_4o.call_count,
-            "gpt4o_mini_call_count": gpt_4o_mini.call_count,
-            "gpt4_turbo_call_count": gpt_4_turbo.call_count,
+            "gpt35_call_count": gpt35_total_count,
+            "gpt4o_call_count": gpt4o_total_count,
+            "gpt4o_mini_call_count": gpt4o_mini_total_count,
+            "gpt4_turbo_call_count": gpt4_turbo_total_count,
         }
         append_to_json_file(f'test/output/provenance/{baseline_name}/cost_count.json', cost_dict)
     
@@ -471,11 +537,13 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
 
 
     for model_name in model_names:
-        gpt_4o.call_count = 0
-        gpt_35.call_count = 0
-        gpt_4o_mini.call_count = 0
-        gpt_4_turbo.call_count = 0
+        gpt35_total_count = 0
+        gpt4o_total_count = 0
+        gpt4o_mini_total_count = 0
+        gpt4_turbo_total_count = 0
         cost_list = []
+        last_run_cost = 0
+
         # baseline1 uses generated data from baseline0
         # 2. extract each answer, from results of baseline 0
         # extract raw_answer in baseline 0, append every key, value pair to a list
@@ -509,6 +577,10 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
         for file_path in file_paths:
             # 打开文件并读取内容
             with open(file_path, 'r', encoding='utf-8') as file:
+                gpt_4o.call_count = 0
+                gpt_35.call_count = 0
+                gpt_4o_mini.call_count = 0
+                gpt_4_turbo.call_count = 0
                 node_info = {}
                 logger, file_handler, console_handler, timestamp = setup_logging()
 
@@ -617,6 +689,10 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
                 cost_list.append(llm_call["cost"])
                 logging.info(f"prompt_instruction: {question+evaluation_instruction}")
                 logging.info(f"evidence_answer: {evidence_answer}")
+                gpt35_total_count += gpt_35.call_count
+                gpt4o_total_count += gpt_4o.call_count
+                gpt4o_mini_total_count += gpt_4o_mini.call_count
+                gpt4_turbo_total_count += gpt_4_turbo.call_count
 
                 provenance_dict = {
                     "dataset": dataset_name,
@@ -629,6 +705,12 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
                     "evidence_answer": evidence_answer,
                     "jaccard_similarity": jaccard_similarity_word_union_cleaned(raw_answer, evidence_answer),
                     "search_pool": extracted_search_list,
+                    "compression_rate": get_token_num_for_list(evidence)/get_token_num_for_list(raw_provenance),
+                    "cost": sum(cost_list)-last_run_cost,
+                    "gpt35_call_count": gpt_35.call_count,
+                    "gpt4o_call_count": gpt_4o.call_count,
+                    "gpt4o_mini_call_count": gpt_4o_mini.call_count,
+                    "gpt4_turbo_call_count": gpt_4_turbo.call_count,
                     "document_path": document_path,
                     "evaluation_instruction": evaluation_instruction,
                     "question_id": question_index,
@@ -638,6 +720,7 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
                     "less_similar_evidence": less_similar_evidence_with_index,
                     "unsorted_unfiltered_evidence": unsorted_unfiltered_evidence_with_index
                 }
+                last_run_cost = sum(cost_list)
 
                 logging_dict = {
                     "question": question,
@@ -670,10 +753,10 @@ def baseline1(dataset_name:str, model_names:list[str], threshold = 0.5, baseline
             "cost": sum(cost_list),
             "run_time": len(cost_list),
             "average_cost": sum(cost_list)/len(cost_list),
-            "gpt35_call_count": gpt_35.call_count,
-            "gpt4o_call_count": gpt_4o.call_count,
-            "gpt4o_mini_call_count": gpt_4o_mini.call_count,
-            "gpt4_turbo_call_count": gpt_4_turbo.call_count,
+            "gpt35_call_count": gpt35_total_count,
+            "gpt4o_call_count": gpt4o_total_count,
+            "gpt4o_mini_call_count": gpt4o_mini_total_count,
+            "gpt4_turbo_call_count": gpt4_turbo_total_count,
         }
         append_to_json_file(f'test/output/provenance/{baseline_name}/cost_count.json', cost_dict)
 
@@ -776,6 +859,7 @@ def linear_search(dataset_name: str, model_names:list[str], threshold: int, base
                     "evidence_answer": evidence_answer,
                     "jaccard_similarity": jaccard_similarity,
                     "index_to_delete": index_to_delete,
+                    "compression_rate": get_token_num_for_list(evidence)/get_token_num_for_list(raw_provenance),
                     "cost": sum(cost),
                     "gpt35_call_count": gpt_35.call_count,
                     "gpt4o_call_count": gpt_4o.call_count,
@@ -829,10 +913,10 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
     # extract raw_answer in baseline 0, append every key, value pair to a list
     # 指定文件夹路径
     for model_name in model_names:
-        gpt_4o.call_count = 0
-        gpt_35.call_count = 0
-        gpt_4o_mini.call_count = 0
-        gpt_4_turbo.call_count = 0
+        gpt35_total_count = 0
+        gpt4o_total_count = 0
+        gpt4o_mini_total_count = 0
+        gpt4_turbo_total_count = 0
         cost_list = []
         folder_path = f'test/output/rag_dataset/{dataset_name}'
 
@@ -860,6 +944,10 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
         for file_path in file_paths:
             # 打开文件并读取内容
             with open(file_path, 'r', encoding='utf-8') as file:
+                gpt_4o.call_count = 0
+                gpt_35.call_count = 0
+                gpt_4o_mini.call_count = 0
+                gpt_4_turbo.call_count = 0
                 node_info = {}
                 logger, file_handler, console_handler, timestamp = setup_logging()
 
@@ -923,6 +1011,7 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
 
                 logging.info(f"prompt_instruction: {question+evaluation_instruction}")
                 logging.info(f"evidence_answer: {evidence_answer}")
+                
                 provenance_dict = {
                     "dataset": dataset_name,
                     "model_name": model_name,
@@ -934,6 +1023,12 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
                     "evidence_answer": evidence_answer,
                     "jaccard_similarity": jaccard_similarity,
                     "index_to_delete": index_to_delete,
+                    "compression_rate": get_token_num_for_list(evidence)/get_token_num_for_list(raw_provenance),
+                    "cost": sum(cost_list_to_plus),
+                    "gpt35_call_count": gpt_35.call_count,
+                    "gpt4o_call_count": gpt_4o.call_count,
+                    "gpt4o_mini_call_count": gpt_4o_mini.call_count,
+                    "gpt4_turbo_call_count": gpt_4_turbo.call_count,
                     "document_path": document_path,
                     "evaluation_instruction": evaluation_instruction,
                     "question_id": question_index,
@@ -965,14 +1060,17 @@ def baseline2_binary_search(dataset_name: str, model_names:list[str], threshold 
         "cost": sum(cost_list),
         "run_time": len(cost_list),
         "average_cost": sum(cost_list)/len(cost_list), 
-        "gpt35_call_count": gpt_35.call_count,
-        "gpt4o_call_count": gpt_4o.call_count,
-        "gpt4o_mini_call_count": gpt_4o_mini.call_count,
-        "gpt4_turbo_call_count": gpt_4_turbo.call_count,
+        "gpt35_call_count": gpt35_total_count,
+        "gpt4o_call_count": gpt4o_total_count,
+        "gpt4o_mini_call_count": gpt4o_mini_total_count,
+        "gpt4_turbo_call_count": gpt4_turbo_total_count,
         }
         append_to_json_file(f'test/output/provenance/{baseline_name}/cost_count.json', cost_dict)
         # with open(f'test/output/provenance/{baseline_name}/{dataset_name}/cost_count.json', 'w', encoding='utf-8') as f:
         #     json.dump(cost_dict, f, ensure_ascii=False, indent=4)
 
-def baseline3_reverse_search(dataset_name: str, model_names:list[str], threshold = 0.99, baseline_name="baseline2_greedy"):
+def baseline3_reverse_search(dataset_name: str, model_names:list[str], threshold = 0.99, baseline_name="baseline2_reverse"):
     return linear_search(dataset_name, model_names, threshold, baseline_name, reverse_search_sentences_with_early_stop)
+
+def baseline2_greedy_refine_search(dataset_name: str, model_names:list[str], threshold = 0.99, baseline_name="baseline2_greedy_refine"):
+    return linear_search(dataset_name, model_names, threshold, baseline_name, greedy_search_sentences_with_refine)

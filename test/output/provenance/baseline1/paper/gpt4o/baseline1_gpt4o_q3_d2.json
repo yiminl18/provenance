@@ -1,0 +1,139 @@
+[
+    {
+        "dataset": "paper",
+        "model_name": "gpt4o",
+        "baseline_name": "baseline1",
+        "question": "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)",
+        "provenance": [
+            "ACKNOWLEDGMENTS \nWe thank Laura Pina, Daniel Epstein, Lucas Colusso, Arpita \nBhattacharya,  and  reviewers  for  thoughtful  feedback  on  the \nearlier version of this paper. This study is funded in part by \nthe  National  Science  Foundation  under  awards  IIS-1553167 \nand SCH-1344613, the Agency for Healthcare Research and \nQuality  under  award  1R21HS023654,  a  University  of \nWashington Innovation Research Award, and Microsoft. \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.  Mark Ackerman. 2009. The Intellectual Challenge of \nCSCW: The Gap Between Social Requirements and \nTechnical Feasibility. International Journal of Human \nComputer interaction 24, July 2014: 37\u201341. \nhttp://doi.org/10.1207/S15327051HCI1523 \n\n2.  Phil Adams, Eric PS Baumer, and Geri Gay. 2014.",
+            "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. Copyrights for \ncomponents of this work owned by others than the author(s) must be honored. \nAbstracting with credit is permitted. To copy otherwise, or republish, to \npost on servers or to redistribute to lists, requires prior specific permission \nand/or a fee. Request permissions from permissions@acm.org. \nCHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s). Publication rights licensed to ACM. \nACM 978-1-4503-4655-9/17/05\u2026$15.00  \nDOI: http://dx.doi.org/10.1145/3025453.3025747 \n\nhealth  information  may  affect  their  image  influences  what \nand with whom they are comfortable sharing.",
+            "11. Munmun De Choudhury, Sanket Sharma, and Emre \nKiciman. 2016. Characterizing Dietary Choices, \nNutrition, and Language in Food Deserts via Social \nMedia. Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170. \nhttp://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson. 2016. Boundary Negotiating Artifacts in \nPersonal Informatics: Patient-Provider Collaboration \nwith Patient-Generated Data. Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786. \nhttp://doi.org/10.1145/2818048.2819926 \n\n13. Andrea Civan-Hartzler, David W McDonald, Chris",
+            "Praful Gandhi. 2006. Chick Clique: Persuasive \nTechnology to Motivate Teenage Girls to Exercise.  \nCHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878. \nhttp://doi.org/10.1145/1125451.1125805 \n\n53. Paul Wicks, Michael Massagli, Jeana Frost, Catherine \nBrownstein, Sally Okun, Timothy Vaughan, Richard \nBradley, and James Heywood. 2010. Sharing Health \nData for Better Outcomes on Patientslikeme. Journal of \nMedical Internet Research 12, 2: 1\u201312. \nhttp://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54. Mary H Wilde and Suzanne Garvin. 2007. A Concept \nAnalysis of Self-monitoring. Journal of Advanced \nNursing 57, 3: 339\u2013350.  \nhttp://doi.org/10.1111/j.1365-2648.2006.04089.x",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18. Daniel A Epstein, Bradley H Jacobson, Elizabeth Bales, \nDavid W McDonald, and Sean A Munson. 2015. From \n\u201cnobody cares\u201d to \u201cway to go!\u201d: A Design Framework for \nSocial Sharing in Personal Informatics. Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636. \nhttp://doi.org/10.1145/2675133.2675135 \n\n19. Daniel A Epstein, Jennifer H Kang, Laura R Pina, James \nFogarty, and Sean A Munson. 2016. Reconsidering the \nDevice in the Drawer: Lapses as a Design Opportunity \nin Personal Informatics. Proceedings of the 2016 ACM \nInternational Joint Conference on Pervasive and \nUbiquitous Computing (UbiComp 2016): 829\u2013840. \nhttp://doi.org/10.1145/2971648.2971656"
+        ],
+        "evidence": [
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+            "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+            "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+            "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+            "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+            "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+            "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54.",
+            "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18.",
+            "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636."
+        ],
+        "raw_answer": "CHI",
+        "evidence_answer": "CHI",
+        "jaccard_similarity": 1.0,
+        "search_pool": [
+            "CHI",
+            "What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)"
+        ],
+        "compression_rate": 0.2523961661341853,
+        "cost": 0.0029850000000000015,
+        "gpt35_call_count": 0,
+        "gpt4o_call_count": 2,
+        "gpt4o_mini_call_count": 0,
+        "gpt4_turbo_call_count": 0,
+        "document_path": "data/paper/raw_data/When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating.pdf",
+        "evaluation_instruction": " Return only one word representing the venue.",
+        "question_id": 3,
+        "document_id": 2,
+        "logging_file": "test/output/logging/logging_20240920_193928.log",
+        "unsorted_evidence": [
+            [
+                "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+                0,
+                0.5967357158660889
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+                1,
+                0.42377352714538574
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0,
+                0.6203173398971558
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+                1,
+                0.4274332523345947
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18.",
+                0,
+                0.6448426246643066
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0,
+                0.6479336023330688
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636.",
+                1,
+                0.4456177353858948
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0,
+                0.6983072757720947
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54.",
+                1,
+                0.5009448528289795
+            ]
+        ],
+        "less_similar_evidence": [],
+        "unsorted_unfiltered_evidence": [
+            [
+                "CHI \u201906 Extended Abstracts on Human Factors in \nComputing Systems 31, 3: 1873\u20131878.",
+                0,
+                0.5967357158660889
+            ],
+            [
+                "Proceedings of the ACM \nConference on Computer-Supported Cooperative Work \n& Social Computing (CSCW 2016): 770\u2013786.",
+                1,
+                0.42377352714538574
+            ],
+            [
+                "Request permissions from permissions@acm.org. CHI 2017, May 06 - 11, 2017, Denver, CO, USA \nCopyright is held by the owner/author(s).",
+                0,
+                0.6203173398971558
+            ],
+            [
+                "Proceedings of the ACM Conference on \nComputer-Supported Cooperative Work & Social \nComputing (CSCW 2016): 1157\u20131170.",
+                1,
+                0.4274332523345947
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1684\f18.",
+                0,
+                0.6448426246643066
+            ],
+            [
+                "Social Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1683 \n \n\fREFERENCES  \n1.",
+                0,
+                0.6479336023330688
+            ],
+            [
+                "Proceedings of the \nACM Conference on Computer Supported Cooperative \nWork & Social Computing (CSCW 2015): 1622\u20131636.",
+                1,
+                0.4456177353858948
+            ],
+            [
+                "http://doi.org/10.1145/2818048.2819956 \n\n12. Chia-Fang Chung, Kristin Dew, Allison Cole, Jasmine \n\nZia, James Fogarty, Julie A Kientz, and Sean A \nMunson.",
+                0,
+                0.6983072757720947
+            ],
+            [
+                "http://doi.org/10.2196/jmir.1549 \n\nSocial Computing and HealthCHI 2017, May 6\u201311, 2017, Denver, CO, USA1686\f54.",
+                1,
+                0.5009448528289795
+            ]
+        ]
+    }
+]

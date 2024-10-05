@@ -4,26 +4,29 @@
         "model_name": "gpt4o",
         "dataset_name": "civic",
         "average_jaccard_similarity": 1.0,
-        "average_token_number_of_evidence": 459.93333333333334,
+        "average_token_number_of_evidence": 449.5,
         "average_token_number_of_provenance": 669.4333333333333,
-        "compression_rate": 0.6870487476970573
+        "average_sentence_number": 16.033333333333335,
+        "average_compression_rate": 0.6675080653045117
     },
     {
         "baseline_name": "baseline2_greedy",
         "model_name": "gpt4o",
         "dataset_name": "paper",
         "average_jaccard_similarity": 1.0,
-        "average_token_number_of_evidence": 290.76666666666665,
+        "average_token_number_of_evidence": 281.1333333333333,
         "average_token_number_of_provenance": 573.3666666666667,
-        "compression_rate": 0.5071216789721528
+        "average_sentence_number": 15.666666666666666,
+        "average_compression_rate": 0.47170315384998446
     },
     {
         "baseline_name": "baseline2_greedy",
         "model_name": "gpt4o",
         "dataset_name": "notice",
         "average_jaccard_similarity": 1.0,
-        "average_token_number_of_evidence": 101.95555555555555,
+        "average_token_number_of_evidence": 102.73333333333333,
         "average_token_number_of_provenance": 591.3666666666667,
-        "compression_rate": 0.17240666629088927
+        "average_sentence_number": 2.8666666666666667,
+        "average_compression_rate": 0.16819134717356243
     }
 ]

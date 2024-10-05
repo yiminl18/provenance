@@ -34,7 +34,7 @@ def civic_path():
     q.append('data/civic/raw_data/malibucity_agenda__03022021-1648.pdf')
     q.append('data/civic/raw_data/malibucity_agenda__03232022-1869.pdf')
     q.append('data/civic/raw_data/malibucity_agenda__03242021-1665.pdf')
-    q.append('data/civic/raw_data/malibucity_agenda__04282021-1687.pdf')
+    # q.append('data/civic/raw_data/malibucity_agenda__04282021-1687.pdf')
     return q
 
 def paper_path():
@@ -45,7 +45,7 @@ def paper_path():
     # has ground truth for theroy question
     q.append('data/paper/raw_data/A Stage-based Model of Personal Informatics Systems.pdf')
     q.append('data/paper/raw_data/A Trip to the Moon: Personalized Animated Movies for Self-reflection.pdf')
-    q.append('data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf')
+    # q.append('data/paper/raw_data/A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder App.pdf')
     # no ground truth for theroy question
     return q
 
@@ -56,7 +56,7 @@ def notice_path():
     q.append('data/NoticeViolation/raw_data/12023013NOPV_PCO PCP_05042023_(22-233209)_text.pdf')
     q.append('data/NoticeViolation/raw_data/12023022NOPV_PCO_04132023_(22-234207)_text.pdf')
     q.append('data/NoticeViolation/raw_data/12023027NOPV_PCP_06012023_(21-199435)_text.pdf')
-    q.append('data/NoticeViolation/raw_data/12023028NOPV_PCO_05252023_(22-232998)_text.pdf')
+    # q.append('data/NoticeViolation/raw_data/12023028NOPV_PCO_05252023_(22-232998)_text.pdf')
     return q
 
 def get_evaluation_instruction(question:str, question_set:list[str], dataset_name:str):

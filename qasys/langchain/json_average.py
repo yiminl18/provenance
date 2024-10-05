@@ -48,6 +48,8 @@ def get_average_result_baseline1(baseline_name:str, dataset_names:list[str], mod
             # success_scores = []
             evidence = []
             evidence_sentence_number = []
+            evidence_token_number_list = []
+            provenance_token_number_list = []
 
             # 依次读取每个JSON文件并解析为字典
             for file_path in file_paths:
@@ -59,6 +61,9 @@ def get_average_result_baseline1(baseline_name:str, dataset_names:list[str], mod
                     # if scores[-1] > 0.99: # valid index list
                     # success_scores.append(content["jaccard_similarity"])
                     evidence += content["evidence"] # evidence is a list of str
+                    provenance = content["provenance"]
+                    evidence_token_number_list.append(get_token_num_for_list(content["evidence"]))
+                    provenance_token_number_list.append(get_token_num_for_list(content["provenance"]))
                     # evidence_sentence_number.append(len(content["evidence"]))
                     
             result = {
@@ -66,8 +71,10 @@ def get_average_result_baseline1(baseline_name:str, dataset_names:list[str], mod
                 "model_name": model_name,
                 "dataset_name": dataset_name,
                 "average_jaccard_similarity": sum(scores) / len(scores),
+                "average_sentence_number": len(evidence) / len(evidence_token_number_list),
                 # "accuracy": len(success_scores) / len(scores),
                 "average_len_of_success_evidence": get_token_num_for_list(evidence) / len(evidence),
+                "compression_rate": sum( e / p for e, p in zip(evidence_token_number_list, provenance_token_number_list)) / len(evidence_token_number_list)
                 # "average_sentence_number_of_success_evidence": sum(success_evidence_sentence_number) / len(success_evidence_sentence_number)
             }
 
@@ -85,8 +92,8 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
 
             scores = []
             success_scores = []
-            success_evidence = []
-            success_evidence_sentence_number = []
+            evidence_list = []
+            evidence_sentence_number = []
             provenance_token_number_list = []
             evidence_token_number_list = []
 
@@ -94,7 +101,7 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
             for file_path in file_paths:
                 # 打开文件并读取内容
                 with open(file_path, 'r', encoding='utf-8') as file:
-                    content = json.load(file)
+                    content = json.load(file)[0]
 
                     # for content in content_list: # if use append_to_json in baseline function
 
@@ -103,13 +110,14 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
                     # index_to_delete = content["index_to_delete"]
                     # if len(index_to_delete) >= 5 and scores[-1] > 0.99: # valid index list
                     success_scores.append(content["jaccard_similarity"])
-                    success_evidence += content["evidence"] # evidence is a list of str
-                    success_evidence_sentence_number.append(len(content["evidence"]))
+                    evidence_list += content["evidence"] # evidence is a list of str
+                    evidence_sentence_number.append(len(content["evidence"]))
                     provenance_token_number_list.append(get_token_num_for_list(content["provenance"]))
                     evidence_token_number_list.append(get_token_num_for_list(content["evidence"]))
                     
             average_token_number_of_evidence = sum(evidence_token_number_list) / len(evidence_token_number_list)
             average_token_number_of_provenance = sum(provenance_token_number_list) / len(provenance_token_number_list)
+
             result = {
                 "baseline_name": baseline_name,
                 "model_name": model_name,
@@ -118,7 +126,8 @@ def get_average_result_baseline2(baseline_name:str, dataset_names:list[str], mod
                 # "accuracy": len(success_scores) / len(scores),
                 "average_token_number_of_evidence": average_token_number_of_evidence,
                 "average_token_number_of_provenance": average_token_number_of_provenance,
-                "compression_rate": average_token_number_of_evidence / average_token_number_of_provenance
+                "average_sentence_number": len(evidence_list) / len(evidence_token_number_list),
+                "average_compression_rate": sum( e / p for e, p in zip(evidence_token_number_list, provenance_token_number_list)) / len(evidence_token_number_list)
             }
 
             file_path_to_save = f'test/output/provenance/{baseline_name}/average_result.json'
@@ -807,7 +816,7 @@ def clean_output_json(baseline_name:str, dataset_names:list[str], model_names:li
 if __name__ == "__main__":
     # baseline_names = ["baseline2_binary"]
     dataset_names = ['civic', 'paper', 'notice']
-    model_names = ['gpt4turbo']
+    model_names = ['gpt4o']
     question_sets = [civic_q(), paper_q(), notice_q()] # same index as dataset_names
     # document_path_sets = [civic_path(), paper_path(), notice_path()] # same index as dataset_names
     # check_uncertainty(baseline_names, dataset_names, model_names, question_sets)
@@ -819,4 +828,4 @@ if __name__ == "__main__":
     # get_robustness("baseline2_greedy", dataset_names, model_names)
     # compression_rate_heatmap("baseline2_greedy", dataset_names, model_names)
     # robustness_heatmap_combined("baseline2_greedy", dataset_names, model_names)
-    get_average_result_baseline2("baseline1_gt", dataset_names, model_names)
+    get_average_result_baseline2("baseline2_greedy_refine", dataset_names, model_names)
