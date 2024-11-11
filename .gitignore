@@ -1,4 +1,10 @@
 node_modules
 .DS_Store
-.venv
-test/output/provenance/old
+.venv/
+env/
+data/
+test
+__pycache__/
+.vscode/
+test/
+*.egg-info/

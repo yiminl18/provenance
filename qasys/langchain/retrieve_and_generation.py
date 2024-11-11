@@ -71,7 +71,7 @@ def retrieve_and_generation(question, vectorstore, k = 6, evaluation_instruction
 # print(retrieve_and_generation(question))
 
 # version 1
-def generate_from_evidence(question:str, evidence:list[str], model_name='gpt4turbo'):
+def generate_from_evidence(question:str, evidence:list[str], model_name='gpt4o'):
     '''
     Input: question, str
             evidence, list of str
@@ -105,40 +105,20 @@ def generate_from_evidence(question:str, evidence:list[str], model_name='gpt4tur
 #             "CHI\u201808, 2008, pp. 1797-1806. 4. Froehlich, J., Dillahunt, T., Klasnja, P., et al.",
 #             "Communications  of \nthe ACM, 2006, pp. 88-95."
 #         ]
-# question = "What is the publication year of this paper?"
-# evaluation_instruction = " Return only a number."
-# evidence = [
-#         "19. Pousman,  Z.,  Stasko,  J.T.,  and  Mateas,  M.  Casual \nInformation  Visualization:  Depictions  of  Data \nin \nEveryday Life.",
-#         "IEEE Transactions on Visualization and \nComputer Graphics, 2002, pp. 1145-1152.",
-#         "20. Scollon,  C.,  Kim-Prieto,  C.,  and  Diener,  E.  Experience \nSampling:  Promises  and  Pitfalls,  Strengths  and \nWeaknesses.",
-#         "Journal of Happiness Studies, 4, 2003, pp. 5-34. 21.",
-#         "Wolf,  G.  Know  Thyself:  Tracking  Every  Facet  of  Life, \nfrom  Sleep  to  Mood  to  Pain,  24/7/365.",
-#         "Wired,  17.07, \n2009, pp. 92-95. 22. Yau,  N. and Schneider,  J.  Self-Surveillance.",
-#         "Bulletin of \n\nASIS&T, June/July 2009, pp. 24-30.",
-#         "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA566",
-#         "Permission  to  make  digital  or  hard  copies  of  all  or  part  of  this  work  for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page.",
-#         "To copy otherwise, \nor  republish,  to  post  on  servers  or  to  redistribute  to  lists,  requires  prior \nspecific permission and/or a fee.",
-#         "CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. Copyright 2010 ACM  978-1-60558-929-9/10/04....$10.00.",
-#         "to \n\ninformation  brought  by \n\nbecause  of  advances  in  sensor  technologies,  ubiquity  of \nthe  Internet,  and \naccess \nimprovements  in  visualizations.",
-#         "A  class  of  systems  called \npersonal  informatics  is  appearing  that  help  people  collect \nand \n(e.g.,  Mint, \nhttp://mint.com, for finance and Nike+, http://nikeplus.com, \nfor physical activity). reflect  on  personal \n\ninformation \n\ninform  people  about",
-#         "8. Gemmell,  J. &  Vemuri,  S.  \"CARPE  Research  Area.\" SIGMM. Accessed \nat \n2010 \non \nhttp://www.sigmm.org/Members/jgemmell/CARPE \n9.",
-#         "Hallnäs,  L.  and  Redström,  J. Slow  Technology: \nDesigning  for  Reflection.",
-#         "Personal  and  Ubiquitous \nComputing, 5(3), 2001. January \n\n6, \n\n10.",
-#         "Hodges, S., Williams, L., Berry, E., et al., K. SenseCam: \na  Retrospective  Memory  Aid.",
-#         "Ubicomp’06,  2006,  pp. 177-193. 11. Hsieh, G., Li, I., Dey, A., Forlizzi, J., and Hudson, S.E.",
-#         "in \nto \n\nUsing  Visualizations \nExperience Sampling. Ubicomp’08, 2008, pp.",
-#         "164-167. 12. Intille,  S.S.,  Tapia,  E.M.,  Rondoni,  J.,  et  al.",
-#         "Tools  for \nStudying Behavior and Technology in Natural Settings. Ubicomp’03, 2003, pp.",
-#         "157-174. Increase  Compliance \n\n13. Jones,  W.,  and  Teevan,  J.",
-#         "Personal  Information \n\nManagement. UW Press, 2007.",
-#         "CHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA562 \n\fCascading  barriers  suggest  that  a  holistic  approach  to  the \ndesign of personal informatics systems is critical.",
-#         "Focusing \nonly on one stage ignores the whole experience of the user \nwith  the  system.",
-#         "While  we  can  take  inspiration  from \ndifferent  fields  to  resolve  barriers  within  each  stage  (e.g., \nvisualization  techniques  from  information  visualization \nresearch), creating an effective personal informatics system \nrequires the consideration of all of the system's parts.",
-#         "In  the  next  section,  we  provide  a  working  definition  of \npersonal  informatics  and  review  related  literature.",
-#         "We \npresent  the  method  and  findings  from  our  survey,  and  use \nthem \nintroduce  a  stage-based  model  of  personal \ninformatics  systems.",
-#         "We  describe  the  barriers  encountered \nin  each  stage  and  highlight  opportunities  for  intervention \nwithin  each  stage.",
-#         "We  also  compare  and  analyze  existing \nsystems to demonstrate the use of the model for diagnosing \n\nCHI 2010: Performance, Stagecraft, and MagicApril 10–15, 2010, Atlanta, GA, USA557 \n \n \n\fand  assessing  problems.",
-#         "We  conclude  with  a  discussion  of \ndesign  guidelines  for  personal  informatics  systems  and \ndirections for future research."
-#     ]
-# for i in range(10):
-# print(f"Run time : ", generate_from_evidence(question + evaluation_instruction, evidence))
+question = "Does this paper involve the theory \"A Model of Personal Informatics\"?"
+evaluation_instruction = " Return yes or no."
+evidence = [
+            "Proceedings of \nthe ACM conference on Computer Supported \nCooperative Work (CSCW 2012): 853. \nhttp://doi.org/10.1145/2145204.2145331 \n\n28.",
+            "Jina Huh, Leslie S Liu, Tina Neogi, Kori Inkpen, and \n\nWanda Pratt.",
+            "2014. Health Vlogs as Social Support for \nChronic Illness Management.",
+            "ACM Transactions on \nComputer-Human Interaction (TOCHI) 21, 4: 23. \nhttp://doi.org/10.1145/2630067 \n\n29.",
+            "Ian Li, Anind Dey, and Jodi Forlizzi. 2010. A Stage-\nBased Model of Personal Informatics Systems."
+        ]
+from models.gpt_4o import gpt_4o
+from models.gpt_4_turbo import gpt_4_turbo
+from models.gpt_4o_mini import gpt_4o_mini
+gpt_4o.call_count = 0
+gpt_4_turbo.call_count = 0
+gpt_4o_mini.call_count = 0
+for i in range(20):
+    print(f"Run time : ", generate_from_evidence(question + evaluation_instruction, evidence, model_name = "gpt4o"))

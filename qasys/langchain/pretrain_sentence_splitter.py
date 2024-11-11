@@ -1,4 +1,4 @@
-def nltk_sent_tokenize(text:str, minimum_token_num=20):
+def nltk_sent_tokenize(text:str, minimum_token_num=10):
     from nltk.tokenize import sent_tokenize
     sentences = sent_tokenize(text) # is a list[str]
     new_sentences = [sentences[0]]

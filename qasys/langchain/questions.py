@@ -1,30 +1,30 @@
 def civic_q():
     q = []
-    q.append('What are the names of mentioned capital improvement projects?')
-    q.append('What are the names of projects starting before 2022?')
-    q.append('What are the names of projects that were completed before 2022?')
-    q.append('What are the names of disaster projects starting later than 2022?')
-    q.append('What are the names of disaster projects advertised before 2023')
+    q.append('What are the names of mentioned capital improvement projects?') # hard
+    q.append('What are the names of projects starting before 2022?') # hard
+    q.append('What are the names of projects that were completed before 2022?') # hard
+    q.append('What are the names of disaster projects starting later than 2022?') # hard
+    q.append('What are the names of disaster projects advertised before 2023') # hard
 
     return q 
 
 def notice_q():
     q = []
      
-    q.append('What is the issue date of the notice?')
-    q.append('What are the violation codes for the listed items?')
-    q.append('What is the name of the company being informed later than 2023 and located in California?')
-    q.append('What is the name of the company receiving the notice with a non-zero civil penalty?')
-    q.append('What is the name of the company receiving the notice that has proposed compliance and a warning?')
+    q.append('What is the issue date of the notice?') # easy
+    q.append('What are the violation codes for the listed items?') # medium
+    q.append('What is the name of the company being informed later than 2023 and located in California?') # hard
+    q.append('What is the name of the company receiving the notice with a non-zero civil penalty?') # hard  
+    q.append('What is the name of the company receiving the notice that has proposed compliance and a warning?') # medium
     return q
 
 def paper_q():
     q = []
-    q.append('How many authors are there for this paper?')
-    q.append('What is the publication year of this paper?')
-    q.append('What are the names of authors whose institutions are in the US for this paper?')
-    q.append('What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)')
-    q.append('Does this paper involve the theory "A Model of Personal Informatics"?')
+    q.append('How many authors are there for this paper?') # medium
+    q.append('What is the publication year of this paper?') # hard
+    q.append('What are the names of authors whose institutions are in the US for this paper?') # hard
+    q.append('What is the publication venue of this paper? (e.g. CHI, CSCW, etc.)') # medium
+    q.append('Does this paper involve the theory "A Model of Personal Informatics"?') # hard
     return q
 
 def civic_path():
