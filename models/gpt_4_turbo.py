@@ -17,7 +17,7 @@ def chatGPT_api(message_content,temperature=0):
             {"role": "user", "content": message_content}],
         temperature = temperature)
 
-    return response.choices[0].message.content
+    return response
     #return response["choices"][0]["message"]["content"]
 
 def gpt_4_turbo(prompt):
