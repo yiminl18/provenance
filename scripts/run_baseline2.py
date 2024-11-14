@@ -1,5 +1,5 @@
-from pipeline.baseline.llm_query import LLMQuery
-baseline = LLMQuery('gpt-4o-mini')
+from pipeline.baseline.bfs import BFS
+baseline = BFS('gpt-4o-mini', 0.4)
 Q = "What is the publication year of this paper?"
 A = "2018"
 P = [
@@ -12,6 +12,8 @@ P = [
 P = '\n'.join(P)
 result = baseline.run(Q, A, P)
 print(result)
-print(baseline.performance_history)
-print(baseline.get_total_time())
+print(baseline.run_performance_history)
+result = baseline.run(Q, A, P)
+print(result)
+print(baseline.run_performance_history)
 

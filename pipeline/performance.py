@@ -5,7 +5,7 @@ from typing import Dict
 
 @dataclass
 class AlgorithmPerformance:
-    """存储单次算法运行的性能指标"""
+    """store performance metrics of an algorithm"""
     timestamp: datetime
     execution_time: float
     input_token_num: int

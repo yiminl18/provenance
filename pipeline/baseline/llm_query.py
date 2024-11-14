@@ -1,45 +1,22 @@
-# algorithms/llm_query.py - LLM查询算法实现
+# pipeline/baseline/llm_query.py - LLM query algorithm implementation
 from pipeline.base_algorithm import BaseAlgorithm
-from pipeline.performance_reporter import PerformanceReporter
-from model import model
-from pipeline.utils.tokenizer import get_token_num
 from pipeline.utils.similarity import get_jaccard_similarity
 from pipeline.baseline.template import llm_query_example
 from typing import List
-import time
 from pipeline.model_price import ModelConfig
-from pipeline.performance import AlgorithmPerformance
-from datetime import datetime
 
 class LLMQuery(BaseAlgorithm):
-    """LLM查询算法实现"""
+    """LLM query algorithm implementation."""
     
     def __init__(self, model_name='gpt-4o-mini'):
         super().__init__()
         self.model_name = model_name
-        self.performance_reporter = PerformanceReporter()
         self.model_pricing = ModelConfig.get_model_pricing(model_name)
     
     def _run_algorithm(self, Q: str, A: str, P: str) -> List[str]:
-        start_time = time.time()
         prompt = self._build_prompt(Q, A, P)
-        response = model(self.model_name, prompt) # ChatCompletion
-        self.run_history.append(response)
-        input_token_num = response.usage.prompt_tokens
-        output_token_num = response.usage.completion_tokens
-        cost = ModelConfig.calculate_cost(response)
-        result = response.choices[0].message.content
+        result = self.LLM(prompt)
         result = self._process_result(result, P)
-        
-        execution_time = time.time() - start_time
-        performance = AlgorithmPerformance(
-            timestamp=datetime.now(),
-            execution_time=execution_time,
-            input_token_num=input_token_num,
-            output_token_num=output_token_num,
-            cost=cost
-        )
-        self.performance_history.append(performance)
         return result
     
     def _build_prompt(self, Q: str, A: str, P: str) -> str:

@@ -53,3 +53,17 @@ def tiktoken_tokenize(text:str, model_name="gpt-4o-mini"):
     tokens = tokenizer.encode(text)
     tokens = [tokenizer.decode([token]) for token in tokens]
     return tokens
+
+def remove_elements_by_indexes(input_list:list, input_index:list):
+    my_list = input_list.copy()
+    indexes_to_remove = input_index.copy()
+    if indexes_to_remove == []:
+        return my_list
+    # 将索引列表排序并反转
+    indexes_to_remove.sort(reverse=True)
+    
+    # 删除相应索引位置的元素
+    for index in indexes_to_remove:
+        del my_list[index]
+    
+    return my_list
