@@ -68,8 +68,6 @@ class BinarySearch(BaseAlgorithm):
         temp_sentences = remove_elements_by_intervals(sentences, intervals_to_be_removed)
         evidence_answer = self.RAG_generation(question, temp_sentences)
         jaccard_similarity = get_jaccard_similarity(raw_answer, evidence_answer)
-        print('evidence_answer:', evidence_answer)
-        print('jaccard_similarity:', jaccard_similarity)
         return {
             "influence": jaccard_similarity < self.threshold,
             "evidence": temp_sentences,

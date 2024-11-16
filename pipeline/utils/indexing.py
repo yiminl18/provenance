@@ -1,6 +1,7 @@
 import glob, logging
 from langchain_community.document_loaders import TextLoader, PyMuPDFLoader, PyPDFLoader, PyPDFium2Loader
 from langchain.schema import Document
+from pipeline.utils.tokenizer import nltk_sent_tokenize
 
 def path_raw2extracted(input_string):
     """
@@ -146,3 +147,18 @@ def store_splits(all_splits, collection_name="_LANGCHAIN_DEFAULT_COLLECTION_NAME
     # Create vectorstore
     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings(model="text-embedding-3-small"), ids=[str(i) for i in range(len(all_splits))], collection_metadata={"hnsw:space": "cosine"}, collection_name=collection_name)
     return vectorstore
+
+def get_index_by_similarity(texts: str, question: str) -> list:
+    sentences = nltk_sent_tokenize(texts)
+    # get the index list by relevance
+    all_splits = [Document(page_content=s, metadata={"source": "local"}) for s in sentences]
+    vector_store = store_splits(all_splits, "reverse_search")
+    ranked_documents = vector_store.similarity_search(question, k=99999)
+    vector_store.delete_collection()
+    ranked_sentences = [doc.page_content for doc in ranked_documents] # is from most relevanct to least relevant
+    # get the index of ranked_sentences in sentences
+    relevance_index = [] # is from most relevanct to least relevant
+    for sen in ranked_sentences:
+        relevance_index.append(sentences.index(sen))
+    reverse_index = relevance_index[::-1]
+    return reverse_index

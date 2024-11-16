@@ -1,5 +1,5 @@
 from pipeline.oracle.binary import BinarySearch
-baseline = BinarySearch('gpt-4o-mini')
+baseline = BinarySearch('gpt-4o')
 Q = "What is the publication year of this paper?"
 A = "2018"
 P = [
@@ -16,4 +16,3 @@ print(baseline.run_performance_history)
 result = baseline.run(Q, A, P)
 print(result)
 print(baseline.run_performance_history)
-
