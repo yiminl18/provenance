@@ -5,7 +5,8 @@ from pipeline.utils.similarity import get_jaccard_similarity
 from pipeline.utils.indexing import get_index_by_similarity
 
 class GreedySearch(BaseAlgorithm):
-    def __init__(self, model_name: str, threshold: float = 0.99, 
+    """ Greedy search algorithm implementation """
+    def __init__(self, model_name: str, threshold: float = 1, 
                  convergence = False, initialization = True, 
                  early_stopping = False, early_stopping_overhead = 5):
         super().__init__()
@@ -39,7 +40,8 @@ class GreedySearch(BaseAlgorithm):
                 
                 temp_jaccard_similarity = get_jaccard_similarity(A, temp_evidence_answer)
                 
-                if temp_jaccard_similarity > self.threshold:
+
+                if temp_jaccard_similarity == self.threshold: # if threshold is 1, then less then 1 will be considered as significant; if threshold is less than 1, then less than threshold is significant and larger than is also significant
                     index_to_delete = temp_index_to_delete
                     evidence_answer = temp_evidence_answer
 

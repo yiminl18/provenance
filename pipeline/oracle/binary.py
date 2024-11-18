@@ -1,6 +1,6 @@
 # pipeline/binary.py
 from pipeline.base_algorithm import BaseAlgorithm
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any
 from pipeline.utils.tokenizer import nltk_sent_tokenize, convert_intervals_to_set, remove_elements_by_intervals, interval_all_len_1, partition_intervals, remove_intervals
 from pipeline.utils.similarity import get_jaccard_similarity
 

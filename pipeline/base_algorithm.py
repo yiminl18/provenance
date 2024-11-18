@@ -117,21 +117,9 @@ class BaseAlgorithm(ABC):
 
         return self.LLM(prompt)
 
-    
-    # def _get_performence_history(self) -> None:
-    #     for history in self.llm_completion_history:
-    #         start_time = time.time()
-    #         input_token_num = history.usage.prompt_tokens
-    #         output_token_num = history.usage.completion_tokens
-    #         cost = ModelConfig.calculate_cost(history)
-    #         execution_time = time.time() - start_time
-    #         performance = AlgorithmPerformance(
-    #             timestamp=history.created,
-    #             execution_time=execution_time,
-    #             input_token_num=input_token_num,
-    #             output_token_num=output_token_num,
-    #             cost=cost
-    #         )
-    #         self.llm_performance_history.append(performance)
+    def update_history(self, llm_performance_history: List[AlgorithmPerformance], llm_completion_history: List[ChatCompletion]) -> None:
+        self.llm_performance_history += llm_performance_history
+        self.llm_completion_history += llm_completion_history
+        return None
         
     

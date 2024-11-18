@@ -14,39 +14,39 @@ class LLMQuery(BaseAlgorithm):
         self.model_pricing = ModelConfig.get_model_pricing(model_name)
     
     def _run_algorithm(self, Q: str, A: str, P: str) -> List[str]:
-        prompt = self._build_prompt(Q, A, P)
+        prompt = build_prompt(Q, A, P)
         result = self.LLM(prompt)
-        result = self._process_result(result, P)
+        result = process_result(result, P)
         return result
     
-    def _build_prompt(self, Q: str, A: str, P: str) -> str:
-        return f"""
-        Given a question, and the answer to the question, and a list of relevant context sentences,
-        Return a set of sentences from the relevant context that can provide evidence for the given answer to the given question.
-        These evidence sentences must be CHOSEN from the given context list, meaning that they must be EXACTLY the same as the sentence elements in the context list.
-        Each returned evidence sentence must not be edited, say no omission, no addition, no modification.
-        The number of evidences should be as few as possible, being the most concise and informative.
-        Concatenate multiple evidences to a string in sequence. If no evidence can be found, return None.
-        For example, if the question is {llm_query_example.example_Q()},
-        the answer is {llm_query_example.example_A()}, 
-        and the context is: {self._preprocess_context(llm_query_example.example_P())}.
-        So the expected output should be: {llm_query_example.example_output()}
-        which can not start from the middle of a context element, can not end in the middle of a context element.
-        Now consider the following question, answer and context:
-        ###{Q}##
-        ###{A}###
-        ###{self._preprocess_context(P)}###
-        Your output here:
-        """
-    
-    @staticmethod
-    def _preprocess_context(P: str) -> str: # explicitly convert to string
-        from pipeline.utils.tokenizer import nltk_sent_tokenize
-        P_sent_list = nltk_sent_tokenize(P)
-        return repr(P_sent_list)
-    
-    @staticmethod
-    def _process_result(result: str, reference: str, similarity_threshold: float = 0.7) -> List[str]:
+def build_prompt(Q: str, A: str, P: str) -> str:
+    return f"""
+    Given a question, and the answer to the question, and a list of relevant context sentences,
+    Return a set of sentences from the relevant context that can provide evidence for the given answer to the given question.
+    These evidence sentences must be CHOSEN from the given context list, meaning that they must be EXACTLY the same as the sentence elements in the context list.
+    Each returned evidence sentence must not be edited, say no omission, no addition, no modification.
+    The number of evidences should be as few as possible, being the most concise and informative.
+    Concatenate multiple evidences to a string in sequence. If no evidence can be found, return None.
+    For example, if the question is {llm_query_example.example_Q()},
+    the answer is {llm_query_example.example_A()}, 
+    and the context is: {_preprocess_context(llm_query_example.example_P())}.
+    So the expected output should be: {llm_query_example.example_output()}
+    which can not start from the middle of a context element, can not end in the middle of a context element.
+    Now consider the following question, answer and context:
+    ###{Q}##
+    ###{A}###
+    ###{_preprocess_context(P)}###
+    Your output here:
+    """
+
+@staticmethod
+def _preprocess_context(P: str) -> str: # explicitly convert to string
+    from pipeline.utils.tokenizer import nltk_sent_tokenize
+    P_sent_list = nltk_sent_tokenize(P)
+    return repr(P_sent_list)
+
+@staticmethod
+def process_result(result: str, reference: str, similarity_threshold: float = 0.7) -> List[str]:
         from pipeline.utils.tokenizer import nltk_sent_tokenize
         
         None_list = ['None', 'none', 'NONE', 'None.', '##None##', 'None##', '##None', 
