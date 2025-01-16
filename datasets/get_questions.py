@@ -1,17 +1,19 @@
-import base64, gzip, json, os, re, sys
-from collections import Counter
+import gzip, json, os
 from json.decoder import JSONDecodeError
 from pathlib import Path
 
 
-def load_hp_data(data_dir: str, dataset = "fullwiki"):
+def load_hp_data(dataset = "fullwiki"):
+
+    DATA_DIR = os.path.join(os.path.expanduser("~"), "data", "hotpotQA")
+    
     """
     Load HotpotQA dataset
     
     Args:
         data_dir: Base directory containing the dataset
     """
-    return json.load(open(f"{data_dir}/hotpot_dev_{dataset}_v1.json", 'r'))
+    return json.load(open(f"{DATA_DIR}/hotpot_dev_{dataset}_v1.json", 'r'))
 
 
 def load_ca_data(dataset):
@@ -58,7 +60,7 @@ def load_nq_data(dataset = "dev"):
     pattern = f"combined-nq-{dataset}-??.jsonl.gz"
     files = sorted(Path(DATA_DIR).glob(pattern))
 
-    def get_question(data_dir,  start_file = 0, end_file = None):
+    def get_question(data_dir,  files, start_file = 0, end_file = None):
 
         # Extract file number using string operations
         def get_file_num(filepath):
@@ -76,7 +78,7 @@ def load_nq_data(dataset = "dev"):
                 for line in f:
                     yield json.loads(line.strip())
 
-    return get_question(DATA_DIR)
+    return get_question(DATA_DIR, files)
 
 
 
@@ -120,17 +122,23 @@ def standardize_keys(example, dataset_type):
         }
     elif dataset_type == 'hotpot':
         return {
-            'title': example['title'],
-            'context': example['context'],
+            'x_id': example['_id'],
             'question': example['question'],
-            'answers': example['answer']
+            'answer': example['answer'],
+            'context': example['context'],
+            'supporting_facts': example['supporting_facts']
+            
+            
         }
     elif dataset_type == 'naturalquestions':
         return {
-            'title': example['title'],
-            'context': example['context'],
-            'question': example['question'],
-            'answers': example['answer']
+            'x_id': example['example_id'],
+            'question': example['question_text'],
+            'annotations': example['annotations'],
+            'gold_has_long_answer': example['gold_has_long_answer'],
+            'gold_has_short_answer': example['gold_has_short_answer'],
+            'answer': example['processed_answers'],
+            'yes_no_answer': example['yes_no_answer']
         }
     else:
         raise ValueError(f"Unsupported dataset type: {dataset_type}")
