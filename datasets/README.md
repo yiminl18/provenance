@@ -11,19 +11,16 @@ A list of dictionaries, with each entry:
 
 ```yaml
 {
-{'x_id': 'val_1',
- 'question': 'How much of the crew would Gerry want to shore up in a gale of wind?',
- 'answer': 'half',
- 'context': "But my lads, it was right to put in federal officers last year, and the crew knew it; they saw what was brewing well enough, and by the soul of me, if the federal men hadn't done what they did, Old Davy Jones would have had his clutches into our quarters long ago. And now who d'ye think they want to put in instead of our present Commander C. GORE, and the Chief Mate COBB, an old weather-beaten Tar, and as stout a heart as ever broke bread—why I'll tell ye, d'ye see, one Gerry, who is too old and stiff to keep his legs in a calm, and in a gale of wind would want half of the crew to shore him up—aye, and one Billy Gray, as he's called, who to be sure, has been a clerk aboard some time, but never since his mother trotted him had any command, and by the powers never ought to have, for you all know, in squally weather, he'd skulk under the long boat, or turn in, and for the life of him daren't go aloft in a heavy sea to help reef a sail. Pretty business this! turn out old experienced officers to make way for them that can't rig a cat-tackle to get an anchor on the bow. No, it won't do. Faith my lads, we must keep a sharp look-out, and put a stopper on these fellows directly."}
+  'x_id': 'val_1',
+  'question': 'How much of the crew would Gerry want to shore up in a gale of wind?',
+  'answer': 'half',
+  'context': "But my lads, it was right to put in federal officers last year, and the crew knew it; they saw what was brewing well enough, and by the soul of me, if the federal men hadn't done what they did, Old Davy Jones would have had his clutches into our quarters long ago. And now who d'ye think they want to put in instead of our present Commander C. GORE, and the Chief Mate COBB, an old weather-beaten Tar, and as stout a heart as ever broke bread—why I'll tell ye, d'ye see, one Gerry, who is too old and stiff to keep his legs in a calm, and in a gale of wind would want half of the crew to shore him up—aye, and one Billy Gray, as he's called, who to be sure, has been a clerk aboard some time, but never since his mother trotted him had any command, and by the powers never ought to have, for you all know, in squally weather, he'd skulk under the long boat, or turn in, and for the life of him daren't go aloft in a heavy sea to help reef a sail. Pretty business this! turn out old experienced officers to make way for them that can't rig a cat-tackle to get an anchor on the bow. No, it won't do. Faith my lads, we must keep a sharp look-out, and put a stopper on these fellows directly."
+
 }
 
 ```
 
-[data](https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA)
-
-[paper](https://doi.org/10.1145/3626772.3657891)
-
-[repo](https://github.com/DataScienceUIBK/ChroniclingAmericaQA)
+[data](https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA) | [paper](https://doi.org/10.1145/3626772.3657891) | [repo](https://github.com/DataScienceUIBK/ChroniclingAmericaQA)
 
 ## hotpotQA
 
@@ -89,20 +86,17 @@ A list of dicts, with each entry:
 
 ```
 
-[data](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
-
-[paper](https://doi.org/10.48550/arXiv.1809.09600)
-
-[repo](https://github.com/hotpotqa/hotpot)
+[data](https://huggingface.co/datasets/hotpotqa/hotpot_qa) | [paper](https://doi.org/10.48550/arXiv.1809.09600) | [repo](https://github.com/hotpotqa/hotpot)
 
 ## natural-questions
 
 A list of dicts, with each entry:
 
 ```yaml
-{'x_id': 5225754983651766092,
- 'question': 'what purpose did seasonal monsoon winds have on trade',
- 'annotations': [{'annotation_id': 4323936797498927989,
+{
+  'x_id': 5225754983651766092,
+  'question': 'what purpose did seasonal monsoon winds have on trade',
+  'annotations': [{'annotation_id': 4323936797498927989,
    'long_answer': {'candidate_index': -1, 'end_token': -1, 'start_token': -1},
    'short_answers': [],
    'yes_no_answer': 'NONE'},
@@ -122,20 +116,15 @@ A list of dicts, with each entry:
    'long_answer': {'candidate_index': 0, 'end_token': 161, 'start_token': 44},
    'short_answers': [],
    'yes_no_answer': 'NONE'}],
- 'gold_has_long_answer': True,
- 'gold_has_short_answer': False,
- 'answer': {'long_answers': ["<P> The trade winds are the prevailing pattern of easterly surface winds found in the tropics , within the lower portion of the Earth 's atmosphere , in the lower section of the troposphere near the Earth 's equator . The trade winds blow predominantly from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere , strengthening during the winter and when the Arctic oscillation is in its warm phase . Trade winds have been used by captains of sailing ships to cross the world 's oceans for centuries , and enabled European empire expansion into the Americas and trade routes to become established across the Atlantic and Pacific oceans . </P>"],
-  'short_answers': ['enabled European empire expansion into the Americas and trade routes to become established across the Atlantic and Pacific oceans']
- },
- 'yes_no_answer': 'NONE'
+   'gold_has_long_answer': True,
+   'gold_has_short_answer': False,
+   'answer': {'long_answers': ["<P> The trade winds are the prevailing pattern of easterly surface winds found in the tropics , within the lower portion of the Earth 's atmosphere , in the lower section of the troposphere near the Earth 's equator . The trade winds blow predominantly from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere , strengthening during the winter and when the Arctic oscillation is in its warm phase . Trade winds have been used by captains of sailing ships to cross the world 's oceans for centuries , and enabled European empire expansion into the Americas and trade routes to become established across the Atlantic and Pacific oceans . </P>"],
+  'short_answers': ['enabled European empire expansion into the Americas and trade routes to become established across the Atlantic and Pacific oceans']},
+  'yes_no_answer': 'NONE'
     }
 ```
 
-[data](https://ai.google.com/research/NaturalQuestions/download)
-
-[paper](https://storage.googleapis.com/gweb-research2023-media/pubtools/4852.pdf)
-
-[repo](https://github.com/google-research-datasets/natural-questions/tree/master)
+[data](https://ai.google.com/research/NaturalQuestions/download) | [paper](https://storage.googleapis.com/gweb-research2023-media/pubtools/4852.pdf) | [repo](https://github.com/google-research-datasets/natural-questions/tree/master)
 
 
 ## Usage
@@ -143,3 +132,5 @@ A list of dicts, with each entry:
 Assumes the install directions in the root folder's [README](./README.md) have been followed
 
 Examples of reading questions in from each dataset are in the `scripts` folder, examples of how the datasets were processed is in `datasets/get_questions.py`. 
+
+The `dev` versions of the datasets are all on github; the `train` versions are too large-- they will be uploaded to Azure/Google Drive and linked here when up. 
